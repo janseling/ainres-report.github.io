@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 情报 · 期报</title>
+<meta name="description" content="AI 行业情报日报 — 单期归档">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='%230c0d10'/><circle cx='50' cy='50' r='10' fill='%23e8a33d'/><circle cx='50' cy='50' r='26' fill='none' stroke='%23e8a33d' stroke-width='3' opacity='.6'/><circle cx='50' cy='50' r='40' fill='none' stroke='%23e8a33d' stroke-width='2' opacity='.25'/></svg>">
+<style>
+:root{
+  --bg:#0c0d10; --panel:#15171e; --panel2:#191c24;
+  --line:#262a33; --line2:#31353f;
+  --ink:#d8d5c9; --ink2:#a5a294; --dim:#77746a;
+  --amber:#e8a33d; --amber2:#f5c069; --green:#8cc07a; --red:#d0684f;
+  --steel:#8fb3d9; --lav:#b8a8d4;
+  --mono:ui-monospace,"SF Mono","JetBrains Mono","Cascadia Code",Menlo,Consolas,monospace;
+  --sans:-apple-system,"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:
+    repeating-linear-gradient(0deg,transparent 0 2px,rgba(255,255,255,.008) 2px 4px),
+    radial-gradient(ellipse 120% 80% at 50% -10%,#13161e 0%,var(--bg) 58%);
+  color:var(--ink);font-family:var(--sans);min-height:100vh;font-size:15px;line-height:1.7;
+}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+a{color:var(--amber2);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+
+/* ==== top bar ==== */
+.topbar{position:sticky;top:0;z-index:20;background:rgba(12,13,16,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.topbar .in{max-width:760px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;gap:12px}
+.tb-brand{font-family:var(--mono);font-size:12px;letter-spacing:.16em;color:var(--dim);white-space:nowrap}
+.tb-brand b{color:var(--amber);font-weight:600}
+.tb-nav{margin-left:auto;display:flex;gap:14px;font-family:var(--mono);font-size:12px}
+.tb-nav a{color:var(--ink2)}
+.tb-nav a:hover{color:var(--amber)}
+.tb-nav a:disabled{color:#3d4048;pointer-events:none}
+
+/* ==== masthead ==== */
+.masthead{padding:44px 0 20px;position:relative}
+.crumb{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--dim);text-transform:uppercase;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.crumb .no{color:var(--amber)}
+.title{font-size:28px;font-weight:800;letter-spacing:.03em;margin:12px 0 4px;line-height:1.35}
+.stamp{position:absolute;right:0;top:48px;font-family:var(--mono);font-size:11px;letter-spacing:.3em;color:var(--green);border:1.5px solid var(--green);border-radius:4px;padding:4px 10px;transform:rotate(6deg);opacity:.75;user-select:none}
+.cov{margin-top:14px;padding:10px 16px;border-left:3px solid var(--amber);background:linear-gradient(90deg,rgba(232,163,61,.06),transparent 70%);color:var(--ink2);font-size:13.5px;border-radius:0 6px 6px 0}
+.cov .note{display:block;margin-top:6px;color:var(--dim);font-size:12.5px}
+.mchips{margin-top:14px;display:flex;gap:7px;flex-wrap:wrap}
+.mchip{font-family:var(--mono);font-size:11px;color:var(--ink2);border:1px solid var(--line2);background:var(--panel);padding:3px 9px;border-radius:4px;letter-spacing:.04em}
+.mchip b{color:var(--amber);font-weight:600}
+.mchip.ok b{color:var(--green)}
+
+/* ==== section nav ==== */
+.navchips{margin:22px 0 4px;display:flex;gap:7px;flex-wrap:wrap}
+.nchip{font-family:var(--mono);font-size:11.5px;color:var(--ink2);border:1px solid var(--line2);padding:4px 11px;border-radius:20px;text-decoration:none;transition:.2s}
+.nchip:hover{border-color:var(--amber);color:var(--amber);text-decoration:none}
+
+/* ==== sections & items ==== */
+section{margin-top:34px}
+.sec-h{display:flex;align-items:baseline;gap:12px;padding-bottom:8px;border-bottom:1px solid var(--line2);margin-bottom:4px}
+.sec-h .no{font-family:var(--mono);font-size:12px;color:var(--amber);letter-spacing:.1em}
+.sec-h h2{font-size:19px;font-weight:700;letter-spacing:.04em}
+.sec-h .n{font-family:var(--mono);font-size:11px;color:var(--dim);margin-left:auto}
+.item{padding:18px 2px 16px;border-bottom:1px dashed var(--line);animation:up .45s cubic-bezier(.2,.7,.3,1) both;animation-delay:calc(var(--i,0)*.04s)}
+.item:last-child{border-bottom:none}
+.i-head{display:flex;gap:12px;align-items:baseline}
+.i-no{font-family:var(--mono);font-size:12px;color:var(--dim);flex:none;letter-spacing:.06em}
+.i-title{font-size:16.5px;font-weight:700;line-height:1.5}
+.i-title a{color:var(--ink)}
+.i-title a:hover{color:var(--amber2);text-decoration:none}
+.i-title .ext{font-size:12px;color:var(--dim);margin-left:5px;font-family:var(--mono)}
+.i-meta{font-family:var(--mono);font-size:11px;color:var(--dim);margin-top:5px;letter-spacing:.03em;display:flex;gap:10px;flex-wrap:wrap}
+.i-meta .src{color:var(--steel)}
+.i-summary{margin-top:8px;color:var(--ink2);font-size:14px;line-height:1.72}
+.i-summary a{border-bottom:1px dotted var(--steel);color:var(--steel)}
+.i-urls{margin-top:6px;display:flex;gap:12px;flex-wrap:wrap}
+.i-urls a{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:.02em}
+.i-urls a:hover{color:var(--amber)}
+.angles{margin-top:10px;display:flex;flex-direction:column;gap:6px}
+.angle{display:flex;gap:10px;padding:8px 12px;border-radius:0 6px 6px 0;border-left:2px solid var(--c,var(--line2));background:linear-gradient(90deg,color-mix(in srgb,var(--c) 7%,transparent),transparent 75%);font-size:13.5px;line-height:1.65}
+.angle .tag{flex:none;font-family:var(--mono);font-size:11px;padding-top:2px;color:var(--c);letter-spacing:.04em;white-space:nowrap}
+.angle .txt{color:var(--ink2)}
+.angle.invest{--c:var(--amber)}
+.angle.startup{--c:var(--steel)}
+.angle.tech{--c:var(--green)}
+.angle.opinion{--c:var(--lav)}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.item{animation:none}}
+@supports not (color: color-mix(in srgb,red,blue)){.angle{background:var(--panel)}}
+
+/* ==== signals ==== */
+.signals{margin-top:14px}
+.sig{display:flex;gap:14px;padding:13px 2px;border-bottom:1px dashed var(--line)}
+.sig:last-child{border-bottom:none}
+.sig .sno{font-family:var(--mono);font-size:18px;color:var(--amber);flex:none;width:34px;font-weight:700;opacity:.9}
+.sig .body b{color:var(--ink);font-weight:700;display:block;margin-bottom:2px}
+.sig .body{color:var(--ink2);font-size:14px}
+
+/* ==== sources ==== */
+details.srcbox{margin:18px 0 8px;border:1px solid var(--line);border-radius:8px;background:linear-gradient(180deg,var(--panel2),var(--panel))}
+details.srcbox summary{cursor:pointer;padding:12px 16px;font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--dim);list-style:none;display:flex;align-items:center;gap:10px}
+details.srcbox summary::-webkit-details-marker{display:none}
+details.srcbox summary::before{content:"▸";transition:.2s;color:var(--amber)}
+details.srcbox[open] summary::before{transform:rotate(90deg)}
+details.srcbox .srcs{padding:2px 16px 14px}
+details.srcbox .srcs div{font-family:var(--mono);font-size:12px;color:var(--ink2);padding:6px 0;border-bottom:1px dashed var(--line);line-height:1.6}
+details.srcbox .srcs div:last-child{border-bottom:none}
+details.srcbox .srcs div::before{content:"· ";color:var(--amber)}
+
+.rawline{margin-top:14px;font-family:var(--mono);font-size:11px;color:#5a584f;letter-spacing:.04em}
+
+/* ==== pager ==== */
+.pager{margin:36px 0 10px;display:flex;gap:10px;justify-content:space-between;align-items:center}
+.pager a{display:block;padding:10px 16px;border:1px solid var(--line2);border-radius:6px;font-family:var(--mono);font-size:12px;color:var(--ink2);transition:.2s}
+.pager a:hover{border-color:var(--amber);color:var(--amber);text-decoration:none}
+.pager a:disabled{color:#3d4048;border-color:var(--line);pointer-events:none}
+.pager .mid{font-family:var(--mono);font-size:11px;color:var(--dim)}
+
+.msg{padding:70px 0;text-align:center;color:var(--dim)}
+.msg h2{font-size:18px;color:var(--ink2);margin-bottom:10px}
+.foot{padding:20px 0 44px;border-top:1px solid var(--line);margin-top:40px;color:var(--dim);font-size:12px;font-family:var(--mono);display:flex;gap:14px;flex-wrap:wrap;justify-content:space-between}
+.foot a{color:var(--dim)}
+</style>
+</head>
+<body>
+
+<div class="topbar"><div class="in">
+  <a class="tb-brand" href="./" style="text-decoration:none">AI<b>情报</b>DB</a>
+  <nav class="tb-nav">
+    <a href="./">← 归档</a>
+    <a href="javascript:void 0" id="tbPrev">‹ 上一期</a>
+    <a href="javascript:void 0" id="tbNext">下一期 ›</a>
+  </nav>
+</div></div>
+
+<div class="wrap" id="wrap">
+  <div class="msg"><span id="loadmsg">正在加载期报…</span></div>
+</div>
+
+<footer class="wrap foot">
+  <span>ai-intel-daily · agent-collected briefing</span>
+  <a href="https://github.com/janseling/ainres-report.github.io" target="_blank" rel="noopener">source</a>
+</footer>
+
+<script>
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const mdLinks = s => esc(s).replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_m,t,u)=>`<a href="${u}" target="_blank" rel="noopener">${t}</a>`);
+const SEC_META = {
+  product:{icon:'📦', zh:'产品发布 / 融资'}, tech:{icon:'🔬', zh:'技术突破 / 模型进展'},
+  policy:{icon:'🏛️', zh:'政策监管'}, industry:{icon:'🌐', zh:'行业动向 / 应用玩法'},
+};
+const params = new URLSearchParams(location.search);
+const wantId = params.get('id') || (location.hash ? location.hash.slice(1) : '');
+
+async function init(){
+  let manifest;
+  try{
+    const r = await fetch('reports/index.json?v=' + Date.now());
+    if(!r.ok) throw new Error('manifest ' + r.status);
+    manifest = await r.json();
+  }catch(e){
+    document.getElementById('loadmsg').innerHTML = '⚠️ 索引加载失败（' + esc(e.message) + '）<br><br><a href="./">返回归档</a>';
+    return;
+  }
+  const rs = manifest.reports || [];
+  if(!rs.length){ document.getElementById('loadmsg').textContent = '归档为空'; return; }
+  let idx = rs.findIndex(x => x.id === wantId);
+  if(idx < 0) idx = 0;
+  const meta = rs[idx];
+  let rep;
+  try{
+    const r = await fetch('reports/' + meta.id + '.json?v=' + Date.now());
+    if(!r.ok) throw new Error(r.status);
+    rep = await r.json();
+  }catch(e){
+    document.getElementById('loadmsg').innerHTML = '⚠️ 报告数据加载失败（' + esc(e.message) + '）<br><br><a href="./">返回归档</a>';
+    return;
+  }
+  render(rep, rs, idx);
+}
+
+function render(rep, rs, idx){
+  document.title = rep.title + ' · AI 情报';
+  const no = String(rs.length - idx).padStart(2,'0');
+  const newer = rs[idx-1], older = rs[idx+1];
+  const setPager = (id, el) => { const a = document.getElementById(el); if(id){ a.href = 'report.html?id=' + id; } else { a.disabled = true; a.removeAttribute('href'); } };
+  setPager(newer && newer.id, 'tbNext'); setPager(older && older.id, 'tbPrev');
+
+  const notesHtml = (rep.notes||[]).map(n=>`<span class="note">※ ${esc(n)}</span>`).join('');
+  const chips = [];
+  chips.push(`<span class="mchip">本期 <b>${rep.itemCount}</b> 条</span>`);
+  if(rep.rawStats && rep.rawStats.candidates) chips.push(`<span class="mchip">候选 <b>${rep.rawStats.candidates.toLocaleString()}</b></span>`);
+  if((rep.signals||[]).length) chips.push(`<span class="mchip">跟踪信号 <b>${rep.signals.length}</b></span>`);
+
+  const secsHtml = (rep.sections||[]).map((sec, si)=>{
+    const sm = SEC_META[sec.key] || {icon:sec.icon||'📋', zh:sec.title||sec.key};
+    const items = sec.items.map((it, ii)=>{
+      const main = it.urls && it.urls[0];
+      const extraUrls = (it.urls||[]).slice(1).map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">另链 ↗</a>`).join('');
+      const angles = (it.angles||[]).map(a=>`<div class="angle ${a.kind}"><span class="tag">${a.icon} ${esc(a.label)}</span><span class="txt">${mdLinks(a.text)}</span></div>`).join('');
+      return `<article class="item" style="--i:${ii}">
+        <div class="i-head"><span class="i-no">${String(ii+1).padStart(2,'0')}</span>
+          <h3 class="i-title">${main?`<a href="${esc(main)}" target="_blank" rel="noopener">${esc(it.title)}</a><span class="ext">↗</span>`:esc(it.title)}</h3></div>
+        ${it.meta?`<div class="i-meta"><span class="src">${esc(it.meta)}</span></div>`:''}
+        ${it.summary?`<p class="i-summary">${mdLinks(it.summary)}</p>`:''}
+        ${(it.urls||[]).length>1?`<div class="i-urls"><span class="tag"></span>${extraUrls}</div>`:''}
+        ${angles?`<div class="angles">${angles}</div>`:''}
+      </article>`;
+    }).join('');
+    return `<section id="sec-${esc(sec.key)}">
+      <div class="sec-h"><span class="no">0${si+1}</span><h2>${sm.icon} ${esc(sm.zh)}</h2><span class="n">${sec.items.length} 条</span></div>
+      ${items}
+    </section>`;
+  }).join('');
+
+  const navChips = (rep.sections||[]).map(s=>{
+    const sm = SEC_META[s.key]||{icon:s.icon||'📋',zh:s.title};
+    return `<a class="nchip" href="#sec-${esc(s.key)}">${sm.icon} ${esc((sm.zh||'').split(' / ')[0])} ${s.items.length}</a>`;
+  }).join('');
+
+  const sigHtml = (rep.signals||[]).map((s,i)=>`<div class="sig"><span class="sno">${String(i+1).padStart(2,'0')}</span><div class="body"><b>${esc(s.lead)}</b>${mdLinks(s.text)}</div></div>`).join('');
+  const srcHtml = (rep.sourceStatus||[]).map(s=>`<div>${esc(s)}</div>`).join('');
+
+  document.getElementById('wrap').innerHTML = `
+  <header class="masthead">
+    <div class="crumb"><span>AI INTEL DAILY</span><span>·</span><span class="no">NO.${no}</span><span>·</span><span>${esc(rep.date)} ${esc(rep.time)} CST</span></div>
+    <h1 class="title">${esc(rep.title.replace(/^AI 情报 · /,'').replace(' 场',' 场'))}</h1>
+    <span class="stamp">已归档 ✓</span>
+    <blockquote class="cov">${esc(rep.coverage)}${notesHtml}</blockquote>
+    <div class="mchips">${chips.join('')}</div>
+    <div class="navchips">${navChips}</div>
+  </header>
+  ${secsHtml || '<div class="msg">本期无条目</div>'}
+  ${(rep.signals||[]).length?`<section id="sec-signals"><div class="sec-h"><span class="no">🧭</span><h2>值得跟踪的信号</h2><span class="n">${rep.signals.length} 条</span></div><div class="signals">${sigHtml}</div></section>`:''}
+  ${srcHtml?`<details class="srcbox"><summary>🩺 信源状态 · ${rep.sourceStatus.length} 条</summary><div class="srcs">${srcHtml}</div></details>`:''}
+  ${rep.rawStats && rep.rawStats.candidates?`<div class="rawline">▸ raw archive: reports/raw/${esc(rep.id)}.json（候选 ${rep.rawStats.candidates.toLocaleString()}${rep.rawStats.selected?'／入选 '+rep.rawStats.selected:''}）</div>`:''}
+  <nav class="pager">
+    ${older?`<a href="report.html?id=${esc(older.id)}">‹ ${esc(older.date.slice(5))} ${esc(older.time)}</a>`:'<a disabled>‹ 已是早期</a>'}
+    <a href="./" style="border:none">☰ 归档</a>
+    ${newer?`<a href="report.html?id=${esc(newer.id)}">${esc(newer.date.slice(5))} ${esc(newer.time)} ›</a>`:'<a disabled>已是最新 ›</a>'}
+  </nav>`;
+}
+init();
+</script>
+</body>
+</html>
