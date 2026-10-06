@@ -209,9 +209,7 @@ function render(rep, rs, idx){
     </section>`;
   }).join('');
 
-  const navChips = `<a class="nchip" href="#sec-overview">🔭 速览${(rep.overview||[]).length ? ' ' + rep.overview.length : ''}</a>` +
-    ((rep.signals||[]).length ? `<a class="nchip" href="#sec-signals">🧭 信号 ${rep.signals.length}</a>` : '') +
-    (rep.sections||[]).map(s=>{
+  const navChips = (rep.sections||[]).map(s=>{
       const sm = SEC_META[s.key]||{icon:s.icon||'📋',zh:s.title};
       return `<a class="nchip" href="#sec-${esc(s.key)}">${sm.icon} ${esc((sm.zh||'').split(' / ')[0])} ${s.items.length}</a>`;
     }).join('');
