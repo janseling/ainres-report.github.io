@@ -69,6 +69,9 @@ a.slot-card:hover::before{background:var(--amber)}
 .sc-ov li{list-style:none;position:relative;padding-left:13px;color:var(--ink2);font-size:12.5px;line-height:1.58}
 .sc-ov li::before{content:"·";position:absolute;left:0;top:0;color:var(--amber);font-weight:700}
 .sc-ph{padding:16px 14px 18px;font-family:var(--mono);font-size:11px;color:#4a4d55;letter-spacing:.14em;text-align:center}
+.sc-tags{display:flex;flex-wrap:wrap;gap:6px;padding:0 14px 12px}
+.sc-tags span{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;color:var(--dim);border:1px solid var(--line);border-radius:4px;padding:3px 7px;display:inline-flex;align-items:center;white-space:nowrap}
+.sc-tags span::first-letter{font-size:11.5px}
 
 @keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.dayrow{animation:none}}
@@ -107,6 +110,7 @@ a.slot-card:hover::before{background:var(--amber)}
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const SLOTS = [540, 900, 1260];           // 09:00 / 15:00 / 21:00（分钟）
 const SLOT_LABEL = ['09:00 场', '15:00 场', '21:00 场'];
+const TAGS = { product:['📦','产品'], tech:['🔬','技术'], policy:['🏛️','政策'], industry:['🌐','行业'] };
 
 const toMin = t => { const [h,m] = String(t).split(':').map(Number); return (h||0)*60 + (m||0); };
 const slotDist = t => SLOTS.map(s => Math.abs(toMin(t) - s));
@@ -165,9 +169,12 @@ function render(m){
       if (x){
         const hour = parseInt(x.time.slice(0,2),10);
         const ov = (x.overview||[]).map(o=>`<li>${esc(o)}</li>`).join('');
+        const tagHtml = Object.entries(TAGS).filter(([k])=>x.sectionCounts&&x.sectionCounts[k])
+          .map(([k,[ic,zh]])=>`<span>${ic} ${zh} ${x.sectionCounts[k]}</span>`).join('');
         return `<a class="slot-card" href="report.html?id=${esc(x.id)}">
           <div class="sc-head"><span class="sc-time${hour>=19?' night':''}">${esc(x.time)} 场</span><span class="sc-count"><b>${x.itemCount||'-'}</b> 条</span></div>
           <ul class="sc-ov">${ov||'<li>（本期无速览）</li>'}</ul>
+          ${tagHtml?`<div class="sc-tags">${tagHtml}</div>`:''}
         </a>`;
       }
       return `<div class="slot-card empty">
