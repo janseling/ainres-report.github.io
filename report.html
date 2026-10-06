@@ -89,6 +89,12 @@ section{margin-top:34px}
 @media (prefers-reduced-motion:reduce){.item{animation:none}}
 @supports not (color: color-mix(in srgb,red,blue)){.angle{background:var(--panel)}}
 
+/* ==== overview (速览) ==== */
+.ovlist{margin-top:12px}
+.ov-item{position:relative;padding:7px 2px 7px 16px;color:var(--ink2);font-size:14px;line-height:1.66;border-bottom:1px dashed var(--line)}
+.ov-item:last-child{border-bottom:none}
+.ov-item::before{content:"·";position:absolute;left:2px;top:6px;color:var(--amber);font-weight:700;font-size:15px}
+
 /* ==== signals ==== */
 .signals{margin-top:14px}
 .sig{display:flex;gap:14px;padding:13px 2px;border-bottom:1px dashed var(--line)}
@@ -96,17 +102,6 @@ section{margin-top:34px}
 .sig .sno{font-family:var(--mono);font-size:18px;color:var(--amber);flex:none;width:34px;font-weight:700;opacity:.9}
 .sig .body b{color:var(--ink);font-weight:700;display:block;margin-bottom:2px}
 .sig .body{color:var(--ink2);font-size:14px}
-
-/* ==== sources ==== */
-details.srcbox{margin:18px 0 8px;border:1px solid var(--line);border-radius:8px;background:linear-gradient(180deg,var(--panel2),var(--panel))}
-details.srcbox summary{cursor:pointer;padding:12px 16px;font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--dim);list-style:none;display:flex;align-items:center;gap:10px}
-details.srcbox summary::-webkit-details-marker{display:none}
-details.srcbox summary::before{content:"▸";transition:.2s;color:var(--amber)}
-details.srcbox[open] summary::before{transform:rotate(90deg)}
-details.srcbox .srcs{padding:2px 16px 14px}
-details.srcbox .srcs div{font-family:var(--mono);font-size:12px;color:var(--ink2);padding:6px 0;border-bottom:1px dashed var(--line);line-height:1.6}
-details.srcbox .srcs div:last-child{border-bottom:none}
-details.srcbox .srcs div::before{content:"· ";color:var(--amber)}
 
 .rawline{margin-top:14px;font-family:var(--mono);font-size:11px;color:#5a584f;letter-spacing:.04em}
 
@@ -214,13 +209,15 @@ function render(rep, rs, idx){
     </section>`;
   }).join('');
 
-  const navChips = (rep.sections||[]).map(s=>{
-    const sm = SEC_META[s.key]||{icon:s.icon||'📋',zh:s.title};
-    return `<a class="nchip" href="#sec-${esc(s.key)}">${sm.icon} ${esc((sm.zh||'').split(' / ')[0])} ${s.items.length}</a>`;
-  }).join('');
+  const navChips = `<a class="nchip" href="#sec-overview">🔭 速览${(rep.overview||[]).length ? ' ' + rep.overview.length : ''}</a>` +
+    ((rep.signals||[]).length ? `<a class="nchip" href="#sec-signals">🧭 信号 ${rep.signals.length}</a>` : '') +
+    (rep.sections||[]).map(s=>{
+      const sm = SEC_META[s.key]||{icon:s.icon||'📋',zh:s.title};
+      return `<a class="nchip" href="#sec-${esc(s.key)}">${sm.icon} ${esc((sm.zh||'').split(' / ')[0])} ${s.items.length}</a>`;
+    }).join('');
 
   const sigHtml = (rep.signals||[]).map((s,i)=>`<div class="sig"><span class="sno">${String(i+1).padStart(2,'0')}</span><div class="body"><b>${esc(s.lead)}</b>${mdLinks(s.text)}</div></div>`).join('');
-  const srcHtml = (rep.sourceStatus||[]).map(s=>`<div>${esc(s)}</div>`).join('');
+  const ovHtml = (rep.overview||[]).map(o=>`<div class="ov-item">${mdLinks(o)}</div>`).join('');
 
   document.getElementById('wrap').innerHTML = `
   <header class="masthead">
@@ -231,9 +228,9 @@ function render(rep, rs, idx){
     <div class="mchips">${chips.join('')}</div>
     <div class="navchips">${navChips}</div>
   </header>
-  ${secsHtml || '<div class="msg">本期无条目</div>'}
+  ${(rep.overview||[]).length?`<section id="sec-overview"><div class="sec-h"><span class="no">🔭</span><h2>速览</h2><span class="n">${rep.overview.length} 条</span></div><div class="ovlist">${ovHtml}</div></section>`:''}
   ${(rep.signals||[]).length?`<section id="sec-signals"><div class="sec-h"><span class="no">🧭</span><h2>值得跟踪的信号</h2><span class="n">${rep.signals.length} 条</span></div><div class="signals">${sigHtml}</div></section>`:''}
-  ${srcHtml?`<details class="srcbox"><summary>🩺 信源状态 · ${rep.sourceStatus.length} 条</summary><div class="srcs">${srcHtml}</div></details>`:''}
+  ${secsHtml || '<div class="msg">本期无条目</div>'}
   ${rep.rawStats && rep.rawStats.candidates?`<div class="rawline">▸ raw archive: reports/raw/${esc(rep.id)}.json（候选 ${rep.rawStats.candidates.toLocaleString()}${rep.rawStats.selected?'／入选 '+rep.rawStats.selected:''}）</div>`:''}
   <nav class="pager">
     ${older?`<a href="report.html?id=${esc(older.id)}">‹ ${esc(older.date.slice(5))} ${esc(older.time)}</a>`:'<a disabled>‹ 已是早期</a>'}
