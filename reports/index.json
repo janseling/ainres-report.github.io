@@ -1,5 +1,5 @@
 {
-  "count": 17,
+  "count": 18,
   "reports": [
     {
       "id": "2026-10-07-2100",
@@ -228,6 +228,31 @@
       "rawStats": {
         "candidates": 106,
         "selected": 15
+      }
+    },
+    {
+      "id": "2026-10-02-2100",
+      "date": "2026-10-02",
+      "time": "21:00",
+      "title": "AI 情报 · 10-02 21:00 场",
+      "itemCount": 7,
+      "coverage": "10-02 15:00 → 21:00（Asia/Shanghai）　※ 补刊（生成于 2026-10-08 前，非当时原发）",
+      "note": "国庆假期夜场，国内源增量少，Reddit 社区噪音占比高，从严精选",
+      "overview": [
+        "NVIDIA DGX Spark 64GB 版官宣：$4,999 起、10-23 开售，双机可拼 128GB 统一内存池",
+        "丘成桐新论文致谢 GPT-6 Astra 与 Claude Pro：44 年前「AI 对尖端数学无用」言犹在耳，怪球猜想已解",
+        "Anthropic「第一夫人」Cami 在 2 万亿美元 IPO 路演倒计时中出局，治理风暴临门",
+        "NYT 深挖：Anthropic 秘密游说梵蒂冈，「Claude 有意识」成公开辩论题",
+        "openJiuwen 开源 X-Router 自演进模型路由：实测省 50%+ Token"
+      ],
+      "sectionCounts": {
+        "product": 1,
+        "tech": 3,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 70,
+        "selected": 7
       }
     },
     {
