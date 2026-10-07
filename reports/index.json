@@ -1,6 +1,31 @@
 {
-  "count": 13,
+  "count": 14,
   "reports": [
+    {
+      "id": "2026-10-07-0900",
+      "date": "2026-10-07",
+      "time": "09:00",
+      "title": "AI 情报 · 10-07 09:00 场",
+      "itemCount": 13,
+      "coverage": "10-06 21:00 → 10-07 09:05（Asia/Shanghai）",
+      "note": "昨日三场均已报条目已去重（Mistral Large 4、月之暗面 PreIPO、微软/Meta 减用 Claude、textGrain、Wikimedia 事件、Utopai X 均不再重收）",
+      "overview": [
+        "OpenAI 官方公开 722 篇数学手稿（出自未发布前沿模型），时点疑似 28 天军令状 Day-2 兑付",
+        "AI 算力商 Lambda IPO 前募最高 40 亿美元，Coatue/Blackstone 领投，投前估值 145 亿",
+        "Anthropic 面向初创推免费一年 Claude Team + $1000 credits，需求端获客姿态罕见激进",
+        "DeepMind 开放多模态嵌入模型 EmbeddingGemma 2（Apache 2.0），嵌入层自托管成本趋零",
+        "OpenAI 高管赴澳议会就 Medicare 事件道歉，建「立即干预」式 agent 监控机制"
+      ],
+      "sectionCounts": {
+        "product": 5,
+        "tech": 3,
+        "industry": 5
+      },
+      "rawStats": {
+        "candidates": 44,
+        "selected": 13
+      }
+    },
     {
       "id": "2026-10-06-2100",
       "date": "2026-10-06",
