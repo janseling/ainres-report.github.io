@@ -3,7 +3,7 @@
   "date": "2026-10-07",
   "time": "21:00",
   "title": "AI 情报 · 10-07 21:00 场",
-  "generatedAt": "2026-10-07T13:05:32.079Z",
+  "generatedAt": "2026-10-07T13:06:05.324Z",
   "coverage": "10-07 15:10 → 21:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00 / 15:10 两场已报内容已去重"
@@ -271,19 +271,19 @@
   "signals": [
     {
       "lead": "本地开放权重「够用论」实测潮",
-      "text": "（新 SIG，10-14 复核）：r/LocalLLaMA 用 25 组配对任务实测 Qwen3.8-27B 本地 vs DeepSeek Flash API，结论「日用本地已够用」；GLM5Next MTP 已进 llama.cpp。盯：公开对照基准、嵌入/对话 API 调价、MTP 上机实测。"
+      "text": "（SIG-20261007-2100-1，10-14 复核）：r/LocalLLaMA 用 25 组配对任务实测 Qwen3.8-27B 本地 vs DeepSeek Flash API，结论「日用本地已够用」；GLM5Next MTP 已进 llama.cpp。盯：公开对照基准、嵌入/对话 API 调价、MTP 上机实测。"
     },
     {
       "lead": "Skill 市场成形",
-      "text": "（新 SIG，10-14 复核）：技能包包揽趋势榜（3 条 10 万星级 + Cloudflare 官方下场），盯分发平台、审计工具与付费标准出台。"
+      "text": "（SIG-20261007-2100-2，10-14 复核）：技能包包揽趋势榜（3 条 10 万星级 + Cloudflare 官方下场），盯分发平台、审计工具与付费标准出台。"
     },
     {
       "lead": "",
-      "text": "**后训练自动化工具链竞争**（新 SIG，10-17 复核)：AIBuildAI 登顶 PostTrainBench、LegoFlow 打通全流程；盯基准榜名次、企业采用案例与商用授权口径。"
+      "text": "**后训练自动化工具链竞争**（SIG-20261007-2100-3，10-17 复核)：AIBuildAI 登顶 PostTrainBench、LegoFlow 打通全流程；盯基准榜名次、企业采用案例与商用授权口径。"
     },
     {
       "lead": "AI 游戏生成平台化",
-      "text": "（新 SIG，10-21 复核）：Google Playground 上线，盯创作者变现/分成条款、海外扩散与国内厂商跟进者。"
+      "text": "（SIG-20261007-2100-4，10-21 复核）：Google Playground 上线，盯创作者变现/分成条款、海外扩散与国内厂商跟进者。"
     }
   ],
   "sourceStatus": [
