@@ -1,6 +1,32 @@
 {
-  "count": 15,
+  "count": 16,
   "reports": [
+    {
+      "id": "2026-10-07-2100",
+      "date": "2026-10-07",
+      "time": "21:00",
+      "title": "AI 情报 · 10-07 21:00 场",
+      "itemCount": 11,
+      "coverage": "10-07 15:10 → 21:05（Asia/Shanghai）",
+      "note": "本日 09:00 / 15:10 两场已报内容已去重",
+      "overview": [
+        "谷歌深夜上线 Playground：提示词在浏览器直接生成游戏，美国 18+ 用户即时可用",
+        "NVIDIA Nemotron 开放模型族凭一套公开配方微调，IOI+IMO 双金，数据与配方全开源",
+        "Utopai Studios 文生视频 AA 盲评第二（仅差榜首 7 分），福布斯估算估值约 10 亿美元",
+        "Common Sense Media 定调 ChatGPT for Teens「不可接受的风险」",
+        "OpenAI 老模型 10-23 集中关 API 倒计时 17 天，社区一键迁移体检工具已上线"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 3,
+        "policy": 1,
+        "industry": 4
+      },
+      "rawStats": {
+        "candidates": 113,
+        "selected": 11
+      }
+    },
     {
       "id": "2026-10-07-1510",
       "date": "2026-10-07",
