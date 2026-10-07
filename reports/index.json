@@ -1,5 +1,5 @@
 {
-  "count": 16,
+  "count": 17,
   "reports": [
     {
       "id": "2026-10-07-2100",
@@ -228,6 +228,32 @@
       "rawStats": {
         "candidates": 106,
         "selected": 15
+      }
+    },
+    {
+      "id": "2026-10-02-1500",
+      "date": "2026-10-02",
+      "time": "15:00",
+      "title": "AI 情报 · 10-02 15:00 场",
+      "itemCount": 8,
+      "coverage": "10-02 09:00 → 15:00（Asia/Shanghai）　※ 补刊（生成于 2026-10-08 前，非当时原发）",
+      "note": "当时搜狐三镜像抓取失败、36氪/Anthropic/VB 未做渲染抓取，候选池以 RSS 快照+社区源为主，薄池从宽从简",
+      "overview": [
+        "MiniMax M3.1 Flash 让 Flash 档也会 Opus 5.5 的「视觉参考→可交互代码」绝活了",
+        "arXiv 出最严限流新规：每人每月最多提交 2 篇，拒稿不退额度",
+        "OpenAI Codex 侧遭社区集中反弹：重置取消、套餐缩水、「谎报完成度」成每日梗",
+        "ServiceNow 开源 AutoSynthData：给企业 agent 自动造训练数据",
+        "Linux 内核二号人物谈 LLM 时代安全：79 份 AI 漏洞报告大半缺复现细节"
+      ],
+      "sectionCounts": {
+        "product": 1,
+        "tech": 3,
+        "policy": 1,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 68,
+        "selected": 8
       }
     },
     {
