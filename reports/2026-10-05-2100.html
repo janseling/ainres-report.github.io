@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- SHARE-CARD:BEGIN publish_web.js 生成（会按期重生成，勿手改） -->
+<title>AI 情报 · 10-05 21:00 场</title>
+<meta name="description" content="OpenAI 官宣 ChatGPT Ads 新视觉广告格式＋测量生态，本月内美国内测，12 亿周活开始广告变现；Cohere North 2 发布：给企业 agent 上配额/限流/组织级预算上限，花费治理成产品标配；机器人安全验证公司 Safeworld 出 stealth：数字人替真人测机器人，$12M 种子轮（a16z Speedrun 领投）；Gostev 棋盘实验：Claude Opus 5.5 零参数更新 200 盘 +250 分，GPT-6 Astra 反掉到 1400；微型决策模型品类成形：DecisionTune 395M 本地 10ms 选型，与开源 Strands Decider 2B / StartLux 同节奏">
+<meta property="og:title" content="AI 情报 · 10-05 21:00 场">
+<meta property="og:description" content="OpenAI 官宣 ChatGPT Ads 新视觉广告格式＋测量生态，本月内美国内测，12 亿周活开始广告变现；Cohere North 2 发布：给企业 agent 上配额/限流/组织级预算上限，花费治理成产品标配；机器人安全验证公司 Safeworld 出 stealth：数字人替真人测机器人，$12M 种子轮（a16z Speedrun 领投）；Gostev 棋盘实验：Claude Opus 5.5 零参数更新 200 盘 +250 分，GPT-6 Astra 反掉到 1400；微型决策模型品类成形：DecisionTune 395M 本地 10ms 选型，与开源 Strands Decider 2B / StartLux 同节奏">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ainews.im-max.com/reports/2026-10-05-2100.html">
+<meta property="og:image" content="https://ainews.im-max.com/icon.png">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="600">
+<meta property="og:site_name" content="AI 情报日报">
+<meta property="og:locale" content="zh_CN">
+<!-- SHARE-CARD:END -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='%230c0d10'/><circle cx='50' cy='50' r='10' fill='%23e8a33d'/><circle cx='50' cy='50' r='26' fill='none' stroke='%23e8a33d' stroke-width='3' opacity='.6'/><circle cx='50' cy='50' r='40' fill='none' stroke='%23e8a33d' stroke-width='2' opacity='.25'/></svg>">
+<style>
+:root{
+  --bg:#0c0d10; --panel:#15171e; --panel2:#191c24;
+  --line:#262a33; --line2:#31353f;
+  --ink:#d8d5c9; --ink2:#a5a294; --dim:#77746a;
+  --amber:#e8a33d; --amber2:#f5c069; --green:#8cc07a; --red:#d0684f;
+  --steel:#8fb3d9; --lav:#b8a8d4;
+  --mono:ui-monospace,"SF Mono","JetBrains Mono","Cascadia Code",Menlo,Consolas,monospace;
+  --sans:-apple-system,"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:
+    repeating-linear-gradient(0deg,transparent 0 2px,rgba(255,255,255,.008) 2px 4px),
+    radial-gradient(ellipse 120% 80% at 50% -10%,#13161e 0%,var(--bg) 58%);
+  color:var(--ink);font-family:var(--sans);min-height:100vh;font-size:15px;line-height:1.7;
+}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+a{color:var(--amber2);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+
+/* ==== top bar ==== */
+.topbar{position:sticky;top:0;z-index:20;background:rgba(12,13,16,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.topbar .in{max-width:760px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;gap:12px}
+.tb-brand{font-family:var(--mono);font-size:12px;letter-spacing:.16em;color:var(--dim);white-space:nowrap}
+.tb-brand b{color:var(--amber);font-weight:600}
+.tb-nav{margin-left:auto;display:flex;gap:14px;font-family:var(--mono);font-size:12px}
+.tb-nav a{color:var(--ink2)}
+.tb-nav a:hover{color:var(--amber)}
+.tb-nav a:disabled{color:#3d4048;pointer-events:none}
+
+/* ==== masthead ==== */
+.masthead{padding:44px 0 20px;position:relative}
+.crumb{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--dim);text-transform:uppercase;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.crumb .no{color:var(--amber)}
+.title{font-size:28px;font-weight:800;letter-spacing:.03em;margin:12px 0 4px;line-height:1.35}
+.stamp{position:absolute;right:0;top:48px;font-family:var(--mono);font-size:11px;letter-spacing:.3em;color:var(--green);border:1.5px solid var(--green);border-radius:4px;padding:4px 10px;transform:rotate(6deg);opacity:.75;user-select:none}
+.cov{margin-top:14px;padding:10px 16px;border-left:3px solid var(--amber);background:linear-gradient(90deg,rgba(232,163,61,.06),transparent 70%);color:var(--ink2);font-size:13.5px;border-radius:0 6px 6px 0}
+.cov .note{display:block;margin-top:6px;color:var(--dim);font-size:12.5px}
+.mchips{margin-top:14px;display:flex;gap:7px;flex-wrap:wrap}
+.mchip{font-family:var(--mono);font-size:11px;color:var(--ink2);border:1px solid var(--line2);background:var(--panel);padding:3px 9px;border-radius:4px;letter-spacing:.04em}
+.mchip b{color:var(--amber);font-weight:600}
+.mchip.ok b{color:var(--green)}
+
+/* ==== section nav ==== */
+.navchips{margin:22px 0 4px;display:flex;gap:7px;flex-wrap:wrap}
+.nchip{font-family:var(--mono);font-size:11.5px;color:var(--ink2);border:1px solid var(--line2);padding:4px 11px;border-radius:20px;text-decoration:none;transition:.2s}
+.nchip:hover{border-color:var(--amber);color:var(--amber);text-decoration:none}
+
+/* ==== sections & items ==== */
+section{margin-top:34px}
+.sec-h{display:flex;align-items:baseline;gap:12px;padding-bottom:8px;border-bottom:1px solid var(--line2);margin-bottom:4px}
+.sec-h .no{font-family:var(--mono);font-size:12px;color:var(--amber);letter-spacing:.1em}
+.sec-h h2{font-size:19px;font-weight:700;letter-spacing:.04em}
+.sec-h .n{font-family:var(--mono);font-size:11px;color:var(--dim);margin-left:auto}
+.item{padding:18px 2px 16px;border-bottom:1px dashed var(--line);animation:up .45s cubic-bezier(.2,.7,.3,1) both;animation-delay:calc(var(--i,0)*.04s)}
+.item:last-child{border-bottom:none}
+.i-head{display:flex;gap:12px;align-items:baseline}
+.i-no{font-family:var(--mono);font-size:12px;color:var(--dim);flex:none;letter-spacing:.06em}
+.i-title{font-size:16.5px;font-weight:700;line-height:1.5}
+.i-title a{color:var(--ink)}
+.i-title a:hover{color:var(--amber2);text-decoration:none}
+.i-title .ext{font-size:12px;color:var(--dim);margin-left:5px;font-family:var(--mono)}
+.i-meta{font-family:var(--mono);font-size:11px;color:var(--dim);margin-top:5px;letter-spacing:.03em;display:flex;gap:10px;flex-wrap:wrap}
+.i-meta .src{color:var(--steel)}
+.i-summary{margin-top:8px;color:var(--ink2);font-size:14px;line-height:1.72}
+.i-summary a{border-bottom:1px dotted var(--steel);color:var(--steel)}
+.i-urls{margin-top:6px;display:flex;gap:12px;flex-wrap:wrap}
+.i-urls a{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:.02em}
+.i-urls a:hover{color:var(--amber)}
+.angles{margin-top:10px;display:flex;flex-direction:column;gap:6px}
+.angle{display:flex;gap:10px;padding:8px 12px;border-radius:0 6px 6px 0;border-left:2px solid var(--c,var(--line2));background:linear-gradient(90deg,color-mix(in srgb,var(--c) 7%,transparent),transparent 75%);font-size:13.5px;line-height:1.65}
+.angle .tag{flex:none;font-family:var(--mono);font-size:11px;padding-top:2px;color:var(--c);letter-spacing:.04em;white-space:nowrap}
+.angle .txt{color:var(--ink2)}
+.angle.invest{--c:var(--amber)}
+.angle.startup{--c:var(--steel)}
+.angle.tech{--c:var(--green)}
+.angle.opinion{--c:var(--lav)}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.item{animation:none}}
+@supports not (color: color-mix(in srgb,red,blue)){.angle{background:var(--panel)}}
+
+/* ==== overview (速览) ==== */
+.ovlist{margin-top:12px}
+.ov-item{position:relative;padding:7px 2px 7px 16px;color:var(--ink2);font-size:14px;line-height:1.66;border-bottom:1px dashed var(--line)}
+.ov-item:last-child{border-bottom:none}
+.ov-item::before{content:"·";position:absolute;left:2px;top:6px;color:var(--amber);font-weight:700;font-size:15px}
+
+/* ==== signals ==== */
+.signals{margin-top:14px}
+.sig{display:flex;gap:14px;padding:13px 2px;border-bottom:1px dashed var(--line)}
+.sig:last-child{border-bottom:none}
+.sig .sno{font-family:var(--mono);font-size:18px;color:var(--amber);flex:none;width:34px;font-weight:700;opacity:.9}
+.sig .body b{color:var(--ink);font-weight:700;display:block;margin-bottom:2px}
+.sig .body{color:var(--ink2);font-size:14px}
+
+.rawline{margin-top:14px;font-family:var(--mono);font-size:11px;color:#5a584f;letter-spacing:.04em}
+
+/* ==== pager ==== */
+.pager{margin:36px 0 10px;display:flex;gap:10px;justify-content:space-between;align-items:center}
+.pager a{display:block;padding:10px 16px;border:1px solid var(--line2);border-radius:6px;font-family:var(--mono);font-size:12px;color:var(--ink2);transition:.2s}
+.pager a:hover{border-color:var(--amber);color:var(--amber);text-decoration:none}
+.pager a:disabled{color:#3d4048;border-color:var(--line);pointer-events:none}
+.pager .mid{font-family:var(--mono);font-size:11px;color:var(--dim)}
+
+.msg{padding:70px 0;text-align:center;color:var(--dim)}
+.msg h2{font-size:18px;color:var(--ink2);margin-bottom:10px}
+.foot{padding:20px 0 44px;border-top:1px solid var(--line);margin-top:40px;color:var(--dim);font-size:12px;font-family:var(--mono);display:flex;gap:14px;flex-wrap:wrap;justify-content:space-between}
+.foot a{color:var(--dim)}
+</style>
+</head>
+<body>
+<script>window.__PAGE_DATA__={"rep":{"id":"2026-10-05-2100","date":"2026-10-05","time":"21:00","title":"AI 情报 · 10-05 21:00 场","generatedAt":"2026-10-05T13:14:06.749Z","coverage":"2026-10-05 15:00 → 21:00（Asia/Shanghai，24h 口径；ThinkingBox 条目为 48h 边界）","notes":["信源状态见文末","白天大事件（Tibo 28 天军令状、Hinton RSI 论文、Reflection 开放权重）15:00 场已报，本场为晚间增量场。"],"itemCount":11,"rawStats":{"candidates":2840,"selected":11},"overview":["OpenAI 官宣 ChatGPT Ads 新视觉广告格式＋测量生态，本月内美国内测，12 亿周活开始广告变现","Cohere North 2 发布：给企业 agent 上配额/限流/组织级预算上限，花费治理成产品标配","机器人安全验证公司 Safeworld 出 stealth：数字人替真人测机器人，$12M 种子轮（a16z Speedrun 领投）","Gostev 棋盘实验：Claude Opus 5.5 零参数更新 200 盘 +250 分，GPT-6 Astra 反掉到 1400","微型决策模型品类成形：DecisionTune 395M 本地 10ms 选型，与开源 Strands Decider 2B / StartLux 同节奏"],"sections":[{"key":"product","icon":"📦","title":"产品发布 / 融资","items":[{"title":"OpenAI 把广告推进深水区：ChatGPT Ads 新视觉格式＋测量全家桶，月中美国内测","meta":"OpenAI 官方博客·3小时前","urls":["https://openai.com/index/new-chatgpt-ads-format-and-measurement"],"summary":"官方宣布在 ChatGPT 图像生成场景首测新视觉广告格式（明确标注、与生成图像分离、不影响模型回答），本月美国内测；测量侧接入 Hightouch/Tealium/LiveRamp，attribution 覆盖 AppsFlyer/Rockerbox/Northbeam 等，增量测量与 Haus/Measured/WorkMagic 合作；口径披露 ChatGPT 每周触达 12 亿人，WeightWatchers 在 ChatGPT Ads 的归因 CPA 比付费搜索基准低 15.3%。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"变现第二引擎正式点火，CPA−15.3% 是可直接拿去对比的效率证据，广告主预算从搜索/社交再分配的窗口开启，盯内测期红利与定价。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"围绕 ChatGPT Ads 的投放代理、素材生成、measurement 插件是新的工具层市场——今天官方公布的 partner 名单就是进生态的门票清单；图像生成场景对电商素材客户天然友好。"}]},{"title":"Cohere North 2：给企业 agent 加\"预算刹车\"，harness 重设计","meta":"VentureBeat·刚刚","urls":["https://venturebeat.com/orchestration/coheres-north-2-puts-ai-agents-on-a-budget-and-gives-them-a-memory"],"summary":"Cohere 更新企业 agent 平台 North 2：用户级配额、限流、组织级消费上限，重设计 harness 支持长流程多步任务并保留人在环审批；VB Pulse 调研数据显示 21% 企业对 agent 花费只有事后监控。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"agent 成本失控是当前企业采购最大的隐性顾虑，\"预算控制\"正从运维功能变成独立卖点——Cohere 拿它对垒 Copilot/Vertex，说明 agent 治理模块有独立定价权。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"与 Simon Willison「默认硬预算上限」的呼吁同向；给任意 agent 栈加消费护栏是通用插件机会，尤其适配中大型客户私有化部署。"}]},{"title":"机器人安全验证赛道开张：Safeworld 出 stealth，数字人替真人测机器人","meta":"TechCrunch·1小时前","urls":["https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/"],"summary":"CMU Safe AI Lab 主任 Ding Zhao 与 Kyle Wong、Simo Rachidi 创办 Safeworld，用「数字人类」模拟机器人伤害场景做概率化安全验证与信任建模，今日出 stealth；种子轮 $12M+，Shine Capital 与 a16z Speedrun 领投，CMU 捐赠基金、SV Angel 等参投。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"具身智能进入出货期后，安全验证正变成监管与保险刚需——\"给概率系统承保\"是门槛高但空位明显的生意，资本押注安全层比本体先赚到钱。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"仿真验证、保险定价、合规认证三条出口都能长成服务型生意；国内具身智能出海同样需要这类背书，交付团队可先建立评估方法论。"}]}]},{"key":"tech","icon":"🔬","title":"技术突破 / 模型进展","items":[{"title":"放养 AI 练棋：Claude 零更新 +250 分，GPT-6 越练越菜，差距出在记忆管理","meta":"新智元·搜狐官方号同步·约2.5小时前","urls":["https://m.sohu.com/a/1084266210_473283"],"summary":"Arena AI 负责人 Gostev 让模型经 Codex/Claude Code 与 Stockfish 连打 200 盘自我对局、只保留笔记、禁用引擎、不更新参数：Claude Opus 5.5 从约 1500 涨到 1760（峰值 1840），GPT-6 Astra 从 1810 掉到 1400，且对满血 Stockfish 68 盘全败。Gostev 归因 272k 上下文被笔记挤爆；发帖 2 分钟后竞技场出现 828K 上下文的 Sol 专用跑道（呼应 GPT-6.1 Sol 更大上下文）。","angles":[{"kind":"tech","icon":"⚡","label":"技术/可行性","text":"零参数更新下谁的记忆/上下文管理好、谁就能\"边用边变强\"——自我改进当前卡在上下文工程而非模型本体。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"agent 记忆压缩与经验沉淀中间件是明牌需求，把这层做扎实比换模型提分更便宜、更难被替换。"}]},{"title":"陶哲轩深夜站台：Caltech 物理拿下无强迫 3D 欧拉方程奇点候选解","meta":"新智元·搜狐官方号同步·6小时前","urls":["https://m.sohu.com/a/1084214730_473283"],"summary":"在 OpenAI 流体方程解身陷剽窃罗生门之际，Caltech Anima Anandkumar 团队用 PINN ＋自研 SS-eSOAP / Broyden 二阶优化器，首次在无强迫自由空间 3D 欧拉方程跑出爆破奇点候选解，让缩放指数自由优化后收敛至理论预言的 0.5；陶哲轩在博客力挺。团队强调做\"补齐人类短板\"而非取代人类的 AI。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"AI for Science 出现路线分野——LLM 路线烧大算力模仿文本，物理 AI 路线用小算力换数学级严谨性，对科研机构买方的付费逻辑完全不同。"},{"kind":"tech","icon":"⚡","label":"技术/可行性","text":"论文与代码路径公开（tensorlab.cms.caltech.edu），小算力可复现，科研团队低成本跟进的窗口是开的。"}]},{"title":"4D 世界模型进手机：MoWorld 让 Mate 90 变成\"可以走进去\"的场","meta":"新智元·搜狐官方号同步·6小时前","urls":["https://m.sohu.com/a/1084213821_473283"],"summary":"魔芯科技 MoWorld 在华为 Mate 90 鸿蒙应用「摸小宠」落地：少数照片重建可环绕互动的 4D 数字宠物，链路为昇腾云端生成 3D 高斯＋约 6 亿参数量化版 MoWorld-2.0-Flash 在麒麟芯片端侧渲染，全链国产算力，推理成本约为进口 GPU 方案 30%；影游资产、具身仿真、自动驾驶长尾场景同步推进。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"世界模型第一次从 Demo 变成出厂 App，端侧化让运营成本下一档，国产算力链给出约 70% 降本——海外同行还在纯云端烧钱。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"4D/3D 空间资产生成＋端云协同是影视预演、机器人仿真、长尾驾驶数据三类 B 端需求的共同底座，跟着国产硬件链做交付是差异化路径。"}]},{"title":"Microsoft ThinkingBox：agent 验收从\"动作对不对\"转向\"终态对不对\"","meta":"Hugging Face·微软团队博文·48h 边界","urls":["https://huggingface.co/blog/microsoft/thinkingbox"],"summary":"微软开源 ThinkingBox：agent 在隔离 MCP 工具会话中执行任务，评分器检查数据库终态与副作用而非工具调用序列；示例里 agent 九次调用格式全对，但承运商例外单仍挂起、客户诉求没真正解决——动作轨迹全通过，数据库不同意。","angles":[{"kind":"tech","icon":"⚡","label":"技术/可行性","text":"与 MIT+Sakana 的 LLM-judge（SIFT，10-02 发布）同向但更便宜更硬：终态断言替代轨迹判卷，评测可复现。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"agent 交付的\"验收标准\"是 B 端签约卡点，把终态断言判卷层产品化（对接 ERP/CRM）能直接接住采购流程最后一环。"}]},{"title":"395M 决策模型 10ms 选型：微型决策模型品类成形","meta":"r/LocalLLaMA·4.5小时前","urls":["https://www.reddit.com/r/LocalLLaMA/comments/1wy3c0u/decisiontune_10_a_395m_encoder_that_picks_from/"],"summary":"DecisionTune 1.0（ModernBERT-large＋4KB 评分头，Apache-2.0）：输入状态/问题/选项列表，单次编码返回各选项概率，不生成文本，MLX 本地约 10ms/次；与 Amazon 开源 Strands Decider 2B（10-02，VB 称「Jev killer」）、StartLux 决策模型登顶（10-03，昨日已报）同节奏。","angles":[{"kind":"tech","icon":"⚡","label":"技术/可行性","text":"agent 高频小决策（选工具/选路径/选模板）用 10ms 微模型路由，比全量 LLM 调用便宜一到两个数量级。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"决策路由＋预算护栏＋终态验收正在合流成\"agent 运维层\"，一周内三个同类开源出现，说明需求已真实到有人抢跑。"}]}]},{"key":"industry","icon":"🌐","title":"行业动向 / 应用玩法","items":[{"title":"Rabbit 吕骋：人不该为 Agent 改变思考方式","meta":"36氪专访·4.5小时前","urls":["https://36kr.com/p/4012726523957380"],"summary":"Rabbit 开放新一代 Agent OS 系统 OS3：网页或 Telegram 交代任务、自选模型驱动电脑查文件/操作软件/写代码，谈跨设备：不要赌用户只有一台设备；回应 r1 口碑落差（全球交付超 10 万台、退货率低于 5%）；行业侧 Muse 上线两周 280 万下载、Manus 出 Cue、千问接淘宝购物、豆包上线对话打车。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"个人 agent 从单设备硬件转向跨设备\"任务总线\"，Rabbit 转型平台说明硬件品牌＋软件平台在 agent 时代仍有话语权；两周 280 万下载的 Muse 是需求端温度计。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"跨设备任务接管（一次下达、多端执行）是个人 agent 下一场硬仗；用 IM（Telegram/微信）当任务入口的分发成本最低，小团队友好。"}]},{"title":"企业自建 Agent 复盘：ServiceNow Digital Worker 的痛点比路线图预设更窄","meta":"VentureBeat·22小时前","urls":["https://venturebeat.com/orchestration/we-built-an-ai-agent-for-servicenow-the-real-pain-points-were-narrower-than-our-roadmap-assumed"],"summary":"企业客户自述在 ServiceNow ITSM 上自建 Digital Worker（早期用 browser-use 技术起步）：写操作一律人工审批、agent 行为全程可观测（做了什么/是否成功/花多少钱），结论是真正价值在把\"读懂数据→下一步做什么\"做窄做深，而非泛化全能。","angles":[{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"把 agent 做窄（一个流程做到底）比做宽十倍更有账算；\"人审＋可观测＋成本归因\"是过企业安全关的最低配置，可直接当方案模板抄。"},{"kind":"invest","icon":"💰","label":"投资/商业","text":"ITSM/CRM 这类高确定流程的 SaaS 是 agent 落地收割区，服务交付商的报价单位正从\"人天\"转向\"流程接管率\"。"}]},{"title":"德国电信：2030 年前 AI 与自动化省出 €25 亿间接成本","meta":"36氪快讯·今日","urls":["https://36kr.com/p/4012625330917504"],"summary":"Deutsche Telekom 预估，到 2030 年 AI 与自动化将为其节省 25 亿欧元间接成本。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"欧洲头部运营商给出三年期量化 ROI，说明 agent 采购正从\"试点预算\"转\"成本中心 KPI\"——这类数字会加速同业立项，B 端交付团队可以用同类算法帮客户算账。"}]}]}],"signals":[{"lead":"下周双旗舰对撞","text":"（延续上期）：OpenAI GPT-6.1 Sol Ultrafast「coming soon」× Anthropic Fable 5.5 传周二发布；今晚棋盘实验中 Sol 已以 828K 上下文专用跑道现身竞技场——发布临近的实锤。"},{"lead":"Reflection 开放权重落地窗口","text":"（延续上期）：Axios 10-04 独家称其首个对标 DeepSeek/Qwen 的美国开放权重模型在即，NVIDIA 硬件捆绑＋数据主权叙事，本月西方开放权重发布潮。"},{"lead":"微型决策模型品类成形","text":"Amazon Strands Decider 2B（开源）→ StartLux 决策模型（登顶）→ DecisionTune 395M（10ms 本地），约一周内三连——「小决策外包」的 agent 工具链正在自成一层，成本曲线陡降。"}],"sourceStatus":["- HN：本期两连失败（502→150B 错误页），未采","- 机器之心 Pro（搜狐镜像）：10-04 23:47 后无新稿，同步停更超 21h，延迟放大","- VentureBeat：渲染器恢复全量条目＋日期（上期解析异常解除）；MIT+Sakana SIFT / WikiSkill / OpenClaw 等条目按一稿发布日期判定超 48h 未收","- GitHub Trending：与早间场差异大（t3code 1,430★/日、AnyPS5 994★、text-to-cad 456★、cloudflare-os 102★ 上榜），非 AI 主线或体量不足未入选","- Anthropic 官网：无窗口内新稿（最新 10-01 Barclays；enzyme 稿为 09-23）","- 甲子光年（搜狐镜像）：最新仍为 10-02 期，周更节奏正常","- 智东西：首页顶流稿日期 10-03，无 24h 内增量","- arXiv cs.AI：无大厂 research release 级命中","- 其余（量子位/极客公园/爱范儿/少数派/TechCrunch/Ars/Verge/SimonW/OpenAI/DeepMind/NVIDIA/HF/PH/36氪/Reddit/arctic-shift）：抓取正常；量子位/极客公园新增多为已报跟进或文化向（如「AI 为什么总在画美女」），未入选"]},"ctx":{"no":"10","older":{"id":"2026-10-05-1500","date":"2026-10-05","time":"15:00"},"newer":{"id":"2026-10-06-0900","date":"2026-10-06","time":"09:00"}}}</script>
+
+<div class="topbar"><div class="in">
+  <a class="tb-brand" href="./" style="text-decoration:none">AI<b>情报</b>DB</a>
+  <nav class="tb-nav">
+    <a href="./">← 归档</a>
+    <a href="javascript:void 0" id="tbPrev">‹ 上一期</a>
+    <a href="javascript:void 0" id="tbNext">下一期 ›</a>
+  </nav>
+</div></div>
+
+<div class="wrap" id="wrap">
+  <div class="msg"><span id="loadmsg">正在加载期报…</span></div>
+</div>
+
+<footer class="wrap foot">
+  <span>ai-intel-daily · agent-collected briefing</span>
+  <a href="https://github.com/janseling" target="_blank" rel="noopener">github/janseling</a>
+</footer>
+
+<script>
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const mdLinks = s => esc(s).replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_m,t,u)=>`<a href="${u}" target="_blank" rel="noopener">${t}</a>`);
+const SEC_META = {
+  product:{icon:'📦', zh:'产品发布 / 融资'}, tech:{icon:'🔬', zh:'技术突破 / 模型进展'},
+  policy:{icon:'🏛️', zh:'政策监管'}, industry:{icon:'🌐', zh:'行业动向 / 应用玩法'},
+};
+const params = new URLSearchParams(location.search);
+const wantId = params.get('id') || (location.hash ? location.hash.slice(1) : '');
+// 站内链接：静态期报页（reports/<id>.html）直跳同目录文件；SPA 模式走 ?id=
+const repUrl = id => (window.__PAGE_DATA__ ? id + '.html' : 'report.html?id=' + id);
+
+async function init(){
+  const P = window.__PAGE_DATA__;   // publish_web.js 生成的静态期报页内联数据，免 fetch 直渲
+  if(P && P.rep){
+    render(P.rep, null, 0, P.ctx);
+    document.querySelectorAll('[href="./"]').forEach(a => a.setAttribute('href','../'));
+    return;
+  }
+  let manifest;
+  try{
+    const r = await fetch('reports/index.json?v=' + Date.now());
+    if(!r.ok) throw new Error('manifest ' + r.status);
+    manifest = await r.json();
+  }catch(e){
+    document.getElementById('loadmsg').innerHTML = '⚠️ 索引加载失败（' + esc(e.message) + '）<br><br><a href="./">返回归档</a>';
+    return;
+  }
+  const rs = manifest.reports || [];
+  if(!rs.length){ document.getElementById('loadmsg').textContent = '归档为空'; return; }
+  let idx = rs.findIndex(x => x.id === wantId);
+  if(idx < 0) idx = 0;
+  const meta = rs[idx];
+  let rep;
+  try{
+    const r = await fetch('reports/' + meta.id + '.json?v=' + Date.now());
+    if(!r.ok) throw new Error(r.status);
+    rep = await r.json();
+  }catch(e){
+    document.getElementById('loadmsg').innerHTML = '⚠️ 报告数据加载失败（' + esc(e.message) + '）<br><br><a href="./">返回归档</a>';
+    return;
+  }
+  render(rep, rs, idx);
+}
+
+function render(rep, rs, idx, ctx){
+  if(!window.__PAGE_DATA__) document.title = rep.title + ' · AI 情报';
+  const no = ctx ? ctx.no : String(rs.length - idx).padStart(2,'0');
+  const newer = ctx ? ctx.newer : rs[idx-1];
+  const older = ctx ? ctx.older : rs[idx+1];
+  const setPager = (id, el) => { const a = document.getElementById(el); if(id){ a.href = repUrl(id); } else { a.disabled = true; a.removeAttribute('href'); } };
+  setPager(newer && newer.id, 'tbNext'); setPager(older && older.id, 'tbPrev');
+
+  const notesHtml = (rep.notes||[]).map(n=>`<span class="note">※ ${esc(n)}</span>`).join('');
+  const chips = [];
+  chips.push(`<span class="mchip">本期 <b>${rep.itemCount}</b> 条</span>`);
+  if(rep.rawStats && rep.rawStats.candidates) chips.push(`<span class="mchip">候选 <b>${rep.rawStats.candidates.toLocaleString()}</b></span>`);
+  if((rep.signals||[]).length) chips.push(`<span class="mchip">跟踪信号 <b>${rep.signals.length}</b></span>`);
+
+  const secsHtml = (rep.sections||[]).map((sec, si)=>{
+    const sm = SEC_META[sec.key] || {icon:sec.icon||'📋', zh:sec.title||sec.key};
+    const items = sec.items.map((it, ii)=>{
+      const main = it.urls && it.urls[0];
+      const extraUrls = (it.urls||[]).slice(1).map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">另链 ↗</a>`).join('');
+      const angles = (it.angles||[]).map(a=>`<div class="angle ${a.kind}"><span class="tag">${a.icon} ${esc(a.label)}</span><span class="txt">${mdLinks(a.text)}</span></div>`).join('');
+      return `<article class="item" style="--i:${ii}">
+        <div class="i-head"><span class="i-no">${String(ii+1).padStart(2,'0')}</span>
+          <h3 class="i-title">${main?`<a href="${esc(main)}" target="_blank" rel="noopener">${esc(it.title)}</a><span class="ext">↗</span>`:esc(it.title)}</h3></div>
+        ${it.meta?`<div class="i-meta"><span class="src">${esc(it.meta)}</span></div>`:''}
+        ${it.summary?`<p class="i-summary">${mdLinks(it.summary)}</p>`:''}
+        ${(it.urls||[]).length>1?`<div class="i-urls"><span class="tag"></span>${extraUrls}</div>`:''}
+        ${angles?`<div class="angles">${angles}</div>`:''}
+      </article>`;
+    }).join('');
+    return `<section id="sec-${esc(sec.key)}">
+      <div class="sec-h"><span class="no">0${si+1}</span><h2>${sm.icon} ${esc(sm.zh)}</h2><span class="n">${sec.items.length} 条</span></div>
+      ${items}
+    </section>`;
+  }).join('');
+
+  const navChips = (rep.sections||[]).map(s=>{
+      const sm = SEC_META[s.key]||{icon:s.icon||'📋',zh:s.title};
+      return `<a class="nchip" href="#sec-${esc(s.key)}">${sm.icon} ${esc((sm.zh||'').split(' / ')[0])} ${s.items.length}</a>`;
+    }).join('');
+
+  const sigHtml = (rep.signals||[]).map((s,i)=>`<div class="sig"><span class="sno">${String(i+1).padStart(2,'0')}</span><div class="body"><b>${esc(s.lead)}</b>${mdLinks(s.text)}</div></div>`).join('');
+  const ovHtml = (rep.overview||[]).map(o=>`<div class="ov-item">${mdLinks(o)}</div>`).join('');
+
+  document.getElementById('wrap').innerHTML = `
+  <header class="masthead">
+    <div class="crumb"><span>AI INTEL DAILY</span><span>·</span><span class="no">NO.${no}</span><span>·</span><span>${esc(rep.date)} ${esc(rep.time)} CST</span></div>
+    <h1 class="title">${esc(rep.title.replace(/^AI 情报 · /,'').replace(' 场',' 场'))}</h1>
+    <span class="stamp">已归档 ✓</span>
+    <blockquote class="cov">${esc(rep.coverage)}${notesHtml}</blockquote>
+    <div class="mchips">${chips.join('')}</div>
+    <div class="navchips">${navChips}</div>
+  </header>
+  ${(rep.overview||[]).length?`<section id="sec-overview"><div class="sec-h"><span class="no">🔭</span><h2>速览</h2><span class="n">${rep.overview.length} 条</span></div><div class="ovlist">${ovHtml}</div></section>`:''}
+  ${(rep.signals||[]).length?`<section id="sec-signals"><div class="sec-h"><span class="no">🧭</span><h2>值得跟踪的信号</h2><span class="n">${rep.signals.length} 条</span></div><div class="signals">${sigHtml}</div></section>`:''}
+  ${secsHtml || '<div class="msg">本期无条目</div>'}
+  ${rep.rawStats && rep.rawStats.candidates?`<div class="rawline">▸ raw archive: reports/raw/${esc(rep.id)}.json（候选 ${rep.rawStats.candidates.toLocaleString()}${rep.rawStats.selected?'／入选 '+rep.rawStats.selected:''}）</div>`:''}
+  <nav class="pager">
+    ${older?`<a href="${repUrl(esc(older.id))}">‹ ${esc(older.date.slice(5))} ${esc(older.time)}</a>`:'<a disabled>‹ 已是早期</a>'}
+    <a href="./" style="border:none">☰ 归档</a>
+    ${newer?`<a href="${repUrl(esc(newer.id))}">${esc(newer.date.slice(5))} ${esc(newer.time)} ›</a>`:'<a disabled>已是最新 ›</a>'}
+  </nav>`;
+}
+init();
+</script>
+</body>
+</html>

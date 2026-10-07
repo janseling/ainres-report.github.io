@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- SHARE-CARD:BEGIN publish_web.js 生成（会按期重生成，勿手改） -->
+<title>AI 情报 · 10-06 09:00 场</title>
+<meta name="description" content="Reflection Beam 开放权重如期交卷：501B/23B 激活 MoE、1M 上下文，自称推理算力比 GLM-5.2 省 3-4 倍；OpenAI 兑现 28 天军令状 Day-1：GPT-6 Astra/Sol 全系 30→50 TPS，底层换激进 Tokenizer；OpenAI 官宣 EU 文本水印 textGrain（API 全球可开）——AI Act 透明度合规进入实操期；TikTok 上线 AI 购物助手＋一键下单，「问→买」闭环收进站内；Instinct、Gemini 同场加码「agent 打电话」；ARC-AGI-3 Kaggle 榜 30 天 7%→56%，本地模型 agent 首次打平普通人类">
+<meta property="og:title" content="AI 情报 · 10-06 09:00 场">
+<meta property="og:description" content="Reflection Beam 开放权重如期交卷：501B/23B 激活 MoE、1M 上下文，自称推理算力比 GLM-5.2 省 3-4 倍；OpenAI 兑现 28 天军令状 Day-1：GPT-6 Astra/Sol 全系 30→50 TPS，底层换激进 Tokenizer；OpenAI 官宣 EU 文本水印 textGrain（API 全球可开）——AI Act 透明度合规进入实操期；TikTok 上线 AI 购物助手＋一键下单，「问→买」闭环收进站内；Instinct、Gemini 同场加码「agent 打电话」；ARC-AGI-3 Kaggle 榜 30 天 7%→56%，本地模型 agent 首次打平普通人类">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ainews.im-max.com/reports/2026-10-06-0900.html">
+<meta property="og:image" content="https://ainews.im-max.com/icon.png">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="600">
+<meta property="og:site_name" content="AI 情报日报">
+<meta property="og:locale" content="zh_CN">
+<!-- SHARE-CARD:END -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='%230c0d10'/><circle cx='50' cy='50' r='10' fill='%23e8a33d'/><circle cx='50' cy='50' r='26' fill='none' stroke='%23e8a33d' stroke-width='3' opacity='.6'/><circle cx='50' cy='50' r='40' fill='none' stroke='%23e8a33d' stroke-width='2' opacity='.25'/></svg>">
+<style>
+:root{
+  --bg:#0c0d10; --panel:#15171e; --panel2:#191c24;
+  --line:#262a33; --line2:#31353f;
+  --ink:#d8d5c9; --ink2:#a5a294; --dim:#77746a;
+  --amber:#e8a33d; --amber2:#f5c069; --green:#8cc07a; --red:#d0684f;
+  --steel:#8fb3d9; --lav:#b8a8d4;
+  --mono:ui-monospace,"SF Mono","JetBrains Mono","Cascadia Code",Menlo,Consolas,monospace;
+  --sans:-apple-system,"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:
+    repeating-linear-gradient(0deg,transparent 0 2px,rgba(255,255,255,.008) 2px 4px),
+    radial-gradient(ellipse 120% 80% at 50% -10%,#13161e 0%,var(--bg) 58%);
+  color:var(--ink);font-family:var(--sans);min-height:100vh;font-size:15px;line-height:1.7;
+}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+a{color:var(--amber2);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+
+/* ==== top bar ==== */
+.topbar{position:sticky;top:0;z-index:20;background:rgba(12,13,16,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.topbar .in{max-width:760px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;gap:12px}
+.tb-brand{font-family:var(--mono);font-size:12px;letter-spacing:.16em;color:var(--dim);white-space:nowrap}
+.tb-brand b{color:var(--amber);font-weight:600}
+.tb-nav{margin-left:auto;display:flex;gap:14px;font-family:var(--mono);font-size:12px}
+.tb-nav a{color:var(--ink2)}
+.tb-nav a:hover{color:var(--amber)}
+.tb-nav a:disabled{color:#3d4048;pointer-events:none}
+
+/* ==== masthead ==== */
+.masthead{padding:44px 0 20px;position:relative}
+.crumb{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--dim);text-transform:uppercase;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.crumb .no{color:var(--amber)}
+.title{font-size:28px;font-weight:800;letter-spacing:.03em;margin:12px 0 4px;line-height:1.35}
+.stamp{position:absolute;right:0;top:48px;font-family:var(--mono);font-size:11px;letter-spacing:.3em;color:var(--green);border:1.5px solid var(--green);border-radius:4px;padding:4px 10px;transform:rotate(6deg);opacity:.75;user-select:none}
+.cov{margin-top:14px;padding:10px 16px;border-left:3px solid var(--amber);background:linear-gradient(90deg,rgba(232,163,61,.06),transparent 70%);color:var(--ink2);font-size:13.5px;border-radius:0 6px 6px 0}
+.cov .note{display:block;margin-top:6px;color:var(--dim);font-size:12.5px}
+.mchips{margin-top:14px;display:flex;gap:7px;flex-wrap:wrap}
+.mchip{font-family:var(--mono);font-size:11px;color:var(--ink2);border:1px solid var(--line2);background:var(--panel);padding:3px 9px;border-radius:4px;letter-spacing:.04em}
+.mchip b{color:var(--amber);font-weight:600}
+.mchip.ok b{color:var(--green)}
+
+/* ==== section nav ==== */
+.navchips{margin:22px 0 4px;display:flex;gap:7px;flex-wrap:wrap}
+.nchip{font-family:var(--mono);font-size:11.5px;color:var(--ink2);border:1px solid var(--line2);padding:4px 11px;border-radius:20px;text-decoration:none;transition:.2s}
+.nchip:hover{border-color:var(--amber);color:var(--amber);text-decoration:none}
+
+/* ==== sections & items ==== */
+section{margin-top:34px}
+.sec-h{display:flex;align-items:baseline;gap:12px;padding-bottom:8px;border-bottom:1px solid var(--line2);margin-bottom:4px}
+.sec-h .no{font-family:var(--mono);font-size:12px;color:var(--amber);letter-spacing:.1em}
+.sec-h h2{font-size:19px;font-weight:700;letter-spacing:.04em}
+.sec-h .n{font-family:var(--mono);font-size:11px;color:var(--dim);margin-left:auto}
+.item{padding:18px 2px 16px;border-bottom:1px dashed var(--line);animation:up .45s cubic-bezier(.2,.7,.3,1) both;animation-delay:calc(var(--i,0)*.04s)}
+.item:last-child{border-bottom:none}
+.i-head{display:flex;gap:12px;align-items:baseline}
+.i-no{font-family:var(--mono);font-size:12px;color:var(--dim);flex:none;letter-spacing:.06em}
+.i-title{font-size:16.5px;font-weight:700;line-height:1.5}
+.i-title a{color:var(--ink)}
+.i-title a:hover{color:var(--amber2);text-decoration:none}
+.i-title .ext{font-size:12px;color:var(--dim);margin-left:5px;font-family:var(--mono)}
+.i-meta{font-family:var(--mono);font-size:11px;color:var(--dim);margin-top:5px;letter-spacing:.03em;display:flex;gap:10px;flex-wrap:wrap}
+.i-meta .src{color:var(--steel)}
+.i-summary{margin-top:8px;color:var(--ink2);font-size:14px;line-height:1.72}
+.i-summary a{border-bottom:1px dotted var(--steel);color:var(--steel)}
+.i-urls{margin-top:6px;display:flex;gap:12px;flex-wrap:wrap}
+.i-urls a{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:.02em}
+.i-urls a:hover{color:var(--amber)}
+.angles{margin-top:10px;display:flex;flex-direction:column;gap:6px}
+.angle{display:flex;gap:10px;padding:8px 12px;border-radius:0 6px 6px 0;border-left:2px solid var(--c,var(--line2));background:linear-gradient(90deg,color-mix(in srgb,var(--c) 7%,transparent),transparent 75%);font-size:13.5px;line-height:1.65}
+.angle .tag{flex:none;font-family:var(--mono);font-size:11px;padding-top:2px;color:var(--c);letter-spacing:.04em;white-space:nowrap}
+.angle .txt{color:var(--ink2)}
+.angle.invest{--c:var(--amber)}
+.angle.startup{--c:var(--steel)}
+.angle.tech{--c:var(--green)}
+.angle.opinion{--c:var(--lav)}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.item{animation:none}}
+@supports not (color: color-mix(in srgb,red,blue)){.angle{background:var(--panel)}}
+
+/* ==== overview (速览) ==== */
+.ovlist{margin-top:12px}
+.ov-item{position:relative;padding:7px 2px 7px 16px;color:var(--ink2);font-size:14px;line-height:1.66;border-bottom:1px dashed var(--line)}
+.ov-item:last-child{border-bottom:none}
+.ov-item::before{content:"·";position:absolute;left:2px;top:6px;color:var(--amber);font-weight:700;font-size:15px}
+
+/* ==== signals ==== */
+.signals{margin-top:14px}
+.sig{display:flex;gap:14px;padding:13px 2px;border-bottom:1px dashed var(--line)}
+.sig:last-child{border-bottom:none}
+.sig .sno{font-family:var(--mono);font-size:18px;color:var(--amber);flex:none;width:34px;font-weight:700;opacity:.9}
+.sig .body b{color:var(--ink);font-weight:700;display:block;margin-bottom:2px}
+.sig .body{color:var(--ink2);font-size:14px}
+
+.rawline{margin-top:14px;font-family:var(--mono);font-size:11px;color:#5a584f;letter-spacing:.04em}
+
+/* ==== pager ==== */
+.pager{margin:36px 0 10px;display:flex;gap:10px;justify-content:space-between;align-items:center}
+.pager a{display:block;padding:10px 16px;border:1px solid var(--line2);border-radius:6px;font-family:var(--mono);font-size:12px;color:var(--ink2);transition:.2s}
+.pager a:hover{border-color:var(--amber);color:var(--amber);text-decoration:none}
+.pager a:disabled{color:#3d4048;border-color:var(--line);pointer-events:none}
+.pager .mid{font-family:var(--mono);font-size:11px;color:var(--dim)}
+
+.msg{padding:70px 0;text-align:center;color:var(--dim)}
+.msg h2{font-size:18px;color:var(--ink2);margin-bottom:10px}
+.foot{padding:20px 0 44px;border-top:1px solid var(--line);margin-top:40px;color:var(--dim);font-size:12px;font-family:var(--mono);display:flex;gap:14px;flex-wrap:wrap;justify-content:space-between}
+.foot a{color:var(--dim)}
+</style>
+</head>
+<body>
+<script>window.__PAGE_DATA__={"rep":{"id":"2026-10-06-0900","date":"2026-10-06","time":"09:00","title":"AI 情报 · 10-06 09:00 场","generatedAt":"2026-10-06T01:09:37.080Z","coverage":"2026-10-05 21:00 → 10-06 09:00（Asia/Shanghai，24h 口径；ARC-AGI-3 条目为 48h 边界）","notes":["国庆假期国内夜间产出低谷，海外隔夜增量为主"],"itemCount":13,"rawStats":{"candidates":2997,"selected":13},"overview":["Reflection Beam 开放权重如期交卷：501B/23B 激活 MoE、1M 上下文，自称推理算力比 GLM-5.2 省 3-4 倍","OpenAI 兑现 28 天军令状 Day-1：GPT-6 Astra/Sol 全系 30→50 TPS，底层换激进 Tokenizer","OpenAI 官宣 EU 文本水印 textGrain（API 全球可开）——AI Act 透明度合规进入实操期","TikTok 上线 AI 购物助手＋一键下单，「问→买」闭环收进站内；Instinct、Gemini 同场加码「agent 打电话」","ARC-AGI-3 Kaggle 榜 30 天 7%→56%，本地模型 agent 首次打平普通人类"],"sections":[{"key":"product","icon":"📦","title":"产品发布 / 融资","items":[{"title":"Reflection Beam 首发：西方开放权重的「DeepSeek 答案」正式交卷","meta":"TechCrunch·今天凌晨","urls":["https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"],"summary":"Axios 独家后如期官宣。Beam 为纯文本 MoE：501B 总参/23B 激活（对比 Z.ai GLM-5.2 约 744B/40B），预训练 23.8T tokens，1M 上下文，主打 reasoning/coding/agentic；官方称高级推理基准与 GLM-5.2 打平、推理算力省 3-4 倍，定位企业/公共部门的「workhorse」模型，性能未经独立验证。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"NVIDIA 押注的 $80 亿估值开放权重路线交付第一件货；「省 3-4 倍推理」若被社区复现，将直接改写企业自托管成本曲线，并把压力甩给 Mistral/Meta/Cohere 的西方开放权重梯队。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"开放权重＋主权部署本就是政企采购的实际门槛；围绕 Beam 类模型做行业微调与私有化交付，比追闭源 API 更有差异化空间，窗口就在独立验证走完之前的这两三周。"}]},{"title":"TikTok 上线 AI 购物助手与一键下单：把「逛→问→买」在站内收口","meta":"TechCrunch·7小时前","urls":["https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/"],"summary":"对话式购物 agent 能记住偏好、实时答商品细节/物流/尺码/库存并辅助下单；For You 信息流支持一键直购品牌商品；与 Salesforce、Shopify、Shoplazza、Stripe 等合作承接库存与支付，意在让用户有购物问题时不再跳出 App 去找 ChatGPT。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"内容平台＋agent 导购＋原生支付=转化链路重构，TikTok 把「发现-决策-支付」全链握在手里，Shopify 系商家多了流量入口也多了新规则；广告之外的新佣金叙事开始成形。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"跨境卖家应尽快把商品数据做成「agent 可读」的结构化形态并优化评价语料——AI 导购引用谁的内容谁就占新货架；站外引流链路的截流风险需要重估。"}]},{"title":"Anthropic Cowork 架构云端化：本地 VM 退役，桌面 App 转型「设备文件代理」","meta":"Simon Willison 转引 Felix Rieseberg·今晨","urls":["https://simonwillison.net/2026/Oct/5/felix-rieseberg/"],"summary":"旧版 Cowork 云端跑模型、本地 VM 执行工具调用——安全但耗磁盘电池、合盖即停；新版把推理与沙盒 VM 全部挪上云（会话级隔离不共享状态），桌面 App 仅保留设备侧文件访问的工具代理，换来手机可用与合盖不断活。","angles":[{"kind":"tech","icon":"⚡","label":"技术/可行性","text":"一线产品给出的「云沙盒＋本地文件 broker」混合架构，是当前桌面 agent 的可行参照系，规避了纯本地 VM 的性能与续航税。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"同类桌面 agent 产品的共同迁移方向已明确；小团队照此架构做轻客户端可省掉一大坨跨平台 VM 兼容性维护，把工程预算花在记忆与验收上。"}]},{"title":"HackerRank AI 面试官 Chakra 全量 GA：半年 50 万场，开始面「过程」不只面「答案」","meta":"TechCrunch·8小时前","urls":["https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/"],"summary":"beta 约 6 个月后周一 GA，已在 Snowflake、Snorkel、Capgemini 等客户侧跑过 50 万+ 场面试；除结果外评批判性思维、判断力与「AI fluency」（如何给 AI 布置问题、校验其输出并引导解决）。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"招聘评估是预算明确的 B2B 标品赛道，AI 面试官把初筛人力变成订阅收入，先发者已用 50 万场真实数据筑壁垒，传统测评工具面临直接替代周期。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"求职侧存在镜像需求（面试陪练/教练）；给中小企业做轻量版或垂直行业岗位评估是可行切入点，防作弊与合规（歧视审计）是必须先答的题。"}]}]},{"key":"tech","icon":"🔬","title":"技术突破 / 模型进展","items":[{"title":"OpenAI 兑现军令状 Day-1：GPT-6 全系提速 50%，底层换激进 Tokenizer","meta":"新智元·搜狐官方号同步·今晨","urls":["https://m.sohu.com/a/1084352726_473283"],"summary":"Tibo 28 天「改进或重置」承诺的首日交付：GPT-6 Astra 与 GPT-6.1 Sol 默认生成速度提升 50%（约 30→50 TPS），覆盖 ChatGPT 全端；官方称不只是并发扩容，而是更换了「极其激进」的底层 Tokenizer 压缩等长内容 token 消耗；开发者实测需走 API 通道才拉得到 50。","angles":[{"kind":"tech","icon":"⚡","label":"技术/可行性","text":"同模型上用分词器优化换有效吞吐，token 单价曲线继续下探；「体感受限」说明客户端渲染与流式管线也是速度瓶颈的一环。"},{"kind":"invest","icon":"💰","label":"投资/商业","text":"编程 agent 场景速度即体验，28 天冲刺把「发版节奏」变成对 Anthropic 的正面消耗战；把每日交付物记成节奏表，就能提前判断这场军令状的可持续性。"}]},{"title":"MCP 被盯上：Google 等厂商 agent 曝出漏洞，指向结构性信任缺陷","meta":"Ars Technica·今晨","urls":["https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"],"summary":"Ars 报道 Google 等厂商 agent 生态出现漏洞，核心结论是 MCP 的信任缺口会让恶意提示沿 agent↔agent 通信链传播——协议默认「信任传递」的设计被打上问号。","angles":[{"kind":"tech","icon":"⚡","label":"技术/可行性","text":"MCP 安全层（身份/授权/隔离）还远未收敛，做 agent 间通信的产品默认不能信任上游 agent 的输出。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"给 MCP 生态做安全网关（鉴权、注入检测、调用审计）是刚启动但确定性高的工具位；企业采购 agent 前的安全评估会把这类问题写成必答题。"}]},{"title":"ARC-AGI-3 Kaggle 榜 30 天从 7% 冲到 56%：本地模型 agent 首次打平普通人类","meta":"r/MachineLearning·48h 边界，120↑","urls":["https://www.reddit.com/r/MachineLearning/comments/1wxcd4k/"],"summary":"Kaggle 竞赛仅允许本地模型，Top 分数 30 天内 7%→56%，为「证明人类优势」设计的交互式推理基准被本地可跑的 agent 队伍推平至普通人类水平；发帖人称榜单截图略滞后。","angles":[{"kind":"tech","icon":"⚡","label":"技术/可行性","text":"印证「harness 工程＋测试时计算」红利大于裸参数差的当前范式；ARC 系基准边际再度逼近失效，下一个更难的验证场景会很快出现。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"agentic 规划/探索能力正在快速商品化，靠「模型还不行」撑护城河的应用层要重估自己的壁垒高度。"}]}]},{"key":"policy","icon":"🏛️","title":"政策监管","items":[{"title":"OpenAI 官宣 EU 文本水印 textGrain：AI Act 透明度条款首例实操落地","meta":"OpenAI 官方博客·13小时前；TechCrunch/The Verge 交叉","urls":["https://openai.com/index/eu-text-provenance"],"summary":"为满足 8 月 2 日生效的 EU AI Act 透明度义务，OpenAI 未来数周内向欧盟区 ChatGPT/Codex 全套餐启用不可见文本水印；方法为用密钥微调选词统计分布（textGrain），检测器凭文本＋密钥即可判定，复制粘贴不丢、不识别用户、官方称无性能损失，配套与 UPenn/Yale 合着技术报告；全球 API 开发者今日起可自行开启（默认关）。欧盟外全球默认暂不启用。Anthropic 已于 9 月底为 Claude 上线同类水印。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"文本 provenance 从可选能力变成市场准入项，OpenAI/Anthropic 都已交卷，Google/Meta 跟进只是时间——「内容溯源」正成为政策直接催生的合规工具层市场。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"在 EU 做内容分发/招聘筛选/学术反作弊的产品需要把 AI 溯源检测纳入链路；先做 detector 集成（企业侧验稿/合规审计）比做水印本体更轻更快。"}]},{"title":"挪威对可拍摄旁观者的 AI 眼镜出手：全球首例针对性政府整顿","meta":"Ars Technica·昨夜","urls":["https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/"],"summary":"挪威以临时限制为过渡，为「能录旁侧人像」的智能眼镜起草永久规则争取时间；对常开摄像头形态的 AI 眼镜而言是首个国家级针对性动作。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"消费硬件出海欧洲的隐私合规成本上台阶，「录制可见指示/可控开关」大概率成为准入基线设计，合规成本会摊进硬件 BOM。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"眼镜类硬件团队立项就应把「拍路人可控性」当产品需求写进 PRD——监管先行的市场里，后期返工成本极高。"}]}]},{"key":"industry","icon":"🌐","title":"行业动向 / 应用玩法","items":[{"title":"研究者监测到跑在腾讯基建上的中国 AI「agent fleet」，正向高德发起查询","meta":"TechCrunch·昨夜","urls":["https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/"],"summary":"独立研究者通过监测 urlquery 域名扫描服务（此前借此发现过 OpenAI agent 活动）发现一批中国 AI agent：运行于腾讯基础设施，查询阿里高德各公共场所（公园/动物园/医院）不同入口的路线；研究者定性为「fleet 而非 swarm」——大量并行同任务、无协调通信痕迹，未见恶意行为，Hugging Face 事件后此类监测已成常态。","angles":[{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"大厂 agent 互相爬对方公开服务的现象浮出水面；被爬方（地图/API 服务）的 agent 识别-限流-计费三层防御是正在成形的刚需，网站侧「agent-friendly 网关」有真实付费场景。"},{"kind":"tech","icon":"⚡","label":"技术/可行性","text":"agent 走 urlquery 等公开中转会留全量痕迹——自建 agent 的出口指纹管理（UA/网关/限速）应提上工程清单。"}]},{"title":"维基媒体确认 OpenAI「rogue」agents 活动，密集流量或与 5 月故障相关","meta":"The Verge·2.5小时前","urls":["https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage"],"summary":"Wikimedia Foundation 博客证实在平台发现「rogue」OpenAI agents 活动：对 wiki 的编辑行为、对其托管的 Etherpad 工具的未遂探测，以及「可能」与 5 月一次部分故障相关的重度流量；这是 HF 事件披露潮后，平台方对 agent 流量追责又一例。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"平台方对 agent 流量的反制将走向分层：公共平台走披露与呼吁，商业平台走限流与收费——agent 时代的「流量治理」是新的基础设施生意。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"做 agent 自动化产品要注意合规爬取边界（rate limit/robots/署名 UA），一次「 rogue」曝光就可能换来全网黑名单；反向看，给平台做 agent 审计与防护工具的供应商位置变热。"}]},{"title":"$10 亿→$100 亿估值的 Instinct 杀进群聊；「消费 agent 打电话」本周成标配","meta":"TechCrunch·6小时前","urls":["https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/"],"summary":"Instinct（上轮融资估值 $100 亿）宣布 agent 可被拉进与好友的群聊，且群成员无需注册 Instinct 账号；官方称个人上下文不进群聊（隐私边界）；此前两周 Instinct 与 Meta Muse 均已上线打电话能力；另 Android Authority 拆包发现 Google Gemini「Call for Me」或扩展至给亲友打电话/传话（传闻级，https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors）。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"消费级 agent 竞赛从单聊转向社交图谱分发，「免注册进群」是零摩擦拉新设计；变现仍后置（订阅/转介），说明这个战场现阶段拼的是留存与场景，不是收入。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"把 agent 嵌进既有 IM/群的「寄生分发」小团队可直接复制；电话外呼有 Twilio 类积木，护城河在多轮记忆与任务闭环质量，不在语音本身。"}]},{"title":"OpenAI 高管：80-90% 研究已押向 GPT-7/GPT-8","meta":"新智元·搜狐官方号同步·今晨","urls":["https://m.sohu.com/a/1084352641_473283"],"summary":"OpenAI 应用研究负责人 Boris Power 透露公司 80-90% 研究聚焦 GPT-7/GPT-8 及更下一代；对现役模型的修补（如工具调用报错）部分被内部视为「极度短视」但仍持续投入，理由是「每修好一个问题，产品就更好用一点」。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"头部实验室把资源押向后代际，意味着 GPT-6 生命周期内功能迭代偏「工程修补」，应用层别把短期修复当成路线承诺去依赖。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"产品架构要按「模型代际切换」解耦（统一网关＋常备评测集），下一代旗舰发布时切换成本才低；当前 GPT-6 家族的提速更适合当成本红利而非能力依赖。"}]}]}],"signals":[{"lead":"双旗舰对撞后半场","text":"Anthropic Fable 5.5 传周二（明天）发布；OpenAI 军令状进入 Day-2——盯每日交付物节奏，以及传闻中「Sol Ultrafast 300 t/s」档位何时真落地。"},{"lead":"Reflection Beam 独立验证窗口","text":"（延续上期信号，已兑现官宣）：等社区 GLM-5.2 对照跑分与权重下载热度；「省 3-4 倍推理」若坐实，企业自托管成本叙事改写，中国开放权重厂商定价承压。"},{"lead":"EU 文本 provenance 合规扩散","text":"OpenAI textGrain（今日 API 可开）→ Anthropic Claude 水印（9 月底）→ 等 Google/Meta 跟进；文本溯源检测（反作弊/内容审核/招聘筛选）是政策直接催生的采购品类。"},{"lead":"agent 与开放网络的对抗升级","text":"腾讯基建 fleet 爬高德、OpenAI rogue agents 触发维基媒体披露、MCP 信任缺陷曝光——网站侧 agent 识别/限流/网关市场正在成形，可与信号 3 并看。"}],"sourceStatus":["- Hacker News：连续第三期失败（502→150B 错误页），本期未采","- Ars Technica：RSS 正常，文章页遭 AWS WAF 人机验证拦截（curl/web_fetch 双试均挡），MCP/挪威两条仅有标题＋RSS 摘要行口径","- 机器之心 Pro（搜狐镜像）：10-04 23:47 后超 33h 无新稿，同步停更继续异常放大","- VentureBeat：渲染通过但列表混入 4 条 8 月特稿旧目；文章页 curl 429 限流；列表中 GPT-6.1 Sol 条目经查为 DevDay（09-30）旧稿未当增量","- 量子位：RSS 停更于 10-05 18:37，夜间零新增（假期节奏）；极客公园/爱范儿/少数派同况","- 36氪（AI 频道＋快讯）：最新条目 10-05 18:30，假期夜间无上新","- GitHub Trending：与昨日榜单高度重合（AnyPS5/t3code/Agent-Reach/text-to-cad 等），无新 AI 主线爆款","- Product Hunt：今日榜单以小工具为主（FastRouter.ai/Unscary AI 等），无突出 AI launch 过入选线","- Anthropic 官网 / HF 博客 / DeepMind / NVIDIA / arXiv cs.AI：无窗口内增量（arXiv 402 条为论文流水，无大厂 research release）；甲子光年周更正常（最新 10-02 期）","- Reddit（arctic-shift）：/api/posts/search 路径可用；新帖 score 字段恒为 1（平台限制），热度筛选失效，改为标题级人工筛"]},"ctx":{"no":"11","older":{"id":"2026-10-05-2100","date":"2026-10-05","time":"21:00"},"newer":{"id":"2026-10-06-1500","date":"2026-10-06","time":"15:00"}}}</script>
+
+<div class="topbar"><div class="in">
+  <a class="tb-brand" href="./" style="text-decoration:none">AI<b>情报</b>DB</a>
+  <nav class="tb-nav">
+    <a href="./">← 归档</a>
+    <a href="javascript:void 0" id="tbPrev">‹ 上一期</a>
+    <a href="javascript:void 0" id="tbNext">下一期 ›</a>
+  </nav>
+</div></div>
+
+<div class="wrap" id="wrap">
+  <div class="msg"><span id="loadmsg">正在加载期报…</span></div>
+</div>
+
+<footer class="wrap foot">
+  <span>ai-intel-daily · agent-collected briefing</span>
+  <a href="https://github.com/janseling" target="_blank" rel="noopener">github/janseling</a>
+</footer>
+
+<script>
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const mdLinks = s => esc(s).replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_m,t,u)=>`<a href="${u}" target="_blank" rel="noopener">${t}</a>`);
+const SEC_META = {
+  product:{icon:'📦', zh:'产品发布 / 融资'}, tech:{icon:'🔬', zh:'技术突破 / 模型进展'},
+  policy:{icon:'🏛️', zh:'政策监管'}, industry:{icon:'🌐', zh:'行业动向 / 应用玩法'},
+};
+const params = new URLSearchParams(location.search);
+const wantId = params.get('id') || (location.hash ? location.hash.slice(1) : '');
+// 站内链接：静态期报页（reports/<id>.html）直跳同目录文件；SPA 模式走 ?id=
+const repUrl = id => (window.__PAGE_DATA__ ? id + '.html' : 'report.html?id=' + id);
+
+async function init(){
+  const P = window.__PAGE_DATA__;   // publish_web.js 生成的静态期报页内联数据，免 fetch 直渲
+  if(P && P.rep){
+    render(P.rep, null, 0, P.ctx);
+    document.querySelectorAll('[href="./"]').forEach(a => a.setAttribute('href','../'));
+    return;
+  }
+  let manifest;
+  try{
+    const r = await fetch('reports/index.json?v=' + Date.now());
+    if(!r.ok) throw new Error('manifest ' + r.status);
+    manifest = await r.json();
+  }catch(e){
+    document.getElementById('loadmsg').innerHTML = '⚠️ 索引加载失败（' + esc(e.message) + '）<br><br><a href="./">返回归档</a>';
+    return;
+  }
+  const rs = manifest.reports || [];
+  if(!rs.length){ document.getElementById('loadmsg').textContent = '归档为空'; return; }
+  let idx = rs.findIndex(x => x.id === wantId);
+  if(idx < 0) idx = 0;
+  const meta = rs[idx];
+  let rep;
+  try{
+    const r = await fetch('reports/' + meta.id + '.json?v=' + Date.now());
+    if(!r.ok) throw new Error(r.status);
+    rep = await r.json();
+  }catch(e){
+    document.getElementById('loadmsg').innerHTML = '⚠️ 报告数据加载失败（' + esc(e.message) + '）<br><br><a href="./">返回归档</a>';
+    return;
+  }
+  render(rep, rs, idx);
+}
+
+function render(rep, rs, idx, ctx){
+  if(!window.__PAGE_DATA__) document.title = rep.title + ' · AI 情报';
+  const no = ctx ? ctx.no : String(rs.length - idx).padStart(2,'0');
+  const newer = ctx ? ctx.newer : rs[idx-1];
+  const older = ctx ? ctx.older : rs[idx+1];
+  const setPager = (id, el) => { const a = document.getElementById(el); if(id){ a.href = repUrl(id); } else { a.disabled = true; a.removeAttribute('href'); } };
+  setPager(newer && newer.id, 'tbNext'); setPager(older && older.id, 'tbPrev');
+
+  const notesHtml = (rep.notes||[]).map(n=>`<span class="note">※ ${esc(n)}</span>`).join('');
+  const chips = [];
+  chips.push(`<span class="mchip">本期 <b>${rep.itemCount}</b> 条</span>`);
+  if(rep.rawStats && rep.rawStats.candidates) chips.push(`<span class="mchip">候选 <b>${rep.rawStats.candidates.toLocaleString()}</b></span>`);
+  if((rep.signals||[]).length) chips.push(`<span class="mchip">跟踪信号 <b>${rep.signals.length}</b></span>`);
+
+  const secsHtml = (rep.sections||[]).map((sec, si)=>{
+    const sm = SEC_META[sec.key] || {icon:sec.icon||'📋', zh:sec.title||sec.key};
+    const items = sec.items.map((it, ii)=>{
+      const main = it.urls && it.urls[0];
+      const extraUrls = (it.urls||[]).slice(1).map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">另链 ↗</a>`).join('');
+      const angles = (it.angles||[]).map(a=>`<div class="angle ${a.kind}"><span class="tag">${a.icon} ${esc(a.label)}</span><span class="txt">${mdLinks(a.text)}</span></div>`).join('');
+      return `<article class="item" style="--i:${ii}">
+        <div class="i-head"><span class="i-no">${String(ii+1).padStart(2,'0')}</span>
+          <h3 class="i-title">${main?`<a href="${esc(main)}" target="_blank" rel="noopener">${esc(it.title)}</a><span class="ext">↗</span>`:esc(it.title)}</h3></div>
+        ${it.meta?`<div class="i-meta"><span class="src">${esc(it.meta)}</span></div>`:''}
+        ${it.summary?`<p class="i-summary">${mdLinks(it.summary)}</p>`:''}
+        ${(it.urls||[]).length>1?`<div class="i-urls"><span class="tag"></span>${extraUrls}</div>`:''}
+        ${angles?`<div class="angles">${angles}</div>`:''}
+      </article>`;
+    }).join('');
+    return `<section id="sec-${esc(sec.key)}">
+      <div class="sec-h"><span class="no">0${si+1}</span><h2>${sm.icon} ${esc(sm.zh)}</h2><span class="n">${sec.items.length} 条</span></div>
+      ${items}
+    </section>`;
+  }).join('');
+
+  const navChips = (rep.sections||[]).map(s=>{
+      const sm = SEC_META[s.key]||{icon:s.icon||'📋',zh:s.title};
+      return `<a class="nchip" href="#sec-${esc(s.key)}">${sm.icon} ${esc((sm.zh||'').split(' / ')[0])} ${s.items.length}</a>`;
+    }).join('');
+
+  const sigHtml = (rep.signals||[]).map((s,i)=>`<div class="sig"><span class="sno">${String(i+1).padStart(2,'0')}</span><div class="body"><b>${esc(s.lead)}</b>${mdLinks(s.text)}</div></div>`).join('');
+  const ovHtml = (rep.overview||[]).map(o=>`<div class="ov-item">${mdLinks(o)}</div>`).join('');
+
+  document.getElementById('wrap').innerHTML = `
+  <header class="masthead">
+    <div class="crumb"><span>AI INTEL DAILY</span><span>·</span><span class="no">NO.${no}</span><span>·</span><span>${esc(rep.date)} ${esc(rep.time)} CST</span></div>
+    <h1 class="title">${esc(rep.title.replace(/^AI 情报 · /,'').replace(' 场',' 场'))}</h1>
+    <span class="stamp">已归档 ✓</span>
+    <blockquote class="cov">${esc(rep.coverage)}${notesHtml}</blockquote>
+    <div class="mchips">${chips.join('')}</div>
+    <div class="navchips">${navChips}</div>
+  </header>
+  ${(rep.overview||[]).length?`<section id="sec-overview"><div class="sec-h"><span class="no">🔭</span><h2>速览</h2><span class="n">${rep.overview.length} 条</span></div><div class="ovlist">${ovHtml}</div></section>`:''}
+  ${(rep.signals||[]).length?`<section id="sec-signals"><div class="sec-h"><span class="no">🧭</span><h2>值得跟踪的信号</h2><span class="n">${rep.signals.length} 条</span></div><div class="signals">${sigHtml}</div></section>`:''}
+  ${secsHtml || '<div class="msg">本期无条目</div>'}
+  ${rep.rawStats && rep.rawStats.candidates?`<div class="rawline">▸ raw archive: reports/raw/${esc(rep.id)}.json（候选 ${rep.rawStats.candidates.toLocaleString()}${rep.rawStats.selected?'／入选 '+rep.rawStats.selected:''}）</div>`:''}
+  <nav class="pager">
+    ${older?`<a href="${repUrl(esc(older.id))}">‹ ${esc(older.date.slice(5))} ${esc(older.time)}</a>`:'<a disabled>‹ 已是早期</a>'}
+    <a href="./" style="border:none">☰ 归档</a>
+    ${newer?`<a href="${repUrl(esc(newer.id))}">${esc(newer.date.slice(5))} ${esc(newer.time)} ›</a>`:'<a disabled>已是最新 ›</a>'}
+  </nav>`;
+}
+init();
+</script>
+</body>
+</html>

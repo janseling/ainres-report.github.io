@@ -3,8 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 情报 · 日报归档</title>
-<meta name="description" content="AI 行业情报日报档案 — 由 Agent 自动采集生成：产品发布/融资、技术突破、政策监管、行业动向">
+<title>AI 情报日报</title>
+<meta name="description" content="面向创业者的 AI 行业情报简报——产品发布/融资、技术突破、政策监管、行业动向与应用玩法。每天 09:00 / 15:00 / 21:00 三期，由 Agent 自动采集定稿。">
+<meta property="og:title" content="AI 情报日报">
+<meta property="og:description" content="面向创业者的 AI 行业情报简报——产品发布/融资、技术突破、政策监管、行业动向与应用玩法。每天 09:00 / 15:00 / 21:00 三期，由 Agent 自动采集定稿。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ainews.im-max.com/">
+<meta property="og:image" content="https://ainews.im-max.com/icon.png">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="600">
+<meta property="og:site_name" content="AI 情报日报">
+<meta property="og:locale" content="zh_CN">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='%230c0d10'/><circle cx='50' cy='50' r='10' fill='%23e8a33d'/><circle cx='50' cy='50' r='26' fill='none' stroke='%23e8a33d' stroke-width='3' opacity='.6'/><circle cx='50' cy='50' r='40' fill='none' stroke='%23e8a33d' stroke-width='2' opacity='.25'/></svg>">
 <style>
 :root{
@@ -171,7 +180,7 @@ function render(m){
         const ov = (x.overview||[]).map(o=>`<li>${esc(o)}</li>`).join('');
         const tagHtml = Object.entries(TAGS).filter(([k])=>x.sectionCounts&&x.sectionCounts[k])
           .map(([k,[ic,zh]])=>`<span>${ic} ${zh} ${x.sectionCounts[k]}</span>`).join('');
-        return `<a class="slot-card" href="report.html?id=${esc(x.id)}">
+        return `<a class="slot-card" href="reports/${esc(x.id)}.html">
           <div class="sc-head"><span class="sc-time${hour>=19?' night':''}">${esc(x.time)} 场</span><span class="sc-count"><b>${x.itemCount||'-'}</b> 条</span></div>
           <ul class="sc-ov">${ov||'<li>（本期无速览）</li>'}</ul>
           ${tagHtml?`<div class="sc-tags">${tagHtml}</div>`:''}
