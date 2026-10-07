@@ -1,0 +1,271 @@
+{
+  "id": "2026-10-07-1510",
+  "date": "2026-10-07",
+  "time": "15:10",
+  "title": "AI 情报 · 10-07 15:10 场",
+  "generatedAt": "2026-10-07T07:18:11.494Z",
+  "coverage": "10-07 09:05 → 10-07 15:16（Asia/Shanghai）",
+  "notes": [
+    "昨 09:00 场已报条目全部去重；OpenAI Decisions API 公测（今日凌晨 04:53）因上期 OpenAI RSS 403 + Reddit 全挂漏抓，本期补收"
+  ],
+  "itemCount": 10,
+  "rawStats": {
+    "candidates": 226,
+    "selected": 10
+  },
+  "overview": [
+    "谷歌深夜甩出 Nano Banana 2.1：出图价砍半至 $0.034/1K 打赢自家 Pro，思维类 token 却涨 3 倍",
+    "OpenAI Decisions API 公测：判断类请求有了专用端点，比 Responses 快约 10 倍、$0.10/百万输入 token",
+    "Anthropic 工程师静默提交 GitHub：Claude 被证拿下概率论「圣杯」渗流猜想，Lean 严格验证、第三方已当依赖扩展",
+    "可灵 IPO 实质推进：中金/高盛/瑞银阵容落定，募资至少 10 亿美元、最早 2027 上市",
+    "ChatGPT 标题里两年前埋的赌博色情小广告污染坑今天被深挖，OpenAI 7 月承认后半年未修"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "谷歌深夜偷袭：Nano Banana 2.1 出图价砍半、打赢自家 Pro",
+          "meta": "36氪·今日 14:29",
+          "urls": [
+            "https://36kr.com/p/4015347171233921"
+          ],
+          "summary": "基于 Gemini 3.6 Flash 的 Flash 级生图模型：蒙版局部编辑（圈哪改哪）、人物/产品连改多轮不变脸（最多 14 张参考图）、最高 4K 直出、画信息图会先联网查资料；Arena 多图编辑第 4（上代第 7）。出图 $30/百万 token，1K 一张 $0.034、4K $0.076，仅为上代一半；Gemini App/AI Studio/Google Ads 今日起陆续可用，旧 Nano Banana 2 API 10 月 29 日关停。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "价格结构比价格更关键——出图砍半同时输入 $0.5→$1.5、思考/文字输出 $3→$7.5，「便宜的像素、贵的思考」，谷歌把图像生成的钱从「画」挪到「想」；OpenAI GPT Image 的跟价反应是本周信号。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "电商图/营销素材成本线重写：1K 单张三分钱，蒙版+一致性让「批量出图免重拍」可用——图片商品化 pipeline 现在可以直接立项，成本模型按新价重算。"
+            }
+          ]
+        },
+        {
+          "title": "OpenAI Decisions API 公测：判断类请求有了专用端点",
+          "meta": "Reddit·今日 14:55",
+          "urls": [
+            "https://www.reddit.com/r/OpenAI/comments/1wzprt3/decisions_api_is_now_available_in_public_beta"
+          ],
+          "summary": "今日凌晨 04:53 OpenAI 宣布 Decisions API 向全体开发者公测：/v1/decisions 基于 GPT-6 Luna，输入文本/图片，输出 Predicates（断言概率）/Choices（选项+置信）/Scores（评分）三类结构化结果，官方称较 Responses API 快约 10 倍；$0.10/百万输入 token、输出不计费。DevDay（9-29）上它还是 limited preview。官方公告：https://community.openai.com/t/decisions-api-is-now-available-in-public-beta/1403877",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "「决策模型」从插件实验（TypeSafe Jev 借 Vercel 网关起量）升级为基座厂商标准 API 品类——风控/路由中间件的定价权回到模型厂手里，独立决策模型创业窗口被压缩（与已报 Musubi PolicyLM 主线相邻）。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "审核、风控、意图路由、agent 升级点判断等高频低延迟决策直接受益：把「提示词+主模型调用」换成专用端点，时延与单价双降；Anthropic/Google 对等端点值得盯（SIG-20261007-1510-1）。"
+            }
+          ]
+        },
+        {
+          "title": "可灵 IPO 实质推进：投行阵容落定，最早 2027 上市",
+          "meta": "36氪·今日 15:08",
+          "urls": [
+            "https://36kr.com/p/4015326443329157"
+          ],
+          "summary": "据 IT 之家昨引彭博，可灵选定中金、高盛、瑞银筹备港股 IPO，募资至少 10 亿美元；2026Q2 可灵收入超 8.5 亿元、同比增超 200%，同期快手集团 355 亿元、仅增 1.4%。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "AI 视频第一个「纯 AI 标的」成形——只看好 AI 视频的资金可直接买可灵，不必连坐快手的广告/电商/直播；可灵已被 Adobe Firefly、Runway 接入分发，但工具方同时卖 Veo/Runway，模型厂在分发渠道里同台竞价是真格局。双 IPO 信号（SIG-20261006-2100-1）本期核到新节点。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "季度 8.5 亿（订阅+API 双轨）可作 AI 视频变现锚点；做视频工具链/素材流水线的团队按可灵的价格分级与企业 API 包对齐成本基准。"
+            }
+          ]
+        },
+        {
+          "title": "Reika：围绕小本地模型优先设计的 coding agent CLI",
+          "meta": "Product Hunt·今日 11:36",
+          "urls": [
+            "https://www.producthunt.com/products/reika"
+          ],
+          "summary": "面向小体量本地模型的编码 agent 命令行工具，Product Hunt 当日上线。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "coding agent 工具链向「本地小模型优先」裂变，与 Claude Code Mods/DeepSeek Harness 标准之争（SIG-20261006-1500-4）同一主线——本地栈的插件/分发窗口对独立开发者友好，先看生态卡位再下注。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术突破 / 模型进展",
+      "items": [
+        {
+          "title": "Claude 被证拿下概率论「圣杯」：没有发布会，只有一次 GitHub 提交",
+          "meta": "36氪转新智元·今日 14:59",
+          "urls": [
+            "https://36kr.com/p/4015346980278153"
+          ],
+          "summary": "渗流理论连续相变猜想（Broadbent-Hammersley 1957 年提出）疑被 Claude 证明：Anthropic 工程师 Justin Leder 在 GitHub 静默提交 LLM 生成、Lean 严格验证的完整证明，覆盖 3~10 维临界相变连续性——无发布会、无官方博客。2022 菲尔兹奖得主 Duminil-Copin 8 月 30 日刚撰文称该猜想倒在 AI 只是时间问题；学界初步反应：Jahnel「若人类证出大概率拿菲尔兹」，Kalai「若验证成立将是非凡突破」。第三方仓库 percolation-after-anthropic 已把该证明钉为依赖、扩展 Kozma–Nitzan 不等式的 Lean 证明并留 VERIFICATION.md 复核记录。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "值得盯的是生态证据——「AI 证明成为他人可 pin 的依赖库」首次出现，Lean 形式化让 AI 数学从声明变成可复算资产。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "与 OpenAI 722 篇手稿（SIG-20261007-0900-1）同周共振：AI-for-math 的定价权在形式验证与复现基础设施手里；Anthropic 未官宣，等社区背书再升级结论。"
+            }
+          ]
+        },
+        {
+          "title": "【后续】OpenAI 722 篇数学手稿：三位菲尔兹奖得主「不代表认可」",
+          "meta": "量子位·今日 09:05",
+          "urls": [
+            "https://www.qbitai.com/2026/10/501749.html"
+          ],
+          "summary": "昨晨已报的 722 篇手稿/372 成果族继续发酵：三位菲尔兹奖得主公开表态「不代表认可」，数学家第一反应是「读不过来」。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "叙事折价信号：成果堆量 ≠ 学界共识，RSI 叙事加成要等复现与形式验证落地——验证基础设施才是这条链上确定性最高的变现位。"
+            }
+          ]
+        },
+        {
+          "title": "三星&上交提出 RoboICL：机器人「看一遍就会」，GPT-6 Astra 操控评测全面领先",
+          "meta": "机器之心Pro 搜狐同步·15:06",
+          "urls": [
+            "https://m.sohu.com/a/1084749170_129720"
+          ],
+          "summary": "RoboICL 用 in-context learning 做机器人操控：给出 30 任务类别结果、与直接控制/混合系统对照、跨 embodiment 真机迁移（929 条 episode），GPT-6 Astra 多项评测领先。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "操控任务从「逐任务微调」转向「示范即提示词」，跨本体迁移是最难也最值钱的一环。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "若 ICL 路线坐实，示范数据「按条复用」价值重估——采集/清洗/交易机器人示范数据的生意可以有新报价单。"
+            }
+          ]
+        },
+        {
+          "title": "EMNLP 2026 现场演示：「AI 把数字说歪」",
+          "meta": "机器之心Pro 搜狐同步·15:09",
+          "urls": [
+            "https://m.sohu.com/a/1084751827_129720"
+          ],
+          "summary": "官方 AI 审稿演示暴露一类错误——「统计主张失真」：数字全对但结论被说歪；对实验结果的评价本质是统计报告生成，LLM 会把对的结果错读。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "AI 审稿/文献工具的卖点不该是「能读」，而是「数字-结论一致性审计」——常规幻觉检查防不了这类失真，是学术工具层的明确空白。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业 · 应用",
+      "items": [
+        {
+          "title": "Anthropic 把最强模型权限分三档开放给安全团队",
+          "meta": "36氪·今日 10:42",
+          "urls": [
+            "https://36kr.com/p/4015209455456387"
+          ],
+          "summary": "Cyber Verification Program 扩为三档，对通过审查的安全团队逐档放宽网络攻防操作限制；背景是 Glasswing 项目伙伴累计挖出 12.9 万个漏洞。上月底 Anthropic 刚警告开放下载的 GLM-5.3 缺乏有效防护、呼吁扩大守方访问。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "安全团队「模型访问分级」成为正规产品线：审查、认证、申请流程本身就是服务；攻防演练、漏洞赏金、企业 agent 安全采购都会先问「能不能拿到高级模型权限」。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "开放权重阵营把门槛踩平的当下，Anthropic 用信任分层对冲——「卖访问+卖信任」是安全场景的防线，也是 agent 合规采购清单的先行条目。"
+            }
+          ]
+        },
+        {
+          "title": "ChatGPT 标题里的赌博色情小广告：两年前埋的坑今天暴雷",
+          "meta": "36氪·今日 14:30",
+          "urls": [
+            "https://36kr.com/p/4015290777981060"
+          ],
+          "summary": "爱范儿假期深挖：污染可追溯至 2024 年，1 月渗入 Codex CLI、2 月上 API、4 月泛滥、8 月中旬起出现在普通用户会话标题；OpenAI 7 月 25 日称「未来更新解决」后半年未修。标题生成是独立的轻量推理模型，思维链漏进输出、系统提示词片段也被吐出。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "两个工程要点：推理 CoT 与正式输出边界未闭合；独立小模型共享同一污染语料谱系——污染沿「轻量模型+共享语料」扩散是系统性风险。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "AI 内容供应链的检测/清洗（异常字符串告警、语料投毒扫描）是真实 B 端付费点；「输出审计能力」会像隐私承诺一样进企业采购合同附件。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "Decisions API 能否立成「判断请求」行业标准",
+      "text": "（SIG-20261007-1510-1，10-13 复核）：盯 Anthropic/Google 对等端点与第三方中间件适配——谁立标准谁收 agent 中间层过路费。"
+    },
+    {
+      "lead": "图像生成「画便宜、想贵」定价结构扩散",
+      "text": "（SIG-20261007-1510-2，10-13 复核）：Nano Banana 2.1 出图减半、思考 token 涨 3 倍，盯 GPT Image 跟价与开发者成本模型改写。"
+    },
+    {
+      "lead": "Claude 渗流证明的形式社区背书",
+      "text": "（SIG-20261007-1510-3，10-12 复核）：盯 percolation-after-anthropic 的 VERIFICATION.md 后续、数学社区评论与 Anthropic 是否官宣。"
+    },
+    {
+      "lead": "续跟",
+      "text": "SIG-20261007-0900-1（722 篇验证窗口，10-14）本期新增菲尔兹奖得主冷回应与 Claude 证明共振；SIG-20261006-2100-1（双 IPO，check 提前至 10-13）本期核到可灵投行阵容落定。"
+    }
+  ],
+  "sourceStatus": [
+    "- VentureBeat：DOWN（渲染 0 条，Vercel 挡板，连续 2 期——逼近 3 期停用线，下期仍挂即建议停用）",
+    "- GitHub Trending：DOWN（curl 超时 25s，本期首次失败，观察一档）",
+    "- 备注：OpenAI RSS 直链 403 本期仍 0 条（sources.json 已配渲染兜底，下期复测）；Reddit 上期全挂本期恢复（61 条进窗）；搜狐三镜像 parse_loss 合计 11 条（多为作者页杂音）。无连续 3+ 期失败源，本期无停用建议。"
+  ]
+}

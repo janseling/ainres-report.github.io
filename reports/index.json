@@ -1,6 +1,31 @@
 {
-  "count": 14,
+  "count": 15,
   "reports": [
+    {
+      "id": "2026-10-07-1510",
+      "date": "2026-10-07",
+      "time": "15:10",
+      "title": "AI 情报 · 10-07 15:10 场",
+      "itemCount": 10,
+      "coverage": "10-07 09:05 → 10-07 15:16（Asia/Shanghai）",
+      "note": "昨 09:00 场已报条目全部去重；OpenAI Decisions API 公测（今日凌晨 04:53）因上期 OpenAI RSS 403 + Reddit 全挂漏抓，本期补收",
+      "overview": [
+        "谷歌深夜甩出 Nano Banana 2.1：出图价砍半至 $0.034/1K 打赢自家 Pro，思维类 token 却涨 3 倍",
+        "OpenAI Decisions API 公测：判断类请求有了专用端点，比 Responses 快约 10 倍、$0.10/百万输入 token",
+        "Anthropic 工程师静默提交 GitHub：Claude 被证拿下概率论「圣杯」渗流猜想，Lean 严格验证、第三方已当依赖扩展",
+        "可灵 IPO 实质推进：中金/高盛/瑞银阵容落定，募资至少 10 亿美元、最早 2027 上市",
+        "ChatGPT 标题里两年前埋的赌博色情小广告污染坑今天被深挖，OpenAI 7 月承认后半年未修"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 4,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": 226,
+        "selected": 10
+      }
+    },
     {
       "id": "2026-10-07-0900",
       "date": "2026-10-07",
