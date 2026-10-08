@@ -3,7 +3,7 @@
   "date": "2026-10-05",
   "time": "21:00",
   "title": "AI 情报 · 10-05 21:00 场",
-  "generatedAt": "2026-10-05T13:14:06.749Z",
+  "generatedAt": "2026-10-08T06:32:08.717Z",
   "coverage": "2026-10-05 15:00 → 21:00（Asia/Shanghai，24h 口径；ThinkingBox 条目为 48h 边界）",
   "notes": [
     "信源状态见文末",
@@ -48,7 +48,25 @@
               "text": "围绕 ChatGPT Ads 的投放代理、素材生成、measurement 插件是新的工具层市场——今天官方公布的 partner 名单就是进生态的门票清单；图像生成场景对电商素材客户天然友好。"
             }
           ],
-          "source_tier": "A"
+          "source_tier": "A",
+          "type_tags": [
+            "产品发布",
+            "商业合作"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文+Digiday 同报",
+          "publish_time": "2026-10-05 18:00",
+          "verify_note": "外部检索（ads.openai.com 测量博客 10-05 同日发布；Digiday 10-05 跟进）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "ChatGPT",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Cohere North 2：给企业 agent 加\"预算刹车\"，harness 重设计",
@@ -71,7 +89,23 @@
               "text": "与 Simon Willison「默认硬预算上限」的呼吁同向；给任意 agent 栈加消费护栏是通用插件机会，尤其适配中大型客户私有化部署。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·VentureBeat",
+          "publish_time": "2026-10-05 21:00",
+          "entities": [
+            {
+              "name": "Cohere",
+              "type": "企业"
+            },
+            {
+              "name": "North 2",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "机器人安全验证赛道开张：Safeworld 出 stealth，数字人替真人测机器人",
@@ -94,7 +128,34 @@
               "text": "仿真验证、保险定价、合规认证三条出口都能长成服务型生意；国内具身智能出海同样需要这类背书，交付团队可先建立评估方法论。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源·多 outlet 同报",
+          "publish_time": "2026-10-05 20:00",
+          "event_time": "2026-10-05",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Ground News 聚合 8 源 $12.2M 口径；cryptobriefing 同报；CMU spinout）",
+          "entities": [
+            {
+              "name": "Safeworld",
+              "type": "企业"
+            },
+            {
+              "name": "Ding Zhao",
+              "type": "人物"
+            },
+            {
+              "name": "CMU",
+              "type": "机构"
+            },
+            {
+              "name": "Shine Capital",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -124,7 +185,31 @@
               "text": "agent 记忆压缩与经验沉淀中间件是明牌需求，把这层做扎实比换模型提分更便宜、更难被替换。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·社区实验自报",
+          "publish_time": "2026-10-05 18:36",
+          "entities": [
+            {
+              "name": "Arena AI",
+              "type": "企业"
+            },
+            {
+              "name": "Claude Opus 5.5",
+              "type": "产品"
+            },
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "Stockfish",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "陶哲轩深夜站台：Caltech 物理拿下无强迫 3D 欧拉方程奇点候选解",
@@ -147,7 +232,31 @@
               "text": "论文与代码路径公开（tensorlab.cms.caltech.edu），小算力可复现，科研团队低成本跟进的窗口是开的。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·论文与博客路径公开，未独立复核",
+          "publish_time": "2026-10-05 14:58",
+          "entities": [
+            {
+              "name": "陶哲轩",
+              "type": "人物"
+            },
+            {
+              "name": "Caltech",
+              "type": "机构"
+            },
+            {
+              "name": "Anima Anandkumar",
+              "type": "人物"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "4D 世界模型进手机：MoWorld 让 Mate 90 变成\"可以走进去\"的场",
@@ -170,7 +279,28 @@
               "text": "4D/3D 空间资产生成＋端云协同是影视预演、机器人仿真、长尾驾驶数据三类 B 端需求的共同底座，跟着国产硬件链做交付是差异化路径。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布",
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·新智元",
+          "publish_time": "2026-10-05 14:58",
+          "entities": [
+            {
+              "name": "魔芯科技",
+              "type": "企业"
+            },
+            {
+              "name": "MoWorld",
+              "type": "产品"
+            },
+            {
+              "name": "华为",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "Microsoft ThinkingBox：agent 验收从\"动作对不对\"转向\"终态对不对\"",
@@ -193,7 +323,28 @@
               "text": "agent 交付的\"验收标准\"是 B 端签约卡点，把终态断言判卷层产品化（对接 ERP/CRM）能直接接住采购流程最后一环。"
             }
           ],
-          "source_tier": "A"
+          "source_tier": "A",
+          "type_tags": [
+            "产品发布",
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·微软团队官方博文",
+          "publish_time": "2026-10-04 06:56",
+          "entities": [
+            {
+              "name": "Microsoft",
+              "type": "企业"
+            },
+            {
+              "name": "ThinkingBox",
+              "type": "产品"
+            },
+            {
+              "name": "Model Context Protocol",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "395M 决策模型 10ms 选型：微型决策模型品类成形",
@@ -216,7 +367,31 @@
               "text": "决策路由＋预算护栏＋终态验收正在合流成\"agent 运维层\"，一周内三个同类开源出现，说明需求已真实到有人抢跑。"
             }
           ],
-          "source_tier": null
+          "source_tier": null,
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源·社区项目自报，基准未证实",
+          "publish_time": "2026-10-05 16:34",
+          "entities": [
+            {
+              "name": "DecisionTune",
+              "type": "产品"
+            },
+            {
+              "name": "Amazon",
+              "type": "企业"
+            },
+            {
+              "name": "Strands Decider",
+              "type": "产品"
+            },
+            {
+              "name": "StartLux",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -246,7 +421,27 @@
               "text": "跨设备任务接管（一次下达、多端执行）是个人 agent 下一场硬仗；用 IM（Telegram/微信）当任务入口的分发成本最低，小团队友好。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·人物专访自述",
+          "publish_time": "2026-10-05 16:30",
+          "entities": [
+            {
+              "name": "Rabbit",
+              "type": "企业"
+            },
+            {
+              "name": "吕骋",
+              "type": "人物"
+            },
+            {
+              "name": "OS3",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "企业自建 Agent 复盘：ServiceNow Digital Worker 的痛点比路线图预设更窄",
@@ -269,7 +464,23 @@
               "text": "ITSM/CRM 这类高确定流程的 SaaS 是 agent 落地收割区，服务交付商的报价单位正从\"人天\"转向\"流程接管率\"。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（企业自建案例复盘）"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·VentureBeat 自述",
+          "publish_time": "2026-10-04 23:00",
+          "entities": [
+            {
+              "name": "ServiceNow",
+              "type": "企业"
+            },
+            {
+              "name": "browser-use",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "德国电信：2030 年前 AI 与自动化省出 €25 亿间接成本",
@@ -286,7 +497,19 @@
               "text": "欧洲头部运营商给出三年期量化 ROI，说明 agent 采购正从\"试点预算\"转\"成本中心 KPI\"——这类数字会加速同业立项，B 端交付团队可以用同类算法帮客户算账。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·36氪快讯",
+          "publish_time": "2026-10-05",
+          "entities": [
+            {
+              "name": "Deutsche Telekom",
+              "type": "企业"
+            }
+          ]
         }
       ]
     }
