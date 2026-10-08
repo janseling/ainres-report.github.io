@@ -3,7 +3,7 @@
   "date": "2026-10-04",
   "time": "15:00",
   "title": "AI 情报 · 10-04 15:00 场",
-  "generatedAt": "2026-10-08T07:21:38.683Z",
+  "generatedAt": "2026-10-08T19:47:40.682Z",
   "coverage": "10-04 09:00 → 15:00（Asia/Shanghai）　※ 补刊（生成于 2026-10-08，非当时原发）",
   "notes": [
     "国庆假期候选稀少：35 条原始候选中有效约 15 条，宁缺毋滥从严取 6 条；与 10-04 09:00 补刊场及 10-05 起各期去重（智东西 5 条经原链核实为 9-22 及更早旧文、r/LocalLLaMA 热帖所指 Anthropic 游说转向原报道为 09-29 旧闻、Apple 收紧全磁盘访问 10-03 已报，均剔除）"
@@ -182,6 +182,7 @@
           "confidence": "低",
           "confidence_note": "D源·自报数据，仓库开源可核，未见第三方评测",
           "publish_time": "2026-10-04 11:48",
+          "verify_note": "外部检索（AGI Hunt 同步报道：10-08 简报第 1409 期收录 5.2KB 汇编引擎跑 Gemma-2B、CPU 4.6 tok/s 同口径；Tech Ticker Times/PulseAugur 同刊），仓库已进 Trendshift 趋势收录（tomtsai28/PULSAR-ASM·零运行时可核）",
           "entities": [
             {
               "name": "Gemma",
