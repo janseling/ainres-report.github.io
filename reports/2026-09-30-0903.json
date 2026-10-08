@@ -3,7 +3,7 @@
   "date": "2026-09-30",
   "time": "09:03",
   "title": "AI 情报 · 09-30 09:03 场",
-  "generatedAt": "2026-10-08T07:21:38.678Z",
+  "generatedAt": "2026-10-08T11:42:23.565Z",
   "coverage": "2026-09-29 09:03 → 2026-09-30 09:03（Asia/Shanghai）",
   "notes": [
     "信源状态见文末（上期失效的量子位本期已恢复）"
@@ -423,7 +423,9 @@
           ],
           "confidence": "低",
           "confidence_note": "单源·Politico 页反爬细节未核·HN 转述",
-          "publish_time": "2026-09-30 03:45",
+          "publish_time": "2026-09-29",
+          "event_time": "2026-09-29",
+          "event_time_inferred": false,
           "entities": [
             {
               "name": "OpenAI",
@@ -497,6 +499,8 @@
           "confidence": "低",
           "confidence_note": "快讯转引新浪·知情人士信源未证实",
           "publish_time": "2026-09-29",
+          "event_time": "2026-09-29",
+          "event_time_inferred": false,
           "entities": [
             {
               "name": "NVIDIA",
