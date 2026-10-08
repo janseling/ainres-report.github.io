@@ -3,7 +3,7 @@
   "date": "2026-10-05",
   "time": "15:00",
   "title": "AI 情报 · 10-05 15:00 场",
-  "generatedAt": "2026-10-08T07:21:38.684Z",
+  "generatedAt": "2026-10-08T18:17:17.095Z",
   "coverage": "2026-10-04 15:00 → 2026-10-05 15:00（Asia/Shanghai，24h 口径；System76 条目为 48h 边界）",
   "notes": [
     "信源状态见文末",
@@ -108,9 +108,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·社区实测，无独立佐证",
+          "confidence": "高",
+          "confidence_note": "双源佐证 argofowl 原帖 X/threads 存档+findgoodai/新智元 独立报道",
           "publish_time": "2026-10-05 08:50",
+          "verify_note": "外部检索（twiscan/topicdigg 存档 argofowl 10-03 原帖：Codex cua_repl 实为 ChatGPT Mac 应用内置本地 MCP server，Claude Code 接管后同 8 任务 6/8=codex 原配；findgoodai/新智元 独立同报）",
           "entities": [
             {
               "name": "OpenAI",
