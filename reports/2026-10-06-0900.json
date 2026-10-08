@@ -3,7 +3,7 @@
   "date": "2026-10-06",
   "time": "09:00",
   "title": "AI 情报 · 10-06 09:00 场",
-  "generatedAt": "2026-10-06T01:09:37.080Z",
+  "generatedAt": "2026-10-08T05:58:48.431Z",
   "coverage": "2026-10-05 21:00 → 10-06 09:00（Asia/Shanghai，24h 口径；ARC-AGI-3 条目为 48h 边界）",
   "notes": [
     "国庆假期国内夜间产出低谷，海外隔夜增量为主"
@@ -47,7 +47,34 @@
               "text": "开放权重＋主权部署本就是政企采购的实际门槛；围绕 Beam 类模型做行业微调与私有化交付，比追闭源 API 更有差异化空间，窗口就在独立验证走完之前的这两三周。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "官方原文+多家同报佐证",
+          "publish_time": "2026-10-06 03:33",
+          "event_time": "2026-10-05",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Reflection 官方博客同口径；Gate/ForkLog/Particle 多家跟进，另有自报 SWE-bench 80.9）",
+          "entities": [
+            {
+              "name": "Reflection",
+              "type": "企业"
+            },
+            {
+              "name": "Beam",
+              "type": "产品"
+            },
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "智谱AI",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "TikTok 上线 AI 购物助手与一键下单：把「逛→问→买」在站内收口",
@@ -70,7 +97,27 @@
               "text": "跨境卖家应尽快把商品数据做成「agent 可读」的结构化形态并优化评价语料——AI 导购引用谁的内容谁就占新货架；站外引流链路的截流风险需要重估。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-06 02:29",
+          "entities": [
+            {
+              "name": "TikTok",
+              "type": "企业"
+            },
+            {
+              "name": "Shopify",
+              "type": "企业"
+            },
+            {
+              "name": "Stripe",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "Anthropic Cowork 架构云端化：本地 VM 退役，桌面 App 转型「设备文件代理」",
@@ -93,7 +140,31 @@
               "text": "同类桌面 agent 产品的共同迁移方向已明确；小团队照此架构做轻客户端可省掉一大坨跨平台 VM 兼容性维护，把工程预算花在记忆与验收上。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·转引亲历者推文",
+          "publish_time": "2026-10-06 07:56",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Cowork",
+              "type": "产品"
+            },
+            {
+              "name": "Simon Willison",
+              "type": "人物"
+            },
+            {
+              "name": "Felix Rieseberg",
+              "type": "人物"
+            }
+          ]
         },
         {
           "title": "HackerRank AI 面试官 Chakra 全量 GA：半年 50 万场，开始面「过程」不只面「答案」",
@@ -116,7 +187,25 @@
               "text": "求职侧存在镜像需求（面试陪练/教练）；给中小企业做轻量版或垂直行业岗位评估是可行切入点，防作弊与合规（歧视审计）是必须先答的题。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-06 00:43",
+          "event_time": "2026-10-05",
+          "event_time_inferred": true,
+          "entities": [
+            {
+              "name": "HackerRank",
+              "type": "企业"
+            },
+            {
+              "name": "Chakra",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -146,7 +235,33 @@
               "text": "编程 agent 场景速度即体验，28 天冲刺把「发版节奏」变成对 Anthropic 的正面消耗战；把每日交付物记成节奏表，就能提前判断这场军令状的可持续性。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-06 07:58",
+          "event_time": "2026-10-06",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "GPT-6.1 Sol",
+              "type": "产品"
+            },
+            {
+              "name": "Tibo Sottiaux",
+              "type": "人物"
+            }
+          ]
         },
         {
           "title": "MCP 被盯上：Google 等厂商 agent 曝出漏洞，指向结构性信任缺陷",
@@ -169,7 +284,23 @@
               "text": "给 MCP 生态做安全网关（鉴权、注入检测、调用审计）是刚启动但确定性高的工具位；企业采购 agent 前的安全评估会把这类问题写成必答题。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·RSS摘要口径",
+          "publish_time": "2026-10-06 06:26",
+          "entities": [
+            {
+              "name": "Model Context Protocol",
+              "type": "产品"
+            },
+            {
+              "name": "Google",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "ARC-AGI-3 Kaggle 榜 30 天从 7% 冲到 56%：本地模型 agent 首次打平普通人类",
@@ -192,7 +323,23 @@
               "text": "agentic 规划/探索能力正在快速商品化，靠「模型还不行」撑护城河的应用层要重估自己的壁垒高度。"
             }
           ],
-          "source_tier": null
+          "source_tier": null,
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源·社区帖榜单自述",
+          "publish_time": "2026-10-04 18:24",
+          "entities": [
+            {
+              "name": "ARC-AGI-3",
+              "type": "产品"
+            },
+            {
+              "name": "Kaggle",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -222,7 +369,34 @@
               "text": "在 EU 做内容分发/招聘筛选/学术反作弊的产品需要把 AI 溯源检测纳入链路；先做 detector 集成（企业侧验稿/合规审计）比做水印本体更轻更快。"
             }
           ],
-          "source_tier": "A"
+          "source_tier": "A",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-10-05 23:00",
+          "event_time": "2026-10-05",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（TechCrunch/The Hindu 同报，官方技术报告同发）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "ChatGPT",
+              "type": "产品"
+            },
+            {
+              "name": "Codex",
+              "type": "产品"
+            },
+            {
+              "name": "textGrain",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "挪威对可拍摄旁观者的 AI 眼镜出手：全球首例针对性政府整顿",
@@ -245,7 +419,23 @@
               "text": "眼镜类硬件团队立项就应把「拍路人可控性」当产品需求写进 PRD——监管先行的市场里，后期返工成本极高。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·RSS摘要口径",
+          "publish_time": "2026-10-05 21:39",
+          "entities": [
+            {
+              "name": "挪威政府",
+              "type": "机构"
+            },
+            {
+              "name": "智能眼镜",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -275,7 +465,27 @@
               "text": "agent 走 urlquery 等公开中转会留全量痕迹——自建 agent 的出口指纹管理（UA/网关/限速）应提上工程清单。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·独立研究者监测",
+          "publish_time": "2026-10-05 22:35",
+          "entities": [
+            {
+              "name": "腾讯",
+              "type": "企业"
+            },
+            {
+              "name": "阿里巴巴",
+              "type": "企业"
+            },
+            {
+              "name": "高德",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "维基媒体确认 OpenAI「rogue」agents 活动，密集流量或与 5 月故障相关",
@@ -298,7 +508,23 @@
               "text": "做 agent 自动化产品要注意合规爬取边界（rate limit/robots/署名 UA），一次「 rogue」曝光就可能换来全网黑名单；反向看，给平台做 agent 审计与防护工具的供应商位置变热。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·援引官方博客",
+          "publish_time": "2026-10-06 06:22",
+          "entities": [
+            {
+              "name": "Wikimedia Foundation",
+              "type": "机构"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "$10 亿→$100 亿估值的 Instinct 杀进群聊；「消费 agent 打电话」本周成标配",
@@ -321,7 +547,35 @@
               "text": "把 agent 嵌进既有 IM/群的「寄生分发」小团队可直接复制；电话外呼有 Twilio 类积木，护城河在多轮记忆与任务闭环质量，不在语音本身。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·含传闻级扩展",
+          "publish_time": "2026-10-06 02:54",
+          "entities": [
+            {
+              "name": "Instinct",
+              "type": "企业"
+            },
+            {
+              "name": "Meta",
+              "type": "企业"
+            },
+            {
+              "name": "Muse",
+              "type": "产品"
+            },
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "Gemini",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "OpenAI 高管：80-90% 研究已押向 GPT-7/GPT-8",
@@ -344,7 +598,31 @@
               "text": "产品架构要按「模型代际切换」解耦（统一网关＋常备评测集），下一代旗舰发布时切换成本才低；当前 GPT-6 家族的提速更适合当成本红利而非能力依赖。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-06 07:58",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Boris Power",
+              "type": "人物"
+            },
+            {
+              "name": "GPT-7",
+              "type": "产品"
+            },
+            {
+              "name": "GPT-8",
+              "type": "产品"
+            }
+          ]
         }
       ]
     }
