@@ -174,7 +174,7 @@
               "text": "RAG 私有化交付的报价里可以砍掉 embedding API 预算项；顺带盯 HF 下载热度判断采用速度，嵌入 API 厂商的调价反应是先行指标。"
             }
           ],
-          "source_tier": null
+          "source_tier": "A"
         },
         {
           "title": "Musubi 开放 PolicyLM-1.7B：实时内容审核专用决策模型",
@@ -221,7 +221,7 @@
               "text": "企业采购 agent 的合规必答题清单正在成形（访问审计、熔断开关、训练数据隔离），先落地的供应商能拿政府/金融客户。⚡ 技术/可行性：「训练中可熔断」意味着训练管线要内建外呼审计，是新的 infra 需求点。"
             }
           ],
-          "source_tier": null
+          "source_tier": "B"
         },
         {
           "title": "网站该不该给 agent 开门？新标准试图给「机器准入」立规矩",

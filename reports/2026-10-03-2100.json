@@ -100,13 +100,13 @@
               "text": "至此 O/A/M 三家全部下场 AI-for-math，「数学突破」成旗舰模型的标准叙事资产；科研 agent 的可信披露与验证流程本身正在变成一个服务品类。"
             }
           ],
-          "source_tier": null,
+          "source_tier": "B",
           "type_tags": [
             "技术进展"
           ],
           "confidence": "高",
           "confidence_note": "官方论文页+官宣列表佐证·镜像稿晚于官方 1 天",
-          "publish_time": null,
+          "publish_time": "2026-10-03 18:44",
           "event_time": "2026-10-02",
           "event_time_inferred": false,
           "verify_note": "外部检索（ai.meta.com/research/publications 论文页在列；Alexandr Wang X 官宣 6 题清单与文内一致；財経新聞引 Tech Times「Meta 10-02 公开 6 论文、5 篇解开此前未解问题」）",
@@ -278,13 +278,13 @@
               "text": "「署名/credit 与训练数据边界」成为学术界对模型公司的下一轮争议焦点；高校与科研机构的 AI 采购将把「训练数据来源披露+成果授权条款」写进合同，先给高校留出数据主权的厂商拿单阻力更小。"
             }
           ],
-          "source_tier": null,
+          "source_tier": "B",
           "type_tags": [
             "其他"
           ],
           "confidence": "中",
           "confidence_note": "B单源·人物访谈观点主导，部分指控未经证实",
-          "publish_time": null,
+          "publish_time": "2026-10-03 18:44",
           "original_title": "北大07级数学系校友：O/A两家做的事，在毁掉数学系的年轻人",
           "entities": [
             {

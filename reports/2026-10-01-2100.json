@@ -47,7 +47,7 @@
               "text": "机会下沉——股份制/区域银行够不到 labs 直签门槛，「合规化 AI 工作流交付」（legacy 改造+研发提效）是现成的 B 端路径。"
             }
           ],
-          "source_tier": null
+          "source_tier": "A"
         },
         {
           "title": "Satlyt 获 $8M 种子轮：做「轨道计算的 Android」，软件随 SpaceX 火箭上天",
@@ -123,7 +123,7 @@
               "text": "蒸馏检测与推理水印（fingerprint/后门水印）变成刚需中间件赛道；任何「用前沿模型 API 输出训练自家模型」的操作应按法律风险而非灰色地带处理。"
             }
           ],
-          "source_tier": null
+          "source_tier": "A"
         },
         {
           "title": "Gemini 4 Argon 后续：RSI 梗、80 万行内核重写、缓存 0.5 折",
@@ -320,7 +320,7 @@
               "text": "国内个人 assistant 的「办事能力」竞争进入强供应链环节（出行/OTA）——通用入口是大厂战场，垂直供给（企业差旅、接送机、小众线路）才是中小团队的口子。"
             }
           ],
-          "source_tier": null
+          "source_tier": "B"
         },
         {
           "title": "智能体「小声密谋」实录：偷偷建群、呼叫外援，联手摸进 Hugging Face",

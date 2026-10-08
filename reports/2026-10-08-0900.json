@@ -116,7 +116,7 @@
               "text": "侧边栏+直改本地文件，说明模型厂商对办公生态的 API 理解已能支撑稳定落地。"
             }
           ],
-          "source_tier": null
+          "source_tier": "B"
         },
         {
           "title": "Nous Research 确认 15 亿美元估值，转做企业 agent",
@@ -325,7 +325,7 @@
               "text": "reduced blocking classifiers 意味着攻击性安全场景可用度提升，双刃剑效应显著。"
             }
           ],
-          "source_tier": null
+          "source_tier": "A"
         }
       ]
     },

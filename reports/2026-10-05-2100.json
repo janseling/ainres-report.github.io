@@ -48,7 +48,7 @@
               "text": "围绕 ChatGPT Ads 的投放代理、素材生成、measurement 插件是新的工具层市场——今天官方公布的 partner 名单就是进生态的门票清单；图像生成场景对电商素材客户天然友好。"
             }
           ],
-          "source_tier": null
+          "source_tier": "A"
         },
         {
           "title": "Cohere North 2：给企业 agent 加\"预算刹车\"，harness 重设计",
@@ -246,7 +246,7 @@
               "text": "跨设备任务接管（一次下达、多端执行）是个人 agent 下一场硬仗；用 IM（Telegram/微信）当任务入口的分发成本最低，小团队友好。"
             }
           ],
-          "source_tier": null
+          "source_tier": "B"
         },
         {
           "title": "企业自建 Agent 复盘：ServiceNow Digital Worker 的痛点比路线图预设更窄",
@@ -286,7 +286,7 @@
               "text": "欧洲头部运营商给出三年期量化 ROI，说明 agent 采购正从\"试点预算\"转\"成本中心 KPI\"——这类数字会加速同业立项，B 端交付团队可以用同类算法帮客户算账。"
             }
           ],
-          "source_tier": null
+          "source_tier": "B"
         }
       ]
     }
