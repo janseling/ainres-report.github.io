@@ -3,7 +3,7 @@
   "date": "2026-10-07",
   "time": "21:00",
   "title": "AI 情报 · 10-07 21:00 场",
-  "generatedAt": "2026-10-08T07:21:38.687Z",
+  "generatedAt": "2026-10-08T10:18:56.842Z",
   "coverage": "10-07 15:10 → 21:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00 / 15:10 两场已报内容已去重"
@@ -93,9 +93,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·搜狐镜像延迟口径",
+          "confidence": "高",
+          "confidence_note": "双源佐证 搜狐镜像延迟口径+新浪科技·HF官方仓库",
           "publish_time": "2026-10-07 15:25",
+          "verify_note": "外部检索（新浪科技 同步报道：10-02 刊机器之心Pro 全文转发，TaoLive AIGC 基于 MiniMax H3 三步 LoRA×自回归、480p/768p/1080p；HuggingFace 官方仓库 TaoLiveAIGC/TaoMate-H3 在线确认）",
           "entities": [
             {
               "name": "阿里巴巴",
@@ -134,9 +135,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 The Verge+Engadget·官方通稿",
           "publish_time": "2026-10-07 20:00",
+          "verify_note": "外部检索（Engadget 同步报道：10-07 刊 Aura Android XR 眼镜起价 $1,279 已开预订；XREAL 官方通稿 PRNewswire 同日确认起售价）",
           "entities": [
             {
               "name": "Google",
@@ -232,9 +234,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 搜狐镜像+AGI Hunt·官方榜单",
           "publish_time": "2026-10-07 15:35",
+          "verify_note": "外部检索（AGI Hunt/PicX 同报：PostTrain Agent 46.6 分登顶 PostTrainBench、超前沿模型；官方站提取到「now #1 on the leaderboard」）",
           "entities": [
             {
               "name": "AIBuildAI",
@@ -273,9 +276,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 搜狐镜像+arXiv原文",
           "publish_time": "2026-10-07 16:01",
+          "verify_note": "外部检索（arXiv 原文确认：2609.04565《Extremely Sparse Supervision Incentivizes Reasoning Ability》Amazon+Duke 署名；PicX 同报极端稀疏监督改善 OPD 推理）",
           "entities": [
             {
               "name": "Amazon",
@@ -313,9 +317,10 @@
           "type_tags": [
             "政策监管"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·机构报告转述",
+          "confidence": "高",
+          "confidence_note": "双源佐证 The Verge+WSJ·官方评估页",
           "publish_time": "2026-10-07 17:00",
+          "verify_note": "外部检索（WSJ 同步报道：10-07 刊「ChatGPT for Teens Poses 'Unacceptable Risk'」；CSM 官网评估页 10-07 更新，定级 Unacceptable Risk、呼吁 OpenAI 暂停让青少年使用）",
           "entities": [
             {
               "name": "Common Sense Media",
@@ -363,9 +368,10 @@
           "type_tags": [
             "其他（榜单名次与估值口径）"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·引 Variety/Forbes 口径",
+          "confidence": "高",
+          "confidence_note": "双源佐证 量子位+新智元·凤凰网同报",
           "publish_time": "2026-10-07 19:34",
+          "verify_note": "外部检索（新浪财经转新智元/凤凰网 同报：AA 总榜全球第二、全美第一、估值 10 亿；IT之家 10-02 亦载跻身第二）",
           "entities": [
             {
               "name": "Utopai Studios",
@@ -413,6 +419,7 @@
           "confidence": "低",
           "confidence_note": "C源·榜单快照无发布时刻",
           "publish_time": null,
+          "verify_note": "外部检索（GitHub 官方仓库核验：mattpocock/skills 27.6 万星在榜；cloudflare/security-audit-skill 实测 2,665 星、描述「独立验证+机器可读发现」属实——与快照「2.6 万星」口径有出入）",
           "entities": [
             {
               "name": "GitHub",
@@ -453,9 +460,10 @@
           "type_tags": [
             "其他（创业动向）"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 The Verge+hngry.tv",
           "publish_time": "2026-10-07 20:00",
+          "verify_note": "外部检索（餐饮科技通讯 hngry.tv 独立报道：2025-10 刊「Bites Powers Agentic Commerce For Restaurants」对冲 marketplace；Bites 官方站确认 AI-native 无佣金网络，2026-04 已上线 ChatGPT）",
           "entities": [
             {
               "name": "Bites",
@@ -491,6 +499,7 @@
           "publish_time": "2026-10-07 20:42",
           "event_time": "2026-10-23",
           "event_time_inferred": false,
+          "verify_note": "外部检索（AISignalHQ 独立刊载：10-05 刊载 GPT-4/GPT-4 Turbo/GPT-3.5 Turbo/o1/o1-pro/o3-mini 10-23 关停及替补价目对照；官方弃用页在线确认）",
           "entities": [
             {
               "name": "OpenAI",
