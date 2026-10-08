@@ -1,5 +1,5 @@
 {
-  "count": 25,
+  "count": 26,
   "reports": [
     {
       "id": "2026-10-08-0900",
@@ -559,6 +559,32 @@
       "rawStats": {
         "candidates": 3220,
         "selected": null
+      }
+    },
+    {
+      "id": "2026-09-30-2100",
+      "date": "2026-09-30",
+      "time": "21:00",
+      "title": "AI 情报 · 09-30 21:00 场",
+      "itemCount": 7,
+      "coverage": "09-30 15:00 → 21:00（Asia/Shanghai，窗口口径）　※ 补刊（生成于 2026-10-08，非当时原发）",
+      "note": "项目早期创刊+LLM API 故障期+国庆前夜，候选稀薄：104 条候选九成来自 Reddit/HN 的 C/D 源，国内源当档快照不可恢复；D 源闲聊原则上不收，按宁缺毋滥从收 7 条；已与当日 09:03/15:00 两场及 10-01 起各场查重，智东西 5 条候选开原链核实发布日期均在窗口外（09-02~09-23）、Product Hunt「Gemini 4 Argon」日期未核实、Reddit 传「DeepSeek 改用昇腾 950 训练」检索证实为 09-21/22 旧闻回声，均未收",
+      "overview": [
+        "特朗普与六大科技 CEO 同签白宫自愿安全协定：强内控+独立外审+董事会监督四承诺、无罚则，自称「近乎宪法」",
+        "Artificial Analysis 实测坐实 DevDay 亮点：GPT-6.1 Sol 发布 7 天即接替 GPT-6 Sol，智能指数距旗舰 Astra 仅 1 分、单任务成本不足其 1/4",
+        "智源 BAAI 开源 AREX-2：基于 Qwen3.8-27B 的 27B 测试时自改进 agent 模型（HF+arXiv 一手，09-30 凌晨发布回补）",
+        "llama.cpp 合入 GLM-5.3-Flash 支持；OpenAI 给存量 Pro 200 发 62,500 credits（≈$2,500、12-31 过期）为 10-30 额度减半灭火",
+        "OpenAI 携手 America's SBDC 培训小企业，报告称一周内约 400 万小企业员工在用其工具；$5 MCU 级开源语音识别 WER 优于 Whisper-tiny"
+      ],
+      "sectionCounts": {
+        "product": 1,
+        "tech": 4,
+        "policy": 1,
+        "industry": 1
+      },
+      "rawStats": {
+        "candidates": 104,
+        "selected": 7
       }
     },
     {
