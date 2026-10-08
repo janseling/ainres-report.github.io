@@ -3,7 +3,7 @@
   "date": "2026-10-06",
   "time": "21:00",
   "title": "AI 情报 · 10-06 21:00 场",
-  "generatedAt": "2026-10-08T07:21:38.686Z",
+  "generatedAt": "2026-10-08T16:22:16.481Z",
   "coverage": "2026-10-05 21:00 → 10-06 21:15（Asia/Shanghai，24h 口径；本日 09:00/15:00 两场已报条目全部去重，晚场实际增量集中在 15:00 之后）",
   "notes": [
     "假期收尾晚间，海外隔夜增量已由早场收割，本期以融资传闻与叙事风向为主"
@@ -160,9 +160,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪AI 10-06+新智元/虎嗅/新浪财经 10-06 同报",
           "publish_time": "2026-10-06 15:00",
+          "verify_note": "外部检索（虎嗅 10-06 13:04/新浪财经 10-06 12:55 同刊新智元《数学要「毕业」了！xAI联创宣判：两千年英雄史彻底落幕》：长文《数学何去何从？》、数学家徒手攀岩 vs AI 飞机之喻同报）",
           "entities": [
             {
               "name": "Christian Szegedy",
@@ -214,9 +215,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 量子位 10-06+新浪财经(图灵人工智能) 10-06 20:22 同报",
           "publish_time": "2026-10-06 15:59",
+          "verify_note": "外部检索（新浪财经(图灵人工智能) 10-06 20:22 同报 SAIR 演讲原话「必须慢下来·完全没理由这么快」，AI新知 10-07 12:34/AITnt 10-07 15:19 跟进同报）",
           "entities": [
             {
               "name": "陶哲轩",
@@ -258,9 +260,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "低",
-          "confidence_note": "C源·PH 榜单收录",
+          "confidence": "中",
+          "confidence_note": "双源佐证 PH 收录+官方 PyPI 包/madewithmodels 10-07 独立同报",
           "publish_time": "2026-10-06",
+          "verify_note": "外部检索（madewithmodels 10-07《Chargebee launches AUDR, an open standard for tracking agent run costs》；Chargebee 官方 PyPI 包 audr v0.1.0（audr@chargebee.com/openaudr.dev）、MTS 播客引其高级产品总监 Vinay Seshadri 介绍 OpenAUDR）",
           "entities": [
             {
               "name": "Chargebee",
@@ -302,9 +305,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "低",
-          "confidence_note": "C源·榜单数据",
+          "confidence": "中",
+          "confidence_note": "双源佐证 Trending 收录+wangruofeng007 榜单日报 10-06 独立同报·GitHub API 复核",
           "publish_time": "2026-10-06",
+          "verify_note": "外部检索（第三方榜首日报 wangruofeng007.com 10-06 23:33 同报：「rea 二连庄 +2,963 还在加速…e2e 测试框架首次拿铜」；GitHub API 10-09 实查 morluto/rea 20,727★、tester-army/e2e 8,081★）",
           "entities": [
             {
               "name": "GitHub",
@@ -340,9 +344,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·磁头条引彭博亦是单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪快讯+财联社/新浪财经/工商时报 10-06 同报；TDK 磁头竞购仍系彭博单源",
           "publish_time": "2026-10-06 15:10",
+          "verify_note": "外部检索（新浪财经 10-06 13:30/财联社 10-06 18:18/工商时报 10-06 13:18 同报：苏姿丰台北受访称未来数年需求「非常高」、需求仍高于供给、2027 年再显著扩产）",
           "entities": [
             {
               "name": "AMD",
@@ -381,9 +386,10 @@
           "type_tags": [
             "融资交易"
           ],
-          "confidence": "低",
-          "confidence_note": "据悉·知情人士口径",
+          "confidence": "中",
+          "confidence_note": "双源佐证 36氪快讯+Reuters/联合早报 10-06 同报；递交已官宣，募资额仍系知情人士口径",
           "publish_time": "2026-10-06 15:52",
+          "verify_note": "外部检索（Reuters（金十/财联社/PANews 转引）10-06：已递交招股书、拟募至多 50 亿美元、年底前纳斯达克 ADS；联合早报 10-06 10:08：公司官宣申请纳斯达克上市，Business Times 报估值或达 200 亿美元）",
           "entities": [
             {
               "name": "DayOne",
