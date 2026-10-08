@@ -3,7 +3,7 @@
   "date": "2026-10-02",
   "time": "15:00",
   "title": "AI 情报 · 10-02 15:00 场",
-  "generatedAt": "2026-10-08T21:42:25.806Z",
+  "generatedAt": "2026-10-08T23:19:14.493Z",
   "coverage": "10-02 09:00 → 15:00（Asia/Shanghai）　※ 补刊（生成于 2026-10-08 前，非当时原发）",
   "notes": [
     "当时搜狐三镜像抓取失败、36氪/Anthropic/VB 未做渲染抓取，候选池以 RSS 快照+社区源为主，薄池从宽从简"
@@ -48,6 +48,7 @@
           "confidence": "低",
           "confidence_note": "C源·产品自宣",
           "publish_time": "2026-10-02 12:45",
+          "verify_note": "外部检索（claude-updates.com 10-02 同步收录 leepokai/Codync：开源 1:1 平替 Grok Bot 与 Muse；Reveneau 简讯同口径描述 40+ 编码 agent 命名 bot 接入）",
           "entities": [
             {
               "name": "Codync",
@@ -173,9 +174,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "低",
-          "confidence_note": "D源·社区自报",
+          "confidence": "高",
+          "confidence_note": "D源自报+vLLM 官方文档核实",
           "publish_time": "2026-10-02 11:44",
+          "verify_note": "外部检索（vLLM 官方文档：OpenAI 兼容服务端原生提供 structured/grammar 约束输出；dev.to 10-05 同题教程：llama.cpp 本地跑决策分类、无需 API）",
           "entities": [
             {
               "name": "OpenAI",
@@ -222,6 +224,7 @@
           "publish_time": "2026-10-02 14:46",
           "event_time": "2026-10-01",
           "event_time_inferred": false,
+          "verify_note": "外部检索（Times Higher Education 10-02 同步报道：每月两篇预印本上限引学界两派争论；Research Information 10-07 同报：投稿激增背景下的限流）",
           "entities": [
             {
               "name": "arXiv",
@@ -306,6 +309,7 @@
           "confidence": "低",
           "confidence_note": "D源·社区自报实测",
           "publish_time": "2026-10-02 10:49",
+          "verify_note": "未见独立来源（外查 10-09）",
           "entities": [
             {
               "name": "BC-250",
@@ -342,9 +346,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "低",
-          "confidence_note": "C源渠道聚合·演讲视频一手可查验",
+          "confidence": "高",
+          "confidence_note": "双源佐证 KR2026 演讲视频+ettayeb.fr 独立报道",
           "publish_time": "2026-10-01 00:56",
+          "verify_note": "外部检索（ettayeb.fr 同步报道：KR2026 现场审计 79 份 AI 漏洞报告仅 10 份属实；intelligentartifact.com 同刊综述）",
           "entities": [
             {
               "name": "Greg Kroah-Hartman",
