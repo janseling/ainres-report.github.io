@@ -3,7 +3,7 @@
   "date": "2026-10-02",
   "time": "15:00",
   "title": "AI 情报 · 10-02 15:00 场",
-  "generatedAt": "2026-10-07T15:28:56.624Z",
+  "generatedAt": "2026-10-08T06:34:40.502Z",
   "coverage": "10-02 09:00 → 15:00（Asia/Shanghai）　※ 补刊（生成于 2026-10-08 前，非当时原发）",
   "notes": [
     "当时搜狐三镜像抓取失败、36氪/Anthropic/VB 未做渲染抓取，候选池以 RSS 快照+社区源为主，薄池从宽从简"
@@ -41,7 +41,31 @@
               "text": "个人 agent 三强（OpenAI/Meta/xAI）成型还没满月，开源平替已上架——agent 应用的「开源镜像位」窗口期极短，先站搜索词再说；纯镜像无壁垒，价值在补齐私有化与数据本地化需求。"
             }
           ],
-          "source_tier": "C"
+          "source_tier": "C",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "低",
+          "confidence_note": "C源·产品自宣",
+          "publish_time": "2026-10-02 12:45",
+          "entities": [
+            {
+              "name": "Codync",
+              "type": "产品"
+            },
+            {
+              "name": "Dots",
+              "type": "产品"
+            },
+            {
+              "name": "Muse",
+              "type": "产品"
+            },
+            {
+              "name": "Grok",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -71,7 +95,27 @@
               "text": "「Flash 价 + 旗舰单项能力」组合最适合内容工场类工具（网页原型、互动演示），成本差一个数量级的机会窗口按周计。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展",
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源评测·官方发布链已核实",
+          "publish_time": "2026-10-02 14:01",
+          "event_time": "2026-09-27",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（官方 09-27 已上线 MiniMax Code；IT之家 09-27 同报）",
+          "entities": [
+            {
+              "name": "MiniMax",
+              "type": "企业"
+            },
+            {
+              "name": "MiniMax M3.1-Flash",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "ServiceNow 开源 AutoSynthData：自动生成企业 agent 训练数据",
@@ -88,7 +132,27 @@
               "text": "agent 训练数据合成正从通用语料转向「企业工作流数据」——把客户现有工单/流程日志变成可训数据的服务层，是中小团队离企业客户最近的一层。"
             }
           ],
-          "source_tier": "A"
+          "source_tier": "A",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·HF 官方企业博客原文",
+          "publish_time": "2026-10-02 12:01",
+          "entities": [
+            {
+              "name": "ServiceNow",
+              "type": "企业"
+            },
+            {
+              "name": "AutoSynthData",
+              "type": "产品"
+            },
+            {
+              "name": "Hugging Face",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "社区实证：Jev 式「决策输出」不需要训练，vLLM/llama.cpp 的 grammar 约束就能零样本复现",
@@ -105,7 +169,27 @@
               "text": "「决策核」的技术含量集中在类型设计与置信度校准，解码层能力开源栈已内建——决策模型溢价靠数据与评测，不靠解码机制。"
             }
           ],
-          "source_tier": "D"
+          "source_tier": "D",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源·社区自报",
+          "publish_time": "2026-10-02 11:44",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "vLLM",
+              "type": "产品"
+            },
+            {
+              "name": "llama.cpp",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -129,7 +213,25 @@
               "text": "限流直接推高「代投稿/预印本分发」的灰色需求，但合规红线同样清晰——正路是审稿辅助与预印本聚合工具；AI 论文产能的「发行侧通胀」开始需要真实审计产能接盘。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·arXiv 官方博客公告",
+          "publish_time": "2026-10-02 14:46",
+          "event_time": "2026-10-01",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "arXiv",
+              "type": "机构"
+            },
+            {
+              "name": "Cornell University",
+              "type": "机构"
+            }
+          ]
         }
       ]
     },
@@ -160,7 +262,27 @@
               "text": "单模型订阅的信任边际被平台政策反复消耗，绑定单一供应商的 SaaS 需要预留多模型出口，聚合网关类资产价值上行。"
             }
           ],
-          "source_tier": "A"
+          "source_tier": "A",
+          "type_tags": [
+            "其他（平台订阅政策反弹）"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源·社区多帖互证",
+          "publish_time": "2026-10-02 09:07",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Codex",
+              "type": "产品"
+            },
+            {
+              "name": "GPT-6.1 Sol",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "BC-250 矿板集群跑大模型更新：6 板集群、100k 上下文 28 t/s",
@@ -177,7 +299,23 @@
               "text": "超低价推理硬件（板子几百块人民币级）+ 量化小模型，把 token 成本打到极限——本地推理在预算敏感场景的成本优势再下探。"
             }
           ],
-          "source_tier": "D"
+          "source_tier": "D",
+          "type_tags": [
+            "其他（社区硬件实测）"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源·社区自报实测",
+          "publish_time": "2026-10-02 10:49",
+          "entities": [
+            {
+              "name": "BC-250",
+              "type": "产品"
+            },
+            {
+              "name": "通义千问",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Linux 内核二号人物 Kernel Recipes 演讲：LLM 时代的内核安全核查实录",
@@ -200,7 +338,23 @@
               "text": "内核安全是「可验证事实集」场景——AI 提报质量与人工核查成本的关系首次有了公开量化样本。"
             }
           ],
-          "source_tier": "C"
+          "source_tier": "C",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "C源渠道聚合·演讲视频一手可查验",
+          "publish_time": "2026-10-02 10:51",
+          "entities": [
+            {
+              "name": "Greg Kroah-Hartman",
+              "type": "人物"
+            },
+            {
+              "name": "Linux Kernel",
+              "type": "产品"
+            }
+          ]
         }
       ]
     }
