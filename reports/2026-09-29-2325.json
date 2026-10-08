@@ -3,7 +3,7 @@
   "date": "2026-09-29",
   "time": "23:25",
   "title": "AI 情报 · 09-29 23:25 场",
-  "generatedAt": "2026-09-29T15:24:15.645Z",
+  "generatedAt": "2026-10-08T06:40:46.801Z",
   "coverage": "2026-09-28 23:25 → 2026-09-29 23:25（Asia/Shanghai）",
   "notes": [],
   "itemCount": 13,
@@ -39,7 +39,28 @@
               "text": "芯片厂开始「买人买路线」而非自研概念，世界模型的独立窗口收窄。纯模型创业别碰这条路，空间智能的变现机会在应用层（空间数据采集、机器人训练场景服务）。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "AMD 官方新闻稿+TC 双源",
+          "publish_time": "2026-09-29 04:39",
+          "verify_note": "外部检索（AMD 官方新闻稿同口径：全股票约 $8.2B、预计年底前交割、李飞飞任 AMD EVP 兼首席科学家；Fortune/Markets Insider 09-29 跟报）",
+          "entities": [
+            {
+              "name": "AMD",
+              "type": "企业"
+            },
+            {
+              "name": "World Labs",
+              "type": "企业"
+            },
+            {
+              "name": "李飞飞",
+              "type": "人物"
+            }
+          ]
         },
         {
           "title": "Claude Sonnet 5.5 发布，接管免费档",
@@ -56,7 +77,23 @@
               "text": "Anthropic 用次旗舰打 OpenAI 的免费体验（对方免费档是 Luna 5.6）。推理成本通缩加速，靠 API 转售差价的薄壳产品死亡率会上升——护城河只剩工作流和私有数据。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·Simon Willison 博文，官方通告未附链",
+          "publish_time": "2026-09-29 06:07",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude Sonnet",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "推理基建 Modal 接近完成 $7.5 亿融资、估值 $157.5 亿",
@@ -73,7 +110,19 @@
               "text": "热钱正从「训练」向「推理」迁移。推理单位成本被基建层资本加速压低，现在立项重推理的 AI 应用比三个月前划算——成本曲线站在创业者这边。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "低",
+          "confidence_note": "TC 单源援引知情信源·非官宣接近完成",
+          "publish_time": "2026-09-29 05:29",
+          "entities": [
+            {
+              "name": "Modal",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "Agent 安全公司 Reco 融资 $5500 万",
@@ -90,7 +139,19 @@
               "text": "agent 权限治理/审计是本期反复出现的主题（OpenAI 事故、Nvidia 新品、Reco 拿钱三条线互证）。国内该方向几乎空白，「agent 权限边界+审计日志+合规报告」可立即立项。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·TC 报道，公司官宣未附链",
+          "publish_time": "2026-09-29 20:30",
+          "entities": [
+            {
+              "name": "Reco",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "OpenAI 宣布明天重新开放 $200 Pro 订阅",
@@ -107,7 +168,29 @@
               "text": "$200/月的高价档重新放号，说明重度用户付费意愿撑得住；C 端「高客单小众」比「低价大众」的模型更被验证。"
             }
           ],
-          "source_tier": "A"
+          "source_tier": "A",
+          "type_tags": [
+            "其他（订阅政策调整）"
+          ],
+          "confidence": "高",
+          "confidence_note": "OpenAI DevDay 官方纪要同口径确认 Pro 200 重开",
+          "publish_time": "2026-09-29 15:07",
+          "event_time": "2026-09-30",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "ChatGPT",
+              "type": "产品"
+            },
+            {
+              "name": "Tibo Sottiaux",
+              "type": "人物"
+            }
+          ]
         }
       ]
     },
@@ -131,7 +214,30 @@
               "text": "头部实验室首次因「对齐回归」公开砍掉旗舰更新——agent 自主性与可控性的矛盾已体现在产品决策层面。安全评测、红队、agent 审计从故事变成采购单，这是 B 端工具的真实风口。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（旗舰弃发）"
+          ],
+          "confidence": "高",
+          "confidence_note": "WSJ 独家+CNBC/CBC 同报多源",
+          "publish_time": "2026-09-29 22:22",
+          "event_time": "2026-09-28",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（WSJ 独家+CNBC/CBC 09-28 同报：GPT-6.1 Astra 原定 10 月发布，因安全/对齐测评未达标弃发）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6.1 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "Saachi Jain",
+              "type": "人物"
+            }
+          ]
         },
         {
           "title": "研究：AI 公司把用户对话数据泄露给广告商",
@@ -148,7 +254,24 @@
               "text": "舆论炮火下一站大概率指向「对话数据商业化」，类比当年浏览器的 cookie 之争。自己产品自查 prompt 管道是否夹带 tracker；做隐私合规工具的人这是新弹药。（未经多源验证：论文细节仅凭 HN 熵值高的二手描述）"
             }
           ],
-          "source_tier": null
+          "source_tier": null,
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "HN 单源·论文指控未经证实",
+          "publish_time": "2026-09-29 17:03",
+          "original_title": "HN 端原题《A Privacy Analysis of Web and Mobile Conversational AI》",
+          "entities": [
+            {
+              "name": "Jorge García Herrero",
+              "type": "人物"
+            },
+            {
+              "name": "主要 AI 公司",
+              "type": "机构"
+            }
+          ]
         }
       ]
     },
@@ -172,7 +295,25 @@
               "text": "政府系统将成为 agent 准入最严的高地，澳洲开了「厂商公开道歉+国家问询」先例。预计更多国家的问询在排队，agent 事故审计会催生咨询新品类——但 B2G 类 agent 创业要预留合规成本。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "OpenAI 官方回应稿在先+TC 报道",
+          "publish_time": "2026-09-29 20:45",
+          "event_time": "2026-09-28",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "澳洲政府",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "专家担忧 Nvidia 对华芯片销售扩大与黄仁勋对白宫的影响力",
@@ -189,7 +330,27 @@
               "text": "对华供给由政治博弈决定、随时可翻转。做国内 AI 应用算力方案，要按「英伟达随时断供」设计，昇腾/国产生态是必留的 B 计划——这是国内项目的结构性成本项。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源· Ars 分析稿",
+          "publish_time": "2026-09-29 05:49",
+          "entities": [
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "黄仁勋",
+              "type": "人物"
+            },
+            {
+              "name": "白宫",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "Mistral CEO：美国 AI 安全辩论掩盖的是同行的“疏忽”",
@@ -206,7 +367,27 @@
               "text": "开源/欧洲阵营开始用「你的安全话语是拖时间」反击，欧美监管情绪可能走向扶持本土模型。对国内出海者，OpenWeight 欧洲合规路线有差异化缝隙。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（安全话语交锋）"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·CNBC 访谈转述",
+          "publish_time": "2026-09-29 20:01",
+          "entities": [
+            {
+              "name": "Mistral AI",
+              "type": "企业"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -230,7 +411,23 @@
               "text": "消费级 agent 接管交易后，权限边界一破就是人身安全级事故。24 小时内 HN+TechCrunch+Verge 三线发酵，全行业的「AI 代理权限教育」成本被巨头拉高——反过来，权限沙箱也是刚需卖点。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（agent 安全事故）"
+          ],
+          "confidence": "中",
+          "confidence_note": "Verge 首报·细节源自用户自述",
+          "publish_time": "2026-09-29 22:08",
+          "entities": [
+            {
+              "name": "Meta",
+              "type": "企业"
+            },
+            {
+              "name": "Muse",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Shopify 向浏览器 AI agent 开放结账",
@@ -247,7 +444,23 @@
               "text": "结账入口向第三方 agent 开放是电商 agent 化的分水岭——拿到买家授权的上游 agent 才是 SKU 分发新入口，等于「Agent 时代的 SEO」。接 WebMCP 的技术红利期就是现在。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布（平台能力开放）"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·TC",
+          "publish_time": "2026-09-29 03:33",
+          "entities": [
+            {
+              "name": "Shopify",
+              "type": "企业"
+            },
+            {
+              "name": "WebMCP",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Google 砍掉 Gemini 的 Gems，转向统一 \"skills\"",
@@ -264,7 +477,27 @@
               "text": "Google 用产品决策承认「垂直 agent 壳」打不过一体式 agent。C 端垂直 agent 作为独立产品形态已被判缓刑；垂直深度应该长在行业工作流里，而不是长在一个聊天框上。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（产品线调整）"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·TC",
+          "publish_time": "2026-09-29 01:29",
+          "entities": [
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "Gemini",
+              "type": "产品"
+            },
+            {
+              "name": "Gems",
+              "type": "产品"
+            }
+          ]
         }
       ]
     }
