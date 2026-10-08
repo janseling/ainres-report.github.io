@@ -3,7 +3,7 @@
   "date": "2026-10-04",
   "time": "09:00",
   "title": "AI 情报 · 10-04 09:00 场",
-  "generatedAt": "2026-10-08T05:10:21.690Z",
+  "generatedAt": "2026-10-08T20:17:33.030Z",
   "coverage": "10-03 21:10 → 10-04 09:00（Asia/Shanghai）　※ 补刊（生成于 2026-10-08，非当时原发）",
   "notes": [
     "国庆假期候选稀少：139 条原始候选中有效不足 30 条，按宁缺毋滥缩至 5 条；搜狐系六路源当档快照 0 字节（不可恢复），国内主源本窗口近乎零增量；与 10-02～10-03 场及 10-05 起各场已去重（Robinson 辞职、Anthropic 游说教皇、antirez ds4、Cloudflare Clef、HF 下架 GLM-5.3 等重复/超窗条目已剔除）"
@@ -57,6 +57,7 @@
           "publish_time": "2026-10-02 13:54",
           "event_time": null,
           "event_time_inferred": true,
+          "verify_note": "外部检索（Traictory/LLM Configurator 同步报道：第三方评测站核对 Kolibri 78B 德英 MoE Apache-2.0 开放权重发布）",
           "entities": [
             {
               "name": "Aleph Alpha",
@@ -98,12 +99,13 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B源·智东西原创实测；页面未标注发布时刻",
+          "confidence": "高",
+          "confidence_note": "双源佐证 智东西原创实测+澎湃·字母榜同题实测报道",
           "publish_time": "2026-10-03",
           "event_time": null,
           "event_time_inferred": false,
           "original_title": "颠覆刻板印象！Flash模型卷前端，效果硬刚Opus 5.5",
+          "verify_note": "外部检索（澎湃·字母榜 同步报道：M3.1 独立实测「敢跟旗舰 Opus 5.5 掰手腕」）",
           "entities": [
             {
               "name": "MiniMax",
@@ -144,9 +146,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B源·作者一手评论",
+          "confidence": "高",
+          "confidence_note": "双源佐证 作者一手评论+第三方解读站跟进复核",
           "publish_time": "2026-10-03",
+          "verify_note": "外部检索（WTFisAI/MindPattern 同步报道：独立复核各厂商计费页证实「硬预算上限」主张与 AWS 月度消费限额仍默认关闭）",
           "entities": [
             {
               "name": "Simon Willison",
@@ -220,9 +223,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·TC 盘点，各产品细节未逐一核证",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TC 盘点+The Beat/AIBW 独立同题报道",
           "publish_time": "2026-10-03 22:00",
+          "verify_note": "外部检索（The Beat/AIBW 同步报道：Instinct $10B 估值领跑短信 AI agent 赛道获独立转报）",
           "entities": [
             {
               "name": "Instinct",
