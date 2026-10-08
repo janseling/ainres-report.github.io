@@ -3,7 +3,7 @@
   "date": "2026-10-08",
   "time": "09:00",
   "title": "AI 情报 · 10-08 09:00 场",
-  "generatedAt": "2026-10-08T12:19:32.398Z",
+  "generatedAt": "2026-10-08T19:41:32.787Z",
   "coverage": "2026-10-07 21:00 → 2026-10-08 09:05（Asia/Shanghai）",
   "notes": [
     "2026-10-08 为早间场次，与 2026-10-07 21:00 场无缝衔接"
@@ -144,6 +144,8 @@
           "confidence": "高",
           "confidence_note": "双源同报 36氪+新智元",
           "publish_time": "2026-10-08 08:25",
+          "event_time": "2026-10-07",
+          "event_time_inferred": false,
           "verify_note": "外部检索（SiliconANGLE 10-07 同报：Haiku 5.5 发布并同步下调 Sonnet 5.5 缓存读价；AWS Bedrock 官方公告同日上架）",
           "entities": [
             {
@@ -184,6 +186,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 机器之心Pro搜狐镜像+9to5Google",
           "publish_time": "2026-10-08 07:24",
+          "event_time": "2026-10-06",
+          "event_time_inferred": false,
           "verify_note": "外部检索（9to5Google 10-06 同报 Docs/Sheets/Slides 侧边栏集成；Anthropic 官方公告「Claude now works with Google Docs/Sheets/Slides」在档）",
           "entities": [
             {
@@ -576,7 +580,7 @@
           ],
           "confidence": "高",
           "confidence_note": "A源·官方原文",
-          "publish_time": null,
+          "publish_time": "2026-10-07 03:00",
           "entities": [
             {
               "name": "Anthropic",
