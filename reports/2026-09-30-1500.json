@@ -3,7 +3,7 @@
   "date": "2026-09-30",
   "time": "15:00",
   "title": "AI 情报 · 09-30 15:00 场",
-  "generatedAt": "2026-09-30T07:24:28.595Z",
+  "generatedAt": "2026-10-08T06:34:43.101Z",
   "coverage": "2026-09-29 21:47 → 2026-09-30 15:00（Asia/Shanghai；24h 窗口，含上期信源失效未及收录的回补）",
   "notes": [
     "信源状态见文末"
@@ -41,7 +41,24 @@
               "text": "巨头把「懂业务的 SMB agent」做成平台化分发，通用 agent 壳的路又窄了一条；创业窗口在集成缝隙里的垂直 agent（客服、进销存、投放），别硬碰 Meta 的正面战场。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布",
+            "商业合作"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·TechCrunch",
+          "publish_time": "2026-09-29 21:47",
+          "entities": [
+            {
+              "name": "Meta",
+              "type": "企业"
+            },
+            {
+              "name": "Muse",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Marissa Mayer 推出 Dazzle：相机胶卷是唯一上下文",
@@ -58,7 +75,23 @@
               "text": "C 端 agent 的差异化已从「接多少应用」转向「用哪一种上下文」；相册是隐私最敏感的采集入口，做得成就是壁垒，做不好就是 Muse 式事故的前身。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·TechCrunch",
+          "publish_time": "2026-09-29 21:53",
+          "entities": [
+            {
+              "name": "Marissa Mayer",
+              "type": "人物"
+            },
+            {
+              "name": "Dazzle",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Wabi 2.0 转型：从「造 App」转向「对话中长出应用」",
@@ -75,7 +108,27 @@
               "text": "又一独立 agent 壳承认打不过巨头平台，回缩进「聊天+应用」形态。对独立开发者：「技能包/工作流」附着在巨头对话生态上，比做独立壳存活率高。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（产品转型）"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·TechCrunch",
+          "publish_time": "2026-09-30 01:20",
+          "entities": [
+            {
+              "name": "Wabi",
+              "type": "产品"
+            },
+            {
+              "name": "Muse",
+              "type": "产品"
+            },
+            {
+              "name": "Instinct",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -99,7 +152,33 @@
               "text": "对中国开源模型的海外 agent 生态位是实质利好——「OpenAI 工具链 + 中系开源模型」混搭首次被官方工具链认可；对冲 Pro 涨价怒火的开放姿态，说明 OpenAI 自己也怕订阅流失。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布",
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "Baseten 工程师一手推文+36氪/新智元同报",
+          "publish_time": "2026-09-30 12:38",
+          "verify_note": "外部检索（Kimi 官方文档单列「Using Kimi in Codex」CLI 直连指南；Baseten 在列 GLM-5.3 Flash 托管路由，与接入说法一致）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Codex",
+              "type": "产品"
+            },
+            {
+              "name": "智谱AI",
+              "type": "企业"
+            },
+            {
+              "name": "月之暗面",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "DeepSeek 公开 V4 Agent 训练「大本营」DSec：梁文锋署名",
@@ -116,7 +195,26 @@
               "text": "agent 训练的瓶颈不在显卡而在「环境供给与沙盒运维」——给 Max 两个提示：做 agent 的公司开始自建沙盒农场时，卖铲子（环境托管、评测环境制作）的生意先跑通。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·arXiv 论文原文+DeepSeek 官方知乎长文",
+          "publish_time": "2026-09-30 13:18",
+          "event_time": "2026-09-19",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（arXiv 2609.22978 在档：单生产单元约 160 节点、日服务约 300 万沙盒、峰值 38 万+并发，与报道口径一致）",
+          "entities": [
+            {
+              "name": "DeepSeek",
+              "type": "企业"
+            },
+            {
+              "name": "梁文锋",
+              "type": "人物"
+            }
+          ]
         },
         {
           "title": "DeepSeek 官方开源昇腾基础组件：DeepGEMM/DeepEP 等全套对齐",
@@ -133,7 +231,23 @@
               "text": "国产算力从「能跑通」进入「好调优」阶段，私有化部署方案可以按「双生态报价」；对依赖单一 GPU 生态的应用方，这是第一次有正经的 B 计划。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方开源仓库口径，量子位转述",
+          "publish_time": "2026-09-30 10:53",
+          "entities": [
+            {
+              "name": "DeepSeek",
+              "type": "企业"
+            },
+            {
+              "name": "华为",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "10 个 Claude 5.5 组队 15 小时攻克 122 年汤姆逊问题 N=7",
@@ -150,7 +264,23 @@
               "text": "「多智能体+形式化验证」第一次完整跑通百年级悬案——AI 科研产品从「生成答案」转向「可验证证明」，愿意为验证结果付钱的重科研客户是真付费场景。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·新智元，Vals AI 原始证明未独立核",
+          "publish_time": "2026-09-30 10:39",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude Sonnet",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "「哑巴模型」Jev 走红：TypeSafe 一个月估值 2 亿→100 亿",
@@ -168,7 +298,28 @@
               "text": "agent 管道里「路由/审核/评分」这类高频小决策最先被专用小模型接管，且单位经济已经算得平——「LLM 判官/网关」是个毛利清晰的新中间件。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展",
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "36氪双稿+arXiv 第三方评测原文链",
+          "publish_time": "2026-09-30 13:20",
+          "entities": [
+            {
+              "name": "Jev",
+              "type": "产品"
+            },
+            {
+              "name": "TypeSafe",
+              "type": "企业"
+            },
+            {
+              "name": "arXiv",
+              "type": "机构"
+            }
+          ]
         }
       ]
     },
@@ -192,7 +343,21 @@
               "text": "学术圈正在为「AI 出成果、人类署名负责」划红线；做「AI 科学家」类产品的，验证链与披露义务会成为进入学术市场的隐形门槛。"
             }
           ],
-          "source_tier": null
+          "source_tier": null,
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·发布方规范原文",
+          "publish_time": "2026-09-29",
+          "event_time": "2026-09-29",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "AGMA",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "「Open-weight AI 禁了吗？」实时概率：7%——NO",
@@ -209,7 +374,13 @@
               "text": "开源禁令风险第一次被做成可视化指标——重开源栈创业的合规对冲从此有了可引用的量化锚，别再拍脑袋估政策风险。"
             }
           ],
-          "source_tier": null
+          "source_tier": null,
+          "type_tags": [
+            "其他（政策监测）"
+          ],
+          "confidence": "低",
+          "confidence_note": "C源·HN 提交的一页站，无可核实实体",
+          "publish_time": "2026-09-30 04:16"
         },
         {
           "title": "WIPO《2026 全球创新指数》：AI 重塑创新投资",
@@ -226,7 +397,19 @@
               "text": "宏观资金面（研发新高）与二级市场（AI 行情退潮）正在背离——真金白银仍在流向前沿资本开支，对创业方意味着上游工具链的采购预算还在扩张。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B源·36氪快讯转新华社，原始报告未核",
+          "publish_time": "2026-09-30 14:06",
+          "entities": [
+            {
+              "name": "WIPO",
+              "type": "机构"
+            }
+          ]
         }
       ]
     },
@@ -250,7 +433,23 @@
               "text": "agent 交易闭环第一次给出近十亿美元级的 GMV 数据点；但「代抢」模式是监管雷——做 agent 商务要死守授权代买，别学刷接口。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·GMV 与增速为创始人自报，未经审计",
+          "publish_time": "2026-09-29 23:12",
+          "entities": [
+            {
+              "name": "Instinct",
+              "type": "企业"
+            },
+            {
+              "name": "Noah Shinn",
+              "type": "人物"
+            }
+          ]
         },
         {
           "title": "智谱三个月蒸发约 1 万亿港元市值，打两折",
@@ -267,7 +466,21 @@
               "text": "上市模型厂先于一级市场完成估值挤水；同期韩股因 AI 交易退潮 Q3 跌 18.8% 全球垫底（36氪快讯 https://36kr.com/newsflashes/4005504003510409）——融资窗口没有关闭，但锚已下移，趁估值消化期谈融资别对标 6 月的牌价。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·行情事实可公核",
+          "publish_time": "2026-09-30 11:46",
+          "event_time": "2026-06-22",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "智谱AI",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "Bain：2031 年前 AI 需 $6T 年收入才撑得住算力扩张",
@@ -284,7 +497,23 @@
               "text": "「要 $6T 才够本」的算法把估值压力推给应用层变现速度——巨头会加速对广告、电商、物理 AI 三条现金牛的渗透，创业者别站进同一路口抢食。"
             }
           ],
-          "source_tier": null
+          "source_tier": null,
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B源转述·Bain 报告原文未核，HN 高分讨论",
+          "publish_time": "2026-09-30 03:21",
+          "entities": [
+            {
+              "name": "Bain",
+              "type": "机构"
+            },
+            {
+              "name": "Meta",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "微软 Copilot 付费席位或 2027 年中冲 6000 万",
@@ -301,7 +530,29 @@
               "text": "办公席位的「AI 员工单价」被微软跑成了明账；国内 SaaS 嵌 AI 的对标定价空间同步打开——别再用「月费 20 元」思维卖 AI 功能。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B源转述官方 7 月口径；6000 万为预测未证实",
+          "publish_time": "2026-09-30 11:30",
+          "event_time": null,
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "Microsoft",
+              "type": "企业"
+            },
+            {
+              "name": "Copilot",
+              "type": "产品"
+            },
+            {
+              "name": "GitHub Copilot",
+              "type": "产品"
+            }
+          ]
         }
       ]
     }
