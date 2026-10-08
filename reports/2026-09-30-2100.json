@@ -3,7 +3,7 @@
   "date": "2026-09-30",
   "time": "21:00",
   "title": "AI 情报 · 09-30 21:00 场",
-  "generatedAt": "2026-10-08T05:31:13.883Z",
+  "generatedAt": "2026-10-08T07:20:33.623Z",
   "coverage": "09-30 15:00 → 21:00（Asia/Shanghai，窗口口径）　※ 补刊（生成于 2026-10-08，非当时原发）",
   "notes": [
     "项目早期创刊+LLM API 故障期+国庆前夜，候选稀薄：104 条候选九成来自 Reddit/HN 的 C/D 源，国内源当档快照不可恢复；D 源闲聊原则上不收，按宁缺毋滥从收 7 条；已与当日 09:03/15:00 两场及 10-01 起各场查重，智东西 5 条候选开原链核实发布日期均在窗口外（09-02~09-23）、Product Hunt「Gemini 4 Argon」日期未核实、Reddit 传「DeepSeek 改用昇腾 950 训练」检索证实为 09-21/22 旧闻回声，均未收"
@@ -159,7 +159,7 @@
           ]
         },
         {
-          "title": "llama.cpp 合入 GLM-5.3-Flash（GLM5-Next）支持：320B 混合架构进本地推理栈",
+          "title": "llama.cpp 合入 GLM-5.3-Flash（Reddit r/LocalLLaMA·09-30 17:22，205 分）支持：320B 混合架构进本地推理栈",
           "meta": "Reddit r/LocalLLaMA·09-30 17:22，205 分",
           "urls": [
             "https://www.reddit.com/r/LocalLLaMA/comments/1wu0bdf/add_glm53flash_glm5next_support_by_timkhronos",
@@ -326,7 +326,7 @@
               "kind": "invest",
               "icon": "💰",
               "label": "投资/商业",
-              "text": "继 15:00 场已报 Meta 把 Muse 推给小企业后，巨头同周抢 SMB 渠道，且都从「教育市场」下手——「培训+陪跑」本身就是可售卖服务；垂直行业 agent 创业者绑渠道（行业协会/地方服务商）分发，比裸工具获客便宜得多。"
+              "text": "继 15:00 场已报 Meta 把 Muse 推给小企业后，巨头 2026-09-28~10-04 抢 SMB 渠道，且都从「教育市场」下手——「培训+陪跑」本身就是可售卖服务；垂直行业 agent 创业者绑渠道（行业协会/地方服务商）分发，比裸工具获客便宜得多。"
             }
           ],
           "source_tier": "A",
