@@ -3,7 +3,7 @@
   "date": "2026-10-02",
   "time": "15:00",
   "title": "AI 情报 · 10-02 15:00 场",
-  "generatedAt": "2026-10-08T07:20:33.627Z",
+  "generatedAt": "2026-10-08T21:42:25.806Z",
   "coverage": "10-02 09:00 → 15:00（Asia/Shanghai）　※ 补刊（生成于 2026-10-08 前，非当时原发）",
   "notes": [
     "当时搜狐三镜像抓取失败、36氪/Anthropic/VB 未做渲染抓取，候选池以 RSS 快照+社区源为主，薄池从宽从简"
@@ -344,7 +344,7 @@
           ],
           "confidence": "低",
           "confidence_note": "C源渠道聚合·演讲视频一手可查验",
-          "publish_time": "2026-10-02 10:51",
+          "publish_time": "2026-10-01 00:56",
           "entities": [
             {
               "name": "Greg Kroah-Hartman",
