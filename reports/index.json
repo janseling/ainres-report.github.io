@@ -1,5 +1,5 @@
 {
-  "count": 22,
+  "count": 23,
   "reports": [
     {
       "id": "2026-10-08-0900",
@@ -304,6 +304,30 @@
       "rawStats": {
         "candidates": 72,
         "selected": 7
+      }
+    },
+    {
+      "id": "2026-10-03-1500",
+      "date": "2026-10-03",
+      "time": "15:00",
+      "title": "AI 情报 · 10-03 15:00 场",
+      "itemCount": 4,
+      "coverage": "10-03 09:00 → 15:00（Asia/Shanghai，窗口口径）　※ 补刊（生成于 2026-10-08，非当时原发）",
+      "note": "与同日 09:00、21:00 两场及 10-05~10-08 各期已去重（Utopai X 视频榜、Meta Muse Gadgets 硬件套件、Strata/Qwen 本地推理潮等已刊条目不再重收）；存量池有效候选不足 30 条，宁缺毋滥收 4 条——核实后过硬的候选已全收，第 5 席无合格条目，如实留缺",
+      "overview": [
+        "arXiv 实施史上最严限流：每人每月最多投 2 篇、拒稿也占名额，9 月投稿 40363 篇创纪录（AI 驱动、两年翻倍）",
+        "英伟达周五股价创 5 月以来新高，市值约 5.7 万亿美元，距 6 万亿历史首破不到 3000 亿",
+        "YC 系 Sapien 上线 Product Hunt：不做问卷，用「合成人口」模拟目标人群预测消费决策",
+        "OpenAI 执行 Codex 全量用量重置称已生效，多位 Business 用户反馈席位未被重置，客服建议「买 credits」"
+      ],
+      "sectionCounts": {
+        "product": 1,
+        "policy": 1,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": 60,
+        "selected": 4
       }
     },
     {

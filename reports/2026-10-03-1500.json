@@ -1,0 +1,234 @@
+{
+  "id": "2026-10-03-1500",
+  "date": "2026-10-03",
+  "time": "15:00",
+  "title": "AI 情报 · 10-03 15:00 场",
+  "generatedAt": "2026-10-08T05:12:29.489Z",
+  "coverage": "10-03 09:00 → 15:00（Asia/Shanghai，窗口口径）　※ 补刊（生成于 2026-10-08，非当时原发）",
+  "notes": [
+    "与同日 09:00、21:00 两场及 10-05~10-08 各期已去重（Utopai X 视频榜、Meta Muse Gadgets 硬件套件、Strata/Qwen 本地推理潮等已刊条目不再重收）；存量池有效候选不足 30 条，宁缺毋滥收 4 条——核实后过硬的候选已全收，第 5 席无合格条目，如实留缺"
+  ],
+  "itemCount": 4,
+  "rawStats": {
+    "candidates": 60,
+    "selected": 4
+  },
+  "overview": [
+    "arXiv 实施史上最严限流：每人每月最多投 2 篇、拒稿也占名额，9 月投稿 40363 篇创纪录（AI 驱动、两年翻倍）",
+    "英伟达周五股价创 5 月以来新高，市值约 5.7 万亿美元，距 6 万亿历史首破不到 3000 亿",
+    "YC 系 Sapien 上线 Product Hunt：不做问卷，用「合成人口」模拟目标人群预测消费决策",
+    "OpenAI 执行 Codex 全量用量重置称已生效，多位 Business 用户反馈席位未被重置，客服建议「买 credits」"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "YC 系 Sapien 登 Product Hunt：用「合成人口」模拟消费者决策的 AI 市场调研平台",
+          "meta": "Product Hunt·10-03 10:07",
+          "urls": [
+            "https://www.producthunt.com/products/sapien-4"
+          ],
+          "summary": "YC 2025 夏季批公司 Sapien（运营实体 Outrove，域名 asksapien.ai/outrove.ai）正式上线：不做问卷采集，而是先构建「合成人口」——用模拟受众代表目标人群，把产品概念、定价、营销方案投给模拟人群跑选择分布与理由，官方定位「预测人群反应，先测后决策」；10-03 为 Product Hunt 正式 Launch 日。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "市场调研在「被 agent 重做」名单的最前排——合成受访者边际成本近零，单次数万美元的 panel/焦点小组报价会被压到 API 价格级；Qualtrics 类传统调研 SaaS 的定价与交付周期是直接对标对象，最大软肋是预测准确率的可验证性。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "壁垒不在「会用 LLM 模拟人」，而在校准数据（模拟回复与真实人群对齐）与可复现的验证口径；纯 prompt 模拟会很快被大模型厂功能化——垂类切入（出海选品前测、本地商圈模拟、B2B 买家画像）比做通用平台更可能活下来。"
+            }
+          ],
+          "source_tier": "C",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "C源·PH 收录，官网/YC 页核实",
+          "publish_time": "2026-10-03 10:07",
+          "event_time": "2026-10-03",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（官网 asksapien.ai 与 YC S25 公司页口径一致，LinkedIn 9-10 起预热）",
+          "entities": [
+            {
+              "name": "Sapien",
+              "type": "产品"
+            },
+            {
+              "name": "Y Combinator",
+              "type": "机构"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策监管",
+      "items": [
+        {
+          "title": "arXiv 实施最严限流：每人每月最多投 2 篇，拒稿也占名额——AI 论文爆炸逼出的临时新规",
+          "meta": "新智元·搜狐镜像·10-03 12:19；极客公园早报 10-03 09:17 同报",
+          "urls": [
+            "https://m.sohu.com/a/1083605494_473283"
+          ],
+          "summary": "arXiv 自 10-01 起对全部提交者限流：每账号每月最多投 2 篇、同时在审不超 3 篇，被拒稿件照样占名额，名额只记在「点提交」的人头上（技术限制上 arXiv 只在提交时刻能确认提交人身份）。直接诱因：9 月投稿 40363 篇创单月纪录、两年翻倍，cs.AI 分类两年增长超 6 倍，审核仍靠约 300 名志愿者；编辑咨询委员会主席 Thomas Dietterich（俄勒冈州立大学荣休教授）称少数作者大量灌水占用审核产能，有作者累计投了几十篇。arXiv 9-23 刚获 1720 万美元捐赠（部分用于开发 AI 内容管理技术），但志愿审核人力不随资金增长，新规定位临时措施、「希望将来放宽甚至取消」。对比面：ICLR 2027 按作者计费每人最多 20 篇（OpenReview 可按人头算），arXiv 只能按提交人算，合作者轮流上传即可绕开——独立研究者反而是被硬卡 24 篇/年上限的一方。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "「挂 arXiv」首次变成稀缺资源，学术时效竞争回流正式发表渠道；灌水论文工厂与「香肠论文」拆分产业链成本被抬高，AIGC 论文检测、作者身份验证（机构邮箱绑定/领域背书）成为学术机构的刚性支出，检测与合规工具多了一批机构级买方。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "规则本身就是产品说明书：提交前「合规体检」（分类适配、AI 使用披露、参考文献逐条核对——违规幻觉内容此前已有一年封禁先例）和课题组「提交资格管理」（谁绑邮箱、谁认领论文、谁占名额）都是能立刻交付的具体小服务；课题组「一人统一上传」的旧习惯被强制打散，工作流工具顺理成章。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "官方公告核实＋双源同报",
+          "publish_time": "2026-10-03 12:19",
+          "event_time": "2026-10-01",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（arXiv 官方 10-01 公告：submission rate limit policy；Times Higher Education 10-02 跟进称学界观点分裂）",
+          "entities": [
+            {
+              "name": "arXiv",
+              "type": "机构"
+            },
+            {
+              "name": "Thomas Dietterich",
+              "type": "人物"
+            },
+            {
+              "name": "OpenReview",
+              "type": "产品"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向 / 应用玩法",
+      "items": [
+        {
+          "title": "英伟达市值逼近 6 万亿美元：周五创 5 月以来股价新高，历史首破只差不到 3000 亿",
+          "meta": "极客公园·10-03 09:17",
+          "urls": [
+            "http://www.geekpark.net/news/372070"
+          ],
+          "summary": "英伟达周五（美东 10-02）股价创历史新高，为 5 月以来首次刷新纪录，市值约 5.7 万亿美元，距 6 万亿历史首破不到 3000 亿；年初至今涨约 27%，较 7 月底低点反弹近 25%（此前两个月的抛售曾蒸发市值逾 1 万亿美元）。资金面归因：创纪录规模的 1500 亿美元回购授权叠加弱就业数据推升降息预期，抛售后的资金回流「卖铲人」。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "6 万亿整数关口一旦突破就是 AI 基建叙事的情绪顶点，「卖铲人」估值锚继续抬；同时 $1500 亿回购优先于新豪赌的资金安排，说明管理层默认大基建仍在兑现期——对一级市场算力/数据中心新玩家的报价是天花板参考，也是二级 AI 板块的情绪风向标。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "B源·编译，Bloomberg/Yahoo Finance 同报",
+          "publish_time": "2026-10-03 09:17",
+          "event_time": "2026-10-02",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Bloomberg 10-02 21:47 北京时间、Yahoo Finance 同报：市值约 5.7 万亿美元；Decrypt 归因创纪录 $1500 亿回购＋弱非农推升降息预期）",
+          "entities": [
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "黄仁勋",
+              "type": "人物"
+            }
+          ]
+        },
+        {
+          "title": "OpenAI 全量重置 Codex 用量「已生效」，Business 席位大量漏单，客服建议「买 credits」",
+          "meta": "Reddit r/OpenAI·10-03 10:10",
+          "urls": [
+            "https://www.reddit.com/r/OpenAI/comments/1wwbkwh/business_users_did_anyone_actually_get_todays/"
+          ],
+          "summary": "Codex 负责人 tibo（Thibault Sottiaux）宣布面向全部付费 ChatGPT 账户的全量用量重置，追踪站记录其于 10-02 21:18 UTC（北京 10-03 05:18）执行且官方称已全量生效；10:10 起 r/OpenAI 商业用户反映 Business 席位未被重置，OpenAI 官方社区出现同现象帖（4 个 Business Standard 席位全漏单、Pro 500 先漏后修复），客服口径为建议购买 credits 应急。截至发帖时无官方声明，讨论持续至午后仍在更新。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "重置漏单与「买 credits」话术叠加，等于把「企业档额度稳定性」直接写上竞品对比表——这是 OpenAI 月内的连续运营伤（DevDay 失焦、dots 口碑争议之后），Claude for Work/Gemini 企业档的 TCO 话术可直接引用本案；订阅服务的护城河正从「模型独占」滑向「额度可预期」。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "多席位团队应立即自查重置状态并留证据链（截图+工单号），预算口径必要时按 credits 补偿对齐；「用量重置监控＋异常取证」是 agent 运维交付单里一个具体的小切口，企业客户此刻愿意为此付钱。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源·Reddit＋OpenAI 官方论坛独立用户互证，官方未声明",
+          "publish_time": "2026-10-03 10:10",
+          "event_time": "2026-10-03 05:18",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（OpenAI 社区论坛同现象帖「4 个 Business Standard 席位全部漏单、Pro 500 已修复」，与重置追踪站 codexusage.dev 记录一致）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Codex",
+              "type": "产品"
+            },
+            {
+              "name": "ChatGPT",
+              "type": "产品"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "arXiv 限流执行效应",
+      "text": "（新）：盯 10 月 cs.AI 日均投稿量对比 9 月、首批「拒稿占名额」争议，以及 OpenReview/顶会是否跟进按作者限额——学术流水线入口治理正在连锁化，AIGC 检测与提交合规工具有新增需求方。"
+    },
+    {
+      "lead": "NVIDIA 6 万亿里程碑",
+      "text": "（新）：距 6T 不足 3000 亿，按当前斜率突破大概率就在下周——历史首破 6 万亿将是 AI 基建叙事的情绪高点，盯突破日 AI 板块资金联动与一级市场算力报价是否跟随上调。"
+    },
+    {
+      "lead": "Codex Business 漏单修复",
+      "text": "（新）：盯 OpenAI 是否官方承认并补偿（自动延期/退款）；若持续沉默，重置承诺将滑向订阅信任危机——对企业采购方恰是把「额度稳定性条款」写进合同的窗口期。"
+    }
+  ],
+  "sourceStatus": [
+    "- 当时候选池＝10-03 21:08~21:27 现场快照＋10-05 存量 raw 恢复：搜狐三源六副本（新智元/机器之心Pro/甲子光年，快照＋直抓）当时全部 0 字节 DOWN——国内源条目为存量恢复后按页面时间戳核实入档",
+    "- arXiv feed 解析 0 条（FALLBACK，周末空窗机制）；OpenAI 官网快照异常（DOWN：short body 59）",
+    "- 其余源（TechCrunch/The Verge/量子位/极客公园/爱范儿/Ars/HN/Product Hunt/GitHub Trending/HF/DeepMind 等）快照正常；zhidx 三稿与 GitHub Trending 条目因日期不可核实从严未收"
+  ]
+}
