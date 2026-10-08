@@ -1,5 +1,5 @@
 {
-  "count": 23,
+  "count": 24,
   "reports": [
     {
       "id": "2026-10-08-0900",
@@ -254,6 +254,31 @@
       "rawStats": {
         "candidates": 106,
         "selected": 15
+      }
+    },
+    {
+      "id": "2026-10-04-1500",
+      "date": "2026-10-04",
+      "time": "15:00",
+      "title": "AI 情报 · 10-04 15:00 场",
+      "itemCount": 6,
+      "coverage": "10-04 09:00 → 15:00（Asia/Shanghai）　※ 补刊（生成于 2026-10-08，非当时原发）",
+      "note": "国庆假期候选稀少：35 条原始候选中有效约 15 条，宁缺毋滥从严取 6 条；与 10-04 09:00 补刊场及 10-05 起各期去重（智东西 5 条经原链核实为 9-22 及更早旧文、r/LocalLLaMA 热帖所指 Anthropic 游说转向原报道为 09-29 旧闻、Apple 收紧全磁盘访问 10-03 已报，均剔除）",
+      "overview": [
+        "GPT-5.5 退役倒计时：10-14 起从 ChatGPT／ChatGPT Work／Codex 全套餐一刀切下线，无 Legacy 保留通道，官方指路 GPT-5.6 Sol 与 GPT-6 Astra",
+        "Tavus 发布自称全球首个「人类交互模型」Griffin：一分钟视频通话 26/54 人以为对面是真人（公司自报）",
+        "OpenAI 产品负责人 Tibo 松口 GPT-6.1 Sol「Ultrafast」速度档在途——无日期无价格，社区过度解读已被澄清",
+        "Meta Muse 系统提示词遭社区整段公开拆解：「住户权威无条件覆盖安全训练」泄露全文已进 GitHub",
+        "美财长贝森特给 AI 泡沫论「灭火」：收益率上升属全球现象，巨头资本开支已转化为 OpenAI／Anthropic 营收"
+      ],
+      "sectionCounts": {
+        "product": 2,
+        "tech": 2,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": 35,
+        "selected": 6
       }
     },
     {
