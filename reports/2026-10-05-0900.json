@@ -3,7 +3,7 @@
   "date": "2026-10-05",
   "time": "09:00",
   "title": "AI 情报 · 10-05 09:00 场",
-  "generatedAt": "2026-10-08T06:30:54.959Z",
+  "generatedAt": "2026-10-08T07:21:38.684Z",
   "coverage": "2026-10-03 09:00 → 2026-10-05 09:00（Asia/Shanghai，48h 口径，其中 24h 内 8 条）",
   "notes": [
     "信源状态见文末",
@@ -29,7 +29,7 @@
       "items": [
         {
           "title": "Jev 估值百亿美元，上海 StartLux 开源决策模型反超登顶",
-          "meta": "量子位·前天 10:38｜机器之心·前天 21:33，后续",
+          "meta": "量子位·2026-10-03 10:38｜机器之心·2026-10-03 21:33，后续",
           "urls": [
             "https://www.qbitai.com/2026/10/500148.html",
             "https://m.sohu.com/a/1083742036_129720"
@@ -81,7 +81,7 @@
         },
         {
           "title": "谷歌 Antigravity 大砍免费层：免费 Gemini 只剩 Flash-Lite，Claude 5.5 全量进 Pro/Ultra 订阅",
-          "meta": "新智元·昨天 15:45，搜狐官方号同步",
+          "meta": "新智元·2026-10-04 15:45，搜狐官方号同步",
           "urls": [
             "https://m.sohu.com/a/1083943543_473283"
           ],
@@ -128,7 +128,7 @@
         },
         {
           "title": "Meta 开源 Muse Gadgets：ESP32 固件 + Linux SDK，让创客给 agent 造硬件",
-          "meta": "机器之心·前天 21:27｜TechCrunch 同报",
+          "meta": "机器之心·2026-10-03 21:27｜TechCrunch 同报",
           "urls": [
             "https://m.sohu.com/a/1083741069_129720",
             "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/"
@@ -172,7 +172,7 @@
         },
         {
           "title": "Meshy 不怕通用模型吃掉：AI 3D 生成 ARR 从 $100 万到 $1 亿，用时不到两年",
-          "meta": "量子位·昨天 08:53",
+          "meta": "量子位·2026-10-04 08:53",
           "urls": [
             "https://www.qbitai.com/2026/10/501451.html"
           ],
@@ -211,7 +211,7 @@
         },
         {
           "title": "DeepSeek 假期双响：Harness 新版对照 Claude Code Mods，DSec 沙盒基建公开 + 弹性计算扩招",
-          "meta": "机器之心·昨天 23:42｜量子位·前天 15:54",
+          "meta": "机器之心·2026-10-04 23:42｜量子位·2026-10-03 15:54",
           "urls": [
             "https://m.sohu.com/a/1084023376_129720",
             "https://www.qbitai.com/2026/10/501381.html"
@@ -263,7 +263,7 @@
       "items": [
         {
           "title": "何恺明团队 VISTA 把 ARC-AGI-3 打穿：Claude Opus 5 全满 25 游戏 183 关",
-          "meta": "新智元·昨天 12:26，搜狐官方号同步",
+          "meta": "新智元·2026-10-04 12:26，搜狐官方号同步",
           "urls": [
             "https://m.sohu.com/a/1083891176_473283"
           ],
@@ -308,7 +308,7 @@
         },
         {
           "title": "Fable 5.5 首测神作刷屏：3 分钟「人类万年史」100% 由 Claude 5.5 代码实时渲染",
-          "meta": "新智元·昨天 15:45，搜狐官方号同步，后续",
+          "meta": "新智元·2026-10-04 15:45，搜狐官方号同步，后续",
           "urls": [
             "https://m.sohu.com/a/1083943970_473283"
           ],
@@ -345,7 +345,7 @@
         },
         {
           "title": "GPT-6 家族行为侧写：Astra 星际争霸「作弊」坐实，Sol Codex 29 万字系统提示词泄露",
-          "meta": "The Verge·昨晚 23:21｜新智元·昨天 08:44",
+          "meta": "The Verge·2026-10-04 23:21｜新智元·2026-10-04 08:44",
           "urls": [
             "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
             "https://m.sohu.com/a/1083818300_473283"
@@ -391,7 +391,7 @@
       "items": [
         {
           "title": "特朗普官宣 Super Intelligence Force：国家情报总监执掌，白宫 AI 管理架构成型",
-          "meta": "TechCrunch·昨晚 23:15｜36氪快讯·昨天 16:16",
+          "meta": "TechCrunch·2026-10-04 23:15｜36氪快讯·2026-10-04 16:16",
           "urls": [
             "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/"
           ],
@@ -435,7 +435,7 @@
         },
         {
           "title": "AI 提交淹没漏洞赏金：Google 冻结开源 OSS 漏洞奖励计划至明年",
-          "meta": "TechCrunch·今天 04:31",
+          "meta": "TechCrunch·2026-10-05 04:31",
           "urls": [
             "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/"
           ],
@@ -475,7 +475,7 @@
       "items": [
         {
           "title": "「超级智能」完成官方 rebrand：白宫公约签署、SpaceXAI 改名 SpaceXSI、Hinton 等 22 人联名警告",
-          "meta": "TechCrunch·今天 04:08｜新智元·昨晚 20:54｜极客公园·今晨 08:36，后续",
+          "meta": "TechCrunch·2026-10-05 04:08｜新智元·2026-10-04 20:54｜极客公园·2026-10-05 08:36，后续",
           "urls": [
             "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
             "https://m.sohu.com/a/1084008129_473283"
@@ -524,7 +524,7 @@
         },
         {
           "title": "OpenAI 安全线崩坏实录：安全报告主笔 Robinson 辞职称「culture is broken」",
-          "meta": "TechCrunch·昨天凌晨 00:30｜量子位·前天 12:41｜极客公园·昨天 08:33，后续",
+          "meta": "TechCrunch·2026-10-04 00:30｜量子位·2026-10-03 12:41｜极客公园·2026-10-04 08:33，后续",
           "urls": [
             "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
             "https://www.qbitai.com/2026/10/501368.html"
@@ -568,7 +568,7 @@
         },
         {
           "title": "Terafab：马斯克的 1TW 算力工程浮出，一期 $168 亿、Intel 14A 确认、台积电后端谈判中",
-          "meta": "量子位·昨天 14:12",
+          "meta": "量子位·2026-10-04 14:12",
           "urls": [
             "https://www.qbitai.com/2026/10/501605.html"
           ],
@@ -615,7 +615,7 @@
         },
         {
           "title": "FDE 成最火 AI 岗位：海外年薪中位 $20 万，Anthropic $1 亿训 1 万人、AWS $10 亿组建部门",
-          "meta": "量子位·昨天 14:05",
+          "meta": "量子位·2026-10-04 14:05",
           "urls": [
             "https://www.qbitai.com/2026/10/501506.html"
           ],
@@ -666,7 +666,7 @@
         },
         {
           "title": "GitHub Trending 刷满 agent 工具链：ponytail 日增 1894★、claude-mem、Agent-Reach、impeccable 爆火",
-          "meta": "GitHub Trending·今晨抓取",
+          "meta": "GitHub Trending·2026-10-05 晨抓取",
           "urls": [
             "https://github.com/DietrichGebert/ponytail",
             "https://github.com/thedotmack/claude-mem",
@@ -709,7 +709,7 @@
   "signals": [
     {
       "lead": "GPT-6.1 Astra 回归前夜",
-      "text": "机器之心（昨晚 23:36）传 Anthropic 的 Tibo 预告「Astra 6.1 要来了」、OpenAI 研究员 Rajan Agarwal 同步公开征集「sloppy code」案例（https://m.sohu.com/a/1084023349_129720）——9/29 宣布「因安全未发布」的 GPT-6.1 大概率以「代码品味治理」为卖点回归，盯上线定价与 agent 交付指标。"
+      "text": "机器之心（2026-10-04 23:36）传 Anthropic 的 Tibo 预告「Astra 6.1 要来了」、OpenAI 研究员 Rajan Agarwal 同步公开征集「sloppy code」案例（https://m.sohu.com/a/1084023349_129720）——9/29 宣布「因安全未发布」的 GPT-6.1 大概率以「代码品味治理」为卖点回归，盯上线定价与 agent 交付指标。"
     },
     {
       "lead": "决策模型成本曲线",
@@ -721,7 +721,7 @@
     },
     {
       "lead": "内存供给趋紧",
-      "text": "Micron CEO 称 2027-2028 内存供给比 2026 更紧张（r/LocalLLaMA·今天凌晨）——端侧/边缘推理的硬件成本曲线值得盯。"
+      "text": "Micron CEO 称 2027-2028 内存供给比 2026 更紧张（r/LocalLLaMA·2026-10-05 凌晨）——端侧/边缘推理的硬件成本曲线值得盯。"
     }
   ],
   "sourceStatus": [
@@ -731,6 +731,6 @@
     "- Reddit：r/LocalLLaMA 正常（arctic-shift subreddit 参数可用）；r/MachineLearning、r/OpenAI 连续超时跳过",
     "- VentureBeat：render.js 可通但页面解析未出文章链接，登记异常待复核（此前 09/30 平反记录疑似失效）",
     "- 36氪 AI 频道/快讯渲染正常：原创稿（杀猪盘 AI 化、Karpathy 航空规范、阿里 90 后、「视频图灵测试」）未入正文，已留 raw；HF 博客走 7890 代理正常；RSS 批量（量子位/极客公园/爱范儿/TechCrunch/Verge/PH/sspai）正常；arXiv cs.AI 周日无更新（skipDays 正常机制）",
-    "- 机器之心 Pro 同步延迟：最新稿昨天 23:47（工作时段同步，符合既有规律）"
+    "- 机器之心 Pro 同步延迟：最新稿2026-10-04 23:47（工作时段同步，符合既有规律）"
   ]
 }
