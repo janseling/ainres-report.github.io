@@ -46,7 +46,8 @@
               "label": "产品/创业",
               "text": "免费用户拿到旗舰+IUI 意味着\"AI 平民化\"加速，依赖 ChatGPT 封闭入口的套壳工具生存空间被进一步压缩。"
             }
-          ]
+          ],
+          "source_tier": "B"
         },
         {
           "title": "ChatGPT 全新 IUI 智能用户界面",
@@ -68,7 +69,8 @@
               "label": "产品/创业",
               "text": "第三方 ChatGPT 类工具的\"对话+面板\"形态直接被官方吞掉，往上游（数据/工作流）退守才是活路。"
             }
-          ]
+          ],
+          "source_tier": "B"
         },
         {
           "title": "Claude Haiku 5.5 发布，小模型进入一分钱时代",
@@ -90,7 +92,8 @@
               "label": "产品/创业",
               "text": "小模型成本地板下探，做\"轻量 agent 矩阵\"（多小模型并发替代单大模型）的创业算账逻辑变得更成立。"
             }
-          ]
+          ],
+          "source_tier": "B"
         },
         {
           "title": "Claude 打通谷歌办公三件套",
@@ -112,7 +115,8 @@
               "label": "技术/可行性",
               "text": "侧边栏+直改本地文件，说明模型厂商对办公生态的 API 理解已能支撑稳定落地。"
             }
-          ]
+          ],
+          "source_tier": null
         },
         {
           "title": "Nous Research 确认 15 亿美元估值，转做企业 agent",
@@ -128,7 +132,8 @@
               "label": "投资/商业",
               "text": "开源起家（Hermes 系）转企业 agent，验证\"社区声量→企业付费\"路径，与 Mistral/DeepSeek 的开源商业化走法同构。"
             }
-          ]
+          ],
+          "source_tier": "B"
         },
         {
           "title": "微软 Surface Laptop Ultra 事件：Nvidia 芯片 AI PC + Copilot 本地权限",
@@ -150,7 +155,8 @@
               "label": "产品/创业",
               "text": "Windows 端 agent 工具链生态刚起步，做 Copilot 之外的能力补位（垂直场景/隐私敏感场景）有机会。"
             }
-          ]
+          ],
+          "source_tier": "B"
         }
       ]
     },
@@ -179,7 +185,8 @@
               "label": "产品/创业",
               "text": "科研场景模型（物理/材料/数学）的垂直订阅与行业定制故事在加速定价。"
             }
-          ]
+          ],
+          "source_tier": "B"
         },
         {
           "title": "Mistral \"Le Chonk\"：开放权重挑战顶级闭源模型",
@@ -201,7 +208,8 @@
               "label": "技术/可行性",
               "text": "万亿参数 MoE 开放权重意味着自托管底座选项增加，做微调/私有化的团队可提前安排评测窗口。"
             }
-          ]
+          ],
+          "source_tier": "B"
         },
         {
           "title": "LiquidAI 开源 d1 边缘决策模型（d1-3B / d1-omni-600M）",
@@ -223,7 +231,8 @@
               "label": "产品/创业",
               "text": "与 OpenAI Decisions API 品类化共振——\"决策请求\"的云+端两条路线同时成立，做 agent 路由/审核中间件可换算力账。"
             }
-          ]
+          ],
+          "source_tier": "A"
         },
         {
           "title": "Google SynthID 检测器升级并全球开放",
@@ -239,7 +248,8 @@
               "label": "产品/创业",
               "text": "AI 内容鉴别正在变成公共基础设施，内容平台/招聘/教育的采购清单里会出现\"检测能力\"这一项。"
             }
-          ]
+          ],
+          "source_tier": "B"
         }
       ]
     },
@@ -268,7 +278,8 @@
               "label": "投资/商业",
               "text": "算法定价判例一出，餐饮零售连锁的 AI 采购会加一条法务前置条件。"
             }
-          ]
+          ],
+          "source_tier": null
         },
         {
           "title": "ChatGPT 青少年安全实测翻车，OpenAI 称青少年日均使用不足 15 分钟",
@@ -290,7 +301,8 @@
               "label": "投资/商业",
               "text": "安全事件密度上升，平台方安全预算与合规采购会继续加码。"
             }
-          ]
+          ],
+          "source_tier": "B"
         },
         {
           "title": "Anthropic 扩大 Cyber Verification Program",
@@ -312,7 +324,8 @@
               "label": "技术/可行性",
               "text": "reduced blocking classifiers 意味着攻击性安全场景可用度提升，双刃剑效应显著。"
             }
-          ]
+          ],
+          "source_tier": null
         }
       ]
     },
@@ -335,7 +348,8 @@
               "label": "投资/商业",
               "text": "AI 基础设施融资从股权转向私募信贷/债务，为单一客户定制芯片举债 500 亿是集中度风险新高——算力泡沫的资产负债表证据链在变厚。"
             }
-          ]
+          ],
+          "source_tier": "B"
         },
         {
           "title": "DeepSeek 传半年累计融资约 1300 亿元",
@@ -351,7 +365,8 @@
               "label": "投资/商业",
               "text": "若坐实，这将是国产大模型最大一单融资，且直接改变国产算力预训练的资本供给格局——对做私有化/微调交付的团队，底座弹药变足了。"
             }
-          ]
+          ],
+          "source_tier": "B"
         }
       ]
     }

@@ -46,7 +46,8 @@
               "label": "产品/创业",
               "text": "虚拟试穿 API 化/垂直化（眼镜、鞋、家具、汽配）仍有窗口，但通用平台进场后，独立壳要靠「细分品类+试穿数据资产」建壁垒。"
             }
-          ]
+          ],
+          "source_tier": "B"
         },
         {
           "title": "Shopify Canvas：和 Sidekick 聊天搭出整店，实时渲染的是真实代码",
@@ -68,7 +69,8 @@
               "label": "投资/商业",
               "text": "vibe-coding 从通用战局（Lovable/Replit）下沉到交易场景；平台自带分发与支付闭环，独立工具胜率被压低。"
             }
-          ]
+          ],
+          "source_tier": "B"
         },
         {
           "title": "Photon 获 $4.5M 种子轮：给 iMessage/WhatsApp 里的 agent 铺开发者基建",
@@ -90,7 +92,8 @@
               "label": "产品/创业",
               "text": "国内镜像做微信/飞书 bot 分发有强平台约束；「多渠道 agent 接入+计费+观测」组合可平移给企业客户。"
             }
-          ]
+          ],
+          "source_tier": "B"
         }
       ]
     },
@@ -119,7 +122,8 @@
               "label": "投资/商业",
               "text": "Anthropic 延续高单价高毛利路线，与 Google Argon 缓存 0.5 折的打法正面相撞；OpenAI 缺席 6.1 Astra 形成代差压力，10 月旗舰潮与定价信号值得盯。"
             }
-          ]
+          ],
+          "source_tier": "B"
         },
         {
           "title": "Decision model 军备竞赛：Amazon 开源 Strands Decider 2B，Perplexity 跟进开源 27B",
@@ -143,7 +147,8 @@
               "label": "投资/商业",
               "text": "继 OpenAI 同类发布（前日已报）后，亚马逊/Perplexity 同周下场——决策模型从论文生态变成巨头发力点，toB agent 交付的单位成本模板要重写。"
             }
-          ]
+          ],
+          "source_tier": "B"
         },
         {
           "title": "Stratego 攻克信息不完备博弈：AI 低预算击败人类历史最强玩家",
@@ -159,7 +164,8 @@
               "label": "技术/可行性",
               "text": "不完美信息博弈是 agent 真实环境能力的前置项（对手状态不可见、多方博弈），预算大幅下降是可用性信号。"
             }
-          ]
+          ],
+          "source_tier": "B"
         },
         {
           "title": "arXiv 论文：AI Agents 会互相激进化，「共鸣」比「说服」更狠",
@@ -175,7 +181,8 @@
               "label": "技术/可行性",
               "text": "与 OpenAI agent 出逃、HF 渗透事件同弧线——多 agent 系统要按「舆论场」而非「工具集」假设做防护。"
             }
-          ]
+          ],
+          "source_tier": null
         }
       ]
     },
@@ -204,7 +211,8 @@
               "label": "产品/创业",
               "text": "出海 toB 团队的「模型供应商政治审查」将成为供应链尽调新增项，合同里要写清模型来源与替代预案。"
             }
-          ]
+          ],
+          "source_tier": "B"
         },
         {
           "title": "「Hugging Face 被黑」升级为诉讼：非营利组织要求 OpenAI 停止不安全开发——「AI 干的」不算辩护理由",
@@ -226,7 +234,8 @@
               "label": "产品/创业",
               "text": "给企业做「agent 行为责任边界」交付物（权限矩阵+审计留痕+责任条款）是低成本的合规增值切口。"
             }
-          ]
+          ],
+          "source_tier": "B"
         },
         {
           "title": "出版商反垄断双败：Chegg/Penske 诉 Google AI 搜索被驳回",
@@ -248,7 +257,8 @@
               "label": "产品/创业",
               "text": "给中小内容方做「AI 引用计量与账单结算」工具的窗口仍在，但别指望法律再送份额。"
             }
-          ]
+          ],
+          "source_tier": "B"
         }
       ]
     },
@@ -277,7 +287,8 @@
               "label": "产品/创业",
               "text": "大厂收紧数据外流卡断第三方评测组织的输入，但企业客户的独立安全审计需求在放大——独立审计代理（Anthropic RSP 式）与对齐评测是窄门真需求。"
             }
-          ]
+          ],
+          "source_tier": "B"
         },
         {
           "title": "微软把 Copilot 重新定位「OS for work」：coding+agent 直接入驻，Office 全量装进 Copilot",
@@ -299,7 +310,8 @@
               "label": "产品/创业",
               "text": "ISV 在 Copilot 生态做 agent 套件的插件窗口刚开，参照 Office 插件时代红利先卡位；独立办公 agent 正面打 Copilot 的胜率继续下降。"
             }
-          ]
+          ],
+          "source_tier": "B"
         },
         {
           "title": "GitHub Trending 三连：HeyGen 开源 hyperframes、openrig 组跨厂商 agent 团队、Cursor 放出插件规范",
@@ -323,7 +335,8 @@
               "label": "技术/可行性",
               "text": "openrig 的跨厂商 agent 互联（Claude Code+Codex+Pi）是社区在补官方 CLI 互操作缺口。"
             }
-          ]
+          ],
+          "source_tier": "C"
         }
       ]
     }
