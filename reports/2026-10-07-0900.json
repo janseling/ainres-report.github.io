@@ -3,7 +3,7 @@
   "date": "2026-10-07",
   "time": "09:00",
   "title": "AI 情报 · 10-07 09:00 场",
-  "generatedAt": "2026-10-08T07:21:38.686Z",
+  "generatedAt": "2026-10-08T15:50:33.783Z",
   "coverage": "10-06 21:00 → 10-07 09:05（Asia/Shanghai）",
   "notes": [
     "2026-10-06 三场均已报条目已去重（Mistral Large 4、月之暗面 PreIPO、微软/Meta 减用 Claude、textGrain、Wikimedia 事件、Utopai X 均不再重收）"
@@ -99,9 +99,10 @@
           "type_tags": [
             "商业合作"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·官方口径转述",
+          "confidence": "高",
+          "confidence_note": "双源佐证 官方口径转述+Quartz/官方项目页同报",
           "publish_time": "2026-10-07 00:00",
+          "verify_note": "外部检索（Claude Startups 官方项目页在列同权益，Quartz 同步报道：一年免费 Claude Team + $1,000 API credits、最高 $45K 第三方折扣）",
           "entities": [
             {
               "name": "Anthropic",
@@ -132,9 +133,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch 单源+Fast Company/Gizmodo 同报",
           "publish_time": "2026-10-07 02:22",
+          "verify_note": "外部检索（Fast Company/Gizmodo 同步报道：Hark Pro 当日上线（iOS/Android/web），自称「你人生的操作系统」、主动式 AI 助手走 GUI 路线）",
           "entities": [
             {
               "name": "Hark",
@@ -173,9 +175,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·发布会前预告",
+          "confidence": "高",
+          "confidence_note": "双源佐证 发布会前预告+官网/Dealroom 同报",
           "publish_time": "2026-10-07 00:35",
+          "verify_note": "外部检索（官网已挂牌「Foundational models of human behavior」，Dealroom 10-07 同步报道：以人类行为世界模型预测消费者下一步）",
           "entities": [
             {
               "name": "Mirror Particle",
@@ -206,9 +209,10 @@
           "type_tags": [
             "融资交易"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch 单源+Dealroom/PYMNTS 同报",
           "publish_time": "2026-10-07 06:34",
+          "verify_note": "外部检索（Dealroom/PYMNTS 同步报道 Series A 融资；官方 GlobeNewswire 稿口径 $25M 系含 seed 合计，$20M 系 A 轮本身）",
           "entities": [
             {
               "name": "Melius",
@@ -337,11 +341,12 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·开放权重可复查",
+          "confidence": "高",
+          "confidence_note": "双源佐证 开放权重可复查+官方博客/RuntimeWire 同报",
           "publish_time": "2026-10-07 04:35",
           "event_time": "2026-10-06",
           "event_time_inferred": false,
+          "verify_note": "外部检索（musubilabs.ai 官方博客 10-06 发布 PolicyLM-1.7B 开放权重，RuntimeWire/Times of SF 同步报道：审核策略内嵌 1.7B、单条判定 <50ms）",
           "entities": [
             {
               "name": "Musubi",
@@ -379,9 +384,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·转引 NYT",
+          "confidence": "高",
+          "confidence_note": "双源佐证 转引 NYT+ABC/Guardian/Politico 同报",
           "publish_time": "2026-10-07 07:58",
+          "verify_note": "外部检索（ABC News/The Guardian/Politico 同步报道：Jason Kwon 10-06 亲赴澳议会听证就 Medicare 事件当面道歉，Politico 详记安全整改口径）",
           "entities": [
             {
               "name": "OpenAI",
@@ -416,9 +422,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·原页核实",
+          "confidence": "高",
+          "confidence_note": "双源佐证 原页核实+Sierra 官宣/TNW 同报",
           "publish_time": "2026-10-07 03:56",
+          "verify_note": "外部检索（Sierra（Bret Taylor/Clay Bavor）10-06 官宣 Personal Agent Protocol 开放标准，Meta/Walmart/Shopify/Stripe 背书，TNW/ChannelInsider 同步报道）",
           "entities": [
             {
               "name": "Meta",
@@ -461,9 +468,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 新智元+Lonsdale 播客转录页同报",
           "publish_time": "2026-10-07 00:01",
+          "verify_note": "外部检索（Joe Lonsdale「American Optimist」Ep164 访谈页同报：Sholto Douglas 10-02 公开称 AGI 只剩「a couple of years」，与「电脑上的工作几年内可被 AI 完成」口径一致）",
           "entities": [
             {
               "name": "Anthropic",
@@ -494,9 +502,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch 单源+官方 Newsroom/PYMNTS 同报",
           "publish_time": "2026-10-06 22:00",
+          "verify_note": "外部检索（Pinterest Newsroom 10-06 官宣 Beauty Guides「把灵感变成行动」，PYMNTS/YPulse 同步报道：发型 Pin 转成沙龙术语与可执行问询指引）",
           "entities": [
             {
               "name": "Pinterest",
@@ -527,9 +536,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch 单源+TDF 官方博客同报",
           "publish_time": "2026-10-06 23:25",
+          "verify_note": "外部检索（TDF 官方博客 9-03「Yes, no AI is now a feature」及 Vignoli Substack 同口径：默认零 AI，并列出接入 AI 前须满足的六项条件）",
           "entities": [
             {
               "name": "LibreOffice",
