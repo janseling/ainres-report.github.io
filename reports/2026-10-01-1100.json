@@ -3,7 +3,7 @@
   "date": "2026-10-01",
   "time": "11:00",
   "title": "AI 情报 · 10-01 11:00 场",
-  "generatedAt": "2026-10-08T07:24:31.400Z",
+  "generatedAt": "2026-10-08T15:44:22.198Z",
   "coverage": "2026-09-30 11:00 → 2026-10-01 11:00（Asia/Shanghai；24h 为主，2 条重大放宽至 48h 并标注）",
   "notes": [
     "信源状态见文末"
@@ -85,6 +85,8 @@
           "confidence": "高",
           "confidence_note": "双源：极客公园+Ars 同报",
           "publish_time": "2026-09-29 17:12",
+          "event_time": "2026-09-28",
+          "event_time_inferred": false,
           "entities": [
             {
               "name": "Anthropic",
@@ -475,7 +477,7 @@
           "confidence": "高",
           "confidence_note": "双源：The Verge+Ars",
           "publish_time": "2026-10-01 02:47",
-          "event_time": "2026-09-30",
+          "event_time": "2026-09-29",
           "event_time_inferred": false,
           "entities": [
             {
