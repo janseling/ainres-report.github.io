@@ -3,10 +3,10 @@
   "date": "2026-10-07",
   "time": "15:10",
   "title": "AI 情报 · 10-07 15:10 场",
-  "generatedAt": "2026-10-08T06:11:28.824Z",
+  "generatedAt": "2026-10-08T07:21:38.686Z",
   "coverage": "10-07 09:05 → 10-07 15:16（Asia/Shanghai）",
   "notes": [
-    "昨 09:00 场已报条目全部去重；OpenAI Decisions API 公测（今日凌晨 04:53）因上期 OpenAI RSS 403 + Reddit 全挂漏抓，本期补收"
+    "昨 09:00 场已报条目全部去重；OpenAI Decisions API 公测（2026-10-07 04:53）因上期 OpenAI RSS 403 + Reddit 全挂漏抓，本期补收"
   ],
   "itemCount": 10,
   "rawStats": {
@@ -18,7 +18,7 @@
     "OpenAI Decisions API 公测：判断类请求有了专用端点，比 Responses 快约 10 倍、$0.10/百万输入 token",
     "Anthropic 工程师静默提交 GitHub：Claude 被证拿下概率论「圣杯」渗流猜想，Lean 严格验证、第三方已当依赖扩展",
     "可灵 IPO 实质推进：中金/高盛/瑞银阵容落定，募资至少 10 亿美元、最早 2027 上市",
-    "ChatGPT 标题里两年前埋的赌博色情小广告污染坑今天被深挖，OpenAI 7 月承认后半年未修"
+    "ChatGPT 标题里两年前埋的赌博色情小广告污染坑 2026-10-07 被深挖，OpenAI 7 月承认后半年未修"
   ],
   "sections": [
     {
@@ -28,17 +28,17 @@
       "items": [
         {
           "title": "谷歌深夜偷袭：Nano Banana 2.1 出图价砍半、打赢自家 Pro",
-          "meta": "36氪·今日 14:29",
+          "meta": "36氪·2026-10-07 14:29",
           "urls": [
             "https://36kr.com/p/4015347171233921"
           ],
-          "summary": "基于 Gemini 3.6 Flash 的 Flash 级生图模型：蒙版局部编辑（圈哪改哪）、人物/产品连改多轮不变脸（最多 14 张参考图）、最高 4K 直出、画信息图会先联网查资料；Arena 多图编辑第 4（上代第 7）。出图 $30/百万 token，1K 一张 $0.034、4K $0.076，仅为上代一半；Gemini App/AI Studio/Google Ads 今日起陆续可用，旧 Nano Banana 2 API 10 月 29 日关停。",
+          "summary": "基于 Gemini 3.6 Flash 的 Flash 级生图模型：蒙版局部编辑（圈哪改哪）、人物/产品连改多轮不变脸（最多 14 张参考图）、最高 4K 直出、画信息图会先联网查资料；Arena 多图编辑第 4（上代第 7）。出图 $30/百万 token，1K 一张 $0.034、4K $0.076，仅为上代一半；Gemini App/AI Studio/Google Ads 2026-10-07 起陆续可用，旧 Nano Banana 2 API 10 月 29 日关停。",
           "angles": [
             {
               "kind": "invest",
               "icon": "💰",
               "label": "投资/商业",
-              "text": "价格结构比价格更关键——出图砍半同时输入 $0.5→$1.5、思考/文字输出 $3→$7.5，「便宜的像素、贵的思考」，谷歌把图像生成的钱从「画」挪到「想」；OpenAI GPT Image 的跟价反应是本周信号。"
+              "text": "价格结构比价格更关键——出图砍半同时输入 $0.5→$1.5、思考/文字输出 $3→$7.5，「便宜的像素、贵的思考」，谷歌把图像生成的钱从「画」挪到「想」；OpenAI GPT Image 的跟价反应是 2026-10-05~10-11 信号。"
             },
             {
               "kind": "startup",
@@ -74,11 +74,11 @@
         },
         {
           "title": "OpenAI Decisions API 公测：判断类请求有了专用端点",
-          "meta": "Reddit·今日 14:55",
+          "meta": "Reddit·2026-10-07 14:55",
           "urls": [
             "https://www.reddit.com/r/OpenAI/comments/1wzprt3/decisions_api_is_now_available_in_public_beta"
           ],
-          "summary": "今日凌晨 04:53 OpenAI 宣布 Decisions API 向全体开发者公测：/v1/decisions 基于 GPT-6 Luna，输入文本/图片，输出 Predicates（断言概率）/Choices（选项+置信）/Scores（评分）三类结构化结果，官方称较 Responses API 快约 10 倍；$0.10/百万输入 token、输出不计费。DevDay（9-29）上它还是 limited preview。官方公告：https://community.openai.com/t/decisions-api-is-now-available-in-public-beta/1403877",
+          "summary": "2026-10-07 04:53 OpenAI 宣布 Decisions API 向全体开发者公测：/v1/decisions 基于 GPT-6 Luna，输入文本/图片，输出 Predicates（断言概率）/Choices（选项+置信）/Scores（评分）三类结构化结果，官方称较 Responses API 快约 10 倍；$0.10/百万输入 token、输出不计费。DevDay（9-29）上它还是 limited preview。官方公告：https://community.openai.com/t/decisions-api-is-now-available-in-public-beta/1403877",
           "angles": [
             {
               "kind": "invest",
@@ -113,7 +113,7 @@
         },
         {
           "title": "可灵 IPO 实质推进：投行阵容落定，最早 2027 上市",
-          "meta": "36氪·今日 15:08",
+          "meta": "36氪·2026-10-07 15:08",
           "urls": [
             "https://36kr.com/p/4015326443329157"
           ],
@@ -164,7 +164,7 @@
         },
         {
           "title": "Reika：围绕小本地模型优先设计的 coding agent CLI",
-          "meta": "Product Hunt·今日 11:36",
+          "meta": "Product Hunt·2026-10-07 11:36",
           "urls": [
             "https://www.producthunt.com/products/reika"
           ],
@@ -200,7 +200,7 @@
       "items": [
         {
           "title": "Claude 被证拿下概率论「圣杯」：没有发布会，只有一次 GitHub 提交",
-          "meta": "36氪转新智元·今日 14:59",
+          "meta": "36氪转新智元·2026-10-07 14:59",
           "urls": [
             "https://36kr.com/p/4015346980278153"
           ],
@@ -216,7 +216,7 @@
               "kind": "invest",
               "icon": "💰",
               "label": "投资/商业",
-              "text": "与 OpenAI 722 篇手稿（SIG-20261007-0900-1）同周共振：AI-for-math 的定价权在形式验证与复现基础设施手里；Anthropic 未官宣，等社区背书再升级结论。"
+              "text": "与 OpenAI 722 篇手稿（SIG-20261007-0900-1）2026-10-05~10-11 共振：AI-for-math 的定价权在形式验证与复现基础设施手里；Anthropic 未官宣，等社区背书再升级结论。"
             }
           ],
           "source_tier": "B",
@@ -244,7 +244,7 @@
         },
         {
           "title": "【后续】OpenAI 722 篇数学手稿：三位菲尔兹奖得主「不代表认可」",
-          "meta": "量子位·今日 09:05",
+          "meta": "量子位·2026-10-07 09:05",
           "urls": [
             "https://www.qbitai.com/2026/10/501749.html"
           ],
@@ -356,7 +356,7 @@
       "items": [
         {
           "title": "Anthropic 把最强模型权限分三档开放给安全团队",
-          "meta": "36氪·今日 10:42",
+          "meta": "36氪·2026-10-07 10:42",
           "urls": [
             "https://36kr.com/p/4015209455456387"
           ],
@@ -394,8 +394,8 @@
           ]
         },
         {
-          "title": "ChatGPT 标题里的赌博色情小广告：两年前埋的坑今天暴雷",
-          "meta": "36氪·今日 14:30",
+          "title": "ChatGPT 标题里的赌博色情小广告：两年前埋的坑 2026-10-07 暴雷",
+          "meta": "36氪·2026-10-07 14:30",
           "urls": [
             "https://36kr.com/p/4015290777981060"
           ],
