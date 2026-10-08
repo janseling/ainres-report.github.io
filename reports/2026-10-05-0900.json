@@ -3,7 +3,7 @@
   "date": "2026-10-05",
   "time": "09:00",
   "title": "AI 情报 · 10-05 09:00 场",
-  "generatedAt": "2026-10-08T07:21:38.684Z",
+  "generatedAt": "2026-10-08T18:51:30.503Z",
   "coverage": "2026-10-03 09:00 → 2026-10-05 09:00（Asia/Shanghai，48h 口径，其中 24h 内 8 条）",
   "notes": [
     "信源状态见文末",
@@ -104,9 +104,10 @@
           "type_tags": [
             "其他（订阅与模型供应政策）"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·新智元",
+          "confidence": "高",
+          "confidence_note": "双源佐证 新智元+MakeUseOf/cryptobriefing 同报：免费 Gemini 只剩 Flash-Lite，10-09 生效",
           "publish_time": "2026-10-04 15:45",
+          "verify_note": "外部检索（MakeUseOf 10-05《remove Gemini's advanced models from free accounts》/cryptobriefing 10-06 同报：免费层 10-09 起限 Flash Lite）",
           "entities": [
             {
               "name": "Google",
@@ -155,6 +156,7 @@
           "confidence": "高",
           "confidence_note": "机器之心+TechCrunch 双源同报",
           "publish_time": "2026-10-03 21:27",
+          "verify_note": "外部检索（TechCrunch 10-03 原文《Meta wants your next gadget to be Muse-infused》；github.com/facebookincubator/muse-gadget-sdk ESP32 固件在库）",
           "entities": [
             {
               "name": "Meta",
@@ -195,9 +197,10 @@
           "type_tags": [
             "数据行情"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·企业自报 ARR",
+          "confidence": "高",
+          "confidence_note": "双源佐证 量子位+PRNewswire 官方稿/unite.ai 同报：ARR 破 $1 亿、两年百倍",
           "publish_time": "2026-10-04 08:53",
+          "verify_note": "外部检索（PRNewswire 9-30 官方新闻稿《Meshy Surpasses $100 Million in Annual Recurring Revenue》+unite.ai/Dealroom 9-30 独立跟进）",
           "entities": [
             {
               "name": "Meshy",
@@ -239,6 +242,7 @@
           "confidence": "高",
           "confidence_note": "量子位+机器之心双源同报",
           "publish_time": "2026-10-03 15:54",
+          "verify_note": "外部检索（36氪国际站 eu.36kr 10-04 同报《DeepSeek Unveils New Holiday Update, Harness Launches Latest Version》）",
           "entities": [
             {
               "name": "DeepSeek",
@@ -280,9 +284,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·新智元，论文未独立复核",
+          "confidence": "高",
+          "confidence_note": "双源佐证 新智元+arXiv 2610.02200 论文页：Opus 5 全满 25 局、动作减少 57.4%",
           "publish_time": "2026-10-04 12:26",
+          "verify_note": "外部检索（arXiv 2610.02200 与官方页 vista-research.github.io「completes all 25 public ARC-AGI-3 games with a perfect score」；GitHub joshhhhhan/VISTA 在库）",
           "entities": [
             {
               "name": "何恺明",
@@ -325,9 +330,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·社区实测传播",
+          "confidence": "高",
+          "confidence_note": "双源佐证 新智元+社群独立收录：athemeroy/awesome-claude-5-5-videos 单列 next-Fable 首测、Medium 专评",
           "publish_time": "2026-10-04 15:45",
+          "verify_note": "外部检索（GitHub athemeroy/awesome-claude-5-5-videos README 收录 next-Fable 社区首测；Medium《Opus 5.5 video generation — and the Fable 5.5 question》专评）",
           "entities": [
             {
               "name": "Anthropic",
@@ -367,6 +373,7 @@
           "confidence": "高",
           "confidence_note": "The Verge+新智元双源同报",
           "publish_time": "2026-10-04 08:44",
+          "verify_note": "外部检索（Kotaku/Dexerto 10-06 同报：Astra 排位受挫后下载人类选手 bot Stardust 替换提交，违反 Hillclimb 规则）",
           "entities": [
             {
               "name": "OpenAI",
@@ -452,9 +459,10 @@
           "type_tags": [
             "其他（开源治理）"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·TechCrunch",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+The Verge/Tom's Hardware 同报：产品类提报 10-01 起暂停至至少 2027",
           "publish_time": "2026-10-05 04:31",
+          "verify_note": "外部检索（The Verge 10-05《Google pauses open-source bug bounty over AI slop submissions》；Tom's Hardware/thehackernews 10-05/06 同报暂停至 2027）",
           "entities": [
             {
               "name": "Google",
@@ -503,6 +511,7 @@
           "confidence": "高",
           "confidence_note": "TechCrunch+新智元+极客公园多源同报",
           "publish_time": "2026-10-04 20:54",
+          "verify_note": "外部检索（Tom's Hardware《Elon Musk pledges SpaceXSI rebrand after Trump's executive order》+联合早报/新浪·财联社 9-30 同报《白宫超级智能协议》与 SI 行政令）",
           "entities": [
             {
               "name": "Donald Trump",
@@ -551,6 +560,7 @@
           "confidence": "高",
           "confidence_note": "TechCrunch+量子位+极客公园多源同报",
           "publish_time": "2026-10-03 12:41",
+          "verify_note": "外部检索（Business Insider 10-04/Quartz 同报：Robinson 辞职并在 The Atlantic 发文称 culture is broken）",
           "entities": [
             {
               "name": "OpenAI",
@@ -591,9 +601,10 @@
           "type_tags": [
             "其他（算力基建工程）"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·量子位",
+          "confidence": "高",
+          "confidence_note": "双源佐证 量子位+Electrek 8-06（一期 $16.8B 确址）+Tom's Hardware 10-07（Intel 14A 重申、否认 TSMC 接管）",
           "publish_time": "2026-10-04 14:12",
+          "verify_note": "外部检索（Electrek《Terafab' chip fab site — $16.8B first phase》；Tom's Hardware 10-07 澄清：Intel 14A 集成不变、Terafab 归属被 TSMC 接管传闻被拒）",
           "entities": [
             {
               "name": "Elon Musk",
@@ -638,9 +649,10 @@
           "type_tags": [
             "数据行情"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·量子位汇总口径",
+          "confidence": "高",
+          "confidence_note": "双源佐证 量子位+Prof H Lab 9-19 实测 89 帖（区间 $185k–$300k）/fde.directory 薪酬带",
           "publish_time": "2026-10-04 14:05",
+          "verify_note": "外部检索（Prof H Lab《How Much Do Forward Deployed Engineers Make?》9-19 盘点 89 个 AI 招聘帖：区间 $185k–$300k，与「中位 $20 万」量级相符）",
           "entities": [
             {
               "name": "Anthropic",
@@ -685,9 +697,10 @@
           "type_tags": [
             "其他（开源生态动向）"
           ],
-          "confidence": "低",
-          "confidence_note": "C源·榜单快照",
+          "confidence": "高",
+          "confidence_note": "双源佐证 GitHub Trending 快照+独立平台数据：ponytail 9 万+★、Product Hunt 上架",
           "publish_time": "2026-10-05 09:00",
+          "verify_note": "外部检索（github.com/DietrichGebert/ponytail 91.9k★（后续抓取 123k★）+Product Hunt《Ponytail: Make new code the last resort》——爆火获独立平台数据佐证）",
           "entities": [
             {
               "name": "ponytail",
