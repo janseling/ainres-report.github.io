@@ -3,7 +3,7 @@
   "date": "2026-09-30",
   "time": "15:00",
   "title": "AI 情报 · 09-30 15:00 场",
-  "generatedAt": "2026-10-08T06:34:43.101Z",
+  "generatedAt": "2026-10-08T07:21:38.679Z",
   "coverage": "2026-09-29 21:47 → 2026-09-30 15:00（Asia/Shanghai；24h 窗口，含上期信源失效未及收录的回补）",
   "notes": [
     "信源状态见文末"
@@ -28,7 +28,7 @@
       "items": [
         {
           "title": "Meta 把 Muse 推给小企业：15+ SaaS 集成齐发",
-          "meta": "TechCrunch·昨天 21:47",
+          "meta": "TechCrunch·2026-09-29 21:47",
           "urls": [
             "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/"
           ],
@@ -62,7 +62,7 @@
         },
         {
           "title": "Marissa Mayer 推出 Dazzle：相机胶卷是唯一上下文",
-          "meta": "TechCrunch·昨天 21:53",
+          "meta": "TechCrunch·2026-09-29 21:53",
           "urls": [
             "https://techcrunch.com/2026/09/29/with-dazzle-marissa-mayer-bets-your-camera-roll-has-more-info-on-your-life-than-your-inbox/"
           ],
@@ -95,7 +95,7 @@
         },
         {
           "title": "Wabi 2.0 转型：从「造 App」转向「对话中长出应用」",
-          "meta": "TechCrunch·今天 01:20",
+          "meta": "TechCrunch·2026-09-30 01:20",
           "urls": [
             "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/"
           ],
@@ -138,8 +138,8 @@
       "title": "技术突破 / 模型进展",
       "items": [
         {
-          "title": "Codex 原生接入 GLM 5.3 与 Kimi K3；Pro 额度腰斩骂声未平（后续）",
-          "meta": "36氪·今天 12:38",
+          "title": "Codex 原生接入 GLM 5.3 与 Kimi K3；Pro 额度腰斩骂声未平（36氪·2026-09-30 12:38）",
+          "meta": "36氪·2026-09-30 12:38",
           "urls": [
             "https://36kr.com/p/4005282062864518"
           ],
@@ -182,7 +182,7 @@
         },
         {
           "title": "DeepSeek 公开 V4 Agent 训练「大本营」DSec：梁文锋署名",
-          "meta": "量子位·今天 13:18",
+          "meta": "量子位·2026-09-30 13:18",
           "urls": [
             "https://www.qbitai.com/2026/09/499308.html"
           ],
@@ -218,7 +218,7 @@
         },
         {
           "title": "DeepSeek 官方开源昇腾基础组件：DeepGEMM/DeepEP 等全套对齐",
-          "meta": "量子位·今天 10:53",
+          "meta": "量子位·2026-09-30 10:53",
           "urls": [
             "https://www.qbitai.com/2026/09/499263.html"
           ],
@@ -251,7 +251,7 @@
         },
         {
           "title": "10 个 Claude 5.5 组队 15 小时攻克 122 年汤姆逊问题 N=7",
-          "meta": "新智元·今天 10:39",
+          "meta": "新智元·2026-09-30 10:39",
           "urls": [
             "https://m.sohu.com/a/1082589697_473283"
           ],
@@ -284,7 +284,7 @@
         },
         {
           "title": "「哑巴模型」Jev 走红：TypeSafe 一个月估值 2 亿→100 亿",
-          "meta": "36氪·今天 13:52",
+          "meta": "36氪·2026-09-30 13:52",
           "urls": [
             "https://36kr.com/p/4005342590064264",
             "https://36kr.com/p/4005344149395074"
@@ -330,7 +330,7 @@
       "items": [
         {
           "title": "数学社区发布《负责任发布 AI 生成数学成果》规范",
-          "meta": "AGMA·09-29，HN 今天 10:36",
+          "meta": "AGMA·09-29，HN 2026-09-30 10:36",
           "urls": [
             "https://agmai.org/general-sep29/"
           ],
@@ -361,7 +361,7 @@
         },
         {
           "title": "「Open-weight AI 禁了吗？」实时概率：7%——NO",
-          "meta": "HN·今天 04:16",
+          "meta": "HN·2026-09-30 04:16",
           "urls": [
             "https://isopenweightaibannedyet.com"
           ],
@@ -384,7 +384,7 @@
         },
         {
           "title": "WIPO《2026 全球创新指数》：AI 重塑创新投资",
-          "meta": "36氪快讯·今天 14:06，新华社源",
+          "meta": "36氪快讯·2026-09-30 14:06，新华社源",
           "urls": [
             "https://36kr.com/newsflashes/4005463613116553"
           ],
@@ -420,7 +420,7 @@
       "items": [
         {
           "title": "Instinct：agent 平台年化交易额逼近 $10 亿、过半是旅行",
-          "meta": "TechCrunch·昨天 23:12",
+          "meta": "TechCrunch·2026-09-29 23:12",
           "urls": [
             "https://techcrunch.com/2026/09/29/instinct-founder-said-more-than-50-of-transactions-on-the-platform-are-travel-related/"
           ],
@@ -453,7 +453,7 @@
         },
         {
           "title": "智谱三个月蒸发约 1 万亿港元市值，打两折",
-          "meta": "36氪·今天 11:46",
+          "meta": "36氪·2026-09-30 11:46",
           "urls": [
             "https://36kr.com/p/4005329708109958"
           ],
@@ -484,7 +484,7 @@
         },
         {
           "title": "Bain：2031 年前 AI 需 $6T 年收入才撑得住算力扩张",
-          "meta": "The National/Bain·今天 03:21，HN 200 分",
+          "meta": "The National/Bain·2026-09-30 03:21，HN 200 分",
           "urls": [
             "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/"
           ],
@@ -517,7 +517,7 @@
         },
         {
           "title": "微软 Copilot 付费席位或 2027 年中冲 6000 万",
-          "meta": "36氪·今天 11:30",
+          "meta": "36氪·2026-09-30 11:30",
           "urls": [
             "https://36kr.com/p/4005263791511176"
           ],
