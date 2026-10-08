@@ -3,7 +3,7 @@
   "date": "2026-10-04",
   "time": "15:00",
   "title": "AI 情报 · 10-04 15:00 场",
-  "generatedAt": "2026-10-08T05:17:32.286Z",
+  "generatedAt": "2026-10-08T07:21:38.683Z",
   "coverage": "10-04 09:00 → 15:00（Asia/Shanghai）　※ 补刊（生成于 2026-10-08，非当时原发）",
   "notes": [
     "国庆假期候选稀少：35 条原始候选中有效约 15 条，宁缺毋滥从严取 6 条；与 10-04 09:00 补刊场及 10-05 起各期去重（智东西 5 条经原链核实为 9-22 及更早旧文、r/LocalLLaMA 热帖所指 Anthropic 游说转向原报道为 09-29 旧闻、Apple 收紧全磁盘访问 10-03 已报，均剔除）"
@@ -127,7 +127,7 @@
           "urls": [
             "https://www.reddit.com/r/OpenAI/comments/1wx3l41/now_openai_says_gpt61_sol_ultrafast_is_coming_soon"
           ],
-          "summary": "r/OpenAI 高热帖传 OpenAI 产品负责人 Tibo Sottiaux 对开发者的 X 回复称 GPT-6.1 Sol 将新增「Ultrafast」速度档，原话「6.1 coming soon」；检索证实原话存在，但无日期无价格，社区已出现把「6.1 coming soon」脑补成「Astra 下周发布」的过度解读并被逐条澄清。叠加上一条退役指路线（5.6 Sol／6 Astra），Sol 家族大概率走「极致性价比＋速度分层」路线。",
+          "summary": "r/OpenAI 高热帖传 OpenAI 产品负责人 Tibo Sottiaux 对开发者的 X 回复称 GPT-6.1 Sol 将新增「Ultrafast」速度档，原话「6.1 coming soon」；检索证实原话存在，但无日期无价格，社区已出现把「6.1 coming soon」脑补成「Astra 2026-10-05~10-11 发布」的过度解读并被逐条澄清。叠加上一条退役指路线（5.6 Sol／6 Astra），Sol 家族大概率走「极致性价比＋速度分层」路线。",
           "angles": [
             {
               "kind": "startup",
@@ -143,7 +143,7 @@
           "confidence": "中",
           "confidence_note": "产品负责人 X 回复·Reddit 174 分热帖与 aifrontierpost 同报，官方无正式公告",
           "publish_time": "2026-10-04 09:41",
-          "verify_note": "外部检索（aifrontierpost 同报「6.1 coming soon、无日期无价格」；zoogom 10-04 考据澄清该回复≠确认 GPT-6.1 Astra 下周发布）",
+          "verify_note": "外部检索（aifrontierpost 同报「6.1 coming soon、无日期无价格」；zoogom 10-04 考据澄清该回复≠确认 GPT-6.1 Astra 2026-10-05~10-11 发布）",
           "entities": [
             {
               "name": "OpenAI",
