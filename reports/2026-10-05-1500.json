@@ -3,7 +3,7 @@
   "date": "2026-10-05",
   "time": "15:00",
   "title": "AI 情报 · 10-05 15:00 场",
-  "generatedAt": "2026-10-05T07:11:28.016Z",
+  "generatedAt": "2026-10-08T06:35:36.321Z",
   "coverage": "2026-10-04 15:00 → 2026-10-05 15:00（Asia/Shanghai，24h 口径；System76 条目为 48h 边界）",
   "notes": [
     "信源状态见文末",
@@ -49,7 +49,32 @@
               "text": "若权重真可自托管且达到旗舰 agent 水平（Reflection 本行是编码 agent），做交付的团队多一个「数据不出境」合规底座选项——第一时间拿名额跑自家业务评测，别等榜单。"
             }
           ],
-          "source_tier": "D"
+          "source_tier": "D",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源 Axios 独家+TechCrunch 印证",
+          "publish_time": "2026-10-04",
+          "verify_note": "外部检索（Axios 10-04 原发；TechCrunch 10-05 确认 Beam 已发布）",
+          "entities": [
+            {
+              "name": "Reflection AI",
+              "type": "企业"
+            },
+            {
+              "name": "Misha Laskin",
+              "type": "人物"
+            },
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "DeepSeek",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -79,7 +104,31 @@
               "text": "产品壁垒从「模型+工具」单栈转向「脑+手脚」组合质量；护城河得建在工具层与工作流/数据资产上，模型层裸奔的壳产品会被一键换脑。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·社区实测，无独立佐证",
+          "publish_time": "2026-10-05 08:50",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Codex",
+              "type": "产品"
+            },
+            {
+              "name": "Claude Code",
+              "type": "产品"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "Hinton 亲手交卷：22 人署名 RSI 首篇论文，智能爆炸有了量化推演",
@@ -102,7 +151,42 @@
               "text": "1%→26% 的半年斜率比多数 benchmark 曲线陡——「研发 agent 化」是内部产能现实而非概念，agent 编排/评测/数据基建的真实需求会从 labs 内部外溢验证。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·arXiv 论文一手+Guardian 同报",
+          "publish_time": "2026-10-05 12:42",
+          "event_time": "2026-09-29 02:13",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（arXiv 2609.36054 作者栏含 Hinton/Bengio/Barto/Pachocki；Guardian 09-28 同报道）",
+          "entities": [
+            {
+              "name": "Geoffrey Hinton",
+              "type": "人物"
+            },
+            {
+              "name": "Yoshua Bengio",
+              "type": "人物"
+            },
+            {
+              "name": "Andrew Barto",
+              "type": "人物"
+            },
+            {
+              "name": "Jakub Pachocki",
+              "type": "人物"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -134,7 +218,29 @@
               "text": "做 agent 交付的团队，客户问题正从「用谁家模型」变成「用谁家额度稳」——把断连/中断成本写进模型选型评估，是现在就能卖出去的专业度。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（订阅与运营承诺）"
+          ],
+          "confidence": "高",
+          "confidence_note": "量子位+新智元+36氪三家同报",
+          "publish_time": "2026-10-05 08:50",
+          "event_time": "2026-10-05",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Tibo Sottiaux",
+              "type": "人物"
+            },
+            {
+              "name": "Codex",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "System76 给 COSMIC 立规：PR 强制声明「非 AI 生成」",
@@ -151,7 +257,29 @@
               "text": "「AI 代码治理」是现成的新菜单项——审查标准、验收流程、溯源审计可立刻打包成小生意；开源社区先行的政策，企业版通常只迟到不缺席。"
             }
           ],
-          "source_tier": "C"
+          "source_tier": "C",
+          "type_tags": [
+            "其他（开源社区治理）"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·Neowin，HN 议论 10-04 01:57 起",
+          "publish_time": "2026-10-04 01:32",
+          "event_time": "2026-10-01",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "System76",
+              "type": "企业"
+            },
+            {
+              "name": "COSMIC",
+              "type": "产品"
+            },
+            {
+              "name": "Pop!_OS",
+              "type": "产品"
+            }
+          ]
         }
       ]
     }
