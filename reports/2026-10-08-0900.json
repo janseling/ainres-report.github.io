@@ -3,7 +3,7 @@
   "date": "2026-10-08",
   "time": "09:00",
   "title": "AI 情报 · 10-08 09:00 场",
-  "generatedAt": "2026-10-08T07:21:38.687Z",
+  "generatedAt": "2026-10-08T09:50:09.777Z",
   "coverage": "2026-10-07 21:00 → 2026-10-08 09:05（Asia/Shanghai）",
   "notes": [
     "2026-10-08 为早间场次，与 2026-10-07 21:00 场无缝衔接"
@@ -100,6 +100,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证(TC+Verge)",
           "publish_time": "2026-10-08 03:10",
+          "verify_note": "外部检索（SiliconANGLE 10-07 同报：GPT-6 起 ChatGPT 回答内嵌交互视觉组件；OpenAI 官方博客“GPT-6 and Intelligent UI for everyone”在档）",
           "entities": [
             {
               "name": "OpenAI",
