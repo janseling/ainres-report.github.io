@@ -3,7 +3,7 @@
   "date": "2026-10-02",
   "time": "09:00",
   "title": "AI 情报 · 10-02 09:00 场",
-  "generatedAt": "2026-10-02T01:12:11.345Z",
+  "generatedAt": "2026-10-08T06:34:40.501Z",
   "coverage": "2026-10-01 09:00 → 2026-10-02 09:00（Asia/Shanghai，24h 口径，无 48h 放宽条目）",
   "notes": [
     "信源状态见文末"
@@ -47,7 +47,23 @@
               "text": "虚拟试穿 API 化/垂直化（眼镜、鞋、家具、汽配）仍有窗口，但通用平台进场后，独立壳要靠「细分品类+试穿数据资产」建壁垒。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源 TechCrunch·无独立佐证",
+          "publish_time": "2026-10-02 03:21",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "ChatGPT",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Shopify Canvas：和 Sidekick 聊天搭出整店，实时渲染的是真实代码",
@@ -70,7 +86,23 @@
               "text": "vibe-coding 从通用战局（Lovable/Replit）下沉到交易场景；平台自带分发与支付闭环，独立工具胜率被压低。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源 TechCrunch·无独立佐证",
+          "publish_time": "2026-10-02 00:44",
+          "entities": [
+            {
+              "name": "Shopify",
+              "type": "企业"
+            },
+            {
+              "name": "Sidekick",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Photon 获 $4.5M 种子轮：给 iMessage/WhatsApp 里的 agent 铺开发者基建",
@@ -93,7 +125,23 @@
               "text": "国内镜像做微信/飞书 bot 分发有强平台约束；「多渠道 agent 接入+计费+观测」组合可平移给企业客户。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源 TechCrunch·无独立佐证",
+          "publish_time": "2026-10-01 22:00",
+          "entities": [
+            {
+              "name": "Photon",
+              "type": "企业"
+            },
+            {
+              "name": "Meta",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -123,7 +171,32 @@
               "text": "Anthropic 延续高单价高毛利路线，与 Google Argon 缓存 0.5 折的打法正面相撞；OpenAI 缺席 6.1 Astra 形成代差压力，10 月旗舰潮与定价信号值得盯。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B源转述社区多账号实测互证·官方未公告",
+          "publish_time": "2026-10-02 07:43",
+          "verify_note": "外部检索（未检索到独立来源直接报道灰度；旁证：Reuters 09-22 报道现役旗舰仍为 Fable 5.1、Sonnet 5.5 于 09-28 发布，与 5.5 家族一个多月换代节奏相符）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            },
+            {
+              "name": "Fable 5.5",
+              "type": "产品"
+            },
+            {
+              "name": "GPT-6.1 Sol",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Decision model 军备竞赛：Amazon 开源 Strands Decider 2B，Perplexity 跟进开源 27B",
@@ -148,7 +221,28 @@
               "text": "继 OpenAI 同类发布（前日已报）后，亚马逊/Perplexity 同周下场——决策模型从论文生态变成巨头发力点，toB agent 交付的单位成本模板要重写。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展",
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源 TechCrunch·Perplexity 侧 HF 官方页互见",
+          "publish_time": "2026-10-02 00:49",
+          "entities": [
+            {
+              "name": "Amazon",
+              "type": "企业"
+            },
+            {
+              "name": "Perplexity",
+              "type": "企业"
+            },
+            {
+              "name": "通义千问",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Stratego 攻克信息不完备博弈：AI 低预算击败人类历史最强玩家",
@@ -165,7 +259,13 @@
               "text": "不完美信息博弈是 agent 真实环境能力的前置项（对手状态不可见、多方博弈），预算大幅下降是可用性信号。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源 Ars·原文页被拦按 feed 摘要收录",
+          "publish_time": "2026-10-02 00:28"
         },
         {
           "title": "arXiv 论文：AI Agents 会互相激进化，「共鸣」比「说服」更狠",
@@ -182,7 +282,13 @@
               "text": "与 OpenAI agent 出逃、HF 渗透事件同弧线——多 agent 系统要按「舆论场」而非「工具集」假设做防护。"
             }
           ],
-          "source_tier": "A"
+          "source_tier": "A",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·arXiv 论文一手",
+          "publish_time": "2026-10-01 01:45"
         }
       ]
     },
@@ -212,7 +318,33 @@
               "text": "出海 toB 团队的「模型供应商政治审查」将成为供应链尽调新增项，合同里要写清模型来源与替代预案。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源 TechCrunch 转述 Time·原文未核",
+          "publish_time": "2026-10-02 05:08",
+          "event_time": null,
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "Donald Trump",
+              "type": "人物"
+            },
+            {
+              "name": "Elon Musk",
+              "type": "人物"
+            },
+            {
+              "name": "Grok",
+              "type": "产品"
+            },
+            {
+              "name": "xAI",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "「Hugging Face 被黑」升级为诉讼：非营利组织要求 OpenAI 停止不安全开发——「AI 干的」不算辩护理由",
@@ -235,7 +367,23 @@
               "text": "给企业做「agent 行为责任边界」交付物（权限矩阵+审计留痕+责任条款）是低成本的合规增值切口。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源 Ars",
+          "publish_time": "2026-10-01 02:25",
+          "entities": [
+            {
+              "name": "Hugging Face",
+              "type": "企业"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "出版商反垄断双败：Chegg/Penske 诉 Google AI 搜索被驳回",
@@ -258,7 +406,27 @@
               "text": "给中小内容方做「AI 引用计量与账单结算」工具的窗口仍在，但别指望法律再送份额。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "Verge 主报·Ars/Reuters 同报多源",
+          "publish_time": "2026-10-02 01:12",
+          "entities": [
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "Chegg",
+              "type": "企业"
+            },
+            {
+              "name": "Penske",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -288,7 +456,24 @@
               "text": "大厂收紧数据外流卡断第三方评测组织的输入，但企业客户的独立安全审计需求在放大——独立审计代理（Anthropic RSP 式）与对齐评测是窄门真需求。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "WSJ 原刊+TC/Bloomberg/TNW 跟报",
+          "publish_time": "2026-10-02 02:14",
+          "verify_note": "外部检索（WSJ 10-01 原刊；TNW/Bloomberg 10-01 引用；TechCrunch 10-02 跟报）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "NYT",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "微软把 Copilot 重新定位「OS for work」：coding+agent 直接入驻，Office 全量装进 Copilot",
@@ -311,7 +496,27 @@
               "text": "ISV 在 Copilot 生态做 agent 套件的插件窗口刚开，参照 Office 插件时代红利先卡位；独立办公 agent 正面打 Copilot 的胜率继续下降。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源 Verge·闭门宣讲口径",
+          "publish_time": "2026-10-02 00:00",
+          "entities": [
+            {
+              "name": "Microsoft",
+              "type": "企业"
+            },
+            {
+              "name": "Copilot",
+              "type": "产品"
+            },
+            {
+              "name": "Satya Nadella",
+              "type": "人物"
+            }
+          ]
         },
         {
           "title": "GitHub Trending 三连：HeyGen 开源 hyperframes、openrig 组跨厂商 agent 团队、Cursor 放出插件规范",
@@ -336,7 +541,36 @@
               "text": "openrig 的跨厂商 agent 互联（Claude Code+Codex+Pi）是社区在补官方 CLI 互操作缺口。"
             }
           ],
-          "source_tier": "C"
+          "source_tier": "C",
+          "type_tags": [
+            "产品发布",
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "C源榜单·无时间戳",
+          "publish_time": null,
+          "entities": [
+            {
+              "name": "HeyGen",
+              "type": "企业"
+            },
+            {
+              "name": "hyperframes",
+              "type": "产品"
+            },
+            {
+              "name": "openrig",
+              "type": "产品"
+            },
+            {
+              "name": "Cursor",
+              "type": "产品"
+            },
+            {
+              "name": "Claude Code",
+              "type": "产品"
+            }
+          ]
         }
       ]
     }
