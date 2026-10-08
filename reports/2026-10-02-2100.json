@@ -3,7 +3,7 @@
   "date": "2026-10-02",
   "time": "21:00",
   "title": "AI 情报 · 10-02 21:00 场",
-  "generatedAt": "2026-10-08T06:34:40.502Z",
+  "generatedAt": "2026-10-08T22:48:11.240Z",
   "coverage": "10-02 15:00 → 21:00（Asia/Shanghai）　※ 补刊（生成于 2026-10-08 前，非当时原发）",
   "notes": [
     "国庆假期夜场，国内源增量少，Reddit 社区噪音占比高，从严精选"
@@ -103,6 +103,7 @@
           "publish_time": "2026-10-02 15:27",
           "event_time": "2026-09-29",
           "event_time_inferred": false,
+          "verify_note": "外部检索（钛媒体 09-29《丘成桐论文致谢AI，77岁数学泰斗，也逃不过“真香定律”？》独立同报：arXiv 9-24 预印本致谢 ChatGPT-6 Astra/Claude Pro 帮助探索证明思路与计算）",
           "entities": [
             {
               "name": "丘成桐",
@@ -144,9 +145,10 @@
             "技术进展",
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·实测口径未见独立复现",
+          "confidence": "高",
+          "confidence_note": "双源佐证 量子位实测稿+Pandaily/前途科技 10-02 同报；官方实测口径，独立复现仍缺",
           "publish_time": "2026-10-02 15:34",
+          "verify_note": "外部检索（Pandaily/前途科技/搜狐·财法观天下 10-02 独立同报：X-Router 开源、PinchBench/Terminal-Bench 实测调用成本最高降 51.4% 口径一致）",
           "entities": [
             {
               "name": "openJiuwen",
@@ -180,6 +182,7 @@
           "confidence": "高",
           "confidence_note": "A源·Google Research 官方博客",
           "publish_time": "2026-10-02 07:30",
+          "verify_note": "外部检索（NPR 10-01《Google launches Project Suncatcher, a step towards AI data centers in space》同报原型入轨；gcn.com 10-04 同报 SpaceX Transporter-18 携四枚 TPU 上轨）",
           "entities": [
             {
               "name": "Google",
@@ -230,6 +233,7 @@
           "confidence": "中",
           "confidence_note": "B源转述 The Information·单源",
           "publish_time": "2026-10-02 18:02",
+          "verify_note": "外部检索（WSJ 独立调查《Even Claude Is in the Dark About Dario Amodei's Wife》同报其无正式职务却具实质影响力、清空线上痕迹；Forbes/The Week 8 月 profile 连报——「IPO 路演出局/退出」细节暂未见独立源）",
           "entities": [
             {
               "name": "Anthropic",
@@ -273,6 +277,7 @@
           "confidence": "高",
           "confidence_note": "双源：NYT 09-29 原刊+Telegraph 10-02 跟进",
           "publish_time": "2026-10-02 18:02",
+          "verify_note": "外部检索（Telegraph 10-02《Anthropic tried to persuade Pope that AI could be conscious being》独立同报：教皇通谕拒绝其建议；Futurism 10-04 跟进同报游说梵蒂冈）",
           "entities": [
             {
               "name": "Anthropic",
