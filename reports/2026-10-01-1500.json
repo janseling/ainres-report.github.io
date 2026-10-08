@@ -3,7 +3,7 @@
   "date": "2026-10-01",
   "time": "15:00",
   "title": "AI 情报 · 10-01 15:00 场",
-  "generatedAt": "2026-10-01T07:15:37.528Z",
+  "generatedAt": "2026-10-08T06:28:29.972Z",
   "coverage": "2026-09-30 15:00 → 2026-10-01 15:00（Asia/Shanghai，全部 24h 内）",
   "notes": [
     "信源状态见文末（上期 11:00 场已报条目全部去重跳过）"
@@ -41,7 +41,23 @@
               "text": "外卖巨头把 agent 入口塞进 IM——「对话式下单」从 App 内争夺转向消息平台层，国内外卖/电商可直接抄作业；独立「点餐 agent」中间层被巨头挤压。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·TechCrunch",
+          "publish_time": "2026-10-01 00:00",
+          "entities": [
+            {
+              "name": "DoorDash",
+              "type": "企业"
+            },
+            {
+              "name": "Apple",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "Airbnb 秋季更新：拒绝聊天框，AI 搜索做成一个开关",
@@ -58,7 +74,23 @@
               "text": "「非对话式 AI 搜索」是目前电商大厂可用性折中的主流解法；旅行场景的行程/预订 agent 化仍留出垂直工具层机会。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·TechCrunch",
+          "publish_time": "2026-09-30 20:00",
+          "entities": [
+            {
+              "name": "Airbnb",
+              "type": "企业"
+            },
+            {
+              "name": "Brian Chesky",
+              "type": "人物"
+            }
+          ]
         },
         {
           "title": "Robinhood 发布 Agents：睡觉时替你盯盘炒股，离线也能循环执行策略",
@@ -75,7 +107,23 @@
               "text": "券商把「自动交易 agent」正规军化；国内对标合规红线更严，但投研 agent、策略教练类工具在合规边界内仍有空间——自动交易类产品的信任与牌照周期会很长，先留意美国监管动作。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·36氪",
+          "publish_time": "2026-09-30 16:48",
+          "entities": [
+            {
+              "name": "Robinhood",
+              "type": "企业"
+            },
+            {
+              "name": "Robinhood Agents",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Restate 获 $20M A 轮：给 agent 工作流装「断点续跑」",
@@ -92,7 +140,31 @@
               "text": "agent 时代的「工作流持久化」成独立赛道，资本直接拿 Temporal 的 $125 亿估值对标定价；infra 类创业「开源起家→PLG+企业双轨」路径再次验证。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·TechCrunch",
+          "publish_time": "2026-09-30 22:27",
+          "entities": [
+            {
+              "name": "Restate",
+              "type": "企业"
+            },
+            {
+              "name": "Temporal",
+              "type": "企业"
+            },
+            {
+              "name": "Replit",
+              "type": "企业"
+            },
+            {
+              "name": "Singular",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "ChatGPT 文档「自己更新」，Space/Pages 开放、协作 PPT 数周内上（DevDay 后续）",
@@ -109,7 +181,23 @@
               "text": "OpenAI 直插微软 Office 腹地；ChatGPT 生态内做文档/Skills 插件窗口仍在，但「AI 多人协作编辑器」独立产品进一步承压。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·新智元",
+          "publish_time": "2026-10-01 09:10",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "ChatGPT",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -133,7 +221,30 @@
               "text": "「关键决策限流」被产品化成可采买的 API——agent 治理从安全清单变成标品预算项，B 端 agent 项目要新增这一行成本。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "OpenAI 官方 DevDay Recap+TC 同报",
+          "publish_time": "2026-10-01 03:00",
+          "event_time": "2026-09-29",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（openai.com DevDay Recap 09-29 官方收录：聚焦 Luna、有限预定义答案集、用于分类/路由/agent 下一步；HF 博客 09-30 实操指南同口径）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Decisions API",
+              "type": "产品"
+            },
+            {
+              "name": "GPT-6 Luna",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "SynthID Bio：给 AI 设计的蛋白质打「物理水印」",
@@ -151,7 +262,23 @@
               "text": "AI 鉴伪从文本水印扩展到蛋白质实体——合成生物学监管前置，合规/鉴证工具成为新的小市场。"
             }
           ],
-          "source_tier": null
+          "source_tier": null,
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·DeepMind 官方原文",
+          "publish_time": "2026-09-30 23:03",
+          "entities": [
+            {
+              "name": "Google DeepMind",
+              "type": "企业"
+            },
+            {
+              "name": "SynthID Bio",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Noam Brown 播客：1 万 Agent 并行、1300 亿 token 思考≈人类全职 4000 年",
@@ -168,7 +295,26 @@
               "text": "test-time scaling 竞赛转向「多智能体横向扩展」——重推理任务的成本模型要按并行摊薄重新校准，按结果定价的谈判空间变大。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（访谈披露）"
+          ],
+          "confidence": "高",
+          "confidence_note": "Dwarkesh 一手页核实+Dealroom 摘编",
+          "publish_time": "2026-09-30 22:03",
+          "event_time": "2026-09-17",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Dwarkesh 官方页 09-17 发布访谈实录：1 万 agent、1300 亿 token、88 小时口径一致；Dealroom 09-18 摘编）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Noam Brown",
+              "type": "人物"
+            }
+          ]
         },
         {
           "title": "Astra 通关 neal.fun「我不是机器人」28 项极限测试",
@@ -185,7 +331,23 @@
               "text": "「常识+连续操作+多步决策」被公众级测试验证——操作类/RPA agent 创业的能力上限与可行性再抬一格。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·新智元",
+          "publish_time": "2026-10-01 14:16",
+          "entities": [
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -209,7 +371,23 @@
               "text": "平台侧「内容贡献分成」的参考价出炉——头部专供、长尾象征性付费；指望 AI 分成回血不现实，内容业务要转「AI 抓不走」的独家数据/服务变现。"
             }
           ],
-          "source_tier": null
+          "source_tier": null,
+          "type_tags": [
+            "商业合作"
+          ],
+          "confidence": "高",
+          "confidence_note": "Ars+Digiday/The Information 多源同报",
+          "publish_time": "2026-10-01 00:03",
+          "entities": [
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "Gemini",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -239,7 +417,27 @@
               "text": "数采需求正向实景场景迁移（京东七鲜类实操场景占三成），有真场景数据资产的团队更值钱。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（行业调查）"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·36氪，含当事人与公司自述",
+          "publish_time": "2026-09-30 16:54",
+          "entities": [
+            {
+              "name": "梅卡曼德",
+              "type": "企业"
+            },
+            {
+              "name": "邵天兰",
+              "type": "人物"
+            },
+            {
+              "name": "灵御智能",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "美团、字节投的盈合机器人破产：累计融资超 6 亿烧光",
@@ -256,7 +454,29 @@
               "text": "明星股东+国资背书挡不住收入塌方——「应急/城市治理」服务机器人方向出现商业化证伪案例；B 端机器人项目型收入要重审现金流模型。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（破产清算）"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·36氪",
+          "publish_time": "2026-09-30 15:34",
+          "event_time": null,
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "盈合机器人",
+              "type": "企业"
+            },
+            {
+              "name": "美团",
+              "type": "企业"
+            },
+            {
+              "name": "字节跳动",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "GPT-6 要「吃掉」3D 公司？Meshy 不到两年 ARR 破 1 亿美元",
@@ -273,7 +493,23 @@
               "text": "垂直 3D 模型靠「资产级质量」守住订阅收入，1 亿美元 ARR 证明游戏/资产管线付费真实存在；frontier 全家桶是持续威胁，质量护城河窗口大致 12-18 个月，需绑定管线（UE5/Blender 兼容）与生产级质量。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（商业进展）"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·36氪",
+          "publish_time": "2026-09-30 16:49",
+          "entities": [
+            {
+              "name": "Meshy",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "AI 女演员 Tilly Norwood 要演电影了，Particle 6 团队一年扩 8 倍",
@@ -290,7 +526,23 @@
               "text": "AI 影视公司变现靠「争议流量+定制项目+B 端咨询」组合而非单一作品——国内 AI 内容工作室可复用「人设 IP+工作流落地」打法。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（AI 虚拟人动向）"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·36氪",
+          "publish_time": "2026-09-30 17:41",
+          "entities": [
+            {
+              "name": "Tilly Norwood",
+              "type": "产品"
+            },
+            {
+              "name": "Particle 6",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "影溯 InSpatio-World 1.5：国内世界模型从 Demo 走向「可用」",
@@ -307,7 +559,27 @@
               "text": "空间智能基座开源可用——3D/空间内容工具创业的基座成本骤降，可先做行业化封装（影视复盘、文旅漫游、具身仿真）。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·甲子光年",
+          "publish_time": "2026-09-30 17:41",
+          "entities": [
+            {
+              "name": "影溯科技",
+              "type": "企业"
+            },
+            {
+              "name": "InSpatio-World 1.5",
+              "type": "产品"
+            },
+            {
+              "name": "AMD",
+              "type": "企业"
+            }
+          ]
         }
       ]
     }
