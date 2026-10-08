@@ -3,7 +3,7 @@
   "date": "2026-10-05",
   "time": "09:00",
   "title": "AI 情报 · 10-05 09:00 场",
-  "generatedAt": "2026-10-08T18:51:30.503Z",
+  "generatedAt": "2026-10-08T23:41:21.846Z",
   "coverage": "2026-10-03 09:00 → 2026-10-05 09:00（Asia/Shanghai，48h 口径，其中 24h 内 8 条）",
   "notes": [
     "信源状态见文末",
@@ -287,6 +287,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 新智元+arXiv 2610.02200 论文页：Opus 5 全满 25 局、动作减少 57.4%",
           "publish_time": "2026-10-04 12:26",
+          "event_time": "2026-10-01",
+          "event_time_inferred": false,
           "verify_note": "外部检索（arXiv 2610.02200 与官方页 vista-research.github.io「completes all 25 public ARC-AGI-3 games with a perfect score」；GitHub joshhhhhan/VISTA 在库）",
           "entities": [
             {
@@ -462,6 +464,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 TechCrunch+The Verge/Tom's Hardware 同报：产品类提报 10-01 起暂停至至少 2027",
           "publish_time": "2026-10-05 04:31",
+          "event_time": "2026-10-01",
+          "event_time_inferred": false,
           "verify_note": "外部检索（The Verge 10-05《Google pauses open-source bug bounty over AI slop submissions》；Tom's Hardware/thehackernews 10-05/06 同报暂停至 2027）",
           "entities": [
             {
