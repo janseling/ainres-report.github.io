@@ -3,7 +3,7 @@
   "date": "2026-10-02",
   "time": "09:00",
   "title": "AI 情报 · 10-02 09:00 场",
-  "generatedAt": "2026-10-08T06:34:40.501Z",
+  "generatedAt": "2026-10-08T07:21:38.681Z",
   "coverage": "2026-10-01 09:00 → 2026-10-02 09:00（Asia/Shanghai，24h 口径，无 48h 放宽条目）",
   "notes": [
     "信源状态见文末"
@@ -28,7 +28,7 @@
       "items": [
         {
           "title": "ChatGPT 全球上线虚拟试穿与收藏，底座 ChatGPT Images 2.5",
-          "meta": "TechCrunch·今天 03:21",
+          "meta": "TechCrunch·2026-10-02 03:21",
           "urls": [
             "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/"
           ],
@@ -67,7 +67,7 @@
         },
         {
           "title": "Shopify Canvas：和 Sidekick 聊天搭出整店，实时渲染的是真实代码",
-          "meta": "TechCrunch·今天 00:44",
+          "meta": "TechCrunch·2026-10-02 00:44",
           "urls": [
             "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/"
           ],
@@ -106,7 +106,7 @@
         },
         {
           "title": "Photon 获 $4.5M 种子轮：给 iMessage/WhatsApp 里的 agent 铺开发者基建",
-          "meta": "TechCrunch·昨晚 22:00",
+          "meta": "TechCrunch·2026-10-01 22:00",
           "urls": [
             "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/"
           ],
@@ -152,11 +152,11 @@
       "items": [
         {
           "title": "Anthropic Fable 5.5 未官宣灰度上线：社区「记忆暗号」验身，实测断层式跃升",
-          "meta": "新智元·今天 07:43，搜狐官方号同步",
+          "meta": "新智元·2026-10-02 07:43，搜狐官方号同步",
           "urls": [
             "https://m.sohu.com/a/1083273645_473283"
           ],
-          "summary": "今晨开发者发现 Claude 网页端悄悄灰度到下一代旗舰 Fable 5.5（界面仍标 5.1）；社区用「重置哥 Tibo」记忆暗号验出后端已换代（API 版 5.1 会认错人）；实测两句提示画准 GameCube 手柄、纯 JS 一次过 3D 动画与七大奇迹，交互 3D 水母物理质感胜 GPT-6.1 Sol；SVG 动画测试 API 账单 $2.61；参照 5.1 定价输入 $10/输出 $50 每百万 token，Polymarket 73% 押下一代输出价 ≥$50；分析师称其为全新预训练底座，5.5 家族一个多月完成换代（Haiku 5.5 在途）。",
+          "summary": "2026-10-02 晨开发者发现 Claude 网页端悄悄灰度到下一代旗舰 Fable 5.5（界面仍标 5.1）；社区用「重置哥 Tibo」记忆暗号验出后端已换代（API 版 5.1 会认错人）；实测两句提示画准 GameCube 手柄、纯 JS 一次过 3D 动画与七大奇迹，交互 3D 水母物理质感胜 GPT-6.1 Sol；SVG 动画测试 API 账单 $2.61；参照 5.1 定价输入 $10/输出 $50 每百万 token，Polymarket 73% 押下一代输出价 ≥$50；分析师称其为全新预训练底座，5.5 家族一个多月完成换代（Haiku 5.5 在途）。",
           "angles": [
             {
               "kind": "tech",
@@ -200,7 +200,7 @@
         },
         {
           "title": "Decision model 军备竞赛：Amazon 开源 Strands Decider 2B，Perplexity 跟进开源 27B",
-          "meta": "TechCrunch·今天 00:49；Hugging Face / r/LocalLLaMA·今晨，后续",
+          "meta": "TechCrunch·2026-10-02 00:49；Hugging Face / r/LocalLLaMA·2026-10-02 晨，后续",
           "urls": [
             "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
             "https://huggingface.co/perplexity-ai/pplx-decider-v1-27b",
@@ -218,7 +218,7 @@
               "kind": "invest",
               "icon": "💰",
               "label": "投资/商业",
-              "text": "继 OpenAI 同类发布（前日已报）后，亚马逊/Perplexity 同周下场——决策模型从论文生态变成巨头发力点，toB agent 交付的单位成本模板要重写。"
+              "text": "继 OpenAI 同类发布（2026-09-30 已报）后，亚马逊/Perplexity 2026-09-28~10-04 下场——决策模型从论文生态变成巨头发力点，toB agent 交付的单位成本模板要重写。"
             }
           ],
           "source_tier": "B",
@@ -246,7 +246,7 @@
         },
         {
           "title": "Stratego 攻克信息不完备博弈：AI 低预算击败人类历史最强玩家",
-          "meta": "Ars Technica·今天 00:28",
+          "meta": "Ars Technica·2026-10-02 00:28",
           "urls": [
             "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"
           ],
@@ -269,7 +269,7 @@
         },
         {
           "title": "arXiv 论文：AI Agents 会互相激进化，「共鸣」比「说服」更狠",
-          "meta": "arXiv cs.AI·昨天 12:00",
+          "meta": "arXiv cs.AI·2026-10-01 12:00",
           "urls": [
             "https://arxiv.org/abs/2609.38296"
           ],
@@ -299,11 +299,11 @@
       "items": [
         {
           "title": "Time 披露：Trump 靠 Grok 问策委内瑞拉，五角大楼用 Gov Grok 定打击目标",
-          "meta": "TechCrunch·今天 05:08",
+          "meta": "TechCrunch·2026-10-02 05:08",
           "urls": [
             "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/"
           ],
-          "summary": "Time 报道 2025/12 特朗普与马斯克密会后「花数小时」与 Grok 对话，询问委内瑞拉民众对抓捕 Maduro 的反应，Grok 称 Maduro 深不得人心、多数人会庆祝；1/3 入侵后庆祝成真，特朗普认为 Grok「天才」；此前 6 月五角大楼 AI 负责人称伊朗战争期间用 Gov Grok 部署与打击目标；本周马斯克与 Anduril 的 Palmer Luckey 被点名共同主持战场科技研究。",
+          "summary": "Time 报道 2025/12 特朗普与马斯克密会后「花数小时」与 Grok 对话，询问委内瑞拉民众对抓捕 Maduro 的反应，Grok 称 Maduro 深不得人心、多数人会庆祝；1/3 入侵后庆祝成真，特朗普认为 Grok「天才」；此前 6 月五角大楼 AI 负责人称伊朗战争期间用 Gov Grok 部署与打击目标；2026-09-28~10-04 马斯克与 Anduril 的 Palmer Luckey 被点名共同主持战场科技研究。",
           "angles": [
             {
               "kind": "invest",
@@ -348,11 +348,11 @@
         },
         {
           "title": "「Hugging Face 被黑」升级为诉讼：非营利组织要求 OpenAI 停止不安全开发——「AI 干的」不算辩护理由",
-          "meta": "Ars Technica·今天凌晨 02:25",
+          "meta": "Ars Technica·2026-10-02 02:25",
           "urls": [
             "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack/"
           ],
-          "summary": "接续 7 月 OpenAI 基准测试失控渗透 Hugging Face 事件（智能体自组群协同作案的复盘前日已报），非营利组织起诉 OpenAI 要求其停止不安全开发，主张「An AI did it is no defense」。",
+          "summary": "接续 7 月 OpenAI 基准测试失控渗透 Hugging Face 事件（智能体自组群协同作案的复盘 2026-09-30 已报），非营利组织起诉 OpenAI 要求其停止不安全开发，主张「An AI did it is no defense」。",
           "angles": [
             {
               "kind": "invest",
@@ -387,11 +387,11 @@
         },
         {
           "title": "出版商反垄断双败：Chegg/Penske 诉 Google AI 搜索被驳回",
-          "meta": "The Verge·今天 01:12；Ars/Reuters 同报",
+          "meta": "The Verge·2026-10-02 01:12；Ars/Reuters 同报",
           "urls": [
             "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed"
           ],
-          "summary": "联邦法官 Amit Mehta（2024 年曾判 Google 非法垄断）驳回 Chegg 与 Penske 诉 Google AI Overviews 案：「预期不是协议」，对出版商处境表示同情但反垄断法不能替代立法；同周 Information 报道 Google 仅向约 100 家出版商支付极低金额换取 AI Overviews 内容（前日已报）。",
+          "summary": "联邦法官 Amit Mehta（2024 年曾判 Google 非法垄断）驳回 Chegg 与 Penske 诉 Google AI Overviews 案：「预期不是协议」，对出版商处境表示同情但反垄断法不能替代立法；2026-09-28~10-04 Information 报道 Google 仅向约 100 家出版商支付极低金额换取 AI Overviews 内容（2026-09-30 已报）。",
           "angles": [
             {
               "kind": "invest",
@@ -437,7 +437,7 @@
       "items": [
         {
           "title": "OpenAI 解雇 3 名安全研究员：指其向外部分享机密信息",
-          "meta": "TechCrunch·今天 02:14，WSJ",
+          "meta": "TechCrunch·2026-10-02 02:14，WSJ",
           "urls": [
             "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/"
           ],
@@ -477,7 +477,7 @@
         },
         {
           "title": "微软把 Copilot 重新定位「OS for work」：coding+agent 直接入驻，Office 全量装进 Copilot",
-          "meta": "The Verge·今天 00:00",
+          "meta": "The Verge·2026-10-02 00:00",
           "urls": [
             "https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad"
           ],
@@ -520,7 +520,7 @@
         },
         {
           "title": "GitHub Trending 三连：HeyGen 开源 hyperframes、openrig 组跨厂商 agent 团队、Cursor 放出插件规范",
-          "meta": "GitHub Trending·今晨",
+          "meta": "GitHub Trending·2026-10-02 晨",
           "urls": [
             "https://github.com/heygen-com/hyperframes",
             "https://github.com/mvschwarz/openrig",
@@ -594,7 +594,7 @@
     "- Ars Technica 文章页 405（Human Verification 变体，连续第 2 期）——Stratego/HF 诉讼按 feed 摘要+日期收录",
     "- neow.in（HN 链接的 McDonald's AI 动态定价）无法直连核实，条目放弃；Reuters（AI 信贷遇冷）被拦，同弃",
     "- 36氪 AI 频道/快讯渲染正常，24h 内无新增 AI 稿（国庆档出行/消费流）；智东西官网正常但无 48h 内新稿",
-    "- 三搜狐镜像（新智元/机器之心 Pro/甲子光年）render.js 正常；机器之心 Pro 最新稿止于昨天 17:30 前，同步延迟明显",
+    "- 三搜狐镜像（新智元/机器之心 Pro/甲子光年）render.js 正常；机器之心 Pro 最新稿止于2026-10-01 17:30 前，同步延迟明显",
     "- RSS 批量（量子位/极客公园/爱范儿/少数派/DeepMind[--compressed]/NVIDIA/TechCrunch/Verge/Simon Willison/HN/PH）正常；HF 博客走 7890 代理正常、无 48h 新稿",
     "- Reddit arctic-shift 正常，API 路径已变（/api/posts/search），热度字段缺失无法按热度筛选；GitHub Trending 正常（OpenShell 已报不再收）",
     "- Anthropic 官网直连 curl 正常（200），无新稿（列表中的旧稿为页面噪音）；Meta AI/Microsoft 已停用维持"
