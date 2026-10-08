@@ -1,5 +1,5 @@
 {
-  "count": 19,
+  "count": 20,
   "reports": [
     {
       "id": "2026-10-08-0900",
@@ -254,6 +254,32 @@
       "rawStats": {
         "candidates": 106,
         "selected": 15
+      }
+    },
+    {
+      "id": "2026-10-03-0900",
+      "date": "2026-10-03",
+      "time": "09:00",
+      "title": "AI 情报 · 10-03 09:00 场",
+      "itemCount": 10,
+      "coverage": "10-02 21:00 → 10-03 09:00（Asia/Shanghai）　※ 补刊（生成于 2026-10-08，非当时原发）",
+      "note": "与 10-02 三场及 10-05 场已去重；搜狐镜像当时抓取失败，国内源本档窗口近乎零增量",
+      "overview": [
+        "Apple 收紧 macOS「全磁盘访问」，官方声明点名 AI agent「大幅抬高」风险",
+        "Sean Parker 把 Stability AI 转向音乐：三大唱片 $76M 参投并打包曲库授权",
+        "司法部逮捕 Earthmade CEO：涉嫌 $3 亿英伟达芯片经马来西亚/新加坡转口走私进中国",
+        "Ai2 开源 AstaBrief 快报生成模型（附出 SFT/DPO 与归因过滤训练配方）；OpenAI 官发 GPT-6 家族选型指南",
+        "Verge 上手 OpenAI Dots：「比 Muse 更像职场软件」；Mozilla 正式关停 Solo AI 建站"
+      ],
+      "sectionCounts": {
+        "product": 2,
+        "tech": 2,
+        "policy": 3,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 185,
+        "selected": 10
       }
     },
     {
