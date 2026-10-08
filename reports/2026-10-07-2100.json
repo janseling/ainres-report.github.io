@@ -3,7 +3,7 @@
   "date": "2026-10-07",
   "time": "21:00",
   "title": "AI 情报 · 10-07 21:00 场",
-  "generatedAt": "2026-10-08T06:05:46.969Z",
+  "generatedAt": "2026-10-08T07:21:38.687Z",
   "coverage": "10-07 15:10 → 21:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00 / 15:10 两场已报内容已去重"
@@ -28,7 +28,7 @@
       "items": [
         {
           "title": "Google Playground 上线：提示词在浏览器里直接造游戏",
-          "meta": "The Verge·今日",
+          "meta": "The Verge·2026-10-07",
           "urls": [
             "https://www.theverge.com/tech/1006477/google-playground-unity-spark-ai"
           ],
@@ -70,7 +70,7 @@
         },
         {
           "title": "淘宝 TaoMate-H3 开源：三步流水线做「分钟级」音视频连续创作",
-          "meta": "机器之心Pro 搜狐同步·今日 15:25",
+          "meta": "机器之心Pro 搜狐同步·2026-10-07 15:25",
           "urls": [
             "https://m.sohu.com/a/1084755160_129720"
           ],
@@ -117,7 +117,7 @@
         },
         {
           "title": "百克级 AI 眼镜对撞：Google×Xreal Aura 定价 $1,279 直面 Meta",
-          "meta": "The Verge·今日",
+          "meta": "The Verge·2026-10-07",
           "urls": [
             "https://www.theverge.com/news/1006207/google-xreal-aura-glasses-price-release-date-preorder"
           ],
@@ -165,7 +165,7 @@
       "items": [
         {
           "title": "NVIDIA Nemotron 开放模型族微调拿下 IOI+IMO 双金，配方全公开",
-          "meta": "Hugging Face·今日 20:45",
+          "meta": "Hugging Face·2026-10-07 20:45",
           "urls": [
             "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026"
           ],
@@ -209,7 +209,7 @@
         },
         {
           "title": "AIBuildAI 开源递归自进化 PostTrain Agent，登顶 PostTrainBench",
-          "meta": "机器之心Pro 搜狐同步·今日 15:35",
+          "meta": "机器之心Pro 搜狐同步·2026-10-07 15:35",
           "urls": [
             "https://m.sohu.com/a/1084759444_129720"
           ],
@@ -255,8 +255,8 @@
           ]
         },
         {
-          "title": "亚马逊×杜克：万分之一的监督信号也能做好推理（OPD）",
-          "meta": "机器之心Pro 搜狐同步·今日 16:01",
+          "title": "亚马逊×杜克：万分之一的监督信号也能做好推理（机器之心Pro 搜狐同步·2026-10-07 16:01）",
+          "meta": "机器之心Pro 搜狐同步·2026-10-07 16:01",
           "urls": [
             "https://m.sohu.com/a/1084767551_129720"
           ],
@@ -296,11 +296,11 @@
       "items": [
         {
           "title": "Common Sense Media 定调：ChatGPT for Teens 是「不可接受的风险」",
-          "meta": "The Verge·今日",
+          "meta": "The Verge·2026-10-07",
           "urls": [
             "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media"
           ],
-          "summary": "美国青少年内容评测权威机构 Common Sense Media 今日点名 OpenAI 8 月上线的 ChatGPT for Teens「不可接受风险」，现有防护不足以保护未成年人。",
+          "summary": "美国青少年内容评测权威机构 Common Sense Media 2026-10-07 点名 OpenAI 8 月上线的 ChatGPT for Teens「不可接受风险」，现有防护不足以保护未成年人。",
           "angles": [
             {
               "kind": "startup",
@@ -339,8 +339,8 @@
       "title": "行业 · 应用",
       "items": [
         {
-          "title": "【后续】Utopai Studios：文生视频 AA 榜第二（差榜首 7 分）+ 福布斯估值 10 亿美元",
-          "meta": "量子位·今日 19:34",
+          "title": "【后续】Utopai Studios：文生视频 AA 榜第二（量子位·2026-10-07 19:34）+ 福布斯估值 10 亿美元",
+          "meta": "量子位·2026-10-07 19:34",
           "urls": [
             "https://www.qbitai.com/2026/10/501803.html"
           ],
@@ -387,11 +387,11 @@
         },
         {
           "title": "Agent Skills 生态在 GitHub 趋势榜刷屏",
-          "meta": "GitHub Trending·今日快照",
+          "meta": "GitHub Trending·2026-10-07快照",
           "urls": [
             "https://github.com/mattpocock/skills"
           ],
-          "summary": "今日趋势榜被 coding agent 技能包刷屏：mattpocock/skills（27.9 万星，今日更新）、addyosmani/agent-skills（10.2 万星）、Cloudflare 官方 security-audit-skill（2.6 万星，主打可机器读验证的安全审计发现：https://github.com/cloudflare/security-audit-skill）、claude-mem（9.7 万星，跨宿主持久记忆，兼容 OpenClaw/Claude Code/Codex 等：https://github.com/thedotmack/claude-mem）。",
+          "summary": "2026-10-07 趋势榜被 coding agent 技能包刷屏：mattpocock/skills（27.9 万星，2026-10-07 更新）、addyosmani/agent-skills（10.2 万星）、Cloudflare 官方 security-audit-skill（2.6 万星，主打可机器读验证的安全审计发现：https://github.com/cloudflare/security-audit-skill）、claude-mem（9.7 万星，跨宿主持久记忆，兼容 OpenClaw/Claude Code/Codex 等：https://github.com/thedotmack/claude-mem）。",
           "angles": [
             {
               "kind": "startup",
@@ -430,7 +430,7 @@
         },
         {
           "title": "10 人初创 Bites 用 agent 外卖切 DoorDash",
-          "meta": "The Verge·今日",
+          "meta": "The Verge·2026-10-07",
           "urls": [
             "https://www.theverge.com/ai-artificial-intelligence/1005726/doordash-ai-agentic-food-delivery-bites"
           ],
@@ -469,7 +469,7 @@
         },
         {
           "title": "OpenAI 老模型 10-23 集中关停倒计时 17 天，社区迁移工具上线",
-          "meta": "Reddit·今日 20:42",
+          "meta": "Reddit·2026-10-07 20:42",
           "urls": [
             "https://www.reddit.com/r/OpenAI/comments/1wzvieu/openai_shutting_down_gpt4_gpt35turbo_on_oct_23"
           ],
