@@ -3,7 +3,7 @@
   "date": "2026-10-01",
   "time": "11:00",
   "title": "AI 情报 · 10-01 11:00 场",
-  "generatedAt": "2026-10-08T07:21:38.680Z",
+  "generatedAt": "2026-10-08T07:24:31.400Z",
   "coverage": "2026-09-30 11:00 → 2026-10-01 11:00（Asia/Shanghai；24h 为主，2 条重大放宽至 48h 并标注）",
   "notes": [
     "信源状态见文末"
@@ -490,7 +490,7 @@
         },
         {
           "title": "FTC 立案调查 AI 巨头（Reuters·2026-09-30，NY Post 率先报道）",
-          "meta": "Reuters·2026-09-30 ，NY Post 率先报道",
+          "meta": "Reuters·2026-09-30，NY Post 率先报道",
           "urls": [
             "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/"
           ],
