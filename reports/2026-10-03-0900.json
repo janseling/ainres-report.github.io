@@ -3,7 +3,7 @@
   "date": "2026-10-03",
   "time": "09:00",
   "title": "AI 情报 · 10-03 09:00 场",
-  "generatedAt": "2026-10-08T07:42:26.211Z",
+  "generatedAt": "2026-10-08T22:18:08.910Z",
   "coverage": "10-02 21:00 → 10-03 09:00（Asia/Shanghai）　※ 补刊（生成于 2026-10-08，非当时原发）",
   "notes": [
     "与 10-02 三场及 10-05 场已去重；搜狐镜像当时抓取失败，国内源本档窗口近乎零增量"
@@ -180,10 +180,11 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "C源·HN 277 分高热，产品页无时间戳",
+          "confidence": "高",
+          "confidence_note": "双源佐证 HN 277 分高热帖+lllm.dev 独立报道",
           "publish_time": null,
           "original_title": "From the creator of Redis; run LLM locally with ds4（HN 提交题）",
+          "verify_note": "外部检索（lllm.dev 同步报道：Redis 作者 antirez 发布 DwarfStar 4 本地推理引擎（Metal/CUDA），16 天 11k★；antirez 官博《A few words on DS4》确认走红）",
           "entities": [
             {
               "name": "ds4",
@@ -311,9 +312,10 @@
           "type_tags": [
             "政策监管"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·Ars",
+          "confidence": "高",
+          "confidence_note": "双源佐证 Ars+WIRED/GeekWire/TechCrunch 同报",
           "publish_time": "2026-10-03 04:30",
+          "verify_note": "外部检索（GeekWire/WIRED/TechCrunch 10-02~03 独立同报：AWS CEO Garman 官宣 $1B 社区投放、停用数据中心 NDA，称本地反对威胁美国 AI 领先地位）",
           "entities": [
             {
               "name": "Amazon",
@@ -394,6 +396,7 @@
           "publish_time": null,
           "event_time": "2026-11-30",
           "event_time_inferred": false,
+          "verify_note": "外部检索（第三方行业站 metadatamarketer 10-02 独立报道：11-30 全站关停、用户须在截止前迁移站点与域名；HN 讨论串 65 评论同弧线）",
           "entities": [
             {
               "name": "Mozilla",
@@ -424,9 +427,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·TC 引述原话",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TC 引述原话+EWTN/NCR 同报",
           "publish_time": "2026-10-02 23:39",
+          "verify_note": "外部检索（EWTN/National Catholic Register 独立同报（CNA 电稿）：教宗原话「本体论差异先于美学差异」，@Pontifex 官推原文一致）",
           "entities": [
             {
               "name": "Pope Leo XIV",
