@@ -3,7 +3,7 @@
   "date": "2026-10-06",
   "time": "21:00",
   "title": "AI 情报 · 10-06 21:00 场",
-  "generatedAt": "2026-10-06T13:18:54.668Z",
+  "generatedAt": "2026-10-08T06:05:59.358Z",
   "coverage": "2026-10-05 21:00 → 10-06 21:15（Asia/Shanghai，24h 口径；本日 09:00/15:00 两场已报条目全部去重，晚场实际增量集中在 15:00 之后）",
   "notes": [
     "假期收尾晚间，海外隔夜增量已由早场收割，本期以融资传闻与叙事风向为主"
@@ -47,7 +47,28 @@
               "text": "融资弹药+开源降价惯性叠加，DeepSeek API 价格还有下行空间——应用层成本红利窗口延长，做垂直应用该趁窗口攒现金流和场景壁垒，别跟基模型拼通用能力。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "低",
+          "confidence_note": "知情人士爆料口径·多家转引",
+          "publish_time": "2026-10-06",
+          "verify_note": "外部检索（CNBC 同报并称 CATL/吉利/Monolith/Loyal Valley 已出资；Reuters 简讯多转引；公司未回应置评）",
+          "entities": [
+            {
+              "name": "DeepSeek",
+              "type": "企业"
+            },
+            {
+              "name": "腾讯",
+              "type": "企业"
+            },
+            {
+              "name": "宁德时代",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -83,7 +104,30 @@
               "text": "1T/49B 激活规模与 DeepSeek 头部开源量级相当；基准数字目前只有官方口径，等月底权重放出后看社区与 AA 盲评的独立复现再定论。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "官方原文+多家同报",
+          "publish_time": "2026-10-06",
+          "event_time": "2026-10-06",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（mistral.ai 官方博客同日官宣预览+10-27 放权重；The Hindu/silicon 等跟进；官方口径激活参数 52B 与 VB 报道 49B 有出入）",
+          "entities": [
+            {
+              "name": "Mistral AI",
+              "type": "企业"
+            },
+            {
+              "name": "Mistral Large 4",
+              "type": "产品"
+            },
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "xAI 联创 Szegedy 长文宣判：数学「英雄时代」落幕",
@@ -112,7 +156,31 @@
               "text": "各里程碑均出自大厂内部模型、可复现性未知，别把叙事直接当产能。"
             }
           ],
-          "source_tier": null
+          "source_tier": null,
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-06 15:00",
+          "entities": [
+            {
+              "name": "Christian Szegedy",
+              "type": "人物"
+            },
+            {
+              "name": "xAI",
+              "type": "企业"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -142,7 +210,27 @@
               "text": "做科研 agent 别把「替代数学家」当卖点，押「灯塔价值」——验证、工具链、形式化护栏才是可持续切口（与 Szegedy 的自动形式化路线一致）。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-06 15:59",
+          "entities": [
+            {
+              "name": "陶哲轩",
+              "type": "人物"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "agent 经济长出「度量衡」：Chargebee 发布 agent 成本追踪开放标准 AUDR；iphone-use 让 agent 驱动真实 iPhone",
@@ -166,7 +254,27 @@
               "text": "给 agent 产品做成本透明/预算管控（对齐 AUDR 类标准）会成为 B 端采购硬指标；无 API 场景的手机 agent（iphone-use 思路）把 agent 触达面拉到存量长尾应用，国内同类（安卓无障碍通道）已有先例，机会在中场适配层而非壳产品。"
             }
           ],
-          "source_tier": "C"
+          "source_tier": "C",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "低",
+          "confidence_note": "C源·PH 榜单收录",
+          "publish_time": "2026-10-06",
+          "entities": [
+            {
+              "name": "Chargebee",
+              "type": "企业"
+            },
+            {
+              "name": "AUDR",
+              "type": "产品"
+            },
+            {
+              "name": "iphone-use",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "GitHub Trending 双星：agent 逆向工程工具 rea 单日 +2963★、e2e 测试框架 +1720★",
@@ -190,7 +298,27 @@
               "text": "devtool 创业两个切口：为 agent 时代重造测试（自愈用例、可断言回放）；逆向/合规扫描在企业 agent 审计链路里可打包成服务。"
             }
           ],
-          "source_tier": "C"
+          "source_tier": "C",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "低",
+          "confidence_note": "C源·榜单数据",
+          "publish_time": "2026-10-06",
+          "entities": [
+            {
+              "name": "GitHub",
+              "type": "企业"
+            },
+            {
+              "name": "rea",
+              "type": "产品"
+            },
+            {
+              "name": "e2e",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "AMD CEO：未来数年芯片需求将「非常高」；希捷、东芝据悉竞购 TDK 硬盘磁头业务",
@@ -208,7 +336,31 @@
               "text": "算力景气从 GPU 扩散到外围（存储/磁头/MLCC），二手数据硬件与供应链整合并购增多；周期上行期二级市场对「AI 需求」关键词的定价已经很强，留意拥挤度。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·磁头条引彭博亦是单源",
+          "publish_time": "2026-10-06 15:10",
+          "entities": [
+            {
+              "name": "AMD",
+              "type": "企业"
+            },
+            {
+              "name": "希捷",
+              "type": "企业"
+            },
+            {
+              "name": "东芝",
+              "type": "企业"
+            },
+            {
+              "name": "TDK",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "软银支持的 DayOne 数据中心拟赴美 IPO，募资至多 50 亿美元",
@@ -225,7 +377,23 @@
               "text": "AI 算力资产证券化从模型公司蔓延到「算力房东」：继月之暗面/可灵之后，数据中心商也拿到美股 IPO 窗口——与昨日报道的 71% 美国民众反对本地建数据中心对照，公众阻力没有挡住资本路径，核电直购+离岸部署+证券化退出构成资本闭环。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "低",
+          "confidence_note": "据悉·知情人士口径",
+          "publish_time": "2026-10-06 15:52",
+          "entities": [
+            {
+              "name": "DayOne",
+              "type": "企业"
+            },
+            {
+              "name": "软银",
+              "type": "企业"
+            }
+          ]
         }
       ]
     }
