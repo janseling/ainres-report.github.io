@@ -3,7 +3,7 @@
   "date": "2026-09-30",
   "time": "09:03",
   "title": "AI 情报 · 09-30 09:03 场",
-  "generatedAt": "2026-10-08T06:40:33.121Z",
+  "generatedAt": "2026-10-08T07:21:38.678Z",
   "coverage": "2026-09-29 09:03 → 2026-09-30 09:03（Asia/Shanghai）",
   "notes": [
     "信源状态见文末（上期失效的量子位本期已恢复）"
@@ -28,7 +28,7 @@
       "items": [
         {
           "title": "OpenAI DevDay 25 项连发：重新定价引发现场沉默",
-          "meta": "极客公园·今天凌晨",
+          "meta": "极客公园·2026-09-30 凌晨",
           "urls": [
             "http://www.geekpark.net/news/372003"
           ],
@@ -72,7 +72,7 @@
         },
         {
           "title": "OpenAI 谈 $30B 新融资、估值 $1.4T，或为 IPO 前最后一轮",
-          "meta": "TechCrunch·今天 03:52",
+          "meta": "TechCrunch·2026-09-30 03:52",
           "urls": [
             "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/"
           ],
@@ -105,7 +105,7 @@
         },
         {
           "title": "OpenAI 发布个人智能体 Dots，对标 Meta Muse",
-          "meta": "TechCrunch·今天 01:17",
+          "meta": "TechCrunch·2026-09-30 01:17",
           "urls": [
             "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/"
           ],
@@ -148,7 +148,7 @@
         },
         {
           "title": "DeepSeek Harness 桌面版上线：开箱即用，登录送 6 元",
-          "meta": "爱范儿·今天 00:07",
+          "meta": "爱范儿·2026-09-30 00:07",
           "urls": [
             "https://www.ifanr.com/1682532"
           ],
@@ -181,7 +181,7 @@
         },
         {
           "title": "Manus 2.0 发布：云电脑 + 个人助手 CUE + 成本降 32%",
-          "meta": "极客公园·昨天 13:27",
+          "meta": "极客公园·2026-09-29 13:27",
           "urls": [
             "http://www.geekpark.net/news/371493"
           ],
@@ -214,7 +214,7 @@
         },
         {
           "title": "可灵 4.0 公布：主打真实可控专业，4.0 Flash 已上线",
-          "meta": "爱范儿·昨天 11:24",
+          "meta": "爱范儿·2026-09-29 11:24",
           "urls": [
             "https://www.ifanr.com/1682361"
           ],
@@ -254,7 +254,7 @@
       "items": [
         {
           "title": "GPT-6.1 Sol 发布：约 1/5 价格逼近旗舰 Astra",
-          "meta": "TechCrunch·今天 01:15",
+          "meta": "TechCrunch·2026-09-30 01:15",
           "urls": [
             "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/"
           ],
@@ -293,7 +293,7 @@
         },
         {
           "title": "IQuest-Q1：320B 参数、激活 15B 的国产 MoE 新模型",
-          "meta": "量子位·昨天 15:59",
+          "meta": "量子位·2026-09-29 15:59",
           "urls": [
             "https://www.qbitai.com/2026/09/499188.html"
           ],
@@ -329,7 +329,7 @@
       "items": [
         {
           "title": "特朗普签行政令：弃用「AI」，官方统一改称「Super Intelligence」",
-          "meta": "The Verge·今天 07:34",
+          "meta": "The Verge·2026-09-30 07:34",
           "urls": [
             "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai"
           ],
@@ -369,7 +369,7 @@
         },
         {
           "title": "佛州申请临时禁令：未经第三方批准安全护栏，OpenAI 不得继续开发前沿模型",
-          "meta": "Ars Technica·前日 04:49，重大放宽 48h",
+          "meta": "Ars Technica·2026-09-29 04:49，重大放宽 48h",
           "urls": [
             "https://arstechnica.com/ai/2026/09/florida-asks-court-to-put-the-brakes-on-openais-frontier-ai-development/"
           ],
@@ -403,8 +403,8 @@
           ]
         },
         {
-          "title": "AI 安全倡导者依加州反黑客法起诉 OpenAI（涉 Hugging Face 黑客事件）",
-          "meta": "Politico·今天 03:45，经 HN",
+          "title": "AI 安全倡导者依加州反黑客法起诉 OpenAI（Politico·2026-09-30 03:45，经 HN）",
+          "meta": "Politico·2026-09-30 03:45",
           "urls": [
             "https://www.politico.com/news/2026/09/29/advocates-sue-openai-over-hugging-face-hack-with-california-anti-hacking-law-01097532"
           ],
@@ -448,7 +448,7 @@
       "items": [
         {
           "title": "麦当劳用 AI 给汉堡动态定价",
-          "meta": "CNBC·今天 03:58，经 HN",
+          "meta": "CNBC·2026-09-30 03:58，经 HN",
           "urls": [
             "https://www.cnbc.com/2026/09/29/inside-mcdonalds-push-ai-price-big-mac.html"
           ],
@@ -477,7 +477,7 @@
         },
         {
           "title": "英伟达与保险公司谈判：分担 GPU 抵押贷款风险",
-          "meta": "36氪快讯·昨天",
+          "meta": "36氪快讯·2026-09-29",
           "urls": [
             "https://36kr.com/newsflashes/4005167063715721"
           ],
@@ -510,7 +510,7 @@
         },
         {
           "title": "太空兔 Space Bunny Alpha 海外刷屏：涂鸦 5 分钟生成 3D 网站",
-          "meta": "爱范儿·昨天 17:19",
+          "meta": "爱范儿·2026-09-29 17:19",
           "urls": [
             "https://www.ifanr.com/1682401"
           ],
@@ -543,7 +543,7 @@
         },
         {
           "title": "摩根士丹利看好 Shopify：智能代理购物成为共识",
-          "meta": "36氪快讯·今天 08:52，后续",
+          "meta": "36氪快讯·2026-09-30 08:52，后续",
           "urls": [
             "https://36kr.com/newsflashes/4005156326412160"
           ],
