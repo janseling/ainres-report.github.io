@@ -1,5 +1,5 @@
 {
-  "count": 21,
+  "count": 22,
   "reports": [
     {
       "id": "2026-10-08-0900",
@@ -254,6 +254,31 @@
       "rawStats": {
         "candidates": 106,
         "selected": 15
+      }
+    },
+    {
+      "id": "2026-10-04-0900",
+      "date": "2026-10-04",
+      "time": "09:00",
+      "title": "AI 情报 · 10-04 09:00 场",
+      "itemCount": 5,
+      "coverage": "10-03 21:10 → 10-04 09:00（Asia/Shanghai）　※ 补刊（生成于 2026-10-08，非当时原发）",
+      "note": "国庆假期候选稀少：139 条原始候选中有效不足 30 条，按宁缺毋滥缩至 5 条；搜狐系六路源当档快照 0 字节（不可恢复），国内主源本窗口近乎零增量；与 10-02～10-03 场及 10-05 起各场已去重（Robinson 辞职、Anthropic 游说教皇、antirez ds4、Cloudflare Clef、HF 下架 GLM-5.3 等重复/超窗条目已剔除）",
+      "overview": [
+        "Aleph Alpha 开源 Kolibri：78B-A3.5B 德/英 MoE 推理模型（Apache-2.0），欧洲「主权 AI」落地到开源权重",
+        "智东西假期实测 M3.1-Flash 卷前端，成品直接对标 Opus 5.5（10-02 场 Flash Preview 报道的后续）",
+        "Willison 呼吁按量付费服务默认上「硬预算上限」：AWS 已上线月度消费限额但仍需 opt-in",
+        "AWS CEO 回应数据中心民意反弹：与政府机构打交道不再签 NDA（全美逾 100 项暂停令在讨论）",
+        "TC 盘点「活在短信里的 AI agent」：Instinct $10B 估值领跑，Caddy 等跟进"
+      ],
+      "sectionCounts": {
+        "product": 1,
+        "tech": 2,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": 139,
+        "selected": 5
       }
     },
     {
