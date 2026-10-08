@@ -3,7 +3,7 @@
   "date": "2026-10-08",
   "time": "15:00",
   "title": "AI 情报 · 10-08 15:00 场",
-  "generatedAt": "2026-10-08T07:24:09.607Z",
+  "generatedAt": "2026-10-08T09:50:09.777Z",
   "coverage": "2026-10-08 09:00 → 15:05（Asia/Shanghai）",
   "notes": [
     "2026-10-08 09:00 场已覆盖 GPT-6 免费开放/IUI、Haiku 5.5、Mistral Le Chonk 等同题稿，本期不再收录"
@@ -91,9 +91,10 @@
           "type_tags": [
             "融资交易"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·36氪首发",
-          "publish_time": "2026-10-08 11:03"
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪硬氪首发+爱集微",
+          "publish_time": "2026-10-08 11:03",
+          "verify_note": "外部检索（爱集微/集微网 同报：比特幻境（NIMO）数亿元人民币天使轮、估值 15 亿元，投资方含博华资本/戈壁创投/元禾璞华/尚势资本）"
         },
         {
           "title": "三家「语音优先」教育 AI 公司接连融资，让 AI「开口教学」",
@@ -114,9 +115,10 @@
           "type_tags": [
             "融资交易"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·36氪评论稿",
-          "publish_time": "2026-10-08 13:24"
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪稿+PRNewswire/Dealroom",
+          "publish_time": "2026-10-08 13:24",
+          "verify_note": "外部检索（PR Newswire 9-16 同报 Aristotle 获 True Ventures/Wicklow 等 $5M 种子轮；Dealroom/eu.vc 9-21 前后同报 Eevi 获 Rockstart 领投 pre-seed）"
         },
         {
           "title": "Meta 撑腰的 Biohub 扩容 AI 制药数据基建至 18 亿美元",
@@ -137,9 +139,10 @@
           "type_tags": [
             "商业合作"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+CNBC/WSJ",
           "publish_time": "2026-10-08 12:30",
+          "verify_note": "外部检索（CNBC/WSJ 10-07 同报：Biohub 联合美国 DOE/NIH 与 Google 投入 $1.8B 建设 AI 生物数据基建）",
           "entities": [
             {
               "name": "Meta",
@@ -182,6 +185,7 @@
           "publish_time": "2026-10-07",
           "event_time": "2026-10-07 10:21",
           "event_time_inferred": false,
+          "verify_note": "外部检索（postcutoff/AGI Hunt 同报：Colkitt(@0xdoug) 对 OpenAI #109 做条件式收紧，最新 κ=2^-78）",
           "entities": [
             {
               "name": "OpenAI",
@@ -251,9 +255,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·搜狐镜像",
+          "confidence": "高",
+          "confidence_note": "双源佐证 机器之心Pro稿+arXiv 2610.00917 原文",
           "publish_time": "2026-10-08 09:47",
+          "verify_note": "外部检索（arXiv 2610.00917 在档《Finding the Right Fit: Model–Harness Interactions across Agent Tasks》，通讯作者 boan@ntu.edu.sg（安波）；AI星球/凤凰网同步报道）",
           "entities": [
             {
               "name": "南洋理工大学",
@@ -374,6 +379,7 @@
           "confidence": "高",
           "confidence_note": "博客原文核实",
           "publish_time": "2026-10-07",
+          "verify_note": "外部检索（AHM 官网 statements 页在档该声明；explainx/texxr/AGI Hunt 等第三方同报其呼吁停止与 OpenAI 合作）",
           "entities": [
             {
               "name": "陶哲轩",
@@ -408,9 +414,10 @@
           "type_tags": [
             "数据行情"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·观点稿",
-          "publish_time": "2026-10-08 13:07"
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪观点稿+钛媒体/数位时代",
+          "publish_time": "2026-10-08 13:07",
+          "verify_note": "外部检索（钛媒体/数位时代/PANews 同报 a16z 第七版 Top100 榜引 YipitData 消费数据：美国 AI 付费率仅 4.5%，头部 1% 付费者月均约 $903）"
         },
         {
           "title": "具身智能界的「美团」能跑通吗？智元系数据众包生意被起底",
@@ -431,9 +438,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·36氪深度稿",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪稿+每经·界面新闻",
           "publish_time": "2026-10-08 10:11",
+          "verify_note": "外部检索（每经 9-01 同报觅蜂（智元孵化、姚卯青任董事长）众包数采模式；界面新闻 4-16 同报其平台与商业化）",
           "entities": [
             {
               "name": "智元",
@@ -460,9 +468,10 @@
           "type_tags": [
             "数据行情"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·36氪评论稿",
-          "publish_time": "2026-10-08 13:22"
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪评论稿+商务部数据多源",
+          "publish_time": "2026-10-08 13:22",
+          "verify_note": "外部检索（商务部商务大数据 10-07 公布：10-01~06 重点平台具身智能机器人销售额同比 +1.3 倍；阿尔法工场/港股研究社/人民网同报）"
         }
       ]
     }
