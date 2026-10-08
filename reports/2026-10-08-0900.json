@@ -3,7 +3,7 @@
   "date": "2026-10-08",
   "time": "09:00",
   "title": "AI 情报 · 10-08 09:00 场",
-  "generatedAt": "2026-10-08T01:04:05.362Z",
+  "generatedAt": "2026-10-08T06:05:58.206Z",
   "coverage": "2026-10-07 21:00 → 2026-10-08 09:05（Asia/Shanghai）",
   "notes": [
     "今日为早间场次，与昨日 21:00 场无缝衔接"
@@ -47,7 +47,30 @@
               "text": "免费用户拿到旗舰+IUI 意味着\"AI 平民化\"加速，依赖 ChatGPT 封闭入口的套壳工具生存空间被进一步压缩。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源同报 36氪+新智元",
+          "publish_time": "2026-10-08 08:25",
+          "event_time": "2026-10-08",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（KuCoin/Gate 等快讯同口径：GPT-6 登陆 ChatGPT 主界面、付费档先发并派发一次性 banked reset card，免费档 10-08 起跟进）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "ChatGPT",
+              "type": "产品"
+            },
+            {
+              "name": "GPT-6",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "ChatGPT 全新 IUI 智能用户界面",
@@ -70,7 +93,27 @@
               "text": "第三方 ChatGPT 类工具的\"对话+面板\"形态直接被官方吞掉，往上游（数据/工作流）退守才是活路。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(TC+Verge)",
+          "publish_time": "2026-10-08 03:10",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "ChatGPT",
+              "type": "产品"
+            },
+            {
+              "name": "Intelligent UI",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Claude Haiku 5.5 发布，小模型进入一分钱时代",
@@ -93,7 +136,23 @@
               "text": "小模型成本地板下探，做\"轻量 agent 矩阵\"（多小模型并发替代单大模型）的创业算账逻辑变得更成立。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源同报 36氪+新智元",
+          "publish_time": "2026-10-08 08:25",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude Haiku",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Claude 打通谷歌办公三件套",
@@ -116,7 +175,27 @@
               "text": "侧边栏+直改本地文件，说明模型厂商对办公生态的 API 理解已能支撑稳定落地。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·搜狐镜像",
+          "publish_time": "2026-10-08 07:24",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            },
+            {
+              "name": "Google",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "Nous Research 确认 15 亿美元估值，转做企业 agent",
@@ -133,7 +212,23 @@
               "text": "开源起家（Hermes 系）转企业 agent，验证\"社区声量→企业付费\"路径，与 Mistral/DeepSeek 的开源商业化走法同构。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·公司确认口径",
+          "publish_time": "2026-10-08 04:48",
+          "entities": [
+            {
+              "name": "Nous Research",
+              "type": "企业"
+            },
+            {
+              "name": "Hermes Agent",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "微软 Surface Laptop Ultra 事件：Nvidia 芯片 AI PC + Copilot 本地权限",
@@ -156,7 +251,37 @@
               "text": "Windows 端 agent 工具链生态刚起步，做 Copilot 之外的能力补位（垂直场景/隐私敏感场景）有机会。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(TC+Verge)·NVIDIA 官方博客在档",
+          "publish_time": "2026-10-08 02:42",
+          "event_time": "2026-10-07",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "Microsoft",
+              "type": "企业"
+            },
+            {
+              "name": "Surface Laptop Ultra",
+              "type": "产品"
+            },
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "RTX Spark",
+              "type": "产品"
+            },
+            {
+              "name": "Copilot",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -186,7 +311,23 @@
               "text": "科研场景模型（物理/材料/数学）的垂直订阅与行业定制故事在加速定价。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·搜狐镜像",
+          "publish_time": "2026-10-08 08:13",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Mistral \"Le Chonk\"：开放权重挑战顶级闭源模型",
@@ -209,7 +350,27 @@
               "text": "万亿参数 MoE 开放权重意味着自托管底座选项增加，做微调/私有化的团队可提前安排评测窗口。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·厂商自称未实测",
+          "publish_time": "2026-10-07 22:12",
+          "entities": [
+            {
+              "name": "Mistral AI",
+              "type": "企业"
+            },
+            {
+              "name": "Le Chonk",
+              "type": "产品"
+            },
+            {
+              "name": "Mistral Large 4",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "LiquidAI 开源 d1 边缘决策模型（d1-3B / d1-omni-600M）",
@@ -232,7 +393,27 @@
               "text": "与 OpenAI Decisions API 品类化共振——\"决策请求\"的云+端两条路线同时成立，做 agent 路由/审核中间件可换算力账。"
             }
           ],
-          "source_tier": "A"
+          "source_tier": "A",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-10-08 00:54",
+          "entities": [
+            {
+              "name": "LiquidAI",
+              "type": "企业"
+            },
+            {
+              "name": "d1-3B",
+              "type": "产品"
+            },
+            {
+              "name": "d1-omni-600M",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Google SynthID 检测器升级并全球开放",
@@ -249,7 +430,29 @@
               "text": "AI 内容鉴别正在变成公共基础设施，内容平台/招聘/教育的采购清单里会出现\"检测能力\"这一项。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(TC+Ars)",
+          "publish_time": "2026-10-07 22:00",
+          "event_time": "2026-10-06",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "SynthID",
+              "type": "产品"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -279,7 +482,23 @@
               "text": "算法定价判例一出，餐饮零售连锁的 AI 采购会加一条法务前置条件。"
             }
           ],
-          "source_tier": null
+          "source_tier": null,
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 卫报+AP",
+          "publish_time": "2026-10-07 19:00",
+          "entities": [
+            {
+              "name": "McDonald's",
+              "type": "企业"
+            },
+            {
+              "name": "卫报",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "ChatGPT 青少年安全实测翻车，OpenAI 称青少年日均使用不足 15 分钟",
@@ -302,7 +521,23 @@
               "text": "安全事件密度上升，平台方安全预算与合规采购会继续加码。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(TC+Reuters)",
+          "publish_time": "2026-10-08 02:15",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "ChatGPT",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Anthropic 扩大 Cyber Verification Program",
@@ -325,7 +560,23 @@
               "text": "reduced blocking classifiers 意味着攻击性安全场景可用度提升，双刃剑效应显著。"
             }
           ],
-          "source_tier": "A"
+          "source_tier": "A",
+          "type_tags": [
+            "其他（安全访问计划扩容）"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": null,
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Cyber Verification Program",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -349,7 +600,32 @@
               "text": "AI 基础设施融资从股权转向私募信贷/债务，为单一客户定制芯片举债 500 亿是集中度风险新高——算力泡沫的资产负债表证据链在变厚。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "低",
+          "confidence_note": "据悉措辞·WSJ 独家未证实",
+          "publish_time": "2026-10-08 08:19",
+          "verify_note": "外部检索（已溯及 WSJ 原稿同口径：为 OpenAI 定制芯片安排逾 $50B 融资，Apollo/Blackstone 参谈、早期阶段规模可变；另见 Oracle/SpaceX 同题债务融资报道）",
+          "entities": [
+            {
+              "name": "博通",
+              "type": "企业"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Apollo",
+              "type": "企业"
+            },
+            {
+              "name": "Blackstone",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "DeepSeek 传半年累计融资约 1300 亿元",
@@ -366,7 +642,23 @@
               "text": "若坐实，这将是国产大模型最大一单融资，且直接改变国产算力预训练的资本供给格局——对做私有化/微调交付的团队，底座弹药变足了。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "低",
+          "confidence_note": "传闻·多方转述未经官方证实",
+          "publish_time": "2026-10-08 08:22",
+          "entities": [
+            {
+              "name": "DeepSeek",
+              "type": "企业"
+            },
+            {
+              "name": "梁文锋",
+              "type": "人物"
+            }
+          ]
         }
       ]
     }
