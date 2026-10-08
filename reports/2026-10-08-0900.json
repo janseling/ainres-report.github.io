@@ -3,7 +3,7 @@
   "date": "2026-10-08",
   "time": "09:00",
   "title": "AI 情报 · 10-08 09:00 场",
-  "generatedAt": "2026-10-08T09:50:09.777Z",
+  "generatedAt": "2026-10-08T12:19:32.398Z",
   "coverage": "2026-10-07 21:00 → 2026-10-08 09:05（Asia/Shanghai）",
   "notes": [
     "2026-10-08 为早间场次，与 2026-10-07 21:00 场无缝衔接"
@@ -144,6 +144,7 @@
           "confidence": "高",
           "confidence_note": "双源同报 36氪+新智元",
           "publish_time": "2026-10-08 08:25",
+          "verify_note": "外部检索（SiliconANGLE 10-07 同报：Haiku 5.5 发布并同步下调 Sonnet 5.5 缓存读价；AWS Bedrock 官方公告同日上架）",
           "entities": [
             {
               "name": "Anthropic",
@@ -180,9 +181,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·搜狐镜像",
+          "confidence": "高",
+          "confidence_note": "双源佐证 机器之心Pro搜狐镜像+9to5Google",
           "publish_time": "2026-10-08 07:24",
+          "verify_note": "外部检索（9to5Google 10-06 同报 Docs/Sheets/Slides 侧边栏集成；Anthropic 官方公告「Claude now works with Google Docs/Sheets/Slides」在档）",
           "entities": [
             {
               "name": "Anthropic",
@@ -217,9 +219,10 @@
           "type_tags": [
             "融资交易"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·公司确认口径",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+SiliconANGLE",
           "publish_time": "2026-10-08 04:48",
+          "verify_note": "外部检索（SiliconANGLE 10-08 同报：$90M B 轮、NVIDIA/三星参投、估值 $1.5B）",
           "entities": [
             {
               "name": "Nous Research",
@@ -261,6 +264,7 @@
           "publish_time": "2026-10-08 02:42",
           "event_time": "2026-10-07",
           "event_time_inferred": false,
+          "verify_note": "外部检索（Tom's Hardware/The Register 10-07 同报：Surface Laptop Ultra 搭 RTX Spark、$2,599 起、预订开启）",
           "entities": [
             {
               "name": "Microsoft",
@@ -316,9 +320,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·搜狐镜像",
+          "confidence": "高",
+          "confidence_note": "双源佐证 新智元+The Neuron",
           "publish_time": "2026-10-08 08:13",
+          "verify_note": "外部检索（The Neuron/theaiinsider 同报：Grad 猜想三族反例两篇独立论文，其二由 GPT-6 Astra 助力找到）",
           "entities": [
             {
               "name": "OpenAI",
@@ -355,9 +360,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·厂商自称未实测",
+          "confidence": "高",
+          "confidence_note": "双源佐证 Ars+VentureBeat",
           "publish_time": "2026-10-07 22:12",
+          "verify_note": "外部检索（VentureBeat/The Register 同报：Le Chonk 即 Large 4，1T 总参/49B 激活；HF 官方仓库权重定档 10-31 放出）",
           "entities": [
             {
               "name": "Mistral AI",
@@ -440,6 +446,7 @@
           "publish_time": "2026-10-07 22:00",
           "event_time": "2026-10-06",
           "event_time_inferred": false,
+          "verify_note": "外部检索（Google DeepMind 官方博客 10-07 同报：SynthID Detector 扩容、全球开放识别 AI 生成内容）",
           "entities": [
             {
               "name": "Google",
@@ -490,6 +497,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 卫报+AP",
           "publish_time": "2026-10-07 19:00",
+          "verify_note": "外部检索（AP 10-06 原稿同报：McDonald's 因 AI 定价工具遭诉；NRN 同报伊利诺伊潜在集体诉讼）",
           "entities": [
             {
               "name": "McDonald's",
@@ -529,6 +537,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证(TC+Reuters)",
           "publish_time": "2026-10-08 02:15",
+          "verify_note": "外部检索（Reuters 10-07 通稿「青少年日均不足 15 分钟」已被 US News/Straits Times 转发；Futurism 同报实测「ChatGPT for Teens」不安全）",
           "entities": [
             {
               "name": "OpenAI",
@@ -647,9 +656,10 @@
           "type_tags": [
             "融资交易"
           ],
-          "confidence": "低",
-          "confidence_note": "传闻·多方转述未经官方证实",
+          "confidence": "中",
+          "confidence_note": "双源佐证 36氪+彭博原稿/Reuters 同报，传闻措辞未官方证实",
           "publish_time": "2026-10-08 08:22",
+          "verify_note": "外部检索（Bloomberg 10-06 原稿：本轮 ≥$12B/逾 800 亿元人民币、腾讯在列；Reuters 同报投前估值约 $74B，与 5000 亿人民币口径吻合）",
           "entities": [
             {
               "name": "DeepSeek",
