@@ -3,7 +3,7 @@
   "date": "2026-10-06",
   "time": "09:00",
   "title": "AI 情报 · 10-06 09:00 场",
-  "generatedAt": "2026-10-08T05:58:48.431Z",
+  "generatedAt": "2026-10-08T07:21:38.685Z",
   "coverage": "2026-10-05 21:00 → 10-06 09:00（Asia/Shanghai，24h 口径；ARC-AGI-3 条目为 48h 边界）",
   "notes": [
     "国庆假期国内夜间产出低谷，海外隔夜增量为主"
@@ -28,7 +28,7 @@
       "items": [
         {
           "title": "Reflection Beam 首发：西方开放权重的「DeepSeek 答案」正式交卷",
-          "meta": "TechCrunch·今天凌晨",
+          "meta": "TechCrunch·2026-10-06 凌晨",
           "urls": [
             "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"
           ],
@@ -78,7 +78,7 @@
         },
         {
           "title": "TikTok 上线 AI 购物助手与一键下单：把「逛→问→买」在站内收口",
-          "meta": "TechCrunch·7小时前",
+          "meta": "TechCrunch·2026-10-06",
           "urls": [
             "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/"
           ],
@@ -121,7 +121,7 @@
         },
         {
           "title": "Anthropic Cowork 架构云端化：本地 VM 退役，桌面 App 转型「设备文件代理」",
-          "meta": "Simon Willison 转引 Felix Rieseberg·今晨",
+          "meta": "Simon Willison 转引 Felix Rieseberg·2026-10-06 晨",
           "urls": [
             "https://simonwillison.net/2026/Oct/5/felix-rieseberg/"
           ],
@@ -168,7 +168,7 @@
         },
         {
           "title": "HackerRank AI 面试官 Chakra 全量 GA：半年 50 万场，开始面「过程」不只面「答案」",
-          "meta": "TechCrunch·8小时前",
+          "meta": "TechCrunch·2026-10-06",
           "urls": [
             "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/"
           ],
@@ -216,7 +216,7 @@
       "items": [
         {
           "title": "OpenAI 兑现军令状 Day-1：GPT-6 全系提速 50%，底层换激进 Tokenizer",
-          "meta": "新智元·搜狐官方号同步·今晨",
+          "meta": "新智元·搜狐官方号同步·2026-10-06 晨",
           "urls": [
             "https://m.sohu.com/a/1084352726_473283"
           ],
@@ -265,7 +265,7 @@
         },
         {
           "title": "MCP 被盯上：Google 等厂商 agent 曝出漏洞，指向结构性信任缺陷",
-          "meta": "Ars Technica·今晨",
+          "meta": "Ars Technica·2026-10-06 晨",
           "urls": [
             "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
           ],
@@ -350,11 +350,11 @@
       "items": [
         {
           "title": "OpenAI 官宣 EU 文本水印 textGrain：AI Act 透明度条款首例实操落地",
-          "meta": "OpenAI 官方博客·13小时前；TechCrunch/The Verge 交叉",
+          "meta": "OpenAI 官方博客·2026-10-05；TechCrunch/The Verge 交叉",
           "urls": [
             "https://openai.com/index/eu-text-provenance"
           ],
-          "summary": "为满足 8 月 2 日生效的 EU AI Act 透明度义务，OpenAI 未来数周内向欧盟区 ChatGPT/Codex 全套餐启用不可见文本水印；方法为用密钥微调选词统计分布（textGrain），检测器凭文本＋密钥即可判定，复制粘贴不丢、不识别用户、官方称无性能损失，配套与 UPenn/Yale 合着技术报告；全球 API 开发者今日起可自行开启（默认关）。欧盟外全球默认暂不启用。Anthropic 已于 9 月底为 Claude 上线同类水印。",
+          "summary": "为满足 8 月 2 日生效的 EU AI Act 透明度义务，OpenAI 未来数周内向欧盟区 ChatGPT/Codex 全套餐启用不可见文本水印；方法为用密钥微调选词统计分布（textGrain），检测器凭文本＋密钥即可判定，复制粘贴不丢、不识别用户、官方称无性能损失，配套与 UPenn/Yale 合着技术报告；全球 API 开发者 2026-10-06 起可自行开启（默认关）。欧盟外全球默认暂不启用。Anthropic 已于 9 月底为 Claude 上线同类水印。",
           "angles": [
             {
               "kind": "invest",
@@ -400,7 +400,7 @@
         },
         {
           "title": "挪威对可拍摄旁观者的 AI 眼镜出手：全球首例针对性政府整顿",
-          "meta": "Ars Technica·昨夜",
+          "meta": "Ars Technica·2026-10-05 晚",
           "urls": [
             "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/"
           ],
@@ -446,7 +446,7 @@
       "items": [
         {
           "title": "研究者监测到跑在腾讯基建上的中国 AI「agent fleet」，正向高德发起查询",
-          "meta": "TechCrunch·昨夜",
+          "meta": "TechCrunch·2026-10-05 晚",
           "urls": [
             "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/"
           ],
@@ -489,7 +489,7 @@
         },
         {
           "title": "维基媒体确认 OpenAI「rogue」agents 活动，密集流量或与 5 月故障相关",
-          "meta": "The Verge·2.5小时前",
+          "meta": "The Verge·2.2026-10-06",
           "urls": [
             "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage"
           ],
@@ -527,8 +527,8 @@
           ]
         },
         {
-          "title": "$10 亿→$100 亿估值的 Instinct 杀进群聊；「消费 agent 打电话」本周成标配",
-          "meta": "TechCrunch·6小时前",
+          "title": "$10 亿→$100 亿估值的 Instinct 杀进群聊；「消费 agent 打电话」2026-10-05~10-11 成标配",
+          "meta": "TechCrunch·2026-10-06",
           "urls": [
             "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/"
           ],
@@ -579,7 +579,7 @@
         },
         {
           "title": "OpenAI 高管：80-90% 研究已押向 GPT-7/GPT-8",
-          "meta": "新智元·搜狐官方号同步·今晨",
+          "meta": "新智元·搜狐官方号同步·2026-10-06 晨",
           "urls": [
             "https://m.sohu.com/a/1084352641_473283"
           ],
@@ -638,7 +638,7 @@
     },
     {
       "lead": "EU 文本 provenance 合规扩散",
-      "text": "OpenAI textGrain（今日 API 可开）→ Anthropic Claude 水印（9 月底）→ 等 Google/Meta 跟进；文本溯源检测（反作弊/内容审核/招聘筛选）是政策直接催生的采购品类。"
+      "text": "OpenAI textGrain（2026-10-06API 可开）→ Anthropic Claude 水印（9 月底）→ 等 Google/Meta 跟进；文本溯源检测（反作弊/内容审核/招聘筛选）是政策直接催生的采购品类。"
     },
     {
       "lead": "agent 与开放网络的对抗升级",
@@ -652,8 +652,8 @@
     "- VentureBeat：渲染通过但列表混入 4 条 8 月特稿旧目；文章页 curl 429 限流；列表中 GPT-6.1 Sol 条目经查为 DevDay（09-30）旧稿未当增量",
     "- 量子位：RSS 停更于 10-05 18:37，夜间零新增（假期节奏）；极客公园/爱范儿/少数派同况",
     "- 36氪（AI 频道＋快讯）：最新条目 10-05 18:30，假期夜间无上新",
-    "- GitHub Trending：与昨日榜单高度重合（AnyPS5/t3code/Agent-Reach/text-to-cad 等），无新 AI 主线爆款",
-    "- Product Hunt：今日榜单以小工具为主（FastRouter.ai/Unscary AI 等），无突出 AI launch 过入选线",
+    "- GitHub Trending：与 2026-10-05 榜单高度重合（AnyPS5/t3code/Agent-Reach/text-to-cad 等），无新 AI 主线爆款",
+    "- Product Hunt：2026-10-06 榜单以小工具为主（FastRouter.ai/Unscary AI 等），无突出 AI launch 过入选线",
     "- Anthropic 官网 / HF 博客 / DeepMind / NVIDIA / arXiv cs.AI：无窗口内增量（arXiv 402 条为论文流水，无大厂 research release）；甲子光年周更正常（最新 10-02 期）",
     "- Reddit（arctic-shift）：/api/posts/search 路径可用；新帖 score 字段恒为 1（平台限制），热度筛选失效，改为标题级人工筛"
   ]
