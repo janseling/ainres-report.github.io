@@ -1,6 +1,31 @@
 {
-  "count": 26,
+  "count": 27,
   "reports": [
+    {
+      "id": "2026-10-08-1500",
+      "date": "2026-10-08",
+      "time": "15:00",
+      "title": "AI 情报 · 10-08 15:00 场",
+      "itemCount": 13,
+      "coverage": "2026-10-08 09:00 → 15:05（Asia/Shanghai）",
+      "note": "2026-10-08 0900 场已覆盖 GPT-6 免费开放/IUI、Haiku 5.5、Mistral Le Chonk 等同题稿，本期不再收录",
+      "overview": [
+        "OpenAI 在 ICANN 新 gTLD 轮一口气申请 15 个顶级域名，.agent/.mcp/.evals/.skill/.model 全在其中。",
+        "AI-for-math 两天内向两个方向同时发酵：社区在 Lean 里「改进」OpenAI 成果与批评论文同框，AHM 声明获陶哲轩转发。",
+        "三星 Q3 营业利润预告增近九倍至约 800 亿美元，AI 存储芯片是唯一引擎。",
+        "Anthropic 培训/认证生态放量，1 亿美元投入 Claude 培训体系，「AI 文凭」成为一门明账。",
+        "国内应用侧升温：AI 眼镜天使轮数亿、语音教育三连融、具身数据众包生意被起底。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 3,
+        "industry": 6
+      },
+      "rawStats": {
+        "candidates": 812,
+        "selected": 13
+      }
+    },
     {
       "id": "2026-10-08-0900",
       "date": "2026-10-08",

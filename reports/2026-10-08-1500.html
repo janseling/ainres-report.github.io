@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- SHARE-CARD:BEGIN publish_web.js 生成（会按期重生成，勿手改） -->
+<title>AI 情报 · 10-08 15:00 场</title>
+<meta name="description" content="OpenAI 在 ICANN 新 gTLD 轮一口气申请 15 个顶级域名，.agent/.mcp/.evals/.skill/.model 全在其中。；AI-for-math 两天内向两个方向同时发酵：社区在 Lean 里「改进」OpenAI 成果与批评论文同框，AHM 声明获陶哲轩转发。；三星 Q3 营业利润预告增近九倍至约 800 亿美元，AI 存储芯片是唯一引擎。；Anthropic 培训/认证生态放量，1 亿美元投入 Claude 培训体系，「AI 文凭」成为一门明账。；国内应用侧升温：AI 眼镜天使轮数亿、语音教育三连融、具身数据众包生意被起底。">
+<meta property="og:title" content="AI 情报 · 10-08 15:00 场">
+<meta property="og:description" content="OpenAI 在 ICANN 新 gTLD 轮一口气申请 15 个顶级域名，.agent/.mcp/.evals/.skill/.model 全在其中。；AI-for-math 两天内向两个方向同时发酵：社区在 Lean 里「改进」OpenAI 成果与批评论文同框，AHM 声明获陶哲轩转发。；三星 Q3 营业利润预告增近九倍至约 800 亿美元，AI 存储芯片是唯一引擎。；Anthropic 培训/认证生态放量，1 亿美元投入 Claude 培训体系，「AI 文凭」成为一门明账。；国内应用侧升温：AI 眼镜天使轮数亿、语音教育三连融、具身数据众包生意被起底。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ainews.im-max.com/reports/2026-10-08-1500.html">
+<meta property="og:image" content="https://ainews.im-max.com/icon.png">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="600">
+<meta property="og:site_name" content="AI 情报日报">
+<meta property="og:locale" content="zh_CN">
+<!-- SHARE-CARD:END -->
+<link rel="icon" href="/favicon.ico">
+<style>
+:root{
+  --bg:#0c0d10; --panel:#15171e; --panel2:#191c24;
+  --line:#262a33; --line2:#31353f;
+  --ink:#d8d5c9; --ink2:#a5a294; --dim:#77746a;
+  --amber:#e8a33d; --amber2:#f5c069; --green:#8cc07a; --red:#d0684f;
+  --steel:#8fb3d9; --lav:#b8a8d4;
+  --mono:ui-monospace,"SF Mono","JetBrains Mono","Cascadia Code",Menlo,Consolas,monospace;
+  --sans:-apple-system,"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:
+    repeating-linear-gradient(0deg,transparent 0 2px,rgba(255,255,255,.008) 2px 4px),
+    radial-gradient(ellipse 120% 80% at 50% -10%,#13161e 0%,var(--bg) 58%);
+  color:var(--ink);font-family:var(--sans);min-height:100vh;font-size:15px;line-height:1.7;
+}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+a{color:var(--amber2);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+
+/* ==== top bar ==== */
+.topbar{position:sticky;top:0;z-index:20;background:rgba(12,13,16,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.topbar .in{max-width:760px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;gap:12px}
+.tb-brand{font-family:var(--mono);font-size:12px;letter-spacing:.16em;color:var(--dim);white-space:nowrap}
+.tb-brand b{color:var(--amber);font-weight:600}
+.tb-nav{margin-left:auto;display:flex;gap:14px;font-family:var(--mono);font-size:12px}
+.tb-nav a{color:var(--ink2)}
+.tb-nav a:hover{color:var(--amber)}
+.tb-nav a:disabled{color:#3d4048;pointer-events:none}
+
+/* ==== masthead ==== */
+.masthead{padding:44px 0 20px;position:relative}
+.crumb{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--dim);text-transform:uppercase;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.crumb .no{color:var(--amber)}
+.title{font-size:28px;font-weight:800;letter-spacing:.03em;margin:12px 0 4px;line-height:1.35}
+.stamp{position:absolute;right:0;top:48px;font-family:var(--mono);font-size:11px;letter-spacing:.3em;color:var(--green);border:1.5px solid var(--green);border-radius:4px;padding:4px 10px;transform:rotate(6deg);opacity:.75;user-select:none}
+.cov{margin-top:14px;padding:10px 16px;border-left:3px solid var(--amber);background:linear-gradient(90deg,rgba(232,163,61,.06),transparent 70%);color:var(--ink2);font-size:13.5px;border-radius:0 6px 6px 0}
+.cov .note{display:block;margin-top:6px;color:var(--dim);font-size:12.5px}
+.mchips{margin-top:14px;display:flex;gap:7px;flex-wrap:wrap}
+.mchip{font-family:var(--mono);font-size:11px;color:var(--ink2);border:1px solid var(--line2);background:var(--panel);padding:3px 9px;border-radius:4px;letter-spacing:.04em}
+.mchip b{color:var(--amber);font-weight:600}
+.mchip.ok b{color:var(--green)}
+
+/* ==== section nav ==== */
+.navchips{margin:22px 0 4px;display:flex;gap:7px;flex-wrap:wrap}
+.nchip{font-family:var(--mono);font-size:11.5px;color:var(--ink2);border:1px solid var(--line2);padding:4px 11px;border-radius:20px;text-decoration:none;transition:.2s}
+.nchip:hover{border-color:var(--amber);color:var(--amber);text-decoration:none}
+
+/* ==== sections & items ==== */
+section{margin-top:34px}
+.sec-h{display:flex;align-items:baseline;gap:12px;padding-bottom:8px;border-bottom:1px solid var(--line2);margin-bottom:4px}
+.sec-h .no{font-family:var(--mono);font-size:12px;color:var(--amber);letter-spacing:.1em}
+.sec-h h2{font-size:19px;font-weight:700;letter-spacing:.04em}
+.sec-h .n{font-family:var(--mono);font-size:11px;color:var(--dim);margin-left:auto}
+.item{padding:18px 2px 16px;border-bottom:1px dashed var(--line);animation:up .45s cubic-bezier(.2,.7,.3,1) both;animation-delay:calc(var(--i,0)*.04s)}
+.item:last-child{border-bottom:none}
+.i-head{display:flex;gap:12px;align-items:baseline}
+.i-no{font-family:var(--mono);font-size:12px;color:var(--dim);flex:none;letter-spacing:.06em}
+.i-title{font-size:16.5px;font-weight:700;line-height:1.5}
+.i-title a{color:var(--ink)}
+.i-title a:hover{color:var(--amber2);text-decoration:none}
+.i-title .ext{font-size:12px;color:var(--dim);margin-left:5px;font-family:var(--mono)}
+.i-meta{font-family:var(--mono);font-size:11px;color:var(--dim);margin-top:5px;letter-spacing:.03em;display:flex;gap:10px;flex-wrap:wrap}
+.i-meta .src{color:var(--steel)}
+.i-summary{margin-top:8px;color:var(--ink2);font-size:14px;line-height:1.72}
+.i-summary a{border-bottom:1px dotted var(--steel);color:var(--steel)}
+.i-urls{margin-top:6px;display:flex;gap:12px;flex-wrap:wrap}
+.i-urls a{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:.02em}
+.i-urls a:hover{color:var(--amber)}
+.angles{margin-top:10px;display:flex;flex-direction:column;gap:6px}
+.angle{display:flex;gap:10px;padding:8px 12px;border-radius:0 6px 6px 0;border-left:2px solid var(--c,var(--line2));background:linear-gradient(90deg,color-mix(in srgb,var(--c) 7%,transparent),transparent 75%);font-size:13.5px;line-height:1.65}
+.angle .tag{flex:none;font-family:var(--mono);font-size:11px;padding-top:2px;color:var(--c);letter-spacing:.04em;white-space:nowrap}
+.angle .txt{color:var(--ink2)}
+.angle.invest{--c:var(--amber)}
+.angle.startup{--c:var(--steel)}
+.angle.tech{--c:var(--green)}
+.angle.opinion{--c:var(--lav)}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.item{animation:none}}
+@supports not (color: color-mix(in srgb,red,blue)){.angle{background:var(--panel)}}
+
+/* ==== v3 chips（类型/置信度/时间/实体） ==== */
+.i-v3{margin-top:9px;display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-family:var(--mono);font-size:10.5px;letter-spacing:.03em;padding:2.5px 8px;border-radius:3px;border:1px solid var(--line2);color:var(--ink2);display:inline-flex;align-items:center;gap:4px;line-height:1.5;white-space:nowrap}
+.chip i{font-style:normal;color:var(--dim)}
+.chip.t3{color:var(--amber2);border-color:rgba(232,163,61,.32);background:rgba(232,163,61,.06)}
+.chip.c3.hi{color:var(--green);border-color:rgba(140,192,122,.38)}
+.chip.c3.md{color:var(--amber2);border-color:rgba(232,163,61,.38)}
+.chip.c3.lo{color:var(--red);border-color:rgba(208,104,79,.42)}
+.chip.s3{color:var(--steel)}
+.chip.e3{color:var(--lav)}
+.i-extra{margin-top:7px;font-family:var(--mono);font-size:11px;color:var(--dim)}
+.i-extra.ok{color:var(--green)}
+
+
+/* ==== overview (速览) ==== */
+.ovlist{margin-top:12px}
+.ov-item{position:relative;padding:7px 2px 7px 16px;color:var(--ink2);font-size:14px;line-height:1.66;border-bottom:1px dashed var(--line)}
+.ov-item:last-child{border-bottom:none}
+.ov-item::before{content:"·";position:absolute;left:2px;top:6px;color:var(--amber);font-weight:700;font-size:15px}
+
+/* ==== signals ==== */
+.signals{margin-top:14px}
+.sig{display:flex;gap:14px;padding:13px 2px;border-bottom:1px dashed var(--line)}
+.sig:last-child{border-bottom:none}
+.sig .sno{font-family:var(--mono);font-size:18px;color:var(--amber);flex:none;width:34px;font-weight:700;opacity:.9}
+.sig .body b{color:var(--ink);font-weight:700;display:block;margin-bottom:2px}
+.sig .body{color:var(--ink2);font-size:14px}
+
+.rawline{margin-top:14px;font-family:var(--mono);font-size:11px;color:#5a584f;letter-spacing:.04em}
+
+/* ==== pager ==== */
+.pager{margin:36px 0 10px;display:flex;gap:10px;justify-content:space-between;align-items:center}
+.pager a{display:block;padding:10px 16px;border:1px solid var(--line2);border-radius:6px;font-family:var(--mono);font-size:12px;color:var(--ink2);transition:.2s}
+.pager a:hover{border-color:var(--amber);color:var(--amber);text-decoration:none}
+.pager a:disabled{color:#3d4048;border-color:var(--line);pointer-events:none}
+.pager .mid{font-family:var(--mono);font-size:11px;color:var(--dim)}
+
+.msg{padding:70px 0;text-align:center;color:var(--dim)}
+.msg h2{font-size:18px;color:var(--ink2);margin-bottom:10px}
+.foot{padding:20px 0 44px;border-top:1px solid var(--line);margin-top:40px;color:var(--dim);font-size:12px;font-family:var(--mono);display:flex;gap:14px;flex-wrap:wrap;justify-content:space-between}
+.foot a{color:var(--dim)}
+</style>
+</head>
+<body>
+<script>window.__PAGE_DATA__={"rep":{"id":"2026-10-08-1500","date":"2026-10-08","time":"15:00","title":"AI 情报 · 10-08 15:00 场","generatedAt":"2026-10-08T07:12:57.594Z","coverage":"2026-10-08 09:00 → 15:05（Asia/Shanghai）","notes":["2026-10-08 0900 场已覆盖 GPT-6 免费开放/IUI、Haiku 5.5、Mistral Le Chonk 等同题稿，本期不再收录"],"itemCount":13,"rawStats":{"candidates":812,"selected":13},"overview":["OpenAI 在 ICANN 新 gTLD 轮一口气申请 15 个顶级域名，.agent/.mcp/.evals/.skill/.model 全在其中。","AI-for-math 两天内向两个方向同时发酵：社区在 Lean 里「改进」OpenAI 成果与批评论文同框，AHM 声明获陶哲轩转发。","三星 Q3 营业利润预告增近九倍至约 800 亿美元，AI 存储芯片是唯一引擎。","Anthropic 培训/认证生态放量，1 亿美元投入 Claude 培训体系，「AI 文凭」成为一门明账。","国内应用侧升温：AI 眼镜天使轮数亿、语音教育三连融、具身数据众包生意被起底。"],"sections":[{"key":"product","icon":"📦","title":"产品发布 / 融资","items":[{"title":"Anthropic 培训/认证生态放量：1 亿美元的「AI 文凭」成为一门明账","meta":"36氪·2026-10-08 ，延迟跟进","urls":["https://36kr.com/p/4016354742669443"],"summary":"36氪复盘 Anthropic 教育生态：1 亿美元投入 Claude 培训体系（含 frontier deployed engineer residency）之外，官方学习平台 Claude Academy 已有 27 门课、约 800 万访客，认证累计发出超 17.5 万张。「AI 的尽头是卖课」成了正面生意。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"认证体系是生态锁定器——17.5 万张认证对应 4.6 万家企业的隐性绑定，巨头把「人力资本」变成了渠道资产。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"巨头下场背书了「AI 培训/认证」需求真伪：多模型认证辅导、企业 AI 素养内训、垂直行业课程本地化是可承接的乙方缝隙。"}],"source_tier":"B","type_tags":["其他"],"confidence":"中","confidence_note":"B单源·事件本体为 CRN 10-02 报道，36氪今日延迟跟进","publish_time":"2026-10-08 13:07","event_time":"2026-10-02","event_time_inferred":false,"verify_note":"外部检索（CRN 同报：Claude Academy 上线约一月、27 门课/426 节、约 800 万访客、认证累计发出超 17.5 万张覆盖 4.6 万家企业；另见 Teach For All 63 国教师培训计划）","entities":[{"name":"Anthropic","type":"企业"},{"name":"Claude","type":"产品"},{"name":"Claude Academy","type":"产品"}]},{"title":"AI 眼镜初创天使轮融数亿元，线下渠道月发售数千台","meta":"36氪硬氪首发·2026-10-08","urls":["https://36kr.com/p/4016645063217281"],"summary":"36氪硬氪首发：一家 AI 眼镜企业完成数亿元天使轮，估值 15 亿元；已与线下数百家门店合作，当前月发售数千台。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"天使轮即数亿+线下渠道先行，说明 AI 眼镜抢的是「渠道分发」窗口而非纯技术窗口——有存量渠道的团队在硬件品类里仍有入场券。"}],"source_tier":"B","type_tags":["融资交易"],"confidence":"中","confidence_note":"B单源·36氪首发","publish_time":"2026-10-08 11:03"},{"title":"三家「语音优先」教育 AI 公司接连融资，让 AI「开口教学」","meta":"36氪·2026-10-08","urls":["https://36kr.com/p/4016516874326153"],"summary":"36氪统计：三家「语音优先」的教育 AI 公司近期接连完成融资，共同押注 AI 用语音方式教学。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"教育垂类融资窗口重开，「语音」被资方当作差异化入口而非功能点缀——口语陪练/讲解类产品的 1v1 边际成本叙事成立，可按学段细分再切一层。"}],"source_tier":"B","type_tags":["融资交易"],"confidence":"中","confidence_note":"B单源·36氪评论稿","publish_time":"2026-10-08 13:24"},{"title":"Meta 撑腰的 Biohub 扩容 AI 制药数据基建至 18 亿美元","meta":"36氪·2026-10-08","urls":["https://36kr.com/p/4016700178043017"],"summary":"Meta 支持的 Biohub 牵头打造 AI 制药数据基建，规模增至 18 亿美元；36氪点评称尚未看到 Meta 直接切入药物临床管线。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"巨头优先买「数据地基」而非临床管线——上游数据供应、清洗与合规是 AI 制药先跑起来的变现点位。"}],"source_tier":"B","type_tags":["商业合作"],"confidence":"中","confidence_note":"B单源","publish_time":"2026-10-08 12:30","entities":[{"name":"Meta","type":"企业"},{"name":"Biohub","type":"机构"}]}]},{"key":"tech","icon":"🔬","title":"技术 / 模型","items":[{"title":"社区已在 Lean 中「改进」OpenAI 数学成果","meta":"Reddit/GitHub·后续","urls":["https://github.com/CrocSwap/integer-mult-bounds"],"summary":"r/OpenAI 传述研究者已显著改进 OpenAI 10-06 公开数学成果。核实：CrocSwap/integer-mult-bounds 仓库自述「对 OpenAI 整数乘法结果 #109 的指数节省提出条件式改进」，仓库 10-07 创建、50★、10-08 仍在推送。- 📌 跟踪回访 SIG-20261007-0900-1：独立验证窗口出现第一批可核查改进（另有批评论文，见下条），信号继续 open。","angles":[{"kind":"tech","icon":"⚡","label":"技术/可行性","text":"「前沿模型出题、外部社区验证并改进」的工作流 48 小时内落地了一批——AI-for-math 的产出不再是孤证。"}],"source_tier":"D","type_tags":["技术进展"],"confidence":"高","confidence_note":"D源转述+GitHub 原始数据核实","publish_time":"2026-10-07","event_time":"2026-10-07 10:21","event_time_inferred":false,"entities":[{"name":"OpenAI","type":"企业"},{"name":"CrocSwap","type":"企业"}]},{"title":"arXiv 批评论文：Lean 验证的 AI 自动形式化不保证自然语言证明正确","meta":"arXiv·后续","urls":["https://arxiv.org/abs/2610.08144"],"summary":"Bastounis/Circelli/Hansen 三人论文直指 OpenAI 公开的 Navier-Stokes 爆破证明：NL→Lean 的翻译环节存在多种困难，可能使形式验证对原始自然语言论证「不构成置信」。- 📌 跟踪回访 SIG-20261007-0900-1：验证与质疑并行，复现结论前保持「存疑叙事」口径。","angles":[{"kind":"tech","icon":"⚡","label":"技术/可行性","text":"给「Lean 炫技式 AI 成果」打了折扣——形式验证只覆盖翻译后的形式论证，不覆盖翻译保真度；评审这类成果要看翻译环节。"}],"source_tier":"A","type_tags":["技术进展"],"confidence":"高","confidence_note":"A源·arXiv 原文，提交于 10-06","publish_time":"2026-10-06","event_time":"2026-10-06","event_time_inferred":false,"entities":[{"name":"OpenAI","type":"企业"},{"name":"Lean","type":"产品"},{"name":"arXiv","type":"机构"}]},{"title":"南洋理工安波团队发布 Agent Harness 选型研究：4 种 Harness × 5 模型 × 3 任务 66 项矩阵","meta":"机器之心Pro 搜狐同步·2026-10-08","urls":["https://m.sohu.com/a/1084790655_129720"],"summary":"研究用 4 种可配置 Harness×5 模型×3 任务=60 项，叠加 Codex–GPT 与 Claude Code–Claude 原生搭配 6 项，形成 66 项比较矩阵——Harness 效果与模型、任务强耦合，「通用最佳 Harness」不存在。- 📌 跟踪回访 SIG-20261006-1500-4（Mod 标准战争）：学术侧开始为 Harness 争议提供第三方对照基准，第三方选型测评生态位出现，check 不变。","angles":[{"kind":"tech","icon":"⚡","label":"技术/可行性","text":"给 Harness/Mod 选型战立了学术坐标系——做 agent 中间件别只卷单一点，先把自己的评测方法变成可比对象。"}],"source_tier":"B","type_tags":["技术进展"],"confidence":"中","confidence_note":"B单源·搜狐镜像","publish_time":"2026-10-08 09:47","entities":[{"name":"南洋理工大学","type":"机构"},{"name":"安波","type":"人物"},{"name":"Codex","type":"产品"},{"name":"Claude Code","type":"产品"}]}]},{"key":"industry","icon":"🌐","title":"行业·玩法","items":[{"title":"三星 Q3 营业利润预计增近九倍至约 800 亿美元","meta":"36氪·2026-10-08","urls":["https://36kr.com/p/4016855155707778"],"summary":"AI 存储需求外溢成单一引擎：常规 DRAM/NAND 与 HBM 价格齐涨，三星一个季度的营业利润已到 800 亿美元量级。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"上游算力通胀没有缓解迹象——成本迟早传导到端侧 AI 硬件 BOM 与云 API 计价，做端侧产品趁内存再涨前锁成本。"}],"source_tier":"B","type_tags":["数据行情"],"confidence":"高","confidence_note":"双源佐证 kr36+Reuters","publish_time":"2026-10-08 14:55","event_time":"2026-10-08","event_time_inferred":false,"verify_note":"外部检索（Reuters/Nikkei/CNBC 同报：营业利润 107.4 万亿韩元≈$80.2B，同比+约 783%，四连纪录；DRAM/NAND/HBM 供不应求，缺口预期持续至 2027）","entities":[{"name":"三星","type":"企业"},{"name":"HBM","type":"产品"}]},{"title":"ICANN Reveal Day：OpenAI 一口气申请 15 个顶级域名","meta":"Reddit/ICANN·2026-10-08 凌晨公布","urls":["https://www.reddit.com/r/OpenAI/comments/1x0e9bs/openai_applied_for_15_new_toplevel_domains"],"summary":"14 年来首个新 gTLD 轮公布申请，共 1,616 份付费申请进入评估；OpenAI 把 agent 全链路词汇（.agent/.mcp/.skill/.evals/.model）和自家品牌串一次圈进注册簿。","angles":[{"kind":"startup","icon":"🛠️","label":"产品/创业","text":".voice/.daybreak/.agent 是产品路线图泄露——agent 命名层被单一厂商圈占后，第三方 agent 产品的「地址」话语权收窄；本轮 10-21 前可换替补串、11-27 前可撤回，相关方商标异议窗口就在当下。"}],"source_tier":"D","type_tags":["其他"],"confidence":"高","confidence_note":"D源转述+ICANN 官方数据核实","publish_time":"2026-10-08 02:00","event_time":null,"event_time_inferred":false,"verify_note":"外部检索（ICANN 申请库可查 .evals 申请人 OPENAI OPCO, LLC；Domain Name Wire 10-07 同列 15 串：.openai/.chatgpt/.gpt/.agi/.asi/.agent/.mcp/.codex/.model/.skill/.evals/.voice/.deploy/.oai/.daybreak）","entities":[{"name":"OpenAI","type":"企业"},{"name":"ICANN","type":"机构"}]},{"title":"AHM 声明呼吁数学家停与 OpenAI 合作，陶哲轩博客转发","meta":"Reddit→Terry Tao 博客·后续","urls":["https://terrytao.wordpress.com/2026/10/07/ahm-statement-on-openais-october-6-release-of-mathematical-documents/"],"summary":"AHM（人本数学协会，Reddit 转述口径）就 OpenAI 10-06 公开数学文档发布声明，呼吁同行停止与其合作，陶哲轩在个人博客全文转发——反 OpenAI 数学叙事从个人转向建制。- 📌 跟踪回访 SIG-20261006-2100-3：AI-for-math 叙事分裂实质升级（Tao 个人表态→学界建制化抵制），check 不变，继续盯 SAIR 与监管跟进。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"科研叙事开始计入「学术共同体信任成本」，烧算力换猜想的宣发会遭遇联合冷处理；科研 agent 产品的 GTM 别再绑「攻克猜想」话术。"}],"source_tier":"D","type_tags":["其他"],"confidence":"高","confidence_note":"博客原文核实","publish_time":"2026-10-07","entities":[{"name":"陶哲轩","type":"人物"},{"name":"OpenAI","type":"企业"},{"name":"AHM","type":"机构"}]},{"title":"「95% 的人不愿为 AI 付费，1% 超级玩家养活 AI 圈」","meta":"36氪·2026-10-08","urls":["https://36kr.com/p/4016354339393673"],"summary":"36氪梳理消费级 AI 付费结构：约 95% 用户不付费，收入被 1% 超级玩家托起。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"C 端订阅天花板比想象低——变现模型别按「人人付费」算，要么吃头部 1% 的高频深度档，要么转 B 端/垂直定价。"}],"source_tier":"B","type_tags":["数据行情"],"confidence":"中","confidence_note":"B单源·观点稿","publish_time":"2026-10-08 13:07"},{"title":"具身智能界的「美团」能跑通吗？智元系数据众包生意被起底","meta":"36氪·2026-10-08","urls":["https://36kr.com/p/4016534563884935"],"summary":"36氪起底智元系数据生意：时薪 20 元的采集众包撑起机器人训练数据供给，「具身版美团」模式浮出水面。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"数据采集众包的调度/质检是具身链条里最先能跑出现金流的乙方位置——但时薪 20 元的定价说明毛利薄，规模化靠调度与质检效率而非人头。"}],"source_tier":"B","type_tags":["其他"],"confidence":"中","confidence_note":"B单源·36氪深度稿","publish_time":"2026-10-08 10:11","entities":[{"name":"智元","type":"企业"}]},{"title":"机器人第一次以「消费品」身份进入官方国庆消费数据","meta":"36氪·2026-10-08","urls":["https://36kr.com/p/4016485468458881"],"summary":"36氪指出，这个国庆假期机器人第一次以更接近「消费品」的方式出现在官方消费数据里。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"统计口径收录=品类被官方点名，C 端机器人需求拿到了第一份官方证词——先盯复购/退货率，再决定下注姿势。"}],"source_tier":"B","type_tags":["数据行情"],"confidence":"中","confidence_note":"B单源·36氪评论稿","publish_time":"2026-10-08 13:22"}]}],"signals":[{"lead":"","text":"SIG-20261008-1500-1（open，check 10-15）Anthropic「AI 文凭」放量——Claude Academy 课程/认证规模数字更迭、认证企业承接案例与国内对标平台出现与否。"},{"lead":"","text":"SIG-20261008-1500-2（open，check 10-21）OpenAI 15 个 gTLD 批次走向——ICANN 申请库状态（10-21 替补串截止、11-27 撤回截止）、异议登记与同行 gTLD 跟进。"},{"lead":"","text":"SIG-20261008-1500-3（open，check 10-18）具身/数据供给侧成形——智元系等机器人厂商数据众包业务的平台化、标准化与合规动作，AI 数据行业（出题/判卷）监管口径。"},{"lead":"","text":"（旧信号继续跟踪）SIG-20261007-0900-1 复现窗口已出第一批改进+质疑论文；SIG-20261006-2100-3 分裂升级至 AHM 建制化抵制——见 signals.md。"}],"sourceStatus":["- venturebeat：DOWN（parse 0 条）连续第 5 期——建议下期起停用，其生态位由 TechCrunch/Ars 覆盖。","- gh-trending：DOWN（curl 25s 超时，首败，下期观察）。","- openai：RSS 403 连续第 2 期，渲染兜底后本窗仍 0 条——再空一期建议换镜像。","- hn：主 RSS 502，Algolia 兜底生效（本窗 0 条）。"]},"ctx":{"no":"27","older":{"id":"2026-10-08-0900","date":"2026-10-08","time":"09:00"},"newer":null}}</script>
+
+<div class="topbar"><div class="in">
+  <a class="tb-brand" href="./" style="text-decoration:none">AI<b>情报</b>DB</a>
+  <nav class="tb-nav">
+    <a href="./">← 归档</a>
+    <a href="javascript:void 0" id="tbPrev">‹ 上一期</a>
+    <a href="javascript:void 0" id="tbNext">下一期 ›</a>
+  </nav>
+</div></div>
+
+<div class="wrap" id="wrap">
+  <div class="msg"><span id="loadmsg">正在加载期报…</span></div>
+</div>
+
+<footer class="wrap foot">
+  <span>ai-intel-daily · agent-collected briefing</span>
+  <a href="https://github.com/janseling" target="_blank" rel="noopener">github/janseling</a>
+</footer>
+
+<script>
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const mdLinks = s => esc(s).replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_m,t,u)=>`<a href="${u}" target="_blank" rel="noopener">${t}</a>`);
+const SEC_META = {
+  product:{icon:'📦', zh:'产品发布 / 融资'}, tech:{icon:'🔬', zh:'技术突破 / 模型进展'},
+  policy:{icon:'🏛️', zh:'政策监管'}, industry:{icon:'🌐', zh:'行业动向 / 应用玩法'},
+};
+const params = new URLSearchParams(location.search);
+const wantId = params.get('id') || (location.hash ? location.hash.slice(1) : '');
+// 站内链接：静态期报页（reports/<id>.html）直跳同目录文件；SPA 模式走 ?id=
+const repUrl = id => (window.__PAGE_DATA__ ? id + '.html' : 'report.html?id=' + id);
+
+async function init(){
+  const P = window.__PAGE_DATA__;   // publish_web.js 生成的静态期报页内联数据，免 fetch 直渲
+  if(P && P.rep){
+    render(P.rep, null, 0, P.ctx);
+    document.querySelectorAll('[href="./"]').forEach(a => a.setAttribute('href','../'));
+    return;
+  }
+  let manifest;
+  try{
+    const r = await fetch('reports/index.json?v=' + Date.now());
+    if(!r.ok) throw new Error('manifest ' + r.status);
+    manifest = await r.json();
+  }catch(e){
+    document.getElementById('loadmsg').innerHTML = '⚠️ 索引加载失败（' + esc(e.message) + '）<br><br><a href="./">返回归档</a>';
+    return;
+  }
+  const rs = manifest.reports || [];
+  if(!rs.length){ document.getElementById('loadmsg').textContent = '归档为空'; return; }
+  let idx = rs.findIndex(x => x.id === wantId);
+  if(idx < 0) idx = 0;
+  const meta = rs[idx];
+  let rep;
+  try{
+    const r = await fetch('reports/' + meta.id + '.json?v=' + Date.now());
+    if(!r.ok) throw new Error(r.status);
+    rep = await r.json();
+  }catch(e){
+    document.getElementById('loadmsg').innerHTML = '⚠️ 报告数据加载失败（' + esc(e.message) + '）<br><br><a href="./">返回归档</a>';
+    return;
+  }
+  render(rep, rs, idx);
+}
+
+function render(rep, rs, idx, ctx){
+  if(!window.__PAGE_DATA__) document.title = rep.title + ' · AI 情报';
+  const no = ctx ? ctx.no : String(rs.length - idx).padStart(2,'0');
+  const newer = ctx ? ctx.newer : rs[idx-1];
+  const older = ctx ? ctx.older : rs[idx+1];
+  const setPager = (id, el) => { const a = document.getElementById(el); if(id){ a.href = repUrl(id); } else { a.disabled = true; a.removeAttribute('href'); } };
+  setPager(newer && newer.id, 'tbNext'); setPager(older && older.id, 'tbPrev');
+
+  const notesHtml = (rep.notes||[]).map(n=>`<span class="note">※ ${esc(n)}</span>`).join('');
+  const chips = [];
+  chips.push(`<span class="mchip">本期 <b>${rep.itemCount}</b> 条</span>`);
+  if(rep.rawStats && rep.rawStats.candidates) chips.push(`<span class="mchip">候选 <b>${rep.rawStats.candidates.toLocaleString()}</b></span>`);
+  if((rep.signals||[]).length) chips.push(`<span class="mchip">跟踪信号 <b>${rep.signals.length}</b></span>`);
+
+  const secsHtml = (rep.sections||[]).map((sec, si)=>{
+    const sm = SEC_META[sec.key] || {icon:sec.icon||'📋', zh:sec.title||sec.key};
+    const items = sec.items.map((it, ii)=>{
+      const main = it.urls && it.urls[0];
+      const extraUrls = (it.urls||[]).slice(1).map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">另链 ↗</a>`).join('');
+      const angles = (it.angles||[]).map(a=>`<div class="angle ${a.kind}"><span class="tag">${a.icon} ${esc(a.label)}</span><span class="txt">${mdLinks(a.text)}</span></div>`).join('');
+      const C3 = { '高':'hi', '中':'md', '低':'lo' };
+      const v3chips = [];
+      (it.type_tags||[]).forEach(t=>v3chips.push(`<span class="chip t3">${esc(t)}</span>`));
+      if (it.confidence) v3chips.push(`<span class="chip c3 ${C3[it.confidence]||''}">● ${esc(it.confidence)}${it.confidence_note?` <i>${esc(it.confidence_note)}</i>`:''}</span>`);
+      if (it.source_tier) v3chips.push(`<span class="chip s3">${esc(it.source_tier)}级源</span>`);
+      if (it.publish_time) v3chips.push(`<span class="chip x3">披露 ${esc(it.publish_time)}</span>`);
+      if (it.event_time) v3chips.push(`<span class="chip x3">${it.event_time_inferred?'~':''}事件 ${esc(it.event_time)}${it.event_time_inferred?' <i>推断</i>':''}</span>`);
+      (it.entities||[]).forEach(e=>v3chips.push(`<span class="chip e3">${esc(e.name)}${e.type?` <i>${esc(e.type)}</i>`:''}</span>`));
+      const v3html = v3chips.length?`<div class="i-v3">${v3chips.join('')}</div>`:'';
+      const origHtml = it.original_title?`<div class="i-extra">原题：${esc(it.original_title)}</div>`:'';
+      const verHtml = it.verify_note?`<div class="i-extra ok">✓ 外部佐证：${esc(it.verify_note)}</div>`:'';
+
+      return `<article class="item" style="--i:${ii}">
+        <div class="i-head"><span class="i-no">${String(ii+1).padStart(2,'0')}</span>
+          <h3 class="i-title">${main?`<a href="${esc(main)}" target="_blank" rel="noopener">${esc(it.title)}</a><span class="ext">↗</span>`:esc(it.title)}</h3></div>
+        ${it.meta?`<div class="i-meta"><span class="src">${esc(it.meta)}</span></div>`:''}
+        ${v3html}${origHtml}${verHtml}
+        ${it.summary?`<p class="i-summary">${mdLinks(it.summary)}</p>`:''}
+        ${(it.urls||[]).length>1?`<div class="i-urls"><span class="tag"></span>${extraUrls}</div>`:''}
+        ${angles?`<div class="angles">${angles}</div>`:''}
+      </article>`;
+    }).join('');
+    return `<section id="sec-${esc(sec.key)}">
+      <div class="sec-h"><span class="no">0${si+1}</span><h2>${sm.icon} ${esc(sm.zh)}</h2><span class="n">${sec.items.length} 条</span></div>
+      ${items}
+    </section>`;
+  }).join('');
+
+  const navChips = (rep.sections||[]).map(s=>{
+      const sm = SEC_META[s.key]||{icon:s.icon||'📋',zh:s.title};
+      return `<a class="nchip" href="#sec-${esc(s.key)}">${sm.icon} ${esc((sm.zh||'').split(' / ')[0])} ${s.items.length}</a>`;
+    }).join('');
+
+  const sigHtml = (rep.signals||[]).map((s,i)=>`<div class="sig"><span class="sno">${String(i+1).padStart(2,'0')}</span><div class="body"><b>${esc(s.lead)}</b>${mdLinks(s.text)}</div></div>`).join('');
+  const ovHtml = (rep.overview||[]).map(o=>`<div class="ov-item">${mdLinks(o)}</div>`).join('');
+
+  document.getElementById('wrap').innerHTML = `
+  <header class="masthead">
+    <div class="crumb"><span>AI INTEL DAILY</span><span>·</span><span class="no">NO.${no}</span><span>·</span><span>${esc(rep.date)} ${esc(rep.time)} CST</span></div>
+    <h1 class="title">${esc(rep.title.replace(/^AI 情报 · /,'').replace(' 场',' 场'))}</h1>
+    <span class="stamp">已归档 ✓</span>
+    <blockquote class="cov">${esc(rep.coverage)}${notesHtml}</blockquote>
+    <div class="mchips">${chips.join('')}</div>
+    <div class="navchips">${navChips}</div>
+  </header>
+  ${(rep.overview||[]).length?`<section id="sec-overview"><div class="sec-h"><span class="no">🔭</span><h2>速览</h2><span class="n">${rep.overview.length} 条</span></div><div class="ovlist">${ovHtml}</div></section>`:''}
+  ${(rep.signals||[]).length?`<section id="sec-signals"><div class="sec-h"><span class="no">🧭</span><h2>值得跟踪的信号</h2><span class="n">${rep.signals.length} 条</span></div><div class="signals">${sigHtml}</div></section>`:''}
+  ${secsHtml || '<div class="msg">本期无条目</div>'}
+  ${rep.rawStats && rep.rawStats.candidates?`<div class="rawline">▸ raw archive: reports/raw/${esc(rep.id)}.json（候选 ${rep.rawStats.candidates.toLocaleString()}${rep.rawStats.selected?'／入选 '+rep.rawStats.selected:''}）</div>`:''}
+  <nav class="pager">
+    ${older?`<a href="${repUrl(esc(older.id))}">‹ ${esc(older.date.slice(5))} ${esc(older.time)}</a>`:'<a disabled>‹ 已是早期</a>'}
+    <a href="./" style="border:none">☰ 归档</a>
+    ${newer?`<a href="${repUrl(esc(newer.id))}">${esc(newer.date.slice(5))} ${esc(newer.time)} ›</a>`:'<a disabled>已是最新 ›</a>'}
+  </nav>`;
+}
+init();
+</script>
+</body>
+</html>
