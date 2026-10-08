@@ -3,7 +3,7 @@
   "date": "2026-10-02",
   "time": "21:00",
   "title": "AI 情报 · 10-02 21:00 场",
-  "generatedAt": "2026-10-07T15:32:10.765Z",
+  "generatedAt": "2026-10-08T06:34:40.502Z",
   "coverage": "10-02 15:00 → 21:00（Asia/Shanghai）　※ 补刊（生成于 2026-10-08 前，非当时原发）",
   "notes": [
     "国庆假期夜场，国内源增量少，Reddit 社区噪音占比高，从严精选"
@@ -47,7 +47,24 @@
               "text": "小团队私有化交付的硬件基线变清晰：两台 Spark 拼池即可跑多数开源旗舰的量化版，交付方案书可以直接抄这套配置。"
             }
           ],
-          "source_tier": "A"
+          "source_tier": "A",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·NVIDIA 官方博客",
+          "publish_time": "2026-10-02 21:00",
+          "verify_note": "外部检索（PCMag 10-02、NeoTeo 10-03 等同报 $4,999／10-23 开售／六家 OEM；PCMag 指 64GB 版定价反比 128GB 版发布价贵 $1,000——内存紧缺背景）",
+          "entities": [
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "DGX Spark",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -77,7 +94,29 @@
               "text": "顶尖研究者的采用示范比任何 benchmark 都有说服力——面向数学/理论物理研究团队的 AI 辅助证明工作流是高毛利窄众市场。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源同报：量子位+腾讯新闻",
+          "publish_time": "2026-10-02 15:27",
+          "event_time": "2026-09-29",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "丘成桐",
+              "type": "人物"
+            },
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "openJiuwen 开源 X-Router 自演进模型路由：实测降 50%+ Token 消耗",
@@ -100,7 +139,24 @@
               "text": "路由/网关层卷入开源后，「纯转卖 API 差价」的生意进一步失去空间，差异点向上游的调度策略与下游的成本核算工具转移。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展",
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·实测口径未见独立复现",
+          "publish_time": "2026-10-02 15:34",
+          "entities": [
+            {
+              "name": "openJiuwen",
+              "type": "机构"
+            },
+            {
+              "name": "X-Router",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Google Project Suncatcher 原型卫星入轨：太空 TPU 试验起步",
@@ -117,7 +173,27 @@
               "text": "算力的「地基约束」（电力/占地/散热）开始有人往轨道上解——太空算力仍是 3-5 年级叙事，但 Google 把试验件打上去了，供应链与发射成本的下行斜率值得跟踪。"
             }
           ],
-          "source_tier": null
+          "source_tier": null,
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·Google Research 官方博客",
+          "publish_time": "2026-10-02 07:30",
+          "entities": [
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "Project Suncatcher",
+              "type": "产品"
+            },
+            {
+              "name": "TPU",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -147,7 +223,27 @@
               "text": "创始人依赖型治理（情绪支持/形象/引荐三合一）在公司化过程中必然要被制度化替代，这是所有 AI 初创从 0 到 1 转向 1 到 10 的通用考题。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "中",
+          "confidence_note": "B源转述 The Information·单源",
+          "publish_time": "2026-10-02 18:02",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Cami",
+              "type": "人物"
+            },
+            {
+              "name": "Dario Amodei",
+              "type": "人物"
+            }
+          ]
         },
         {
           "title": "NYT 披露 Anthropic 秘密游说梵蒂冈，「Claude 有意识」走向公开辩论",
@@ -170,7 +266,27 @@
               "text": "模型「内在状态证据链」这类研究议题正在外溢为公共叙事资产——评测机构做「可解释性审计报告」有了新的需求方（监管、保险、公关）。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（模型意识公共辩论）"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源：NYT 09-29 原刊+Telegraph 10-02 跟进",
+          "publish_time": "2026-10-02 18:02",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            },
+            {
+              "name": "Chris Olah",
+              "type": "人物"
+            }
+          ]
         },
         {
           "title": "社区两连横评：GPT-6 Astra 与 Opus 5.5 谁上生产管线——48 小时实测 + Photo-to-Blender 基准",
@@ -188,7 +304,27 @@
               "text": "Astra 上线两周后，社区实测从「跑分」转向「管线可用性」——采购决策链跟着变，「小样试产对比」服务对采购方是刚需切片。"
             }
           ],
-          "source_tier": "A"
+          "source_tier": "A",
+          "type_tags": [
+            "其他（社区实测横评）"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源·自报口径小样本",
+          "publish_time": "2026-10-02 18:36",
+          "entities": [
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "GPT-6.1 Sol",
+              "type": "产品"
+            },
+            {
+              "name": "Claude Opus 5.5",
+              "type": "产品"
+            }
+          ]
         }
       ]
     }
