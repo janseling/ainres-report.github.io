@@ -171,6 +171,14 @@ const SEC_META = {
   product:{icon:'📦', zh:'产品发布 / 融资'}, tech:{icon:'🔬', zh:'技术突破 / 模型进展'},
   policy:{icon:'🏛️', zh:'政策监管'}, industry:{icon:'🌐', zh:'行业动向 / 应用玩法'},
 };
+// 信源分级直白化展示（数据仍存 A/B/C/D 字母码，sources.json tier）；悬停 title 给完整口径
+const TIER_ZH = { A:'官方源', B:'主流媒体源', C:'聚合源', D:'社区源' };
+const TIER_TIP = {
+  A:'官方一手信息（公司博客 / 官方公告 / arXiv 论文）',
+  B:'主流科技与 AI 垂直媒体（TechCrunch / 量子位 等）',
+  C:'聚合榜单（Hacker News / GitHub Trending / Product Hunt）',
+  D:'社区讨论（Reddit 等，未经证实比例较高）',
+};
 const params = new URLSearchParams(location.search);
 const wantId = params.get('id') || (location.hash ? location.hash.slice(1) : '');
 // 站内链接：静态期报页（reports/<id>.html）直跳同目录文件；SPA 模式走 ?id=
@@ -233,7 +241,8 @@ function render(rep, rs, idx, ctx){
       const v3chips = [];
       (it.type_tags||[]).forEach(t=>v3chips.push(`<span class="chip t3">${esc(t)}</span>`));
       if (it.confidence) v3chips.push(`<span class="chip c3 ${C3[it.confidence]||''}">● ${esc(it.confidence)}${it.confidence_note?` <i>${esc(it.confidence_note)}</i>`:''}</span>`);
-      if (it.source_tier) v3chips.push(`<span class="chip s3">${esc(it.source_tier)}级源</span>`);
+      if (it.source_tier){ const tz = TIER_ZH[it.source_tier] || (it.source_tier + '级源');
+        v3chips.push(`<span class="chip s3"${TIER_TIP[it.source_tier]?` title="${esc(TIER_TIP[it.source_tier])}"`:''}>${esc(tz)}</span>`); }
       if (it.publish_time) v3chips.push(`<span class="chip x3">披露 ${esc(it.publish_time)}</span>`);
       if (it.event_time) v3chips.push(`<span class="chip x3">${it.event_time_inferred?'~':''}事件 ${esc(it.event_time)}${it.event_time_inferred?' <i>推断</i>':''}</span>`);
       (it.entities||[]).forEach(e=>v3chips.push(`<span class="chip e3">${esc(e.name)}${e.type?` <i>${esc(e.type)}</i>`:''}</span>`));
