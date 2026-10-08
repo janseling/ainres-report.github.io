@@ -3,7 +3,7 @@
   "date": "2026-10-06",
   "time": "21:00",
   "title": "AI 情报 · 10-06 21:00 场",
-  "generatedAt": "2026-10-08T06:05:59.358Z",
+  "generatedAt": "2026-10-08T07:21:38.686Z",
   "coverage": "2026-10-05 21:00 → 10-06 21:15（Asia/Shanghai，24h 口径；本日 09:00/15:00 两场已报条目全部去重，晚场实际增量集中在 15:00 之后）",
   "notes": [
     "假期收尾晚间，海外隔夜增量已由早场收割，本期以融资传闻与叙事风向为主"
@@ -28,11 +28,11 @@
       "items": [
         {
           "title": "曝 DeepSeek 敲定至少 800 亿元新融资，总额或近 1000 亿元，2027 年初 IPO",
-          "meta": "智东西·今日，援引彭博社",
+          "meta": "智东西·2026-10-06，援引彭博社",
           "urls": [
             "https://www.zhidx.com/p/598870.html"
           ],
-          "summary": "彭博社今日报道，DeepSeek 即将敲定至少 800 亿元新一轮融资，腾讯和宁德时代承诺出资额均居前；据已签署条款，最终募资总额可能接近 1000 亿元，为 2027 年初 IPO 铺路。原计划仅募约 500 亿元，因最新模型发布后市场反响超出预期、投资人需求激增而大幅上调。此前 9 月路透已报道 DeepSeek 聘请中信证券筹备上交所科创板 IPO；The Information 称其推算年化收入已达 10 亿美元（数月内翻倍）。同文提及月之暗面已完成最后一轮私募、正推进 2027Q1 港股 IPO（本日午场已报）。",
+          "summary": "彭博社 2026-10-06 报道，DeepSeek 即将敲定至少 800 亿元新一轮融资，腾讯和宁德时代承诺出资额均居前；据已签署条款，最终募资总额可能接近 1000 亿元，为 2027 年初 IPO 铺路。原计划仅募约 500 亿元，因最新模型发布后市场反响超出预期、投资人需求激增而大幅上调。此前 9 月路透已报道 DeepSeek 聘请中信证券筹备上交所科创板 IPO；The Information 称其推算年化收入已达 10 亿美元（数月内翻倍）。同文提及月之暗面已完成最后一轮私募、正推进 2027Q1 港股 IPO（本日午场已报）。",
           "angles": [
             {
               "kind": "invest",
@@ -79,7 +79,7 @@
       "items": [
         {
           "title": "Mistral 官宣 Large 4「Le Chonk」：1 万亿参数、49B 激活的开放权重旗舰",
-          "meta": "VentureBeat·今日；Mistral 官方 X 同日官宣",
+          "meta": "VentureBeat·2026-10-06；Mistral 官方 X 同日官宣",
           "urls": [
             "https://venturebeat.com/ai/mistral-debuts-large-4-le-chonk-a-1-trillion-parameter-text-output-model-with-high-benchmarks-planned-for-open-weights-release"
           ],
@@ -131,7 +131,7 @@
         },
         {
           "title": "xAI 联创 Szegedy 长文宣判：数学「英雄时代」落幕",
-          "meta": "36氪AI·6小时前；新智元转载",
+          "meta": "36氪AI·2026-10-06；新智元转载",
           "urls": [
             "https://36kr.com/p/4013928129122184"
           ],
@@ -191,7 +191,7 @@
       "items": [
         {
           "title": "陶哲轩公开转向「AI 减速派」：SAIR 演讲喊话模型公司「必须慢下来」",
-          "meta": "量子位·5小时前",
+          "meta": "量子位·2026-10-06",
           "urls": [
             "https://www.qbitai.com/2026/10/501736.html"
           ],
@@ -234,7 +234,7 @@
         },
         {
           "title": "agent 经济长出「度量衡」：Chargebee 发布 agent 成本追踪开放标准 AUDR；iphone-use 让 agent 驱动真实 iPhone",
-          "meta": "Product Hunt·今日",
+          "meta": "Product Hunt·2026-10-06",
           "urls": [
             "https://www.producthunt.com/products/chargebee",
             "https://www.producthunt.com/products/iphone-use"
@@ -278,12 +278,12 @@
         },
         {
           "title": "GitHub Trending 双星：agent 逆向工程工具 rea 单日 +2963★、e2e 测试框架 +1720★",
-          "meta": "GitHub Trending·今日",
+          "meta": "GitHub Trending·2026-10-06",
           "urls": [
             "https://github.com/morluto/rea",
             "https://github.com/tester-army/e2e"
           ],
-          "summary": "rea 打着「用 agent 逆向工程任何东西，从应用行为到原生二进制」登顶今日趋势榜；tester-army/e2e 主打下一代 Web/移动端 e2e 测试框架；同榜 AI/agent 工具还有 DeepGEMM、claude-mem（agent 会话持久记忆）等。",
+          "summary": "rea 打着「用 agent 逆向工程任何东西，从应用行为到原生二进制」登顶 2026-10-06 趋势榜；tester-army/e2e 主打下一代 Web/移动端 e2e 测试框架；同榜 AI/agent 工具还有 DeepGEMM、claude-mem（agent 会话持久记忆）等。",
           "angles": [
             {
               "kind": "invest",
@@ -322,7 +322,7 @@
         },
         {
           "title": "AMD CEO：未来数年芯片需求将「非常高」；希捷、东芝据悉竞购 TDK 硬盘磁头业务",
-          "meta": "36氪快讯·6小时前；磁头竞购·同日快讯",
+          "meta": "36氪快讯·2026-10-06；磁头竞购·同日快讯",
           "urls": [
             "https://36kr.com/p/4013970409164928",
             "https://36kr.com/p/4013929954447236"
@@ -364,7 +364,7 @@
         },
         {
           "title": "软银支持的 DayOne 数据中心拟赴美 IPO，募资至多 50 亿美元",
-          "meta": "36氪快讯·5.5小时前",
+          "meta": "36氪快讯·5.2026-10-06",
           "urls": [
             "https://36kr.com/p/4014060799955080"
           ],
@@ -374,7 +374,7 @@
               "kind": "invest",
               "icon": "💰",
               "label": "投资/商业",
-              "text": "AI 算力资产证券化从模型公司蔓延到「算力房东」：继月之暗面/可灵之后，数据中心商也拿到美股 IPO 窗口——与昨日报道的 71% 美国民众反对本地建数据中心对照，公众阻力没有挡住资本路径，核电直购+离岸部署+证券化退出构成资本闭环。"
+              "text": "AI 算力资产证券化从模型公司蔓延到「算力房东」：继月之暗面/可灵之后，数据中心商也拿到美股 IPO 窗口——与 2026-10-05 报道的 71% 美国民众反对本地建数据中心对照，公众阻力没有挡住资本路径，核电直购+离岸部署+证券化退出构成资本闭环。"
             }
           ],
           "source_tier": "B",
@@ -421,7 +421,7 @@
     "- Reddit（arctic-shift）：连通正常、可拉全窗口帖文，但 API 无热度筛选参数、新帖 score 恒为 1 无法判显著度——维持未采",
     "- 机器之心（搜狐镜像）：最新稿仍为 10-04 23:47，已 73h+ 空档（工作时段人工同步，继续观察是否恢复）",
     "- 甲子光年（搜狐镜像）：最新 10-02，周更节奏正常，无窗口内增量",
-    "- VentureBeat：渲染正常，但首页特性位混排 9-29/9-30 旧稿（GPT-6.1 Sol 等），时效必须逐条外验；本期仅收 1 条经官方 X 交叉核实的今日官宣（Mistral）",
+    "- VentureBeat：渲染正常，但首页特性位混排 9-29/9-30 旧稿（GPT-6.1 Sol 等），时效必须逐条外验；本期仅收 1 条经官方 X 交叉核实的 2026-10-06 官宣（Mistral）",
     "- 智东西：官网直连正常，列表 9 条中仅 DeepSeek 一条在窗口内（其余为 9-24~10-03 旧稿）",
     "- arXiv cs.AI：RSS 返回空 items（仅 channel 结构），与上期一致",
     "- 36氪 AI 频道+快讯：渲染正常；晚间有快讯撤稿（OpenAI 澳洲事件条目页已 404），未采",
