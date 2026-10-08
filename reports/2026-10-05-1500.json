@@ -3,11 +3,11 @@
   "date": "2026-10-05",
   "time": "15:00",
   "title": "AI 情报 · 10-05 15:00 场",
-  "generatedAt": "2026-10-08T06:35:36.321Z",
+  "generatedAt": "2026-10-08T07:21:38.684Z",
   "coverage": "2026-10-04 15:00 → 2026-10-05 15:00（Asia/Shanghai，24h 口径；System76 条目为 48h 边界）",
   "notes": [
     "信源状态见文末",
-    "今晨 09:00 场刚按 48h 口径补采过 10-03/04 两日空场，本场为纯增量筛选，条目数少属正常节奏。"
+    "2026-10-05 09:00 场刚按 48h 口径补采过 10-03/04 两日空场，本场为纯增量筛选，条目数少属正常节奏。"
   ],
   "itemCount": 5,
   "rawStats": {
@@ -29,7 +29,7 @@
       "items": [
         {
           "title": "Reflection 的美国造开放权重要来了：NVIDIA 硬件捆绑 + 数据主权，正面迎击 DeepSeek/Qwen",
-          "meta": "Reddit r/LocalLLaMA·1小时前｜AiWeekly·今天，转述 Axios 10-04 独家",
+          "meta": "Reddit r/LocalLLaMA·2026-10-05｜AiWeekly·2026-10-05，转述 Axios 10-04 独家",
           "urls": [
             "https://reddit.com/r/LocalLLaMA/comments/1wy0jrc/reflection_ai_is_about_to_release_a_us_openweight/",
             "https://aiweekly.co/alerts/nvidia-backed-reflection-ai-preps-first-open-weight-model-to-rival-deepseek-and"
@@ -85,7 +85,7 @@
       "items": [
         {
           "title": "Claude 夺舍 Codex：官方客户端内置本地 MCP 服务器被扒出，换 Claude 脑子实测不降分",
-          "meta": "新智元·6小时前，搜狐官方号同步",
+          "meta": "新智元·2026-10-05，搜狐官方号同步",
           "urls": [
             "https://m.sohu.com/a/1084097097_473283"
           ],
@@ -132,7 +132,7 @@
         },
         {
           "title": "Hinton 亲手交卷：22 人署名 RSI 首篇论文，智能爆炸有了量化推演",
-          "meta": "量子位·2小时前",
+          "meta": "量子位·2026-10-05",
           "urls": [
             "https://www.qbitai.com/2026/10/501705.html"
           ],
@@ -197,7 +197,7 @@
       "items": [
         {
           "title": "OpenAI 立下 28 天军令状：每天「改进或全员重置」二选一",
-          "meta": "量子位·4小时前｜新智元·6小时前｜36氪 AI 频道·1小时前，搜狐官方号同步",
+          "meta": "量子位·2026-10-05｜新智元·2026-10-05｜36氪 AI 频道·2026-10-05，搜狐官方号同步",
           "urls": [
             "https://www.qbitai.com/2026/10/501700.html",
             "https://m.sohu.com/a/1084097245_473283",
@@ -244,11 +244,11 @@
         },
         {
           "title": "System76 给 COSMIC 立规：PR 强制声明「非 AI 生成」",
-          "meta": "Hacker News·前天深夜｜Neowin 报道 10-04 01:32 CST，48h 边界",
+          "meta": "Hacker News·2026-10-04 01:32深夜｜Neowin 报道 10-04  CST，48h 边界",
           "urls": [
             "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/"
           ],
-          "summary": "System76 在 COSMIC 主力仓库的 PR 模板加入强制清单，禁止提交 AI 生成的代码/注释/描述（仅 cosmic-flatpak 豁免），Pop 仓库 CONTRIBUTING.md 同步加限；细则实改约 10-01，HN 前天深夜起热议。与今晨报道的「AI 审稿崩塌」「Tibo 治屎山」同属一个反噬周期：AI slop 的治理开始制度化。",
+          "summary": "System76 在 COSMIC 主力仓库的 PR 模板加入强制清单，禁止提交 AI 生成的代码/注释/描述（仅 cosmic-flatpak 豁免），Pop 仓库 CONTRIBUTING.md 同步加限；细则实改约 10-01，HN 2026-10-03 深夜起热议。与2026-10-05 晨报道的「AI 审稿崩塌」「Tibo 治屎山」同属一个反噬周期：AI slop 的治理开始制度化。",
           "angles": [
             {
               "kind": "startup",
@@ -286,8 +286,8 @@
   ],
   "signals": [
     {
-      "lead": "下周双旗舰对撞",
-      "text": "OpenAI 6.1 Sol Ultrafast「coming soon」（Tibo 10-04 确认；修正今晨信号——「Astra 6.1」其实仍未现身）× Anthropic Fable 5.5 传下周二正式发布（JAZII 爆料灰度导流中：更快、更贵）。撞车周=订阅转化窗口，盯发布顺序与定价。"
+      "lead": "2026-10-12~10-18 双旗舰对撞",
+      "text": "OpenAI 6.1 Sol Ultrafast「coming soon」（Tibo 10-04 确认；修正 2026-10-05 晨信号——「Astra 6.1」其实仍未现身）× Anthropic Fable 5.5 传 2026-10-13 正式发布（JAZII 爆料灰度导流中：更快、更贵）。撞车周=订阅转化窗口，盯发布顺序与定价。"
     },
     {
       "lead": "消费级硬件跑大 MoE",
@@ -304,6 +304,6 @@
     "- GitHub Trending：首连 HTTP 000，重试 200；榜单与 09:00 场完全一致，无新增条目",
     "- VentureBeat：render.js 通过但页面仅解析出 1 条自宣稿（Rob Strechay 首席分析师人事公告），解析异常延续上期，继续登记",
     "- Reddit：r/LocalLLaMA 正常（arctic-shift posts/search 可用）；Anthropic 官网无窗口内新稿（最新 10-02）",
-    "- 其余（量子位/极客公园/爱范儿/少数派/TechCrunch/Ars/Verge/OpenAI/DeepMind/NVIDIA/Product Hunt/HF/36氪/智东西/甲子/arXiv）：抓取正常，无窗口内新稿；36氪快讯今晨新增多为非 AI（华为高通专利、苹果 CEO 等）；哈佛教授 36 篇论文稿原发 Anthropic 博客 10-01，超窗口未收"
+    "- 其余（量子位/极客公园/爱范儿/少数派/TechCrunch/Ars/Verge/OpenAI/DeepMind/NVIDIA/Product Hunt/HF/36氪/智东西/甲子/arXiv）：抓取正常，无窗口内新稿；36氪快讯2026-10-05 晨新增多为非 AI（华为高通专利、苹果 CEO 等）；哈佛教授 36 篇论文稿原发 Anthropic 博客 10-01，超窗口未收"
   ]
 }
