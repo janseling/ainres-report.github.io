@@ -3,7 +3,7 @@
   "date": "2026-09-30",
   "time": "09:03",
   "title": "AI 情报 · 09-30 09:03 场",
-  "generatedAt": "2026-09-30T01:04:12.764Z",
+  "generatedAt": "2026-10-08T06:40:33.121Z",
   "coverage": "2026-09-29 09:03 → 2026-09-30 09:03（Asia/Shanghai）",
   "notes": [
     "信源状态见文末（上期失效的量子位本期已恢复）"
@@ -41,7 +41,34 @@
               "text": "官方商店+办公套件+按员工计费三箭齐发，等于官方双杀「API 转售薄壳」与「订阅制套壳」两条创业路径；在 ChatGPT 生态做插件/技能层反而比做独立壳应用更现实。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "OpenAI 官方 Recap+极客公园/TC 多源",
+          "publish_time": "2026-09-30 02:59",
+          "event_time": "2026-09-29",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（OpenAI 官方 DevDay 2026 Recap 与 GPT-6.1 Sol/dots 发布页均标注 09-29；官方口径 20+ 项重大发布、Pro 500 含 25× Plus 额度）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6.1 Sol",
+              "type": "产品"
+            },
+            {
+              "name": "Dots",
+              "type": "产品"
+            },
+            {
+              "name": "ChatGPT",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "OpenAI 谈 $30B 新融资、估值 $1.4T，或为 IPO 前最后一轮",
@@ -58,7 +85,23 @@
               "text": "涨价（Pro 500）+ 企业市场铺 simultaneously，都在为 $1.4T 估值凑收入故事；创业者别把融资估值锚建立在上一轮情绪上，巨头的定价重估就在同一天完成。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "低",
+          "confidence_note": "TC/Bloomberg 双媒体均 reportedly 措辞·官方未证实",
+          "publish_time": "2026-09-30 03:52",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Sam Altman",
+              "type": "人物"
+            }
+          ]
         },
         {
           "title": "OpenAI 发布个人智能体 Dots，对标 Meta Muse",
@@ -75,7 +118,33 @@
               "text": "「人人一个 AI 员工」进入巨头标配阶段，但 Muse 的住址泄露事故刚发生——国内做此类产品，把权限可视化与操作留痕做成一级卖点而非隐私条款补丁，是差异化窗口。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "OpenAI 官方发布页+TC/Verge 多源",
+          "publish_time": "2026-09-30 01:17",
+          "event_time": "2026-09-29",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Dots",
+              "type": "产品"
+            },
+            {
+              "name": "Muse",
+              "type": "产品"
+            },
+            {
+              "name": "xAI",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "DeepSeek Harness 桌面版上线：开箱即用，登录送 6 元",
@@ -92,7 +161,23 @@
               "text": "DeepSeek 从模型厂下沉做 C 端 agent 端并用补贴冷启动，标志国内 agent 大战进入「渠道+补贴」阶段；靠 DeepSeek API 做壳的应用护城河时间正在缩短。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·爱范儿，官方安装包可直接验证",
+          "publish_time": "2026-09-30 00:07",
+          "entities": [
+            {
+              "name": "DeepSeek",
+              "type": "企业"
+            },
+            {
+              "name": "DeepSeek Harness",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Manus 2.0 发布：云电脑 + 个人助手 CUE + 成本降 32%",
@@ -109,7 +194,23 @@
               "text": "被巨头节奏带着走向「全家桶」是防守打法，但 agent 单任务成本一年内能压 32%，说明基建层优化红利仍厚——做 agent 运营/成本优化工具的毛利空间还在变大。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·极客公园",
+          "publish_time": "2026-09-29 13:27",
+          "entities": [
+            {
+              "name": "Manus",
+              "type": "企业"
+            },
+            {
+              "name": "CUE",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "可灵 4.0 公布：主打真实可控专业，4.0 Flash 已上线",
@@ -126,7 +227,23 @@
               "text": "卷的是口型/多关键帧这些商用硬指标，目标客户是广告与短剧而非爱好者；4.0 Flash 流出定价后，「AI 视频生产线」代运营对电商内容团队的成本账将重新算得平。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·爱范儿",
+          "publish_time": "2026-09-29 11:24",
+          "entities": [
+            {
+              "name": "可灵",
+              "type": "产品"
+            },
+            {
+              "name": "快手",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -150,7 +267,29 @@
               "text": "旗舰空窗、性价比补位，说明同级智能价格快速通缩——此前「算不过账」的落地场景现在值得重算 ROI，是上项目的好时点。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "OpenAI 官方发布页+TC 多源",
+          "publish_time": "2026-09-30 01:15",
+          "event_time": "2026-09-29",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6.1 Sol",
+              "type": "产品"
+            },
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "IQuest-Q1：320B 参数、激活 15B 的国产 MoE 新模型",
@@ -167,7 +306,19 @@
               "text": "15B 激活的 320B MoE 是典型的「性价比主力」配置，垂直 agent 的底模选型又多一个候选——别再默认 Qwen/DeepSeek 二选一。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·量子位，官方基准口径未复核",
+          "publish_time": "2026-09-29 15:59",
+          "entities": [
+            {
+              "name": "IQuest-Q1",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -191,7 +342,30 @@
               "text": "联邦松监管、州端司法加码（佛州禁令、加州诉讼），美国合规呈双轨制——面向美国用户的产品按最严州的基准做风控，别看白宫的脸色。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "白宫情况书+FR 编号+Verge/Politico 多源",
+          "publish_time": "2026-09-30 07:34",
+          "event_time": "2026-09-29",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（whitehouse.gov 情况说明书 09-29 同口径：行政分支公文弃用 AI 改称 Super Intelligence/SI；Federal Register EO 14434 记签署日 09-29、10-02 刊登；Politico 同报周二签署）",
+          "entities": [
+            {
+              "name": "特朗普",
+              "type": "人物"
+            },
+            {
+              "name": "白宫",
+              "type": "机构"
+            },
+            {
+              "name": "America.gov",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "佛州申请临时禁令：未经第三方批准安全护栏，OpenAI 不得继续开发前沿模型",
@@ -208,7 +382,25 @@
               "text": "「第三方批准护栏」若成判例，安全评测/红队/合规认证直接多出一个法定市场——这是把 agent 事故保险前置化成法律义务的信号。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源· Ars 引法院动议文书·页 403 未核",
+          "publish_time": "2026-09-29 04:49",
+          "event_time": "2026-09-28",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "佛罗里达州",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "AI 安全倡导者依加州反黑客法起诉 OpenAI（涉 Hugging Face 黑客事件）",
@@ -225,7 +417,27 @@
               "text": "诉讼工具从隐私法转向反黑客法，agent 越权行为第一次有了现成法律抓手；做 agent 产品合规的，把「越权访问」列为首要法律风险点。"
             }
           ],
-          "source_tier": null
+          "source_tier": null,
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "低",
+          "confidence_note": "单源·Politico 页反爬细节未核·HN 转述",
+          "publish_time": "2026-09-30 03:45",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Hugging Face",
+              "type": "企业"
+            },
+            {
+              "name": "加州",
+              "type": "机构"
+            }
+          ]
         }
       ]
     },
@@ -249,7 +461,19 @@
               "text": "动态定价从机票、网约车扩散到快餐，餐饮 POS 中嵌「AI 定价层」是个小而实的软件生意；同步留意「价格歧视」舆情反噬。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（AI 动态定价应用）"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·CNBC 403 未核",
+          "publish_time": "2026-09-30 03:58",
+          "entities": [
+            {
+              "name": "麦当劳",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "英伟达与保险公司谈判：分担 GPU 抵押贷款风险",
@@ -266,7 +490,23 @@
               "text": "GPU 抵押贷款是本轮算力扩张的核心杠杆，「保险共担」若成型等于给算力信贷泡沫定价——盯这条线判断拐点，比盯发布会更有用。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（算力金融化）"
+          ],
+          "confidence": "低",
+          "confidence_note": "快讯转引新浪·知情人士信源未证实",
+          "publish_time": "2026-09-29",
+          "entities": [
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "黄仁勋",
+              "type": "人物"
+            }
+          ]
         },
         {
           "title": "太空兔 Space Bunny Alpha 海外刷屏：涂鸦 5 分钟生成 3D 网站",
@@ -283,7 +523,23 @@
               "text": "「草图即需求」是新交互范式的信号，比 prompt 门槛更低、直指小微商家建站；国内复刻有窗口，但变现要绑定交易闭环而非展示型网站。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·爱范儿·开发方未证实",
+          "publish_time": "2026-09-29 17:19",
+          "entities": [
+            {
+              "name": "Space Bunny",
+              "type": "产品"
+            },
+            {
+              "name": "MiniMax",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "摩根士丹利看好 Shopify：智能代理购物成为共识",
@@ -300,7 +556,23 @@
               "text": "「agent 流量入口」从小道消息走向机构定价——做 agent 上游卡位（MCP 适配、插件、结账授权）的窗口仍在早段，别等共识落地。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（机构研判）"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源快讯·分析师观点",
+          "publish_time": "2026-09-30 08:52",
+          "entities": [
+            {
+              "name": "摩根士丹利",
+              "type": "机构"
+            },
+            {
+              "name": "Shopify",
+              "type": "企业"
+            }
+          ]
         }
       ]
     }
