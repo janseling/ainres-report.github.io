@@ -3,7 +3,7 @@
   "date": "2026-10-06",
   "time": "15:00",
   "title": "AI 情报 · 10-06 15:00 场",
-  "generatedAt": "2026-10-08T07:20:33.632Z",
+  "generatedAt": "2026-10-08T16:47:21.346Z",
   "coverage": "2026-10-05 15:00 → 10-06 15:00（Asia/Shanghai，24h 口径；DeepSeek Harness 条为 48h 边界并标注）",
   "notes": [
     "国庆假期午后国内产出回升，早场已收割海外隔夜增量，本期以融资窗口与国内动态为主"
@@ -85,9 +85,10 @@
           "type_tags": [
             "融资交易"
           ],
-          "confidence": "低",
-          "confidence_note": "据悉措辞未获官方证实",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪快讯+财联社/彭博同日同报",
           "publish_time": "2026-10-06 11:57",
+          "verify_note": "外部检索（财联社·彭博同报：已选中金/高盛/瑞银为承销商，目标 2027 年初递表、至少募 10 亿美元）",
           "entities": [
             {
               "name": "快手",
@@ -124,9 +125,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·官方官宣在先",
+          "confidence": "高",
+          "confidence_note": "双源佐证 官方官宣在先+Quartz/Moneycontrol 等 10-05 同报",
           "publish_time": "2026-10-05 23:14",
+          "verify_note": "外部检索（Quartz/Moneycontrol 同报：生成图像旁标注品牌广告位，10 月内美国先行测试）",
           "entities": [
             {
               "name": "OpenAI",
@@ -176,9 +178,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·榜单分待复现",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+VentureBeat/小米官方同报登顶",
           "publish_time": "2026-10-06 12:00",
+          "verify_note": "外部检索（VentureBeat 同报：MiMo-V2.6-Pro 登顶 AA 开源权重榜首，小米官方发布页同证 RSI 表述）",
           "entities": [
             {
               "name": "小米",
@@ -229,9 +232,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·转述 AA 榜单数据",
+          "confidence": "高",
+          "confidence_note": "双源佐证 新智元+AA 官方榜单发布方同报",
           "publish_time": "2026-10-06 12:55",
+          "verify_note": "外部检索（AA 官方：Utopai X 基于 MiniMax H3 登 T2V 榜第 2、仅次 Wan 3.0、先于 Seedance 2.5）",
           "entities": [
             {
               "name": "Utopai Studios",
@@ -276,9 +280,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 机器之心+IT之家同报",
           "publish_time": "2026-10-04 23:42",
+          "verify_note": "外部检索（IT之家 同报：崔添翼系 v0.2.1-alpha.1 兼容层作者，称 Mods API 属 DSH 插件能力子集）",
           "entities": [
             {
               "name": "DeepSeek",
@@ -369,9 +374,10 @@
           "type_tags": [
             "政策监管"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪快讯+Reuters 10-06 同报",
           "publish_time": "2026-10-06 13:00",
+          "verify_note": "外部检索（Reuters 同报：韩国明年启动 35 亿美元前沿 AI 模型开发；Korea Times 同跟进）",
           "entities": [
             {
               "name": "韩国政府",
@@ -415,9 +421,10 @@
           "type_tags": [
             "商业合作"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪快讯+科创板日报/钛媒体同报",
           "publish_time": "2026-10-06 10:25",
+          "verify_note": "外部检索（科创板日报/钛媒体同报：Amazon Bedrock 官宣接入 GLM-5.3，按模型调用量分成）",
           "entities": [
             {
               "name": "智谱AI",
@@ -510,9 +517,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·转述独立机构报告",
+          "confidence": "高",
+          "confidence_note": "双源佐证 量子位+The Register 10-06 同报 SemiAnalysis 报告",
           "publish_time": "2026-10-06 14:45",
+          "verify_note": "外部检索（The Register 等同报：订阅仅占 10% 收入却耗 40%+ 推理算力，原报告为 SemiAnalysis 10-05 付费刊）",
           "entities": [
             {
               "name": "SemiAnalysis",
@@ -558,9 +566,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·民调数据转述",
+          "confidence": "高",
+          "confidence_note": "双源佐证 民调数据：36氪+Gallup 官方发布页同数",
           "publish_time": "2026-10-06 14:00",
+          "verify_note": "外部检索（Gallup 官方页：7 成美国人反对本地建 AI 数据中心、48% 强烈反对；WaPo/Forbes 同跟进）",
           "entities": [
             {
               "name": "Google",
