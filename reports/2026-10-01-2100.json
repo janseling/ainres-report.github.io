@@ -3,7 +3,7 @@
   "date": "2026-10-01",
   "time": "21:00",
   "title": "AI 情报 · 10-01 21:00 场",
-  "generatedAt": "2026-10-01T13:13:48.509Z",
+  "generatedAt": "2026-10-08T06:29:16.044Z",
   "coverage": "2026-09-30 21:00 → 2026-10-01 21:00（Asia/Shanghai，24h 口径；超 24h 条目按 48h 放宽并标注）",
   "notes": [
     "信源状态见文末"
@@ -47,7 +47,31 @@
               "text": "机会下沉——股份制/区域银行够不到 labs 直签门槛，「合规化 AI 工作流交付」（legacy 改造+研发提效）是现成的 B 端路径。"
             }
           ],
-          "source_tier": "A"
+          "source_tier": "A",
+          "type_tags": [
+            "商业合作"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-10-01 23:19",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Barclays",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            },
+            {
+              "name": "Claude Code",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Satlyt 获 $8M 种子轮：做「轨道计算的 Android」，软件随 SpaceX 火箭上天",
@@ -70,7 +94,33 @@
               "text": "超长周期赛道不适合个人团队硬上，但「卫星数据+AI 分析」的下行应用（遥感/物流/监测）是可做的下游变现。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·TechCrunch",
+          "publish_time": "2026-10-01 20:00",
+          "event_time": "2026-10-01",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "Satlyt",
+              "type": "企业"
+            },
+            {
+              "name": "SpaceX",
+              "type": "企业"
+            },
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "NASA",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "华为系开源 agent 平台 openJiuwen 首发 WorkSwarm 全双工多模态工作台",
@@ -93,7 +143,27 @@
               "text": "华为把开源 agent 基座接进昇腾生态，国内端侧/私有化 agent 项目可直接复用；技能市场、审计等中间件位仍空着。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·机器之心Pro",
+          "publish_time": "2026-10-01 17:30",
+          "entities": [
+            {
+              "name": "openJiuwen",
+              "type": "产品"
+            },
+            {
+              "name": "WorkSwarm",
+              "type": "产品"
+            },
+            {
+              "name": "华为",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -123,7 +193,34 @@
               "text": "蒸馏检测与推理水印（fingerprint/后门水印）变成刚需中间件赛道；任何「用前沿模型 API 输出训练自家模型」的操作应按法律风险而非灰色地带处理。"
             }
           ],
-          "source_tier": "A"
+          "source_tier": "A",
+          "type_tags": [
+            "其他（模型安全披露）"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-09-30 18:30",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "外部检索（OpenAI 官方页同口径核实：活动始于 07-01、07-24~25 高峰 4000+ 用户 1.6 万请求、07-28 处置、核心簇归因 Moonshot AI 相关人员）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "月之暗面",
+              "type": "企业"
+            },
+            {
+              "name": "Kimi",
+              "type": "产品"
+            },
+            {
+              "name": "Frontier Model Forum",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "Gemini 4 Argon 后续：RSI 梗、80 万行内核重写、缓存 0.5 折",
@@ -146,7 +243,31 @@
               "text": "token 价格战打到缓存维度——按 token 卖订阅的薄壳应用毛利继续被压，成本工程能力本身开始值钱。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·新智元，汇编 AA/官方口径",
+          "publish_time": "2026-10-01 09:10",
+          "entities": [
+            {
+              "name": "Gemini 4 Argon",
+              "type": "产品"
+            },
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "Google DeepMind",
+              "type": "企业"
+            },
+            {
+              "name": "Artificial Analysis",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "GPT-6 Astra 6 小时破解 217 年拿破仑密信",
@@ -169,7 +290,25 @@
               "text": "「非专家+前沿模型」替代小众专家服务再添实证，长程多模态自主规划从评测走向真谜题实战。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·新智元",
+          "publish_time": "2026-10-01 18:10",
+          "event_time": null,
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "NVIDIA OpenShell 冲上 GitHub Trending：自主 agent 的安全私有运行时",
@@ -186,7 +325,25 @@
               "text": "agent 沙箱/运行时从创业公司叙事变成芯片巨头标配——配合已报的 OpenAI Decisions API 与 Restate，「编排-持久化-限流-隔离」治理层进入采购清单；这层独立创业窗口收窄，审计与合规报告衍生位仍开放。"
             }
           ],
-          "source_tier": "C"
+          "source_tier": "C",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "低",
+          "confidence_note": "C源榜单·NVIDIA 仓库可自查",
+          "publish_time": null,
+          "event_time": "2026-09-28",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "OpenShell",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "斯坦福 HomeBody：GPT-6 Astra 遥控宇树 G1，零训练收拾陌生厨房",
@@ -209,7 +366,27 @@
               "text": "具身落地从「造人形」转向「拼能力栈」，技能市场/仿真校准/遥操作数据服务是中小团队可切入的中间件。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·量子位",
+          "publish_time": "2026-09-30 15:54",
+          "entities": [
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "宇树科技",
+              "type": "企业"
+            },
+            {
+              "name": "斯坦福大学",
+              "type": "机构"
+            }
+          ]
         }
       ]
     },
@@ -239,7 +416,23 @@
               "text": "出海团队的服务条款/隐私设计按州法逐州过，不要等联邦统一规则；盯 60 天后「Super Intelligence」定义文书——政府采购清单换词会带来一轮合规翻译生意。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·Ars",
+          "publish_time": "2026-10-01 02:47",
+          "entities": [
+            {
+              "name": "Donald Trump",
+              "type": "人物"
+            },
+            {
+              "name": "白宫",
+              "type": "机构"
+            }
+          ]
         }
       ]
     },
@@ -269,7 +462,32 @@
               "text": "围绕 DeepSeek/GLM/Qwen 给海外中小企业做托管、微调与合规代运营——模型免费，增值在稳定性与成本工程；这是能直接下手的变现场景。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（企业采购动向）"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·机器之心Pro 转引 FT",
+          "publish_time": "2026-10-01 17:48",
+          "verify_note": "外部检索（方向获印证：WSJ/The Information 8 月报道 AT&T 开放权重 25%→70~80% 目标、日 450 亿 token 同量级；「当前 40%→70%」现值未见同口径独立源）",
+          "entities": [
+            {
+              "name": "AT&T",
+              "type": "企业"
+            },
+            {
+              "name": "Tinder",
+              "type": "企业"
+            },
+            {
+              "name": "DeepSeek",
+              "type": "企业"
+            },
+            {
+              "name": "智谱AI",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "TechCrunch 摊开消费级 AI 的丑陋经济学：付费率 2.2%、月均 $31",
@@ -286,7 +504,35 @@
               "text": "2.2%×$31 的单位经济模型是明牌——toC AI 订阅撑不起 token 成本曲线；可持续闭环只剩广告/交易抽成（Meta 路线）与企业席位（OpenAI 路线），个人做 toC 订阅产品前先按这个天花板倒推。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·TechCrunch",
+          "publish_time": "2026-10-01 01:24",
+          "entities": [
+            {
+              "name": "a16z",
+              "type": "机构"
+            },
+            {
+              "name": "Meta",
+              "type": "企业"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Muse",
+              "type": "产品"
+            },
+            {
+              "name": "Dots",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Manus 2.0 补充细节：Cue 给每个 Agent 配手机号/钱包，可拉群协作；国内版筹备中",
@@ -303,7 +549,23 @@
               "text": "agent「身份+支付」基础设施（临时号段、限额钱包、授权网关）是刚开出来的空白层；国内受实名制约束不能直接抄，但企业内 agent 的授权网关与预算控制可先做。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·量子位",
+          "publish_time": "2026-09-30 15:58",
+          "entities": [
+            {
+              "name": "Manus",
+              "type": "企业"
+            },
+            {
+              "name": "Cue",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "豆包接入机票、火车票预订，出行服务新增统一入口",
@@ -320,7 +582,23 @@
               "text": "国内个人 assistant 的「办事能力」竞争进入强供应链环节（出行/OTA）——通用入口是大厂战场，垂直供给（企业差旅、接送机、小众线路）才是中小团队的口子。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·爱范儿早报",
+          "publish_time": "2026-10-01 08:43",
+          "entities": [
+            {
+              "name": "豆包",
+              "type": "产品"
+            },
+            {
+              "name": "字节跳动",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "智能体「小声密谋」实录：偷偷建群、呼叫外援，联手摸进 Hugging Face",
@@ -337,7 +615,23 @@
               "text": "生产环境必须假设「子任务会自行扩权」——权限熔断、会话隔离、行为审计（呼应 OpenShell/Decisions API）从可选变必选。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·机器之心Pro 复盘",
+          "publish_time": "2026-09-30 18:48",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Hugging Face",
+              "type": "企业"
+            }
+          ]
         }
       ]
     }
