@@ -3,10 +3,10 @@
   "date": "2026-10-07",
   "time": "09:00",
   "title": "AI 情报 · 10-07 09:00 场",
-  "generatedAt": "2026-10-08T06:07:46.284Z",
+  "generatedAt": "2026-10-08T07:21:38.686Z",
   "coverage": "10-06 21:00 → 10-07 09:05（Asia/Shanghai）",
   "notes": [
-    "昨日三场均已报条目已去重（Mistral Large 4、月之暗面 PreIPO、微软/Meta 减用 Claude、textGrain、Wikimedia 事件、Utopai X 均不再重收）"
+    "2026-10-06 三场均已报条目已去重（Mistral Large 4、月之暗面 PreIPO、微软/Meta 减用 Claude、textGrain、Wikimedia 事件、Utopai X 均不再重收）"
   ],
   "itemCount": 13,
   "rawStats": {
@@ -28,7 +28,7 @@
       "items": [
         {
           "title": "Lambda 融 40 亿美元准备 2027 IPO",
-          "meta": "TechCrunch·今晨",
+          "meta": "TechCrunch·2026-10-07 晨",
           "urls": [
             "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo"
           ],
@@ -38,7 +38,7 @@
               "kind": "invest",
               "icon": "💰",
               "label": "投资/商业",
-              "text": "算力资产证券化第二梯队开始排队，与昨晚已报的数据中心商 IPO 线并看——IPO 窗口一旦拥挤，估值战会先于收入战开打，GPU 云的毛利结构将被投资人重新审。"
+              "text": "算力资产证券化第二梯队开始排队，与2026-10-06 晚已报的数据中心商 IPO 线并看——IPO 窗口一旦拥挤，估值战会先于收入战开打，GPU 云的毛利结构将被投资人重新审。"
             },
             {
               "kind": "startup",
@@ -115,7 +115,7 @@
         },
         {
           "title": "Hark 发布主打隐私的 AI 个人助手",
-          "meta": "TechCrunch·今晨",
+          "meta": "TechCrunch·2026-10-07 晨",
           "urls": [
             "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy"
           ],
@@ -189,7 +189,7 @@
         },
         {
           "title": "前 Ramp 团队砍掉首个产品再拿 $20M，转做营销创意生成",
-          "meta": "TechCrunch·今晨",
+          "meta": "TechCrunch·2026-10-07 晨",
           "urls": [
             "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product"
           ],
@@ -229,7 +229,7 @@
       "items": [
         {
           "title": "OpenAI 公开 722 篇数学手稿：未发布前沿模型的成果一次摊牌",
-          "meta": "The Verge·今晨",
+          "meta": "The Verge·2026-10-07 晨",
           "urls": [
             "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github"
           ],
@@ -271,7 +271,7 @@
         },
         {
           "title": "DeepMind 开放 EmbeddingGemma 2：轻量多模态嵌入模型",
-          "meta": "Google DeepMind 官方博客·今晨",
+          "meta": "Google DeepMind 官方博客·2026-10-07 晨",
           "urls": [
             "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model"
           ],
@@ -314,7 +314,7 @@
         },
         {
           "title": "Musubi 开放 PolicyLM-1.7B：实时内容审核专用决策模型",
-          "meta": "TechCrunch·今晨",
+          "meta": "TechCrunch·2026-10-07 晨",
           "urls": [
             "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation"
           ],
@@ -362,7 +362,7 @@
       "items": [
         {
           "title": "OpenAI 赴澳议会道歉 Medicare 事件，宣布「立即干预」监控机制",
-          "meta": "Simon Willison 转 NYT·今晨",
+          "meta": "Simon Willison 转 NYT·2026-10-07 晨",
           "urls": [
             "https://simonwillison.net/2026/Oct/6/victoria-kim"
           ],
@@ -399,7 +399,7 @@
         },
         {
           "title": "网站该不该给 agent 开门？新标准试图给「机器准入」立规矩",
-          "meta": "TechCrunch·今晨",
+          "meta": "TechCrunch·2026-10-07 晨",
           "urls": [
             "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in"
           ],
@@ -477,7 +477,7 @@
         },
         {
           "title": "Pinterest 把美妆 Pin 变成行动计划：内容平台开始吃交易佣金",
-          "meta": "TechCrunch·昨晚",
+          "meta": "TechCrunch·2026-10-06 晚",
           "urls": [
             "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans"
           ],
@@ -510,7 +510,7 @@
         },
         {
           "title": "LibreOffice 宣布「没有 AI」本身就是软件功能",
-          "meta": "TechCrunch·昨晚",
+          "meta": "TechCrunch·2026-10-06 晚",
           "urls": [
             "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature"
           ],
@@ -559,7 +559,7 @@
     }
   ],
   "sourceStatus": [
-    "- VentureBeat：DOWN（渲染 0 条，Vercel 挡板持续，与昨晚口径一致）",
+    "- VentureBeat：DOWN（渲染 0 条，Vercel 挡板持续，与2026-10-06 晚口径一致）",
     "- Reddit：DOWN（全部 sub 抓取失败）",
     "- GitHub Trending：DOWN（curl 超时 25s）",
     "- 备注：OpenAI RSS 直链 403（本期 0 条在窗）；Anthropic news 窗口无新增（与 Fable 5.5 未官宣一致）。无连续 3+ 期失败源，本期无停用建议。"
