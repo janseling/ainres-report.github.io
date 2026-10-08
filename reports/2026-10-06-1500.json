@@ -3,7 +3,7 @@
   "date": "2026-10-06",
   "time": "15:00",
   "title": "AI 情报 · 10-06 15:00 场",
-  "generatedAt": "2026-10-08T06:03:51.426Z",
+  "generatedAt": "2026-10-08T07:20:33.632Z",
   "coverage": "2026-10-05 15:00 → 10-06 15:00（Asia/Shanghai，24h 口径；DeepSeek Harness 条为 48h 边界并标注）",
   "notes": [
     "国庆假期午后国内产出回升，早场已收割海外隔夜增量，本期以融资窗口与国内动态为主"
@@ -28,7 +28,7 @@
       "items": [
         {
           "title": "月之暗面据悉完成 IPO 前融资，最新估值约 500 亿美元",
-          "meta": "36氪快讯·2.5小时前",
+          "meta": "36氪快讯·2.2026-10-06",
           "urls": [
             "https://36kr.com/p/4013804614537347"
           ],
@@ -101,7 +101,7 @@
         },
         {
           "title": "ChatGPT 图像生成旁将出现视觉广告：10 月内美国上线",
-          "meta": "TechCrunch·16小时前",
+          "meta": "TechCrunch·2026-10-05",
           "urls": [
             "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
           ],
@@ -147,7 +147,7 @@
       "items": [
         {
           "title": "小米 MiMo-V2.6 开源登顶 AA 智能指数开源权重榜首，带队人罗福莉 10 个月升至 22 级",
-          "meta": "36氪·3小时前",
+          "meta": "36氪·2026-10-06",
           "urls": [
             "https://36kr.com/p/4012727395618692"
           ],
@@ -200,7 +200,7 @@
         },
         {
           "title": "Utopai X 视频模型盲评全球第二、物理效果与音频同步双第一，公司估值 10 亿美元",
-          "meta": "新智元·搜狐官方号同步·2小时前",
+          "meta": "新智元·搜狐官方号同步·2026-10-06",
           "urls": [
             "https://m.sohu.com/a/1084444728_473283"
           ],
@@ -296,7 +296,7 @@
         },
         {
           "title": "TII 发布 Falcon-Emirati-7B：让 7B 模型学会阿联酋方言与文化语境",
-          "meta": "Hugging Face 官方博客·16分钟前",
+          "meta": "Hugging Face 官方博客·2026-10-06",
           "urls": [
             "https://huggingface.co/blog/tiiuae/falcon-emirati"
           ],
@@ -352,7 +352,7 @@
       "items": [
         {
           "title": "韩国官宣明年启动 35 亿美元前沿 AI 模型开发项目",
-          "meta": "36氪快讯·2小时前",
+          "meta": "36氪快讯·2026-10-06",
           "urls": [
             "https://36kr.com/p/4013828946546563"
           ],
@@ -392,7 +392,7 @@
       "items": [
         {
           "title": "智谱 GLM-5.3 上架 Amazon：海外收入分成通道打通",
-          "meta": "36氪快讯·4.5小时前",
+          "meta": "36氪快讯·4.2026-10-06",
           "urls": [
             "https://36kr.com/p/4013771940892808"
           ],
@@ -435,7 +435,7 @@
         },
         {
           "title": "微软、Meta 同步收缩 Claude 支出：预算砍超 1/3、用户腰斩",
-          "meta": "新智元·搜狐官方号同步·4.6小时前，援引 The Information",
+          "meta": "新智元·搜狐官方号同步·4.2026-10-06，援引 The Information",
           "urls": [
             "https://m.sohu.com/a/1084393846_473283"
           ],
@@ -487,7 +487,7 @@
         },
         {
           "title": "SemiAnalysis 拆解订阅经济学：订阅是「亏本引流品」，OpenAI Pro 砍半推 500 美元档",
-          "meta": "量子位·15分钟前",
+          "meta": "量子位·2026-10-06",
           "urls": [
             "https://www.qbitai.com/2026/10/501726.html"
           ],
@@ -533,8 +533,8 @@
           ]
         },
         {
-          "title": "71% 美国人反对本地建 AI 数据中心（比核电站还烦）；谷歌转签 10 亿美元核电",
-          "meta": "36氪·1小时前；核电为 36氪快讯·4小时前",
+          "title": "71% 美国人反对本地建 AI 数据中心（36氪·2026-10-06；核电为 36氪快讯·2026-10-06）；谷歌转签 10 亿美元核电",
+          "meta": "36氪·2026-10-06；核电为 36氪快讯·2026-10-06",
           "urls": [
             "https://36kr.com/p/4013845198507910",
             "https://36kr.com/p/4013783028912005"
@@ -599,11 +599,11 @@
   ],
   "sourceStatus": [
     "- Hacker News：连续第四期 502（本期重试仍 502），未采",
-    "- 智东西：列表页抓取正常，但列表无发布时间、须逐篇进正文核对——今日列表两条实为 10-03 与 9-30 稿件，本期无 48h 内增量",
+    "- 智东西：列表页抓取正常，但列表无发布时间、须逐篇进正文核对——2026-10-06 列表两条实为 10-03 与 9-30 稿件，本期无 48h 内增量",
     "- 搜狐三镜像（新智元/机器之心/甲子光年）：同步正常；机器之心最新 10-04 23:47 后继续 63h+ 空档（工作日观察是否恢复）；甲子光年周更正常（最新 10-02）；⚠️ 反爬反转仍有效：默认 UA（不带 Chrome -A）200，Chrome UA 403",
-    "- 量子位/极客公园/爱范儿/少数派：RSS 正常，假期节奏条目偏少（量子位今日仅 1 条）",
+    "- 量子位/极客公园/爱范儿/少数派：RSS 正常，假期节奏条目偏少（量子位 2026-10-06 仅 1 条）",
     "- 36氪 AI 频道 + 快讯：render.js 渲染正常，午间增量密集（快讯 20 条/AI 频道 35 条）",
-    "- OpenAI/DeepMind/NVIDIA/HF/GitHub Trending/Product Hunt：正常；DeepMind 最新仍为 9-30 Gemini 4 Argon（无窗口内增量）；arXiv cs.AI 今日 item 列表空（仅 channel 结构）",
+    "- OpenAI/DeepMind/NVIDIA/HF/GitHub Trending/Product Hunt：正常；DeepMind 最新仍为 9-30 Gemini 4 Argon（无窗口内增量）；arXiv cs.AI 2026-10-06item 列表空（仅 channel 结构）",
     "- Anthropic 官网：渲染正常但 10 条最新 news 均为 10-02 前，无窗口增量",
     "- VentureBeat：渲染正常，但窗口内仅 2 条（ServiceNow 长文/ MIT+Sakana 框架，后者为 10-05 15:00 前旧闻），未单独成条",
     "- Reddit（arctic-shift）：本期未采（DNS 拦截未再试，前场次 score 字段失效问题未解）"
