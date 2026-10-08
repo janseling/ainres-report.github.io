@@ -3,7 +3,7 @@
   "date": "2026-10-03",
   "time": "21:00",
   "title": "AI 情报 · 10-03 21:00 场",
-  "generatedAt": "2026-10-08T05:08:53.646Z",
+  "generatedAt": "2026-10-08T20:51:03.315Z",
   "coverage": "10-03 15:00 → 21:10（Asia/Shanghai）　※ 补刊（生成于 2026-10-08，非当时原发）",
   "notes": [
     "候选池 72 条，多为社区闲聊/超 48h 旧闻，有效候选约 12 条，宁缺毋滥从严取 7；已与同日 09:00 补刊场及 10-05~10-08 各期逐主题去重（Kolibri、Muse Spark、自保报告、Utopai、FTC 均未见收录）；智东西 MiniMax 评测为窗口边缘补位：页面日期 10-03（时刻未标注、镜像 18:44 收稿），0900 场因搜狐故障漏收、后续各期均超窗口，本档补位并如实标注"
@@ -192,9 +192,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·智东西实测，无独立复测",
+          "confidence": "高",
+          "confidence_note": "双源佐证 智东西实测+澎湃·字母榜独立实测",
           "publish_time": "2026-10-03",
+          "verify_note": "外部检索（澎湃·字母榜 10-03 08:35 独立实测同题报道「MiniMax M3.1实测：敢跟旗舰Opus 5.5掰手腕」；腾讯·十字路口 10-05 跟进同报「一款 Flash 模型，开始交付 Opus 5.5 能写出的前端作品」）",
           "entities": [
             {
               "name": "MiniMax",
@@ -286,6 +287,7 @@
           "confidence_note": "B单源·人物访谈观点主导，部分指控未经证实",
           "publish_time": "2026-10-03 18:44",
           "original_title": "北大07级数学系校友：O/A两家做的事，在毁掉数学系的年轻人",
+          "verify_note": "外部检索（财新 09-12《25位菲尔兹奖得主联名警告：警惕AI伤害数学研究》、观察者网 09-12、机器之心 09-12 等独立同报：陶哲轩、邓煜、舒尔茨等 25 位菲奖得主 09-11 联名声明《人工智能在数学中的严重错位》属实、贴陶哲轩博客全文，主旨即警示 AI 暴力解题伤害数学，与本条「访谈+联名信」弧线对应；联名信部分多源成立、访谈部分单源，维持原置信度）",
           "entities": [
             {
               "name": "李欣意",
@@ -331,11 +333,12 @@
             "数据行情"
           ],
           "confidence": "高",
-          "confidence_note": "官方榜单+ Forbes/Variety 背书·单一深度稿",
+          "confidence_note": "双源佐证 爱范儿+Artificial Analysis 官方 09-30 官宣",
           "publish_time": "2026-10-03 15:00",
           "event_time": null,
           "event_time_inferred": false,
           "original_title": "一家影视公司，杀进了视频模型的决赛圈",
+          "verify_note": "外部检索（Artificial Analysis 官方 X/LinkedIn 09-30 官宣：Utopai X 基于 MiniMax H3 出道即登 AA Text-to-Video 榜第 2、仅次 Wan 3.0、压过 Dreamina Seedance 2.5、先于 H3/H3 Max；AlphaSignal·orcarouter 09-30 起独立跟进同报）",
           "entities": [
             {
               "name": "Utopai Studios",
