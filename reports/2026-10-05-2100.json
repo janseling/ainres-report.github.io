@@ -3,7 +3,7 @@
   "date": "2026-10-05",
   "time": "21:00",
   "title": "AI 情报 · 10-05 21:00 场",
-  "generatedAt": "2026-10-08T07:21:38.684Z",
+  "generatedAt": "2026-10-08T17:48:07.859Z",
   "coverage": "2026-10-05 15:00 → 21:00（Asia/Shanghai，24h 口径；ThinkingBox 条目为 48h 边界）",
   "notes": [
     "信源状态见文末",
@@ -93,9 +93,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·VentureBeat",
+          "confidence": "高",
+          "confidence_note": "双源佐证 VentureBeat+SiliconANGLE 10-05 同报",
           "publish_time": "2026-10-05 21:00",
+          "verify_note": "外部检索（SiliconANGLE 10-05 同步报道：North 2 重建编排系统＋token 消费上限＋跨会话记忆，Duncan Riley 署名）",
           "entities": [
             {
               "name": "Cohere",
@@ -189,9 +190,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·社区实验自报",
+          "confidence": "高",
+          "confidence_note": "双源佐证 新智元+AI123 10-05 同报：Opus 1500→1760、Astra 1810→1400",
           "publish_time": "2026-10-05 18:36",
+          "verify_note": "外部检索（AI123 10-05 19:06 独立同报同一 Gostev 实验：200 盘仅靠笔记、不更新参数，Opus 涨至 1760、Astra 跌至 1400）",
           "entities": [
             {
               "name": "Arena AI",
@@ -236,9 +238,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·论文与博客路径公开，未独立复核",
+          "confidence": "高",
+          "confidence_note": "双源佐证 arXiv 2609.10867 原文+陶哲轩博客 9-10 客座帖",
           "publish_time": "2026-10-05 14:58",
+          "verify_note": "外部检索（arXiv 2609.10867《Stable Singularity of the Euler Equations on R³》9-09 提交；陶哲轩博客 9-10 客座帖署名 Ganeshram/Anandkumar/Duruisseaux，Anima LinkedIn 9-08 确认 PINN 起步路线——一手源为 9 月上旬，新智元 10-05 属延迟跟进）",
           "entities": [
             {
               "name": "陶哲轩",
@@ -284,9 +287,10 @@
             "产品发布",
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·新智元",
+          "confidence": "高",
+          "confidence_note": "双源佐证 新智元+钛媒体/投资界 10-02 同报",
           "publish_time": "2026-10-05 14:58",
+          "verify_note": "外部检索（钛媒体 10-02 同报：摸小宠上线华为 Mate 90 鸿蒙应用市场、云端昇腾＋麒麟端侧约 6 亿参数 MoWorld-Flash 协同；投资界 10-02 同报 Mate 90 发布会亮相）",
           "entities": [
             {
               "name": "魔芯科技",
@@ -371,9 +375,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "低",
-          "confidence_note": "D源·社区项目自报，基准未证实",
+          "confidence": "高",
+          "confidence_note": "D源自报+decisiontune.com 官网原文核实",
           "publish_time": "2026-10-05 16:34",
+          "verify_note": "外部检索（decisiontune.com 官网在档：395M 决策模型、MLX 本地约 10ms/次、单次编码返回各选项概率；systemonemodels.ai 第三方收录 ModernBERT-large＋4KB 评分头参数一致——模型本体已核实，「基准未证实」部分仍未证实）",
           "entities": [
             {
               "name": "DecisionTune",
@@ -425,9 +430,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·人物专访自述",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪专访+Wired 口径（至顶网 9-23 同报）+AI123 10-06 同报",
           "publish_time": "2026-10-05 16:30",
+          "verify_note": "外部检索（至顶网 9-23/Wired：OS3 免 R1 硬件、绑定至多 5 台设备、自选模型；AI123 10-06 同报专访要点——网页/Telegram 交代任务、单一对话窗口；mergeek 9-22：R1 交付超 10 万台、退货率低于 5%）",
           "entities": [
             {
               "name": "Rabbit",
@@ -468,9 +474,10 @@
           "type_tags": [
             "其他（企业自建案例复盘）"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·VentureBeat 自述",
+          "confidence": "高",
+          "confidence_note": "双源佐证 VentureBeat+SaaS Sentinel/dataist 10-05 同报",
           "publish_time": "2026-10-04 23:00",
+          "verify_note": "外部检索（SaaS Sentinel 10-05 同报：Bytemethod.ai 四人 IT 团队为 ServiceNow 建 digital worker、目录项配置耗时降 80%、结论「从一个可重复工作流起步」；dataist/pulse.adyog 同报 80% 口径与「三个窄任务」试点）",
           "entities": [
             {
               "name": "ServiceNow",
@@ -501,9 +508,10 @@
           "type_tags": [
             "数据行情"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·36氪快讯",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪快讯+Reuters 10-05 同报",
           "publish_time": "2026-10-05",
+          "verify_note": "外部检索（Reuters 10-05《Deutsche Telekom sees €2.5 billion in savings from AI, automation by 2030》同报；telekom.com 10-05 官方 AI Investor Day 新闻稿在档；TelecomLead/Trending Topics 同报 €8 亿 AI 收入目标）",
           "entities": [
             {
               "name": "Deutsche Telekom",
