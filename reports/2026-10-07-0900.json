@@ -3,7 +3,7 @@
   "date": "2026-10-07",
   "time": "09:00",
   "title": "AI 情报 · 10-07 09:00 场",
-  "generatedAt": "2026-10-07T01:04:28.469Z",
+  "generatedAt": "2026-10-08T06:07:46.284Z",
   "coverage": "10-06 21:00 → 10-07 09:05（Asia/Shanghai）",
   "notes": [
     "昨日三场均已报条目已去重（Mistral Large 4、月之暗面 PreIPO、微软/Meta 减用 Claude、textGrain、Wikimedia 事件、Utopai X 均不再重收）"
@@ -47,7 +47,32 @@
               "text": "对下游 AI 应用方，2027 年前算力供给大概率过剩，推理报价还有下探空间，产品成本模型留出缓冲位。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·WSJ 引 LP 信函及知情人士",
+          "publish_time": "2026-10-07 04:00",
+          "verify_note": "外部检索（WSJ 10-06 首发，Reuters/Yahoo 多家转引口径一致；backlog 6月 $150 亿→9月 $500 亿，含 Anthropic $350 亿协议）",
+          "entities": [
+            {
+              "name": "Lambda",
+              "type": "企业"
+            },
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "Coatue",
+              "type": "企业"
+            },
+            {
+              "name": "Blackstone",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "Anthropic 推初创扶持：免费一年 Claude Team + $1000 credits",
@@ -70,7 +95,23 @@
               "text": "白嫖窗口：一年免费 Team + $1000 足够验证一个 agent 产品原型，零成本试错；但记得把「一年后回到牌桌上的价格」算进单位经济模型再决定深绑。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "商业合作"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·官方口径转述",
+          "publish_time": "2026-10-07 00:00",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude Team",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Hark 发布主打隐私的 AI 个人助手",
@@ -87,7 +128,31 @@
               "text": "助手红海把「隐私/本地处理」当差异化轴心，但纯隐私叙事若无独占场景数据很难撑留存——需求真伪待验证，先观察四周数据再说。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-07 02:22",
+          "entities": [
+            {
+              "name": "Hark",
+              "type": "企业"
+            },
+            {
+              "name": "Muse",
+              "type": "产品"
+            },
+            {
+              "name": "Dots",
+              "type": "产品"
+            },
+            {
+              "name": "Instinct",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "Mirror Particle 从零训「人类行为世界模型」，主打市场研究",
@@ -104,7 +169,23 @@
               "text": "市场研究模拟（消费者反应预演）是咨询业的真金白银付费场景；但 LLM 人群模拟已被反复证伪过，「通用底座 vs 专用世界模型」的差异要靠第三方验证立信。💰 投资/商业：Battlefield 曝光本身是融资漏斗，同赛道玩家可盯其下一轮报价定价市场热度。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·发布会前预告",
+          "publish_time": "2026-10-07 00:35",
+          "entities": [
+            {
+              "name": "Mirror Particle",
+              "type": "企业"
+            },
+            {
+              "name": "TechCrunch Disrupt",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "前 Ramp 团队砍掉首个产品再拿 $20M，转做营销创意生成",
@@ -121,7 +202,23 @@
               "text": "两次教训值得记：优化存量预算（帮客户省多少钱）的天花板系统性低于生成新供给（帮客户多做多少）；砍产品重来的窗口期还在，AI 创意生成仍是资本愿加注的叙事。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-07 06:34",
+          "entities": [
+            {
+              "name": "Melius",
+              "type": "企业"
+            },
+            {
+              "name": "Ramp",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -151,7 +248,26 @@
               "text": "学术社区复现坐实则 RSI 叙事再获硬背书、算力需求曲线上修；被批量证伪则 AI-for-math 板块重定价——一周内出方向。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "官方原文+多家同报",
+          "publish_time": "2026-10-07 07:26",
+          "event_time": "2026-10-06",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（OpenAI 官方页 sharing-ai-progress-in-mathematics 同口径；Decrypt/AIWeekly 多家跟进；社区已复现 quasi-Riemann 结果通过）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "IAS",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "DeepMind 开放 EmbeddingGemma 2：轻量多模态嵌入模型",
@@ -174,7 +290,27 @@
               "text": "RAG 私有化交付的报价里可以砍掉 embedding API 预算项；顺带盯 HF 下载热度判断采用速度，嵌入 API 厂商的调价反应是先行指标。"
             }
           ],
-          "source_tier": "A"
+          "source_tier": "A",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-10-07 03:57",
+          "entities": [
+            {
+              "name": "Google DeepMind",
+              "type": "企业"
+            },
+            {
+              "name": "EmbeddingGemma 2",
+              "type": "产品"
+            },
+            {
+              "name": "Simon Willison",
+              "type": "人物"
+            }
+          ]
         },
         {
           "title": "Musubi 开放 PolicyLM-1.7B：实时内容审核专用决策模型",
@@ -197,7 +333,25 @@
               "text": "平台合规从外包人力转向自托管小模型，「审核策略外包 + 私有部署」的服务商有清晰付费方；政策压力越大的地区需求越刚性。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·开放权重可复查",
+          "publish_time": "2026-10-07 04:35",
+          "event_time": "2026-10-06",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "Musubi",
+              "type": "企业"
+            },
+            {
+              "name": "PolicyLM-1.7B",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -221,7 +375,27 @@
               "text": "企业采购 agent 的合规必答题清单正在成形（访问审计、熔断开关、训练数据隔离），先落地的供应商能拿政府/金融客户。⚡ 技术/可行性：「训练中可熔断」意味着训练管线要内建外呼审计，是新的 infra 需求点。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·转引 NYT",
+          "publish_time": "2026-10-07 07:58",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Jason Kwon",
+              "type": "人物"
+            },
+            {
+              "name": "Medicare",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "网站该不该给 agent 开门？新标准试图给「机器准入」立规矩",
@@ -238,7 +412,35 @@
               "text": "agent 准入协议是新的分发/渠道层——谁定标准谁收租；网站侧的「agent 白名单/收费墙」可能成为新的流量变现线。与昨晨 SIG-20261006-0900-4（agent 与开放网络对抗）同一主线，10-13 到期继续核。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·原页核实",
+          "publish_time": "2026-10-07 03:56",
+          "entities": [
+            {
+              "name": "Meta",
+              "type": "企业"
+            },
+            {
+              "name": "Muse",
+              "type": "产品"
+            },
+            {
+              "name": "Instinct",
+              "type": "企业"
+            },
+            {
+              "name": "Amazon",
+              "type": "企业"
+            },
+            {
+              "name": "Dots",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Anthropic 核心研究员：AI 超越所有人类可能只剩几年",
@@ -255,7 +457,23 @@
               "text": "Anthropic 传 10 月中旬路演，头部实验室的预测口径实质是 IPO 前的情绪铺垫；判断基本面时不据此定仓，但可据此校准一级市场的叙事温度。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-07 00:01",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Sholto Douglas",
+              "type": "人物"
+            }
+          ]
         },
         {
           "title": "Pinterest 把美妆 Pin 变成行动计划：内容平台开始吃交易佣金",
@@ -272,7 +490,23 @@
               "text": "「看→懂→约」是内容平台变佣金平台的可复制样板，中文对照物就是小红书；同类「AI 导购 + 预约」切口在美业、宠物、家装都成立，优先切低客单、高频、标准化的服务业。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-06 22:00",
+          "entities": [
+            {
+              "name": "Pinterest",
+              "type": "企业"
+            },
+            {
+              "name": "AI Beauty Guides",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "LibreOffice 宣布「没有 AI」本身就是软件功能",
@@ -289,7 +523,23 @@
               "text": "AI 疲劳期「反 AI」是真实定位——文档/笔记/邮件类工具里愿为「不联网、零遥测」付费的合规敏感人群在变大；对做 B 端产品的团队，「无数据外流」比「更聪明」更能过关采购。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-06 23:25",
+          "entities": [
+            {
+              "name": "LibreOffice",
+              "type": "产品"
+            },
+            {
+              "name": "The Document Foundation",
+              "type": "机构"
+            }
+          ]
         }
       ]
     }
