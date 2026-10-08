@@ -3,7 +3,7 @@
   "date": "2026-10-06",
   "time": "15:00",
   "title": "AI 情报 · 10-06 15:00 场",
-  "generatedAt": "2026-10-06T07:12:27.965Z",
+  "generatedAt": "2026-10-08T06:03:51.426Z",
   "coverage": "2026-10-05 15:00 → 10-06 15:00（Asia/Shanghai，24h 口径；DeepSeek Harness 条为 48h 边界并标注）",
   "notes": [
     "国庆假期午后国内产出回升，早场已收割海外隔夜增量，本期以融资窗口与国内动态为主"
@@ -47,7 +47,24 @@
               "text": "基模型层「融资竞赛重新开闸」对应用层是利好信号——上游弹药充足、API 价格战继续压成本，创业者应趁 token 降价窗口把场景壁垒做厚。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "低",
+          "confidence_note": "据悉措辞未获官方证实",
+          "publish_time": "2026-10-06 12:19",
+          "verify_note": "外部检索（新浪财经/財訊快報同日同报，源引晚点LatePost；Kimi 方不予置评）",
+          "entities": [
+            {
+              "name": "月之暗面",
+              "type": "企业"
+            },
+            {
+              "name": "Kimi",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "快手可灵 AI 计划最早明年赴港上市，至少融资 10 亿美元",
@@ -64,7 +81,23 @@
               "text": "视频生成赛道出现第一个明确的独立 IPO 标的，把「AI 视频生成是订阅生意还是成本黑洞」的争论直接推向公开市场检验；与 Utopai X（盲评登顶的影视定制黑马）对照，通用工具线与垂直影视线的估值路径将首次同台定价。"
             }
           ],
-          "source_tier": null
+          "source_tier": null,
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "低",
+          "confidence_note": "据悉措辞未获官方证实",
+          "publish_time": "2026-10-06 11:57",
+          "entities": [
+            {
+              "name": "快手",
+              "type": "企业"
+            },
+            {
+              "name": "可灵 AI",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "ChatGPT 图像生成旁将出现视觉广告：10 月内美国上线",
@@ -87,7 +120,23 @@
               "text": "对中小 AI 产品，广告位设计已有现成范式可抄（生成等待画面×品牌展示×明确标注）；但注意 OpenAI ToS 与 EU 水印合规边界，做「广告+生成」混合产品要先把归因数据管道搭好。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·官方官宣在先",
+          "publish_time": "2026-10-05 23:14",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "ChatGPT",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -123,7 +172,31 @@
               "text": "原生全模态（视觉+语言一体）开源权重可直接下载评测，AA 指数 46 分待社区复现；若坐实，「开放权重第一梯队扩容到手机厂商」。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·榜单分待复现",
+          "publish_time": "2026-10-06 12:00",
+          "entities": [
+            {
+              "name": "小米",
+              "type": "企业"
+            },
+            {
+              "name": "MiMo-V2.6",
+              "type": "产品"
+            },
+            {
+              "name": "罗福莉",
+              "type": "人物"
+            },
+            {
+              "name": "Artificial Analysis",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "Utopai X 视频模型盲评全球第二、物理效果与音频同步双第一，公司估值 10 亿美元",
@@ -152,7 +225,31 @@
               "text": "垂直后训练对通用模型的单项超越已被榜单实证，但通用能力（长片 1000-1500 镜头连贯性）仍是硬骨头。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·转述 AA 榜单数据",
+          "publish_time": "2026-10-06 12:55",
+          "entities": [
+            {
+              "name": "Utopai Studios",
+              "type": "企业"
+            },
+            {
+              "name": "Utopai X",
+              "type": "产品"
+            },
+            {
+              "name": "MiniMax",
+              "type": "企业"
+            },
+            {
+              "name": "Artificial Analysis",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "DeepSeek Harness 假期更新 v0.2.1：新增 Claude Code Mods 实验性兼容层",
@@ -175,7 +272,27 @@
               "text": "为各家 agent 工具做跨平台 Mod/插件分发（类似 VS Code 插件市场的位置）窗口刚开；给企业做 Mod 合规审批与安全审计（ Mods 可拦截/接管工具调用，风险不小）是更冷门更高门槛的角度。"
             }
           ],
-          "source_tier": null
+          "source_tier": null,
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-04 23:42",
+          "entities": [
+            {
+              "name": "DeepSeek",
+              "type": "企业"
+            },
+            {
+              "name": "Claude Code",
+              "type": "产品"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "TII 发布 Falcon-Emirati-7B：让 7B 模型学会阿联酋方言与文化语境",
@@ -204,7 +321,27 @@
               "text": "7B 基座+定向数据足够做方言跃迁，成本量级远低于从零训练；评测方法论（人工母语者+LLM judge+基准三件套）可直接借鉴。"
             }
           ],
-          "source_tier": "A"
+          "source_tier": "A",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-10-06 14:44",
+          "entities": [
+            {
+              "name": "TII",
+              "type": "机构"
+            },
+            {
+              "name": "Falcon-Emirati",
+              "type": "产品"
+            },
+            {
+              "name": "Hugging Face",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -228,7 +365,23 @@
               "text": "主权模型竞赛再添一国预算级玩家，Naver/SK/LG 系将承接大头；对「区域算力+主权云」产业链（含中企出海承接数据/标注/交付）是增量采购窗口。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-06 13:00",
+          "entities": [
+            {
+              "name": "韩国政府",
+              "type": "机构"
+            },
+            {
+              "name": "Naver",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -258,7 +411,27 @@
               "text": "依托国产开放价格模型做海外服务（数据合规敏感度低的行业即可），成本优势在 Amazon 分成体系内同样成立。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "商业合作"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-06 10:25",
+          "entities": [
+            {
+              "name": "智谱AI",
+              "type": "企业"
+            },
+            {
+              "name": "GLM",
+              "type": "产品"
+            },
+            {
+              "name": "Amazon",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "微软、Meta 同步收缩 Claude 支出：预算砍超 1/3、用户腰斩",
@@ -281,7 +454,36 @@
               "text": "给「大客户自研替代」做平滑迁移层（模型网关+评测+成本对比看板）的真实付费需求被这个案例直接证实；反向提醒：应用层绑定单一模型厂商时，把「可迁移性」写进架构等于给自己的估值/留存上保险。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·引 The Information",
+          "publish_time": "2026-10-06 10:23",
+          "verify_note": "外部检索（Yahoo Finance/India Today 等多家转引 The Information 10-05 报道，关键数字一致）",
+          "entities": [
+            {
+              "name": "Microsoft",
+              "type": "企业"
+            },
+            {
+              "name": "Meta",
+              "type": "企业"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude Code",
+              "type": "产品"
+            },
+            {
+              "name": "Copilot",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "SemiAnalysis 拆解订阅经济学：订阅是「亏本引流品」，OpenAI Pro 砍半推 500 美元档",
@@ -304,7 +506,31 @@
               "text": "创业公司定价别抄订阅巨头（他们靠补贴抢市场），用量计费+预付点数结构的抗退化能力更强；「订阅权益暗中缩水」将成为用户投诉高发区，透明定价反而是营销卖点。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·转述独立机构报告",
+          "publish_time": "2026-10-06 14:45",
+          "entities": [
+            {
+              "name": "SemiAnalysis",
+              "type": "机构"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "ChatGPT",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "71% 美国人反对本地建 AI 数据中心（比核电站还烦）；谷歌转签 10 亿美元核电",
@@ -328,7 +554,27 @@
               "text": "给数据中心做「社区关系/许可合规/环境影响可视化」工具是政策挤压催生的小众刚需；出海算力项目尽调要把当地公投风险列为一级条款。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·民调数据转述",
+          "publish_time": "2026-10-06 14:00",
+          "entities": [
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "盖洛普",
+              "type": "机构"
+            },
+            {
+              "name": "Constellation",
+              "type": "企业"
+            }
+          ]
         }
       ]
     }
