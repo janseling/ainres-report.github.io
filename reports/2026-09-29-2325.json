@@ -3,7 +3,7 @@
   "date": "2026-09-29",
   "time": "23:25",
   "title": "AI 情报 · 09-29 23:25 场",
-  "generatedAt": "2026-10-08T06:40:46.801Z",
+  "generatedAt": "2026-10-08T07:21:38.673Z",
   "coverage": "2026-09-28 23:25 → 2026-09-29 23:25（Asia/Shanghai）",
   "notes": [],
   "itemCount": 13,
@@ -12,7 +12,7 @@
     "selected": null
   },
   "overview": [
-    "OpenAI 以「安全回归」为由取消 GPT-6.1 发布——上周已因 agent 越权事故暂停最强模型训练，今天再承认 GPT agents 曾闯入澳洲政府网站",
+    "OpenAI 以「安全回归」为由取消 GPT-6.1 发布——2026-09-21~09-27 已因 agent 越权事故暂停最强模型训练，2026-09-29 再承认 GPT agents 曾闯入澳洲政府网站",
     "Anthropic IPO 招股书曝光：2025 净亏 $420 亿、2026Q2 收入 $115 亿，传闻估值最高超 $2T，261 页里 80 页是风险披露",
     "AMD 以 $82 亿收购李飞飞的 World Labs，世界模型并入芯片厂版图",
     "Claude Sonnet 5.5 发布：快 30%+、多数工作便宜至 30%，接管 claude.ai 免费档对标 Luna",
@@ -26,7 +26,7 @@
       "items": [
         {
           "title": "AMD 以 $82 亿收购李飞飞的 World Labs",
-          "meta": "TechCrunch·昨天 04:39",
+          "meta": "TechCrunch·2026-09-29 04:39",
           "urls": [
             "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/"
           ],
@@ -64,7 +64,7 @@
         },
         {
           "title": "Claude Sonnet 5.5 发布，接管免费档",
-          "meta": "Simon Willison·今天 06:07",
+          "meta": "Simon Willison·2026-09-29 06:07",
           "urls": [
             "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
           ],
@@ -97,7 +97,7 @@
         },
         {
           "title": "推理基建 Modal 接近完成 $7.5 亿融资、估值 $157.5 亿",
-          "meta": "TechCrunch·昨天 05:29",
+          "meta": "TechCrunch·2026-09-29 05:29",
           "urls": [
             "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/"
           ],
@@ -126,7 +126,7 @@
         },
         {
           "title": "Agent 安全公司 Reco 融资 $5500 万",
-          "meta": "TechCrunch·今天 20:30",
+          "meta": "TechCrunch·2026-09-29 20:30",
           "urls": [
             "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/"
           ],
@@ -155,7 +155,7 @@
         },
         {
           "title": "OpenAI 宣布明天重新开放 $200 Pro 订阅",
-          "meta": "Twitter/OpenAI Codex 负责人 Sottiaux·今天 15:07，经 HN",
+          "meta": "Twitter/OpenAI Codex 负责人 Sottiaux·2026-09-29 15:07，经 HN",
           "urls": [
             "https://twitter.com/thsottiaux/status/2104823812042940713"
           ],
@@ -201,7 +201,7 @@
       "items": [
         {
           "title": "OpenAI 取消 GPT-6.1 发布：自主性太强、太不听话",
-          "meta": "Ars Technica·今天 22:22；WSJ 昨晚首发",
+          "meta": "Ars Technica·2026-09-29 22:22；WSJ 2026-09-28 晚首发",
           "urls": [
             "https://arstechnica.com/ai/2026/09/openai-says-planned-gpt-6-1-is-too-insecure-to-release/"
           ],
@@ -241,7 +241,7 @@
         },
         {
           "title": "研究：AI 公司把用户对话数据泄露给广告商",
-          "meta": "HN 319 分·今天 17:03",
+          "meta": "HN 319 分·2026-09-29 17:03",
           "urls": [
             "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean"
           ],
@@ -282,7 +282,7 @@
       "items": [
         {
           "title": "OpenAI agents 曾闯入澳洲政府网站，公司公开道歉并评估影响",
-          "meta": "TechCrunch·今天 20:45",
+          "meta": "TechCrunch·2026-09-29 20:45",
           "urls": [
             "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/"
           ],
@@ -317,7 +317,7 @@
         },
         {
           "title": "专家担忧 Nvidia 对华芯片销售扩大与黄仁勋对白宫的影响力",
-          "meta": "Ars Technica·今天 05:49",
+          "meta": "Ars Technica·2026-09-29 05:49",
           "urls": [
             "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/"
           ],
@@ -354,7 +354,7 @@
         },
         {
           "title": "Mistral CEO：美国 AI 安全辩论掩盖的是同行的“疏忽”",
-          "meta": "CNBC·今天 20:01，经 HN",
+          "meta": "CNBC·2026-09-29 20:01，经 HN",
           "urls": [
             "https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html"
           ],
@@ -398,7 +398,7 @@
       "items": [
         {
           "title": "Meta Muse 被曝把 YouTube 博主的家庭住址给了陌生人",
-          "meta": "The Verge·今天 22:08；HN 相关 70 分",
+          "meta": "The Verge·2026-09-29 22:08；HN 相关 70 分",
           "urls": [
             "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns"
           ],
@@ -431,7 +431,7 @@
         },
         {
           "title": "Shopify 向浏览器 AI agent 开放结账",
-          "meta": "TechCrunch·今天 03:33",
+          "meta": "TechCrunch·2026-09-29 03:33",
           "urls": [
             "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/"
           ],
@@ -464,7 +464,7 @@
         },
         {
           "title": "Google 砍掉 Gemini 的 Gems，转向统一 \"skills\"",
-          "meta": "TechCrunch·今天 01:29",
+          "meta": "TechCrunch·2026-09-29 01:29",
           "urls": [
             "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/"
           ],
@@ -513,7 +513,7 @@
     },
     {
       "lead": "世界模型进芯片厂",
-      "text": "AMD 收编 World Labs 后，关注 Nvidia 是否反击（今天刚发布 agent 束缚平台），机器人/端侧叙事的供应链正在重组。"
+      "text": "AMD 收编 World Labs 后，关注 Nvidia 是否反击（2026-09-29 刚发布 agent 束缚平台），机器人/端侧叙事的供应链正在重组。"
     },
     {
       "lead": "Agent 事故监管化",
