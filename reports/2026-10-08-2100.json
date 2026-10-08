@@ -3,7 +3,7 @@
   "date": "2026-10-08",
   "time": "21:00",
   "title": "AI 情报 · 10-08 21:00 场",
-  "generatedAt": "2026-10-08T13:09:51.960Z",
+  "generatedAt": "2026-10-08T14:20:19.275Z",
   "coverage": "2026-10-08 15:00 → 21:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00/15:00 场已报同题条目（GPT-6 免费/IUI、Haiku 5.5 降价、ICANN gTLD、AHM 声明等）去重不收"
@@ -341,9 +341,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 UniPat 官网榜单原文+凤凰网/硅星人 10-08 同报",
           "publish_time": "2026-10-08 17:28",
+          "verify_note": "外部检索（UniPat benchmarks 页同数「GPT-6-Astra/Full 13.98%·93 tasks/12 areas」；凤凰网（c114 转载）与硅星人 10-08 独立稿同报复现率 13.98%）",
           "entities": [
             {
               "name": "UniPat AI",
@@ -378,9 +379,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 arXiv 2610.08791 官方论文原文+Einsia 官网专页",
           "publish_time": "2026-10-08 15:55",
+          "verify_note": "外部检索（arXiv 2610.08791《World Models' Last Exam in Physics》Einsia/Navers Lab 署名，摘要载满分 100 最高 57.76；官方专页 lab.einsia.ai/phys-last-exam 在线）",
           "entities": [
             {
               "name": "Einsia AI",
