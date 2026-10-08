@@ -1,6 +1,31 @@
 {
-  "count": 27,
+  "count": 28,
   "reports": [
+    {
+      "id": "2026-10-08-2100",
+      "date": "2026-10-08",
+      "time": "21:00",
+      "title": "AI 情报 · 10-08 21:00 场",
+      "itemCount": 11,
+      "coverage": "2026-10-08 15:00 → 21:05（Asia/Shanghai）",
+      "note": "本日 09:00/15:00 场已报同题条目（GPT-6 免费/IUI、Haiku 5.5 降价、ICANN gTLD、AHM 声明等）去重不收",
+      "overview": [
+        "Anthropic IPO 口径落定：官方 6-01 确认秘密递交 S-1，Reuters 泄露稿给出最快 11 月中期选举后挂牌纳斯达克、目标估值超 2 万亿美元。",
+        "Manus 母公司官宣超 5 亿美元新融资（博裕/IDG 领投），国内 AI 应用最大单笔，同步回京组队。",
+        "OpenAI 数学批量出货进入自审轨道：官方撤回 3 篇、修订 14 篇，Lean 形式化率 42%；同期 PaperBenchX 实测 GPT-6 Astra 论文复现率仅 13.98%。",
+        "微软×英伟达发布 Surface Laptop Ultra（128GB 统一内存本地跑 120B+ 模型），Windows 押注「本地+云端」Agent 调度。",
+        "CrowdStrike 起底韩国银行黑客：疑单人完成，全 AI 工具栈（ARTEX+Claude Code+GLM-5.3/Grok 4.6）。"
+      ],
+      "sectionCounts": {
+        "product": 6,
+        "tech": 3,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": 116,
+        "selected": 11
+      }
+    },
     {
       "id": "2026-10-08-1500",
       "date": "2026-10-08",
