@@ -3,7 +3,7 @@
   "date": "2026-09-29",
   "time": "23:25",
   "title": "AI 情报 · 09-29 23:25 场",
-  "generatedAt": "2026-10-08T07:21:38.673Z",
+  "generatedAt": "2026-10-08T09:44:58.579Z",
   "coverage": "2026-09-28 23:25 → 2026-09-29 23:25（Asia/Shanghai）",
   "notes": [],
   "itemCount": 13,
@@ -174,7 +174,7 @@
           ],
           "confidence": "高",
           "confidence_note": "OpenAI DevDay 官方纪要同口径确认 Pro 200 重开",
-          "publish_time": "2026-09-29 15:07",
+          "publish_time": "2026-09-29 14:41",
           "event_time": "2026-09-30",
           "event_time_inferred": false,
           "entities": [
@@ -260,7 +260,7 @@
           ],
           "confidence": "低",
           "confidence_note": "HN 单源·论文指控未经证实",
-          "publish_time": "2026-09-29 17:03",
+          "publish_time": "2026-09-16 17:11",
           "original_title": "HN 端原题《A Privacy Analysis of Web and Mobile Conversational AI》",
           "entities": [
             {
@@ -373,7 +373,7 @@
           ],
           "confidence": "中",
           "confidence_note": "B单源·CNBC 访谈转述",
-          "publish_time": "2026-09-29 20:01",
+          "publish_time": "2026-09-29 16:20",
           "entities": [
             {
               "name": "Mistral AI",
