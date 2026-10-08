@@ -3,7 +3,7 @@
   "date": "2026-10-08",
   "time": "21:00",
   "title": "AI 情报 · 10-08 21:00 场",
-  "generatedAt": "2026-10-08T18:47:53.598Z",
+  "generatedAt": "2026-10-08T18:49:14.137Z",
   "coverage": "2026-10-08 15:00 → 21:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00/15:00 场已报同题条目（GPT-6 免费/IUI、Haiku 5.5 降价、ICANN gTLD、AHM 声明等）去重不收"
@@ -307,7 +307,6 @@
           "publish_time": "2026-10-08 15:05",
           "event_time": "2026-10-07",
           "event_time_inferred": false,
-          "verify_note": "外部检索（机器之心Pro 10-08 18:00 独立跟进稿（新浪科技转载）：撤回 3 篇、修订 14 篇、在档总数 722→719，归因正负号错误——与官方仓库日志一致）",
           "entities": [
             {
               "name": "OpenAI",
