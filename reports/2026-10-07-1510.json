@@ -3,7 +3,7 @@
   "date": "2026-10-07",
   "time": "15:10",
   "title": "AI 情报 · 10-07 15:10 场",
-  "generatedAt": "2026-10-08T07:21:38.686Z",
+  "generatedAt": "2026-10-08T14:20:45.918Z",
   "coverage": "10-07 09:05 → 10-07 15:16（Asia/Shanghai）",
   "notes": [
     "昨 09:00 场已报条目全部去重；OpenAI Decisions API 公测（2026-10-07 04:53）因上期 OpenAI RSS 403 + Reddit 全挂漏抓，本期补收"
@@ -100,6 +100,7 @@
           "confidence": "高",
           "confidence_note": "A源·官方公告原文",
           "publish_time": "2026-10-07 04:53",
+          "verify_note": "外部检索（Vercel 10-07 Changelog 独立同报：AI Gateway 已上 OpenAI 兼容 /v1/decisions、GPT-6 Luna，probabilities/choices/scores 口径一致）",
           "entities": [
             {
               "name": "OpenAI",
@@ -136,9 +137,10 @@
           "type_tags": [
             "融资交易"
           ],
-          "confidence": "低",
-          "confidence_note": "据悉·彭博爆料转引",
+          "confidence": "中",
+          "confidence_note": "双源佐证：彭博 10-06 爆料+财联社/澎湃/凤凰网 10-06 独立同报，快手未证实",
           "publish_time": "2026-10-07 15:08",
+          "verify_note": "外部检索（财联社·科创板日报/21财经/澎湃/凤凰网 10-06 同报：中金+高盛+瑞银承销、募资至少 10 亿美元、预计 2027 年初递表）",
           "entities": [
             {
               "name": "可灵 AI",
@@ -181,9 +183,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "低",
-          "confidence_note": "C源·PH 榜单",
+          "confidence": "中",
+          "confidence_note": "双源佐证 PH 榜单+官方站/HN/flash24 独立同报",
           "publish_time": "2026-10-07",
+          "verify_note": "外部检索（官方站 reikacode.com「A coding agent CLI for local and hosted models·small local models first」；Hacker News 转帖（github.com/alexwkleung）与 flash24.org 同报其 10-05 释出、面向 8B–35B 本地模型）",
           "entities": [
             {
               "name": "Reika",
@@ -261,9 +264,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·学界反应转述",
+          "confidence": "高",
+          "confidence_note": "双源佐证 量子位 10-07+哲见 WISE AI/每日AI新闻 10-08 同报",
           "publish_time": "2026-10-07 09:05",
+          "verify_note": "外部检索（哲见/每日AI新闻同报：三位菲尔兹奖得主顾问组表态「不代表认可」、成果仍待检验；动区 10-07 另引《WIRED》顾问组披露争议）",
           "entities": [
             {
               "name": "OpenAI",
@@ -296,9 +300,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·论文证据链自述",
+          "confidence": "高",
+          "confidence_note": "双源佐证 arXiv 2609.34261 原文+RoboRadar 10-01 同报",
           "publish_time": "2026-10-07 15:06",
+          "verify_note": "外部检索（arXiv 2609.34261《RoboICL: Embodied In-Context Learning with GPT-6 Astra》Samsung Research 署名、9-28 挂出；RoboRadar 10-01 同报：冻结模型仅示范推理、30 项 RoboDojo 任务领先）",
           "entities": [
             {
               "name": "三星",
@@ -337,9 +342,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·现场演示转述",
+          "confidence": "高",
+          "confidence_note": "双源佐证 EMNLP 2026 官方 AI Reviewing Experiment 专页+机器之心Pro 现场转述",
           "publish_time": "2026-10-07 15:09",
+          "verify_note": "外部检索（2026.emnlp.org 官方专页在线：AI 审稿实验 opt-in 采集作者反馈；同稿另见新浪科技/凤凰网大风号版）",
           "entities": [
             {
               "name": "EMNLP",
@@ -379,9 +385,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·官方项目转述",
+          "confidence": "高",
+          "confidence_note": "双源佐证 Anthropic 官方 10-06 公告+SecurityWeek/CSO Online 10-07 独立同报",
           "publish_time": "2026-10-07 10:42",
+          "verify_note": "外部检索（anthropic.com 10-06《Expanding the Cyber Verification Program》+Help Center：单档扩为 Opus 5.5 三档；SecurityWeek 10-07、CSO Online 10-07 独立同报）",
           "entities": [
             {
               "name": "Anthropic",
@@ -418,9 +425,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·爱范儿调查转引",
+          "confidence": "高",
+          "confidence_note": "双源佐证 爱范儿 10-07 调查+财智网/ZGEO 独立解析稿",
           "publish_time": "2026-10-07 14:30",
+          "verify_note": "外部检索（凤凰网科技 10-07 转载爱范儿调查同题；财智网/ZGEO 独立稿同报：2024 年起沿 API 蔓延至用户标题、o200k_base 词表污染+轻量模型收尾失效、OpenAI 承认后未根治）",
           "entities": [
             {
               "name": "OpenAI",
