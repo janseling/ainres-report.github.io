@@ -3,10 +3,10 @@
   "date": "2026-10-08",
   "time": "15:00",
   "title": "AI 情报 · 10-08 15:00 场",
-  "generatedAt": "2026-10-08T07:13:20.874Z",
+  "generatedAt": "2026-10-08T07:21:38.687Z",
   "coverage": "2026-10-08 09:00 → 15:05（Asia/Shanghai）",
   "notes": [
-    "2026-10-08 0900 场已覆盖 GPT-6 免费开放/IUI、Haiku 5.5、Mistral Le Chonk 等同题稿，本期不再收录"
+    "2026-10-08 09:00 场已覆盖 GPT-6 免费开放/IUI、Haiku 5.5、Mistral Le Chonk 等同题稿，本期不再收录"
   ],
   "itemCount": 13,
   "rawStats": {
@@ -52,7 +52,7 @@
             "其他"
           ],
           "confidence": "中",
-          "confidence_note": "B单源·事件本体为 CRN 10-02 报道，36氪今日延迟跟进",
+          "confidence_note": "B单源·事件本体为 CRN 10-02 报道，36氪 2026-10-08 延迟跟进",
           "publish_time": "2026-10-08 13:07",
           "event_time": "2026-10-02",
           "event_time_inferred": false,
