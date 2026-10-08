@@ -3,7 +3,7 @@
   "date": "2026-10-05",
   "time": "21:00",
   "title": "AI 情报 · 10-05 21:00 场",
-  "generatedAt": "2026-10-08T06:32:08.717Z",
+  "generatedAt": "2026-10-08T07:21:38.684Z",
   "coverage": "2026-10-05 15:00 → 21:00（Asia/Shanghai，24h 口径；ThinkingBox 条目为 48h 边界）",
   "notes": [
     "信源状态见文末",
@@ -29,7 +29,7 @@
       "items": [
         {
           "title": "OpenAI 把广告推进深水区：ChatGPT Ads 新视觉格式＋测量全家桶，月中美国内测",
-          "meta": "OpenAI 官方博客·3小时前",
+          "meta": "OpenAI 官方博客·2026-10-05",
           "urls": [
             "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
           ],
@@ -45,7 +45,7 @@
               "kind": "startup",
               "icon": "🛠️",
               "label": "产品/创业",
-              "text": "围绕 ChatGPT Ads 的投放代理、素材生成、measurement 插件是新的工具层市场——今天官方公布的 partner 名单就是进生态的门票清单；图像生成场景对电商素材客户天然友好。"
+              "text": "围绕 ChatGPT Ads 的投放代理、素材生成、measurement 插件是新的工具层市场——2026-10-05 官方公布的 partner 名单就是进生态的门票清单；图像生成场景对电商素材客户天然友好。"
             }
           ],
           "source_tier": "A",
@@ -70,7 +70,7 @@
         },
         {
           "title": "Cohere North 2：给企业 agent 加\"预算刹车\"，harness 重设计",
-          "meta": "VentureBeat·刚刚",
+          "meta": "VentureBeat·2026-10-05",
           "urls": [
             "https://venturebeat.com/orchestration/coheres-north-2-puts-ai-agents-on-a-budget-and-gives-them-a-memory"
           ],
@@ -109,11 +109,11 @@
         },
         {
           "title": "机器人安全验证赛道开张：Safeworld 出 stealth，数字人替真人测机器人",
-          "meta": "TechCrunch·1小时前",
+          "meta": "TechCrunch·2026-10-05",
           "urls": [
             "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/"
           ],
-          "summary": "CMU Safe AI Lab 主任 Ding Zhao 与 Kyle Wong、Simo Rachidi 创办 Safeworld，用「数字人类」模拟机器人伤害场景做概率化安全验证与信任建模，今日出 stealth；种子轮 $12M+，Shine Capital 与 a16z Speedrun 领投，CMU 捐赠基金、SV Angel 等参投。",
+          "summary": "CMU Safe AI Lab 主任 Ding Zhao 与 Kyle Wong、Simo Rachidi 创办 Safeworld，用「数字人类」模拟机器人伤害场景做概率化安全验证与信任建模，2026-10-05 出 stealth；种子轮 $12M+，Shine Capital 与 a16z Speedrun 领投，CMU 捐赠基金、SV Angel 等参投。",
           "angles": [
             {
               "kind": "invest",
@@ -166,7 +166,7 @@
       "items": [
         {
           "title": "放养 AI 练棋：Claude 零更新 +250 分，GPT-6 越练越菜，差距出在记忆管理",
-          "meta": "新智元·搜狐官方号同步·约2.5小时前",
+          "meta": "新智元·搜狐官方号同步·约2.2026-10-05",
           "urls": [
             "https://m.sohu.com/a/1084266210_473283"
           ],
@@ -213,7 +213,7 @@
         },
         {
           "title": "陶哲轩深夜站台：Caltech 物理拿下无强迫 3D 欧拉方程奇点候选解",
-          "meta": "新智元·搜狐官方号同步·6小时前",
+          "meta": "新智元·搜狐官方号同步·2026-10-05",
           "urls": [
             "https://m.sohu.com/a/1084214730_473283"
           ],
@@ -260,7 +260,7 @@
         },
         {
           "title": "4D 世界模型进手机：MoWorld 让 Mate 90 变成\"可以走进去\"的场",
-          "meta": "新智元·搜狐官方号同步·6小时前",
+          "meta": "新智元·搜狐官方号同步·2026-10-05",
           "urls": [
             "https://m.sohu.com/a/1084213821_473283"
           ],
@@ -348,11 +348,11 @@
         },
         {
           "title": "395M 决策模型 10ms 选型：微型决策模型品类成形",
-          "meta": "r/LocalLLaMA·4.5小时前",
+          "meta": "r/LocalLLaMA·4.2026-10-05",
           "urls": [
             "https://www.reddit.com/r/LocalLLaMA/comments/1wy3c0u/decisiontune_10_a_395m_encoder_that_picks_from/"
           ],
-          "summary": "DecisionTune 1.0（ModernBERT-large＋4KB 评分头，Apache-2.0）：输入状态/问题/选项列表，单次编码返回各选项概率，不生成文本，MLX 本地约 10ms/次；与 Amazon 开源 Strands Decider 2B（10-02，VB 称「Jev killer」）、StartLux 决策模型登顶（10-03，昨日已报）同节奏。",
+          "summary": "DecisionTune 1.0（ModernBERT-large＋4KB 评分头，Apache-2.0）：输入状态/问题/选项列表，单次编码返回各选项概率，不生成文本，MLX 本地约 10ms/次；与 Amazon 开源 Strands Decider 2B（10-02，VB 称「Jev killer」）、StartLux 决策模型登顶（10-03，2026-10-04 已报）同节奏。",
           "angles": [
             {
               "kind": "tech",
@@ -402,7 +402,7 @@
       "items": [
         {
           "title": "Rabbit 吕骋：人不该为 Agent 改变思考方式",
-          "meta": "36氪专访·4.5小时前",
+          "meta": "36氪专访·4.2026-10-05",
           "urls": [
             "https://36kr.com/p/4012726523957380"
           ],
@@ -445,7 +445,7 @@
         },
         {
           "title": "企业自建 Agent 复盘：ServiceNow Digital Worker 的痛点比路线图预设更窄",
-          "meta": "VentureBeat·22小时前",
+          "meta": "VentureBeat·2026-10-04",
           "urls": [
             "https://venturebeat.com/orchestration/we-built-an-ai-agent-for-servicenow-the-real-pain-points-were-narrower-than-our-roadmap-assumed"
           ],
@@ -484,7 +484,7 @@
         },
         {
           "title": "德国电信：2030 年前 AI 与自动化省出 €25 亿间接成本",
-          "meta": "36氪快讯·今日",
+          "meta": "36氪快讯·2026-10-05",
           "urls": [
             "https://36kr.com/p/4012625330917504"
           ],
@@ -516,8 +516,8 @@
   ],
   "signals": [
     {
-      "lead": "下周双旗舰对撞",
-      "text": "（延续上期）：OpenAI GPT-6.1 Sol Ultrafast「coming soon」× Anthropic Fable 5.5 传周二发布；今晚棋盘实验中 Sol 已以 828K 上下文专用跑道现身竞技场——发布临近的实锤。"
+      "lead": "2026-10-12~10-18 双旗舰对撞",
+      "text": "（延续上期）：OpenAI GPT-6.1 Sol Ultrafast「coming soon」× Anthropic Fable 5.5 传周二发布；2026-10-05 晚棋盘实验中 Sol 已以 828K 上下文专用跑道现身竞技场——发布临近的实锤。"
     },
     {
       "lead": "Reflection 开放权重落地窗口",
