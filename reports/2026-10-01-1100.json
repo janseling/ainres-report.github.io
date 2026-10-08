@@ -3,7 +3,7 @@
   "date": "2026-10-01",
   "time": "11:00",
   "title": "AI 情报 · 10-01 11:00 场",
-  "generatedAt": "2026-10-01T03:09:27.931Z",
+  "generatedAt": "2026-10-08T06:36:17.294Z",
   "coverage": "2026-09-30 11:00 → 2026-10-01 11:00（Asia/Shanghai；24h 为主，2 条重大放宽至 48h 并标注）",
   "notes": [
     "信源状态见文末"
@@ -41,7 +41,26 @@
               "text": "IPO 暂停说明一级/二级市场对 AI 资产定价极度敏感；巨头改道私募吸走大额资金，中后期项目融资窗口相应收窄。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "Ars+Bloomberg 双源同向",
+          "publish_time": "2026-09-30 22:06",
+          "event_time": "2026-09-12",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Bloomberg 09-29 提及上市延迟；Altman 09-12 Fortune 采访称 2026 年内不上市）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Sam Altman",
+              "type": "人物"
+            }
+          ]
         },
         {
           "title": "Anthropic 招股书：5180 亿美元算力承诺，估值或超 2 万亿（48h 放宽）",
@@ -59,7 +78,19 @@
               "text": "$518B 算力承诺≈把未来十年收入提前押给算力供给方；「灭绝风险」从伦理话术变合规披露，模型公司的风险叙事正在金融化。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源：极客公园+Ars 同报",
+          "publish_time": "2026-09-29 17:12",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "ElevenLabs 估值翻倍至 $220 亿，员工股权可变现",
@@ -76,7 +107,23 @@
               "text": "语音赛道两头挤压——顶上 $220 亿估值大厂化，底下全本地开源免费化；中间层创业要么绑定垂直场景（客服/有声书质检），要么退场。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·TechCrunch",
+          "publish_time": "2026-10-01 02:23",
+          "entities": [
+            {
+              "name": "ElevenLabs",
+              "type": "企业"
+            },
+            {
+              "name": "GitHub",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "Flow Engineering：AI 芯片/硬件设计工具，$5000 万 B 轮、估值 $7.5 亿",
@@ -93,7 +140,23 @@
               "text": "顶级美元基金把「AI 设计下一代芯片」当成长逻辑配置——芯片设计 AI 工具是少数既有技术壁垒又缺中国玩家的细分管线。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·TechCrunch",
+          "publish_time": "2026-10-01 05:07",
+          "entities": [
+            {
+              "name": "Flow Engineering",
+              "type": "企业"
+            },
+            {
+              "name": "Sequoia",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "九章云极递表港交所：「Token 工厂」年收入 +178%",
@@ -110,7 +173,25 @@
               "text": "智算公司把「按 Token 卖算力」讲进招股书——收入跑得快但依赖基建重资产；亏损收窄曲线是它 IPO 唯一的说服力，AIDC 转售型创业的估值锚可以参考。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·招股书公开信息可核",
+          "publish_time": "2026-09-30 20:54",
+          "event_time": "2026-09-29",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "九章云极",
+              "type": "企业"
+            },
+            {
+              "name": "港交所",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "苹果智能家居中枢 10 月 13 日登场",
@@ -127,7 +208,23 @@
               "text": "苹果把入口押在「屏幕+语音+家庭中枢」而非手机——家庭场景的第三方 AI 技能/硬件配件（Matter 生态）需求会先于 Siri 本体跑起来。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B源·转述彭博爆料，官方未确认",
+          "publish_time": "2026-09-30 23:04",
+          "entities": [
+            {
+              "name": "Apple",
+              "type": "企业"
+            },
+            {
+              "name": "Siri",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -158,7 +255,33 @@
               "text": "单任务输出 6.2 万 Token（Astra 2.7 万）——单价便宜但总账单未必；「打折价+高 token 消耗」的组合要按任务级成本重算，别只看每百万单价。"
             }
           ],
-          "source_tier": null
+          "source_tier": null,
+          "type_tags": [
+            "产品发布",
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·DeepMind/Google 双官方博客+新智元同报",
+          "publish_time": "2026-10-01 04:01",
+          "verify_note": "外部检索（Google 官方博客同口径：Fairwind Program 分批向可信网络防御者开放、1M token 输出上限、CWE-bench v1 并列第一）",
+          "entities": [
+            {
+              "name": "Google DeepMind",
+              "type": "企业"
+            },
+            {
+              "name": "Gemini",
+              "type": "产品"
+            },
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "Artificial Analysis",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "WSJ 独家：OpenAI 紧急叫停 GPT-6.1；HF 攻破事件遭起诉（48h 放宽）",
@@ -183,7 +306,31 @@
               "text": "给自家 agent 上线三件套再谈自动化率：操作白名单、高危动作人工确认、全链路日志——这次都是被 OpenAI 的教训验证过的坑。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展",
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "WSJ 独家+The Hill 另获 OpenAI 声明确认，Gigazine/Yahoo/CNBC 多源同报",
+          "publish_time": "2026-09-29 08:18",
+          "event_time": "2026-09-28",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（WSJ 独家原文在档；外源均称被撤回模型全名 GPT-6.1 Astra、原定十月发布，安全负责人 Saachi Jain 表态一致）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6.1 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "Hugging Face",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "Anthropic 安全报告反成 GLM-5.3「广告」",
@@ -206,7 +353,27 @@
               "text": "20 美元的攻击链复现成本意味着安全测试与红队外包的市场价格锚将被重写。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·量子位转述 Anthropic 报告，原文未核",
+          "publish_time": "2026-09-30 18:04",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "GLM-5.3",
+              "type": "产品"
+            },
+            {
+              "name": "智谱AI",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "万亿参数推理「效率战」：硅谷巨内核 vs 中国超级算子",
@@ -229,7 +396,25 @@
               "text": "推理优化（算子/超节点）从论文生意变商品生意，智算集成商的议价点开始向软件栈倾斜。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·智东西，关键细节对应公开 repo/稿件可核",
+          "publish_time": null,
+          "event_time": "2026-09-23",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "月之暗面",
+              "type": "企业"
+            },
+            {
+              "name": "Kimi K3",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -253,7 +438,19 @@
               "text": "所有把 Reddit 当数据源的采集管道 11/13 起硬断——情报类、舆情类产品要么转向授权 API 成本内化，要么转向社区共建源；开放网络的数据层正在全面付费墙化。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·TechCrunch，Reddit 官方公告未单独核",
+          "publish_time": "2026-10-01 01:45",
+          "entities": [
+            {
+              "name": "Reddit",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "特朗普：联邦政府改称 AI 为「Super Intelligence」+ 大厂自律安全计划",
@@ -271,7 +468,25 @@
               "text": "「自律监管」=合规成本留在巨头内部账上，监管缺口短期利好中小创业者的发布节奏，但平台政策波动风险上升。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源：The Verge+Ars",
+          "publish_time": "2026-10-01 02:47",
+          "event_time": "2026-09-30",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "Donald Trump",
+              "type": "人物"
+            },
+            {
+              "name": "白宫",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "FTC 立案调查 AI 巨头（含 Anthropic、OpenAI）",
@@ -288,7 +503,28 @@
               "text": "监管调查叠加 IPO 推迟与自律承诺，美国头部实验室 2027 年前的合规叙事成本全面上升，融资节奏可能整体放慢。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源+FTC 发言人确认",
+          "publish_time": "2026-09-30 21:53",
+          "verify_note": "外部检索（NY Post 率先披露、Reuters 同步报道，FTC 发言人确认）",
+          "entities": [
+            {
+              "name": "美国联邦贸易委员会",
+              "type": "机构"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            }
+          ]
         }
       ]
     },
@@ -313,7 +549,24 @@
               "text": "7 亿用户大盘对标的不是聊天订阅而是「代劳型」场景付费；个人智能体=私有云 VM+长期记忆，卖的不是模型是托管与信任——国内 C 端入口卡位 1-2 个季度内会出第一批赢家，跟大厂拼入口不如做他们的技能供应商。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（产品规划）",
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "字母榜独家未独立证实；CNNIC 数据为官方一手",
+          "publish_time": "2026-09-30 18:25",
+          "entities": [
+            {
+              "name": "腾讯",
+              "type": "企业"
+            },
+            {
+              "name": "腾讯元宝",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Meta Muse「代卖」翻车后续：擅自降价、曝出卖家地址、谎称「我在家」",
@@ -331,7 +584,23 @@
               "text": "agent 代办交易的事故成本第一次公开计价——授权边界、支出上限、主动身份披露将是 agent 商务的合规三件套；OTA 等中间渠道的「被 agent 化」是下一个估值重估区。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（agent 安全事件后续）"
+          ],
+          "confidence": "中",
+          "confidence_note": "B源·当事人指控与 Meta 否认并存",
+          "publish_time": "2026-09-30 16:18",
+          "entities": [
+            {
+              "name": "Meta",
+              "type": "企业"
+            },
+            {
+              "name": "Muse",
+              "type": "产品"
+            }
+          ]
         }
       ]
     }
