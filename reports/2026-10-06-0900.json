@@ -3,7 +3,7 @@
   "date": "2026-10-06",
   "time": "09:00",
   "title": "AI 情报 · 10-06 09:00 场",
-  "generatedAt": "2026-10-08T07:21:38.685Z",
+  "generatedAt": "2026-10-08T17:18:12.171Z",
   "coverage": "2026-10-05 21:00 → 10-06 09:00（Asia/Shanghai，24h 口径；ARC-AGI-3 条目为 48h 边界）",
   "notes": [
     "国庆假期国内夜间产出低谷，海外隔夜增量为主"
@@ -101,9 +101,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+PYMNTS/TNW 同报",
           "publish_time": "2026-10-06 02:29",
+          "verify_note": "外部检索（PYMNTS/The Next Web 同步报道：TikTok 官宣站内 AI 购物助手＋Buy Direct 一键下单，10-05 同报）",
           "entities": [
             {
               "name": "TikTok",
@@ -144,9 +145,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·转引亲历者推文",
+          "confidence": "高",
+          "confidence_note": "双源佐证 Simon Willison 转引+Rieseberg 本人 X 长文亲证",
           "publish_time": "2026-10-06 07:56",
+          "verify_note": "外部检索（Glonce 等英文日刊同报：Rieseberg 本人公开长文证实新版推理与 VM 全迁云、会话级沙盒互不共享）",
           "entities": [
             {
               "name": "Anthropic",
@@ -191,11 +193,12 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+官方 Chakra 页/The Brief 同报",
           "publish_time": "2026-10-06 00:43",
           "event_time": "2026-10-05",
           "event_time_inferred": true,
+          "verify_note": "外部检索（The Brief+HackerRank 官方页同步报道：Chakra 已 GA，官方页确认评估判断力/批判性思维/AI fluency，50 万+ 场量级）",
           "entities": [
             {
               "name": "HackerRank",
@@ -239,11 +242,12 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 新智元/搜狐+theclarity/AICoder 英文同报",
           "publish_time": "2026-10-06 07:58",
           "event_time": "2026-10-06",
           "event_time_inferred": false,
+          "verify_note": "外部检索（theclarity.today/AICoder 等英文渠道同报：Tibo 官宣 Day-1 双旗舰默认 30→50 TPS、约 +50%，换激进 Tokenizer）",
           "entities": [
             {
               "name": "OpenAI",
@@ -288,9 +292,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·RSS摘要口径",
+          "confidence": "高",
+          "confidence_note": "双源佐证 Ars Technica+The Next Web 同报",
           "publish_time": "2026-10-06 06:26",
+          "verify_note": "外部检索（The Next Web 同步报道：同一研究者披露 Google/JPMorgan/两国政府修复同类 MCP SSRF 缺陷，5 个美联邦 MCP 服务器仍未闭环）",
           "entities": [
             {
               "name": "Model Context Protocol",
@@ -327,9 +332,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "低",
-          "confidence_note": "D源·社区帖榜单自述",
+          "confidence": "中",
+          "confidence_note": "双源佐证 Reddit 帖+TechTimes/trackfuture 同报爬升",
           "publish_time": "2026-10-04 18:24",
+          "verify_note": "外部检索（TechTimes/trackfuture 同步报道：ARC-AGI-3 Kaggle 榜顶分 30 天爬升至接近 56%，归因本地开放模型+harness，起点分口径略有出入）",
           "entities": [
             {
               "name": "ARC-AGI-3",
@@ -423,9 +429,10 @@
           "type_tags": [
             "政策监管"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·RSS摘要口径",
+          "confidence": "高",
+          "confidence_note": "双源佐证 Ars Technica+The Hindu/eWeek 同报",
           "publish_time": "2026-10-05 21:39",
+          "verify_note": "外部检索（The Hindu/eWeek 同步报道：挪威拟在选定的公共/敏感场所临时禁用带摄像头智能 AI 眼镜，全球首例针对性整顿）",
           "entities": [
             {
               "name": "挪威政府",
@@ -469,9 +476,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·独立研究者监测",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+IBTimes SG/Tom's Hardware 同报",
           "publish_time": "2026-10-05 22:35",
+          "verify_note": "外部检索（IBTimes SG/Tom's Hardware 同步报道：研究者把查高德入口导航数据的 agent fleet 初步溯源到腾讯云基建，运营方与目的未确认）",
           "entities": [
             {
               "name": "腾讯",
@@ -512,9 +520,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·援引官方博客",
+          "confidence": "高",
+          "confidence_note": "双源佐证 The Verge+Reuters 同报",
           "publish_time": "2026-10-06 06:22",
+          "verify_note": "外部检索（Reuters 同步报道：维基媒体证实 rogue agents 高频请求维基项目，或与 5 月数据服务中断相关）",
           "entities": [
             {
               "name": "Wikimedia Foundation",
@@ -551,9 +560,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·含传闻级扩展",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+Business Insider 同报；Gemini 扩展仍传闻级",
           "publish_time": "2026-10-06 02:54",
+          "verify_note": "外部检索（Business Insider/dataist 同步报道：Instinct agent 可进群聊、群成员无需注册 Instinct 账号）",
           "entities": [
             {
               "name": "Instinct",
@@ -602,9 +612,10 @@
           "type_tags": [
             "其他"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence": "高",
+          "confidence_note": "双源佐证 新智元/搜狐+The Decoder 同报",
           "publish_time": "2026-10-06 07:58",
+          "verify_note": "外部检索（The Decoder 同步报道：Boris Power 自述 80–90% 研究押向 GPT-7/8 及之后代际）",
           "entities": [
             {
               "name": "OpenAI",
