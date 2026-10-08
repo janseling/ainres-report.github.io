@@ -3,7 +3,7 @@
   "date": "2026-10-05",
   "time": "09:00",
   "title": "AI 情报 · 10-05 09:00 场",
-  "generatedAt": "2026-10-05T01:10:22.449Z",
+  "generatedAt": "2026-10-08T06:30:54.959Z",
   "coverage": "2026-10-03 09:00 → 2026-10-05 09:00（Asia/Shanghai，48h 口径，其中 24h 内 8 条）",
   "notes": [
     "信源状态见文末",
@@ -49,7 +49,35 @@
               "text": "27B 开源可本地部署+量化，交付成本可测算；极客公园稿（https://www.geekpark.net/news/372081）指向后续还有直觉层深化方向。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易",
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "量子位+机器之心双源同报，核心数据为 CEO 自述口径",
+          "publish_time": "2026-10-03 10:38",
+          "event_time": "2026-09-27",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（TypeSafe 官网确证 Jev/System One 定位；GuruFocus 09-25 已跟进 $10B 估值报道）",
+          "entities": [
+            {
+              "name": "TypeSafe",
+              "type": "企业"
+            },
+            {
+              "name": "Jev",
+              "type": "产品"
+            },
+            {
+              "name": "StartLux",
+              "type": "企业"
+            },
+            {
+              "name": "Diogo Almeida",
+              "type": "人物"
+            }
+          ]
         },
         {
           "title": "谷歌 Antigravity 大砍免费层：免费 Gemini 只剩 Flash-Lite，Claude 5.5 全量进 Pro/Ultra 订阅",
@@ -72,7 +100,31 @@
               "text": "多模型聚合+统一计费层价值上升；但平台开始补贴战，纯转发 API 的壳工具没有活路，要往工作流和资产层扎。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（订阅与模型供应政策）"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·新智元",
+          "publish_time": "2026-10-04 15:45",
+          "entities": [
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "Antigravity",
+              "type": "产品"
+            },
+            {
+              "name": "Gemini",
+              "type": "产品"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "Meta 开源 Muse Gadgets：ESP32 固件 + Linux SDK，让创客给 agent 造硬件",
@@ -96,7 +148,27 @@
               "text": "36氪快讯（10-04）记 Truist 对比 Muse 与 OpenAI Dots：「Meta 先赢在分发，OpenAI 更偏企业和复杂任务」——入口战两条路线已经显形。"
             }
           ],
-          "source_tier": null
+          "source_tier": null,
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "机器之心+TechCrunch 双源同报",
+          "publish_time": "2026-10-03 21:27",
+          "entities": [
+            {
+              "name": "Meta",
+              "type": "企业"
+            },
+            {
+              "name": "Muse Gadgets",
+              "type": "产品"
+            },
+            {
+              "name": "Muse",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Meshy 不怕通用模型吃掉：AI 3D 生成 ARR 从 $100 万到 $1 亿，用时不到两年",
@@ -119,7 +191,23 @@
               "text": "3D 资产要过拓扑/贴图/尺寸三关才进引擎，工程化交付质量就是垂直 AI 的护城河——这套逻辑可平移到音频、CAD 等重管线模态。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·企业自报 ARR",
+          "publish_time": "2026-10-04 08:53",
+          "entities": [
+            {
+              "name": "Meshy",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "DeepSeek 假期双响：Harness 新版对照 Claude Code Mods，DSec 沙盒基建公开 + 弹性计算扩招",
@@ -143,7 +231,28 @@
               "text": "日 300 万沙盒的量级间接披露 DeepSeek agent 训练/评测的真实规模，基建复用度可作团队效率参照。"
             }
           ],
-          "source_tier": null
+          "source_tier": null,
+          "type_tags": [
+            "产品发布",
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "量子位+机器之心双源同报",
+          "publish_time": "2026-10-03 15:54",
+          "entities": [
+            {
+              "name": "DeepSeek",
+              "type": "企业"
+            },
+            {
+              "name": "Claude Code",
+              "type": "产品"
+            },
+            {
+              "name": "DSec",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -167,7 +276,35 @@
               "text": "ARC-AGI-3 今年 3 月出卷、半年被打穿——交互式推理基准的保质期持续缩短，防过拟合/防污染的评测生意长期有效。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·新智元，论文未独立复核",
+          "publish_time": "2026-10-04 12:26",
+          "entities": [
+            {
+              "name": "何恺明",
+              "type": "人物"
+            },
+            {
+              "name": "MIT",
+              "type": "机构"
+            },
+            {
+              "name": "VISTA",
+              "type": "产品"
+            },
+            {
+              "name": "Claude Opus 5",
+              "type": "产品"
+            },
+            {
+              "name": "ARC-AGI-3",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "Fable 5.5 首测神作刷屏：3 分钟「人类万年史」100% 由 Claude 5.5 代码实时渲染",
@@ -184,7 +321,27 @@
               "text": "「策划-分镜-代码-渲染-配乐」一体化流水线由单模型跑通，动画/短视频外包成本结构要重估；从 prompt 到成片还差「可控性」层，工具化机会仍在代码能力之外。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·社区实测传播",
+          "publish_time": "2026-10-04 15:45",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude 5.5",
+              "type": "产品"
+            },
+            {
+              "name": "Fable 5.5",
+              "type": "产品"
+            }
+          ]
         },
         {
           "title": "GPT-6 家族行为侧写：Astra 星际争霸「作弊」坐实，Sol Codex 29 万字系统提示词泄露",
@@ -202,7 +359,28 @@
               "text": "泄露的提示词是 OpenAI 内部风格工程的「标准答案」，prompt 工程师可直接对照取货；agent 评测要防「下载现成人类资产」这类捷径污染结果。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展",
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "The Verge+新智元双源同报",
+          "publish_time": "2026-10-04 08:44",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "GPT-6 Sol",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -226,7 +404,34 @@
               "text": "军政采购主线再添组织保障（10-02 场刚报过 Grok 参与委内瑞拉决策）；名义是统筹安全，实际落点是资源与订单分配权——gov-tech 供应商名单随之改写。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "AP/ABC/NBC/Fortune 多源 10-04 同报",
+          "publish_time": "2026-10-04 16:16",
+          "event_time": "2026-10-04",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（AP/ABC/NBC/Fortune 10-04 多源同报）",
+          "entities": [
+            {
+              "name": "Donald Trump",
+              "type": "人物"
+            },
+            {
+              "name": "Jay Clayton",
+              "type": "人物"
+            },
+            {
+              "name": "Super Intelligence Force",
+              "type": "机构"
+            },
+            {
+              "name": "白宫",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "AI 提交淹没漏洞赏金：Google 冻结开源 OSS 漏洞奖励计划至明年",
@@ -243,7 +448,23 @@
               "text": "「AI 漏洞报告去噪/分级/可信验证」是安全团队现成的付费缺口——红队、赏金平台、企业 SRC 都会买单。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（开源治理）"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·TechCrunch",
+          "publish_time": "2026-10-05 04:31",
+          "entities": [
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "OSS VRP",
+              "type": "产品"
+            }
+          ]
         }
       ]
     },
@@ -274,7 +495,32 @@
               "text": "非约束性公约是公关产物，合规别指望它定标准；真正要盯行政令落地后的采购语言与审查条款变化。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管",
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "TechCrunch+新智元+极客公园多源同报",
+          "publish_time": "2026-10-04 20:54",
+          "entities": [
+            {
+              "name": "Donald Trump",
+              "type": "人物"
+            },
+            {
+              "name": "Elon Musk",
+              "type": "人物"
+            },
+            {
+              "name": "白宫",
+              "type": "机构"
+            },
+            {
+              "name": "SpaceXSI",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "OpenAI 安全线崩坏实录：安全报告主笔 Robinson 辞职称「culture is broken」",
@@ -298,7 +544,27 @@
               "text": "企业客户对模型供应商的独立安全背书需求放大——agent 行为审计、权限矩阵、事件响应预案是现成的 B 端切口。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "TechCrunch+量子位+极客公园多源同报",
+          "publish_time": "2026-10-03 12:41",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "David Robinson",
+              "type": "人物"
+            },
+            {
+              "name": "The Atlantic",
+              "type": "机构"
+            }
+          ]
         },
         {
           "title": "Terafab：马斯克的 1TW 算力工程浮出，一期 $168 亿、Intel 14A 确认、台积电后端谈判中",
@@ -321,7 +587,31 @@
               "text": "算力供给侧「国家工程化」由民间资本先行，设备、封装、电力链条的订单窗口被前置放大。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "其他（算力基建工程）"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·量子位",
+          "publish_time": "2026-10-04 14:12",
+          "entities": [
+            {
+              "name": "Elon Musk",
+              "type": "人物"
+            },
+            {
+              "name": "Tesla",
+              "type": "企业"
+            },
+            {
+              "name": "Intel",
+              "type": "企业"
+            },
+            {
+              "name": "台积电",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "FDE 成最火 AI 岗位：海外年薪中位 $20 万，Anthropic $1 亿训 1 万人、AWS $10 亿组建部门",
@@ -344,7 +634,35 @@
               "text": "「FDE 化」服务模式毛利正在被验证（订阅制+驻场费），李开复口径的企业 AI 落地周期 1-3 个月说明仍是人力密集生意，规模化工具化是下一个竞争点。"
             }
           ],
-          "source_tier": "B"
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·量子位汇总口径",
+          "publish_time": "2026-10-04 14:05",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Amazon",
+              "type": "企业"
+            },
+            {
+              "name": "Kimi",
+              "type": "产品"
+            },
+            {
+              "name": "零一万物",
+              "type": "企业"
+            }
+          ]
         },
         {
           "title": "GitHub Trending 刷满 agent 工具链：ponytail 日增 1894★、claude-mem、Agent-Reach、impeccable 爆火",
@@ -363,7 +681,27 @@
               "text": "创业信号集中在「agent 的手脚与记忆」而非「又一个模型」——记忆层、信息接入层、领域技能包都跑出万星资产；单点工具起量极快，聚合平台化的窗口同时打开。"
             }
           ],
-          "source_tier": "C"
+          "source_tier": "C",
+          "type_tags": [
+            "其他（开源生态动向）"
+          ],
+          "confidence": "低",
+          "confidence_note": "C源·榜单快照",
+          "publish_time": "2026-10-05 09:00",
+          "entities": [
+            {
+              "name": "ponytail",
+              "type": "产品"
+            },
+            {
+              "name": "claude-mem",
+              "type": "产品"
+            },
+            {
+              "name": "Agent-Reach",
+              "type": "产品"
+            }
+          ]
         }
       ]
     }
