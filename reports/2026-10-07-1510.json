@@ -3,7 +3,7 @@
   "date": "2026-10-07",
   "time": "15:10",
   "title": "AI 情报 · 10-07 15:10 场",
-  "generatedAt": "2026-10-08T14:20:45.918Z",
+  "generatedAt": "2026-10-09T12:33:36.270Z",
   "coverage": "10-07 09:05 → 10-07 15:16（Asia/Shanghai）",
   "notes": [
     "昨 09:00 场已报条目全部去重；OpenAI Decisions API 公测（2026-10-07 04:53）因上期 OpenAI RSS 403 + Reddit 全挂漏抓，本期补收"
@@ -423,7 +423,7 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "其他"
+            "安全"
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 爱范儿 10-07 调查+财智网/ZGEO 独立解析稿",
