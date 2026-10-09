@@ -1,6 +1,32 @@
 {
-  "count": 30,
+  "count": 31,
   "reports": [
+    {
+      "id": "2026-10-09-2100",
+      "date": "2026-10-09",
+      "time": "21:00",
+      "title": "AI 情报 · 10-09 21:00 场",
+      "itemCount": 13,
+      "coverage": "2026-10-09 15:00 → 21:05（Asia/Shanghai）",
+      "note": "本日 0900 场与 1500 补刊场（15:00 截止口径）已覆盖 15:00 前时段，本期无重复条目",
+      "overview": [
+        "GPU 租赁商 Lambda 拟融资 40 亿美元（黑石/Coatue 领投、投前 145 亿美元），积压订单两月内 150亿→500 亿美元，计划 2027 上市。",
+        "澳洲「AI 算力工厂」Firmus 撤回 IPO：目标估值 306 亿美元、募资 55 亿美元认购不足，英伟达/黑石/OpenAI 背书也救不动。",
+        "何恺明团队发布 VISTA 视觉 Harness：多模态模型无需重训，在 ARC-AGI-3 公开集拿下 100 满分。",
+        "OpenAI 解雇三名安全研究员后立场坚挺，公开信指因安全优先被排挤；同日两家头部公司被曝吸纳前特朗普政府官员。",
+        "AI 订阅「杀熟」发酵：SemiAnalysis 实测 Claude $200 套餐相对 API 价值约为 GPT-6.1 Sol 套餐 5 倍。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 2,
+        "policy": 2,
+        "industry": 6
+      },
+      "rawStats": {
+        "candidates": 95,
+        "selected": 13
+      }
+    },
     {
       "id": "2026-10-09-1500",
       "date": "2026-10-09",
