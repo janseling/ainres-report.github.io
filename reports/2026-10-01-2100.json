@@ -3,7 +3,7 @@
   "date": "2026-10-01",
   "time": "21:00",
   "title": "AI 情报 · 10-01 21:00 场",
-  "generatedAt": "2026-10-09T03:42:45.155Z",
+  "generatedAt": "2026-10-09T12:33:05.548Z",
   "coverage": "2026-09-30 21:00 → 2026-10-01 21:00（Asia/Shanghai，24h 口径；超 24h 条目按 48h 放宽并标注）",
   "notes": [
     "信源状态见文末"
@@ -424,7 +424,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "政策监管"
+            "政策监管",
+            "安全"
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 Ars 稿+Al Jazeera/USA Today",
