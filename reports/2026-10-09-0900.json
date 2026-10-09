@@ -3,7 +3,7 @@
   "date": "2026-10-09",
   "time": "09:00",
   "title": "AI 情报 · 10-09 09:00 场",
-  "generatedAt": "2026-10-09T01:06:52.102Z",
+  "generatedAt": "2026-10-09T05:28:41.406Z",
   "coverage": "2026-10-08 21:00 → 2026-10-09 09:05（Asia/Shanghai，滚动 12h 窗）",
   "notes": [
     "全部 B 源条目已完成「先证后发」外查"
@@ -32,7 +32,7 @@
           "urls": [
             "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses"
           ],
-          "summary": "在 Gemini at Work 2026 大会上面向企业客户发布：给出目标即可计划并执行任务，跨业务系统工作、委派子代理、调用多模型，并配带邮箱的职场身份，支持 Gemini Enterprise、Workspace 与第三方服务。佐证：外部检索（Google Cloud 官方博客/CNBC 同步报道：官方口径「universal agent for work」，发布会 2026-10-08）",
+          "summary": "在 Gemini at Work 2026 大会上面向企业客户发布：给出目标即可计划并执行任务，跨业务系统工作、委派子代理、调用多模型，并配带邮箱的职场身份，支持 Gemini Enterprise、Workspace 与第三方服务。",
           "angles": [
             {
               "kind": "invest",
@@ -56,6 +56,7 @@
           "publish_time": "2026-10-09 02:18",
           "event_time": "2026-10-08",
           "event_time_inferred": false,
+          "verify_note": "外部检索（Google Cloud 官方博客/CNBC 同步报道：官方口径「universal agent for work」，发布会 2026-10-08）",
           "entities": [
             {
               "name": "Google",
@@ -77,7 +78,7 @@
           "urls": [
             "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months"
           ],
-          "summary": "Lightspeed 与 Khosla 领投 $200M；估值 $3.1B；评测维度正扩向「撒谎/对齐」类行为指标。佐证：外部检索（Unite.AI 同步报道：$200M Series B、$3.1B 估值）",
+          "summary": "Lightspeed 与 Khosla 领投 $200M；估值 $3.1B；评测维度正扩向「撒谎/对齐」类行为指标。",
           "angles": [
             {
               "kind": "invest",
@@ -99,6 +100,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 TechCrunch+Unite.AI",
           "publish_time": "2026-10-09 02:19",
+          "verify_note": "外部检索（Unite.AI 同步报道：$200M Series B、$3.1B 估值）",
           "entities": [
             {
               "name": "Arena",
@@ -124,7 +126,7 @@
           "urls": [
             "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor"
           ],
-          "summary": "Mac 端应用：会议转写、要点生成笔记、实时解答会议内提问全部在设备端跑（Gemma 端侧模型），主打离线与隐私，对位 Granola。佐证：外部检索（The Verge/Firstpost 同步报道：on-device Gemma、完全离线转写）",
+          "summary": "Mac 端应用：会议转写、要点生成笔记、实时解答会议内提问全部在设备端跑（Gemma 端侧模型），主打离线与隐私，对位 Granola。",
           "angles": [
             {
               "kind": "startup",
@@ -142,6 +144,7 @@
           "publish_time": "2026-10-08 21:28",
           "event_time": "2026-10-08",
           "event_time_inferred": false,
+          "verify_note": "外部检索（The Verge/Firstpost 同步报道：on-device Gemma、完全离线转写）",
           "entities": [
             {
               "name": "Google",
@@ -159,7 +162,7 @@
           "urls": [
             "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger"
           ],
-          "summary": "指上按键即可语音唤起多个个人 AI 代理：执行任务、记录、控制设备，兼具健康追踪，官方强调「外接记忆」概念。佐证：外部检索（GamesBeat/Digital Trends 同步报道：多代理控制+健康追踪）",
+          "summary": "指上按键即可语音唤起多个个人 AI 代理：执行任务、记录、控制设备，兼具健康追踪，官方强调「外接记忆」概念。",
           "angles": [
             {
               "kind": "invest",
@@ -183,6 +186,7 @@
           "publish_time": "2026-10-09 00:00",
           "event_time": "2026-10-08",
           "event_time_inferred": false,
+          "verify_note": "外部检索（GamesBeat/Digital Trends 同步报道：多代理控制+健康追踪）",
           "entities": [
             {
               "name": "Natura",
@@ -207,7 +211,7 @@
           "urls": [
             "https://36kr.com/p/4017808771829639"
           ],
-          "summary": "交付日 Day-4 兑付：Sol 极速档在 API/ChatGPT/Codex 落地（官方文档在档：`service_tier:\"ultrafast\"`、6 倍 Standard 计价、最高约 300 t/s），Codex 订阅内极速按 8 倍额度扣（25 倍额度折合约 3 份多一点）；Tibo 同时交出 Instant Steering（即时转向）能力。佐证：外部核验（OpenAI 官方 API 文档 gpt-6.1-sol 页：Ultrafast mode 与 6x 计价在档）",
+          "summary": "交付日 Day-4 兑付：Sol 极速档在 API/ChatGPT/Codex 落地（官方文档在档：`service_tier:\"ultrafast\"`、6 倍 Standard 计价、最高约 300 t/s），Codex 订阅内极速按 8 倍额度扣（25 倍额度折合约 3 份多一点）；Tibo 同时交出 Instant Steering（即时转向）能力。",
           "angles": [
             {
               "kind": "tech",
@@ -225,6 +229,7 @@
           "publish_time": "2026-10-09 07:32",
           "event_time": "2026-10-09",
           "event_time_inferred": false,
+          "verify_note": "外部核验（OpenAI 官方 API 文档 gpt-6.1-sol 页：Ultrafast mode 与 6x 计价在档）",
           "entities": [
             {
               "name": "OpenAI",
@@ -250,7 +255,7 @@
           "urls": [
             "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet"
           ],
-          "summary": "TechCrunch：OpenAI 海量数学证明与此前咨询的数学家顾问组所立准则存在偏差，撤回 3 篇（符号错误连锁）只是首例勘误；36氪跟进撤稿与「数学家被迫批卷」的同行压力叙事 https://36kr.com/p/4017059444330631 。（后续·SIG-20261007-0900-1）佐证：外部检索（Retraction Watch 同步报道：722 篇发布次日撤回 3 篇、符号错误；修订流程在档）",
+          "summary": "TechCrunch：OpenAI 海量数学证明与此前咨询的数学家顾问组所立准则存在偏差，撤回 3 篇（符号错误连锁）只是首例勘误；36氪跟进撤稿与「数学家被迫批卷」的同行压力叙事 https://36kr.com/p/4017059444330631 。（后续·SIG-20261007-0900-1）",
           "angles": [
             {
               "kind": "invest",
@@ -272,6 +277,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 TechCrunch+Retraction Watch",
           "publish_time": "2026-10-09 02:10",
+          "verify_note": "外部检索（Retraction Watch 同步报道：722 篇发布次日撤回 3 篇、符号错误；修订流程在档）",
           "entities": [
             {
               "name": "OpenAI",
@@ -285,7 +291,7 @@
           "urls": [
             "https://36kr.com/p/4017194751840389"
           ],
-          "summary": "论文（arXiv 2610.07922）与项目页在档：OpenWAM 是面向世界动作模型训练与评测的可扩展、可组合开源库；36氪称换底座即显著拉高机器人任务成功率。佐证：外部检索（arXiv 2610.07922 与 Stanford 项目页 openwam.github.io 在档）",
+          "summary": "论文（arXiv 2610.07922）与项目页在档：OpenWAM 是面向世界动作模型训练与评测的可扩展、可组合开源库；36氪称换底座即显著拉高机器人任务成功率。",
           "angles": [
             {
               "kind": "tech",
@@ -303,6 +309,7 @@
           "publish_time": "2026-10-09 07:21",
           "event_time": null,
           "event_time_inferred": false,
+          "verify_note": "外部检索（arXiv 2610.07922 与 Stanford 项目页 openwam.github.io 在档）",
           "entities": [
             {
               "name": "OpenWAM",
@@ -324,7 +331,7 @@
           "urls": [
             "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost"
           ],
-          "summary": "用模型内部探针替代「再买一个 AI 盯梢」：宣称恶意会话检出 94%、首响延迟增量 <2%、成本较 AI judge 低约 50 倍；覆盖开放权重模型（Kimi K3/GLM 5.3 被点名），随 Baseten 部署。佐证：外部检索（TokenPost 同步报道：94% 检出、<2% 延迟；creati.ai：Baseten 与开放模型适配）",
+          "summary": "用模型内部探针替代「再买一个 AI 盯梢」：宣称恶意会话检出 94%、首响延迟增量 <2%、成本较 AI judge 低约 50 倍；覆盖开放权重模型（Kimi K3/GLM 5.3 被点名），随 Baseten 部署。",
           "angles": [
             {
               "kind": "invest",
@@ -348,6 +355,7 @@
           "publish_time": "2026-10-09 00:00",
           "event_time": "2026-10-08",
           "event_time_inferred": false,
+          "verify_note": "外部检索（TokenPost 同步报道：94% 检出、<2% 延迟；creati.ai：Baseten 与开放模型适配）",
           "entities": [
             {
               "name": "Goodfire",
@@ -368,7 +376,7 @@
           "urls": [
             "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference"
           ],
-          "summary": "官方发布 2026 Usage Policy update：极端重复辱骂可致警告/限流/暂停访问直至封号（一般情绪表达不受影响），新增选举干预、欺骗性宣传、武器软件、监控条款——中期选举前的合规前置。佐证：外部检索（Anthropic 官方公告页+The Verge/Engadget 同步报道）",
+          "summary": "官方发布 2026 Usage Policy update：极端重复辱骂可致警告/限流/暂停访问直至封号（一般情绪表达不受影响），新增选举干预、欺骗性宣传、武器软件、监控条款——中期选举前的合规前置。",
           "angles": [
             {
               "kind": "invest",
@@ -386,6 +394,7 @@
           "publish_time": "2026-10-09 02:16",
           "event_time": "2026-10-09 01:00",
           "event_time_inferred": false,
+          "verify_note": "外部检索（Anthropic 官方公告页+The Verge/Engadget 同步报道）",
           "entities": [
             {
               "name": "Anthropic",
@@ -403,7 +412,7 @@
           "urls": [
             "https://www.reuters.com/legal/legalindustry/usa-today-sues-openai-copyright-infringement-over-ai-training-2026-10-08"
           ],
-          "summary": "USA Today Co. 指控故意侵权并用于训练，索赔超 $2.5 亿；The Verge 称其是「最新一家起诉 OpenAI 的出版商」。佐证：外部检索（The Verge 同步报道：最新出版方诉讼；Forbes/Yahoo：索赔金额超 $250M）",
+          "summary": "USA Today Co. 指控故意侵权并用于训练，索赔超 $2.5 亿；The Verge 称其是「最新一家起诉 OpenAI 的出版商」。",
           "angles": [
             {
               "kind": "invest",
@@ -421,6 +430,7 @@
           "publish_time": "2026-10-09 01:49",
           "event_time": "2026-10-08",
           "event_time_inferred": false,
+          "verify_note": "外部检索（The Verge 同步报道：最新出版方诉讼；Forbes/Yahoo：索赔金额超 $250M）",
           "entities": [
             {
               "name": "OpenAI",
@@ -438,7 +448,7 @@
           "urls": [
             "https://36kr.com/p/4017925846814596"
           ],
-          "summary": "Fortune：启动 presidential engagement 计划，为 2028 周期两党候选人与顾问提供对等的 AI 政策教育，设 Political Programs Lead（年薪 $295K–$345K，华盛顿 DC）并统筹相关政治事务——IPO 前的华盛顿布局。佐证：外部检索（Fortune 同步报道：招聘页与项目细节在档）",
+          "summary": "Fortune：启动 presidential engagement 计划，为 2028 周期两党候选人与顾问提供对等的 AI 政策教育，设 Political Programs Lead（年薪 $295K–$345K，华盛顿 DC）并统筹相关政治事务——IPO 前的华盛顿布局。",
           "angles": [
             {
               "kind": "invest",
@@ -454,6 +464,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+Fortune",
           "publish_time": "2026-10-09 09:00",
+          "verify_note": "外部检索（Fortune 同步报道：招聘页与项目细节在档）",
           "entities": [
             {
               "name": "Anthropic",
@@ -474,7 +485,7 @@
           "urls": [
             "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected"
           ],
-          "summary": "FT 引述提交投资人的财务文件：年化收入约 $500 亿（此前对外口径约 $700 亿）；CNBC：消息后 Nvidia、Oracle、CoreWeave 等 AI 股齐跌；Axios 交叉印证 $500 亿 ARR 口径 https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html 。佐证：外部检索（FT 独家+CNBC/Axios 同步报道）",
+          "summary": "FT 引述提交投资人的财务文件：年化收入约 $500 亿（此前对外口径约 $700 亿）；CNBC：消息后 Nvidia、Oracle、CoreWeave 等 AI 股齐跌；Axios 交叉印证 $500 亿 ARR 口径 https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html 。",
           "angles": [
             {
               "kind": "invest",
@@ -492,6 +503,7 @@
           "publish_time": "2026-10-09 02:19",
           "event_time": "2026-10-08",
           "event_time_inferred": false,
+          "verify_note": "外部检索（FT 独家+CNBC/Axios 同步报道）",
           "entities": [
             {
               "name": "OpenAI",
@@ -517,7 +529,7 @@
           "urls": [
             "https://36kr.com/p/4017887613538182"
           ],
-          "summary": "36氪盘点：物理建模/仿真正在成为 AI 制药的新增长主线，近月相关投入盘超 30 亿美元。佐证：外部检索（cryptobriefing：NVIDIA 与礼来 5 年至高 $10 亿共建制药实验室；Axios/BioSpace：制药机器人 Multiply Labs $75M Series B——同趋势印证，未见同文转载）",
+          "summary": "36氪盘点：物理建模/仿真正在成为 AI 制药的新增长主线，近月相关投入盘超 30 亿美元。",
           "angles": [
             {
               "kind": "invest",
@@ -533,6 +545,7 @@
           "confidence": "中",
           "confidence_note": "B 单源·资金趋势获多源印证",
           "publish_time": "2026-10-09 08:45",
+          "verify_note": "外部检索（cryptobriefing：NVIDIA 与礼来 5 年至高 $10 亿共建制药实验室；Axios/BioSpace：制药机器人 Multiply Labs $75M Series B——同趋势印证，未见同文转载）",
           "entities": [
             {
               "name": "NVIDIA",
@@ -546,7 +559,7 @@
           "urls": [
             "https://36kr.com/p/4017905608151174"
           ],
-          "summary": "36氪统计：具身智能赛道累计融资 935 亿元，伴随高层批量离职出清，判断国内近千家人形机器人公司最终可能只留 10~20 家。佐证：外部检索（airoboticdaily/manbotai：具身智能高管离职潮 2026-09 起多篇同向报道）",
+          "summary": "36氪统计：具身智能赛道累计融资 935 亿元，伴随高层批量离职出清，判断国内近千家人形机器人公司最终可能只留 10~20 家。",
           "angles": [
             {
               "kind": "invest",
@@ -562,6 +575,7 @@
           "confidence": "中",
           "confidence_note": "B 单源·趋势获外部印证",
           "publish_time": "2026-10-09 08:43",
+          "verify_note": "外部检索（airoboticdaily/manbotai：具身智能高管离职潮 2026-09 起多篇同向报道）",
           "entities": [
             {
               "name": "宇树科技",
