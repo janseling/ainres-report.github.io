@@ -3,7 +3,7 @@
   "date": "2026-10-09",
   "time": "09:00",
   "title": "AI 情报 · 10-09 09:00 场",
-  "generatedAt": "2026-10-09T05:28:41.406Z",
+  "generatedAt": "2026-10-09T12:33:05.549Z",
   "coverage": "2026-10-08 21:00 → 2026-10-09 09:05（Asia/Shanghai，滚动 12h 窗）",
   "notes": [
     "全部 B 源条目已完成「先证后发」外查"
@@ -348,7 +348,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "技术进展"
+            "技术进展",
+            "安全"
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 TechCrunch+TokenPost",
