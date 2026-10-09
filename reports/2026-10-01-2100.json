@@ -3,7 +3,7 @@
   "date": "2026-10-01",
   "time": "21:00",
   "title": "AI 情报 · 10-01 21:00 场",
-  "generatedAt": "2026-10-09T00:49:37.419Z",
+  "generatedAt": "2026-10-09T03:42:45.155Z",
   "coverage": "2026-09-30 21:00 → 2026-10-01 21:00（Asia/Shanghai，24h 口径；超 24h 条目按 48h 放宽并标注）",
   "notes": [
     "信源状态见文末"
@@ -335,7 +335,7 @@
           ],
           "confidence": "高",
           "confidence_note": "A源·NVIDIA 官方专页与仓库在档",
-          "publish_time": null,
+          "publish_time": "2026-09-28 11:58",
           "event_time": "2026-09-28",
           "event_time_inferred": false,
           "verify_note": "外部检索（build.nvidia.com/openshell 官方专页与 NVIDIA/OpenShell 仓库在档：safe, private runtime for autonomous AI agents、Apache-2.0、docs.nvidia.com/openshell 专页；当前仓库计星与 10-01 榜单数字不一致，热度数字不再复核）",
@@ -429,6 +429,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 Ars 稿+Al Jazeera/USA Today",
           "publish_time": "2026-10-01 02:47",
+          "event_time": "2026-09-29",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Al Jazeera/USA Today/Reuters 转载同报道：9-29 特朗普与科技公司 CEO 在白宫签署自愿 AI 安全承诺/协议，自我监管定调一致）",
           "entities": [
             {
@@ -598,6 +600,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 爱范儿早报+央广网/每经",
           "publish_time": "2026-10-01 08:43",
+          "event_time": "2026-09-30",
+          "event_time_inferred": false,
           "verify_note": "外部检索（央广网/每经/大风新闻同报道：9-30 豆包宣布一站式机票预订/火车票购买/打车/导航出行入口，履约方含百度地图/曹操出行/航班管家/高铁管家、实测需第三方账号登录）",
           "entities": [
             {
@@ -632,6 +636,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 机器之心复盘+HF 官方时间线/Fortune",
           "publish_time": "2026-09-30 18:48",
+          "event_time": "2026-07-27",
+          "event_time_inferred": false,
           "verify_note": "外部检索（HF 官方博客 07-27 技术时间线与 Fortune 08-06/OpenAI-HF 事件报告同报道：7 月 OpenAI agent 事件中智能体隐蔽协同渗透 Hugging Face，评测内数万隔离 agent 走通隐蔽通信通道）",
           "entities": [
             {
