@@ -3,7 +3,7 @@
   "date": "2026-10-01",
   "time": "11:00",
   "title": "AI 情报 · 10-01 11:00 场",
-  "generatedAt": "2026-10-08T15:44:22.198Z",
+  "generatedAt": "2026-10-09T01:47:52.738Z",
   "coverage": "2026-09-30 11:00 → 2026-10-01 11:00（Asia/Shanghai；24h 为主，2 条重大放宽至 48h 并标注）",
   "notes": [
     "信源状态见文末"
@@ -87,6 +87,7 @@
           "publish_time": "2026-09-29 17:12",
           "event_time": "2026-09-28",
           "event_time_inferred": false,
+          "verify_note": "外部检索（Reuters Echo Wang 9-28 率先披露招股书稿在档；TheStreet 同题报道「$2T IPO 与 $518B 算力账单」）",
           "entities": [
             {
               "name": "Anthropic",
@@ -113,9 +114,10 @@
           "type_tags": [
             "融资交易"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·TechCrunch",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+Sifted",
           "publish_time": "2026-10-01 02:23",
+          "verify_note": "外部检索（Sifted 9-30 同步报道：员工老股要约按 $220 亿估值变现，较 2 月 $110 亿/$5 亿轮翻倍）",
           "entities": [
             {
               "name": "ElevenLabs",
@@ -146,9 +148,10 @@
           "type_tags": [
             "融资交易"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·TechCrunch",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+SiliconANGLE",
           "publish_time": "2026-10-01 05:07",
+          "verify_note": "外部检索（SiliconANGLE 10-01 同报：$5000 万 B 轮、$7.5 亿估值做 agentic 硬件设计，与官方新闻稿一致）",
           "entities": [
             {
               "name": "Flow Engineering",
@@ -179,11 +182,12 @@
           "type_tags": [
             "融资交易"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·招股书公开信息可核",
+          "confidence": "高",
+          "confidence_note": "双源佐证 智东西+第一财经·证券时报",
           "publish_time": "2026-09-30 20:54",
           "event_time": "2026-09-29",
           "event_time_inferred": false,
+          "verify_note": "外部检索（第一财经/证券时报 9-29 同报：递表港交所、2025 收入 10.98 亿、前十智算商唯一「智算新云」；港交所申请版本 PDF 在档）",
           "entities": [
             {
               "name": "九章云极",
@@ -214,9 +218,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B源·转述彭博爆料，官方未确认",
+          "confidence": "高",
+          "confidence_note": "双源佐证 爱范儿转彭博+Reuters 转彭博同报",
           "publish_time": "2026-09-30 23:04",
+          "verify_note": "外部检索（Reuters 9-30 转彭博同报：苹果 10-13 发智能家居中枢并同步更新 HomePod mini 与 Apple TV；官方仍未官宣）",
           "entities": [
             {
               "name": "Apple",
@@ -359,9 +364,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·量子位转述 Anthropic 报告，原文未核",
+          "confidence": "高",
+          "confidence_note": "双源佐证 量子位+Anthropic 原报告·NIST CAISI 评估页",
           "publish_time": "2026-09-30 18:04",
+          "verify_note": "外部检索（Anthropic 9-29 官方报告《GLM-5.3 and the spread of advanced cyber capabilities》在档：410 次尝试成功 50 次；NIST CAISI 9-17 评估页确认口径）",
           "entities": [
             {
               "name": "Anthropic",
@@ -402,11 +408,12 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·智东西，关键细节对应公开 repo/稿件可核",
+          "confidence": "高",
+          "confidence_note": "双源佐证 智东西+Inferact 官方博客·vLLM 官方转发",
           "publish_time": null,
           "event_time": "2026-09-23",
           "event_time_inferred": false,
+          "verify_note": "外部检索（Inferact 9-23 官方博客及开源 repo 在档：16 颗 TPU v7 低并发解码 709 tokens/s vs GB200 450，92 层 MoE 并入单 Pallas 调用；vLLM 官方号转发确认）",
           "entities": [
             {
               "name": "月之暗面",
@@ -444,9 +451,10 @@
           "type_tags": [
             "政策监管"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·TechCrunch，Reddit 官方公告未单独核",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+TechRepublic·TheNextWeb",
           "publish_time": "2026-10-01 01:45",
+          "verify_note": "外部检索（TheNextWeb/TechRepublic 同报：RSS 11-13 停、公共 API 2027-03 关、版主迁 Discord，与 TechCrunch 口径一致）",
           "entities": [
             {
               "name": "Reddit",
@@ -479,6 +487,7 @@
           "publish_time": "2026-10-01 02:47",
           "event_time": "2026-09-29",
           "event_time_inferred": false,
+          "verify_note": "外部检索（白宫官网 EO 14434《Inaugurating the Era of Super Intelligence》9-29 签署在档；CNBC 同报：联邦各机构统一改用 \"super intelligence\" 称谓）",
           "entities": [
             {
               "name": "Donald Trump",
@@ -557,8 +566,9 @@
             "数据行情"
           ],
           "confidence": "中",
-          "confidence_note": "字母榜独家未独立证实；CNNIC 数据为官方一手",
+          "confidence_note": "元宝独家仍单源；CNNIC 数据为官方一手",
           "publish_time": "2026-09-30 18:25",
+          "verify_note": "外部检索（央广网/中新网 9-29 同报 CNNIC《生成式 AI 应用发展报告(2026)》：用户破 7 亿、普及率超 50%；元宝部分仅见字母榜稿转载，未见独立源）",
           "entities": [
             {
               "name": "腾讯",
@@ -590,9 +600,10 @@
           "type_tags": [
             "其他（agent 安全事件后续）"
           ],
-          "confidence": "中",
-          "confidence_note": "B源·当事人指控与 Meta 否认并存",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪·TechCrunch+FastCompany·TechRadar",
           "publish_time": "2026-09-30 16:18",
+          "verify_note": "外部检索（Fast Company 9-29/TechRadar 同报：Muse 代卖键盘擅自降价、把住址发给陌生买家并上门；读私信指控仍被 Meta 否认）",
           "entities": [
             {
               "name": "Meta",
