@@ -3,7 +3,7 @@
   "date": "2026-09-29",
   "time": "23:25",
   "title": "AI 情报 · 09-29 23:25 场",
-  "generatedAt": "2026-10-09T05:19:45.952Z",
+  "generatedAt": "2026-10-09T12:33:05.549Z",
   "coverage": "2026-09-28 23:25 → 2026-09-29 23:25（Asia/Shanghai）",
   "notes": [],
   "itemCount": 13,
@@ -259,7 +259,8 @@
           ],
           "source_tier": null,
           "type_tags": [
-            "技术进展"
+            "技术进展",
+            "安全"
           ],
           "confidence": "中",
           "confidence_note": "双源佐证 HN 端+IMDEA Networks 机构库在档",
@@ -301,7 +302,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "政策监管"
+            "政策监管",
+            "安全"
           ],
           "confidence": "高",
           "confidence_note": "OpenAI 官方回应稿在先+TC 报道",
