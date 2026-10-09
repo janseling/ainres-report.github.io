@@ -3,7 +3,7 @@
   "date": "2026-10-01",
   "time": "15:00",
   "title": "AI 情报 · 10-01 15:00 场",
-  "generatedAt": "2026-10-08T07:21:38.680Z",
+  "generatedAt": "2026-10-09T01:22:04.219Z",
   "coverage": "2026-09-30 15:00 → 2026-10-01 15:00（Asia/Shanghai，全部 24h 内）",
   "notes": [
     "信源状态见文末（上期 11:00 场已报条目全部去重跳过）"
@@ -45,9 +45,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·TechCrunch",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+Bloomberg/The Verge 同报",
           "publish_time": "2026-10-01 00:00",
+          "verify_note": "外部检索（Bloomberg（Yahoo 财经转载）9-30 08:57 EDT 同报 Apple Messages 文本下单 agent；The Verge 9-30 同报「order my usual」+无人机配送；DoorDash IR 9-30 官方稿在档）",
           "entities": [
             {
               "name": "DoorDash",
@@ -78,9 +79,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·TechCrunch",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+Skift/heise 同报",
           "publish_time": "2026-09-30 20:00",
+          "verify_note": "外部检索（Skift 9-30《Airbnb Launches AI Tools》同报 AI 搜索落地；heise 9-30/Travel Trade Desk 同报道；news.airbnb.com 9-30 官方秋季更新在档）",
           "entities": [
             {
               "name": "Airbnb",
@@ -111,9 +113,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·36氪",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+CoinDesk/Quartz 同报",
           "publish_time": "2026-09-30 16:48",
+          "verify_note": "外部检索（CoinDesk 9-29/9-30 独立报道 HOOD Summit（休斯顿）发布 Robinhood Agents：代客 24/7 自动交易；Quartz 9-30 11:47 UTC 同报；Robinhood newsroom 9-29 官方稿在档）",
           "entities": [
             {
               "name": "Robinhood",
@@ -144,9 +147,10 @@
           "type_tags": [
             "融资交易"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·TechCrunch",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+Business Wire 官方通稿/TheNextWeb 同报",
           "publish_time": "2026-09-30 22:27",
+          "verify_note": "外部检索（Business Wire 9-30 10:00 EDT 官方通稿：$20M A 轮、Singular 领投、Redpoint/Capital One 参投；restate.dev 官方博客在档；TheNextWeb 10-01 同报道）",
           "entities": [
             {
               "name": "Restate",
@@ -185,9 +189,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·新智元",
+          "confidence": "高",
+          "confidence_note": "双源佐证 新智元+AndroidAuthority/Computerworld 同报",
           "publish_time": "2026-10-01 09:10",
+          "verify_note": "外部检索（AndroidAuthority 9-30 同报 ChatGPT Space 上线：共享 Pages+AI 协作；Computerworld 9-30 同报道；chatgpt.com/features/space 官方页在档）",
           "entities": [
             {
               "name": "OpenAI",
@@ -338,6 +343,7 @@
           "confidence": "中",
           "confidence_note": "B单源·新智元",
           "publish_time": "2026-10-01 14:16",
+          "verify_note": "外部检索（凤凰网 9-09/Times Now 9-08 独立同报同一通关事件（48 关口径，9-07 Shameem 演示）；「28 项/画圆 95.8%」细节口径未见独立印证）",
           "entities": [
             {
               "name": "GPT-6 Astra",
@@ -378,6 +384,7 @@
           "confidence": "高",
           "confidence_note": "Ars+Digiday/The Information 多源同报",
           "publish_time": "2026-10-01 00:03",
+          "verify_note": "外部检索（Search Engine Land/Seroundtable 9-30 同报 ~100 家、贡献分成不足广告收入 0.1%；9to5Google/ppc.land 9-30 同报道 payout 两极分化）",
           "entities": [
             {
               "name": "Google",
@@ -421,9 +428,10 @@
           "type_tags": [
             "其他（行业调查）"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·36氪，含当事人与公司自述",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪调查+21财经/钛媒体同报炮轰事件；106/84 家数据仍单源口径",
           "publish_time": "2026-09-30 16:54",
+          "verify_note": "外部检索（21财经 9-10《邵天兰实名吐槽具身行业制造虚假收入》+钛媒体 9-13/网易科技 9-10/定焦One 9-11 独立同报：数采中心+关联交易造虚假收入、点名银河通用）",
           "entities": [
             {
               "name": "梅卡曼德",
@@ -458,11 +466,12 @@
           "type_tags": [
             "其他（破产清算）"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·36氪",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪（转铅笔道）+OFweek/新浪财经 同报",
           "publish_time": "2026-09-30 15:34",
           "event_time": null,
           "event_time_inferred": false,
+          "verify_note": "外部检索（OFweek 9-22 独立早报破产清算：深圳中院 8 月下旬公告；铅笔道 9-30 原发、新浪财经 12:56 同转，股东与估值 5 亿美元口径一致）",
           "entities": [
             {
               "name": "盈合机器人",
@@ -497,9 +506,10 @@
           "type_tags": [
             "其他（商业进展）"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·36氪",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+PRNewswire 官方通稿/Dealroom 同报",
           "publish_time": "2026-09-30 16:49",
+          "verify_note": "外部检索（PRNewswire 9-30 官方通稿：ARR 破 $1 亿、两年增长 100 倍；Dealroom 9-30/Unite.ai/TipRanks 同报「首个 AI 3D 公司达此里程碑」）",
           "entities": [
             {
               "name": "Meshy",
@@ -530,9 +540,10 @@
           "type_tags": [
             "其他（AI 虚拟人动向）"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·36氪",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+ABC/CBS/Forbes 同报道 Misaligned；「一年扩 8 倍」细节仍单源",
           "publish_time": "2026-09-30 17:41",
+          "verify_note": "外部检索（ABC News 7-06/CBS 7-07/Forbes 7-06/Vulture 7-06 独立同报：Particle 6 宣布 Tilly Norwood 主演首部全 AI 电影《Misaligned》）",
           "entities": [
             {
               "name": "Tilly Norwood",
@@ -563,9 +574,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·甲子光年",
+          "confidence": "高",
+          "confidence_note": "双源佐证 甲子光年+官方产品页/GitHub 开源在档",
           "publish_time": "2026-09-30 17:41",
+          "verify_note": "外部检索（inspatio.com 官方页同数 1.5 版：单图/多图/全景/视频输入+下一视角预测；GitHub inspatio/inspatio-world（Apache-2.0，973★）在档；星河频率 9-30 同报上海视听艺术节发布）",
           "entities": [
             {
               "name": "影溯科技",
