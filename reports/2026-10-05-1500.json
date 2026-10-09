@@ -3,7 +3,7 @@
   "date": "2026-10-05",
   "time": "15:00",
   "title": "AI 情报 · 10-05 15:00 场",
-  "generatedAt": "2026-10-08T18:17:17.095Z",
+  "generatedAt": "2026-10-09T04:17:44.826Z",
   "coverage": "2026-10-04 15:00 → 2026-10-05 15:00（Asia/Shanghai，24h 口径；System76 条目为 48h 边界）",
   "notes": [
     "信源状态见文末",
@@ -228,6 +228,7 @@
           "publish_time": "2026-10-05 08:50",
           "event_time": "2026-10-05",
           "event_time_inferred": false,
+          "verify_note": "外部检索（postcutoff 存档 Tibo 10-04 X 原帖同步报道：28 天每日改进或全量重置原话在案，AIReport.NET 等独立媒体跟进、第三方追踪站 codexy.fyi/resets.pro 按日打卡）",
           "entities": [
             {
               "name": "OpenAI",
@@ -262,11 +263,12 @@
           "type_tags": [
             "其他（开源社区治理）"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·Neowin，HN 议论 10-04 01:57 起",
+          "confidence": "高",
+          "confidence_note": "双源佐证 Neowin+XDA/The Register",
           "publish_time": "2026-10-04 01:32",
           "event_time": "2026-10-01",
           "event_time_inferred": false,
+          "verify_note": "外部检索（XDA 10-02 同步报道：COSMIC 以维护者被 AI 提交刷爆为由全面禁止 AI 生成提交；The Register 10-07、Linuxiac 再跟进确认 PR 模板条款）",
           "entities": [
             {
               "name": "System76",
