@@ -6,25 +6,24 @@
       "date": "2026-10-09",
       "time": "19:17",
       "title": "AI 情报 · 10-09 19:17 场",
-      "itemCount": 13,
-      "coverage": "2026-10-09 09:00 → 19:23（Asia/Shanghai，fetch 窗口口径）",
-      "note": "本日 0900 场已报 09:00 前时段（Sol Ultrafast 上线/收入下修/USA Today 诉讼等），本期窗口无重复条目",
+      "itemCount": 6,
+      "coverage": "2026-10-09 09:00 → 15:00（Asia/Shanghai，补刊期按 Max 指示截止 15:00）",
+      "note": "本日 0900 场已报 09:00 前时段（Sol Ultrafast 上线/收入下修/USA Today 诉讼等），本期无重复条目",
       "overview": [
-        "OpenAI 解雇三名安全研究员，三人联名公开信反击「因优先安全被排挤」，WSJ/CNN/TechCrunch 多源追问。",
-        "谷歌 Gemini 4 Argon 逼近发布：部分用户已可用、配套产品被曝同步准备，最快今日官宣。",
-        "何恺明团队视觉 Harness「VISTA」让 Claude 满分通关 ARC-AGI-3 公开集 25 款游戏。",
-        "中共中央、国务院印发《关于发展新质生产力的意见》：科技型企业上市融资入文、发改委点名 AI 为核心支撑。",
-        "华为哈勃、地平线押注深圳 DiffuSpace，创扩散语言模型全球最大融资；Anthropic 上市前遭做空报告（公允估值仅 $1500 亿）。"
+        "谷歌 Gemini 4 Argon 进入发布窗口：部分用户已可用、最快今日官宣全量开放。",
+        "扩散语言模型全球最大融资：华为哈勃、地平线跟投深圳 DiffuSpace（数亿元）。",
+        "Aether AI 发布 CRIS-0：机器人 0.2 秒急停+故障自修复，「因果智能」进物理世界。",
+        "ClaudeScience 拼出首张紫外全天图：50 年卫星数据、1.19 亿颗星逐颗叠加。",
+        "Anthropic 上市前遭正面做空：分析师称公允估值仅 $1500 亿。"
       ],
       "sectionCounts": {
-        "product": 4,
-        "tech": 3,
-        "policy": 1,
-        "industry": 5
+        "product": 3,
+        "tech": 2,
+        "industry": 1
       },
       "rawStats": {
         "candidates": 843,
-        "selected": 13
+        "selected": 6
       }
     },
     {
