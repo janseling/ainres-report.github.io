@@ -3,7 +3,7 @@
   "date": "2026-10-07",
   "time": "09:00",
   "title": "AI 情报 · 10-07 09:00 场",
-  "generatedAt": "2026-10-08T15:50:33.783Z",
+  "generatedAt": "2026-10-09T12:33:36.270Z",
   "coverage": "10-06 21:00 → 10-07 09:05（Asia/Shanghai）",
   "notes": [
     "2026-10-06 三场均已报条目已去重（Mistral Large 4、月之暗面 PreIPO、微软/Meta 减用 Claude、textGrain、Wikimedia 事件、Utopai X 均不再重收）"
@@ -420,7 +420,7 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "其他"
+            "安全"
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 原页核实+Sierra 官宣/TNW 同报",
