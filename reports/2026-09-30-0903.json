@@ -3,7 +3,7 @@
   "date": "2026-09-30",
   "time": "09:03",
   "title": "AI 情报 · 09-30 09:03 场",
-  "generatedAt": "2026-10-08T11:42:23.565Z",
+  "generatedAt": "2026-10-09T04:20:25.468Z",
   "coverage": "2026-09-29 09:03 → 2026-09-30 09:03（Asia/Shanghai）",
   "notes": [
     "信源状态见文末（上期失效的量子位本期已恢复）"
@@ -92,6 +92,7 @@
           "confidence": "低",
           "confidence_note": "TC/Bloomberg 双媒体均 reportedly 措辞·官方未证实",
           "publish_time": "2026-09-30 03:52",
+          "verify_note": "外部检索（CoinDesk/Dealroom 09-30 同步报道：推迟 IPO 后寻求至少 $30B、估值约 $1.4 万亿；独立转发仍为 reportedly，官方未证实口径不变）",
           "entities": [
             {
               "name": "OpenAI",
@@ -127,6 +128,7 @@
           "publish_time": "2026-09-30 01:17",
           "event_time": "2026-09-29",
           "event_time_inferred": false,
+          "verify_note": "外部检索（WIRED 09-29 同步报道：Dots 为 OpenAI 常开 agent、直称对标 Meta Muse）",
           "entities": [
             {
               "name": "OpenAI",
@@ -165,9 +167,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·爱范儿，官方安装包可直接验证",
+          "confidence": "高",
+          "confidence_note": "双源佐证 爱范儿+NYU Shanghai·官方站 public preview 口径一致",
           "publish_time": "2026-09-30 00:07",
+          "verify_note": "外部检索（NYU Shanghai 09-30 同步报道：Harness v0.2 以桌面版上架 macOS/Windows；deepseek.com 官方站 public preview 在线）",
           "entities": [
             {
               "name": "DeepSeek",
@@ -198,9 +201,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·极客公园",
+          "confidence": "高",
+          "confidence_note": "双源佐证 极客公园+InfoWorld·官方博客一致",
           "publish_time": "2026-09-29 13:27",
+          "verify_note": "外部检索（InfoWorld 09-29 同步报道：Manus 2.0 引入 agent harness/持久执行环境并推云电脑与 CUE；官方博客官宣在案）",
           "entities": [
             {
               "name": "Manus",
@@ -231,9 +235,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·爱范儿",
+          "confidence": "高",
+          "confidence_note": "双源佐证 爱范儿+reapi/orcarouter 多家 API 市场文档",
           "publish_time": "2026-09-29 11:24",
+          "verify_note": "外部检索（reapi/orcarouter 同步收录：Kling 4.0 正式版十月上线、当先可用档仅 4.0 Flash，10 关键帧/口型同步口径一致）",
           "entities": [
             {
               "name": "可灵",
@@ -276,6 +281,7 @@
           "publish_time": "2026-09-30 01:15",
           "event_time": "2026-09-29",
           "event_time_inferred": false,
+          "verify_note": "外部检索（temperature2/AlphaCorp 09-29 同步报道：Sol 定价 $2/$10 每百万 token、约为 Astra $10/$50 的五分之一）",
           "entities": [
             {
               "name": "OpenAI",
@@ -310,9 +316,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·量子位，官方基准口径未复核",
+          "confidence": "高",
+          "confidence_note": "官方 HF 模型卡+量子位",
           "publish_time": "2026-09-29 15:59",
+          "verify_note": "外部检索（HF 模型卡 IQuestLab/IQuest-Q1 自述：约 320B 总参、每 token 激活约 15B，主打 agentic coding——与报道口径一致）",
           "entities": [
             {
               "name": "IQuest-Q1",
@@ -386,11 +393,12 @@
           "type_tags": [
             "政策监管"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源· Ars 引法院动议文书·页 403 未核",
+          "confidence": "高",
+          "confidence_note": "双源佐证 Ars+Politico/Bloomberg Law",
           "publish_time": "2026-09-29 04:49",
           "event_time": "2026-09-28",
           "event_time_inferred": false,
+          "verify_note": "外部检索（Politico/Bloomberg Law 09-28 同步报道：佛州总检察长动议寻求第三方批准护栏前停开发；动议文书 09-28 e-filed 电子卷宗在案）",
           "entities": [
             {
               "name": "OpenAI",
@@ -421,11 +429,12 @@
           "type_tags": [
             "政策监管"
           ],
-          "confidence": "低",
-          "confidence_note": "单源·Politico 页反爬细节未核·HN 转述",
+          "confidence": "高",
+          "confidence_note": "双源佐证 Politico+WIRED·Ars 同报",
           "publish_time": "2026-09-29",
           "event_time": "2026-09-29",
           "event_time_inferred": false,
+          "verify_note": "外部检索（WIRED 09-29 与 Ars 09-30 独立同报：LASST 依加州反黑客法就 Hugging Face 入侵起诉 OpenAI；起诉方公告与诉状 PDF 在案）",
           "entities": [
             {
               "name": "OpenAI",
@@ -467,9 +476,10 @@
           "type_tags": [
             "其他（AI 动态定价应用）"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·CNBC 403 未核",
+          "confidence": "高",
+          "confidence_note": "双源佐证 CNBC+Reuters 原稿·TechSpot 独立跟进",
           "publish_time": "2026-09-30 03:58",
+          "verify_note": "外部检索（Reuters 09-29 原稿在案：AI 估算各门店「支付意愿」、扩大店间价差；TechSpot 10-01 独立跟进：两英里外 Big Mac 贵 $1.20）",
           "entities": [
             {
               "name": "麦当劳",
@@ -497,10 +507,11 @@
             "其他（算力金融化）"
           ],
           "confidence": "低",
-          "confidence_note": "快讯转引新浪·知情人士信源未证实",
+          "confidence_note": "FT 原稿已核在案·知情人士措辞仍未证实",
           "publish_time": "2026-09-29",
           "event_time": "2026-09-29",
           "event_time_inferred": false,
+          "verify_note": "外部检索（FT《Nvidia turns to insurers to offset AI risks》原稿在案；Yahoo Finance/The Next Web 09-29 起同步转引：洽谈以保险共担芯片抵押贷款风险）",
           "entities": [
             {
               "name": "NVIDIA",
@@ -531,9 +542,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·爱范儿·开发方未证实",
+          "confidence": "高",
+          "confidence_note": "双源佐证 爱范儿+海外评测跟进·开发方仍未认领",
           "publish_time": "2026-09-29 17:19",
+          "verify_note": "外部检索（chooseto.ai 09-26 与 ModelVerdicts 独立跟进：匿名 OpenRouter 模型 SpaceBunnyAlpha 以草图直出可交互 3D 网页刷屏、疑 MiniMax，无厂商认领）",
           "entities": [
             {
               "name": "Space Bunny",
@@ -564,9 +576,10 @@
           "type_tags": [
             "其他（机构研判）"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源快讯·分析师观点",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+TheFly/TipRanks",
           "publish_time": "2026-09-30 08:52",
+          "verify_note": "外部检索（TheFly/TipRanks 同步刊发：大摩 Adam Wood 接续覆盖 Shopify、Overweight 目标价 $192；TIKR/NAI500 09-29~30 以 agentic AI 购物议题跟进）",
           "entities": [
             {
               "name": "摩根士丹利",
