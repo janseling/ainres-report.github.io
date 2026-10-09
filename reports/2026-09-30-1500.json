@@ -3,7 +3,7 @@
   "date": "2026-09-30",
   "time": "15:00",
   "title": "AI 情报 · 09-30 15:00 场",
-  "generatedAt": "2026-10-08T07:21:38.679Z",
+  "generatedAt": "2026-10-09T04:06:20.919Z",
   "coverage": "2026-09-29 21:47 → 2026-09-30 15:00（Asia/Shanghai；24h 窗口，含上期信源失效未及收录的回补）",
   "notes": [
     "信源状态见文末"
@@ -46,9 +46,10 @@
             "产品发布",
             "商业合作"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·TechCrunch",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+CNBC/Self Employed 同步报道 Meta 09-29 上线 Muse for Small Business、接入 QuickBooks/Shopify/Stripe 连接器",
           "publish_time": "2026-09-29 21:47",
+          "verify_note": "外部检索（CNBC/Self Employed 同步报道：Meta 09-29 推出 Muse for Small Business，集成 QuickBooks、Shopify、Stripe、Canva 等连接器）",
           "entities": [
             {
               "name": "Meta",
@@ -79,9 +80,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·TechCrunch",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+CNBC 专访 同步报道 Dazzle 以相册为上下文的个人 AI 助理",
           "publish_time": "2026-09-29 21:53",
+          "verify_note": "外部检索（CNBC 同步报道：CNBC 专访 Dazzle CEO Marissa Mayer，确认产品分析手机相册以推断个人生活上下文）",
           "entities": [
             {
               "name": "Marissa Mayer",
@@ -112,9 +114,10 @@
           "type_tags": [
             "其他（产品转型）"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·TechCrunch",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+runtimeWire/startupresearcher 同步报道 Wabi 转向 agentic 消息助手",
           "publish_time": "2026-09-30 01:20",
+          "verify_note": "外部检索（runtimeWire 同步报道：Wabi 将 mini-app 平台重塑为邀请制 agentic messenger，Eugenia Kuyda 主导，2025 年 a16z 领投 $20M 预种子轮）",
           "entities": [
             {
               "name": "Wabi",
@@ -238,6 +241,7 @@
           "confidence": "高",
           "confidence_note": "A源·官方开源仓库口径，量子位转述",
           "publish_time": "2026-09-30 10:53",
+          "verify_note": "外部检索（七牛云/aigc.news 同步报道：DeepSeek 09-30 开源 DeepGEMM-Ascend/DeepEP-Ascend 等 6 个昇腾组件，与英伟达版一一对应）",
           "entities": [
             {
               "name": "DeepSeek",
@@ -268,9 +272,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·新智元，Vals AI 原始证明未独立核",
+          "confidence": "高",
+          "confidence_note": "双源佐证 新智元+AlphaSignal/StartupFortune 同步报道 10 个 Claude Sonnet 5.5 产出 17895 行 Lean 证明",
           "publish_time": "2026-09-30 10:39",
+          "verify_note": "外部检索（AlphaSignal/StartupFortune 同步报道：10 个 Claude Sonnet 5.5 在 Vals AI 下 15 小时互发 1270 条消息、产出 17895 行 Lean 证明攻克 1904 年汤姆逊问题 N=7）",
           "entities": [
             {
               "name": "Anthropic",
@@ -306,6 +311,7 @@
           "confidence": "高",
           "confidence_note": "36氪双稿+arXiv 第三方评测原文链",
           "publish_time": "2026-09-30 13:20",
+          "verify_note": "外部检索（FT/Dealroom/Enera 同步报道：TypeSafe 的 Jev System One 决策模型走红，传估值冲 $100 亿、$10 亿融资洽谈）",
           "entities": [
             {
               "name": "Jev",
@@ -352,6 +358,7 @@
           "publish_time": "2026-09-29",
           "event_time": "2026-09-29",
           "event_time_inferred": false,
+          "verify_note": "外部检索（Post-Cutoff/AICrier 同步报道：AGMAI 发布《负责任发布 AI 生成数学成果》规范，12 条行动建议）",
           "entities": [
             {
               "name": "AGMA",
@@ -379,8 +386,9 @@
             "其他（政策监测）"
           ],
           "confidence": "低",
-          "confidence_note": "C源·HN 提交的一页站，无可核实实体",
-          "publish_time": "2026-09-30 04:16"
+          "confidence_note": "C源·HN 提交的一页站，无可核实实体；独立预测市场口径不一，维持低",
+          "publish_time": "2026-09-30 04:16",
+          "verify_note": "外部检索（Polymarket/Manifold 同题但口径不一：US 政府 2026 年内禁止开源/开放权重 AI 模型的预测概率约 16%（Polymarket）/28%（Manifold），与本条 7% 判定不一致，故不升级置信度）"
         },
         {
           "title": "WIPO《2026 全球创新指数》：AI 重塑创新投资",
@@ -401,9 +409,10 @@
           "type_tags": [
             "数据行情"
           ],
-          "confidence": "中",
-          "confidence_note": "B源·36氪快讯转新华社，原始报告未核",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪快讯+WIPO 官方新闻稿 同步报道 GII 2026「AI 重塑创新投资」主题",
           "publish_time": "2026-09-30 14:06",
+          "verify_note": "外部检索（WIPO 官方新闻稿同步报道：GII 2026 瑞士/瑞典/美国/韩国/新加坡领跑，「AI 重塑创新投资」为年度主题，深科技初创融资破 $7.6 万亿）",
           "entities": [
             {
               "name": "WIPO",
@@ -437,9 +446,10 @@
           "type_tags": [
             "数据行情"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·GMV 与增速为创始人自报，未经审计",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TC+Skift/The Inference/Travel Trade Desk 同步转述 Instinct 创始人自报 GMV 近 $10 亿、过半为旅行",
           "publish_time": "2026-09-29 23:12",
+          "verify_note": "外部检索（Skift/The Inference 同步报道：Instinct 创始人 Noah Shinn 称年化交易额近 $10 亿、>50% 为旅行，14 人团队以 $10 亿估值融资 $1 亿）",
           "entities": [
             {
               "name": "Instinct",
@@ -470,11 +480,12 @@
           "type_tags": [
             "数据行情"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·行情事实可公核",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+BigGo/Gate/Remio 独立报道 智谱港股 02513 自峰值蒸发约 1 万亿港元、跌至约 2 折",
           "publish_time": "2026-09-30 11:46",
           "event_time": "2026-06-22",
           "event_time_inferred": false,
+          "verify_note": "外部检索（Gate/BigGo 同步报道：智谱 02513.HK 市值自约 1 万亿港元回落至约 3000 亿港元、较峰值跌逾 60%，与报道一致）",
           "entities": [
             {
               "name": "智谱AI",
@@ -501,9 +512,10 @@
           "type_tags": [
             "数据行情"
           ],
-          "confidence": "中",
-          "confidence_note": "B源转述·Bain 报告原文未核，HN 高分讨论",
+          "confidence": "高",
+          "confidence_note": "双源佐证 The National/Bain+TNW/The Star 同步报道 Bain 第 7 份全球科技报告「AI 需 $6T 年收入」",
           "publish_time": "2026-09-30 03:21",
+          "verify_note": "外部检索（Bain 官方新闻稿/The Next Web 同步报道：Bain 第 7 份全球科技报告称 AI 须 2031 年前年入 $6 万亿才够本，现有产品最多 $1.8T，差额靠广告/机器人/物理 AI）",
           "entities": [
             {
               "name": "Bain",
@@ -534,11 +546,12 @@
           "type_tags": [
             "数据行情"
           ],
-          "confidence": "中",
-          "confidence_note": "B源转述官方 7 月口径；6000 万为预测未证实",
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+Motley Fool/UC Today 同步报道 365 Copilot 付费席位超 3000 万、预测 2027 年中冲 6000 万",
           "publish_time": "2026-09-30 11:30",
           "event_time": null,
           "event_time_inferred": false,
+          "verify_note": "外部检索（Motley Fool/UC Today 同步报道：Microsoft 365 Copilot 付费席位 6 月底超 3000 万，12 个月内有望翻倍至 6000 万）",
           "entities": [
             {
               "name": "Microsoft",
