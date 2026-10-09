@@ -3,7 +3,7 @@
   "date": "2026-10-02",
   "time": "09:00",
   "title": "AI 情报 · 10-02 09:00 场",
-  "generatedAt": "2026-10-08T07:21:38.681Z",
+  "generatedAt": "2026-10-09T00:18:33.247Z",
   "coverage": "2026-10-01 09:00 → 2026-10-02 09:00（Asia/Shanghai，24h 口径，无 48h 放宽条目）",
   "notes": [
     "信源状态见文末"
@@ -51,9 +51,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源 TechCrunch·无独立佐证",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+Engadget 10-01 同报",
           "publish_time": "2026-10-02 03:21",
+          "verify_note": "外部检索（Engadget/Tom's Guide/Search Engine Roundtable 10-01~02 同报：虚拟试穿+商品收藏全球上线，依赖 OpenAI 最新图模型）",
           "entities": [
             {
               "name": "OpenAI",
@@ -90,9 +91,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源 TechCrunch·无独立佐证",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+Shopify 官方 Newsroom 10-01 同报",
           "publish_time": "2026-10-02 00:44",
+          "verify_note": "外部检索（Shopify 官方 Newsroom 10-01《Introducing Canvas》；techbeat/frontiernow 10-01 同报：Sidekick 聊天建店、实时渲染真实 store 代码）",
           "entities": [
             {
               "name": "Shopify",
@@ -129,9 +131,10 @@
           "type_tags": [
             "融资交易"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源 TechCrunch·无独立佐证",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+TechFundingNews/Dealroom 10-01 同报",
           "publish_time": "2026-10-01 22:00",
+          "verify_note": "外部检索（TechFundingNews 10-01 同报：$4.5M 种子轮、Gradient Ventures 与 A* 领投、agent 落进 iMessage/WhatsApp；Dealroom/Seedtable 10-01 在档）",
           "entities": [
             {
               "name": "Photon",
@@ -226,9 +229,10 @@
             "技术进展",
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源 TechCrunch·Perplexity 侧 HF 官方页互见",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+VentureBeat/SiliconANGLE 10-01 同报·AWS 官方博客在档",
           "publish_time": "2026-10-02 00:49",
+          "verify_note": "外部检索（VentureBeat/SiliconANGLE/MarkTechPost 10-01 同报 Strands Decider 2B 开源（约 115ms 出决策）；AWS Strands 官方博客 10-01 与 HF pplx-decider-v1-27b 官方页在档）",
           "entities": [
             {
               "name": "Amazon",
@@ -263,9 +267,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源 Ars·原文页被拦按 feed 摘要收录",
-          "publish_time": "2026-10-02 00:28"
+          "confidence": "高",
+          "confidence_note": "双源佐证 Ars+MIT News/the-decoder 10-01 同报",
+          "publish_time": "2026-10-02 00:28",
+          "verify_note": "外部检索（MIT News 09-30/the-decoder 10-01/ZME Science 10-02 同报：自博弈 RL+测试时搜索击败史上最强人类 Stratego 玩家、算力远低于 DeepMind 级；arXiv 2511.07312 论文在档）"
         },
         {
           "title": "arXiv 论文：AI Agents 会互相激进化，「共鸣」比「说服」更狠",
@@ -322,11 +327,12 @@
           "type_tags": [
             "政策监管"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源 TechCrunch 转述 Time·原文未核",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+Gizmodo/Daily Beast 10-01~02 同报 Time 稿",
           "publish_time": "2026-10-02 05:08",
           "event_time": null,
           "event_time_inferred": false,
+          "verify_note": "外部检索（Gizmodo 10-01/The Daily Beast 10-02/Anadolu 与 IBTimes 10-02 多源同报：Time 披露特朗普花数小时问 Grok 民众对抓捕 Maduro 反应、Grok 预测多数会庆祝）",
           "entities": [
             {
               "name": "Donald Trump",
@@ -371,9 +377,10 @@
           "type_tags": [
             "政策监管"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源 Ars",
+          "confidence": "高",
+          "confidence_note": "双源佐证 Ars+WIRED/POLITICO 09-29 同报",
           "publish_time": "2026-10-01 02:25",
+          "verify_note": "外部检索（WIRED/POLITICO 09-29、ABC News/qz 09-30 多源同报：LASST 在旧金山高等法院起诉 OpenAI，寻求停止不安全开发的禁令、不索赔偿）",
           "entities": [
             {
               "name": "Hugging Face",
@@ -413,6 +420,7 @@
           "confidence": "高",
           "confidence_note": "Verge 主报·Ars/Reuters 同报多源",
           "publish_time": "2026-10-02 01:12",
+          "verify_note": "外部检索（Reuters 10-01 14:41Z 同报：Mehta 驳回 Chegg/Penske 诉 Google AI Overviews 反垄断案；D.D.C. 裁决书 CourtListener/Justia 在档）",
           "entities": [
             {
               "name": "Google",
@@ -500,9 +508,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源 Verge·闭门宣讲口径",
+          "confidence": "高",
+          "confidence_note": "双源佐证 Verge+TNW/PCMag 同报「OS for work」定位",
           "publish_time": "2026-10-02 00:00",
+          "verify_note": "外部检索（TNW 同报：新 Copilot 超级应用合并 Chat/Code/Autopilot 并装入 Word/Excel/PowerPoint；PCMag/TechSpot 10-01 同报微软自称「新 OS」）",
           "entities": [
             {
               "name": "Microsoft",
@@ -546,9 +555,10 @@
             "产品发布",
             "技术进展"
           ],
-          "confidence": "低",
-          "confidence_note": "C源榜单·无时间戳",
+          "confidence": "中",
+          "confidence_note": "C榜单+官方文档/仓库佐证三个项目均在档",
           "publish_time": null,
+          "verify_note": "外部检索（HeyGen 官方文档确认 hyperframes「Write HTML. Render video. Built for agents.」、仓库 37k★ Apache-2.0；openrig/cursor/plugins 仓库标题提取核验一致）",
           "entities": [
             {
               "name": "HeyGen",
