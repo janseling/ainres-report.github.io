@@ -3,7 +3,7 @@
   "date": "2026-10-08",
   "time": "21:00",
   "title": "AI 情报 · 10-08 21:00 场",
-  "generatedAt": "2026-10-08T18:49:14.137Z",
+  "generatedAt": "2026-10-09T04:47:41.110Z",
   "coverage": "2026-10-08 15:00 → 21:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00/15:00 场已报同题条目（GPT-6 免费/IUI、Haiku 5.5 降价、ICANN gTLD、AHM 声明等）去重不收"
@@ -307,6 +307,7 @@
           "publish_time": "2026-10-08 15:05",
           "event_time": "2026-10-07",
           "event_time_inferred": false,
+          "verify_note": "外部检索（Retraction Watch 同步报道：发布次日撤回 3 篇系一处符号错误所致，同期 719 篇在档、300 篇已 Lean 形式化≈42%）",
           "entities": [
             {
               "name": "OpenAI",
