@@ -1,6 +1,32 @@
 {
-  "count": 28,
+  "count": 29,
   "reports": [
+    {
+      "id": "2026-10-09-0900",
+      "date": "2026-10-09",
+      "time": "09:00",
+      "title": "AI 情报 · 10-09 09:00 场",
+      "itemCount": 14,
+      "coverage": "2026-10-08 21:00 → 2026-10-09 09:05（Asia/Shanghai，滚动 12h 窗）",
+      "note": "全部 B 源条目已完成「先证后发」外查",
+      "overview": [
+        "谷歌云发布 Gemini Agent「通用工作智能体」：给目标即可跨企业系统执行，自带职场身份与邮箱。",
+        "OpenAI 交付日 Day-4：GPT-6.1 Sol Ultrafast 极速档落地（最高约 300 t/s、6 倍计价），另交付 Instant Steering。",
+        "FT 曝 OpenAI 年化收入约 $500 亿、较此前对外口径少约 $200 亿，Nvidia/Oracle/CoreWeave 应声下挫。",
+        "Anthropic 同日双动作：2026 使用政策修订（禁极端辱骂/选举干预）＋组建 2028 总统候选人对接团队。",
+        "数学战线退潮成常态：撤稿 3 篇后「不达标」批评与第三方核查继续发酵。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 4,
+        "policy": 3,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 161,
+        "selected": 14
+      }
+    },
     {
       "id": "2026-10-08-2100",
       "date": "2026-10-08",
