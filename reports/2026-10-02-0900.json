@@ -3,7 +3,7 @@
   "date": "2026-10-02",
   "time": "09:00",
   "title": "AI 情报 · 10-02 09:00 场",
-  "generatedAt": "2026-10-09T00:18:33.247Z",
+  "generatedAt": "2026-10-09T05:41:34.830Z",
   "coverage": "2026-10-01 09:00 → 2026-10-02 09:00（Asia/Shanghai，24h 口径，无 48h 放宽条目）",
   "notes": [
     "信源状态见文末"
@@ -557,7 +557,9 @@
           ],
           "confidence": "中",
           "confidence_note": "C榜单+官方文档/仓库佐证三个项目均在档",
-          "publish_time": null,
+          "publish_time": "2026-10-02 09:11",
+          "event_time": null,
+          "event_time_inferred": false,
           "verify_note": "外部检索（HeyGen 官方文档确认 hyperframes「Write HTML. Render video. Built for agents.」、仓库 37k★ Apache-2.0；openrig/cursor/plugins 仓库标题提取核验一致）",
           "entities": [
             {
