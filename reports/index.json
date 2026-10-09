@@ -1,6 +1,32 @@
 {
-  "count": 29,
+  "count": 30,
   "reports": [
+    {
+      "id": "2026-10-09-1917",
+      "date": "2026-10-09",
+      "time": "19:17",
+      "title": "AI 情报 · 10-09 19:17 场",
+      "itemCount": 13,
+      "coverage": "2026-10-09 09:00 → 19:23（Asia/Shanghai，fetch 窗口口径）",
+      "note": "本日 0900 场已报 09:00 前时段（Sol Ultrafast 上线/收入下修/USA Today 诉讼等），本期窗口无重复条目",
+      "overview": [
+        "OpenAI 解雇三名安全研究员，三人联名公开信反击「因优先安全被排挤」，WSJ/CNN/TechCrunch 多源追问。",
+        "谷歌 Gemini 4 Argon 逼近发布：部分用户已可用、配套产品被曝同步准备，最快今日官宣。",
+        "何恺明团队视觉 Harness「VISTA」让 Claude 满分通关 ARC-AGI-3 公开集 25 款游戏。",
+        "中共中央、国务院印发《关于发展新质生产力的意见》：科技型企业上市融资入文、发改委点名 AI 为核心支撑。",
+        "华为哈勃、地平线押注深圳 DiffuSpace，创扩散语言模型全球最大融资；Anthropic 上市前遭做空报告（公允估值仅 $1500 亿）。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 3,
+        "policy": 1,
+        "industry": 5
+      },
+      "rawStats": {
+        "candidates": 843,
+        "selected": 13
+      }
+    },
     {
       "id": "2026-10-09-0900",
       "date": "2026-10-09",

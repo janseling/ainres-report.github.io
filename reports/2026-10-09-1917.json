@@ -1,0 +1,563 @@
+{
+  "id": "2026-10-09-1917",
+  "date": "2026-10-09",
+  "time": "19:17",
+  "title": "AI 情报 · 10-09 19:17 场",
+  "generatedAt": "2026-10-09T11:32:00.417Z",
+  "coverage": "2026-10-09 09:00 → 19:23（Asia/Shanghai，fetch 窗口口径）",
+  "notes": [
+    "本日 0900 场已报 09:00 前时段（Sol Ultrafast 上线/收入下修/USA Today 诉讼等），本期窗口无重复条目"
+  ],
+  "itemCount": 13,
+  "rawStats": {
+    "candidates": 843,
+    "selected": 13
+  },
+  "overview": [
+    "OpenAI 解雇三名安全研究员，三人联名公开信反击「因优先安全被排挤」，WSJ/CNN/TechCrunch 多源追问。",
+    "谷歌 Gemini 4 Argon 逼近发布：部分用户已可用、配套产品被曝同步准备，最快今日官宣。",
+    "何恺明团队视觉 Harness「VISTA」让 Claude 满分通关 ARC-AGI-3 公开集 25 款游戏。",
+    "中共中央、国务院印发《关于发展新质生产力的意见》：科技型企业上市融资入文、发改委点名 AI 为核心支撑。",
+    "华为哈勃、地平线押注深圳 DiffuSpace，创扩散语言模型全球最大融资；Anthropic 上市前遭做空报告（公允估值仅 $1500 亿）。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "Gemini 4 Argon 进入发布窗口：部分用户已可用，「最快今日」官宣开放",
+          "meta": "36氪·2026-10-09 12:09",
+          "urls": [
+            "https://36kr.com/p/4018114874609798"
+          ],
+          "summary": "36氪称 Argon 已对部分用户开放、「还没官宣已经有人先用上」；Google 早在 9 月 30 日以「下一个前沿世代」为题官宣该模型名。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "GPT-6 家族、Gemini 4、Claude 同帧对撞，旗舰 API 议价权继续向买方倾斜。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "若今日全量，Argon 评测/迁移对比稿是即时流量窗口；同步上线的 Concierge（助手向）形态值得盯。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "blog.google 官宣在档·发布窗口多源同报",
+          "publish_time": "2026-10-09 12:09",
+          "event_time": "2026-09-30",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（TestingCatalog 10-07 22:04 报配套 Antigravity/Concierge 在准备、Nokiapoweruser 10-08 20:08 报「Could Launch Today」；blog.google 9-30 15:00 官宣文在档）",
+          "entities": [
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "Gemini 4 Argon",
+              "type": "产品"
+            }
+          ]
+        },
+        {
+          "title": "港大教授孔令鹏深圳创业做 dLLM：华为哈勃、地平线跟投，数亿元创扩散语言模型全球最大融资",
+          "meta": "36氪·2026-10-09 10:04",
+          "urls": [
+            "https://36kr.com/p/4017893770809473"
+          ],
+          "summary": "公司 DiffuSpace 2026-05 落地深圳，核心团队自 2022 年（DeepMind 出身的孔令鹏在港大组建的 NLP 团队）即研究扩散语言模型；君联资本等联合领投，中科创星、华为哈勃、地平线跟投。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "非自回归路线拿到本土一线机构真金白银，扩散 LLM 从论文热点进入商业化下注阶段。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "dLLM 并行生成在草稿改写/低延迟编辑类场景有结构性优势，可作延迟敏感产品的底座候选。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+智东西",
+          "publish_time": "2026-10-09 10:04",
+          "event_time": "2026-10-09",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（智东西 10-09 09:52 同报：雷军、华为都投了，数亿元、全球 dLLM 最大融资）",
+          "entities": [
+            {
+              "name": "DiffuSpace",
+              "type": "企业"
+            },
+            {
+              "name": "孔令鹏",
+              "type": "人物"
+            },
+            {
+              "name": "华为",
+              "type": "企业"
+            }
+          ]
+        },
+        {
+          "title": "鲲为科技拿下 4 亿元新融资：超声「穿颅读脑」实时成像，要做脑科学「英伟达」",
+          "meta": "极客公园·2026-10-09 12:28",
+          "urls": [
+            "http://www.geekpark.net/news/372148"
+          ],
+          "summary": "XVC、红杉中国新增入股，夏尔巴、腾讯加仓；实测穿颅后脑组织/血流动态毫秒级实时呈现，对标数百万级海外旗舰彩超。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "高端超声国产替代+AI 实时成像溢价，红杉/腾讯加仓说明工具层生意模型获认可。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "「看清大脑」是脑机接口与神经诊疗的上游刚需位，仪器+算法双卖可行。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·极客公园独家",
+          "publish_time": "2026-10-09 12:28",
+          "verify_note": "未见独立来源（外查 10-09；上年 A+ 轮为 2025-01 报道）",
+          "entities": [
+            {
+              "name": "鲲为科技",
+              "type": "企业"
+            }
+          ]
+        },
+        {
+          "title": "TRAE 把 Code 和 Work 合并：AI IDE 从编码工具走向全工作流平台",
+          "meta": "量子位·2026-10-09 17:19",
+          "urls": [
+            "https://www.qbitai.com/2026/10/502426.html"
+          ],
+          "summary": "国内 AI IDE 双产品线合一，编码外的知识工作被吞进同一工作台。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "Agent IDE 竞争进入「工作流平台」阶段，单点编码工具的差异化窗口正在关闭。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 量子位+品玩",
+          "publish_time": "2026-10-09 17:19",
+          "event_time": "2026-10-09",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（品玩 10-09 12:52 同报：能力向外扩展、开发继续深入）",
+          "entities": [
+            {
+              "name": "TRAE",
+              "type": "产品"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术 / 模型",
+      "items": [
+        {
+          "title": "何恺明团队发布视觉 Harness「VISTA」：让 Claude 满分通关 ARC-AGI-3 公开集 25 款游戏",
+          "meta": "36氪·2026-10-09 15:55",
+          "urls": [
+            "https://36kr.com/p/4018280754614148"
+          ],
+          "summary": "不动模型权重、只造视觉 harness，把「看不清」的长程推理任务变成满分通关；与 NVIDIA AVO 八月的 ARC-AGI-3 满分成绩并列，非首例。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "两次满分都来自外部 harness 而非再训练——harness 工程正成为独立能力层。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "harness 设计/评测服务是轻资产卡位：不训模型，靠任务分解与工具链吃前沿能力红利。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源同报 36氪+新浪财经+搜狐镜像",
+          "publish_time": "2026-10-09 15:55",
+          "event_time": "2026-10-08 23:02",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（新浪财经 10-08 23:02 同题报道 VISTA 满分通关）",
+          "entities": [
+            {
+              "name": "何恺明",
+              "type": "人物"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            },
+            {
+              "name": "ARC-AGI-3",
+              "type": "产品"
+            }
+          ]
+        },
+        {
+          "title": "Aether AI 发布 CRIS-0：把「因果智能」装进物理世界，0.2 秒急停、故障自修复",
+          "meta": "量子位·2026-10-09 16:47",
+          "urls": [
+            "https://www.qbitai.com/2026/10/502411.html"
+          ],
+          "summary": "机器人关门遇人手插入 0.2 秒急停悬停；逆运动学解越界时不死锁，而是捕捉错误反馈自主修正工具并固化留存。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "具身智能从「预测」转向「因果推演」，安全急停+故障自修复是 B 端签单的真实痛点。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "官方通稿+三家垂媒同报",
+          "publish_time": "2026-10-09 02:30",
+          "event_time": "2026-10-09 02:30",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Business Wire 10-09 02:30 官宣「Causal Intelligence Into the Physical World」；甲子光年/机器之心同日跟进）",
+          "entities": [
+            {
+              "name": "Aether AI",
+              "type": "企业"
+            },
+            {
+              "name": "CRIS-0",
+              "type": "产品"
+            }
+          ]
+        },
+        {
+          "title": "ClaudeScience 拼出首张紫外全天图：1.19 亿颗星逐颗叠加，50 年卫星数据一手包办",
+          "meta": "新智元搜狐镜像·2026-10-09 17:41",
+          "urls": [
+            "https://m.sohu.com/a/1085630723_473283"
+          ],
+          "summary": "天体物理学家用一句话指令指挥一队 Claude agent：找齐 50 年卫星紫外数据、逐步拼图并推算空白区域，产出首张紫外全天图。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "「AI 科研外包」从聊天走向数据工程交付，科学家+agent 编排是可复制服务形态。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "科学数据聚合/重建（天文/生物/材料）是被低估的付费场景，按项目计费比订阅更早跑通。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "官方原文在档+The Decoder 同报",
+          "publish_time": "2026-10-09 04:59",
+          "verify_note": "外部检索（Anthropic 官方 10-09 04:59 同文、The Decoder 10-09 17:23 同报）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策 / 监管",
+      "items": [
+        {
+          "title": "中共中央、国务院印发《关于发展新质生产力的意见》：科技型企业上市融资入文，发改委点名 AI 为核心支撑",
+          "meta": "36氪·2026-10-09 18:14",
+          "urls": [
+            "https://36kr.com/p/4018485407649664"
+          ],
+          "summary": "文件要点：符合国家战略需求的企业研发项目可按程序上升为国家项目；支持优质科技型企业上市融资、优化并购重组与股权激励；加快新一代信息技术、机器人等战略性新兴产业；完善市场准入、强化反垄断。发改委同日表态「人工智能是发展新质生产力、建设现代化产业体系的核心支撑」。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "科技型企业 IPO 与并购通道被中央文件点名——DeepSeek/月之暗面/可灵等 IPO 批次（SIG-20261006-2100-1）获得直接政策背书。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "AI 项目「上国家项目」的申报细则值得盯，课题经费与算力指标有了官方入口。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "新华社权威快报在档",
+          "publish_time": "2026-10-09 18:02",
+          "event_time": "2026-10-09",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（新华网 10-09 18:02 「新华社权威快报」同报；金融界 10-09 18:07 同转）",
+          "entities": [
+            {
+              "name": "国务院",
+              "type": "机构"
+            },
+            {
+              "name": "国家发展改革委",
+              "type": "机构"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业 · 玩法",
+      "items": [
+        {
+          "title": "OpenAI 解雇三名安全研究员，三人联名公开信反击「内部真相」",
+          "meta": "36氪·2026-10-09 19:12",
+          "urls": [
+            "https://36kr.com/p/4018471021629317"
+          ],
+          "summary": "OpenAI 称 Jasmine Wang、Tomek Korbak、Mikita Balesni 三人「重大违反信任」，纪律解雇决定维持；三人公开信称因「优先安全工作」被排挤，核心诉求是保留前沿模型可监测性，WSJ 称三人曾请托 OpenAI 保留对推理过程的可见性。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "解雇争议撞上上市静默期与做空报告同日发酵，治理风险开始被公开定价。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "与 Goodfire 「内探」监控同帧——「模型可监测性」从伦理议题变成采购品类，agent 安全监控需求叙事再获背书。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源佐证 WSJ/CNN/TechCrunch/The Information/The Verge",
+          "publish_time": "2026-10-09 19:12",
+          "event_time": "2026-10-08",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（WSJ 10-08 07:46 独家、The Information 10-09 04:20 「因强调安全被解雇」、CNN 10-09 07:22、TechCrunch 10-09 04:04 同报）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            }
+          ]
+        },
+        {
+          "title": "硅谷大模型不装了：「10 美分的 Claude、0 元的 GPT」，补贴牌桌对齐国内打法",
+          "meta": "36氪·2026-10-09 18:58",
+          "urls": [
+            "https://36kr.com/p/4018465237995655"
+          ],
+          "summary": "复盘称美国 AI 开打「百亿补贴」：Claude Haiku 5.5 把价格打到一分钱档，GPT 用免费+重置额度学豆包拉新；同期 GPT-6.1 Sol Ultrafast 提速 8 倍却被喷「变相涨价」，$500 档用户抱怨额度烧得更狠。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "推理价格地板继续下探与旗舰「速度单独定价」两条线并行，agent 产品毛利结构需要重算。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "高频小调用（多 agent 并发、RAG、审核分流）是本轮降价最大受益结构；「花钱买快」的口碑反弹说明速度/额度沟通比参数更关键。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "官方定价动作多源在档",
+          "publish_time": "2026-10-09 18:58",
+          "verify_note": "外部检索（VentureBeat 10-08 02:08 同报：Haiku 5.5 API 降价 90%、对标 GPT-6 Luna）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            }
+          ]
+        },
+        {
+          "title": "上市前的正面做空：Anthropic 公允估值被指仅 $1500 亿",
+          "meta": "36氪·2026-10-09 11:43",
+          "urls": [
+            "https://36kr.com/p/4018013543665797"
+          ],
+          "summary": "按 36氪转述：报告指 Anthropic 收入高度集中（两大客户约占四分之一），对照传闻 $2 万亿估值目标只给 $1500 亿公允值；Burry 此前言论同频——AI 支出或将沦为「沉没成本」。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "秘密递交 S-1（官方 6-01 确认）后第一份系统性做空意见出现，路演定价博弈开演；若 IPO 估值被砍，一级市场 AI 估值体系面临重锚。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+金融资讯同报",
+          "publish_time": "2026-10-09 11:43",
+          "event_time": "2026-10-08 18:04",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（TradingView 资讯 10-08 18:04 同报：分析师称 Anthropic IPO 或是 2026 年「最离谱发行」、属「对投资者判断力的空前考验」、公允估值仅 $1500 亿）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            }
+          ]
+        },
+        {
+          "title": "亚马逊紧急封禁 Meta Muse 等外部 AI 购物代理，Paul Graham 看好「新对手」机会",
+          "meta": "36氪·2026-10-09 18:11",
+          "urls": [
+            "https://36kr.com/p/4018136521461891"
+          ],
+          "summary": "亚马逊对外部 AI 购物代理封禁，36氪以 Muse 为例复盘其「危险」之处与平台反制逻辑；Muse 在 10-08 21:00 场已收录，此为平台侧连锁后续。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "agent 导购/比价的商业模式可被平台一纸规则掐断，「agent 准入权」成新的渠道税。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "Paul Graham 点名封禁是新对手的窗口——绕开平台闭环的独立购买入口与 agent 商务标准值得立项评估。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源佐证 Barron's/Business Insider/Yahoo",
+          "publish_time": "2026-10-09 18:11",
+          "event_time": "2026-10-08",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（Barron's 10-09 02:45 「封禁是给对手的机会」、Business Insider 10-09 00:53 Paul Graham 评论、Yahoo 10-08 21:28 同报）",
+          "entities": [
+            {
+              "name": "Amazon",
+              "type": "企业"
+            },
+            {
+              "name": "Meta",
+              "type": "企业"
+            },
+            {
+              "name": "Muse",
+              "type": "产品"
+            }
+          ]
+        },
+        {
+          "title": "AI 猫狗演短剧：不用真人不用剧组，流量生意已验真",
+          "meta": "36氪·2026-10-09 18:48",
+          "urls": [
+            "https://36kr.com/p/4018431072833664"
+          ],
+          "summary": "36氪起底 AI 宠物拟人短剧产业链：AI 猫狗演分手复仇等桥段批量测流量，变现靠平台分成与带货，成本比真人剧组低一个量级。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "内容成本趋零后竞争回到题材洞察与投放效率，小团队可复制。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "同质化与平台原创性审核是最大变量，先跑数据再扩产能。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "现象分析类·现象本身多源印证",
+          "publish_time": "2026-10-09 18:48",
+          "verify_note": "外部检索（投资界 10-09 17:58 同稿；虎嗅 2026-07、8world 2026-03 已多次报道该现象）"
+        }
+      ]
+    }
+  ],
+  "signals": [],
+  "sourceStatus": [
+    "- VentureBeat：DOWN，连续 13 期失败（curl 被 Vercel 检查页拦截、render 未恢复）——连续失败 3+ 期，建议停用该源，改由同业源补位。"
+  ]
+}
