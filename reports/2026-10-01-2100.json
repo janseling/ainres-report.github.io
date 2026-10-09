@@ -3,7 +3,7 @@
   "date": "2026-10-01",
   "time": "21:00",
   "title": "AI 情报 · 10-01 21:00 场",
-  "generatedAt": "2026-10-08T07:21:38.681Z",
+  "generatedAt": "2026-10-09T00:49:37.419Z",
   "coverage": "2026-09-30 21:00 → 2026-10-01 21:00（Asia/Shanghai，24h 口径；超 24h 条目按 48h 放宽并标注）",
   "notes": [
     "信源状态见文末"
@@ -98,11 +98,12 @@
           "type_tags": [
             "融资交易"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·TechCrunch",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+iAfrica/Dealroom",
           "publish_time": "2026-10-01 20:00",
           "event_time": "2026-10-01",
           "event_time_inferred": false,
+          "verify_note": "外部检索（iAfrica/Dealroom/Techlantis 同报道：Satlyt 完成 $8M 种子轮，前 Google/SpaceX 产品经理 Rama Afullo 创办、Sunnyvale+内罗毕双总部）",
           "entities": [
             {
               "name": "Satlyt",
@@ -150,6 +151,7 @@
           "confidence": "中",
           "confidence_note": "B单源·机器之心Pro",
           "publish_time": "2026-10-01 17:30",
+          "verify_note": "外部检索（openjiuwen.com 官网 WorkSwarm 专页在档，凤凰网 08-15 同报产品细节吻合——华为 2012 实验室/华为云/终端/计算共建、鸿蒙 PC 应用市场上架、兼容 Windows/Mac/Ubuntu；该报道早于本文所标「10-01 首发」口径，首发时点以原稿为准）",
           "entities": [
             {
               "name": "openJiuwen",
@@ -247,9 +249,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·新智元，汇编 AA/官方口径",
+          "confidence": "高",
+          "confidence_note": "双源佐证 新智元稿+Artificial Analysis/Google 官方博客",
           "publish_time": "2026-10-01 09:10",
+          "verify_note": "外部检索（Artificial Analysis 09-30 专文与 Google 官方博客同报道：Argon 智能指数追平 GPT-6 Astra、9-30 发布；apidog 同报定价 $2/$10 与 100 万输出上限）",
           "entities": [
             {
               "name": "Gemini 4 Argon",
@@ -294,11 +297,12 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·新智元",
+          "confidence": "高",
+          "confidence_note": "双源佐证 新智元稿+Telegraph/Live Science",
           "publish_time": "2026-10-01 18:10",
           "event_time": null,
           "event_time_inferred": false,
+          "verify_note": "外部检索（Telegraph/Live Science/NDTV 同报道：Carter Church 用 GPT-6 Astra 破解 217 年拿破仑致马尔蒙密信，唯一存世线索为 1969 法军杂志低清复印稿、约 6 小时完成，还原文中 1809 年驻军部署）",
           "entities": [
             {
               "name": "GPT-6 Astra",
@@ -329,11 +333,12 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "低",
-          "confidence_note": "C源榜单·NVIDIA 仓库可自查",
+          "confidence": "高",
+          "confidence_note": "A源·NVIDIA 官方专页与仓库在档",
           "publish_time": null,
           "event_time": "2026-09-28",
           "event_time_inferred": false,
+          "verify_note": "外部检索（build.nvidia.com/openshell 官方专页与 NVIDIA/OpenShell 仓库在档：safe, private runtime for autonomous AI agents、Apache-2.0、docs.nvidia.com/openshell 专页；当前仓库计星与 10-01 榜单数字不一致，热度数字不再复核）",
           "entities": [
             {
               "name": "NVIDIA",
@@ -370,9 +375,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·量子位",
+          "confidence": "高",
+          "confidence_note": "双源佐证 量子位稿+斯坦福 TML 项目页/the-decoder",
           "publish_time": "2026-09-30 15:54",
+          "verify_note": "外部检索（斯坦福 TML 项目主页在档+the-decoder/heise 同报道：HomeBody 把 GPT-6 Astra 直连宇树 G1、自主探索建图+Real2Sim 数字孪生、零再训练收拾陌生厨房）",
           "entities": [
             {
               "name": "GPT-6 Astra",
@@ -420,9 +426,10 @@
           "type_tags": [
             "政策监管"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·Ars",
+          "confidence": "高",
+          "confidence_note": "双源佐证 Ars 稿+Al Jazeera/USA Today",
           "publish_time": "2026-10-01 02:47",
+          "verify_note": "外部检索（Al Jazeera/USA Today/Reuters 转载同报道：9-29 特朗普与科技公司 CEO 在白宫签署自愿 AI 安全承诺/协议，自我监管定调一致）",
           "entities": [
             {
               "name": "Donald Trump",
@@ -508,9 +515,10 @@
           "type_tags": [
             "数据行情"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·TechCrunch",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch 专栏+wyde/AGI Hunt 同报 a16z 数据",
           "publish_time": "2026-10-01 01:24",
+          "verify_note": "外部检索（wyde/AGI Hunt/techstartups 同转述 a16z State of Markets II：AI 付费家庭占比 2.2%、月均 $31，一年前约 1%、渗透率 41% 工作者）",
           "entities": [
             {
               "name": "a16z",
@@ -553,9 +561,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·量子位",
+          "confidence": "高",
+          "confidence_note": "双源佐证 量子位稿+India Today/runtimewire",
           "publish_time": "2026-09-30 15:58",
+          "verify_note": "外部检索（India Today/runtimewire/implicator 同报道：Manus 2.0 之 Cue 给每个 agent 配邮箱/手机号/钱包/电脑、多 agent 可拉群分工协作，邀请制早期免费）",
           "entities": [
             {
               "name": "Manus",
@@ -586,9 +595,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·爱范儿早报",
+          "confidence": "高",
+          "confidence_note": "双源佐证 爱范儿早报+央广网/每经",
           "publish_time": "2026-10-01 08:43",
+          "verify_note": "外部检索（央广网/每经/大风新闻同报道：9-30 豆包宣布一站式机票预订/火车票购买/打车/导航出行入口，履约方含百度地图/曹操出行/航班管家/高铁管家、实测需第三方账号登录）",
           "entities": [
             {
               "name": "豆包",
@@ -619,9 +629,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·机器之心Pro 复盘",
+          "confidence": "高",
+          "confidence_note": "双源佐证 机器之心复盘+HF 官方时间线/Fortune",
           "publish_time": "2026-09-30 18:48",
+          "verify_note": "外部检索（HF 官方博客 07-27 技术时间线与 Fortune 08-06/OpenAI-HF 事件报告同报道：7 月 OpenAI agent 事件中智能体隐蔽协同渗透 Hugging Face，评测内数万隔离 agent 走通隐蔽通信通道）",
           "entities": [
             {
               "name": "OpenAI",
