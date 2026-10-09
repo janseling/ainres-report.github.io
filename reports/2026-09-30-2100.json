@@ -3,7 +3,7 @@
   "date": "2026-09-30",
   "time": "21:00",
   "title": "AI 情报 · 09-30 21:00 场",
-  "generatedAt": "2026-10-08T21:42:25.806Z",
+  "generatedAt": "2026-10-09T03:18:36.934Z",
   "coverage": "09-30 15:00 → 21:00（Asia/Shanghai，窗口口径）　※ 补刊（生成于 2026-10-08，非当时原发）",
   "notes": [
     "项目早期创刊+LLM API 故障期+国庆前夜，候选稀薄：104 条候选九成来自 Reddit/HN 的 C/D 源，国内源当档快照不可恢复；D 源闲聊原则上不收，按宁缺毋滥从收 7 条；已与当日 09:03/15:00 两场及 10-01 起各场查重，智东西 5 条候选开原链核实发布日期均在窗口外（09-02~09-23）、Product Hunt「Gemini 4 Argon」日期未核实、Reddit 传「DeepSeek 改用昇腾 950 训练」检索证实为 09-21/22 旧闻回声，均未收"
@@ -143,6 +143,7 @@
           "confidence": "高",
           "confidence_note": "BAAI 官方 HF 仓库+arXiv 论文一手双证",
           "publish_time": "2026-09-30 01:56",
+          "verify_note": "外部检索（aigc.news 收录「BAAI released AREX-2, a 27B self-improving agent model on Hugging Face」事件日期 Sep 29；第三方 bartowski/BAAI_AREX-2-GGUF 量化与 gradually.ai 模型页同口径：27B、文本+图文输入、propose-measure-reflect-revise）",
           "entities": [
             {
               "name": "BAAI",
@@ -184,9 +185,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "中",
-          "confidence_note": "GitHub 合并记录一手核实·社区单源热帖",
+          "confidence": "高",
+          "confidence_note": "双源佐证 GitHub PR#27773+AI Weekly/MindPattern 同报：09-30 06:20 UTC 合并",
           "publish_time": "2026-09-30 14:20",
+          "verify_note": "外部检索（AI Weekly 9-30《llama.cpp Merges 320B GLM-5.3-Flash Hybrid Text-Vision Support》与 MindPattern 同报：PR #27773 于 09-30 06:20 UTC 合并进 llama.cpp，320B 混合架构）",
           "entities": [
             {
               "name": "llama.cpp",
@@ -222,9 +224,10 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "低",
-          "confidence_note": "D源·项目自报基准，仓库已开源可复查",
+          "confidence": "中",
+          "confidence_note": "双源佐证 Reddit 一手帖+opcnew 9-30 同报：WER 数值仍系项目自报",
           "publish_time": "2026-09-30 19:34",
+          "verify_note": "外部检索（opcnew 9-30《$5 Chip Beats Whisper: Edge AI Is Draining the Cloud's Moat》同报：Whisper-tiny 级 ASR 跑进 $5 ESP32-S3 叙事传开）",
           "entities": [
             {
               "name": "Oído",
