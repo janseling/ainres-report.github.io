@@ -3,7 +3,7 @@
   "date": "2026-10-03",
   "time": "21:00",
   "title": "AI 情报 · 10-03 21:00 场",
-  "generatedAt": "2026-10-08T20:51:03.315Z",
+  "generatedAt": "2026-10-09T01:43:33.653Z",
   "coverage": "10-03 15:00 → 21:10（Asia/Shanghai）　※ 补刊（生成于 2026-10-08，非当时原发）",
   "notes": [
     "候选池 72 条，多为社区闲聊/超 48h 旧闻，有效候选约 12 条，宁缺毋滥从严取 7；已与同日 09:00 补刊场及 10-05~10-08 各期逐主题去重（Kolibri、Muse Spark、自保报告、Utopai、FTC 均未见收录）；智东西 MiniMax 评测为窗口边缘补位：页面日期 10-03（时刻未标注、镜像 18:44 收稿），0900 场因搜狐故障漏收、后续各期均超窗口，本档补位并如实标注"
@@ -53,7 +53,7 @@
           ],
           "confidence": "高",
           "confidence_note": "官方博客+技术报告佐证·多源同报",
-          "publish_time": "2026-10-03",
+          "publish_time": "2026-10-02 13:54",
           "event_time": "2026-10-03",
           "event_time_inferred": false,
           "verify_note": "外部检索（aleph-alpha.com 官博 10-03 与 tech report PDF 口径一致：78.1B 总参/3.46B 激活·英德双语 MoE·Apache 2.0 开放权重；sovereigntymonitor.eu 10-03、runtimewire 同报；需 2×A100 80GB 起）",
