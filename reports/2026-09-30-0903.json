@@ -3,7 +3,7 @@
   "date": "2026-09-30",
   "time": "09:03",
   "title": "AI 情报 · 09-30 09:03 场",
-  "generatedAt": "2026-10-09T12:33:05.549Z",
+  "generatedAt": "2026-10-09T21:42:58.581Z",
   "coverage": "2026-09-29 09:03 → 2026-09-30 09:03（Asia/Shanghai）",
   "notes": [
     "信源状态见文末（上期失效的量子位本期已恢复）"
@@ -479,7 +479,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 CNBC+Reuters 原稿·TechSpot 独立跟进",
-          "publish_time": "2026-09-30 03:58",
+          "publish_time": "2026-09-29 19:56",
           "verify_note": "外部检索（Reuters 09-29 原稿在案：AI 估算各门店「支付意愿」、扩大店间价差；TechSpot 10-01 独立跟进：两英里外 Big Mac 贵 $1.20）",
           "entities": [
             {
