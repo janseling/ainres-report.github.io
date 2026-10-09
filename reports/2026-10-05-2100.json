@@ -3,7 +3,7 @@
   "date": "2026-10-05",
   "time": "21:00",
   "title": "AI 情报 · 10-05 21:00 场",
-  "generatedAt": "2026-10-08T17:48:07.859Z",
+  "generatedAt": "2026-10-09T17:43:24.346Z",
   "coverage": "2026-10-05 15:00 → 21:00（Asia/Shanghai，24h 口径；ThinkingBox 条目为 48h 边界）",
   "notes": [
     "信源状态见文末",
@@ -241,6 +241,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 arXiv 2609.10867 原文+陶哲轩博客 9-10 客座帖",
           "publish_time": "2026-10-05 14:58",
+          "event_time": "2026-09-09",
+          "event_time_inferred": false,
           "verify_note": "外部检索（arXiv 2609.10867《Stable Singularity of the Euler Equations on R³》9-09 提交；陶哲轩博客 9-10 客座帖署名 Ganeshram/Anandkumar/Duruisseaux，Anima LinkedIn 9-08 确认 PINN 起步路线——一手源为 9 月上旬，新智元 10-05 属延迟跟进）",
           "entities": [
             {
@@ -290,6 +292,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 新智元+钛媒体/投资界 10-02 同报",
           "publish_time": "2026-10-05 14:58",
+          "event_time": "2026-10-02",
+          "event_time_inferred": false,
           "verify_note": "外部检索（钛媒体 10-02 同报：摸小宠上线华为 Mate 90 鸿蒙应用市场、云端昇腾＋麒麟端侧约 6 亿参数 MoWorld-Flash 协同；投资界 10-02 同报 Mate 90 发布会亮相）",
           "entities": [
             {
@@ -511,6 +515,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪快讯+Reuters 10-05 同报",
           "publish_time": "2026-10-05",
+          "event_time": "2026-10-05",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Reuters 10-05《Deutsche Telekom sees €2.5 billion in savings from AI, automation by 2030》同报；telekom.com 10-05 官方 AI Investor Day 新闻稿在档；TelecomLead/Trending Topics 同报 €8 亿 AI 收入目标）",
           "entities": [
             {
