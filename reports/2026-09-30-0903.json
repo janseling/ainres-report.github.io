@@ -3,7 +3,7 @@
   "date": "2026-09-30",
   "time": "09:03",
   "title": "AI 情报 · 09-30 09:03 场",
-  "generatedAt": "2026-10-09T04:20:25.468Z",
+  "generatedAt": "2026-10-09T12:33:05.549Z",
   "coverage": "2026-09-29 09:03 → 2026-09-30 09:03（Asia/Shanghai）",
   "notes": [
     "信源状态见文末（上期失效的量子位本期已恢复）"
@@ -427,7 +427,8 @@
           ],
           "source_tier": null,
           "type_tags": [
-            "政策监管"
+            "政策监管",
+            "安全"
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 Politico+WIRED·Ars 同报",
