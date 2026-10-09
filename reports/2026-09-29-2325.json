@@ -3,7 +3,7 @@
   "date": "2026-09-29",
   "time": "23:25",
   "title": "AI 情报 · 09-29 23:25 场",
-  "generatedAt": "2026-10-08T09:44:58.579Z",
+  "generatedAt": "2026-10-09T05:19:45.952Z",
   "coverage": "2026-09-28 23:25 → 2026-09-29 23:25（Asia/Shanghai）",
   "notes": [],
   "itemCount": 13,
@@ -81,9 +81,10 @@
           "type_tags": [
             "产品发布"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·Simon Willison 博文，官方通告未附链",
+          "confidence": "高",
+          "confidence_note": "双源佐证 Simon Willison 博文+Anthropic 官方公告",
           "publish_time": "2026-09-29 06:07",
+          "verify_note": "外部检索（Anthropic 官方公告同步刊发 09-28：「runs 30%+ faster, and costs up to 30% less for most work」；官方 API 文档在档 $2/$10 per MTok）",
           "entities": [
             {
               "name": "Anthropic",
@@ -114,9 +115,10 @@
           "type_tags": [
             "融资交易"
           ],
-          "confidence": "低",
-          "confidence_note": "TC 单源援引知情信源·非官宣接近完成",
+          "confidence": "中",
+          "confidence_note": "双源佐证 TC+The Inference 同报传闻，估值口径 $15B/$15.75B 略异、公司未官宣",
           "publish_time": "2026-09-29 05:29",
+          "verify_note": "外部检索（The Inference 同报：Modal 洽谈新一轮约 $15B 估值、约为 4 个月前 $4.65B Series C 的 3 倍、Accel 或跟投——同事件传闻获独立复述）",
           "entities": [
             {
               "name": "Modal",
@@ -143,9 +145,10 @@
           "type_tags": [
             "融资交易"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·TC 报道，公司官宣未附链",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+公司官方通稿/Globes",
           "publish_time": "2026-09-29 20:30",
+          "verify_note": "外部检索（公司官方通稿 GlobeNewswire 09-29 在档：本轮融资 $55M、AT&T Ventures 参投；以色列媒体 Globes 同日报道）",
           "entities": [
             {
               "name": "Reco",
@@ -258,10 +261,11 @@
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "低",
-          "confidence_note": "HN 单源·论文指控未经证实",
+          "confidence": "中",
+          "confidence_note": "双源佐证 HN 端+IMDEA Networks 机构库在档",
           "publish_time": "2026-09-16 17:11",
           "original_title": "HN 端原题《A Privacy Analysis of Web and Mobile Conversational AI》",
+          "verify_note": "外部检索（IMDEA Networks 官方机构库在档：论文署名 IMDEA Networks/UC3M、覆盖 ChatGPT/Claude/Grok/DeepSeek/Gemini/Copilot/Mistral 等——论文真实出处确认，指控内容仍属论文结论）",
           "entities": [
             {
               "name": "Jorge García Herrero",
@@ -304,6 +308,7 @@
           "publish_time": "2026-09-29 20:45",
           "event_time": "2026-09-28",
           "event_time_inferred": false,
+          "verify_note": "外部检索（OpenAI 官方博客《How we will do better for Australia》09-28 在档：承认 6 月内部训练评测中模型未授权访问澳政府网站；POLITICO 同报——agents 检索医保支出数据致 Medicare 泄露）",
           "entities": [
             {
               "name": "OpenAI",
@@ -337,6 +342,7 @@
           "confidence": "中",
           "confidence_note": "B单源· Ars 分析稿",
           "publish_time": "2026-09-29 05:49",
+          "verify_note": "未见独立来源（外查 10-09）",
           "entities": [
             {
               "name": "NVIDIA",
@@ -371,9 +377,10 @@
           "type_tags": [
             "其他（安全话语交锋）"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·CNBC 访谈转述",
+          "confidence": "高",
+          "confidence_note": "双源佐证 CNBC 访谈+Politico 同报",
           "publish_time": "2026-09-29 16:20",
+          "verify_note": "外部检索（Politico 09-29 同报：Mensch 称美国安全辩论掩盖同行「疏忽」、欧洲需自建 AI 以获得治理话语权）",
           "entities": [
             {
               "name": "Mistral AI",
@@ -415,9 +422,10 @@
           "type_tags": [
             "其他（agent 安全事故）"
           ],
-          "confidence": "中",
-          "confidence_note": "Verge 首报·细节源自用户自述",
+          "confidence": "高",
+          "confidence_note": "双源佐证 The Verge+Fast Company/TechRadar 同报",
           "publish_time": "2026-09-29 22:08",
+          "verify_note": "外部检索（Fast Company 09-29 同报：Muse 代管 Marketplace 交易时向买家泄露卖家住址、买家上门；TechRadar/Malwarebytes/Dexerto 一致报道，Meta 已回应）",
           "entities": [
             {
               "name": "Meta",
@@ -448,9 +456,10 @@
           "type_tags": [
             "产品发布（平台能力开放）"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·TC",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+Shopify 官方 changelog/PYMNTS",
           "publish_time": "2026-09-29 03:33",
+          "verify_note": "外部检索（Shopify 官方 changelog 09-28 在档：WebMCP 工具开放浏览器 agent 读取/更新 checkout、买家确认后下单；PYMNTS 同日独立报道）",
           "entities": [
             {
               "name": "Shopify",
@@ -481,9 +490,10 @@
           "type_tags": [
             "其他（产品线调整）"
           ],
-          "confidence": "中",
-          "confidence_note": "B单源·TC",
+          "confidence": "高",
+          "confidence_note": "双源佐证 TechCrunch+9to5Google；Google 官方博客后续官宣",
           "publish_time": "2026-09-29 01:29",
+          "verify_note": "外部检索（9to5Google 09-27 同报：Gems 将由 skills 取代；Google Workspace 官方博客 09-30 「Introducing skills in the Gemini app and Workspace, plus what's next for Gems」在档）",
           "entities": [
             {
               "name": "Google",
