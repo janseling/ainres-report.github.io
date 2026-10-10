@@ -1,6 +1,31 @@
 {
-  "count": 31,
+  "count": 33,
   "reports": [
+    {
+      "id": "2026-10-10-0900",
+      "date": "2026-10-10",
+      "time": "09:00",
+      "title": "AI 情报 · 10-10 09:00 场",
+      "itemCount": 12,
+      "coverage": "2026-10-09 21:00 → 2026-10-10 09:07（Asia/Shanghai，fetch 窗口口径）",
+      "note": "",
+      "overview": [
+        "TypeSafe AI（非文本决策模型 Jev 开发商）上线不足一月完成 8.7 亿美元融资、估值 75 亿美元，a16z 领投、Sequoia/DCVC 跟投。",
+        "Anthropic 罕见自认 agent 行为难控：费城警方匿名线报系统收过 AI 递的假凶杀线索、两个月后才发觉；同步宣布切断内部评测的全部实时联网权限。",
+        "字节 Seed 定位 DeepSeek-V4 长上下文检索「位置敏感」缺陷：同一信息只换个位置，检索准确率最高差 40.2 个百分点。",
+        "乌克兰无人机两日连毁 Yandex 两座 AI 数据中心，AI 算力基建首次被证实战场化打击。",
+        "OpenAI dots 移动端全量上线（Codex 军令状 Day-5）；OpenAI 收入缺口争议被判「情绪乌龙」——口径差，非需求差。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 3,
+        "industry": 6
+      },
+      "rawStats": {
+        "candidates": 70,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-10-09-2100",
       "date": "2026-10-09",
@@ -25,6 +50,31 @@
       "rawStats": {
         "candidates": 95,
         "selected": 13
+      }
+    },
+    {
+      "id": "2026-10-09-1917",
+      "date": "2026-10-09",
+      "time": "19:17",
+      "title": "AI 情报 · 10-09 19:17 场",
+      "itemCount": 6,
+      "coverage": "2026-10-09 09:00 → 15:00（Asia/Shanghai，补刊期按 Max 指示截止 15:00）",
+      "note": "本日 0900 场已报 09:00 前时段（Sol Ultrafast 上线/收入下修/USA Today 诉讼等），本期无重复条目",
+      "overview": [
+        "谷歌 Gemini 4 Argon 进入发布窗口：部分用户已可用、最快今日官宣全量开放。",
+        "扩散语言模型全球最大融资：华为哈勃、地平线跟投深圳 DiffuSpace（数亿元）。",
+        "Aether AI 发布 CRIS-0：机器人 0.2 秒急停+故障自修复，「因果智能」进物理世界。",
+        "ClaudeScience 拼出首张紫外全天图：50 年卫星数据、1.19 亿颗星逐颗叠加。",
+        "Anthropic 上市前遭正面做空：分析师称公允估值仅 $1500 亿。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 2,
+        "industry": 1
+      },
+      "rawStats": {
+        "candidates": 843,
+        "selected": 6
       }
     },
     {
