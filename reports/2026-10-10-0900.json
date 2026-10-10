@@ -3,7 +3,7 @@
   "date": "2026-10-10",
   "time": "09:00",
   "title": "AI 情报 · 10-10 09:00 场",
-  "generatedAt": "2026-10-10T03:44:17.294Z",
+  "generatedAt": "2026-10-10T09:32:53.232Z",
   "coverage": "2026-10-09 15:00 → 2026-10-10 09:07（Asia/Shanghai，fetch 窗口口径）",
   "notes": [
     "本日 0900 场已报 10-09 09:00 前时段、1917 补刊场已报至 15:00 截止口径，本期无重复条目"
@@ -55,8 +55,6 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+TechCrunch",
           "publish_time": "2026-10-10 00:55",
-          "event_time": "2026-10-10 06:46",
-          "event_time_inferred": false,
           "verify_note": "外部检索（TechCrunch 10-09 21:41 同报 Jev 上线数周估值 $7.5B，卖点为比 LLM 更快、token 更少）",
           "entities": [
             {
@@ -131,8 +129,6 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+新智元搜狐同步",
           "publish_time": "2026-10-09 23:21",
-          "event_time": "2026-10-10",
-          "event_time_inferred": false,
           "verify_note": "外部检索（新智元 10-09 22:34 同步报道 dots 搜索 ChatGPT 对话、调用 Codex 线程与自动化上下文，「读心术」猜下一步）",
           "entities": [
             {
@@ -221,8 +217,6 @@
           "confidence": "高",
           "confidence_note": "B源·TechCrunch，36氪 10-10 00:55 同步佐证",
           "publish_time": "2026-10-10 05:41",
-          "event_time": "2026-10-10 06:46",
-          "event_time_inferred": false,
           "verify_note": "外部检索（36氪 10-10 00:55 同报 TypeSafe 完成 8.7 亿美元融资）",
           "entities": [
             {
