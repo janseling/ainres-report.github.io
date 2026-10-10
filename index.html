@@ -15,6 +15,7 @@
 <meta property="og:site_name" content="AI 情报日报">
 <meta property="og:locale" content="zh_CN">
 <link rel="icon" href="/favicon.ico">
+<link rel="alternate" type="application/rss+xml" title="AI 情报日报" href="/rss.xml">
 <style>
 :root{
   --bg:#0c0d10; --bg2:#101218; --panel:#15171e; --panel2:#191c24;
@@ -25,6 +26,7 @@
   --sans:-apple-system,"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif;
 }
 *{margin:0;padding:0;box-sizing:border-box}
+a{color:var(--amber2);text-decoration:none}
 html{-webkit-text-size-adjust:100%}
 body{
   background:
@@ -44,6 +46,9 @@ body{
 .brand .sub{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:.18em;border:1px solid var(--line2);padding:3px 8px;border-radius:3px;transform:translateY(-4px)}
 .tagline{color:var(--ink2);font-size:13.5px;max-width:60ch}
 .statline{margin-top:16px;padding:4px 0;border:none;border-radius:0;background:none;font-family:var(--mono);font-size:12px;color:var(--ink2);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.mh-actions{margin-top:12px;display:flex;gap:16px;font-family:var(--mono);font-size:12px}
+.mh-actions a{color:var(--ink2)}
+.mh-actions a:hover{color:var(--amber)}
 .statline b{color:var(--amber);font-weight:600}
 .statline .sep{color:var(--line2)}
 
@@ -65,7 +70,7 @@ a.slot-card:hover{border-color:var(--dim)}
 .slot-card.empty{border-style:dashed;background:transparent;opacity:.75}
 .slot-card.empty::before{background:transparent}
 
-.sc-head{display:flex;align-items:baseline;gap:8px;padding:0}
+.sc-head{display:flex;align-items:baseline;gap:8px;padding:0;color:inherit;text-decoration:none}
 .sc-time{font-family:var(--mono);font-size:11px;letter-spacing:.08em;font-weight:600;color:var(--ink2)}
 .sc-time.night{color:var(--amber)}
 .sc-time.dim{color:#4a4d55;font-weight:400}
@@ -75,11 +80,14 @@ a.slot-card:hover{border-color:var(--dim)}
 .sc-ov{flex:1 1 auto;padding:7px 0 2px;display:flex;flex-direction:column;gap:0}
 .sc-ov li{list-style:none;color:var(--ink);font-size:12px;line-height:1.65;padding:4px 0;border-bottom:1px dashed var(--line)}
 .sc-ov li:last-child{border-bottom:none}
+.sc-ov li a{display:block;color:var(--ink);text-decoration:none}
+.sc-ov li a:hover{color:var(--amber2)}
 .sc-ph{padding:8px 0 12px;font-family:var(--mono);font-size:11px;color:#4a4d55;letter-spacing:.14em;text-align:center}
 .sc-stats{border-top:1px dashed var(--line2);padding-top:9px;margin-top:7px;display:flex;gap:8px;flex-wrap:wrap}
 .ss{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;color:var(--dim)}
 .ss.hi{color:var(--green)}
 .ss.md{color:var(--amber2)}
+.ss.lo{color:var(--red)}
 
 .sc-tags{margin-top:auto;display:flex;flex-wrap:wrap;gap:6px;padding:9px 0 0;}
 .sc-tags span{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;color:var(--dim);border:1px solid var(--line);border-radius:4px;padding:3px 7px;display:inline-flex;align-items:center;white-space:nowrap}
@@ -105,8 +113,9 @@ a.slot-card:hover{border-color:var(--dim)}
   <header class="masthead">
     <div class="mh-meta"><span>INTEL·DAILY</span><span class="dot">◉</span><span>AI INTELLIGENCE BRIEFING</span><span>ASIA/SHANGHAI</span></div>
     <div class="brand"><h1>AI <em>情报</em>日报</h1><span class="sub">ARCHIVE</span></div>
-    <p class="tagline">面向创业者的 AI 行业情报简报——产品发布/融资、技术突破、政策监管、行业动向与应用玩法。每天 09:00 / 15:00 / 21:00 三期，由 Agent 自动采集定稿。</p>
+    <p class="tagline">为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文；全部期数据开放（JSON＋RSS）。</p>
     <div class="statline" id="statline"><span><span class="pulse"></span>加载归档索引…</span></div>
+  <div class="mh-actions"><a href="/api.html">API · 字段说明</a><a href="/rss.xml" target="_blank" rel="noopener">RSS 订阅 ↗</a></div>
   </header>
 
   <main id="days"></main>
@@ -180,15 +189,22 @@ function render(m){
     const cards = slots.map((x,si)=>{
       if (x){
         const hour = parseInt(x.time.slice(0,2),10);
-        const ov = ((x.hl && x.hl.length ? x.hl : x.overview) || []).slice(0,3).map(o=>`<li>${esc(o)}</li>`).join('');
+        const hlList = (Array.isArray(x.hl) && x.hl.length ? x.hl : (x.overview||[]).slice(0,3).map(t=>({t})));
+        const ov = hlList.slice(0,3).map(h=>{
+          const txt = typeof h === 'string' ? h : (h && h.t) || '';
+          const anc = h && h.a ? '#it-' + esc(h.a) : '';
+          return `<li><a href="${href}${anc}">${esc(txt)}</a></li>`;
+        }).join('');
         const tagHtml = Object.entries(TAGS).filter(([k])=>x.sectionCounts&&x.sectionCounts[k])
           .map(([k,[ic,zh]])=>`<span>${ic} ${zh} ${x.sectionCounts[k]}</span>`).join('');
-        return `<a class="slot-card" href="reports/${esc(x.id)}.html">
-          <div class="sc-head"><span class="sc-time${hour>=19?' night':''}">${esc(x.time)} 场</span><span class="sc-count"><b>${x.itemCount||'-'}</b> 条</span></div>
+        const hasConf = x.conf && (x.conf.hi || x.conf.md || (x.conf.lo ?? 0));
+        const stHtml = hasConf ? `<div class="sc-stats"><span class="ss hi">高 ${x.conf.hi||0}</span><span class="ss md">中 ${x.conf.md||0}</span><span class="ss lo">低 ${x.conf.lo||0}</span><span class="ss">${(x.verify&&x.verify.rate)?`佐证 ${esc(x.verify.rate)}`:`信号 ${x.conf.sig||0}`}</span></div>` : '';
+        return `<div class="slot-card">
+          <a class="sc-head" href="reports/${esc(x.id)}.html"><span class="sc-time${hour>=19?' night':''}">${esc(x.time)} 场</span><span class="sc-count"><b>${x.itemCount||'-'}</b> 条</span></a>
           <ul class="sc-ov">${ov||'<li>（本期无速览）</li>'}</ul>
-          ${x.conf&&(x.conf.hi||x.conf.md||x.conf.sig)?`<div class="sc-stats"><span class="ss hi">高 ${x.conf.hi||0}</span><span class="ss md">中 ${x.conf.md||0}</span><span class="ss">信号 ${x.conf.sig||0}</span></div>`:''}
+          ${stHtml}
           ${tagHtml?`<div class="sc-tags">${tagHtml}</div>`:''}
-        </a>`;
+        </div>`;
       }
       return `<div class="slot-card empty">
         <div class="sc-head"><span class="sc-time dim">${SLOT_LABEL[si]}</span></div>

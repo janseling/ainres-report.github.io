@@ -17,6 +17,7 @@
 <meta property="og:locale" content="zh_CN">
 <!-- SHARE-CARD:END -->
 <link rel="icon" href="/favicon.ico">
+<link rel="alternate" type="application/rss+xml" title="AI 情报日报" href="/rss.xml">
 <style>
 :root{
   --bg:#0c0d10; --panel:#15171e; --panel2:#191c24;
@@ -48,6 +49,9 @@ a:hover{text-decoration:underline;text-underline-offset:3px}
 .tb-nav a{color:var(--ink2)}
 .tb-nav a:hover{color:var(--amber)}
 .tb-nav a:disabled{color:#3d4048;pointer-events:none}
+.tb-mode{margin-left:8px;font-family:var(--mono);font-size:12px;color:var(--amber);cursor:pointer;white-space:nowrap;user-select:none}
+.tb-mode:hover{text-decoration:underline;text-underline-offset:3px}
+.item{scroll-margin-top:64px}
 
 /* ==== masthead ==== */
 .masthead{padding:44px 0 20px;position:relative}
@@ -122,6 +126,9 @@ details.prov .prov-body span{overflow-wrap:anywhere}
 /* ==== overview (速览) ==== */
 .ovlist{margin-top:12px}
 .ov-item{padding:6px 2px 6px 14px;margin:6px 0;color:var(--ink2);font-size:14px;line-height:1.72;border-left:3px solid var(--amber)}
+.ov-item.canjump{cursor:pointer}
+.ov-item.canjump:hover{color:var(--ink)}
+.jumptag{float:right;font-family:var(--mono);font-size:10.5px;color:var(--dim);opacity:.7;padding-left:12px}
 
 /* ==== signals ==== */
 .signals{margin-top:14px}
@@ -156,6 +163,7 @@ details.prov .prov-body span{overflow-wrap:anywhere}
     <a href="javascript:void 0" id="tbPrev">‹ 上一期</a>
     <a href="javascript:void 0" id="tbNext">下一期 ›</a>
   </nav>
+  <span class="tb-mode" id="tbMode" title="速读：证据链全收起；深度：证据链全部展开">🔍 速读</span>
 </div></div>
 
 <div class="wrap" id="wrap">
@@ -187,6 +195,17 @@ const params = new URLSearchParams(location.search);
 const wantId = params.get('id') || (location.hash ? location.hash.slice(1) : '');
 // 站内链接：静态期报页（reports/<id>.html）直跳同目录文件；SPA 模式走 ?id=
 const repUrl = id => (window.__PAGE_DATA__ ? id + '.html' : 'report.html?id=' + id);
+const MODE_KEY = 'aid-mode';
+function modeSet(){
+  const bm = document.getElementById('tbMode'); if(!bm) return;
+  const deep = localStorage.getItem(MODE_KEY) === 'deep';
+  bm.textContent = deep ? '📖 深度' : '🔍 速读';
+  document.querySelectorAll('details.prov').forEach(d => d.open = deep);
+}
+document.getElementById('tbMode').addEventListener('click', () => {
+  const deep = localStorage.getItem(MODE_KEY) === 'deep';
+  localStorage.setItem(MODE_KEY, deep ? 'fast' : 'deep'); modeSet();
+});
 
 async function init(){
   const P = window.__PAGE_DATA__;   // publish_web.js 生成的静态期报页内联数据，免 fetch 直渲
@@ -259,7 +278,7 @@ function render(rep, rs, idx, ctx){
       const provHtml = provBits.length?`<details class="prov"><summary>证据链 ▾</summary><div class="prov-body">${provBits.join('')}</div></details>`:'';
       const verHtml = it.verify_note?`<div class="i-extra ok">✓ 外部佐证：${linkify(it.verify_note)}</div>`:'';
 
-      return `<article class="item" style="--i:${ii}">
+      return `<article class="item" id="it-${esc(sec.key)}-${ii}" style="--i:${ii}">
         <div class="i-head"><span class="i-no">${String(ii+1).padStart(2,'0')}</span>
           <h3 class="i-title">${main?`<a href="${esc(main)}" target="_blank" rel="noopener">${esc(it.title)}</a><span class="ext">原文 ↗</span>`:esc(it.title)}</h3></div>
         ${it.meta?`<div class="i-meta"><span class="src">${esc(it.meta)}</span></div>`:''}
@@ -280,8 +299,24 @@ function render(rep, rs, idx, ctx){
       return `<a class="nchip" href="#sec-${esc(s.key)}">${sm.icon} ${esc((sm.zh||'').split(' / ')[0])} ${s.items.length}</a>`;
     }).join('');
 
+  const grams2 = s => { s = String(s).toLowerCase().replace(/\s+/g,''); const a=[]; for(let i=0;i<=s.length-2;i++)a.push(s.slice(i,i+2)); return a; };
+  const anchorOf = ovText => {
+    const ovn = String(ovText).toLowerCase().replace(/\s+/g,'');
+    if(!ovn || !ovn.length || !(rep.sections||[]).length) return null;
+    let best=null, bestScore=0;
+    (rep.sections||[]).forEach(sec=>(sec.items||[]).forEach((it,ii)=>{
+      const tg=grams2(it.title||''); if(tg.length<4) return;
+      let hits=0; tg.forEach(g=>{ if(ovn.includes(g)) hits++; });
+      const sc=hits/tg.length;
+      if(sc>bestScore){bestScore=sc;best=sec.key+'-'+ii;}
+    }));
+    return bestScore>=0.4?best:null;
+  };
   const sigHtml = (rep.signals||[]).map((s,i)=>`<div class="sig"><span class="sno">${String(i+1).padStart(2,'0')}</span><div class="body"><b>${esc(s.lead)}</b>${mdLinks(s.text)}</div></div>`).join('');
-  const ovHtml = (rep.overview||[]).map(o=>`<div class="ov-item">${mdLinks(o)}</div>`).join('');
+  const ovHtml = (rep.overview||[]).map(o=>{
+    const a = anchorOf(o);
+    return `<div class="ov-item${a?' canjump':''}"${a?` data-jump="it-${esc(a)}"`:''}>${mdLinks(o)}${a?`<span class="jumptag">条目 ↳</span>`:''}</div>`;
+  }).join('');
 
   document.getElementById('wrap').innerHTML = `
   <header class="masthead">
@@ -301,6 +336,17 @@ function render(rep, rs, idx, ctx){
     <a href="./" style="border:none">☰ 归档</a>
     ${newer?`<a href="${repUrl(esc(newer.id))}">${esc(newer.date.slice(5))} ${esc(newer.time)} ›</a>`:'<a disabled>已是最新 ›</a>'}
   </nav>`;
+
+  /* 速览行点击跳对应条目锚 */
+  document.querySelectorAll('.ov-item[data-jump]').forEach(el=>el.addEventListener('click',()=>{
+    const h = el.getAttribute('data-jump');
+    location.hash = h;
+    const t = document.getElementById(h);
+    if(t) t.scrollIntoView({block:'start'});
+  }));
+  /* 阅读档位落地（内层重建后重放）+ 带锚直达时滚到条目 */
+  modeSet();
+  if(location.hash){ const el=document.querySelector(location.hash.replace(/[^#A-Za-z0-9_-]/g,'')); if(el){ setTimeout(()=>el.scrollIntoView({block:'start'}),60); } }
 }
 init();
 </script>

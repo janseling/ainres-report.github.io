@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>AI 情报日报</title>
+    <link>https://ainews.im-max.com/</link>
+    <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 10 Oct 2026 13:31:42 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-10 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-10-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-10-2100.html</guid>
+      <pubDate>Sat, 10 Oct 2026 13:00:00 GMT</pubDate>
+      <description>LeCun 世界模型创业首次交卷：H-JEPA 代码与权重全开源（VentureBeat 同报）。</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-10 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-10-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-10-1500.html</guid>
+      <pubDate>Sat, 10 Oct 2026 07:00:00 GMT</pubDate>
+      <description>谷歌 Gemini 4 双曝料：Argon 内测口碑「这不 Opus 5.5 吗」，下一代 Carbon 被曝靠 RSI 逼近 Opus 5.5。</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-10 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-10-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-10-0900.html</guid>
+      <pubDate>Sat, 10 Oct 2026 01:00:00 GMT</pubDate>
+      <description>非文本 AI 模型 Jev 开发商 TypeSafe 上线不到一个月估值 $7.5B，卖点是「比 LLM 快、省 token」。</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-09 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-09-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-09-2100.html</guid>
+      <pubDate>Fri, 09 Oct 2026 13:00:00 GMT</pubDate>
+      <description>GPU 租赁商 Lambda 拟融资 40 亿美元（黑石/Coatue 领投、投前 145 亿美元），积压订单两月内 150亿→500 亿美元，计划 2027 上市。</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-09 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-09-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-09-1500.html</guid>
+      <pubDate>Fri, 09 Oct 2026 07:00:00 GMT</pubDate>
+      <description>谷歌 Gemini 4 Argon 进入发布窗口：部分用户已可用、最快今日官宣全量开放。</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-09 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-09-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-09-0900.html</guid>
+      <pubDate>Fri, 09 Oct 2026 01:00:00 GMT</pubDate>
+      <description>谷歌云发布 Gemini Agent「通用工作智能体」：给目标即可跨企业系统执行，自带职场身份与邮箱。</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-08 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-08-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-08-2100.html</guid>
+      <pubDate>Thu, 08 Oct 2026 13:00:00 GMT</pubDate>
+      <description>Anthropic IPO 口径落定：官方 6-01 确认秘密递交 S-1，Reuters 泄露稿给出最快 11 月中期选举后挂牌纳斯达克、目标估值超 2 万亿美元。</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-08 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-08-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-08-1500.html</guid>
+      <pubDate>Thu, 08 Oct 2026 07:00:00 GMT</pubDate>
+      <description>OpenAI 在 ICANN 新 gTLD 轮一口气申请 15 个顶级域名，.agent/.mcp/.evals/.skill/.model 全在其中。</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-08 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-08-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-08-0900.html</guid>
+      <pubDate>Thu, 08 Oct 2026 01:00:00 GMT</pubDate>
+      <description>OpenAI 把 GPT-6 向约 12 亿用户全面免费开放，同时推出 IUI 交互界面。</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-07 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-07-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-07-2100.html</guid>
+      <pubDate>Wed, 07 Oct 2026 13:00:00 GMT</pubDate>
+      <description>谷歌深夜上线 Playground：提示词在浏览器直接生成游戏，美国 18+ 用户即时可用</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-07 15:10 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-07-1510.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-07-1510.html</guid>
+      <pubDate>Wed, 07 Oct 2026 07:10:00 GMT</pubDate>
+      <description>谷歌深夜甩出 Nano Banana 2.1：出图价砍半至 $0.034/1K 打赢自家 Pro，思维类 token 却涨 3 倍</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-07 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-07-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-07-0900.html</guid>
+      <pubDate>Wed, 07 Oct 2026 01:00:00 GMT</pubDate>
+      <description>OpenAI 官方公开 722 篇数学手稿（出自未发布前沿模型），时点疑似 28 天军令状 Day-2 兑付</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-06 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-06-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-06-2100.html</guid>
+      <pubDate>Tue, 06 Oct 2026 13:00:00 GMT</pubDate>
+      <description>彭博：DeepSeek 即将敲定至少 800 亿元新融资（腾讯/宁德时代在列），总额或近 1000 亿元、为 2027 年初 IPO 铺路</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-06 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-06-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-06-1500.html</guid>
+      <pubDate>Tue, 06 Oct 2026 07:00:00 GMT</pubDate>
+      <description>月之暗面据悉完成 IPO 前融资、最新估值约 500 亿美元；快手可灵 AI 同日传最早明年赴港上市、至少募资 10 亿美元</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-06 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-06-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-06-0900.html</guid>
+      <pubDate>Tue, 06 Oct 2026 01:00:00 GMT</pubDate>
+      <description>Reflection Beam 开放权重如期交卷：501B/23B 激活 MoE、1M 上下文，自称推理算力比 GLM-5.2 省 3-4 倍</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-05 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-05-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-05-2100.html</guid>
+      <pubDate>Mon, 05 Oct 2026 13:00:00 GMT</pubDate>
+      <description>OpenAI 官宣 ChatGPT Ads 新视觉广告格式＋测量生态，本月内美国内测，12 亿周活开始广告变现</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-05 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-05-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-05-1500.html</guid>
+      <pubDate>Mon, 05 Oct 2026 07:00:00 GMT</pubDate>
+      <description>Reflection（NVIDIA 系、$80 亿估值）将发美国首个对标 DeepSeek/Qwen 的开放权重模型，「西方开放权重月」开闸</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-05 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-05-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-05-0900.html</guid>
+      <pubDate>Mon, 05 Oct 2026 01:00:00 GMT</pubDate>
+      <description>决策模型赛道双响：Jev 母公司 TypeSafe 估值传 100 亿美元、日处理万亿 token；上海 StartLux 开源决策模型反超登顶</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-04 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-04-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-04-2100.html</guid>
+      <pubDate>Sun, 04 Oct 2026 13:00:00 GMT</pubDate>
+      <description>奥特曼发文警告「别把 AI 神化、别交出人类判断权」：「Claude 有意识」公共辩论假期发酵（10-02 场 NYT/梵蒂冈线的后续）</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-04 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-04-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-04-1500.html</guid>
+      <pubDate>Sun, 04 Oct 2026 07:00:00 GMT</pubDate>
+      <description>GPT-5.5 退役倒计时：10-14 起从 ChatGPT／ChatGPT Work／Codex 全套餐一刀切下线，无 Legacy 保留通道，官方指路 GPT-5.6 Sol 与 GPT-6 Astra</description>
+    </item>
+  </channel>
+</rss>

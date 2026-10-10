@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>API · 字段说明 — AI 情报日报</title>
+<meta name="description" content="AI 情报日报开放数据接口与字段说明：期清单、归档富索引、单期 JSON、RSS。全部静态 JSON，浏览器直取即可。">
+<meta property="og:title" content="API · 字段说明 — AI 情报日报">
+<meta property="og:description" content="全部期数据公开：期清单 / 归档富索引 / 单期全量 JSON / RSS 订阅。">
+<link rel="icon" href="/favicon.ico">
+<link rel="alternate" type="application/rss+xml" title="AI 情报日报" href="/rss.xml">
+<style>
+:root{
+  --bg:#0c0d10; --panel:#15171e; --panel2:#191c24; --line:#262a33; --line2:#31353f;
+  --ink:#d8d5c9; --ink2:#a5a294; --dim:#77746a;
+  --amber:#e8a33d; --amber2:#f5c069; --green:#8cc07a; --red:#d0684f;
+  --mono:ui-monospace,"SF Mono","JetBrains Mono",Menlo,monospace;
+  --sans:-apple-system,"PingFang SC","Hiragino Sans GB","Noto Sans SC",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0c0d10;color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.8}
+a{color:var(--amber2);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+.wrap{max-width:860px;margin:0 auto;padding:44px 20px 40px}
+.crumbs{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--dim);margin-bottom:10px}
+h1{font-size:24px;font-weight:800;letter-spacing:.03em;margin-bottom:8px}
+.sub{font-family:var(--mono);font-size:12px;color:var(--dim)}
+h2{font-size:16px;font-weight:700;margin:36px 0 4px;padding-bottom:8px;border-bottom:1px solid var(--line2)}
+p{color:var(--ink2);margin:8px 0}
+code{font-family:var(--mono);font-size:12.5px;color:var(--amber2);background:rgba(232,163,61,.07);padding:1px 6px;border-radius:4px}
+pre{font-family:var(--mono);font-size:12px;color:var(--ink2);background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:12px 14px;overflow-x:auto;margin:10px 0 14px;white-space:pre-wrap}
+.f{display:flex;gap:12px;padding:9px 0;border-bottom:1px dashed var(--line2);align-items:baseline}
+.f:last-child{border-bottom:none}
+.f b{font-family:var(--mono);font-size:12.5px;color:var(--amber);min-width:220px;font-weight:600;flex:none}
+.f span{color:var(--ink2);font-size:13px;flex:1}
+.hint{font-family:var(--mono);font-size:11.5px;color:var(--dim);margin-top:6px}
+.foot{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-family:var(--mono);font-size:11.5px;color:var(--dim);display:flex;gap:14px;flex-wrap:wrap}
+.foot a{color:var(--dim)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="crumbs"><a href="/">← 归档</a> · AI INTEL DAILY · OPEN DATA</div>
+<h1>API · 字段说明</h1>
+<div class="sub">全部数据公开 · 静态 JSON · 浏览器直取即可（GitHub Pages 默认允许跨域；无鉴权、无配额）</div>
+
+<h2>端点一览</h2>
+<div class="f"><b>/reports/index.json</b><span>期清单：id / date / time / title / itemCount / coverage / overview…（新→旧）</span></div>
+<div class="f"><b>/reports/archive.json</b><span>归档富索引：期清单再加 <code>hl</code>（头条 3 条 + 对应条目锚点 <code>a</code>）、<code>conf</code>（高/中/低计数）、<code>verify</code>（多源佐证率）</span></div>
+<div class="f"><b>/reports/&lt;id&gt;.json</b><span>单期全量数据（字段见下）</span></div>
+<div class="f"><b>/reports/&lt;id&gt;.html</b><span>单期分享页（静态直出，含 og 元信息，微信等爬虫可读）</span></div>
+<div class="f"><b>/report.html?id=&lt;id&gt;</b><span>期报 SPA 视图（与静态页共用同一渲染器）</span></div>
+<div class="f"><b>/rss.xml</b><span>RSS 2.0 订阅，最新 20 期，随发布自动更新</span></div>
+<div class="f"><b>#id 锚点</b><span>期报页条目锚：<code>reports/&lt;id&gt;.html#it-&lt;板块&gt;-&lt;序号&gt;</code>，可直达单条（如 #it-product-0）</span></div>
+
+<h2>期报 JSON 字段</h2>
+<div class="f"><b>coverage</b><span>采集窗口（Asia/Shanghai 绝对时间）</span></div>
+<div class="f"><b>overview[]</b><span>速览行（可含 markdown 链接）</span></div>
+<div class="f"><b>sections[].items[]</b><span>条目数组；<code>sec.key</code> ∈ product / tech / policy / industry（行业板块内含安全内容）</span></div>
+<div class="f"><b>item.title / urls[]</b><span>标题 + 原文链接（urls[0]=主链）</span></div>
+<div class="f"><b>item.meta</b><span>来源 · 披露时间 · 事件时间（单行元信息）</span></div>
+<div class="f"><b>item.publish_time / event_time</b><span>披露时间 / 事件时间；<code>event_time_inferred</code>=事件时间为推断（true 时标 ~ 与「推断」）</span></div>
+<div class="f"><b>item.type_tags[]</b><span>类型徽章（💰 商业 / 🛠 产品 / ⚡ 技术 / 🏛 政策 / 🛡 安全）</span></div>
+<div class="f"><b>item.confidence</b><span>置信度：高 / 中 / 低；<code>confidence_note</code> 佐证口径（如「多源同报」）</span></div>
+<div class="f"><b>item.source_tier</b><span>信源分级 A 官方源 / B 主流媒体源 / C 聚合源 / D 社区源</span></div>
+<div class="f"><b>item.summary</b><span>摘要（≤60 字，实体名词后续接入内联导航）</span></div>
+<div class="f"><b>item.angles[]</b><span>观点角度（kind: invest/startup/tech/opinion；每条 0~2 行）</span></div>
+<div class="f"><b>item.verify_note</b><span>外部佐证（同报媒体的链接说明）</span></div>
+<div class="f"><b>item.snapshot</b><span>原文快照：<code>file</code> 路径 + <code>sha256</code> 前缀指纹</span></div>
+<div class="f"><b>item.provenance</b><span>溯源：<code>raw_ref</code>（raw JSON 路径 #candidates[n]）/ <code>source_id</code> / <code>source_name</code></span></div>
+<div class="f"><b>item.original_title</b><span>源站原题（与定稿标题不同时给出）</span></div>
+<div class="f"><b>signals[]</b><span>跟踪信号：<code>lead</code> 一句 + <code>text</code> 详情（SIG 台账兑现机制的数据源）</span></div>
+<div class="f"><b>rawStats</b><span>采集统计：<code>candidates</code> 候选扫描量 / <code>selected</code> 入选数</span></div>
+
+<h2>骨架合同（每条 News 七元素，渲染器照单全收）</h2>
+<p>① 标题＋原文↗　② 元信息（来源·披露·事件时间）　③ 徽章排　④ 摘要≤60字　⑤ 观点角度 0~2 行　⑥ 佐证行　⑦ 证据链折叠</p>
+
+<h2>示例</h2>
+<pre>curl -s https://ainews.im-max.com/reports/index.json | jq '.reports[0]'
+curl -s https://ainews.im-max.com/reports/2026-10-10-2100.json | jq '.sections[].items[].title'
+curl -s https://ainews.im-max.com/reports/archive.json | jq '.reports[0].conf'</pre>
+<div class="hint">时间口径：一律 Asia/Shanghai；事件时间早于披露时间（≤硬约束）；推断时间带 ~ 标注。</div>
+
+<div class="foot"><span>ai-intel-daily · agent-collected briefing</span><a href="https://github.com/janseling" target="_blank" rel="noopener">github/janseling</a></div>
+</div>
+</body>
+</html>
