@@ -30,7 +30,7 @@ body{
   background:
     repeating-linear-gradient(0deg,transparent 0 2px,rgba(255,255,255,.008) 2px 4px),
     radial-gradient(ellipse 120% 80% at 50% -10%,#13161e 0%,var(--bg) 58%);
-  color:var(--ink);font-family:var(--sans);min-height:100vh;font-size:15px;line-height:1.65;
+  color:var(--ink);font-family:var(--sans);min-height:100vh;font-size:14.5px;line-height:1.8;
 }
 .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
 
@@ -43,44 +43,46 @@ body{
 .brand h1 em{font-style:normal;color:var(--amber)}
 .brand .sub{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:.18em;border:1px solid var(--line2);padding:3px 8px;border-radius:3px;transform:translateY(-4px)}
 .tagline{color:var(--ink2);font-size:13.5px;max-width:60ch}
-.statline{margin-top:18px;padding:11px 14px;border:1px solid var(--line);border-radius:6px;background:linear-gradient(180deg,var(--panel),transparent);font-family:var(--mono);font-size:12px;color:var(--ink2);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.statline{margin-top:16px;padding:4px 0;border:none;border-radius:0;background:none;font-family:var(--mono);font-size:12px;color:var(--ink2);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .statline b{color:var(--amber);font-weight:600}
 .statline .sep{color:var(--line2)}
 
 /* ==== day rows ==== */
-.dayrow{margin:14px 0 0;animation:up .5s cubic-bezier(.2,.7,.3,1) both;animation-delay:calc(var(--i,0)*.05s)}
+.dayrow{margin:22px 0 0;animation:up .5s cubic-bezier(.2,.7,.3,1) both;animation-delay:calc(var(--i,0)*.05s)}
 .row-h{display:flex;align-items:baseline;gap:12px;padding:12px 2px 8px}
 .d-date{font-family:var(--mono);font-size:20px;font-weight:700;letter-spacing:.02em}
 .d-wd{font-size:12px;color:var(--dim)}
-.row-line{flex:1;height:1px;background:linear-gradient(90deg,var(--line2),transparent)}
+.row-line{flex:1;height:1px;background:var(--line)}
 .d-prog{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:.05em}
 .d-prog b{color:var(--amber);font-weight:600}
 
-.slotgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.slotgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 
 /* ==== cards ==== */
-.slot-card{display:flex;flex-direction:column;position:relative;border:1px solid var(--line);border-radius:8px;background:linear-gradient(180deg,var(--panel2),var(--panel));overflow:hidden;transition:border-color .25s,transform .25s}
-.slot-card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--line2);transition:background .25s}
+.slot-card{display:flex;flex-direction:column;position:relative;border:1px solid var(--line2);border-radius:9px;background:var(--panel2);padding:13px 14px;transition:border-color .25s}
 a.slot-card{color:inherit;text-decoration:none}
-a.slot-card:hover{border-color:#3a3f4c;transform:translateY(-1px)}
-a.slot-card:hover::before{background:var(--amber)}
+a.slot-card:hover{border-color:var(--dim)}
 .slot-card.empty{border-style:dashed;background:transparent;opacity:.75}
 .slot-card.empty::before{background:transparent}
 
-.sc-head{display:flex;align-items:baseline;gap:8px;padding:12px 14px 0}
-.sc-time{font-family:var(--mono);font-size:11px;letter-spacing:.08em;padding:2px 7px;border-radius:3px;font-weight:600;background:var(--amber);color:var(--bg)}
-.sc-time.night{background:transparent;border:1px solid var(--amber);color:var(--amber)}
-.sc-time.dim{background:transparent;border:1px dashed var(--line2);color:var(--dim);font-weight:400}
+.sc-head{display:flex;align-items:baseline;gap:8px;padding:0}
+.sc-time{font-family:var(--mono);font-size:11px;letter-spacing:.08em;font-weight:600;color:var(--ink2)}
+.sc-time.night{color:var(--amber)}
+.sc-time.dim{color:#4a4d55;font-weight:400}
 .sc-count{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--dim)}
 .sc-count b{color:var(--ink);font-weight:600}
 
-.sc-ov{flex:1 1 auto;padding:9px 14px 13px;display:flex;flex-direction:column;gap:6px}
-.sc-ov li{list-style:none;position:relative;padding-left:13px;color:var(--ink2);font-size:12.5px;line-height:1.58}
-.sc-ov li::before{content:"·";position:absolute;left:0;top:0;color:var(--amber);font-weight:700}
-.sc-ph{padding:16px 14px 18px;font-family:var(--mono);font-size:11px;color:#4a4d55;letter-spacing:.14em;text-align:center}
-.sc-tags{margin-top:auto;display:flex;flex-wrap:wrap;gap:6px;padding:10px 14px 12px;}
+.sc-ov{flex:1 1 auto;padding:7px 0 2px;display:flex;flex-direction:column;gap:0}
+.sc-ov li{list-style:none;color:var(--ink);font-size:12px;line-height:1.65;padding:4px 0;border-bottom:1px dashed var(--line)}
+.sc-ov li:last-child{border-bottom:none}
+.sc-ph{padding:8px 0 12px;font-family:var(--mono);font-size:11px;color:#4a4d55;letter-spacing:.14em;text-align:center}
+.sc-stats{border-top:1px dashed var(--line2);padding-top:9px;margin-top:7px;display:flex;gap:8px;flex-wrap:wrap}
+.ss{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;color:var(--dim)}
+.ss.hi{color:var(--green)}
+.ss.md{color:var(--amber2)}
+
+.sc-tags{margin-top:auto;display:flex;flex-wrap:wrap;gap:6px;padding:9px 0 0;}
 .sc-tags span{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;color:var(--dim);border:1px solid var(--line);border-radius:4px;padding:3px 7px;display:inline-flex;align-items:center;white-space:nowrap}
-.sc-tags span::first-letter{font-size:11.5px}
 
 @keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.dayrow{animation:none}}
@@ -127,9 +129,10 @@ const wdOf = d => new Date(d + 'T12:00:00+08:00').toLocaleDateString('zh-CN', { 
 
 async function init(){
   try{
-    const r = await fetch('reports/index.json?v=' + Date.now());
-    if(!r.ok) throw new Error(r.status);
-    const m = await r.json();
+    let m;
+    const r = await fetch('reports/archive.json?v=' + Date.now());
+    if(!r.ok) throw new Error('archive ' + r.status);
+    m = await r.json();
     if(!m.reports || !m.reports.length) throw new Error('empty');
     render(m);
   }catch(e){
@@ -177,12 +180,13 @@ function render(m){
     const cards = slots.map((x,si)=>{
       if (x){
         const hour = parseInt(x.time.slice(0,2),10);
-        const ov = (x.overview||[]).map(o=>`<li>${esc(o)}</li>`).join('');
+        const ov = ((x.hl && x.hl.length ? x.hl : x.overview) || []).slice(0,3).map(o=>`<li>${esc(o)}</li>`).join('');
         const tagHtml = Object.entries(TAGS).filter(([k])=>x.sectionCounts&&x.sectionCounts[k])
           .map(([k,[ic,zh]])=>`<span>${ic} ${zh} ${x.sectionCounts[k]}</span>`).join('');
         return `<a class="slot-card" href="reports/${esc(x.id)}.html">
           <div class="sc-head"><span class="sc-time${hour>=19?' night':''}">${esc(x.time)} 场</span><span class="sc-count"><b>${x.itemCount||'-'}</b> 条</span></div>
           <ul class="sc-ov">${ov||'<li>（本期无速览）</li>'}</ul>
+          ${x.conf&&(x.conf.hi||x.conf.md||x.conf.sig)?`<div class="sc-stats"><span class="ss hi">高 ${x.conf.hi||0}</span><span class="ss md">中 ${x.conf.md||0}</span><span class="ss">信号 ${x.conf.sig||0}</span></div>`:''}
           ${tagHtml?`<div class="sc-tags">${tagHtml}</div>`:''}
         </a>`;
       }
