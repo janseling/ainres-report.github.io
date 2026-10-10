@@ -1,6 +1,31 @@
 {
-  "count": 33,
+  "count": 34,
   "reports": [
+    {
+      "id": "2026-10-10-2100",
+      "date": "2026-10-10",
+      "time": "21:00",
+      "title": "AI 情报 · 10-10 21:00 场",
+      "itemCount": 13,
+      "coverage": "2026-10-10 15:00 → 21:05（Asia/Shanghai，窗口口径）",
+      "note": "今日 09:00/15:00 场已收条目（Jev 融资、Gemini 4 Carbon 曝光、Anthropic Cyber 扩容等）本期不重收",
+      "overview": [
+        "LeCun 世界模型创业首次交卷：H-JEPA 代码与权重全开源（VentureBeat 同报）。",
+        "OpenAI 722 篇数学手稿再被打脸：Navier-Stokes 证明\"译前译后两个意思\"（New Scientist 同报）。",
+        "一份把 17 家顶级 AI 实验室交给 AI 跑真实实验的评测出炉：集体翻车，GPT-5.6 与 Opus 断层领先。",
+        "苹果收紧 AI agent 磁盘权限、Meta AI 助手被\"借道\"绕过 macOS；逆向开源工具 REA 一夜 1.4 万星。",
+        "字节对 AI 影视项目开出单项目激励百万；具身智能 300 家抢跑、只剩 20 张船票，景区成了新手村。"
+      ],
+      "sectionCounts": {
+        "product": 1,
+        "tech": 4,
+        "industry": 8
+      },
+      "rawStats": {
+        "candidates": 68,
+        "selected": 13
+      }
+    },
     {
       "id": "2026-10-10-1500",
       "date": "2026-10-10",
