@@ -74,18 +74,22 @@ a:hover{text-decoration:underline;text-underline-offset:3px}
 
 /* ==== sections & items ==== */
 section{margin-top:46px}
-.sec-h{display:flex;align-items:baseline;gap:12px;padding-bottom:8px;border-bottom:1px solid var(--line2);margin-bottom:4px}
+.sec-h{display:flex;align-items:baseline;gap:12px;padding-bottom:8px;border-bottom:1px solid var(--line2);margin-bottom:4px;cursor:pointer;user-select:none}
 .sec-h .no{font-family:var(--mono);font-size:12px;color:var(--amber);letter-spacing:.1em}
 .sec-h h2{font-size:19px;font-weight:700;letter-spacing:.04em}
 .sec-h .n{font-family:var(--mono);font-size:11px;color:var(--dim);margin-left:auto}
+section.collapsed > :not(.sec-h){display:none}
+.sec-h::after{content:"▾";font-size:11px;color:var(--dim)}
+section.collapsed .sec-h::after{content:"▸"}
 .item{border-top:1px dashed var(--line);padding:16px 0 4px;margin:26px 0 10px;background:transparent;animation:up .45s cubic-bezier(.2,.7,.3,1) both;animation-delay:calc(var(--i,0)*.04s)}
 .item:first-of-type{border-top:none}
 .i-title{font-size:14.5px;font-weight:700;line-height:1.55}
 .i-title a{color:var(--ink)}
 .i-title a:hover{color:var(--amber2);text-decoration:none}
 .i-title .ext{font-size:12px;font-weight:700;color:var(--amber);margin-left:10px;font-family:var(--mono);border:1px solid rgba(232,163,61,.5);background:rgba(232,163,61,.08);padding:2px 10px;border-radius:12px;white-space:nowrap;vertical-align:2px}
+.i-title a.ext:hover{color:var(--amber);text-decoration:none}
 .i-meta{font-family:var(--mono);font-size:10.5px;color:var(--dim);margin-top:6px;letter-spacing:.03em}
-.i-summary{margin-top:12px;color:var(--ink2);font-size:13px;line-height:1.9;border-top:1px dashed var(--line2);padding-top:12px}
+.i-summary{margin-top:12px;color:var(--ink2);font-size:13px;line-height:1.9}
 .i-summary a{border-bottom:1px dotted var(--steel);color:var(--steel)}
 
 .angles{margin-top:0}
@@ -106,7 +110,7 @@ section{margin-top:46px}
 .chip.s3{color:var(--steel)}
 .chip.e3{color:var(--lav)}
 .i-verify{margin-top:10px;color:var(--green);font-size:11.5px;font-family:var(--mono);line-height:1.85;overflow-wrap:anywhere}
-.i-verify a{color:inherit}
+.i-verify a{color:inherit;text-decoration:underline;text-underline-offset:3px}
 details.prov{margin-top:6px;font-family:var(--mono);font-size:10.5px;color:var(--dim)}
 details.prov summary{cursor:pointer;letter-spacing:.05em;user-select:none}
 details.prov summary:hover{color:var(--amber)}
@@ -120,6 +124,7 @@ details.prov .prov-body span{overflow-wrap:anywhere}
 .ov-item.canjump{cursor:pointer}
 .ov-item.canjump:hover{color:var(--ink)}
 .jumptag{float:right;font-family:var(--mono);font-size:10.5px;color:var(--dim);opacity:.7;padding-left:12px}
+.sigtag{font-family:var(--mono);font-size:10.5px;color:var(--amber);border:1px solid rgba(232,163,61,.4);background:rgba(232,163,61,.07);padding:0 7px;border-radius:10px;margin-left:8px;white-space:nowrap;letter-spacing:.04em;vertical-align:1px}
 
 /* ==== signals ==== */
 .signals{margin-top:14px}
@@ -289,7 +294,7 @@ function render(rep, rs, idx, ctx){
       const verHtml = verParts.length?`<div class="i-verify">✓ 外部佐证：${verParts.join(' · ')}</div>`:'';
 
       return `<article class="item" id="it-${esc(sec.key)}-${ii}" style="--i:${ii}">
-        <h3 class="i-title">${main?`<a href="${esc(main)}" target="_blank" rel="noopener">${esc(it.title)}</a><span class="ext">原文 ↗</span>`:esc(it.title)}</h3>
+        <h3 class="i-title">${main?`<a href="${esc(main)}" target="_blank" rel="noopener">${esc(it.title)}</a><a class="ext" href="${esc(main)}" target="_blank" rel="noopener">原文 ↗</a>`:esc(it.title)}</h3>
         ${it.meta?`<div class="i-meta">${esc(it.meta)}${it.event_time?` ｜ ${it.event_time_inferred?'~ ':''}事件 ${esc(it.event_time)}${it.event_time_inferred?'（推断）':''}`:''}</div>`:''}
         ${v3html}
         ${it.summary?`<div class="i-summary">${mdLinks(it.summary)}</div>`:''}
@@ -321,10 +326,32 @@ function render(rep, rs, idx, ctx){
     }));
     return bestScore>=0.4?best:null;
   };
-  const sigHtml = (rep.signals||[]).map((s,i)=>`<div class="sig"><span class="sno">${String(i+1).padStart(2,'0')}</span><div class="body"><b>${esc(s.lead)}</b>${mdLinks(s.text)}</div></div>`).join('');
-  const ovHtml = (rep.overview||[]).map(o=>{
-    const a = anchorOf(o);
-    return `<div class="ov-item${a?' canjump':''}"${a?` data-jump="it-${esc(a)}"`:''}>${mdLinks(o)}${a?`<span class="jumptag">条目 ↳</span>`:''}</div>`;
+    /* 速览与跟踪信号合并：信号与速览行分句 2-gram 双向相似度 ≥0.38 视为同一条 → 原行加「跟踪」标记（去重）；未匹配 → 速览样式并入 */
+  const normT = s => grams2(s).join('');
+  const CLAUSE_RE = new RegExp('[；;。]');
+  const SIG_TH = 0.38;
+  const ovRows = (rep.overview||[]).map(o=>({ text:o, sig:false }));
+  const ovClauses = ovRows.map(r=>String(r.text).split(CLAUSE_RE).map(c=>({ n:normT(c), g:grams2(c) })));
+  (rep.signals||[]).forEach(s=>{
+    const blob = normT((s.lead||'') + '，' + (s.text||''));
+    const sb = grams2(blob);
+    let bi = -1, bs = 0;
+    ovRows.forEach((r,ri)=>{
+      ovClauses[ri].forEach(cl=>{
+        if(!cl.n) return;
+        let h1 = 0; sb.forEach(g=>{ if(cl.n.indexOf(g) >= 0) h1++; });
+        let h2 = 0; cl.g.forEach(g=>{ if(blob.indexOf(g) >= 0) h2++; });
+        const sc = Math.max(sb.length? h1/sb.length : 0, cl.g.length? h2/cl.g.length : 0);
+        if(sc > bs){ bs = sc; bi = ri; }
+      });
+    });
+    if(bi >= 0 && bs >= SIG_TH){ ovRows[bi].sig = true; ovRows[bi].sigLead = s.lead || ''; }
+    else ovRows.push({ text:(s.lead? s.lead+'：' : '') + (s.text||''), sig:true, sigLead:s.lead || '' });
+  });
+  const ovHtml = ovRows.map(r=>{
+    const a = anchorOf(r.text);
+    const mark = r.sig?`<span class="sigtag" title="${esc('值得跟踪：'+(r.sigLead||'跟踪信号'))}">🧭 跟踪</span>`:'';
+    return `<div class="ov-item${a?' canjump':''}"${a?` data-jump="it-${esc(a)}"`:''}>${mdLinks(r.text)}${mark}${a?`<span class="jumptag">条目 ↳</span>`:''}</div>`;
   }).join('');
 
   document.getElementById('wrap').innerHTML = `
@@ -336,8 +363,7 @@ function render(rep, rs, idx, ctx){
     <div class="mchips">${chips.join('')}</div>
     <div class="navchips">${navChips}</div>
   </header>
-  ${(rep.overview||[]).length?`<section id="sec-overview"><div class="sec-h"><span class="no">🔭</span><h2>速览</h2><span class="n">${rep.overview.length} 条</span></div><div class="ovlist">${ovHtml}</div></section>`:''}
-  ${(rep.signals||[]).length?`<section id="sec-signals"><div class="sec-h"><span class="no">🧭</span><h2>值得跟踪的信号</h2><span class="n">${rep.signals.length} 条</span></div><div class="signals">${sigHtml}</div></section>`:''}
+  ${ovRows.length?`<section id="sec-overview"><div class="sec-h"><span class="no">🔭</span><h2>速览</h2><span class="n">${ovRows.length} 条</span></div><div class="ovlist">${ovHtml}</div></section>`:''}
   ${secsHtml || '<div class="msg">本期无条目</div>'}
   ${rep.rawStats && rep.rawStats.candidates?`<div class="rawline">▸ raw archive: reports/raw/${esc(rep.id)}.json（候选 ${rep.rawStats.candidates.toLocaleString()}${rep.rawStats.selected?'／入选 '+rep.rawStats.selected:''}）${rep.provenance_meta&&rep.provenance_meta.evidence_file?` · 证据链 ${esc(rep.provenance_meta.evidence_file)}`:''}${rep.provenance_meta&&rep.provenance_meta.snapshot_dir?` · 快照 ${esc(rep.provenance_meta.snapshot_dir)}`:''}</div>`:''}
   <nav class="pager">
@@ -352,6 +378,11 @@ function render(rep, rs, idx, ctx){
     location.hash = h;
     const t = document.getElementById(h);
     if(t) t.scrollIntoView({block:'start'});
+  }));
+  /* 板块折叠：点板块头切换展开/收起，默认全部展开 */
+  document.querySelectorAll("section .sec-h").forEach(secHead=>secHead.addEventListener("click",ev=>{
+    if(ev.target.closest("a")) return;
+    secHead.parentElement.classList.toggle("collapsed");
   }));
   /* 阅读档位落地（内层重建后重放）+ 带锚直达时滚到条目 */
   modeSet();
