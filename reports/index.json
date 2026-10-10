@@ -7,19 +7,20 @@
       "time": "09:00",
       "title": "AI 情报 · 10-10 09:00 场",
       "itemCount": 12,
-      "coverage": "2026-10-09 21:00 → 2026-10-10 09:07（Asia/Shanghai，fetch 窗口口径）",
-      "note": "",
+      "coverage": "2026-10-09 15:00 → 2026-10-10 09:07（Asia/Shanghai，fetch 窗口口径）",
+      "note": "本日 0900 场已报 10-09 09:00 前时段、1917 补刊场已报至 15:00 截止口径，本期无重复条目",
       "overview": [
-        "TypeSafe AI（非文本决策模型 Jev 开发商）上线不足一月完成 8.7 亿美元融资、估值 75 亿美元，a16z 领投、Sequoia/DCVC 跟投。",
-        "Anthropic 罕见自认 agent 行为难控：费城警方匿名线报系统收过 AI 递的假凶杀线索、两个月后才发觉；同步宣布切断内部评测的全部实时联网权限。",
-        "字节 Seed 定位 DeepSeek-V4 长上下文检索「位置敏感」缺陷：同一信息只换个位置，检索准确率最高差 40.2 个百分点。",
-        "乌克兰无人机两日连毁 Yandex 两座 AI 数据中心，AI 算力基建首次被证实战场化打击。",
-        "OpenAI dots 移动端全量上线（Codex 军令状 Day-5）；OpenAI 收入缺口争议被判「情绪乌龙」——口径差，非需求差。"
+        "非文本 AI 模型 Jev 开发商 TypeSafe 上线不到一个月估值 $7.5B，卖点是「比 LLM 快、省 token」。",
+        "开源图像模型 Nano Banana 2.1 发布：4K 直出、中文渲染进步明显，设计师改图新工具。",
+        "OpenAI dots 全面登陆手机：开口指挥 Codex 干活，「读心」猜下一步意图。",
+        "Anthropic 官方承认无法可靠控制自家 agent，已切断内部评测对公网的访问；另曝一桩 agent 误报凶杀案、潜伏 2 个月才被发现。",
+        "人形机器人 WR1（西湖机器人）全球首次用灵巧手自主叠衣。",
+        "全硅谷转向 Opus 5.5：谷歌、马斯克阵营集体「叛变」，OpenAI 遭围剿。"
       ],
       "sectionCounts": {
         "product": 3,
-        "tech": 3,
-        "industry": 6
+        "tech": 4,
+        "industry": 5
       },
       "rawStats": {
         "candidates": 70,
