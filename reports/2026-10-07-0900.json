@@ -3,7 +3,7 @@
   "date": "2026-10-07",
   "time": "09:00",
   "title": "AI 情报 · 10-07 09:00 场",
-  "generatedAt": "2026-10-10T05:43:55.965Z",
+  "generatedAt": "2026-10-10T07:45:40.710Z",
   "coverage": "10-06 21:00 → 10-07 09:05（Asia/Shanghai）",
   "notes": [
     "2026-10-06 三场均已报条目已去重（Mistral Large 4、月之暗面 PreIPO、微软/Meta 减用 Claude、textGrain、Wikimedia 事件、Utopai X 均不再重收）"
@@ -545,6 +545,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 TechCrunch 单源+TDF 官方博客同报",
           "publish_time": "2026-10-06 23:25",
+          "event_time": "2026-09-03 23:49",
+          "event_time_inferred": false,
           "verify_note": "外部检索（TDF 官方博客 9-03「Yes, no AI is now a feature」及 Vignoli Substack 同口径：默认零 AI，并列出接入 AI 前须满足的六项条件）",
           "entities": [
             {
