@@ -3,7 +3,7 @@
   "date": "2026-10-07",
   "time": "15:10",
   "title": "AI 情报 · 10-07 15:10 场",
-  "generatedAt": "2026-10-09T12:33:36.270Z",
+  "generatedAt": "2026-10-10T01:42:05.319Z",
   "coverage": "10-07 09:05 → 10-07 15:16（Asia/Shanghai）",
   "notes": [
     "昨 09:00 场已报条目全部去重；OpenAI Decisions API 公测（2026-10-07 04:53）因上期 OpenAI RSS 403 + Reddit 全挂漏抓，本期补收"
@@ -140,6 +140,8 @@
           "confidence": "中",
           "confidence_note": "双源佐证：彭博 10-06 爆料+财联社/澎湃/凤凰网 10-06 独立同报，快手未证实",
           "publish_time": "2026-10-07 15:08",
+          "event_time": "2026-10-06",
+          "event_time_inferred": false,
           "verify_note": "外部检索（财联社·科创板日报/21财经/澎湃/凤凰网 10-06 同报：中金+高盛+瑞银承销、募资至少 10 亿美元、预计 2027 年初递表）",
           "entities": [
             {
@@ -185,7 +187,9 @@
           ],
           "confidence": "中",
           "confidence_note": "双源佐证 PH 榜单+官方站/HN/flash24 独立同报",
-          "publish_time": "2026-10-07",
+          "publish_time": "2026-10-07 11:36",
+          "event_time": "2026-10-05",
+          "event_time_inferred": false,
           "verify_note": "外部检索（官方站 reikacode.com「A coding agent CLI for local and hosted models·small local models first」；Hacker News 转帖（github.com/alexwkleung）与 flash24.org 同报其 10-05 释出、面向 8B–35B 本地模型）",
           "entities": [
             {
@@ -303,6 +307,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 arXiv 2609.34261 原文+RoboRadar 10-01 同报",
           "publish_time": "2026-10-07 15:06",
+          "event_time": "2026-09-28 12:07",
+          "event_time_inferred": false,
           "verify_note": "外部检索（arXiv 2609.34261《RoboICL: Embodied In-Context Learning with GPT-6 Astra》Samsung Research 署名、9-28 挂出；RoboRadar 10-01 同报：冻结模型仅示范推理、30 项 RoboDojo 任务领先）",
           "entities": [
             {
