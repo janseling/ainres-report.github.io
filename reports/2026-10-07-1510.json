@@ -3,7 +3,7 @@
   "date": "2026-10-07",
   "time": "15:10",
   "title": "AI 情报 · 10-07 15:10 场",
-  "generatedAt": "2026-10-10T01:42:05.319Z",
+  "generatedAt": "2026-10-10T07:45:40.741Z",
   "coverage": "10-07 09:05 → 10-07 15:16（Asia/Shanghai）",
   "notes": [
     "昨 09:00 场已报条目全部去重；OpenAI Decisions API 公测（2026-10-07 04:53）因上期 OpenAI RSS 403 + Reddit 全挂漏抓，本期补收"
@@ -394,6 +394,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 Anthropic 官方 10-06 公告+SecurityWeek/CSO Online 10-07 独立同报",
           "publish_time": "2026-10-07 10:42",
+          "event_time": "2026-10-06",
+          "event_time_inferred": false,
           "verify_note": "外部检索（anthropic.com 10-06《Expanding the Cyber Verification Program》+Help Center：单档扩为 Opus 5.5 三档；SecurityWeek 10-07、CSO Online 10-07 独立同报）",
           "entities": [
             {
