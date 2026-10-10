@@ -55,6 +55,10 @@ body{
 /* ==== day rows ==== */
 .dayrow{margin:22px 0 0;animation:up .5s cubic-bezier(.2,.7,.3,1) both;animation-delay:calc(var(--i,0)*.05s)}
 .row-h{display:flex;align-items:baseline;gap:12px;padding:12px 2px 8px}
+.row-h{cursor:pointer;-webkit-user-select:none;user-select:none}
+.cv{font-size:11px;color:var(--dim);transition:transform .15s ease}
+.dayrow.fold .cv{transform:rotate(-90deg)}
+.dayrow.fold .slotgrid{display:none}
 .d-date{font-family:var(--mono);font-size:20px;font-weight:700;letter-spacing:.02em}
 .d-wd{font-size:12px;color:var(--dim)}
 .row-line{flex:1;height:1px;background:var(--line)}
@@ -213,8 +217,9 @@ function render(m){
         <div class="sc-ph">— 未出刊 —</div>
       </div>`;
     }).join('');
-    return `<section class="dayrow" style="--i:${i}">
-      <div class="row-h">
+    return `<section class="dayrow${i===0?'':' fold'}" style="--i:${i}">
+      <div class="row-h" title="点击展开/折叠当天">
+        <span class="cv">▾</span>
         <span class="d-date">${esc(d.slice(5))}</span><span class="d-wd">${wdOf(d)}</span>
         <span class="row-line"></span>
         <span class="d-prog">${n?`已出 <b>${n}</b>/3 期 · ${itemCount} 条`: '待出刊'}</span>
@@ -224,6 +229,14 @@ function render(m){
   }).join('');
 }
 init();
+
+(function(){
+  var d = document.getElementById('days'); if(!d) return;
+  d.addEventListener('click', function(e){
+    var h = e.target.closest('.row-h'); if(!h) return;
+    h.parentElement.classList.toggle('fold');
+  });
+})();
 </script>
 </body>
 </html>
