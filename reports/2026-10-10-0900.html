@@ -326,34 +326,66 @@ function render(rep, rs, idx, ctx){
     }));
     return bestScore>=0.4?best:null;
   };
-    /* 速览与跟踪信号合并：信号与速览行分句 2-gram 双向相似度 ≥0.38 视为同一条 → 原行加「跟踪」标记（去重）；未匹配 → 速览样式并入 */
+    /* 速览与跟踪信号合并：分句 2-gram 双向相似度 ≥0.38 去重；锚定=标题@0.4 优先，标记/追加行用 标题+原题+摘要 分句兜底 @0.3 */
   const normT = s => grams2(s).join('');
   const CLAUSE_RE = new RegExp('[；;。]');
   const SIG_TH = 0.38;
-  const ovRows = (rep.overview||[]).map(o=>({ text:o, sig:false }));
-  const ovClauses = ovRows.map(r=>String(r.text).split(CLAUSE_RE).map(c=>({ n:normT(c), g:grams2(c) })));
+  const rowsClauses = t => String(t).split(CLAUSE_RE).map(c=>c.trim()).filter(c=>c).map(c=>({ n:normT(c), g:grams2(c) }));
+  const itemIdx = [];
+  (rep.sections||[]).forEach(sec=>(sec.items||[]).forEach((it,ii)=>{
+    const hay = (it.title||'') + '；' + (it.original_title||'') + '；' + (it.summary||'');
+    itemIdx.push({ id: sec.key + '-' + ii, cl: rowsClauses(hay) });
+  }));
+  const bestItem = text => {
+    const tcs = rowsClauses(text);
+    let best = null, bs = 0;
+    itemIdx.forEach(rec=>{
+      let m = 0;
+      tcs.forEach(tc=>{
+        if(!tc.n) return;
+        rec.cl.forEach(ic=>{
+          if(!ic.n) return;
+          let h1 = 0; tc.g.forEach(g=>{ if(ic.n.indexOf(g) >= 0) h1++; });
+          let h2 = 0; ic.g.forEach(g=>{ if(tc.n.indexOf(g) >= 0) h2++; });
+          m = Math.max(m, Math.max(tc.g.length? h1/tc.g.length : 0, ic.g.length? h2/ic.g.length : 0));
+        });
+      });
+      if(m > bs){ bs = m; best = rec.id; }
+    });
+    return best ? { id: best, sc: bs } : null;
+  };
+  const ovRows = (rep.overview||[]).map(o=>({ text:o, sig:false, anc:null, aScore:0 }));
+  const ovClauses = ovRows.map(r=>rowsClauses(r.text));
   (rep.signals||[]).forEach(s=>{
-    const blob = normT((s.lead||'') + '，' + (s.text||''));
-    const sb = grams2(blob);
+    const blob = (s.lead||'') + '，' + (s.text||'');
+    const bn = normT(blob), sb = grams2(blob);
     let bi = -1, bs = 0;
     ovRows.forEach((r,ri)=>{
       ovClauses[ri].forEach(cl=>{
         if(!cl.n) return;
         let h1 = 0; sb.forEach(g=>{ if(cl.n.indexOf(g) >= 0) h1++; });
-        let h2 = 0; cl.g.forEach(g=>{ if(blob.indexOf(g) >= 0) h2++; });
+        let h2 = 0; cl.g.forEach(g=>{ if(bn.indexOf(g) >= 0) h2++; });
         const sc = Math.max(sb.length? h1/sb.length : 0, cl.g.length? h2/cl.g.length : 0);
         if(sc > bs){ bs = sc; bi = ri; }
       });
     });
-    if(bi >= 0 && bs >= SIG_TH){ ovRows[bi].sig = true; ovRows[bi].sigLead = s.lead || ''; }
-    else {
-      const t = (s.lead? s.lead+'：' : '') + (s.text||'');
-      ovRows.push({ text:t, sig:true, sigLead:s.lead || '' });
-      ovClauses.push(String(t).split(CLAUSE_RE).map(c=>({ n:normT(c), g:grams2(c) })));
+    if(bi >= 0 && bs >= SIG_TH){
+      ovRows[bi].sig = true; ovRows[bi].sigLead = s.lead || '';
+      if(ovRows[bi].aScore < 0.3){
+        const b = bestItem(blob);
+        if(b && b.sc > ovRows[bi].aScore){ ovRows[bi].anc = b.id; ovRows[bi].aScore = b.sc; }
+      }
+    } else {
+      const t = (s.lead? s.lead + '：' : '') + (s.text||'');
+      const b = bestItem(t);
+      const anc = (b && b.sc >= 0.3) ? b.id : null;
+      const asc = (b && b.sc >= 0.3) ? b.sc : 0;
+      ovRows.push({ text:t, sig:true, sigLead:s.lead || '', anc:anc, aScore:asc });
+      ovClauses.push(rowsClauses(t));
     }
   });
   const ovHtml = ovRows.map(r=>{
-    const a = anchorOf(r.text);
+    const a = anchorOf(r.text) || r.anc || null;
     const mark = r.sig?`<span class="sigtag" title="${esc('值得跟踪：'+(r.sigLead||'跟踪信号'))}">🧭 跟踪</span>`:'';
     return `<div class="ov-item${a?' canjump':''}"${a?` data-jump="it-${esc(a)}"`:''}>${mdLinks(r.text)}${mark}${a?`<span class="jumptag">条目 ↳</span>`:''}</div>`;
   }).join('');
