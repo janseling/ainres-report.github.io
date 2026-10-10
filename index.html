@@ -115,13 +115,14 @@ a.slot-card:hover{border-color:var(--dim)}
     <div class="brand"><h1>AI <em>情报</em>日报</h1><span class="sub">ARCHIVE</span></div>
     <p class="tagline">为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文；全部期数据开放（JSON＋RSS）。</p>
     <div class="statline" id="statline"><span><span class="pulse"></span>加载归档索引…</span></div>
-  <div class="mh-actions"><a href="/search.html">🔍 站内检索</a><a href="/api.html">API · 字段说明</a><a href="/rss.xml" target="_blank" rel="noopener">RSS 订阅 ↗</a></div>
+  <div class="mh-actions"><a href="/search.html">🔍 站内检索</a></div>
   </header>
 
   <main id="days"></main>
 
   <footer class="foot">
-    <span>ai-intel-daily · agent-collected briefing</span>
+    <a href="/api.html">API · 字段说明</a>
+    <a href="/rss.xml" target="_blank" rel="noopener">RSS 订阅 ↗</a>
     <a href="https://github.com/janseling" target="_blank" rel="noopener">github/janseling</a>
   </footer>
 </div>
@@ -193,8 +194,8 @@ function render(m){
         const hlList = (Array.isArray(x.hl) && x.hl.length ? x.hl : (x.overview||[]).slice(0,3).map(t=>({t})));
         const ov = hlList.slice(0,3).map(h=>{
           const txt = typeof h === 'string' ? h : (h && h.t) || '';
-          const anc = h && h.a ? '#it-' + esc(h.a) : '';
-          return `<li><a href="${href}${anc}">${esc(txt)}</a></li>`;
+          /* 卡片整期直达：不再带 #it- 锚点，点击进当期页面顶部 */
+          return `<li><a href="${href}">${esc(txt)}</a></li>`;
         }).join('');
         const tagHtml = Object.entries(TAGS).filter(([k])=>x.sectionCounts&&x.sectionCounts[k])
           .map(([k,[ic,zh]])=>`<span>${ic} ${zh} ${x.sectionCounts[k]}</span>`).join('');
