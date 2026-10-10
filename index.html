@@ -69,6 +69,19 @@ body{
 
 /* ==== cards ==== */
 .slot-card{display:flex;flex-direction:column;position:relative;border:1px solid var(--line2);border-radius:9px;background:var(--panel2);padding:13px 14px;transition:border-color .25s}
+/* C 状态对比：非最新卡降噪，hover 恢复 */
+.slot-card{transition:border-color .25s,opacity .25s}
+.slot-card:not(.hot){opacity:.8}
+.slot-card:not(.hot):hover{opacity:1}
+/* 最新期高亮卡 */
+.slot-card.hot{border-color:rgba(232,163,61,.55);background:rgba(232,163,61,.05)}
+.slot-card.hot::after{content:"最新";position:absolute;top:-9px;right:12px;font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.12em;background:var(--amber);color:#0c0d10;padding:2px 9px;border-radius:9px;z-index:2}
+/* A 头条化：卡首条做大标题，次要条目维持小字 */
+.sc-hero{margin-top:10px;display:block;font-size:15px;font-weight:700;line-height:1.5;color:var(--ink);text-decoration:none}
+.sc-hero .sc-go{color:var(--amber);opacity:0;transition:opacity .15s;margin-left:6px;font-weight:400}
+.sc-hero:hover{color:var(--amber2)}
+.sc-hero:hover .sc-go{opacity:1}
+.slot-card.hot .sc-hero{font-size:15.5px}
 a.slot-card{color:inherit;text-decoration:none}
 a.slot-card:hover{border-color:var(--dim)}
 .slot-card.empty{border-style:dashed;background:transparent;opacity:.75}
@@ -195,19 +208,24 @@ function render(m){
       if (x){
         const hour = parseInt(x.time.slice(0,2),10);
         const href = 'reports/' + esc(x.id) + '.html';
+        const isHot = x.id === rs[0].id;
         const hlList = (Array.isArray(x.hl) && x.hl.length ? x.hl : (x.overview||[]).slice(0,3).map(t=>({t})));
-        const ov = hlList.slice(0,3).map(h=>{
+        const txt0 = hlList.length ? (typeof hlList[0] === 'string' ? hlList[0] : (hlList[0] && hlList[0].t) || '') : '';
+        const hero = txt0 ? `<a class="sc-hero" href="${href}">${esc(txt0)}<span class="sc-go">→</span></a>` : '';
+        const ov = hlList.slice(1,3).map(h=>{
           const txt = typeof h === 'string' ? h : (h && h.t) || '';
           /* 卡片整期直达：不再带 #it- 锚点，点击进当期页面顶部 */
           return `<li><a href="${href}">${esc(txt)}</a></li>`;
         }).join('');
+        const ovHtml = ov ? `<ul class="sc-ov">${ov}</ul>` : '';
         const tagHtml = Object.entries(TAGS).filter(([k])=>x.sectionCounts&&x.sectionCounts[k])
           .map(([k,[ic,zh]])=>`<span>${ic} ${zh} ${x.sectionCounts[k]}</span>`).join('');
         const hasConf = x.conf && (x.conf.hi || x.conf.md || (x.conf.lo ?? 0));
         const stHtml = hasConf ? `<div class="sc-stats"><span class="ss hi">高 ${x.conf.hi||0}</span><span class="ss md">中 ${x.conf.md||0}</span><span class="ss lo">低 ${x.conf.lo||0}</span><span class="ss">${(x.verify&&x.verify.rate)?`佐证 ${esc(x.verify.rate)}`:`信号 ${x.conf.sig||0}`}</span></div>` : '';
-        return `<div class="slot-card">
+        return `<div class="slot-card${isHot?' hot':''}">
           <a class="sc-head" href="reports/${esc(x.id)}.html"><span class="sc-time${hour>=19?' night':''}">${esc(x.time)} 场</span><span class="sc-count"><b>${x.itemCount||'-'}</b> 条</span></a>
-          <ul class="sc-ov">${ov||'<li>（本期无速览）</li>'}</ul>
+          ${hero||'<div class="sc-ph">— 本期无速览 —</div>'}
+          ${ovHtml}
           ${stHtml}
           ${tagHtml?`<div class="sc-tags">${tagHtml}</div>`:''}
         </div>`;
@@ -217,7 +235,7 @@ function render(m){
         <div class="sc-ph">— 未出刊 —</div>
       </div>`;
     }).join('');
-    return `<section class="dayrow${i===0?'':' fold'}" style="--i:${i}">
+    return `<section class="dayrow${i<5?'':' fold'}" style="--i:${i}">
       <div class="row-h" title="点击展开/折叠当天">
         <span class="cv">▾</span>
         <span class="d-date">${esc(d.slice(5))}</span><span class="d-wd">${wdOf(d)}</span>
