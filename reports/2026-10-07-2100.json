@@ -66,7 +66,13 @@
               "name": "Playground",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/tech/1006477/google-playground-unity-spark-ai",
+            "raw_ref": "reports/raw/2026-10-07-2100.json#candidates[21]",
+            "source_id": "theverge",
+            "source_name": "The Verge"
+          }
         },
         {
           "title": "淘宝 TaoMate-H3 开源：三步流水线做「分钟级」音视频连续创作",
@@ -114,7 +120,13 @@
               "name": "MiniMax",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084755160_129720",
+            "raw_ref": "reports/raw/2026-10-07-2100.json#candidates[91]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          }
         },
         {
           "title": "百克级 AI 眼镜对撞：Google×Xreal Aura 定价 $1,279 直面 Meta",
@@ -156,7 +168,13 @@
               "name": "Meta",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/news/1006207/google-xreal-aura-glasses-price-release-date-preorder",
+            "raw_ref": "reports/raw/2026-10-07-2100.json#candidates[20]",
+            "source_id": "theverge",
+            "source_name": "The Verge"
+          }
         }
       ]
     },
@@ -207,7 +225,13 @@
               "name": "Hugging Face",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+            "raw_ref": "reports/raw/2026-10-07-2100.json#candidates[4]",
+            "source_id": "huggingface",
+            "source_name": "Hugging Face"
+          }
         },
         {
           "title": "AIBuildAI 开源递归自进化 PostTrain Agent，登顶 PostTrainBench",
@@ -255,7 +279,13 @@
               "name": "LegoFlow",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084759444_129720",
+            "raw_ref": "reports/raw/2026-10-07-2100.json#candidates[89]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          }
         },
         {
           "title": "亚马逊×杜克：万分之一的监督信号也能做好推理（机器之心Pro 搜狐同步·2026-10-07 16:01）",
@@ -291,7 +321,13 @@
               "name": "杜克大学",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084767551_129720",
+            "raw_ref": "reports/raw/2026-10-07-2100.json#candidates[77]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          }
         }
       ]
     },
@@ -336,7 +372,13 @@
               "name": "ChatGPT",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+            "raw_ref": "reports/raw/2026-10-07-2100.json#candidates[59]",
+            "source_id": "theverge",
+            "source_name": "The Verge"
+          }
         }
       ]
     },
@@ -391,7 +433,13 @@
               "name": "Artificial Analysis",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/10/501803.html",
+            "raw_ref": "reports/raw/2026-10-07-2100.json#candidates[26]",
+            "source_id": "qbitai",
+            "source_name": "量子位"
+          }
         },
         {
           "title": "Agent Skills 生态在 GitHub 趋势榜刷屏",
@@ -435,7 +483,13 @@
               "name": "Claude Code",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://github.com/mattpocock/skills",
+            "raw_ref": "reports/raw/2026-10-07-2100.json#candidates[100]",
+            "source_id": "gh-trending",
+            "source_name": "GitHub Trending"
+          }
         },
         {
           "title": "10 人初创 Bites 用 agent 外卖切 DoorDash",
@@ -475,7 +529,13 @@
               "name": "DoorDash",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1005726/doordash-ai-agentic-food-delivery-bites",
+            "raw_ref": "reports/raw/2026-10-07-2100.json#candidates[19]",
+            "source_id": "theverge",
+            "source_name": "The Verge"
+          }
         },
         {
           "title": "OpenAI 老模型 10-23 集中关停倒计时 17 天，社区迁移工具上线",
@@ -511,7 +571,13 @@
               "name": "GPT-4",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/OpenAI/comments/1wzvieu/openai_shutting_down_gpt4_gpt35turbo_on_oct_23",
+            "raw_ref": "reports/raw/2026-10-07-2100.json#candidates[6]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          }
         }
       ]
     }
@@ -537,5 +603,12 @@
   "sourceStatus": [
     "- VentureBeat：DOWN（渲染 0 条），已连续 3 期失败——达停用线，建议下期自 sources.json 移除",
     "- 备注：OpenAI RSS 直链 403 连续两期、渲染兜底仍 0 增量；HN 直连 502，Algolia 兜底正常（窗口 0 条）；GitHub Trending 本期恢复（13 条进窗）；搜狐三镜像 parse_loss 合计 11 条（作者页/杂项为主）。"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-07-2100.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 111,
+    "matched": 11
+  }
 }

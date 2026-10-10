@@ -75,7 +75,13 @@
               "name": "GPT-6 Astra",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1083891076_473283",
+            "raw_ref": "reports/raw/2026-10-04-1500.json#candidates[15]",
+            "source_id": "store-105",
+            "source_name": "10-05存量 raw"
+          }
         },
         {
           "title": "Tavus 发布「人类交互模型」Griffin：一分钟视频通话 26/54 人以为对面是真人",
@@ -112,7 +118,13 @@
               "name": "Griffin",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.geekpark.net/news/372075",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": null
+          }
         }
       ]
     },
@@ -157,7 +169,13 @@
               "name": "Tibo Sottiaux",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/OpenAI/comments/1wx3l41/now_openai_says_gpt61_sol_ultrafast_is_coming_soon",
+            "raw_ref": "reports/raw/2026-10-04-1500.json#candidates[27]",
+            "source_id": "reddit",
+            "source_name": "Reddit(r/OpenAI)"
+          }
         },
         {
           "title": "5.2KB 纯 x86-64 汇编推理引擎跑通 Gemma-2B：FP16 4.6 tok/s、零运行时依赖",
@@ -192,7 +210,13 @@
               "name": "PULSAR-ASM",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wx5x1p/discussion_a_5kb_pure_x8664_assembly_engine_for",
+            "raw_ref": "reports/raw/2026-10-04-1500.json#candidates[17]",
+            "source_id": "reddit",
+            "source_name": "Reddit(r/LocalLLaMA)"
+          }
         }
       ]
     },
@@ -235,7 +259,13 @@
               "name": "Muse",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wx8ruy/metas_muse_agent_1_in_the_app_store_system_prompt",
+            "raw_ref": "reports/raw/2026-10-04-1500.json#candidates[4]",
+            "source_id": "reddit",
+            "source_name": "Reddit(r/LocalLLaMA)"
+          }
         },
         {
           "title": "美财长贝森特给 AI 泡沫论「灭火」：收益率上升属全球现象，巨头资本开支已变成 OpenAI/Anthropic 营收",
@@ -279,7 +309,13 @@
               "name": "Microsoft",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/newsflashes/4011284846825603",
+            "raw_ref": "reports/raw/2026-10-04-1500.json#candidates[1]",
+            "source_id": "store-105",
+            "source_name": "10-05存量 raw"
+          }
         }
       ]
     }
@@ -289,5 +325,12 @@
     "- 搜狐系六路（新智元/机器之心Pro/甲子光年 镜像＋直抓）全部 DOWN——快照期 0 字节不可恢复，国内主源本窗口零增量主因（仅 10-05 存量 raw 捞回 3 条）",
     "- OpenAI(now)：DOWN（页面 body 仅几十字节，源在线，疑似反爬）",
     "- arXiv：FALLBACK（当时 feed 解析 0 条，快照 10-03 21:08~21:27）"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-04-1500.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 35,
+    "matched": 5
+  }
 }

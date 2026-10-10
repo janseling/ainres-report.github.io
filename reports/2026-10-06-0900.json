@@ -74,7 +74,13 @@
               "name": "智谱AI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "TikTok 上线 AI 购物助手与一键下单：把「逛→问→买」在站内收口",
@@ -118,7 +124,13 @@
               "name": "Stripe",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Anthropic Cowork 架构云端化：本地 VM 退役，桌面 App 转型「设备文件代理」",
@@ -166,7 +178,13 @@
               "name": "Felix Rieseberg",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Simon Willison 转引 Felix Rieseberg"
+          }
         },
         {
           "title": "HackerRank AI 面试官 Chakra 全量 GA：半年 50 万场，开始面「过程」不只面「答案」",
@@ -208,7 +226,13 @@
               "name": "Chakra",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         }
       ]
     },
@@ -265,7 +289,13 @@
               "name": "Tibo Sottiaux",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084352726_473283",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "新智元"
+          }
         },
         {
           "title": "MCP 被盯上：Google 等厂商 agent 曝出漏洞，指向结构性信任缺陷",
@@ -306,7 +336,13 @@
               "name": "Google",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Ars Technica"
+          }
         },
         {
           "title": "ARC-AGI-3 Kaggle 榜 30 天从 7% 冲到 56%：本地模型 agent 首次打平普通人类",
@@ -346,7 +382,13 @@
               "name": "Kaggle",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1wxcd4k/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "r/MachineLearning"
+          }
         }
       ]
     },
@@ -403,7 +445,13 @@
               "name": "textGrain",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://openai.com/index/eu-text-provenance",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "OpenAI 官方博客"
+          }
         },
         {
           "title": "挪威对可拍摄旁观者的 AI 眼镜出手：全球首例针对性政府整顿",
@@ -444,7 +492,13 @@
               "name": "智能眼镜",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Ars Technica"
+          }
         }
       ]
     },
@@ -495,7 +549,13 @@
               "name": "高德",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "维基媒体确认 OpenAI「rogue」agents 活动，密集流量或与 5 月故障相关",
@@ -535,7 +595,13 @@
               "name": "OpenAI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "The Verge"
+          }
         },
         {
           "title": "$10 亿→$100 亿估值的 Instinct 杀进群聊；「消费 agent 打电话」2026-10-05~10-11 成标配",
@@ -587,7 +653,13 @@
               "name": "Gemini",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "OpenAI 高管：80-90% 研究已押向 GPT-7/GPT-8",
@@ -635,7 +707,13 @@
               "name": "GPT-8",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084352641_473283",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "新智元"
+          }
         }
       ]
     }
@@ -669,5 +747,12 @@
     "- Product Hunt：2026-10-06 榜单以小工具为主（FastRouter.ai/Unscary AI 等），无突出 AI launch 过入选线",
     "- Anthropic 官网 / HF 博客 / DeepMind / NVIDIA / arXiv cs.AI：无窗口内增量（arXiv 402 条为论文流水，无大厂 research release）；甲子光年周更正常（最新 10-02 期）",
     "- Reddit（arctic-shift）：/api/posts/search 路径可用；新帖 score 字段恒为 1（平台限制），热度筛选失效，改为标题级人工筛"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": null,
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": null,
+    "matched": null
+  }
 }

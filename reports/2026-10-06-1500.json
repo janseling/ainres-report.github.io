@@ -64,7 +64,13 @@
               "name": "Kimi",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4013804614537347",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪快讯"
+          }
         },
         {
           "title": "快手可灵 AI 计划最早明年赴港上市，至少融资 10 亿美元",
@@ -98,7 +104,13 @@
               "name": "可灵 AI",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4013802251865993",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": null
+          }
         },
         {
           "title": "ChatGPT 图像生成旁将出现视觉广告：10 月内美国上线",
@@ -138,7 +150,13 @@
               "name": "ChatGPT",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         }
       ]
     },
@@ -199,7 +217,13 @@
               "name": "Artificial Analysis",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4012727395618692",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          }
         },
         {
           "title": "Utopai X 视频模型盲评全球第二、物理效果与音频同步双第一，公司估值 10 亿美元",
@@ -253,7 +277,13 @@
               "name": "Artificial Analysis",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084444728_473283",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "新智元"
+          }
         },
         {
           "title": "DeepSeek Harness 假期更新 v0.2.1：新增 Claude Code Mods 实验性兼容层",
@@ -297,7 +327,13 @@
               "name": "Anthropic",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084023376_129720",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "机器之心"
+          }
         },
         {
           "title": "TII 发布 Falcon-Emirati-7B：让 7B 模型学会阿联酋方言与文化语境",
@@ -346,7 +382,13 @@
               "name": "Hugging Face",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Hugging Face 官方博客"
+          }
         }
       ]
     },
@@ -387,7 +429,13 @@
               "name": "Naver",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4013828946546563",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪快讯"
+          }
         }
       ]
     },
@@ -438,7 +486,13 @@
               "name": "Amazon",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4013771940892808",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪快讯"
+          }
         },
         {
           "title": "微软、Meta 同步收缩 Claude 支出：预算砍超 1/3、用户腰斩",
@@ -490,7 +544,13 @@
               "name": "Copilot",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084393846_473283",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "新智元"
+          }
         },
         {
           "title": "SemiAnalysis 拆解订阅经济学：订阅是「亏本引流品」，OpenAI Pro 砍半推 500 美元档",
@@ -540,7 +600,13 @@
               "name": "ChatGPT",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/10/501726.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "量子位"
+          }
         },
         {
           "title": "71% 美国人反对本地建 AI 数据中心（36氪·2026-10-06；核电为 36氪快讯·2026-10-06）；谷歌转签 10 亿美元核电",
@@ -585,7 +651,13 @@
               "name": "Constellation",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4013845198507910",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          }
         }
       ]
     }
@@ -618,5 +690,12 @@
     "- Anthropic 官网：渲染正常但 10 条最新 news 均为 10-02 前，无窗口增量",
     "- VentureBeat：渲染正常，但窗口内仅 2 条（ServiceNow 长文/ MIT+Sakana 框架，后者为 10-05 15:00 前旧闻），未单独成条",
     "- Reddit（arctic-shift）：本期未采（DNS 拦截未再试，前场次 score 字段失效问题未解）"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": null,
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": null,
+    "matched": null
+  }
 }

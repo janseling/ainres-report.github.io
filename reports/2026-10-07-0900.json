@@ -72,7 +72,13 @@
               "name": "Blackstone",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo",
+            "raw_ref": "reports/raw/2026-10-07-0900.json#candidates[18]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Anthropic 推初创扶持：免费一年 Claude Team + $1000 credits",
@@ -112,7 +118,13 @@
               "name": "Claude Team",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits",
+            "raw_ref": "reports/raw/2026-10-07-0900.json#candidates[33]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Hark 发布主打隐私的 AI 个人助手",
@@ -154,7 +166,13 @@
               "name": "Instinct",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy",
+            "raw_ref": "reports/raw/2026-10-07-0900.json#candidates[25]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Mirror Particle 从零训「人类行为世界模型」，主打市场研究",
@@ -188,7 +206,13 @@
               "name": "TechCrunch Disrupt",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior",
+            "raw_ref": "reports/raw/2026-10-07-0900.json#candidates[28]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "前 Ramp 团队砍掉首个产品再拿 $20M，转做营销创意生成",
@@ -222,7 +246,13 @@
               "name": "Ramp",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product",
+            "raw_ref": "reports/raw/2026-10-07-0900.json#candidates[6]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         }
       ]
     },
@@ -271,7 +301,13 @@
               "name": "IAS",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+            "raw_ref": "reports/raw/2026-10-07-0900.json#candidates[4]",
+            "source_id": "theverge",
+            "source_name": "The Verge"
+          }
         },
         {
           "title": "DeepMind 开放 EmbeddingGemma 2：轻量多模态嵌入模型",
@@ -314,7 +350,13 @@
               "name": "Simon Willison",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+            "raw_ref": "reports/raw/2026-10-07-0900.json#candidates[20]",
+            "source_id": "deepmind",
+            "source_name": "Google DeepMind"
+          }
         },
         {
           "title": "Musubi 开放 PolicyLM-1.7B：实时内容审核专用决策模型",
@@ -356,7 +398,13 @@
               "name": "PolicyLM-1.7B",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation",
+            "raw_ref": "reports/raw/2026-10-07-0900.json#candidates[15]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         }
       ]
     },
@@ -403,7 +451,13 @@
               "name": "Medicare",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://simonwillison.net/2026/Oct/6/victoria-kim",
+            "raw_ref": "reports/raw/2026-10-07-0900.json#candidates[3]",
+            "source_id": "simonw",
+            "source_name": "Simon Willison"
+          }
         },
         {
           "title": "网站该不该给 agent 开门？新标准试图给「机器准入」立规矩",
@@ -451,7 +505,13 @@
               "name": "Dots",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in",
+            "raw_ref": "reports/raw/2026-10-07-0900.json#candidates[21]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Anthropic 核心研究员：AI 超越所有人类可能只剩几年",
@@ -487,7 +547,13 @@
               "name": "Sholto Douglas",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084565827_473283",
+            "raw_ref": "reports/raw/2026-10-07-0900.json#candidates[31]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          }
         },
         {
           "title": "Pinterest 把美妆 Pin 变成行动计划：内容平台开始吃交易佣金",
@@ -521,7 +587,13 @@
               "name": "AI Beauty Guides",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans",
+            "raw_ref": "reports/raw/2026-10-07-0900.json#candidates[37]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "LibreOffice 宣布「没有 AI」本身就是软件功能",
@@ -557,7 +629,13 @@
               "name": "The Document Foundation",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature",
+            "raw_ref": "reports/raw/2026-10-07-0900.json#candidates[34]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         }
       ]
     }
@@ -581,5 +659,12 @@
     "- Reddit：DOWN（全部 sub 抓取失败）",
     "- GitHub Trending：DOWN（curl 超时 25s）",
     "- 备注：OpenAI RSS 直链 403（本期 0 条在窗）；Anthropic news 窗口无新增（与 Fable 5.5 未官宣一致）。无连续 3+ 期失败源，本期无停用建议。"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-07-0900.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 44,
+    "matched": 13
+  }
 }

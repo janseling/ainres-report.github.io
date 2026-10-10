@@ -68,7 +68,13 @@
               "name": "ChatGPT",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "http://www.geekpark.net/news/372003",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "极客公园"
+          }
         },
         {
           "title": "OpenAI 谈 $30B 新融资、估值 $1.4T，或为 IPO 前最后一轮",
@@ -102,7 +108,13 @@
               "name": "Sam Altman",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "OpenAI 发布个人智能体 Dots，对标 Meta Muse",
@@ -146,7 +158,13 @@
               "name": "xAI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "DeepSeek Harness 桌面版上线：开箱即用，登录送 6 元",
@@ -180,7 +198,13 @@
               "name": "DeepSeek Harness",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.ifanr.com/1682532",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "爱范儿"
+          }
         },
         {
           "title": "Manus 2.0 发布：云电脑 + 个人助手 CUE + 成本降 32%",
@@ -214,7 +238,13 @@
               "name": "CUE",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "http://www.geekpark.net/news/371493",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "极客公园"
+          }
         },
         {
           "title": "可灵 4.0 公布：主打真实可控专业，4.0 Flash 已上线",
@@ -248,7 +278,13 @@
               "name": "快手",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.ifanr.com/1682361",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "爱范儿"
+          }
         }
       ]
     },
@@ -295,7 +331,13 @@
               "name": "GPT-6 Astra",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "IQuest-Q1：320B 参数、激活 15B 的国产 MoE 新模型",
@@ -325,7 +367,13 @@
               "name": "IQuest-Q1",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/09/499188.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "量子位"
+          }
         }
       ]
     },
@@ -372,7 +420,13 @@
               "name": "America.gov",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "The Verge"
+          }
         },
         {
           "title": "佛州申请临时禁令：未经第三方批准安全护栏，OpenAI 不得继续开发前沿模型",
@@ -408,7 +462,13 @@
               "name": "佛罗里达州",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://arstechnica.com/ai/2026/09/florida-asks-court-to-put-the-brakes-on-openais-frontier-ai-development/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Ars Technica"
+          }
         },
         {
           "title": "AI 安全倡导者依加州反黑客法起诉 OpenAI（Politico·2026-09-30 03:45，经 HN）",
@@ -449,7 +509,13 @@
               "name": "加州",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.politico.com/news/2026/09/29/advocates-sue-openai-over-hugging-face-hack-with-california-anti-hacking-law-01097532",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Politico"
+          }
         }
       ]
     },
@@ -486,7 +552,13 @@
               "name": "麦当劳",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.cnbc.com/2026/09/29/inside-mcdonalds-push-ai-price-big-mac.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "CNBC"
+          }
         },
         {
           "title": "英伟达与保险公司谈判：分担 GPU 抵押贷款风险",
@@ -522,7 +594,13 @@
               "name": "黄仁勋",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/newsflashes/4005167063715721",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪快讯"
+          }
         },
         {
           "title": "太空兔 Space Bunny Alpha 海外刷屏：涂鸦 5 分钟生成 3D 网站",
@@ -556,7 +634,13 @@
               "name": "MiniMax",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.ifanr.com/1682401",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "爱范儿"
+          }
         },
         {
           "title": "摩根士丹利看好 Shopify：智能代理购物成为共识",
@@ -590,7 +674,13 @@
               "name": "Shopify",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/newsflashes/4005156326412160",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪快讯"
+          }
         }
       ]
     }
@@ -622,5 +712,12 @@
     "- 量子位 RSS 本期恢复 200（上期 403）",
     "- VentureBeat 内容滞留 8 月，未采",
     "- 36氪 AI 频道与快讯页 render.js 正常，两条快讯详情已渲染验证"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": null,
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": null,
+    "matched": null
+  }
 }

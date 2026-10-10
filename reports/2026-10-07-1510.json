@@ -70,7 +70,13 @@
               "name": "Nano Banana 2.1",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4015347171233921",
+            "raw_ref": "reports/raw/2026-10-07-1510.json#candidates[21]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "OpenAI Decisions API 公测：判断类请求有了专用端点",
@@ -110,7 +116,13 @@
               "name": "GPT-6 Luna",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/OpenAI/comments/1wzprt3/decisions_api_is_now_available_in_public_beta",
+            "raw_ref": "reports/raw/2026-10-07-1510.json#candidates[9]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          }
         },
         {
           "title": "可灵 IPO 实质推进：投行阵容落定，最早 2027 上市",
@@ -164,7 +176,13 @@
               "name": "瑞银",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4015326443329157",
+            "raw_ref": "reports/raw/2026-10-07-1510.json#candidates[3]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "Reika：围绕小本地模型优先设计的 coding agent CLI",
@@ -196,7 +214,13 @@
               "name": "Reika",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.producthunt.com/products/reika",
+            "raw_ref": "reports/raw/2026-10-07-1510.json#candidates[178]",
+            "source_id": "producthunt",
+            "source_name": "Product Hunt"
+          }
         }
       ]
     },
@@ -247,7 +271,13 @@
               "name": "Justin Leder",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4015346980278153",
+            "raw_ref": "reports/raw/2026-10-07-1510.json#candidates[7]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "【后续】OpenAI 722 篇数学手稿：三位菲尔兹奖得主「不代表认可」",
@@ -277,7 +307,13 @@
               "name": "OpenAI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/10/501749.html",
+            "raw_ref": "reports/raw/2026-10-07-1510.json#candidates[220]",
+            "source_id": "qbitai",
+            "source_name": "量子位"
+          }
         },
         {
           "title": "三星&上交提出 RoboICL：机器人「看一遍就会」，GPT-6 Astra 操控评测全面领先",
@@ -327,7 +363,13 @@
               "name": "RoboICL",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084749170_129720",
+            "raw_ref": "reports/raw/2026-10-07-1510.json#candidates[5]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          }
         },
         {
           "title": "EMNLP 2026 现场演示：「AI 把数字说歪」",
@@ -357,7 +399,13 @@
               "name": "EMNLP",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084751827_129720",
+            "raw_ref": "reports/raw/2026-10-07-1510.json#candidates[1]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          }
         }
       ]
     },
@@ -406,7 +454,13 @@
               "name": "GLM",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4015209455456387",
+            "raw_ref": "reports/raw/2026-10-07-1510.json#candidates[190]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "ChatGPT 标题里的赌博色情小广告：两年前埋的坑 2026-10-07 暴雷",
@@ -450,7 +504,13 @@
               "name": "Codex",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4015290777981060",
+            "raw_ref": "reports/raw/2026-10-07-1510.json#candidates[20]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         }
       ]
     }
@@ -477,5 +537,12 @@
     "- VentureBeat：DOWN（渲染 0 条，Vercel 挡板，连续 2 期——逼近 3 期停用线，下期仍挂即建议停用）",
     "- GitHub Trending：DOWN（curl 超时 25s，本期首次失败，观察一档）",
     "- 备注：OpenAI RSS 直链 403 本期仍 0 条（sources.json 已配渲染兜底，下期复测）；Reddit 上期全挂本期恢复（61 条进窗）；搜狐三镜像 parse_loss 合计 11 条（多为作者页杂音）。无连续 3+ 期失败源，本期无停用建议。"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-07-1510.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 226,
+    "matched": 10
+  }
 }

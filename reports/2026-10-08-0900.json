@@ -70,7 +70,13 @@
               "name": "GPT-6",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4016442003361920",
+            "raw_ref": "reports/raw/2026-10-08-0900.json#candidates[15]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "ChatGPT 全新 IUI 智能用户界面",
@@ -114,7 +120,13 @@
               "name": "Intelligent UI",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+            "raw_ref": "reports/raw/2026-10-08-0900.json#candidates[51]",
+            "source_id": "theverge",
+            "source_name": "The Verge"
+          }
         },
         {
           "title": "Claude Haiku 5.5 发布，小模型进入一分钱时代",
@@ -156,7 +168,13 @@
               "name": "Claude Haiku",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4016451771158408",
+            "raw_ref": "reports/raw/2026-10-08-0900.json#candidates[16]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "Claude 打通谷歌办公三件套",
@@ -202,7 +220,13 @@
               "name": "Google",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084901848_473283",
+            "raw_ref": "reports/raw/2026-10-08-0900.json#candidates[39]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          }
         },
         {
           "title": "Nous Research 确认 15 亿美元估值，转做企业 agent",
@@ -236,7 +260,13 @@
               "name": "Hermes Agent",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users",
+            "raw_ref": "reports/raw/2026-10-08-0900.json#candidates[46]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "微软 Surface Laptop Ultra 事件：Nvidia 芯片 AI PC + Copilot 本地权限",
@@ -290,7 +320,13 @@
               "name": "Copilot",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
+            "raw_ref": "reports/raw/2026-10-08-0900.json#candidates[57]",
+            "source_id": "theverge",
+            "source_name": "The Verge"
+          }
         }
       ]
     },
@@ -337,7 +373,13 @@
               "name": "GPT-6 Astra",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084909947_473283",
+            "raw_ref": "reports/raw/2026-10-08-0900.json#candidates[31]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          }
         },
         {
           "title": "Mistral \"Le Chonk\"：开放权重挑战顶级闭源模型",
@@ -381,7 +423,13 @@
               "name": "Mistral Large 4",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models",
+            "raw_ref": "reports/raw/2026-10-08-0900.json#candidates[79]",
+            "source_id": "ars",
+            "source_name": "Ars Technica"
+          }
         },
         {
           "title": "LiquidAI 开源 d1 边缘决策模型（Hugging Face·2026-10-07 晚）",
@@ -424,7 +472,13 @@
               "name": "d1-omni-600M",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+            "raw_ref": "reports/raw/2026-10-08-0900.json#candidates[67]",
+            "source_id": "huggingface",
+            "source_name": "Hugging Face"
+          }
         },
         {
           "title": "Google SynthID 检测器升级并全球开放",
@@ -464,7 +518,13 @@
               "name": "OpenAI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media",
+            "raw_ref": "reports/raw/2026-10-08-0900.json#candidates[86]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         }
       ]
     },
@@ -511,7 +571,13 @@
               "name": "卫报",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.theguardian.com/business/2026/oct/07/mcdonalds-ai-prices-lawsuit",
+            "raw_ref": "reports/raw/2026-10-08-0900.json#candidates[81]",
+            "source_id": "hn",
+            "source_name": "Hacker News"
+          }
         },
         {
           "title": "ChatGPT 青少年安全实测翻车，OpenAI 称青少年日均使用不足 15 分钟",
@@ -551,7 +617,13 @@
               "name": "ChatGPT",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crisis",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Anthropic 扩大 Cyber Verification Program",
@@ -590,7 +662,13 @@
               "name": "Cyber Verification Program",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.anthropic.com/news/cyber-verification-program",
+            "raw_ref": "reports/raw/2026-10-08-0900.json#candidates[92]",
+            "source_id": "anthropic",
+            "source_name": "Anthropic"
+          }
         }
       ]
     },
@@ -639,7 +717,13 @@
               "name": "Blackstone",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4016409686183811",
+            "raw_ref": "reports/raw/2026-10-08-0900.json#candidates[23]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "DeepSeek 传半年累计融资约 1300 亿元",
@@ -673,7 +757,13 @@
               "name": "梁文锋",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4015344253210761",
+            "raw_ref": "reports/raw/2026-10-08-0900.json#candidates[21]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         }
       ]
     }
@@ -701,5 +791,12 @@
     "- reddit：DOWN（全部 sub 抓取失败，首败观察）。",
     "- openai：RSS 403，渲染兜底后 0 条（health 记 OK 但本季无产出，持续观察）。",
     "- sohu 三镜像（新智元/机器之心/甲子光年）：合计 parse_loss=11 条（解析器丢条目，机器可读性下降）。"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-08-0900.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 103,
+    "matched": 14
+  }
 }

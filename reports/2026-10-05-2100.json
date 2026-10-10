@@ -66,7 +66,13 @@
               "name": "ChatGPT",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "OpenAI 官方博客"
+          }
         },
         {
           "title": "Cohere North 2：给企业 agent 加\"预算刹车\"，harness 重设计",
@@ -89,7 +95,7 @@
               "text": "与 Simon Willison「默认硬预算上限」的呼吁同向；给任意 agent 栈加消费护栏是通用插件机会，尤其适配中大型客户私有化部署。"
             }
           ],
-          "source_tier": "B",
+          "source_tier": null,
           "type_tags": [
             "产品发布"
           ],
@@ -106,7 +112,13 @@
               "name": "North 2",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://venturebeat.com/orchestration/coheres-north-2-puts-ai-agents-on-a-budget-and-gives-them-a-memory",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "VentureBeat"
+          }
         },
         {
           "title": "机器人安全验证赛道开张：Safeworld 出 stealth，数字人替真人测机器人",
@@ -156,7 +168,13 @@
               "name": "Shine Capital",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         }
       ]
     },
@@ -211,7 +229,13 @@
               "name": "Stockfish",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084266210_473283",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "新智元"
+          }
         },
         {
           "title": "陶哲轩深夜站台：Caltech 物理拿下无强迫 3D 欧拉方程奇点候选解",
@@ -261,7 +285,13 @@
               "name": "OpenAI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084214730_473283",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "新智元"
+          }
         },
         {
           "title": "4D 世界模型进手机：MoWorld 让 Mate 90 变成\"可以走进去\"的场",
@@ -308,7 +338,13 @@
               "name": "华为",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084213821_473283",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "新智元"
+          }
         },
         {
           "title": "Microsoft ThinkingBox：agent 验收从\"动作对不对\"转向\"终态对不对\"",
@@ -352,7 +388,13 @@
               "name": "Model Context Protocol",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Hugging Face"
+          }
         },
         {
           "title": "395M 决策模型 10ms 选型：微型决策模型品类成形",
@@ -400,7 +442,13 @@
               "name": "StartLux",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wy3c0u/decisiontune_10_a_395m_encoder_that_picks_from/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "r/LocalLLaMA"
+          }
         }
       ]
     },
@@ -451,7 +499,13 @@
               "name": "OS3",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4012726523957380",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪专访"
+          }
         },
         {
           "title": "企业自建 Agent 复盘：ServiceNow Digital Worker 的痛点比路线图预设更窄",
@@ -474,7 +528,7 @@
               "text": "ITSM/CRM 这类高确定流程的 SaaS 是 agent 落地收割区，服务交付商的报价单位正从\"人天\"转向\"流程接管率\"。"
             }
           ],
-          "source_tier": "B",
+          "source_tier": null,
           "type_tags": [
             "其他（企业自建案例复盘）"
           ],
@@ -491,7 +545,13 @@
               "name": "browser-use",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://venturebeat.com/orchestration/we-built-an-ai-agent-for-servicenow-the-real-pain-points-were-narrower-than-our-roadmap-assumed",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "VentureBeat"
+          }
         },
         {
           "title": "德国电信：2030 年前 AI 与自动化省出 €25 亿间接成本",
@@ -523,7 +583,13 @@
               "name": "Deutsche Telekom",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4012625330917504",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪快讯"
+          }
         }
       ]
     }
@@ -552,5 +618,12 @@
     "- 智东西：首页顶流稿日期 10-03，无 24h 内增量",
     "- arXiv cs.AI：无大厂 research release 级命中",
     "- 其余（量子位/极客公园/爱范儿/少数派/TechCrunch/Ars/Verge/SimonW/OpenAI/DeepMind/NVIDIA/HF/PH/36氪/Reddit/arctic-shift）：抓取正常；量子位/极客公园新增多为已报跟进或文化向（如「AI 为什么总在画美女」），未入选"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": null,
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": null,
+    "matched": null
+  }
 }

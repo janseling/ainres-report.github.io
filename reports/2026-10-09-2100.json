@@ -70,7 +70,13 @@
               "name": "字节跳动",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/10/502426.html",
+            "raw_ref": "reports/raw/2026-10-09-2100.json#candidates[66]",
+            "source_id": "qbitai",
+            "source_name": "量子位"
+          }
         },
         {
           "title": "豆包上线「生活缴费」：对话助手往超级 App 又进一步",
@@ -110,7 +116,13 @@
               "name": "字节跳动",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4018166706656898",
+            "raw_ref": "reports/raw/2026-10-09-2100.json#candidates[57]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "黄仁勋投的 GPU 租赁商 Lambda：积压订单两月 $150亿→$500亿，拟融资 40 亿美元、2027 冲刺上市",
@@ -156,7 +168,13 @@
               "name": "Anthropic",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4018419157028994",
+            "raw_ref": "reports/raw/2026-10-09-2100.json#candidates[20]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         }
       ]
     },
@@ -201,7 +219,13 @@
               "name": "Claude",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4018280754614148",
+            "raw_ref": "reports/raw/2026-10-09-2100.json#candidates[77]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "字节 Seed 找到 DeepSeek「时强时弱」的原因：前缀 token 站位决定对错",
@@ -239,7 +263,13 @@
               "name": "DeepSeek-V4",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/10/502364.html",
+            "raw_ref": "reports/raw/2026-10-09-2100.json#candidates[85]",
+            "source_id": "qbitai",
+            "source_name": "量子位"
+          }
         }
       ]
     },
@@ -286,7 +316,13 @@
               "name": "Anthropic",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4018538702508165",
+            "raw_ref": "reports/raw/2026-10-09-2100.json#candidates[44]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "马斯克获美国国家科学奖章：黄仁勋、苏姿丰、布林、纳德拉、戴尔同台",
@@ -330,7 +366,13 @@
               "name": "Google",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4018549901430916",
+            "raw_ref": "reports/raw/2026-10-09-2100.json#candidates[8]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         }
       ]
     },
@@ -379,7 +421,13 @@
               "name": "METR",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4018471021629317",
+            "raw_ref": "reports/raw/2026-10-09-2100.json#candidates[42]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "1400 元一个月的 AI 会员开始「杀熟」：SemiAnalysis 实测 GPT-6.1 Sol 套餐有效额度仅为同额 Claude（Opus 5.5）约五分之一",
@@ -425,7 +473,13 @@
               "name": "Anthropic",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4018446405637760",
+            "raw_ref": "reports/raw/2026-10-09-2100.json#candidates[19]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "OpenAI ARR「大幅低于预期」的预期本身被复盘：700 亿美元口径是 400 亿×1.7 拍出来的",
@@ -461,7 +515,13 @@
               "name": "GPT-6",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4018498568605574",
+            "raw_ref": "reports/raw/2026-10-09-2100.json#candidates[12]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "Claude Haiku 5.5 杀入低价战场：输入 $0.1/M 对标 GPT-6 Luna，国产小模型性价比承压",
@@ -507,7 +567,13 @@
               "name": "GPT-6",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4018365926281350",
+            "raw_ref": "reports/raw/2026-10-09-2100.json#candidates[31]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "澳洲「AI 算力工厂」Firmus 撤回 IPO：目标估值 306 亿美元、募资 55 亿美元认购不足",
@@ -543,7 +609,13 @@
               "name": "NVIDIA",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4018427772639104",
+            "raw_ref": "reports/raw/2026-10-09-2100.json#candidates[34]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "机器人日租金从万元跳水到千元以下：宇树机起步价 289 元/天",
@@ -585,7 +657,13 @@
               "name": "智元",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4018562330218629",
+            "raw_ref": "reports/raw/2026-10-09-2100.json#candidates[7]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         }
       ]
     }
@@ -594,5 +672,12 @@
   "sourceStatus": [
     "- VentureBeat：DOWN，连续 14 期失败（Vercel 检查页拦截+render 未恢复）——连续 3+ 期，建议停用，同业源补位。",
     "- GitHub Trending：DOWN（curl 超时 25s，本期待观察；若下期再挂建议并入停用清单）。"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-09-2100.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 92,
+    "matched": 13
+  }
 }

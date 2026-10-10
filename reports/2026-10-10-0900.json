@@ -65,7 +65,13 @@
               "name": "Jev",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4019333008840320",
+            "raw_ref": "reports/raw/2026-10-10-0900.json#candidates[3]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "Nano Banana 2.1 发布：4K 直出，中文渲染进步明显",
@@ -99,7 +105,13 @@
               "name": "Google",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4019225862672262",
+            "raw_ref": "reports/raw/2026-10-10-0900.json#candidates[17]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "OpenAI dots 全面登陆手机：开口指挥 Codex 干活",
@@ -143,7 +155,13 @@
               "name": "dots",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4019234701480070",
+            "raw_ref": "reports/raw/2026-10-10-0900.json#candidates[16]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         }
       ]
     },
@@ -187,7 +205,13 @@
               "name": "Anthropic",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead",
+            "raw_ref": "reports/raw/2026-10-10-0900.json#candidates[6]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "非文本 AI 模型 Jev 上线数周估值 $7.5B",
@@ -227,7 +251,13 @@
               "name": "Jev",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch",
+            "raw_ref": "reports/raw/2026-10-10-0900.json#candidates[26]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Anthropic 一桩 agent 误报凶杀案，潜伏 2 个月才被发现",
@@ -269,7 +299,13 @@
               "name": "Philadelphia 警方",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police",
+            "raw_ref": "reports/raw/2026-10-10-0900.json#candidates[30]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "西湖机器人 WR1 全球首次用灵巧手自主叠衣",
@@ -309,7 +345,13 @@
               "name": "WR1",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1085626425_129720",
+            "raw_ref": "reports/raw/2026-10-10-0900.json#candidates[43]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          }
         }
       ]
     },
@@ -363,7 +405,13 @@
               "name": "Elon Musk",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4018115010809730",
+            "raw_ref": "reports/raw/2026-10-10-0900.json#candidates[55]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "AI 巨头密集上新教育产品，抢占下一轮增长",
@@ -399,7 +447,13 @@
               "name": "AI 巨头",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4018679906340742",
+            "raw_ref": "reports/raw/2026-10-10-0900.json#candidates[14]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "千万美元起步，闷声赚钱的 AI 产品盘点",
@@ -435,7 +489,13 @@
               "name": "Reface",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4018683563348099",
+            "raw_ref": "reports/raw/2026-10-10-0900.json#candidates[13]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "OpenAI 带头「扫货」：全球 195 起 AI 并购，最大一笔 110 亿",
@@ -471,7 +531,13 @@
               "name": "OpenAI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4018587694420103",
+            "raw_ref": "reports/raw/2026-10-10-0900.json#candidates[48]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "AI 时代的黑客攻击：矛变强了，盾还没跟上",
@@ -511,7 +577,13 @@
               "name": "无特定实体）",
               "type": null
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4019282794811267",
+            "raw_ref": "reports/raw/2026-10-10-0900.json#candidates[1]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         }
       ]
     }
@@ -520,5 +592,12 @@
   "sourceStatus": [
     "- VentureBeat：DOWN，连续 15 期失败（Vercel 检查页拦截，render 未恢复）——连续失败 3+ 期，建议停用该源，改由同业源补位。",
     "- gh-trending：2026-10-09 21:00 场 curl 超时（25s，偶发）；本 09:00 场已恢复。"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-10-0900.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 68,
+    "matched": 12
+  }
 }

@@ -66,7 +66,13 @@
               "name": "Grok",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.producthunt.com/products/codync",
+            "raw_ref": "reports/raw/2026-10-02-1500.json#candidates[14]",
+            "source_id": "producthunt",
+            "source_name": "Product Hunt"
+          }
         }
       ]
     },
@@ -116,7 +122,13 @@
               "name": "MiniMax M3.1-Flash",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.ifanr.com/1682850",
+            "raw_ref": "reports/raw/2026-10-02-1500.json#candidates[7]",
+            "source_id": "ifanr",
+            "source_name": "爱范儿"
+          }
         },
         {
           "title": "ServiceNow 开源 AutoSynthData：自动生成企业 agent 训练数据",
@@ -153,7 +165,13 @@
               "name": "Hugging Face",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+            "raw_ref": "reports/raw/2026-10-02-1500.json#candidates[24]",
+            "source_id": "huggingface",
+            "source_name": "Hugging Face"
+          }
         },
         {
           "title": "社区实证：Jev 式「决策输出」不需要训练，vLLM/llama.cpp 的 grammar 约束就能零样本复现",
@@ -191,7 +209,13 @@
               "name": "llama.cpp",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvjqy8/guys_openai_api_on_vllm_and_llamacpp_already",
+            "raw_ref": "reports/raw/2026-10-02-1500.json#candidates[26]",
+            "source_id": "reddit",
+            "source_name": "Reddit(r/LocalLLaMA)"
+          }
         }
       ]
     },
@@ -234,7 +258,13 @@
               "name": "Cornell University",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/10/499958.html",
+            "raw_ref": "reports/raw/2026-10-02-1500.json#candidates[0]",
+            "source_id": "qbitai",
+            "source_name": "量子位"
+          }
         }
       ]
     },
@@ -285,7 +315,13 @@
               "name": "GPT-6.1 Sol",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/OpenAI/comments/1wviyta/open_ai_cant_stop_winning",
+            "raw_ref": "reports/raw/2026-10-02-1500.json#candidates[31]",
+            "source_id": "reddit",
+            "source_name": "Reddit(r/OpenAI)"
+          }
         },
         {
           "title": "BC-250 矿板集群跑大模型更新：6 板集群、100k 上下文 28 t/s",
@@ -319,7 +355,13 @@
               "name": "通义千问",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wviphh/update_on_the_monstrosity_6_bc250_board_cluster",
+            "raw_ref": "reports/raw/2026-10-02-1500.json#candidates[38]",
+            "source_id": "reddit",
+            "source_name": "Reddit(r/LocalLLaMA)"
+          }
         },
         {
           "title": "Linux 内核二号人物 Kernel Recipes 演讲：LLM 时代的内核安全核查实录",
@@ -359,7 +401,13 @@
               "name": "Linux Kernel",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+            "raw_ref": "reports/raw/2026-10-02-1500.json#candidates[36]",
+            "source_id": "hn",
+            "source_name": "Hacker News"
+          }
         }
       ]
     }
@@ -368,5 +416,12 @@
   "sourceStatus": [
     "- 快照源 OK（10-03 21:08~21:27 现场存档）：TechCrunch/量子位/极客公园/爱范儿/Ars/HN/Simon Willison/Product Hunt/NVIDIA/OpenAI RSS（快照 1245 条全量）/Hugging Face/DeepMind/智东西/GitHub Trending；本期窗口内有效候选 68 条",
     "- 当时不可恢复：搜狐三镜像（新智元/机器之心 Pro/甲子光年）快照 0 字节、arXiv feed 当日 0 条（周末 skipDays）、Simon Willison/DeepMind/NVIDIA 快照不覆盖本期窗口、36kr/Anthropic/VentureBeat 未做渲染抓取（补刊禁用渲染器）；OpenAI/Reddit/HN Algolia 走在线恢复数据齐备"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-02-1500.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 68,
+    "matched": 8
+  }
 }

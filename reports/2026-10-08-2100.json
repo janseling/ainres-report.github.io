@@ -74,7 +74,13 @@
               "name": "IDG资本",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4016873172144008",
+            "raw_ref": "reports/raw/2026-10-08-2100.json#candidates[107]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "Anthropic S-1 口径落定：目标估值超 2 万亿美元、最快 11 月挂牌",
@@ -110,7 +116,13 @@
               "name": "Claude",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4016833701942912",
+            "raw_ref": "reports/raw/2026-10-08-2100.json#candidates[75]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "微软×英伟达发 Surface Laptop Ultra：128GB 统一内存本地跑 120B+ 模型，Windows 转向 Agent 调度平台",
@@ -160,7 +172,13 @@
               "name": "RTX Spark",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.ifanr.com/1683177",
+            "raw_ref": "reports/raw/2026-10-08-2100.json#candidates[95]",
+            "source_id": "ifanr",
+            "source_name": "爱范儿"
+          }
         },
         {
           "title": "生数科技 Vidu Q4 Preview 开放：「演技型」视频生成，秒价低至 $0.014",
@@ -202,7 +220,13 @@
               "name": "Vidu",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.ifanr.com/1683089",
+            "raw_ref": "reports/raw/2026-10-08-2100.json#candidates[84]",
+            "source_id": "ifanr",
+            "source_name": "爱范儿"
+          }
         },
         {
           "title": "NVIDIA 参投的 AI 制药公司 Iambic 冲刺纳斯达克：拟融资至多 1.594 亿美元",
@@ -238,7 +262,13 @@
               "name": "NVIDIA",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4017212219608967",
+            "raw_ref": "reports/raw/2026-10-08-2100.json#candidates[17]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "老虎环球持 OpenAI 股份浮盈或达 50 亿美元；OpenAI 新一轮谈判 $300 亿、估值 $1.4 万亿",
@@ -274,7 +304,13 @@
               "name": "OpenAI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4017154374488198",
+            "raw_ref": "reports/raw/2026-10-08-2100.json#candidates[28]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         }
       ]
     },
@@ -321,7 +357,13 @@
               "name": "GitHub",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://github.com/openai/math/blob/main/history.md",
+            "raw_ref": "reports/raw/2026-10-08-2100.json#candidates[98]",
+            "source_id": "hn",
+            "source_name": "Hacker News"
+          }
         },
         {
           "title": "PaperBenchX 基准：GPT-6 Astra 在 93 个真实论文复现任务上完整复现率仅 13.98%",
@@ -359,7 +401,13 @@
               "name": "OpenAI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/10/501995.html",
+            "raw_ref": "reports/raw/2026-10-08-2100.json#candidates[79]",
+            "source_id": "qbitai",
+            "source_name": "量子位"
+          }
         },
         {
           "title": "世界模型「物理规律理解」大考：当前最高仅 57 分",
@@ -389,7 +437,13 @@
               "name": "Einsia AI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1085131986_129720",
+            "raw_ref": "reports/raw/2026-10-08-2100.json#candidates[104]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          }
         }
       ]
     },
@@ -440,7 +494,13 @@
               "name": "Anthropic",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0n4pt/last_week_some_of_south_koreas_biggest_banks_were",
+            "raw_ref": "reports/raw/2026-10-08-2100.json#candidates[69]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          }
         },
         {
           "title": "开发者用 Opus 5.5+Rust「净室重写」Adobe 七件套：开源 ArtCraft 已 2.1k★",
@@ -480,7 +540,13 @@
               "name": "Claude",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1085211188_129720",
+            "raw_ref": "reports/raw/2026-10-08-2100.json#candidates[64]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          }
         }
       ]
     }
@@ -489,5 +555,12 @@
   "sourceStatus": [
     "- venturebeat：DOWN（连续 6 期，Vercel 挡板，渲染 0 条）——已达「连续失败 3+ 期建议停用」线，建议下期起移除或专项校验",
     "- gh-trending：DOWN（curl 出口超时 25s，cd1）——GitHub 网络问题，观察下期"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-08-2100.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 116,
+    "matched": 11
+  }
 }

@@ -60,7 +60,13 @@
               "name": "李飞飞",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Claude Sonnet 5.5 发布，接管免费档",
@@ -94,7 +100,13 @@
               "name": "Claude Sonnet",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Simon Willison"
+          }
         },
         {
           "title": "推理基建 Modal 接近完成 $7.5 亿融资、估值 $157.5 亿",
@@ -124,7 +136,13 @@
               "name": "Modal",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Agent 安全公司 Reco 融资 $5500 万",
@@ -154,7 +172,13 @@
               "name": "Reco",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "OpenAI 宣布明天重新开放 $200 Pro 订阅",
@@ -193,7 +217,13 @@
               "name": "Tibo Sottiaux",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://twitter.com/thsottiaux/status/2104823812042940713",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Twitter/OpenAI Codex 负责人 Sottiaux"
+          }
         }
       ]
     },
@@ -240,7 +270,13 @@
               "name": "Saachi Jain",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://arstechnica.com/ai/2026/09/openai-says-planned-gpt-6-1-is-too-insecure-to-release/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Ars Technica"
+          }
         },
         {
           "title": "研究：AI 公司把用户对话数据泄露给广告商",
@@ -276,7 +312,13 @@
               "name": "主要 AI 公司",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "HN 319 分"
+          }
         }
       ]
     },
@@ -320,7 +362,13 @@
               "name": "澳洲政府",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "专家担忧 Nvidia 对华芯片销售扩大与黄仁勋对白宫的影响力",
@@ -358,7 +406,13 @@
               "name": "白宫",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Ars Technica"
+          }
         },
         {
           "title": "Mistral CEO：美国 AI 安全辩论掩盖的是同行的“疏忽”",
@@ -396,7 +450,13 @@
               "name": "Anthropic",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "CNBC"
+          }
         }
       ]
     },
@@ -437,7 +497,13 @@
               "name": "Muse",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "The Verge"
+          }
         },
         {
           "title": "Shopify 向浏览器 AI agent 开放结账",
@@ -471,7 +537,13 @@
               "name": "WebMCP",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Google 砍掉 Gemini 的 Gems，转向统一 \"skills\"",
@@ -509,7 +581,13 @@
               "name": "Gems",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         }
       ]
     }
@@ -539,5 +617,12 @@
     "- VentureBeat AI feed：内容长期停留 8 月下旬/5 月，无时效价值，本期未采用",
     "- 36kr AI 频道：被 JS 安全检测拦截",
     "- web_search 无时效过滤：中文搜索两次仅返回 7-8 月旧文，本期国内无首手新条目（Nvidia 中国条目为替代视角）；Reddit r/LocalLLaMA 本期无高热度模型发布帖"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": null,
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": null,
+    "matched": null
+  }
 }

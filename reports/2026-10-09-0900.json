@@ -70,7 +70,13 @@
               "name": "Gemini Agent",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses",
+            "raw_ref": "reports/raw/2026-10-09-0900.json#candidates[88]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "评测生意被验证：LMArena 母公司 Arena 融资 $200M，估值 10 个月近翻倍至 $31 亿",
@@ -118,7 +124,13 @@
               "name": "Khosla",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months",
+            "raw_ref": "reports/raw/2026-10-09-0900.json#candidates[85]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "谷歌推端侧会议笔记 AI Edge Foresight：全程离线、本地 Gemma",
@@ -154,7 +166,13 @@
               "name": "Gemma",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor",
+            "raw_ref": "reports/raw/2026-10-09-0900.json#candidates[149]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Natura 发布 $99 智能戒指 Interface：指上一按唤起你的 AI 代理",
@@ -196,7 +214,13 @@
               "name": "Interface",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger",
+            "raw_ref": "reports/raw/2026-10-09-0900.json#candidates[115]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         }
       ]
     },
@@ -247,7 +271,13 @@
               "name": "Tibo Sottiaux",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4017808771829639",
+            "raw_ref": "reports/raw/2026-10-09-0900.json#candidates[35]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "撤稿之后：OpenAI 数学方案被曝偏离顾问组审查准则，「不达标」批评继续发酵",
@@ -283,7 +313,13 @@
               "name": "OpenAI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet",
+            "raw_ref": "reports/raw/2026-10-09-0900.json#candidates[90]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "李飞飞斯坦福团队开源 OpenWAM：可组合世界动作模型框架",
@@ -323,7 +359,13 @@
               "name": "李飞飞",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4017194751840389",
+            "raw_ref": "reports/raw/2026-10-09-0900.json#candidates[41]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "Goodfire 上线「inside-out」探针监控：在模型内部抓 rogue agent，成本远低于外挂 AI judge",
@@ -362,7 +404,13 @@
               "name": "Goodfire",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost",
+            "raw_ref": "reports/raw/2026-10-09-0900.json#candidates[116]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         }
       ]
     },
@@ -405,7 +453,13 @@
               "name": "Claude",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference",
+            "raw_ref": "reports/raw/2026-10-09-0900.json#candidates[89]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "USA Today 母公司起诉 OpenAI：最新一家参战的出版巨头，索赔超 $2.5 亿",
@@ -441,7 +495,13 @@
               "name": "USA Today",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reuters.com/legal/legalindustry/usa-today-sues-openai-copyright-infringement-over-ai-training-2026-10-08",
+            "raw_ref": "reports/raw/2026-10-09-0900.json#candidates[96]",
+            "source_id": "hn",
+            "source_name": "Hacker News"
+          }
         },
         {
           "title": "Anthropic 组建「总统参与」团队：面向 2028 两党候选人做 AI 政策教育",
@@ -471,7 +531,13 @@
               "name": "Anthropic",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4017925846814596",
+            "raw_ref": "reports/raw/2026-10-09-0900.json#candidates[0]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         }
       ]
     },
@@ -522,7 +588,13 @@
               "name": "CoreWeave",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected",
+            "raw_ref": "reports/raw/2026-10-09-0900.json#candidates[86]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "超 30 亿美元涌入「物理 AI」制药：物理仿真正接管理论的 AI4S 天花板叙事",
@@ -552,7 +624,13 @@
               "name": "NVIDIA",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4017887613538182",
+            "raw_ref": "reports/raw/2026-10-09-0900.json#candidates[10]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "具身智能 935 亿元融资背后：高管批量撤退，「近千家最终或只剩 10-20 家」",
@@ -582,7 +660,13 @@
               "name": "宇树科技",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4017905608151174",
+            "raw_ref": "reports/raw/2026-10-09-0900.json#candidates[11]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         }
       ]
     }
@@ -593,5 +677,12 @@
     "- GitHub Trending：DOWN（连续第 2 期，拉取超时，观察）",
     "- 观察项：OpenAI RSS 持续 HTTP 403、本期 0 条（渲染兜底未产出增量），连续多期 0 增量",
     "- 搜狐三镜像本期 parse_loss 合计 11 条（有损但可用，镜像延迟 3~17h 口径不变）"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-09-0900.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 160,
+    "matched": 14
+  }
 }

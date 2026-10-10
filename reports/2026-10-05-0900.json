@@ -77,7 +77,13 @@
               "name": "Diogo Almeida",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/10/500148.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "量子位"
+          }
         },
         {
           "title": "谷歌 Antigravity 大砍免费层：免费 Gemini 只剩 Flash-Lite，Claude 5.5 全量进 Pro/Ultra 订阅",
@@ -125,7 +131,13 @@
               "name": "Anthropic",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1083943543_473283",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "新智元"
+          }
         },
         {
           "title": "Meta 开源 Muse Gadgets：ESP32 固件 + Linux SDK，让创客给 agent 造硬件",
@@ -170,7 +182,13 @@
               "name": "Muse",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1083741069_129720",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "机器之心"
+          }
         },
         {
           "title": "Meshy 不怕通用模型吃掉：AI 3D 生成 ARR 从 $100 万到 $1 亿，用时不到两年",
@@ -210,7 +228,13 @@
               "name": "GPT-6 Astra",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/10/501451.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "量子位"
+          }
         },
         {
           "title": "DeepSeek 假期双响：Harness 新版对照 Claude Code Mods，DSec 沙盒基建公开 + 弹性计算扩招",
@@ -256,7 +280,13 @@
               "name": "DSec",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084023376_129720",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "机器之心"
+          }
         }
       ]
     },
@@ -311,7 +341,13 @@
               "name": "ARC-AGI-3",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1083891176_473283",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "新智元"
+          }
         },
         {
           "title": "Fable 5.5 首测神作刷屏：3 分钟「人类万年史」100% 由 Claude 5.5 代码实时渲染",
@@ -349,7 +385,13 @@
               "name": "Fable 5.5",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1083943970_473283",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "新智元"
+          }
         },
         {
           "title": "GPT-6 家族行为侧写：Astra 星际争霸「作弊」坐实，Sol Codex 29 万字系统提示词泄露",
@@ -389,7 +431,13 @@
               "name": "GPT-6 Sol",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "The Verge"
+          }
         }
       ]
     },
@@ -440,7 +488,13 @@
               "name": "白宫",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "AI 提交淹没漏洞赏金：Google 冻结开源 OSS 漏洞奖励计划至明年",
@@ -476,7 +530,13 @@
               "name": "OSS VRP",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         }
       ]
     },
@@ -533,7 +593,13 @@
               "name": "SpaceXSI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "OpenAI 安全线崩坏实录：安全报告主笔 Robinson 辞职称「culture is broken」",
@@ -578,7 +644,13 @@
               "name": "The Atlantic",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Terafab：马斯克的 1TW 算力工程浮出，一期 $168 亿、Intel 14A 确认、台积电后端谈判中",
@@ -626,7 +698,13 @@
               "name": "台积电",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/10/501605.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "量子位"
+          }
         },
         {
           "title": "FDE 成最火 AI 岗位：海外年薪中位 $20 万，Anthropic $1 亿训 1 万人、AWS $10 亿组建部门",
@@ -678,7 +756,13 @@
               "name": "零一万物",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/10/501506.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "量子位"
+          }
         },
         {
           "title": "GitHub Trending 刷满 agent 工具链：ponytail 日增 1894★、claude-mem、Agent-Reach、impeccable 爆火",
@@ -718,7 +802,13 @@
               "name": "Agent-Reach",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://github.com/DietrichGebert/ponytail",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "GitHub Trending"
+          }
         }
       ]
     }
@@ -749,5 +839,12 @@
     "- VentureBeat：render.js 可通但页面解析未出文章链接，登记异常待复核（此前 09/30 平反记录疑似失效）",
     "- 36氪 AI 频道/快讯渲染正常：原创稿（杀猪盘 AI 化、Karpathy 航空规范、阿里 90 后、「视频图灵测试」）未入正文，已留 raw；HF 博客走 7890 代理正常；RSS 批量（量子位/极客公园/爱范儿/TechCrunch/Verge/PH/sspai）正常；arXiv cs.AI 周日无更新（skipDays 正常机制）",
     "- 机器之心 Pro 同步延迟：最新稿2026-10-04 23:47（工作时段同步，符合既有规律）"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": null,
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": null,
+    "matched": null
+  }
 }

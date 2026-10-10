@@ -66,7 +66,13 @@
               "name": "Sean Parker",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+            "raw_ref": "reports/raw/2026-10-03-0900.json#candidates[31]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Ai2 开源 AstaBrief：Asta 产品线里的「快报生成」模型，附训练配方",
@@ -113,7 +119,13 @@
               "name": "Hugging Face",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://huggingface.co/blog/allenai/astabrief",
+            "raw_ref": "reports/raw/2026-10-03-0900.json#candidates[130]",
+            "source_id": "huggingface",
+            "source_name": "Hugging Face"
+          }
         }
       ]
     },
@@ -153,7 +165,13 @@
               "name": "GPT-6",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://openai.com/index/practical-guide-building-gpt-6",
+            "raw_ref": "reports/raw/2026-10-03-0900.json#candidates[113]",
+            "source_id": "openai",
+            "source_name": "OpenAI"
+          }
         },
         {
           "title": "Redis 之父 antirez 放出 ds4：DeepSeek V4.1/Qwen/GLM 本地推理工具",
@@ -194,7 +212,13 @@
               "name": "Salvatore Sanfilippo",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://dwarfstar.sh",
+            "raw_ref": "reports/raw/2026-10-03-0900.json#candidates[80]",
+            "source_id": "hn",
+            "source_name": "Hacker News"
+          }
         }
       ]
     },
@@ -251,7 +275,13 @@
               "name": "Meta AI",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+            "raw_ref": "reports/raw/2026-10-03-0900.json#candidates[76]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "司法部逮捕 Earthmade CEO：涉嫌 $3 亿英伟达芯片服务器走私进中国",
@@ -291,7 +321,13 @@
               "name": "司法部",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
+            "raw_ref": "reports/raw/2026-10-03-0900.json#candidates[72]",
+            "source_id": "ars",
+            "source_name": "Ars Technica"
+          }
         },
         {
           "title": "Amazon $10 亿「数据中心社区计划」平反遭弹，反噬更大",
@@ -325,7 +361,13 @@
               "name": "AWS",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash",
+            "raw_ref": "reports/raw/2026-10-03-0900.json#candidates[42]",
+            "source_id": "ars",
+            "source_name": "Ars Technica"
+          }
         }
       ]
     },
@@ -370,7 +412,13 @@
               "name": "Meta AI",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+            "raw_ref": "reports/raw/2026-10-03-0900.json#candidates[82]",
+            "source_id": "theverge",
+            "source_name": "The Verge"
+          }
         },
         {
           "title": "Mozilla 正式关停 Solo AI 建站产品，11-30 停服",
@@ -406,7 +454,13 @@
               "name": "Solo",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://support.soloist.ai/doc/solo-shutdown-faq",
+            "raw_ref": "reports/raw/2026-10-03-0900.json#candidates[129]",
+            "source_id": "hn",
+            "source_name": "Hacker News"
+          }
         },
         {
           "title": "教皇 Leo XIV 明态：AI 生成艺术与艺术存在「本体论差异」",
@@ -440,7 +494,13 @@
               "name": "梵蒂冈",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
+            "raw_ref": "reports/raw/2026-10-03-0900.json#candidates[123]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
         }
       ]
     }
@@ -463,5 +523,12 @@
     "- 管线当时处于故障期，候选池 = 10-03 21:08~21:27 现场快照 + 在线恢复：TechCrunch/The Verge/量子位/极客公园/爱范儿/Ars/HN/Product Hunt/NVIDIA/HF/DeepMind/智东西/GitHub Trending 快照 OK",
     "- 当时不可恢复：搜狐五副本（新智元/机器之心 Pro/甲子光年，快照+直抓）均 0 字节，国内源本档窗口近乎零增量；arXiv 周末 feed 空（FALLBACK）；OpenAI 官网快照止于 10-03 00:15",
     "- 池内 The Register（Oracle 数据中心）原页被人机验证墙拦截，未核实不单列；本候选池 185 条"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-03-0900.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 185,
+    "matched": 10
+  }
 }

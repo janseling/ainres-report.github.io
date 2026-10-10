@@ -68,7 +68,13 @@
               "name": "宁德时代",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.zhidx.com/p/598870.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "智东西"
+          }
         }
       ]
     },
@@ -104,7 +110,7 @@
               "text": "1T/49B 激活规模与 DeepSeek 头部开源量级相当；基准数字目前只有官方口径，等月底权重放出后看社区与 AA 盲评的独立复现再定论。"
             }
           ],
-          "source_tier": "B",
+          "source_tier": null,
           "type_tags": [
             "产品发布"
           ],
@@ -127,7 +133,13 @@
               "name": "NVIDIA",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://venturebeat.com/ai/mistral-debuts-large-4-le-chonk-a-1-trillion-parameter-text-output-model-with-high-benchmarks-planned-for-open-weights-release",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "VentureBeat"
+          }
         },
         {
           "title": "xAI 联创 Szegedy 长文宣判：数学「英雄时代」落幕",
@@ -181,7 +193,13 @@
               "name": "Anthropic",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4013928129122184",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪AI"
+          }
         }
       ]
     },
@@ -232,7 +250,13 @@
               "name": "Anthropic",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/10/501736.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "量子位"
+          }
         },
         {
           "title": "agent 经济长出「度量衡」：Chargebee 发布 agent 成本追踪开放标准 AUDR；iphone-use 让 agent 驱动真实 iPhone",
@@ -277,7 +301,13 @@
               "name": "iphone-use",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.producthunt.com/products/chargebee",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Product Hunt"
+          }
         },
         {
           "title": "GitHub Trending 双星：agent 逆向工程工具 rea 单日 +2963★、e2e 测试框架 +1720★",
@@ -322,7 +352,13 @@
               "name": "e2e",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://github.com/morluto/rea",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "GitHub Trending"
+          }
         },
         {
           "title": "AMD CEO：未来数年芯片需求将「非常高」；希捷、东芝据悉竞购 TDK 硬盘磁头业务",
@@ -365,7 +401,13 @@
               "name": "TDK",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4013970409164928",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪快讯"
+          }
         },
         {
           "title": "软银支持的 DayOne 数据中心拟赴美 IPO，募资至多 50 亿美元",
@@ -399,7 +441,13 @@
               "name": "软银",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4014060799955080",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪快讯"
+          }
         }
       ]
     }
@@ -433,5 +481,12 @@
     "- 36氪 AI 频道+快讯：渲染正常；晚间有快讯撤稿（OpenAI 澳洲事件条目页已 404），未采",
     "- Anthropic 官网：渲染正常，最新 news 仍为 10-02 前，无窗口增量",
     "- 量子位/极客公园/爱范儿/少数派/TechCrunch/Ars/OpenAI/DeepMind/NVIDIA/HF/GitHub/Product Hunt：正常；NVIDIA 无窗口内增量（最新 10-05 21:00 医疗 AI 应用稿，判弱未收）"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": null,
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": null,
+    "matched": null
+  }
 }

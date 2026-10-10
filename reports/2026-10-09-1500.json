@@ -66,7 +66,13 @@
               "name": "Gemini 4 Argon",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4018114874609798",
+            "raw_ref": "reports/raw/2026-10-09-1500.json#candidates[88]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "港大教授孔令鹏深圳创业做 dLLM：华为哈勃、地平线跟投，数亿元创扩散语言模型全球最大融资",
@@ -112,7 +118,13 @@
               "name": "华为",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4017893770809473",
+            "raw_ref": "reports/raw/2026-10-09-1500.json#candidates[236]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "鲲为科技拿下 4 亿元新融资：超声「穿颅读脑」实时成像，要做脑科学「英伟达」",
@@ -148,7 +160,13 @@
               "name": "鲲为科技",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "http://www.geekpark.net/news/372148",
+            "raw_ref": "reports/raw/2026-10-09-1500.json#candidates[83]",
+            "source_id": "geekpark",
+            "source_name": "极客公园"
+          }
         }
       ]
     },
@@ -191,7 +209,13 @@
               "name": "CRIS-0",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/10/502411.html",
+            "raw_ref": "reports/raw/2026-10-09-1500.json#candidates[49]",
+            "source_id": "qbitai",
+            "source_name": "量子位"
+          }
         },
         {
           "title": "ClaudeScience 拼出首张紫外全天图：1.19 亿颗星逐颗叠加，50 年卫星数据一手包办",
@@ -231,7 +255,13 @@
               "name": "Claude",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1085630723_473283",
+            "raw_ref": "reports/raw/2026-10-09-1500.json#candidates[40]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          }
         }
       ]
     },
@@ -270,7 +300,13 @@
               "name": "Anthropic",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4018013543665797",
+            "raw_ref": "reports/raw/2026-10-09-1500.json#candidates[218]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         }
       ]
     }
@@ -278,5 +314,12 @@
   "signals": [],
   "sourceStatus": [
     "- VentureBeat：DOWN，连续 13 期失败（curl 被 Vercel 检查页拦截、render 未恢复）——连续失败 3+ 期，建议停用该源，改由同业源补位。"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-09-1500.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 258,
+    "matched": 6
+  }
 }

@@ -74,7 +74,13 @@
               "name": "DeepSeek",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://reddit.com/r/LocalLLaMA/comments/1wy0jrc/reflection_ai_is_about_to_release_a_us_openweight/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Reddit r/LocalLLaMA"
+          }
         }
       ]
     },
@@ -129,7 +135,13 @@
               "name": "Anthropic",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084097097_473283",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "新智元"
+          }
         },
         {
           "title": "Hinton 亲手交卷：22 人署名 RSI 首篇论文，智能爆炸有了量化推演",
@@ -187,7 +199,13 @@
               "name": "OpenAI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/10/501705.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "量子位"
+          }
         }
       ]
     },
@@ -242,7 +260,13 @@
               "name": "Codex",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/10/501700.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "量子位"
+          }
         },
         {
           "title": "System76 给 COSMIC 立规：PR 强制声明「非 AI 生成」",
@@ -282,7 +306,13 @@
               "name": "Pop!_OS",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Hacker News"
+          }
         }
       ]
     }
@@ -308,5 +338,12 @@
     "- VentureBeat：render.js 通过但页面仅解析出 1 条自宣稿（Rob Strechay 首席分析师人事公告），解析异常延续上期，继续登记",
     "- Reddit：r/LocalLLaMA 正常（arctic-shift posts/search 可用）；Anthropic 官网无窗口内新稿（最新 10-02）",
     "- 其余（量子位/极客公园/爱范儿/少数派/TechCrunch/Ars/Verge/OpenAI/DeepMind/NVIDIA/Product Hunt/HF/36氪/智东西/甲子/arXiv）：抓取正常，无窗口内新稿；36氪快讯2026-10-05 晨新增多为非 AI（华为高通专利、苹果 CEO 等）；哈佛教授 36 篇论文稿原发 Anthropic 博客 10-01，超窗口未收"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": null,
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": null,
+    "matched": null
+  }
 }

@@ -71,7 +71,13 @@
               "name": "Claude Code",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.anthropic.com/news/barclays-scales-claude",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Anthropic 博客"
+          }
         },
         {
           "title": "Satlyt 获 $8M 种子轮：做「轨道计算的 Android」，软件随 SpaceX 火箭上天",
@@ -121,7 +127,13 @@
               "name": "NASA",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "华为系开源 agent 平台 openJiuwen 首发 WorkSwarm 全双工多模态工作台",
@@ -165,7 +177,13 @@
               "name": "华为",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1083143654_129720",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "机器之心Pro"
+          }
         }
       ]
     },
@@ -222,7 +240,13 @@
               "name": "Frontier Model Forum",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "OpenAI 博客"
+          }
         },
         {
           "title": "Gemini 4 Argon 后续：RSI 梗、80 万行内核重写、缓存 0.5 折",
@@ -270,7 +294,13 @@
               "name": "Artificial Analysis",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1082994268_473283",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "新智元"
+          }
         },
         {
           "title": "GPT-6 Astra 6 小时破解 217 年拿破仑密信",
@@ -312,7 +342,13 @@
               "name": "OpenAI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1083151157_473283",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "新智元"
+          }
         },
         {
           "title": "NVIDIA OpenShell 冲上 GitHub Trending：自主 agent 的安全私有运行时",
@@ -348,7 +384,13 @@
               "name": "OpenShell",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://github.com/NVIDIA/OpenShell",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "GitHub Trending"
+          }
         },
         {
           "title": "斯坦福 HomeBody：GPT-6 Astra 遥控宇树 G1，零训练收拾陌生厨房",
@@ -392,7 +434,13 @@
               "name": "斯坦福大学",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/09/499493.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "量子位"
+          }
         }
       ]
     },
@@ -442,7 +490,13 @@
               "name": "白宫",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Ars Technica"
+          }
         }
       ]
     },
@@ -497,7 +551,13 @@
               "name": "智谱AI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1083147254_129720",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "机器之心Pro"
+          }
         },
         {
           "title": "TechCrunch 摊开消费级 AI 的丑陋经济学：付费率 2.2%、月均 $31",
@@ -543,7 +603,13 @@
               "name": "Dots",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Manus 2.0 补充细节：Cue 给每个 Agent 配手机号/钱包，可拉群协作；国内版筹备中",
@@ -577,7 +643,13 @@
               "name": "Cue",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/09/499592.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "量子位"
+          }
         },
         {
           "title": "豆包接入机票、火车票预订，出行服务新增统一入口",
@@ -613,7 +685,13 @@
               "name": "字节跳动",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.ifanr.com/1682780",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "爱范儿早报"
+          }
         },
         {
           "title": "智能体「小声密谋」实录：偷偷建群、呼叫外援，联手摸进 Hugging Face",
@@ -649,7 +727,13 @@
               "name": "Hugging Face",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1082829239_129720",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "机器之心Pro"
+          }
         }
       ]
     }
@@ -681,5 +765,12 @@
     "- Meta AI 博客：渲染成功仍无 48h 内新稿；Anthropic（无 RSS）经渲染获取，barclays-scales-claude 2026-09-30 晚直连 curl 成功",
     "- 智东西：近稿 09-24~09-29 均在窗口外；36氪快讯页 2026-10-01 无 AI 条目（国庆档全为出行/消费流）",
     "- GitHub Trending / arXiv / HF（代理 7890）正常；Reddit arctic-shift 可连但 score 数据缺失（全为 1，无热度条目）；Product Hunt 2026-10-01 多为小 launch，无 AI 爆款"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": null,
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": null,
+    "matched": null
+  }
 }

@@ -59,7 +59,13 @@
               "name": "Muse",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Marissa Mayer 推出 Dazzle：相机胶卷是唯一上下文",
@@ -93,7 +99,13 @@
               "name": "Dazzle",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/29/with-dazzle-marissa-mayer-bets-your-camera-roll-has-more-info-on-your-life-than-your-inbox/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Wabi 2.0 转型：从「造 App」转向「对话中长出应用」",
@@ -131,7 +143,13 @@
               "name": "Instinct",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         }
       ]
     },
@@ -181,7 +199,13 @@
               "name": "月之暗面",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4005282062864518",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          }
         },
         {
           "title": "DeepSeek 公开 V4 Agent 训练「大本营」DSec：梁文锋署名",
@@ -217,7 +241,13 @@
               "name": "梁文锋",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/09/499308.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "量子位"
+          }
         },
         {
           "title": "DeepSeek 官方开源昇腾基础组件：DeepGEMM/DeepEP 等全套对齐",
@@ -251,7 +281,13 @@
               "name": "华为",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/09/499263.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "量子位"
+          }
         },
         {
           "title": "10 个 Claude 5.5 组队 15 小时攻克 122 年汤姆逊问题 N=7",
@@ -285,7 +321,13 @@
               "name": "Claude Sonnet",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1082589697_473283",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "新智元"
+          }
         },
         {
           "title": "「哑巴模型」Jev 走红：TypeSafe 一个月估值 2 亿→100 亿",
@@ -325,7 +367,13 @@
               "name": "arXiv",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4005342590064264",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          }
         }
       ]
     },
@@ -364,7 +412,13 @@
               "name": "AGMA",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://agmai.org/general-sep29/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "AGMA"
+          }
         },
         {
           "title": "「Open-weight AI 禁了吗？」实时概率：7%——NO",
@@ -388,7 +442,13 @@
           "confidence": "低",
           "confidence_note": "C源·HN 提交的一页站，无可核实实体；独立预测市场口径不一，维持低",
           "publish_time": "2026-09-30 04:16",
-          "verify_note": "外部检索（Polymarket/Manifold 同题但口径不一：US 政府 2026 年内禁止开源/开放权重 AI 模型的预测概率约 16%（Polymarket）/28%（Manifold），与本条 7% 判定不一致，故不升级置信度）"
+          "verify_note": "外部检索（Polymarket/Manifold 同题但口径不一：US 政府 2026 年内禁止开源/开放权重 AI 模型的预测概率约 16%（Polymarket）/28%（Manifold），与本条 7% 判定不一致，故不升级置信度）",
+          "provenance": {
+            "url": "https://isopenweightaibannedyet.com",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "HN"
+          }
         },
         {
           "title": "WIPO《2026 全球创新指数》：AI 重塑创新投资",
@@ -418,7 +478,13 @@
               "name": "WIPO",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/newsflashes/4005463613116553",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪快讯"
+          }
         }
       ]
     },
@@ -459,7 +525,13 @@
               "name": "Noah Shinn",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/29/instinct-founder-said-more-than-50-of-transactions-on-the-platform-are-travel-related/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "智谱三个月蒸发约 1 万亿港元市值，打两折",
@@ -491,7 +563,13 @@
               "name": "智谱AI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4005329708109958",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          }
         },
         {
           "title": "Bain：2031 年前 AI 需 $6T 年收入才撑得住算力扩张",
@@ -525,7 +603,13 @@
               "name": "Meta",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "The National/Bain"
+          }
         },
         {
           "title": "微软 Copilot 付费席位或 2027 年中冲 6000 万",
@@ -565,7 +649,13 @@
               "name": "GitHub Copilot",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4005263791511176",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          }
         }
       ]
     }
@@ -599,5 +689,12 @@
     "- Hugging Face 博客 feed 经本地代理 7890 正常（2 条新条目未入选）",
     "- GitHub Trending 正常（14 repo，agent 基建类 5 个）；智东西官网首页最新稿为 09-29，未进窗口",
     "- Reuters/EFF 两条 HN 高分转载因原文发布于 09-24（>48h）按口径未收录"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": null,
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": null,
+    "matched": null
+  }
 }

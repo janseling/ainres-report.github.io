@@ -63,7 +63,13 @@
               "name": "Codex",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/OpenAI/comments/1wtzjt0/free_credits",
+            "raw_ref": "reports/raw/2026-09-30-2100.json#candidates[68]",
+            "source_id": "reddit-0930",
+            "source_name": "Reddit(09-30 窗口定向)"
+          }
         }
       ]
     },
@@ -118,7 +124,13 @@
               "name": "GPT-6 Astra",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence",
+            "raw_ref": "reports/raw/2026-09-30-2100.json#candidates[48]",
+            "source_id": "hn-algolia",
+            "source_name": "Hacker News(Algolia)"
+          }
         },
         {
           "title": "智源 BAAI 开源 AREX-2：27B 测试时自改进 agent 模型",
@@ -157,7 +169,13 @@
               "name": "通义千问",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://huggingface.co/BAAI/AREX-2",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Reddit r/LocalLLaMA"
+          }
         },
         {
           "title": "llama.cpp 合入 GLM-5.3-Flash（Reddit r/LocalLLaMA·09-30 17:22，205 分）支持：320B 混合架构进本地推理栈",
@@ -202,7 +220,13 @@
               "name": "智谱AI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wu0bdf/add_glm53flash_glm5next_support_by_timkhronos",
+            "raw_ref": "reports/raw/2026-09-30-2100.json#candidates[58]",
+            "source_id": "reddit-0930",
+            "source_name": "Reddit(09-30 窗口定向)"
+          }
         },
         {
           "title": "Oído：$5 MCU 级开源语音识别，WER 优于 Whisper-tiny",
@@ -241,7 +265,13 @@
               "name": "NVIDIA",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wu2jjy/oído_speech_recognition_that_beats_whispertiny",
+            "raw_ref": "reports/raw/2026-09-30-2100.json#candidates[22]",
+            "source_id": "reddit-0930",
+            "source_name": "Reddit(09-30 窗口定向)"
+          }
         }
       ]
     },
@@ -308,7 +338,13 @@
               "name": "NVIDIA",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.upi.com/Top_News/US/2026/09/30/Trump-tech-executives-AI-accord/9521790748592",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "UPI"
+          }
         }
       ]
     },
@@ -349,7 +385,13 @@
               "name": "America's SBDC",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+            "raw_ref": "reports/raw/2026-09-30-2100.json#candidates[47]",
+            "source_id": "openai",
+            "source_name": "OpenAI"
+          }
         }
       ]
     }
@@ -373,5 +415,12 @@
     "- arXiv feed：快照解析 0 条——FALLBACK（本期 AREX-2 论文经 arXiv API 单条核实补位）",
     "- OpenAI 官网现采路径：短响应 DOWN——OpenAI 条目改用 work/ 快照 feed+原链核实",
     "- 未收录核查记录：智东西 5 条（开原链核实日期在 09-02~09-23 或无日期标注，超窗）、Product Hunt「Gemini 4 Argon」（页面 403，日期未核实）、r/OpenAI 传「DeepSeek 改用昇腾 950 训练」（检索证实为 09-21/22 旧闻回声）"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-09-30-2100.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 104,
+    "matched": 5
+  }
 }

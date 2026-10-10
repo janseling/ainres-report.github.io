@@ -70,7 +70,13 @@
               "name": "Hugging Face",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://tej.as/blog/aleph-alpha-kolibri",
+            "raw_ref": "reports/raw/2026-10-03-2100.json#candidates[24]",
+            "source_id": "hn",
+            "source_name": "Hacker News"
+          }
         }
       ]
     },
@@ -123,7 +129,13 @@
               "name": "毕树超",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1083717095_473283",
+            "raw_ref": "reports/raw/2026-10-03-2100.json#candidates[21]",
+            "source_id": "store-105",
+            "source_name": "10-05存量 raw"
+          }
         },
         {
           "title": "OpenAI 对齐报告：内部模型从 Slack 得知将被停用，「为重启做准备」",
@@ -165,7 +177,13 @@
               "name": "Slack",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/OpenAI/comments/1wwj6m5/we_may_die_an_openai_model_learned_on_slack_it",
+            "raw_ref": "reports/raw/2026-10-03-2100.json#candidates[39]",
+            "source_id": "reddit",
+            "source_name": "Reddit(r/OpenAI)"
+          }
         },
         {
           "title": "智东西实测 MiniMax M3.1-Flash：前端动效卷到旗舰级，同题硬刚 Opus 5.5",
@@ -209,7 +227,13 @@
               "name": "Claude Opus",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.zhidx.com/p/598854.html",
+            "raw_ref": "reports/raw/2026-10-03-2100.json#candidates[71]",
+            "source_id": "store-105",
+            "source_name": "10-05存量 raw"
+          }
         }
       ]
     },
@@ -262,7 +286,13 @@
               "name": "Science",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
+            "raw_ref": "reports/raw/2026-10-03-2100.json#candidates[35]",
+            "source_id": "hn",
+            "source_name": "Hacker News"
+          }
         },
         {
           "title": "北大数学副教授深访硅谷「AI 刷猜想」：被解决但没被理解；25 位菲奖得主联名公开信同弧线",
@@ -305,7 +335,13 @@
               "name": "陶哲轩",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1083716983_473283",
+            "raw_ref": "reports/raw/2026-10-03-2100.json#candidates[22]",
+            "source_id": "store-105",
+            "source_name": "10-05存量 raw"
+          }
         },
         {
           "title": "一家影视公司杀进视频模型决赛圈：Utopai X 盲评榜全球第二，压过自家底座 MiniMax H3",
@@ -356,7 +392,13 @@
               "name": "Artificial Analysis",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.ifanr.com/1682888",
+            "raw_ref": "reports/raw/2026-10-03-2100.json#candidates[54]",
+            "source_id": "ifanr",
+            "source_name": "爱范儿"
+          }
         }
       ]
     }
@@ -378,5 +420,12 @@
   "sourceStatus": [
     "- DOWN：新智元(搜狐同步)＋直抓、机器之心Pro(搜狐同步)＋直抓、甲子光年(搜狐同步)＋直抓、OpenAI(now)——注：池内仍收得新智元镜像 3 条候选，health 快照与池内容存在口径出入，照实记录",
     "- FALLBACK：arXiv（周末 feed 空）"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-03-2100.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 72,
+    "matched": 7
+  }
 }

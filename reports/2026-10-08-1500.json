@@ -70,7 +70,13 @@
               "name": "Claude Academy",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4016354742669443",
+            "raw_ref": "reports/raw/2026-10-08-1500.json#candidates[44]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "AI 眼镜初创天使轮融数亿元，线下渠道月发售数千台",
@@ -94,7 +100,13 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪硬氪首发+爱集微",
           "publish_time": "2026-10-08 11:03",
-          "verify_note": "外部检索（爱集微/集微网 同报：比特幻境（NIMO）数亿元人民币天使轮、估值 15 亿元，投资方含博华资本/戈壁创投/元禾璞华/尚势资本）"
+          "verify_note": "外部检索（爱集微/集微网 同报：比特幻境（NIMO）数亿元人民币天使轮、估值 15 亿元，投资方含博华资本/戈壁创投/元禾璞华/尚势资本）",
+          "provenance": {
+            "url": "https://36kr.com/p/4016645063217281",
+            "raw_ref": "reports/raw/2026-10-08-1500.json#candidates[196]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "三家「语音优先」教育 AI 公司接连融资，让 AI「开口教学」",
@@ -118,7 +130,13 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪稿+PRNewswire/Dealroom",
           "publish_time": "2026-10-08 13:24",
-          "verify_note": "外部检索（PR Newswire 9-16 同报 Aristotle 获 True Ventures/Wicklow 等 $5M 种子轮；Dealroom/eu.vc 9-21 前后同报 Eevi 获 Rockstart 领投 pre-seed）"
+          "verify_note": "外部检索（PR Newswire 9-16 同报 Aristotle 获 True Ventures/Wicklow 等 $5M 种子轮；Dealroom/eu.vc 9-21 前后同报 Eevi 获 Rockstart 领投 pre-seed）",
+          "provenance": {
+            "url": "https://36kr.com/p/4016516874326153",
+            "raw_ref": "reports/raw/2026-10-08-1500.json#candidates[38]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "Meta 撑腰的 Biohub 扩容 AI 制药数据基建至 18 亿美元",
@@ -152,7 +170,13 @@
               "name": "Biohub",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4016700178043017",
+            "raw_ref": "reports/raw/2026-10-08-1500.json#candidates[53]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         }
       ]
     },
@@ -195,7 +219,13 @@
               "name": "CrocSwap",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://github.com/CrocSwap/integer-mult-bounds",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Reddit/GitHub"
+          }
         },
         {
           "title": "arXiv 批评论文：Lean 验证的 AI 自动形式化不保证自然语言证明正确",
@@ -234,7 +264,13 @@
               "name": "arXiv",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://arxiv.org/abs/2610.08144",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "arXiv"
+          }
         },
         {
           "title": "南洋理工安波团队发布 Agent Harness 选型研究：4 种 Harness × 5 模型 × 3 任务 66 项矩阵",
@@ -276,7 +312,13 @@
               "name": "Claude Code",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1084790655_129720",
+            "raw_ref": "reports/raw/2026-10-08-1500.json#candidates[217]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          }
         }
       ]
     },
@@ -319,7 +361,13 @@
               "name": "HBM",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4016855155707778",
+            "raw_ref": "reports/raw/2026-10-08-1500.json#candidates[1]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "ICANN Reveal Day：OpenAI 一口气申请 15 个顶级域名",
@@ -355,7 +403,13 @@
               "name": "ICANN",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/OpenAI/comments/1x0e9bs/openai_applied_for_15_new_toplevel_domains",
+            "raw_ref": "reports/raw/2026-10-08-1500.json#candidates[225]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          }
         },
         {
           "title": "AHM 声明呼吁数学家停与 OpenAI 合作，陶哲轩博客转发",
@@ -393,7 +447,13 @@
               "name": "AHM",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://terrytao.wordpress.com/2026/10/07/ahm-statement-on-openais-october-6-release-of-mathematical-documents/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Reddit→Terry Tao 博客"
+          }
         },
         {
           "title": "「95% 的人不愿为 AI 付费，1% 超级玩家养活 AI 圈」",
@@ -417,7 +477,13 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪观点稿+钛媒体/数位时代",
           "publish_time": "2026-10-08 13:07",
-          "verify_note": "外部检索（钛媒体/数位时代/PANews 同报 a16z 第七版 Top100 榜引 YipitData 消费数据：美国 AI 付费率仅 4.5%，头部 1% 付费者月均约 $903）"
+          "verify_note": "外部检索（钛媒体/数位时代/PANews 同报 a16z 第七版 Top100 榜引 YipitData 消费数据：美国 AI 付费率仅 4.5%，头部 1% 付费者月均约 $903）",
+          "provenance": {
+            "url": "https://36kr.com/p/4016354339393673",
+            "raw_ref": "reports/raw/2026-10-08-1500.json#candidates[45]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "具身智能界的「美团」能跑通吗？智元系数据众包生意被起底",
@@ -447,7 +513,13 @@
               "name": "智元",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4016534563884935",
+            "raw_ref": "reports/raw/2026-10-08-1500.json#candidates[208]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         },
         {
           "title": "机器人第一次以「消费品」身份进入官方国庆消费数据",
@@ -471,7 +543,13 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪评论稿+商务部数据多源",
           "publish_time": "2026-10-08 13:22",
-          "verify_note": "外部检索（商务部商务大数据 10-07 公布：10-01~06 重点平台具身智能机器人销售额同比 +1.3 倍；阿尔法工场/港股研究社/人民网同报）"
+          "verify_note": "外部检索（商务部商务大数据 10-07 公布：10-01~06 重点平台具身智能机器人销售额同比 +1.3 倍；阿尔法工场/港股研究社/人民网同报）",
+          "provenance": {
+            "url": "https://36kr.com/p/4016485468458881",
+            "raw_ref": "reports/raw/2026-10-08-1500.json#candidates[39]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         }
       ]
     }
@@ -499,5 +577,12 @@
     "- gh-trending：DOWN（curl 25s 超时，首败，下期观察）。",
     "- openai：RSS 403 连续第 2 期，渲染兜底后本窗仍 0 条——再空一期建议换镜像。",
     "- hn：主 RSS 502，Algolia 兜底生效（本窗 0 条）。"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-08-1500.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 234,
+    "matched": 10
+  }
 }

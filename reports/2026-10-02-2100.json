@@ -64,7 +64,13 @@
               "name": "DGX Spark",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+            "raw_ref": "reports/raw/2026-10-02-2100.json#candidates[0]",
+            "source_id": "store-105",
+            "source_name": "10-05存量 raw"
+          }
         }
       ]
     },
@@ -117,7 +123,13 @@
               "name": "Claude",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/10/499991.html",
+            "raw_ref": "reports/raw/2026-10-02-2100.json#candidates[53]",
+            "source_id": "qbitai",
+            "source_name": "量子位"
+          }
         },
         {
           "title": "openJiuwen 开源 X-Router 自演进模型路由：实测降 50%+ Token 消耗",
@@ -158,7 +170,13 @@
               "name": "X-Router",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/10/500098.html",
+            "raw_ref": "reports/raw/2026-10-02-2100.json#candidates[52]",
+            "source_id": "qbitai",
+            "source_name": "量子位"
+          }
         },
         {
           "title": "Google Project Suncatcher 原型卫星入轨：太空 TPU 试验起步",
@@ -196,7 +214,13 @@
               "name": "TPU",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
+            "raw_ref": "reports/raw/2026-10-02-2100.json#candidates[18]",
+            "source_id": "hn-algolia",
+            "source_name": "Hacker News(Algolia)"
+          }
         }
       ]
     },
@@ -247,7 +271,13 @@
               "name": "Dario Amodei",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1083441424_473283",
+            "raw_ref": "reports/raw/2026-10-02-2100.json#candidates[61]",
+            "source_id": "store-105",
+            "source_name": "10-05存量 raw"
+          }
         },
         {
           "title": "NYT 披露 Anthropic 秘密游说梵蒂冈，「Claude 有意识」走向公开辩论",
@@ -291,7 +321,13 @@
               "name": "Chris Olah",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1083440697_473283",
+            "raw_ref": "reports/raw/2026-10-02-2100.json#candidates[62]",
+            "source_id": "store-105",
+            "source_name": "10-05存量 raw"
+          }
         },
         {
           "title": "社区两连横评：GPT-6 Astra 与 Opus 5.5 谁上生产管线——48 小时实测 + Photo-to-Blender 基准",
@@ -329,7 +365,13 @@
               "name": "Claude Opus 5.5",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/OpenAI/comments/1wvsmix/gpt6_astra_vs_opus_55_ran_both_on_our_actual",
+            "raw_ref": "reports/raw/2026-10-02-2100.json#candidates[4]",
+            "source_id": "reddit",
+            "source_name": "Reddit(r/OpenAI)"
+          }
         }
       ]
     }
@@ -338,5 +380,12 @@
   "sourceStatus": [
     "- 快照源 OK（10-03 21:08~21:27 现场存档）：TechCrunch/量子位/极客公园/爱范儿/Ars/HN/Simon Willison/Product Hunt/NVIDIA/OpenAI/HF/DeepMind/智东西/GitHub Trending；本期窗口内有效候选 70 条",
     "- 当时不可恢复：搜狐三镜像快照 0 字节（新智元 10-02 傍晚两条经存量 raw 保留）；arXiv 周末 0 条；Simon Willison/DeepMind/Verge 快照不覆盖本期窗口；36kr/Anthropic/VB 未做渲染抓取；HN Algolia/Reddit/NVIDIA 在线恢复齐备"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-02-2100.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 70,
+    "matched": 7
+  }
 }

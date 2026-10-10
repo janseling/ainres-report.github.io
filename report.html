@@ -113,6 +113,12 @@ section{margin-top:34px}
 .chip.e3{color:var(--lav)}
 .i-extra{margin-top:7px;font-family:var(--mono);font-size:11px;color:var(--dim)}
 .i-extra.ok{color:var(--green)}
+.i-extra a{color:var(--amber2);border-bottom:1px dotted var(--amber2)}
+details.prov{margin-top:8px;font-family:var(--mono);font-size:10.5px;color:var(--dim)}
+details.prov summary{cursor:pointer;letter-spacing:.05em;user-select:none}
+details.prov summary:hover{color:var(--amber)}
+details.prov .prov-body{margin-top:5px;display:flex;flex-direction:column;gap:2px;line-height:1.7}
+details.prov .prov-body span{overflow-wrap:anywhere}
 
 
 /* ==== overview (速览) ==== */
@@ -167,6 +173,7 @@ section{margin-top:34px}
 <script>
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const mdLinks = s => esc(s).replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_m,t,u)=>`<a href="${u}" target="_blank" rel="noopener">${t}</a>`);
+const linkify = s => esc(s).replace(/https?:\/\/[^\s，。；、）)<>"]+/g, u => `<a href="${u}" target="_blank" rel="noopener">${u}</a>`);
 const SEC_META = {
   product:{icon:'📦', zh:'产品发布 / 融资'}, tech:{icon:'🔬', zh:'技术突破 / 模型进展'},
   policy:{icon:'🏛️', zh:'政策监管'}, industry:{icon:'🌐', zh:'行业动向 / 应用玩法'},
@@ -248,13 +255,18 @@ function render(rep, rs, idx, ctx){
       (it.entities||[]).forEach(e=>v3chips.push(`<span class="chip e3">${esc(e.name)}${e.type?` <i>${esc(e.type)}</i>`:''}</span>`));
       const v3html = v3chips.length?`<div class="i-v3">${v3chips.join('')}</div>`:'';
       const origHtml = it.original_title?`<div class="i-extra">原题：${esc(it.original_title)}</div>`:'';
-      const verHtml = it.verify_note?`<div class="i-extra ok">✓ 外部佐证：${esc(it.verify_note)}</div>`:'';
+      const provBits = [];
+      const pv = it.provenance || {};
+      if (pv.raw_ref || pv.source_id) provBits.push(`<span>溯源 ${esc(pv.raw_ref || '—')}${pv.source_name?` · 源 ${esc(pv.source_name)}`:''}</span>`);
+      if (it.snapshot) provBits.push(`<span>原文快照 ✓ ${esc(it.snapshot.file)} · sha256 ${(it.snapshot.sha256||'').slice(0,8)}</span>`);
+      const provHtml = provBits.length?`<details class="prov"><summary>证据链 ▾</summary><div class="prov-body">${provBits.join('')}</div></details>`:'';
+      const verHtml = it.verify_note?`<div class="i-extra ok">✓ 外部佐证：${linkify(it.verify_note)}</div>`:'';
 
       return `<article class="item" style="--i:${ii}">
         <div class="i-head"><span class="i-no">${String(ii+1).padStart(2,'0')}</span>
           <h3 class="i-title">${main?`<a href="${esc(main)}" target="_blank" rel="noopener">${esc(it.title)}</a><span class="ext">↗</span>`:esc(it.title)}</h3></div>
         ${it.meta?`<div class="i-meta"><span class="src">${esc(it.meta)}</span></div>`:''}
-        ${v3html}${origHtml}${verHtml}
+        ${v3html}${origHtml}${verHtml}${provHtml}
         ${it.summary?`<p class="i-summary">${mdLinks(it.summary)}</p>`:''}
         ${(it.urls||[]).length>1?`<div class="i-urls"><span class="tag"></span>${extraUrls}</div>`:''}
         ${angles?`<div class="angles">${angles}</div>`:''}
@@ -286,7 +298,7 @@ function render(rep, rs, idx, ctx){
   ${(rep.overview||[]).length?`<section id="sec-overview"><div class="sec-h"><span class="no">🔭</span><h2>速览</h2><span class="n">${rep.overview.length} 条</span></div><div class="ovlist">${ovHtml}</div></section>`:''}
   ${(rep.signals||[]).length?`<section id="sec-signals"><div class="sec-h"><span class="no">🧭</span><h2>值得跟踪的信号</h2><span class="n">${rep.signals.length} 条</span></div><div class="signals">${sigHtml}</div></section>`:''}
   ${secsHtml || '<div class="msg">本期无条目</div>'}
-  ${rep.rawStats && rep.rawStats.candidates?`<div class="rawline">▸ raw archive: reports/raw/${esc(rep.id)}.json（候选 ${rep.rawStats.candidates.toLocaleString()}${rep.rawStats.selected?'／入选 '+rep.rawStats.selected:''}）</div>`:''}
+  ${rep.rawStats && rep.rawStats.candidates?`<div class="rawline">▸ raw archive: reports/raw/${esc(rep.id)}.json（候选 ${rep.rawStats.candidates.toLocaleString()}${rep.rawStats.selected?'／入选 '+rep.rawStats.selected:''}）${rep.provenance_meta&&rep.provenance_meta.evidence_file?` · 证据链 ${esc(rep.provenance_meta.evidence_file)}`:''}${rep.provenance_meta&&rep.provenance_meta.snapshot_dir?` · 快照 ${esc(rep.provenance_meta.snapshot_dir)}`:''}</div>`:''}
   <nav class="pager">
     ${older?`<a href="${repUrl(esc(older.id))}">‹ ${esc(older.date.slice(5))} ${esc(older.time)}</a>`:'<a disabled>‹ 已是早期</a>'}
     <a href="./" style="border:none">☰ 归档</a>

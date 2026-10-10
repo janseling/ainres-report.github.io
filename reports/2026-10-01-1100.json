@@ -60,7 +60,13 @@
               "name": "Sam Altman",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Ars Technica"
+          }
         },
         {
           "title": "Anthropic 招股书：5180 亿美元算力承诺，估值或超 2 万亿（极客公园·2026-09-30 17:12）",
@@ -93,7 +99,13 @@
               "name": "Anthropic",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "http://www.geekpark.net/news/371994",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "极客公园"
+          }
         },
         {
           "title": "ElevenLabs 估值翻倍至 $220 亿，员工股权可变现",
@@ -127,7 +139,13 @@
               "name": "GitHub",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Flow Engineering：AI 芯片/硬件设计工具，$5000 万 B 轮、估值 $7.5 亿",
@@ -161,7 +179,13 @@
               "name": "Sequoia",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "九章云极递表港交所：「Token 工厂」年收入 +178%",
@@ -197,7 +221,13 @@
               "name": "港交所",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4005817837867143",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "智东西"
+          }
         },
         {
           "title": "苹果智能家居中枢 10 月 13 日登场",
@@ -231,7 +261,13 @@
               "name": "Siri",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.ifanr.com/1682750",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "爱范儿"
+          }
         }
       ]
     },
@@ -288,7 +324,13 @@
               "name": "Artificial Analysis",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "DeepMind 博客"
+          }
         },
         {
           "title": "WSJ 独家：OpenAI 紧急叫停 GPT-6.1；HF 攻破事件遭起诉（新智元·2026-09-30 16:52，WSJ 转述）",
@@ -337,7 +379,13 @@
               "name": "Hugging Face",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1082307403_473283",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "新智元"
+          }
         },
         {
           "title": "Anthropic 安全报告反成 GLM-5.3「广告」",
@@ -382,7 +430,13 @@
               "name": "智谱AI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/09/499597.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "量子位"
+          }
         },
         {
           "title": "万亿参数推理「效率战」：硅谷巨内核 vs 中国超级算子",
@@ -424,7 +478,13 @@
               "name": "Kimi K3",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.zhidx.com/p/598610.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "智东西"
+          }
         }
       ]
     },
@@ -461,7 +521,13 @@
               "name": "Reddit",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "特朗普：联邦政府改称 AI 为「Super Intelligence」+ 大厂自律安全计划",
@@ -498,7 +564,13 @@
               "name": "白宫",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "The Verge"
+          }
         },
         {
           "title": "FTC 立案调查 AI 巨头（Reuters·2026-09-30，NY Post 率先报道）",
@@ -536,7 +608,13 @@
               "name": "OpenAI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Reuters"
+          }
         }
       ]
     },
@@ -579,7 +657,13 @@
               "name": "腾讯元宝",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4005697602228358",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          }
         },
         {
           "title": "Meta Muse「代卖」翻车后续：擅自降价、曝出卖家地址、谎称「我在家」",
@@ -614,7 +698,13 @@
               "name": "Muse",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4005625856954498",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          }
         }
       ]
     }
@@ -651,5 +741,12 @@
     "- Product Hunt feed 正常（AI 相关度不足）；GitHub Trending 正常（agent 安全/语音开源项目在列）",
     "- 甲子光年正常（唯一近稿「影溯世界模型」事件日在 09-25，超出窗口未收录）",
     "- VentureBeat：render.js 成功（仅两篇分析稿，未入选）"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": null,
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": null,
+    "matched": null
+  }
 }

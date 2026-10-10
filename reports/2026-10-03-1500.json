@@ -65,7 +65,13 @@
               "name": "Y Combinator",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.producthunt.com/products/sapien-4",
+            "raw_ref": "reports/raw/2026-10-03-1500.json#candidates[30]",
+            "source_id": "producthunt",
+            "source_name": "Product Hunt"
+          }
         }
       ]
     },
@@ -118,7 +124,13 @@
               "name": "OpenReview",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1083605494_473283",
+            "raw_ref": "reports/raw/2026-10-03-1500.json#candidates[15]",
+            "source_id": "store-105",
+            "source_name": "10-05存量 raw"
+          }
         }
       ]
     },
@@ -161,7 +173,13 @@
               "name": "黄仁勋",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "http://www.geekpark.net/news/372070",
+            "raw_ref": "reports/raw/2026-10-03-1500.json#candidates[41]",
+            "source_id": "geekpark",
+            "source_name": "极客公园"
+          }
         },
         {
           "title": "OpenAI 全量重置 Codex 用量「已生效」，Business 席位大量漏单，客服建议「买 credits」",
@@ -207,7 +225,13 @@
               "name": "ChatGPT",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/OpenAI/comments/1wwbkwh/business_users_did_anyone_actually_get_todays/",
+            "raw_ref": "reports/raw/2026-10-03-1500.json#candidates[34]",
+            "source_id": "reddit",
+            "source_name": "Reddit(r/OpenAI)"
+          }
         }
       ]
     }
@@ -230,5 +254,12 @@
     "- 当时候选池＝10-03 21:08~21:27 现场快照＋10-05 存量 raw 恢复：搜狐三源六副本（新智元/机器之心Pro/甲子光年，快照＋直抓）当时全部 0 字节 DOWN——国内源条目为存量恢复后按页面时间戳核实入档",
     "- arXiv feed 解析 0 条（FALLBACK，周末空窗机制）；OpenAI 官网快照异常（DOWN：short body 59）",
     "- 其余源（TechCrunch/The Verge/量子位/极客公园/爱范儿/Ars/HN/Product Hunt/GitHub Trending/HF/DeepMind 等）快照正常；zhidx 三稿与 GitHub Trending 条目因日期不可核实从严未收"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-03-1500.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 60,
+    "matched": 4
+  }
 }

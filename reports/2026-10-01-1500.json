@@ -58,7 +58,13 @@
               "name": "Apple",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Airbnb 秋季更新：拒绝聊天框，AI 搜索做成一个开关",
@@ -92,7 +98,13 @@
               "name": "Brian Chesky",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "Robinhood 发布 Agents：睡觉时替你盯盘炒股，离线也能循环执行策略",
@@ -126,7 +138,13 @@
               "name": "Robinhood Agents",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4005634721992580",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          }
         },
         {
           "title": "Restate 获 $20M A 轮：给 agent 工作流装「断点续跑」",
@@ -168,7 +186,13 @@
               "name": "Singular",
               "type": "机构"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "ChatGPT 文档「自己更新」，Space/Pages 开放、协作 PPT 数周内上（新智元·2026-10-01 09:10，搜狐官方号同步）",
@@ -202,7 +226,13 @@
               "name": "ChatGPT",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1082994276_473283",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "新智元"
+          }
         }
       ]
     },
@@ -249,7 +279,13 @@
               "name": "GPT-6 Luna",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          }
         },
         {
           "title": "SynthID Bio：给 AI 设计的蛋白质打「物理水印」",
@@ -283,7 +319,13 @@
               "name": "SynthID Bio",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "DeepMind 博客"
+          }
         },
         {
           "title": "Noam Brown 播客：1 万 Agent 并行、1300 亿 token 思考≈人类全职 4000 年",
@@ -319,7 +361,13 @@
               "name": "Noam Brown",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/09/499654.html",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "量子位"
+          }
         },
         {
           "title": "Astra 通关 neal.fun「我不是机器人」28 项极限测试",
@@ -353,7 +401,13 @@
               "name": "OpenAI",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1083092811_473283",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "新智元"
+          }
         }
       ]
     },
@@ -394,7 +448,13 @@
               "name": "Gemini",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://arstechnica.com/google/2026/09/google-is-paying-100-websites-for-contributions-to-ai-overviews-but-the-pilot-is-struggling/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Ars"
+          }
         }
       ]
     },
@@ -445,7 +505,13 @@
               "name": "灵御智能",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4005634581155970",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          }
         },
         {
           "title": "美团、字节投的盈合机器人破产：累计融资超 6 亿烧光",
@@ -485,7 +551,13 @@
               "name": "字节跳动",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4005436924612484",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          }
         },
         {
           "title": "GPT-6 要「吃掉」3D 公司？Meshy 不到两年 ARR 破 1 亿美元",
@@ -519,7 +591,13 @@
               "name": "GPT-6 Astra",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4005597357609095",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          }
         },
         {
           "title": "AI 女演员 Tilly Norwood 要演电影了，Particle 6 团队一年扩 8 倍",
@@ -553,7 +631,13 @@
               "name": "Particle 6",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4005613775099780",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          }
         },
         {
           "title": "影溯 InSpatio-World 1.5：国内世界模型从 Demo 走向「可用」",
@@ -591,7 +675,13 @@
               "name": "AMD",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1082826621_100016644",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "甲子光年"
+          }
         }
       ]
     }
@@ -626,5 +716,12 @@
     "- 新智元/机器之心Pro/甲子光年搜狐镜像正常（机器之心Pro 2026-10-01 无 24h 内新稿入选）；条目时间按 postTime 标注",
     "- VentureBeat：渲染成功但页面未解析出文章列表，本期未收录",
     "- Product Hunt 条目偏旧（09-25~29）无 AI 爆款；GitHub Trending、HF（代理）、arXiv 正常，无入选条目"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": null,
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": null,
+    "matched": null
+  }
 }

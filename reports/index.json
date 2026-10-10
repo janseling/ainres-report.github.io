@@ -1,5 +1,5 @@
 {
-  "count": 34,
+  "count": 33,
   "reports": [
     {
       "id": "2026-10-10-1500",
@@ -76,31 +76,6 @@
       "rawStats": {
         "candidates": 95,
         "selected": 13
-      }
-    },
-    {
-      "id": "2026-10-09-1917",
-      "date": "2026-10-09",
-      "time": "19:17",
-      "title": "AI 情报 · 10-09 19:17 场",
-      "itemCount": 6,
-      "coverage": "2026-10-09 09:00 → 15:00（Asia/Shanghai，补刊期按 Max 指示截止 15:00）",
-      "note": "本日 0900 场已报 09:00 前时段（Sol Ultrafast 上线/收入下修/USA Today 诉讼等），本期无重复条目",
-      "overview": [
-        "谷歌 Gemini 4 Argon 进入发布窗口：部分用户已可用、最快今日官宣全量开放。",
-        "扩散语言模型全球最大融资：华为哈勃、地平线跟投深圳 DiffuSpace（数亿元）。",
-        "Aether AI 发布 CRIS-0：机器人 0.2 秒急停+故障自修复，「因果智能」进物理世界。",
-        "ClaudeScience 拼出首张紫外全天图：50 年卫星数据、1.19 亿颗星逐颗叠加。",
-        "Anthropic 上市前遭正面做空：分析师称公允估值仅 $1500 亿。"
-      ],
-      "sectionCounts": {
-        "product": 3,
-        "tech": 2,
-        "industry": 1
-      },
-      "rawStats": {
-        "candidates": 843,
-        "selected": 6
       }
     },
     {

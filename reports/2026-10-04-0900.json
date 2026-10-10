@@ -71,7 +71,13 @@
               "name": "Hugging Face",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": null
+          }
         }
       ]
     },
@@ -119,7 +125,13 @@
               "name": "Claude Opus",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://www.zhidx.com/p/598854.html",
+            "raw_ref": "reports/raw/2026-10-04-0900.json#candidates[138]",
+            "source_id": "store-105",
+            "source_name": "10-05存量 raw"
+          }
         },
         {
           "title": "Simon Willison：按量付费服务该默认带「硬预算上限」，AWS 已上线但仍需 opt-in",
@@ -159,7 +171,13 @@
               "name": "Amazon",
               "type": "企业"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+            "raw_ref": "reports/raw/2026-10-04-0900.json#candidates[14]",
+            "source_id": "store-105",
+            "source_name": "10-05存量 raw"
+          }
         }
       ]
     },
@@ -202,7 +220,13 @@
               "name": "Matt Garman",
               "type": "人物"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+            "raw_ref": "reports/raw/2026-10-04-0900.json#candidates[60]",
+            "source_id": "store-105",
+            "source_name": "10-05存量 raw"
+          }
         },
         {
           "title": "TC 盘点「活在短信里的 AI agent」：Instinct 以 $10B 估值领跑，Caddy 等跟进",
@@ -236,7 +260,13 @@
               "name": "Caddy",
               "type": "产品"
             }
-          ]
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+            "raw_ref": "reports/raw/2026-10-04-0900.json#candidates[112]",
+            "source_id": "store-105",
+            "source_name": "10-05存量 raw"
+          }
         }
       ]
     }
@@ -246,5 +276,12 @@
     "- 新智元/机器之心Pro/甲子光年：搜狐镜像三源与直抓六路全部 DOWN（快照 0 字节，不可恢复）——国内源本档窗口零增量主因",
     "- arXiv：FALLBACK（当时 feed 解析 0 条，快照 10-03 21:08~21:27）",
     "- OpenAI(now)：DOWN（页面 body 仅 59 字节，源在线，疑似反爬）"
-  ]
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-04-0900.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 139,
+    "matched": 4
+  }
 }
