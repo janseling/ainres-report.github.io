@@ -389,7 +389,7 @@ function render(rep, rs, idx, ctx){
     const cr = (!a && r.sig && older && older.id) ? older.id : null;
     const ct = cr ? (r.text||'') + '；' + (r.sigLead||'') + '；' + (r.sigText||'') : '';
     const mark = r.sig?`<span class="sigtag" title="${esc('值得跟踪：'+(r.sigLead||'跟踪信号'))}">🧭 跟踪</span>`:'';
-    return `<div class="ov-item${a?' canjump':''}"${a?` data-jump="it-${esc(a)}"`:''}${cr?` data-cross="${esc(cr)}" data-crosstext="${esc(ct)}"`:''}>${mdLinks(r.text)}${mark}${a?'<span class="jumptag">条目 ↳</span>':(cr?'<span class="jumptag">上期 ↳</span>':'')}</div>`;
+    return `<div class="ov-item${(a||cr)?' canjump':''}"${a?` data-jump="it-${esc(a)}"`:''}${cr?` data-cross="${esc(cr)}" data-crosstext="${esc(ct)}"`:''}>${mdLinks(r.text)}${mark}${a?'<span class="jumptag">条目 ↳</span>':(cr?'<span class="jumptag">上期 ↳</span>':'')}</div>`;
   }).join('');
 
   document.getElementById('wrap').innerHTML = `
@@ -468,7 +468,7 @@ function render(rep, rs, idx, ctx){
   }));
   /* 阅读档位落地（内层重建后重放）+ 带锚直达时滚到条目 */
   modeSet();
-  if(location.hash){ const el=document.querySelector(location.hash.replace(/[^#A-Za-z0-9_-]/g,'')); if(el){ setTimeout(()=>el.scrollIntoView({block:'start'}),60); } }
+  if(location.hash){ const hid=location.hash.replace(/[^#A-Za-z0-9_-]/g,''); const hop=()=>{ const el=document.querySelector(hid); if(el) el.scrollIntoView({block:'start'}); }; hop(); setTimeout(hop,250); setTimeout(hop,900); }
 }
 init();
 </script>
