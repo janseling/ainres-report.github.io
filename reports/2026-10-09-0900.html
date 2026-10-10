@@ -346,7 +346,11 @@ function render(rep, rs, idx, ctx){
       });
     });
     if(bi >= 0 && bs >= SIG_TH){ ovRows[bi].sig = true; ovRows[bi].sigLead = s.lead || ''; }
-    else ovRows.push({ text:(s.lead? s.lead+'：' : '') + (s.text||''), sig:true, sigLead:s.lead || '' });
+    else {
+      const t = (s.lead? s.lead+'：' : '') + (s.text||'');
+      ovRows.push({ text:t, sig:true, sigLead:s.lead || '' });
+      ovClauses.push(String(t).split(CLAUSE_RE).map(c=>({ n:normT(c), g:grams2(c) })));
+    }
   });
   const ovHtml = ovRows.map(r=>{
     const a = anchorOf(r.text);
