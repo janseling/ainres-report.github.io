@@ -3,7 +3,7 @@
   "date": "2026-10-06",
   "time": "21:00",
   "title": "AI 情报 · 10-06 21:00 场",
-  "generatedAt": "2026-10-08T16:22:16.481Z",
+  "generatedAt": "2026-10-10T01:42:05.277Z",
   "coverage": "2026-10-05 21:00 → 10-06 21:15（Asia/Shanghai，24h 口径；本日 09:00/15:00 两场已报条目全部去重，晚场实际增量集中在 15:00 之后）",
   "notes": [
     "假期收尾晚间，海外隔夜增量已由早场收割，本期以融资传闻与叙事风向为主"
@@ -307,7 +307,7 @@
           ],
           "confidence": "中",
           "confidence_note": "双源佐证 Trending 收录+wangruofeng007 榜单日报 10-06 独立同报·GitHub API 复核",
-          "publish_time": "2026-10-06",
+          "publish_time": "2026-10-06 21:16",
           "verify_note": "外部检索（第三方榜首日报 wangruofeng007.com 10-06 23:33 同报：「rea 二连庄 +2,963 还在加速…e2e 测试框架首次拿铜」；GitHub API 10-09 实查 morluto/rea 20,727★、tester-army/e2e 8,081★）",
           "entities": [
             {
