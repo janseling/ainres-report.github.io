@@ -90,6 +90,8 @@ section.collapsed .sec-h::after{content:"▸"}
 .i-title a.ext:hover{color:var(--amber);text-decoration:none}
 .i-meta{font-family:var(--mono);font-size:10.5px;color:var(--dim);margin-top:6px;letter-spacing:.03em}
 .i-summary{margin-top:12px;color:var(--ink2);font-size:13px;line-height:1.9}
+.i-summary .ent{color:var(--amber);text-decoration:none;border-bottom:1px solid rgba(232,163,61,.35)}
+.i-summary .ent:hover{border-bottom-color:rgba(232,163,61,.7)}
 .i-summary a{border-bottom:1px dotted var(--steel);color:var(--steel)}
 
 .angles{margin-top:0}
@@ -298,7 +300,7 @@ function render(rep, rs, idx, ctx){
         <h3 class="i-title">${main?`<a href="${esc(main)}" target="_blank" rel="noopener">${esc(it.title)}</a><a class="ext" href="${esc(main)}" target="_blank" rel="noopener">原文 ↗</a>`:esc(it.title)}</h3>
         ${it.meta?`<div class="i-meta">${esc(it.meta)}${it.event_time?` ｜ ${it.event_time_inferred?'~ ':''}事件 ${esc(it.event_time)}${it.event_time_inferred?'（推断）':''}`:''}</div>`:''}
         ${v3html}
-        ${it.summary?`<div class="i-summary">${mdLinks(it.summary)}</div>`:''}
+        ${it.summary?`<div class="i-summary">${it.summaryHtml || mdLinks(it.summary)}</div>`:''}
         ${angles?`<div class="angles">${angles}</div>`:''}
         ${verHtml}${provHtml}
       </article>`;
