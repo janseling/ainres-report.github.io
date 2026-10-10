@@ -86,7 +86,7 @@ details.ev2{font-family:var(--mono);font-size:10.5px;color:var(--dim);margin-top
 .ok{color:var(--green)}
 </style></head><body>
 
-<div class="top"><h1>原型 · AI 情报日报 v2 信息架构</h1><span class="sub">整体动线 v2.4 · 时间线轴强化 · 数据层/三场节奏/TG 主推送不变 · 样例=今日 1500 场真实条目</span></div>
+<div class="top"><h1>原型 · AI 情报日报 v2 信息架构</h1><span class="sub">整体动线 v2.5 · 时间轴=事件时间优先 · 数据层/三场节奏/TG 主推送不变 · 样例=今日 1500 场真实条目</span></div>
 <div class="tagline">为决策者提供可溯源的 AI 情报流 —— 三场/天 · 多源同报 · 每条可回原文</div>
 
 <div class="panel"><div class="pt"><b>整体效果 · L1→L2→L3 三层动线</b><span class="tagchip">屏即页面 · 点卡片下钻</span></div>
@@ -120,19 +120,19 @@ details.ev2{font-family:var(--mono);font-size:10.5px;color:var(--dim);margin-top
 
 <div class="screen">
 <div class="cap"><b>L3 实体专题 · 追一个事/一家公司</b><span>/entity/openai.html</span></div>
-<div class="sitehead"><b>OpenAI</b><span class="nav">机构 · 近 5 期 12 条 · 时间线（由新到旧）</span></div>
+<div class="sitehead"><b>OpenAI</b><span class="nav">机构 · 近 5 期 12 条 · 时间线（按事件时间排序）</span></div>
 <div class="tlv">
 <div class="tlv-row">
-<div class="tlv-axis"><div class="tlv-dot"></div><div class="tlv-date">10-10<span class="sub">15:00场</span></div></div>
+<div class="tlv-axis"><div class="tlv-dot"></div><div class="tlv-date">10-10<span class="sub">11:00 · 事件</span></div></div>
 <div class="tlv-card"><div class="tmc">
-<div class="m">第 34 期 · 本期 · 点此回 L2 锚点 ↑</div>
+<div class="m">第 34 期（本期）· 点此回 L2 锚点 ↑</div>
 <div class="t">OpenAI 放出 175 页四维挂谷猜想证明稿<span class="ext">原文 ↗</span></div>
 <div style="margin:4px 0"><span class="b hi">高 · 2源同报</span><span class="b t">技术进展</span><span class="b snap">快照 ✓</span></div>
 <div class="sum">官方公开 175 页证明稿全文，四维挂谷猜想数学侧首次完整披露。</div>
 </div></div>
 </div>
 <div class="tlv-row">
-<div class="tlv-axis"><div class="tlv-dot done"></div><div class="tlv-date">10-09<span class="sub">21:00场</span></div></div>
+<div class="tlv-axis"><div class="tlv-dot done"></div><div class="tlv-date">10-09<span class="sub">15:40 · 事件</span></div></div>
 <div class="tlv-card"><div class="tmc">
 <div class="m">第 33 期 · 点此回 L2 锚点 ↑</div>
 <div class="t">dots 移动端全量上线<span class="ext">原文 ↗</span></div>
@@ -142,7 +142,7 @@ details.ev2{font-family:var(--mono);font-size:10.5px;color:var(--dim);margin-top
 </div></div>
 </div>
 <div class="tlv-row">
-<div class="tlv-axis"><div class="tlv-dot hollow"></div><div class="tlv-date">10-06<span class="sub">09:00场</span></div></div>
+<div class="tlv-axis"><div class="tlv-dot hollow"></div><div class="tlv-date">10-06<span class="sub">08:20 · 披露*</span></div></div>
 <div class="tlv-card"><div class="tmc">
 <div class="m">第 32 期 · 点此回 L2 锚点 ↑</div>
 <div class="t">Tibo 28 天「改进或重置」军令状<span class="ext">原文 ↗</span></div>
@@ -152,7 +152,7 @@ details.ev2{font-family:var(--mono);font-size:10.5px;color:var(--dim);margin-top
 </div></div>
 </div>
 </div>
-<div class="mut sml" style="margin-top:8px">左侧轴=时间线脊柱：圆点带状态色（最新●实 / ✓兑现绿 / ⏳跟踪空心）· 轴上日期+场次 · 节点=迷你条目卡 · 零新增采集（entities.json+signals.md）</div>
+<div class="mut sml" style="margin-top:8px">左侧轴=时间线脊柱 · 排序键=事件时间优先/披露时间兜底（轴上标「事件/披露」，* 为事件推不出的回退）· 场次只是刊期归属不参与排序 · 圆点带状态色（最新●实/✓兑现绿/⏳跟踪空心）· 节点=迷你条目卡 · 零新增采集（entities.json+signals.md）</div>
 </div>
 </div>
 
@@ -211,8 +211,9 @@ details.ev2{font-family:var(--mono);font-size:10.5px;color:var(--dim);margin-top
 
 <div class="panel"><div class="pt"><b>L3 实体专题页 · 组件规格</b><span class="tagchip">时间线节点=迷你条目卡</span></div>
 <div class="sml" style="line-height:1.9">
-· 节点改版（Max 2119→2121）：一句话 → 「时间线轴+状态圆点+迷你条目卡」——轴保留时间线概念（日期/场次沿轴排布、圆点编码节点状态），卡保留 L2 anatomy 完整信息，见上方整体效果 L3 屏<br>
-· 节点元信息带「日期+场次+期号」→ 回跳 L2 条目锚点；L2 摘要实体名 → 进 L3，双向动线成网<br>
+· 节点改版（Max 2119→2121）：一句话 → 「时间线轴+状态圆点+迷你条目卡」——轴保留时间线概念（真实时间沿轴排布、圆点编码节点状态），卡保留 L2 anatomy 完整信息，见上方整体效果 L3 屏<br>
+· 节点卡头带「期号」→ 回跳 L2 条目锚点；L2 摘要实体名 → 进 L3，双向动线成网<br>
+· 排序键（Max 2123）：事件时间优先 → 披露时间兜底 → 场次时间不参与排序（同一期里同实体两条按真实事件先后排）——写入 entity 专题生成器 spec<br>
 · SIG 节点挂原始编号+兑现状态（⏳ 跟踪中 / ✓ 已兑现回链触发卡）<br>
 · 数据源：entities.json + 各期条目实体字段 + signals.md 台账，零新增采集
 </div>
