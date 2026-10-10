@@ -63,6 +63,8 @@ a:hover{text-decoration:underline;text-underline-offset:3px}
 .masthead{padding:18px 0 14px;position:relative}
 .crumb{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--dim);text-transform:uppercase;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
 .crumb .no{color:var(--amber)}
+.crumb.hline{align-items:baseline}
+.crumb.hline .title{margin:0;font-size:20px}
 .title{font-size:20px;font-weight:800;letter-spacing:.03em;margin:8px 0 2px;line-height:1.35}
 .cov{margin-top:10px;padding:5px 2px 5px 14px;border-left:3px solid var(--amber);background:none;color:var(--ink2);font-size:12.5px;line-height:1.7}
 
@@ -393,9 +395,8 @@ function render(rep, rs, idx, ctx){
 
   document.getElementById('wrap').innerHTML = `
   <header class="masthead">
-    <div class="crumb"><span class="no">NO.${no}</span></div>
-    <h1 class="title">${esc(rep.date)} ${esc(rep.time)} 场</h1>
-    <blockquote class="cov">${esc(String(rep.coverage||'').replace(/（[^）]*）$/,'').replace(/^[0-9]{4}-[0-9]{2}-[0-9]{2} /,''))}</blockquote>
+    <div class="crumb hline"><span class="no">NO.${no}</span><h1 class="title">${esc(rep.date)} ${esc(rep.time)} 场</h1></div>
+    <blockquote class="cov">${esc(String(rep.coverage||'').replace(/（[^）]*）$/,''))}</blockquote>
     <div class="navchips">${navChips}</div>
   </header>
   ${ovRows.length?`<section id="sec-overview"><div class="sec-h"><span class="no">🔭</span><h2>速览</h2><span class="n">${ovRows.length} 条</span></div><div class="ovlist">${ovHtml}</div></section>`:''}
