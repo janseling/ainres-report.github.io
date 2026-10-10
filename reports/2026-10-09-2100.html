@@ -82,7 +82,7 @@ section.collapsed > :not(.sec-h){display:none}
 section.collapsed .sec-h::after{content:"▸"}
 .item{border-top:1px dashed var(--line);padding:16px 0 4px;margin:26px 0 10px;background:transparent;animation:up .45s cubic-bezier(.2,.7,.3,1) both;animation-delay:calc(var(--i,0)*.04s)}
 .item:first-of-type{border-top:none}
-.i-title{font-size:14.5px;font-weight:700;line-height:1.55}
+.i-title{font-size:16px;font-weight:700;line-height:1.6}
 .i-title a{color:var(--ink)}
 .i-title a:hover{color:var(--amber2);text-decoration:none}
 .i-title .ext{font-size:12px;font-weight:700;color:var(--amber);margin-left:10px;font-family:var(--mono);border:1px solid rgba(232,163,61,.5);background:rgba(232,163,61,.08);padding:2px 10px;border-radius:12px;white-space:nowrap;vertical-align:2px}
@@ -370,7 +370,7 @@ function render(rep, rs, idx, ctx){
       });
     });
     if(bi >= 0 && bs >= SIG_TH){
-      ovRows[bi].sig = true; ovRows[bi].sigLead = s.lead || '';
+      ovRows[bi].sig = true; ovRows[bi].sigLead = s.lead || ''; ovRows[bi].sigText = s.text || '';
       if(ovRows[bi].aScore < 0.3){
         const b = bestItem(blob);
         if(b && b.sc > ovRows[bi].aScore){ ovRows[bi].anc = b.id; ovRows[bi].aScore = b.sc; }
@@ -380,14 +380,16 @@ function render(rep, rs, idx, ctx){
       const b = bestItem(t);
       const anc = (b && b.sc >= 0.3) ? b.id : null;
       const asc = (b && b.sc >= 0.3) ? b.sc : 0;
-      ovRows.push({ text:t, sig:true, sigLead:s.lead || '', anc:anc, aScore:asc });
+      ovRows.push({ text:t, sig:true, sigLead:s.lead || '', sigText:s.text || '', anc:anc, aScore:asc });
       ovClauses.push(rowsClauses(t));
     }
   });
   const ovHtml = ovRows.map(r=>{
     const a = anchorOf(r.text) || r.anc || null;
+    const cr = (!a && r.sig && older && older.id) ? older.id : null;
+    const ct = cr ? (r.text||'') + '；' + (r.sigLead||'') + '；' + (r.sigText||'') : '';
     const mark = r.sig?`<span class="sigtag" title="${esc('值得跟踪：'+(r.sigLead||'跟踪信号'))}">🧭 跟踪</span>`:'';
-    return `<div class="ov-item${a?' canjump':''}"${a?` data-jump="it-${esc(a)}"`:''}>${mdLinks(r.text)}${mark}${a?`<span class="jumptag">条目 ↳</span>`:''}</div>`;
+    return `<div class="ov-item${a?' canjump':''}"${a?` data-jump="it-${esc(a)}"`:''}${cr?` data-cross="${esc(cr)}" data-crosstext="${esc(ct)}"`:''}>${mdLinks(r.text)}${mark}${a?'<span class="jumptag">条目 ↳</span>':(cr?'<span class="jumptag">上期 ↳</span>':'')}</div>`;
   }).join('');
 
   document.getElementById('wrap').innerHTML = `
@@ -408,12 +410,56 @@ function render(rep, rs, idx, ctx){
     ${newer?`<a href="${repUrl(esc(newer.id))}">${esc(newer.date.slice(5))} ${esc(newer.time)} ›</a>`:'<a disabled>已是最新 ›</a>'}
   </nav>`;
 
-  /* 速览行点击跳对应条目锚 */
-  document.querySelectorAll('.ov-item[data-jump]').forEach(el=>el.addEventListener('click',()=>{
-    const h = el.getAttribute('data-jump');
-    location.hash = h;
-    const t = document.getElementById(h);
-    if(t) t.scrollIntoView({block:'start'});
+  /* 速览行点击：本页锚直接滚；跨期行→拉上一期数据→同款分句匹配→跳上一期条目 */
+  const crossJump = (el, cid) => {
+    if(el.dataset.bsy) return;
+    el.dataset.bsy = '1';
+    const jt = el.querySelector('.jumptag');
+    const say = msg => { if(jt){ jt.textContent = msg; setTimeout(()=>{ if(jt) jt.textContent = '上期 ↳'; }, 1800); } };
+    const base = window.__PAGE_DATA__ ? '' : 'reports/';
+    fetch(base + cid + '.json?v=' + Date.now())
+      .then(r=>r.ok?r.json():null)
+      .then(d=>{
+        if(!d || !d.sections){ say('上期数据缺失'); return; }
+        const idx2 = [];
+        (d.sections||[]).forEach(sec=>(sec.items||[]).forEach((it,ii)=>{
+          const hay = (it.title||'') + '；' + (it.original_title||'') + '；' + (it.summary||'');
+          idx2.push({ id: sec.key + '-' + ii, cl: rowsClauses(hay) });
+        }));
+        const tcs = rowsClauses(el.getAttribute('data-crosstext') || '');
+        let best = null, bs = 0;
+        idx2.forEach(rec=>{
+          let m = 0;
+          tcs.forEach(tc=>{
+            if(!tc.n) return;
+            rec.cl.forEach(ic=>{
+              if(!ic.n) return;
+              let h1 = 0; tc.g.forEach(g=>{ if(ic.n.indexOf(g) >= 0) h1++; });
+              let h2 = 0; ic.g.forEach(g=>{ if(tc.n.indexOf(g) >= 0) h2++; });
+              m = Math.max(m, Math.max(tc.g.length? h1/tc.g.length : 0, ic.g.length? h2/ic.g.length : 0));
+            });
+          });
+          if(m > bs){ bs = m; best = rec.id; }
+        });
+        if(best && bs >= 0.3){
+          location.href = repUrl(cid) + '#it-' + best;
+        } else {
+          say('上期未匹配');
+        }
+      })
+      .catch(()=>say('加载失败'))
+      .finally(()=>{ el.dataset.bsy = ''; });
+  };
+  document.querySelectorAll('.ov-item[data-jump], .ov-item[data-cross]').forEach(el=>el.addEventListener('click',()=>{
+    const hj = el.getAttribute('data-jump');
+    if(hj){
+      location.hash = hj;
+      const t = document.getElementById(hj);
+      if(t) t.scrollIntoView({block:'start'});
+      return;
+    }
+    const cid = el.getAttribute('data-cross');
+    if(cid) crossJump(el, cid);
   }));
   /* 板块折叠：点板块头切换展开/收起，默认全部展开 */
   document.querySelectorAll("section .sec-h").forEach(secHead=>secHead.addEventListener("click",ev=>{
