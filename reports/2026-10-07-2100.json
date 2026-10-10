@@ -3,7 +3,7 @@
   "date": "2026-10-07",
   "time": "21:00",
   "title": "AI 情报 · 10-07 21:00 场",
-  "generatedAt": "2026-10-08T10:18:56.842Z",
+  "generatedAt": "2026-10-10T07:45:45.676Z",
   "coverage": "10-07 15:10 → 21:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00 / 15:10 两场已报内容已去重"
@@ -279,6 +279,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 搜狐镜像+arXiv原文",
           "publish_time": "2026-10-07 16:01",
+          "event_time": "2026-09-03",
+          "event_time_inferred": false,
           "verify_note": "外部检索（arXiv 原文确认：2609.04565《Extremely Sparse Supervision Incentivizes Reasoning Ability》Amazon+Duke 署名；PicX 同报极端稀疏监督改善 OPD 推理）",
           "entities": [
             {
@@ -418,7 +420,7 @@
           ],
           "confidence": "低",
           "confidence_note": "C源·榜单快照无发布时刻",
-          "publish_time": null,
+          "publish_time": "2026-10-07 21:05",
           "verify_note": "外部检索（GitHub 官方仓库核验：mattpocock/skills 27.6 万星在榜；cloudflare/security-audit-skill 实测 2,665 星、描述「独立验证+机器可读发现」属实——与快照「2.6 万星」口径有出入）",
           "entities": [
             {
