@@ -118,7 +118,7 @@ function initPage(){
       popSel($('fcsel'), ['高','中','低'], '全部置信');
       popSel($('ftnsel'), ['A','B','C','D'], '全部源级');
       const box = $('echips'); box.innerHTML = '<span class="lb">热门实体</span>';
-      (d.ents || []).slice(0, 18).forEach(z => {
+      (d.ents || []).slice(0, 10).forEach(z => {
         const a = document.createElement('a'); a.className = 'echip'; a.href = entHref(z.n);
         a.textContent = z.n;
         const cc = document.createElement('span'); cc.className = 'cnt'; cc.textContent = ' (' + z.c + ')';
