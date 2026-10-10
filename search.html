@@ -76,7 +76,7 @@ function render(){
   if(!IDX) return;
   const kw = $('kwin').value.trim();
   const fty = $('ftysel').value, fcn = $('fcsel').value, ftn = $('ftnsel').value, fd = $('fdsel').value;
-  const cur = fd ? new Date(Date.now() - fd * 864e5).toISOString().slice(0, 10) : '';
+  const cur = (+fd) ? new Date(Date.now() - (+fd) * 864e5).toISOString().slice(0, 10) : '';
   const hits = IDX.rows.filter(r => {
     if(qs.e && (('|' + r.e + '|').indexOf('|' + qs.e + '|')) < 0) return false;
     if(kw){ const hay = (r.ti + ' ' + (r.su || '') + ' ' + (r.e || '')).toLowerCase(); if(hay.indexOf(kw.toLowerCase()) < 0) return false; }
