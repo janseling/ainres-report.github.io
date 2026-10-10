@@ -189,6 +189,7 @@ function render(m){
     const cards = slots.map((x,si)=>{
       if (x){
         const hour = parseInt(x.time.slice(0,2),10);
+        const href = 'reports/' + esc(x.id) + '.html';
         const hlList = (Array.isArray(x.hl) && x.hl.length ? x.hl : (x.overview||[]).slice(0,3).map(t=>({t})));
         const ov = hlList.slice(0,3).map(h=>{
           const txt = typeof h === 'string' ? h : (h && h.t) || '';
