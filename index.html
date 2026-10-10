@@ -238,7 +238,7 @@ function render(m){
         <div class="sc-ph">— 未出刊 —</div>
       </div>`;
     }).join('');
-    return `<section class="dayrow${i<5?'':' fold'}" style="--i:${i}">
+    return `<section class="dayrow${i<5&&n?'':' fold'}" style="--i:${i}">
       <div class="row-h" title="点击展开/折叠当天">
         <span class="cv">▾</span>
         <span class="d-date">${esc(d.slice(5))}</span><span class="d-wd">${wdOf(d)}</span>
