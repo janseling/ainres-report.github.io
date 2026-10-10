@@ -61,11 +61,21 @@ details.ev2{font-family:var(--mono);font-size:10.5px;color:var(--dim);margin-top
 .ok{color:var(--green)}
 </style></head><body>
 
-<div class="top"><h1>原型 · AI 情报日报 v2 信息架构</h1><span class="sub">数据层/三场节奏/TG 主推送不变 · 消费端重构 · 样例=今日 1500 场真实条目</span></div>
+<div class="top"><h1>原型 · AI 情报日报 v2 信息架构</h1><span class="sub">骨架定稿 v2.2 · 数据层/三场节奏/TG 主推送不变 · 样例=今日 1500 场真实条目</span></div>
 <div class="tagline">为决策者提供可溯源的 AI 情报流 —— 三场/天 · 多源同报 · 每条可回原文</div>
 
 <div class="cols">
 <div class="col" style="flex:1.55">
+
+<div class="panel"><div class="pt"><b>L2 页头 · 一期一屏的骨架</b><span class="tagchip">header / title / time slots</span></div>
+<div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
+<div style="font-size:17px;font-weight:800">AI 情报日报 · 2026-10-10 · 15:00 场</div>
+<div class="mut sml" style="font-family:var(--mono)">第 34 期</div>
+</div>
+<div style="margin-top:8px"><span class="b src">09:00 ✓</span><span class="b md">15:00 · 本期</span><span class="b">21:00 未出</span></div>
+<div style="margin-top:8px"><span class="b">入选 10 条</span><span class="b">候选 608</span><span class="b hi">实锤 4</span><span class="b snap">快照全量 ✓</span><span class="b">信号 2</span></div>
+<div class="filterbar" style="margin-top:10px"><span class="fb on">全部</span><span class="fb">💰 商业</span><span class="fb">🛠 产品</span><span class="fb">⚡ 技术</span><span class="fb">🏛 政策</span><span class="fb">🛡 安全</span></div>
+</div>
 
 <div class="panel"><div class="pt"><b>L2 期报页 · 头条区（速览升级）</b><span class="tagchip">Techmeme 头条层 / TLDR 一行流</span></div>
 <div class="hl"><span class="no">01</span><a href="#">微软发布高速决策模型 Microsoft-Decision-1：85 毫秒出答案</a><span class="b hi">高·2源</span><span class="b t">产品发布</span></div>
@@ -91,6 +101,11 @@ details.ev2{font-family:var(--mono);font-size:10.5px;color:var(--dim);margin-top
 <div class="sum">一条未实锤的融资传闻以中置信度进入流内——徽章层直接亮明「单源」身份，读者一眼分层。</div>
 </div>
 <div class="mut sml" style="margin-top:9px">摘要中实体名可点直达实体专题页（内联实体导航 · 借鉴 wenjiai.cn）——词典 entities.json 已备好，L3 落地即生效</div>
+</div>
+
+<div class="panel"><div class="pt"><b>每条 News · 元素清单（骨架合同）</b><span class="tagchip">固定顺序 · composer 产出契约</span></div>
+<div class="map" style="font-size:12px;line-height:1.9">① 标题＋「原文 ↗」胶囊 —— 跳原文，必填<br>② 元信息：来源 · 披露时间 · 事件时间（推不出→省略）<br>③ 徽章排：置信度｜N 源同报｜源分级｜快照 ✓｜实体<br>④ 一行摘要 ≤60 字（实体名可点）<br>⑤ 观点角度 💰🛠⚡（0~2 行）<br>⑥ 佐证行：N 条外部同报 · 可点（≥0 条）<br>⑦ 证据链折叠：raw_ref · 快照 sha · evidence.json</div>
+<div class="mut sml" style="margin-top:8px">7 元素即约束本身：composer 每期按此 schema 交货 → 渲染器照单全收 → 页面不再「长歪」（朋友框架落地）</div>
 </div>
 
 <div class="panel"><div class="pt"><b>横切 · 徽章即筛选（检索页）</b><span class="tagchip">Feedly AI Feed 静态等价物</span></div>
