@@ -468,7 +468,7 @@ function render(rep, rs, idx, ctx){
   }));
   /* 阅读档位落地（内层重建后重放）+ 带锚直达时滚到条目 */
   modeSet();
-  if(location.hash){ const hid=location.hash.replace(/[^#A-Za-z0-9_-]/g,''); const hop=()=>{ const el=document.querySelector(hid); if(el) el.scrollIntoView({block:'start'}); }; hop(); setTimeout(hop,250); setTimeout(hop,900); }
+  if(location.hash){ const hid=location.hash.replace(/[^#A-Za-z0-9_-]/g,''); const hop=()=>{ const el=document.querySelector(hid); if(el) el.scrollIntoView({block:'start',behavior:'instant'}); }; hop(); setTimeout(hop,250); setTimeout(hop,900); }
 }
 init();
 </script>
