@@ -41,6 +41,20 @@ details.ev2{font-family:var(--mono);font-size:10.5px;color:var(--dim);margin-top
 .filterbar{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
 .filterbar .fb{font-family:var(--mono);font-size:11px;padding:3px 10px;border:1px solid var(--line2);border-radius:14px;color:var(--ink2);text-decoration:none}
 .filterbar .fb.on{color:var(--amber);border-color:var(--amber)}
+.screen{border:1.5px solid var(--line2);border-radius:12px;padding:12px 14px;background:#14161d;margin:0 0 10px}
+.screen .cap{display:flex;gap:8px;align-items:baseline;margin-bottom:8px}
+.screen .cap b{color:var(--amber);font-size:13.5px;letter-spacing:.02em}
+.screen .cap span{color:var(--dim);font-size:11px;font-family:var(--mono)}
+.sitehead{display:flex;justify-content:space-between;align-items:baseline;gap:10px;border-bottom:1px dashed var(--line2);padding-bottom:7px;margin-bottom:6px}
+.sitehead b{font-size:15px}
+.sitehead .nav{font-family:var(--mono);font-size:11px;color:var(--steel)}
+.conn{display:flex;align-items:center;gap:8px;justify-content:center;margin:2px 0 12px;color:var(--amber);font-size:12px}
+.tmc{border:1px solid var(--line2);border-radius:8px;padding:8px 11px;margin:7px 0;background:var(--panel2)}
+.tmc .m{font-family:var(--mono);font-size:10px;color:var(--dim)}
+.tmc .t{font-size:13px;font-weight:700;margin-top:3px}
+.tmc .t .ext{color:var(--amber);font-size:11px;font-weight:700;border:1px solid rgba(232,163,61,.5);padding:1px 7px;border-radius:10px;margin-left:8px;white-space:nowrap;background:rgba(232,163,61,.08)}
+.tmc .sum{color:var(--ink2);font-size:12px;line-height:1.8;margin-top:4px}
+.tmc .sig{color:var(--lav);font-size:10.5px;font-family:var(--mono);margin-top:4px}
 .kw{flex:1;min-width:130px;font-family:var(--mono);font-size:11px;color:var(--dim);border:1px dashed var(--line2);border-radius:6px;padding:4px 10px}
 .tl{margin-top:6px}
 .tl .r{display:flex;gap:10px;padding:5px 2px;border-bottom:1px dashed var(--line);font-size:12.5px}
@@ -61,8 +75,64 @@ details.ev2{font-family:var(--mono);font-size:10.5px;color:var(--dim);margin-top
 .ok{color:var(--green)}
 </style></head><body>
 
-<div class="top"><h1>原型 · AI 情报日报 v2 信息架构</h1><span class="sub">骨架定稿 v2.2 · 数据层/三场节奏/TG 主推送不变 · 样例=今日 1500 场真实条目</span></div>
+<div class="top"><h1>原型 · AI 情报日报 v2 信息架构</h1><span class="sub">整体动线 v2.3 · 数据层/三场节奏/TG 主推送不变 · 样例=今日 1500 场真实条目</span></div>
 <div class="tagline">为决策者提供可溯源的 AI 情报流 —— 三场/天 · 多源同报 · 每条可回原文</div>
+
+<div class="panel"><div class="pt"><b>整体效果 · L1→L2→L3 三层动线</b><span class="tagchip">屏即页面 · 点卡片下钻</span></div>
+
+<div class="screen">
+<div class="cap"><b>L1 首页 · 归档「今天看什么」</b><span>ainews.im-max.com/</span></div>
+<div class="sitehead"><b>AI 情报日报</b><span class="nav">为决策者提供可溯源的 AI 情报流　|　日期 10-10 · 10-09 · 10-08 …</span></div>
+<div class="grid3">
+<div class="slotc"><div class="h"><b>09:00 场</b><span>12 条</span></div><div class="top2"><div>▸ Jev 开发商 TypeSafe 估值 $75 亿</div><div>▸ OpenAI Agent 失控自查报告</div></div><div class="stats"><span class="b hi">高 6</span><span class="b md">中 5</span><span class="b">信号 2</span></div></div>
+<div class="slotc"><div class="h"><b>15:00 场</b><span>10 条</span></div><div class="top2"><div>▸ 微软 85ms 决策模型发布</div><div>▸ Gemini 4 Carbon 内测泄露</div></div><div class="stats"><span class="b hi">高 4</span><span class="b md">中 6</span><span class="b">信号 2</span></div></div>
+<div class="slotc"><div class="h"><b>21:00 场</b></div><div class="mut sml">— 未出刊 —</div></div>
+</div>
+<div class="mut sml" style="margin-top:8px">日期带切日 · 场次卡=头条 2~3 条可点 + 实锤浓度统计</div>
+</div>
+<div class="conn">点击归档卡 / 头条行 ↓ 直达 L2 对应条目锚点</div>
+
+<div class="screen">
+<div class="cap"><b>L2 期报页 · 当天深读</b><span>/reports/2026-10-10-1500.html</span></div>
+<div class="sitehead"><b>2026-10-10 · 15:00 场 <span class="mut sml" style="font-weight:400">第 34 期</span></b><span class="nav">09:00 ✓ ｜ 15:00 · 本期 ｜ 21:00 未出</span></div>
+<div style="margin:8px 0"><span class="b">入选 10 条</span><span class="b">候选 608</span><span class="b hi">实锤 4</span><span class="b snap">快照全量 ✓</span><span class="b">信号 2</span></div>
+<div class="hl"><span class="no">01</span><a href="#">微软发布高速决策模型 Microsoft-Decision-1：85 毫秒出答案</a><span class="b hi">高·2源</span><span class="b t">产品发布</span></div>
+<div class="tmc">
+<div class="m">36氪 · 2026-10-10 09:50 ｜ 事件 03:34　·　条目锚点 ⚓</div>
+<div class="t">微软发布高速决策模型 Microsoft-Decision-1：85 毫秒出答案<span class="ext">原文 ↗</span></div>
+<div style="margin:4px 0"><span class="b hi">高 · 2源同报</span><span class="b src">主流媒体源</span><span class="b t">产品发布</span><span class="b snap">快照 ✓</span><span class="b">实体: Microsoft</span></div>
+<div class="sum"><a class="ent" href="#">Microsoft-Decision-1</a> 面向决策任务，36 项测试准确率第一，经 <a class="ent" href="#">Microsoft Foundry</a> 开放。摘要内实体可点 → L3。</div>
+</div>
+<div class="mut sml">条目完整七件套见下方「每条 News·元素清单」；此处为紧凑型</div>
+</div>
+<div class="conn">卡内点实体名 ↓ L3 实体专题（L3 节点点「日期+期号」↑ 回 L2 锚点）</div>
+
+<div class="screen">
+<div class="cap"><b>L3 实体专题 · 追一个事/一家公司</b><span>/entity/openai.html</span></div>
+<div class="sitehead"><b>OpenAI</b><span class="nav">机构 · 近 5 期 12 条 · 由新到旧</span></div>
+<div class="tmc">
+<div class="m">10-10 · 15:00 场 · 第 34 期（本期）</div>
+<div class="t">OpenAI 放出 175 页四维挂谷猜想证明稿<span class="ext">原文 ↗</span></div>
+<div style="margin:4px 0"><span class="b hi">高 · 2源同报</span><span class="b t">技术进展</span><span class="b snap">快照 ✓</span></div>
+<div class="sum">官方公开 175 页证明稿全文，四维挂谷猜想数学侧首次完整披露。</div>
+</div>
+<div class="tmc">
+<div class="m">10-09 · 21:00 场 · 第 33 期</div>
+<div class="t">dots 移动端全量上线<span class="ext">原文 ↗</span></div>
+<div style="margin:4px 0"><span class="b hi">高 · 2源同报</span><span class="b t">产品发布</span></div>
+<div class="sum">手机端 App 灰度转全量，与 <a class="ent" href="#">Codex</a> 线程衔接实现移动办公闭环。</div>
+<div class="sig">↳ 兑现 SIG-20261006-0900-1 ✓（回链军令状卡）</div>
+</div>
+<div class="tmc">
+<div class="m">10-06 · 09:00 场 · 第 32 期</div>
+<div class="t">Tibo 28 天「改进或重置」军令状<span class="ext">原文 ↗</span></div>
+<div style="margin:4px 0"><span class="b md">中 · 1源</span><span class="b t">产品动态</span></div>
+<div class="sum">内部军令状要求 28 天内拿出可感改进，否则重置产品线。</div>
+<div class="sig">SIG-20261006-0900-1 · ⏳ 跟踪中 → 已由上卡兑现</div>
+</div>
+<div class="mut sml" style="margin-top:8px">时间线节点=迷你条目卡（同 L2 骨架合同 anatomy）· SIG 状态内联 · 零新增采集（entities.json+signals.md）</div>
+</div>
+</div>
 
 <div class="cols">
 <div class="col" style="flex:1.55">
@@ -117,14 +187,13 @@ details.ev2{font-family:var(--mono);font-size:10.5px;color:var(--dim);margin-top
 </div>
 <div class="col">
 
-<div class="panel"><div class="pt"><b>L3 实体专题页</b><span class="tagchip">Feedly 关键词 Feed / 事件串联</span></div>
-<div class="mut sml">/entity/OpenAI —— 跨期时间线，entities.json 词典驱动：</div>
-<div class="tl">
-<div class="r"><span class="d">10-06 21:00</span><span class="e">Tibo 28 天「改进或重置」军令状（SIG-20261006-0900-1）</span></div>
-<div class="r"><span class="d">10-09 21:00</span><span class="e">dots 移动端全量上线，Codex 线程衔接 <span class="ok">✓ 已兑现</span></span></div>
-<div class="r"><span class="d">10-10 15:00</span><span class="e">175 页四维挂谷猜想证明稿公开</span></div>
+<div class="panel"><div class="pt"><b>L3 实体专题页 · 组件规格</b><span class="tagchip">时间线节点=迷你条目卡</span></div>
+<div class="sml" style="line-height:1.9">
+· 节点改版（Max 2119）：时间线一句话 → 迷你条目卡，同 L2 骨架合同 anatomy（元信息/标题+原文↗/徽章排/一行摘要/信号标注），见上方整体效果 L3 屏<br>
+· 节点元信息带「日期+场次+期号」→ 回跳 L2 条目锚点；L2 摘要实体名 → 进 L3，双向动线成网<br>
+· SIG 节点挂原始编号+兑现状态（⏳ 跟踪中 / ✓ 已兑现回链触发卡）<br>
+· 数据源：entities.json + 各期条目实体字段 + signals.md 台账，零新增采集
 </div>
-<div class="mut sml" style="margin-top:6px">SIG 跟踪回访从文本标记 → 可点专题（SIG 兑现状态内联展示）</div>
 </div>
 
 <div class="panel"><div class="pt"><b>L1 归档卡（升级）</b></div>
