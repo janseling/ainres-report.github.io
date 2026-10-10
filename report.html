@@ -64,13 +64,7 @@ a:hover{text-decoration:underline;text-underline-offset:3px}
 .crumb{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--dim);text-transform:uppercase;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
 .crumb .no{color:var(--amber)}
 .title{font-size:20px;font-weight:800;letter-spacing:.03em;margin:8px 0 2px;line-height:1.35}
-.stamp{position:absolute;right:0;top:20px;font-family:var(--mono);font-size:11px;letter-spacing:.3em;color:var(--green);opacity:.8;user-select:none}
 .cov{margin-top:10px;padding:5px 2px 5px 14px;border-left:3px solid var(--amber);background:none;color:var(--ink2);font-size:12.5px;line-height:1.7}
-.cov .note{display:block;margin-top:6px;color:var(--dim);font-size:12.5px}
-.mchips{margin-top:10px;display:flex;gap:7px;flex-wrap:wrap}
-.mchip{font-family:var(--mono);font-size:11px;color:var(--ink2);border:1px solid var(--line2);background:transparent;padding:3px 9px;border-radius:4px;letter-spacing:.04em}
-.mchip b{color:var(--amber);font-weight:600}
-.mchip.ok b{color:var(--green)}
 
 /* ==== section nav ==== */
 .navchips{margin:14px 0 2px;display:flex;gap:7px;flex-wrap:wrap}
@@ -272,11 +266,6 @@ function render(rep, rs, idx, ctx){
   const setPager = (id, el) => { const a = document.getElementById(el); if(id){ a.href = repUrl(id); } else { a.disabled = true; a.removeAttribute('href'); } };
   setPager(newer && newer.id, 'tbNext'); setPager(older && older.id, 'tbPrev');
 
-  const notesHtml = (rep.notes||[]).map(n=>`<span class="note">※ ${esc(n)}</span>`).join('');
-  const chips = [];
-  chips.push(`<span class="mchip">本期 <b>${rep.itemCount}</b> 条</span>`);
-  if(rep.rawStats && rep.rawStats.candidates) chips.push(`<span class="mchip">候选 <b>${rep.rawStats.candidates.toLocaleString()}</b></span>`);
-  if((rep.signals||[]).length) chips.push(`<span class="mchip">跟踪信号 <b>${rep.signals.length}</b></span>`);
 
   const secsHtml = (rep.sections||[]).map((sec, si)=>{
     const sm = SEC_META[sec.key] || {icon:sec.icon||'📋', zh:sec.title||sec.key};
@@ -404,11 +393,9 @@ function render(rep, rs, idx, ctx){
 
   document.getElementById('wrap').innerHTML = `
   <header class="masthead">
-    <div class="crumb"><span>AI INTEL DAILY</span><span>·</span><span class="no">NO.${no}</span><span>·</span><span>${esc(rep.date)} ${esc(rep.time)} CST</span></div>
-    <h1 class="title">${esc(rep.title.replace(/^AI 情报 · /,'').replace(' 场',' 场'))}</h1>
-    <span class="stamp">已归档 ✓</span>
-    <blockquote class="cov">${esc(String(rep.coverage||'').replace(/（[^）]*）$/,''))}${notesHtml}</blockquote>
-    <div class="mchips">${chips.join('')}</div>
+    <div class="crumb"><span class="no">NO.${no}</span></div>
+    <h1 class="title">${esc(rep.date)} ${esc(rep.time)} 场</h1>
+    <blockquote class="cov">${esc(String(rep.coverage||'').replace(/（[^）]*）$/,'').replace(/^[0-9]{4}-[0-9]{2}-[0-9]{2} /,''))}</blockquote>
     <div class="navchips">${navChips}</div>
   </header>
   ${ovRows.length?`<section id="sec-overview"><div class="sec-h"><span class="no">🔭</span><h2>速览</h2><span class="n">${ovRows.length} 条</span></div><div class="ovlist">${ovHtml}</div></section>`:''}
