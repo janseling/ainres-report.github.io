@@ -407,7 +407,7 @@ function render(rep, rs, idx, ctx){
     <div class="crumb"><span>AI INTEL DAILY</span><span>·</span><span class="no">NO.${no}</span><span>·</span><span>${esc(rep.date)} ${esc(rep.time)} CST</span></div>
     <h1 class="title">${esc(rep.title.replace(/^AI 情报 · /,'').replace(' 场',' 场'))}</h1>
     <span class="stamp">已归档 ✓</span>
-    <blockquote class="cov">${esc(String(rep.coverage||'+').replace(/（[^）]*）$/,'+'))}${notesHtml}</blockquote>
+    <blockquote class="cov">${esc(String(rep.coverage||'').replace(/（[^）]*）$/,''))}${notesHtml}</blockquote>
     <div class="mchips">${chips.join('')}</div>
     <div class="navchips">${navChips}</div>
   </header>
