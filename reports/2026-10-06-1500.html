@@ -168,10 +168,26 @@ details.prov .prov-body span{overflow-wrap:anywhere}
 <script>
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const mdLinks = s => esc(s).replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_m,t,u)=>`<a href="${u}" target="_blank" rel="noopener">${t}</a>`);
-const linkifyDom = s => esc(s).replace(/https?:\/\/[^\s，。；、）)<>"]+/g, u => {
-  let d = '链接'; try { d = new URL(u).hostname.replace(/^www\./,''); } catch(e) {}
-  return `<a class="dp" href="${u}" title="${u}" target="_blank" rel="noopener">${esc(d)} ↗</a>`;
-});
+const URL_RE = /https?:\/\/[^\s，。；、）)<>"]+/g;
+const hostOf = u => { try { return new URL(u).hostname.replace('www.',''); } catch(e) { return '链接'; } };
+const domPill = u => `<a class="dp" href="${esc(u)}" title="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))} ↗</a>`;
+/* 佐证行：单一链接 → 挂到佐证描述文字上（原型口径「华尔街见闻 10-10 04:08 同报 ↗」）；无链接 → 纯文本；多链接 → 域名胶囊兜底 */
+function verifyFmt(note){
+  const s = String(note);
+  const urls = s.match(URL_RE) || [];
+  if (!urls.length) return esc(s);
+  if (urls.length > 1) return esc(s).replace(URL_RE, um => domPill(um));
+  const u = urls[0], i = s.indexOf(u);
+  let head = s.slice(0, i);
+  head = head.trimEnd();
+  if (head.endsWith(';') || head.endsWith('；')) head = head.slice(0, -1).trimEnd();
+  const op = head.indexOf('（');
+  let prefix = '', txt = head;
+  if (op >= 0){ prefix = head.slice(0, op + 1); txt = head.slice(op + 1); }
+  if (!txt.trim()) txt = hostOf(u);
+  return esc(prefix) + `<a class="dp" href="${esc(u)}" title="${esc(u)}" target="_blank" rel="noopener">${esc(txt)} ↗</a>` + esc(s.slice(i + u.length));
+}
+
 const SEC_META = {
   product:{icon:'📦', zh:'产品发布 / 融资'}, tech:{icon:'🔬', zh:'技术突破 / 模型进展'},
   policy:{icon:'🏛️', zh:'政策监管'}, industry:{icon:'🌐', zh:'行业动向 / 应用玩法'},
@@ -261,7 +277,6 @@ function render(rep, rs, idx, ctx){
       if (it.snapshot) v3chips.push(`<span class="chip x3" title="${esc(it.snapshot.file)}">快照 ✓</span>`);
       if ((it.entities||[]).length) v3chips.push(`<span class="chip e3">实体: ${esc(it.entities.map(e=>e.name).join(' / '))}</span>`);
       const v3html = v3chips.length?`<div class="i-v3">${v3chips.join('')}</div>`:'';
-      const domPill = u => { let d='链接'; try { d = new URL(u).hostname.replace(/^www\./,''); } catch(e) {} return `<a class="dp" href="${esc(u)}" title="${esc(u)}" target="_blank" rel="noopener">${esc(d)} ↗</a>`; };
       const provBits = [];
       const pv = it.provenance || {};
       if (pv.raw_ref || pv.source_id) provBits.push(`<span>溯源 ${esc(pv.raw_ref || '—')}${pv.source_name?` · 源 ${esc(pv.source_name)}`:''}</span>`);
@@ -269,7 +284,7 @@ function render(rep, rs, idx, ctx){
       if (it.original_title) provBits.push(`<span>原题：${esc(it.original_title)}</span>`);
       const provHtml = provBits.length?`<details class="prov"><summary>证据链 ▾</summary><div class="prov-body">${provBits.join('')}</div></details>`:'';
       const verParts = [];
-      if (it.verify_note) verParts.push(linkifyDom(it.verify_note));
+      if (it.verify_note) verParts.push(verifyFmt(it.verify_note));
       (it.urls||[]).slice(1).forEach(u=>verParts.push(domPill(u)));
       const verHtml = verParts.length?`<div class="i-verify">✓ 外部佐证：${verParts.join(' · ')}</div>`:'';
 
