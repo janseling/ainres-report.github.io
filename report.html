@@ -157,6 +157,7 @@ details.prov .prov-body span{overflow-wrap:anywhere}
     <a href="./">← 归档</a>
     <a href="javascript:void 0" id="tbPrev">‹ 上一期</a>
     <a href="javascript:void 0" id="tbNext">下一期 ›</a>
+    <a href="javascript:void 0" id="navSearch">检索</a>
   </nav>
   <span class="tb-mode" id="tbMode" title="速读：证据链全收起；深度：证据链全部展开">🔍 速读</span>
 </div></div>
@@ -470,6 +471,7 @@ function render(rep, rs, idx, ctx){
   modeSet();
   if(location.hash){ const hid=location.hash.replace(/[^#A-Za-z0-9_-]/g,''); const hop=()=>{ const el=document.querySelector(hid); if(el) el.scrollIntoView({block:'start',behavior:'instant'}); }; hop(); setTimeout(hop,250); setTimeout(hop,900); }
 }
+(function(){ const ns=document.getElementById('navSearch'); if(ns) ns.href = window.__PAGE_DATA__ ? '../search.html' : 'search.html'; })();
 init();
 </script>
 </body>
