@@ -45,6 +45,7 @@ a:hover{text-decoration:underline;text-underline-offset:3px}
 .topbar{position:sticky;top:0;z-index:20;background:rgba(12,13,16,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .topbar .in{max-width:760px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;gap:12px}
 .tb-brand{font-family:var(--mono);font-size:12px;letter-spacing:.16em;color:var(--dim);white-space:nowrap}
+.tb-logo{width:18px;height:18px;border-radius:4px;display:inline-block;vertical-align:-3px;margin-right:6px}
 .tb-brand b{color:var(--amber);font-weight:600}
 .tb-nav{margin-left:auto;display:flex;gap:14px;font-family:var(--mono);font-size:12px}
 .tb-nav a{color:var(--ink2)}
@@ -154,14 +155,14 @@ details.prov .prov-body span{overflow-wrap:anywhere}
 <body>
 
 <div class="topbar"><div class="in">
-  <a class="tb-brand" href="./" style="text-decoration:none">AI<b>情报</b>DB</a>
+  <a class="tb-brand" href="./" style="text-decoration:none"><img class="tb-logo" src="/icon.png" alt="">AI<b>情报</b>DB</a>
   <nav class="tb-nav">
     <a href="./">← 归档</a>
     <a href="javascript:void 0" id="tbPrev">‹ 上一期</a>
     <a href="javascript:void 0" id="tbNext">下一期 ›</a>
     <a href="javascript:void 0" id="navSearch">检索</a>
   </nav>
-  <span class="tb-mode" id="tbMode" title="速读：证据链全收起；深度：证据链全部展开">🔍 速读</span>
+  <span class="tb-mode" id="tbMode" title="速读：证据链全收起；深度：证据链全部展开" style="display:none">🔍 速读</span>
 </div></div>
 
 <div class="wrap" id="wrap">
