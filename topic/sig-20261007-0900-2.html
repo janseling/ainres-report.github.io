@@ -22,7 +22,7 @@ h1{font-size:22px;font-weight:800;letter-spacing:.02em;line-height:1.35;margin:0
 .lead{margin:14px 0 0;color:var(--ink2);font-size:13.5px;line-height:1.75}
 .tl{list-style:none;margin:22px 0 0;position:relative;padding-left:24px}
 .tl::before{content:'';position:absolute;left:6px;top:10px;bottom:14px;width:2px;background:linear-gradient(180deg,var(--amber),rgba(232,163,61,.15))}
-.nd{position:relative;padding:0 0 18px}
+.nd{position:relative;padding:0 0 18px;cursor:pointer}
 .dot{position:absolute;left:-23px;top:7px;width:12px;height:12px;border-radius:50%}
 .d-birth{background:var(--amber);box-shadow:0 0 0 3px rgba(232,163,61,.16)}
 .d-follow{background:var(--panel);border:2px solid rgba(232,163,61,.75)}
@@ -30,6 +30,10 @@ h1{font-size:22px;font-weight:800;letter-spacing:.02em;line-height:1.35;margin:0
 .nd-h{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .iss{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px}
 .ntag{font-size:10.5px;color:var(--amber);border:1px solid rgba(232,163,61,.4);border-radius:999px;padding:0 7px;letter-spacing:.05em}
+.nconf{font-size:10.5px;color:var(--ink2);border:1px solid var(--line2,#31353f);border-radius:999px;padding:0 7px;letter-spacing:.05em}
+.nconf.c-hi{color:var(--green);border-color:rgba(140,192,122,.5)}
+.nconf.c-md{color:var(--amber);border-color:rgba(232,163,61,.45)}
+.nconf.c-lo{color:#d0684f;border-color:rgba(208,104,79,.5)}
 .nd-ttl{margin-top:7px;font-weight:700;font-size:14px;color:var(--ink);line-height:1.6}
 .nd-q{margin-top:5px;color:var(--ink2);font-size:13.5px;line-height:1.72}
 .cross{margin-top:6px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
@@ -45,8 +49,9 @@ footer{margin-top:34px;font-size:12px;color:var(--dim)}
 <h1>澳洲 Medicare 听证的监管连锁</h1>
 <div class="meta"><span class="chip st-open">⏳ 跟踪中</span><span>登记 2026-10-07 09:00 场</span><span>next check 2026-10-17</span><span>2 期时间线 · 最新 10-08 21:00 场</span></div>
 <p class="lead">OpenAI 高管赴澳议会道歉并建「立即干预」熔断机制后，盯各国对「agent 越权访问」的立法/调查/罚款跟进；政府与金融客户的 agent 合规采购清单可能先行</p>
-<ol class="tl"><li class="nd"><span class="dot d-birth"></span><div class="nd-body"><div class="nd-h"><a class="iss" href="/reports/2026-10-07-0900.html#it-industry-0">10-07 09:00 场</a><span class="ntag">登记</span></div><div class="nd-ttl">OpenAI 赴澳议会道歉 Medicare 事件，宣布「立即干预」监控机制</div><div class="nd-q">澳洲 Medicare 听证的监管连锁：盯各国对「agent 越权访问」的立法、调查与罚款跟进——政府/金融客户的 agent 合规采购清单可能先行落地（SIG-20261007-0900-2，10-17 复核）。</div></div></li><li class="nd"><span class="dot d-follow"></span><div class="nd-body"><div class="nd-h"><a class="iss" href="/reports/2026-10-08-2100.html#it-industry-0">10-08 21:00 场</a><span class="ntag">跟踪回访</span></div><div class="nd-ttl">CrowdStrike 报告：韩国大型银行遭袭疑单人所为，全程 AI 工具栈</div><div class="nd-q">…AI 编码会话与基础设施反推出画像，称其为金融动机的中文使用者（中等置信）。- 📌 跟踪回访 SIG-20261007-0900-2：agent 武器化首次以厂商取证报告坐实，各国监管动机增强，check 不变。</div></div></li></ol>
+<ol class="tl"><li class="nd"><span class="dot d-birth"></span><div class="nd-body"><div class="nd-h"><a class="iss" href="/reports/2026-10-07-0900.html#it-industry-0">10-07 09:00 场</a><span class="ntag">登记</span><span class="nconf c-hi">高</span></div><div class="nd-ttl">OpenAI 赴澳议会道歉 Medicare 事件，宣布「立即干预」监控机制</div><div class="nd-q">澳洲 Medicare 听证的监管连锁：盯各国对「agent 越权访问」的立法、调查与罚款跟进——政府/金融客户的 agent 合规采购清单可能先行落地（SIG-20261007-0900-2，10-17 复核）。</div></div></li><li class="nd"><span class="dot d-follow"></span><div class="nd-body"><div class="nd-h"><a class="iss" href="/reports/2026-10-08-2100.html#it-industry-0">10-08 21:00 场</a><span class="ntag">跟踪回访</span><span class="nconf c-hi">高</span></div><div class="nd-ttl">CrowdStrike 报告：韩国大型银行遭袭疑单人所为，全程 AI 工具栈</div><div class="nd-q">…AI 编码会话与基础设施反推出画像，称其为金融动机的中文使用者（中等置信）。- 📌 跟踪回访 SIG-20261007-0900-2：agent 武器化首次以厂商取证报告坐实，各国监管动机增强，check 不变。</div></div></li></ol>
 <footer>AI 情报每日 · 信号追踪闭环 · <a href="/">首页</a> · <a href="/rss.xml">RSS</a></footer>
 </div>
+<script>(function(){var els=document.querySelectorAll("li.nd");for(var i=0;i<els.length;i++){(function(li){var a=li.querySelector("a.iss");if(!a)return;li.addEventListener("click",function(ev){if(ev.target.closest("a"))return;location.href=a.getAttribute("href");});})(els[i]);}})();</script>
 </body>
 </html>

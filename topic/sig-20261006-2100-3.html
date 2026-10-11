@@ -22,7 +22,7 @@ h1{font-size:22px;font-weight:800;letter-spacing:.02em;line-height:1.35;margin:0
 .lead{margin:14px 0 0;color:var(--ink2);font-size:13.5px;line-height:1.75}
 .tl{list-style:none;margin:22px 0 0;position:relative;padding-left:24px}
 .tl::before{content:'';position:absolute;left:6px;top:10px;bottom:14px;width:2px;background:linear-gradient(180deg,var(--amber),rgba(232,163,61,.15))}
-.nd{position:relative;padding:0 0 18px}
+.nd{position:relative;padding:0 0 18px;cursor:pointer}
 .dot{position:absolute;left:-23px;top:7px;width:12px;height:12px;border-radius:50%}
 .d-birth{background:var(--amber);box-shadow:0 0 0 3px rgba(232,163,61,.16)}
 .d-follow{background:var(--panel);border:2px solid rgba(232,163,61,.75)}
@@ -30,6 +30,10 @@ h1{font-size:22px;font-weight:800;letter-spacing:.02em;line-height:1.35;margin:0
 .nd-h{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .iss{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px}
 .ntag{font-size:10.5px;color:var(--amber);border:1px solid rgba(232,163,61,.4);border-radius:999px;padding:0 7px;letter-spacing:.05em}
+.nconf{font-size:10.5px;color:var(--ink2);border:1px solid var(--line2,#31353f);border-radius:999px;padding:0 7px;letter-spacing:.05em}
+.nconf.c-hi{color:var(--green);border-color:rgba(140,192,122,.5)}
+.nconf.c-md{color:var(--amber);border-color:rgba(232,163,61,.45)}
+.nconf.c-lo{color:#d0684f;border-color:rgba(208,104,79,.5)}
 .nd-ttl{margin-top:7px;font-weight:700;font-size:14px;color:var(--ink);line-height:1.6}
 .nd-q{margin-top:5px;color:var(--ink2);font-size:13.5px;line-height:1.72}
 .cross{margin-top:6px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
@@ -45,8 +49,9 @@ footer{margin-top:34px;font-size:12px;color:var(--dim)}
 <h1>AI-for-math 叙事公开分裂</h1>
 <div class="meta"><span class="chip st-open">⏳ 跟踪中</span><span>登记 2026-10-06 21:00 场</span><span>next check 2026-10-21</span><span>2 期时间线 · 最新 10-11 15:00 场</span></div>
 <p class="lead">Szegedy（加速派）vs 陶哲轩（减速派）两极并框——盯 SAIR 等学术组织后续表态和各国监管口径是否跟进；精英风向往往先于立法</p>
-<ol class="tl"><li class="nd"><span class="dot d-follow"></span><div class="nd-body"><div class="nd-h"><a class="iss" href="/reports/2026-10-08-1500.html#it-industry-2">10-08 15:00 场</a><span class="ntag">跟踪回访</span></div><div class="nd-ttl">AHM 声明呼吁数学家停与 OpenAI 合作，陶哲轩博客转发</div><div class="nd-q">…合作，陶哲轩在个人博客全文转发——反 OpenAI 数学叙事从个人转向建制。- 📌 跟踪回访 SIG-20261006-2100-3：AI-for-math 叙事分裂实质升级（Tao 个人表态→学界建制化抵制），check 不变…</div></div></li><li class="nd"><span class="dot d-follow"></span><div class="nd-body"><div class="nd-h"><a class="iss" href="/reports/2026-10-11-1500.html#it-industry-1">10-11 15:00 场</a><span class="ntag">跟踪回访</span></div><div class="nd-ttl">陶哲轩「AI 放缓」争议爆上热搜：「25 万数学博士临绝境」叙事刷屏</div><div class="nd-q">…争议中文圈二次发酵，「25 万数学博士面临职业危机、必须放缓 AI」成热搜叙事。📌 跟踪回访 SIG-20261006-2100-3：AI-for-math 叙事公开分裂——陶哲轩阵营二次发酵，SIG 维持 open（check…</div></div></li></ol>
+<ol class="tl"><li class="nd"><span class="dot d-follow"></span><div class="nd-body"><div class="nd-h"><a class="iss" href="/reports/2026-10-08-1500.html#it-industry-2">10-08 15:00 场</a><span class="ntag">跟踪回访</span><span class="nconf c-hi">高</span></div><div class="nd-ttl">AHM 声明呼吁数学家停与 OpenAI 合作，陶哲轩博客转发</div><div class="nd-q">…合作，陶哲轩在个人博客全文转发——反 OpenAI 数学叙事从个人转向建制。- 📌 跟踪回访 SIG-20261006-2100-3：AI-for-math 叙事分裂实质升级（Tao 个人表态→学界建制化抵制），check 不变…</div></div></li><li class="nd"><span class="dot d-follow"></span><div class="nd-body"><div class="nd-h"><a class="iss" href="/reports/2026-10-11-1500.html#it-industry-1">10-11 15:00 场</a><span class="ntag">跟踪回访</span><span class="nconf c-hi">高</span></div><div class="nd-ttl">陶哲轩「AI 放缓」争议爆上热搜：「25 万数学博士临绝境」叙事刷屏</div><div class="nd-q">…争议中文圈二次发酵，「25 万数学博士面临职业危机、必须放缓 AI」成热搜叙事。📌 跟踪回访 SIG-20261006-2100-3：AI-for-math 叙事公开分裂——陶哲轩阵营二次发酵，SIG 维持 open（check…</div></div></li></ol>
 <footer>AI 情报每日 · 信号追踪闭环 · <a href="/">首页</a> · <a href="/rss.xml">RSS</a></footer>
 </div>
+<script>(function(){var els=document.querySelectorAll("li.nd");for(var i=0;i<els.length;i++){(function(li){var a=li.querySelector("a.iss");if(!a)return;li.addEventListener("click",function(ev){if(ev.target.closest("a"))return;location.href=a.getAttribute("href");});})(els[i]);}})();</script>
 </body>
 </html>

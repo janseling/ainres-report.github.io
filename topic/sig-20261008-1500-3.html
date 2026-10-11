@@ -22,7 +22,7 @@ h1{font-size:22px;font-weight:800;letter-spacing:.02em;line-height:1.35;margin:0
 .lead{margin:14px 0 0;color:var(--ink2);font-size:13.5px;line-height:1.75}
 .tl{list-style:none;margin:22px 0 0;position:relative;padding-left:24px}
 .tl::before{content:'';position:absolute;left:6px;top:10px;bottom:14px;width:2px;background:linear-gradient(180deg,var(--amber),rgba(232,163,61,.15))}
-.nd{position:relative;padding:0 0 18px}
+.nd{position:relative;padding:0 0 18px;cursor:pointer}
 .dot{position:absolute;left:-23px;top:7px;width:12px;height:12px;border-radius:50%}
 .d-birth{background:var(--amber);box-shadow:0 0 0 3px rgba(232,163,61,.16)}
 .d-follow{background:var(--panel);border:2px solid rgba(232,163,61,.75)}
@@ -30,6 +30,10 @@ h1{font-size:22px;font-weight:800;letter-spacing:.02em;line-height:1.35;margin:0
 .nd-h{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .iss{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px}
 .ntag{font-size:10.5px;color:var(--amber);border:1px solid rgba(232,163,61,.4);border-radius:999px;padding:0 7px;letter-spacing:.05em}
+.nconf{font-size:10.5px;color:var(--ink2);border:1px solid var(--line2,#31353f);border-radius:999px;padding:0 7px;letter-spacing:.05em}
+.nconf.c-hi{color:var(--green);border-color:rgba(140,192,122,.5)}
+.nconf.c-md{color:var(--amber);border-color:rgba(232,163,61,.45)}
+.nconf.c-lo{color:#d0684f;border-color:rgba(208,104,79,.5)}
 .nd-ttl{margin-top:7px;font-weight:700;font-size:14px;color:var(--ink);line-height:1.6}
 .nd-q{margin-top:5px;color:var(--ink2);font-size:13.5px;line-height:1.72}
 .cross{margin-top:6px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
@@ -45,8 +49,9 @@ footer{margin-top:34px;font-size:12px;color:var(--dim)}
 <h1>具身/AI 数据供给侧成形（众包「美团化」+出题判卷生意）</h1>
 <div class="meta"><span class="chip st-open">⏳ 跟踪中</span><span>登记 2026-10-08 15:00 场</span><span>next check 2026-10-18</span><span>1 期时间线 · 最新 10-08 15:00 场</span></div>
 <p class="lead">智元系数据众包（时薪 20 元采集）与 AI 数据行业「出题、卖题、判卷」野蛮生长同日被 36氪起底——训练数据供给侧从灰色散单走向平台化；调度/质检/合规是真实现金流点位</p>
-<ol class="tl"><li class="nd"><span class="dot d-birth"></span><div class="nd-body"><div class="nd-h"><a class="iss" href="/reports/2026-10-08-1500.html#it-industry-4">10-08 15:00 场</a><span class="ntag">登记</span></div><div class="nd-ttl">具身智能界的「美团」能跑通吗？智元系数据众包生意被起底</div><div class="nd-q">具身/AI 数据供给侧成形：（SIG-20261008-1500-3，10-18 复核）：智元系数据众包（时薪 20 元）与「出题/判卷」生意同日被起底——盯众包平台融资定价、平台化动作与合规规则。</div></div></li></ol>
+<ol class="tl"><li class="nd"><span class="dot d-birth"></span><div class="nd-body"><div class="nd-h"><a class="iss" href="/reports/2026-10-08-1500.html#it-industry-4">10-08 15:00 场</a><span class="ntag">登记</span><span class="nconf c-hi">高</span></div><div class="nd-ttl">具身智能界的「美团」能跑通吗？智元系数据众包生意被起底</div><div class="nd-q">具身/AI 数据供给侧成形：（SIG-20261008-1500-3，10-18 复核）：智元系数据众包（时薪 20 元）与「出题/判卷」生意同日被起底——盯众包平台融资定价、平台化动作与合规规则。</div></div></li></ol>
 <footer>AI 情报每日 · 信号追踪闭环 · <a href="/">首页</a> · <a href="/rss.xml">RSS</a></footer>
 </div>
+<script>(function(){var els=document.querySelectorAll("li.nd");for(var i=0;i<els.length;i++){(function(li){var a=li.querySelector("a.iss");if(!a)return;li.addEventListener("click",function(ev){if(ev.target.closest("a"))return;location.href=a.getAttribute("href");});})(els[i]);}})();</script>
 </body>
 </html>
