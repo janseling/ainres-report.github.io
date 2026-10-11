@@ -665,19 +665,23 @@
   "signals": [
     {
       "lead": "中国基模型公司 IPO 批次成形",
-      "text": "月之暗面 $500 亿（IPO 前）→ 可灵 AI 港股（≥$10 亿）→ Anthropic 传本月中旬路演；三家 IPO 叙事同期赛跑，未来两周「招股书里的收入结构」（集中度/订阅占比）将成为最硬的公开信息增量，值得逐份精读。"
+      "text": "月之暗面 $500 亿（IPO 前）→ 可灵 AI 港股（≥$10 亿）→ Anthropic 传本月中旬路演；三家 IPO 叙事同期赛跑，未来两周「招股书里的收入结构」（集中度/订阅占比）将成为最硬的公开信息增量，值得逐份精读。",
+      "sigId": null
     },
     {
       "lead": "大客户去 Anthropic 化的连锁反应",
-      "text": "微软/Meta 砍预算 → Anthropic 路演定价承压 → 其「降价保量」空间变大 → API 价格战再升级；盯 Anthropic 对 GPT-6 家族的直接价格反应。"
+      "text": "微软/Meta 砍预算 → Anthropic 路演定价承压 → 其「降价保量」空间变大 → API 价格战再升级；盯 Anthropic 对 GPT-6 家族的直接价格反应。",
+      "sigId": null
     },
     {
       "lead": "垂直后训练挑战通用榜单",
-      "text": "Utopai X（物理/音频双第一）之后，盯 AA 盲评榜是否出现更多行业定制模型上位——「行业数据壁垒可验证」的融资故事正在被榜单机制加速定价。"
+      "text": "Utopai X（物理/音频双第一）之后，盯 AA 盲评榜是否出现更多行业定制模型上位——「行业数据壁垒可验证」的融资故事正在被榜单机制加速定价。",
+      "sigId": null
     },
     {
       "lead": "agent 工具的 Mod 标准战争",
-      "text": "Claude Code Mods（原生）→ DeepSeek Harness 兼容层（子集论）→ 等声明：谁的 API 成为事实标准，插件/安全审计/分发市场就跟着谁走。"
+      "text": "Claude Code Mods（原生）→ DeepSeek Harness 兼容层（子集论）→ 等声明：谁的 API 成为事实标准，插件/安全审计/分发市场就跟着谁走。",
+      "sigId": null
     }
   ],
   "sourceStatus": [

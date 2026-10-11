@@ -394,9 +394,10 @@ function render(rep, rs, idx, ctx){
   });
   const ovHtml = ovRows.map(r=>{
     const a = anchorOf(r.text) || r.anc || null;
-    const ownRe = new RegExp('SIG-' + String(rep.id).replace(/-/g,'') + '-\\d+');
-    const ownId = r.sig ? ((r.sigText||'').match(ownRe) || (r.text||'').match(ownRe) || null) : null;
-    const sid = ownId ? 'sig-' + ownId[0].slice(4) : (r.sigSeq ? 'sig-' + String(rep.id).replace(/-/g,'') + '-' + r.sigSeq : null);
+  const ownStamp = String(rep.id).replace(/^(\d{4})-(\d{2})-(\d{2})-(\d{4})$/, '$1$2$3-$4');
+  const preTaken = {};
+  (rep.signals||[]).forEach(s=>{ if(s.sigId) preTaken['sig-' + String(s.sigId).replace('SIG-','')] = 1; });
+    const sid = r.sigId ? 'sig-' + String(r.sigId).replace('SIG-','') : (r.sig && r.sigSeq && !preTaken['sig-' + ownStamp + '-' + r.sigSeq] ? 'sig-' + ownStamp + '-' + r.sigSeq : null);
     const cr = (!a && r.sig && older && older.id) ? older.id : null;
     const ct = cr ? (r.text||'') + '；' + (r.sigLead||'') + '；' + (r.sigText||'') : '';
     const mark = r.sig?`<span class="sigtag" title="${esc('值得跟踪：'+(r.sigLead||'跟踪信号'))}">🧭 跟踪</span>`:'';

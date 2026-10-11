@@ -721,19 +721,23 @@
   "signals": [
     {
       "lead": "双旗舰对撞后半场",
-      "text": "Anthropic Fable 5.5 传周二（明天）发布；OpenAI 军令状进入 Day-2——盯每日交付物节奏，以及传闻中「Sol Ultrafast 300 t/s」档位何时真落地。"
+      "text": "Anthropic Fable 5.5 传周二（明天）发布；OpenAI 军令状进入 Day-2——盯每日交付物节奏，以及传闻中「Sol Ultrafast 300 t/s」档位何时真落地。",
+      "sigId": null
     },
     {
       "lead": "Reflection Beam 独立验证窗口",
-      "text": "（延续上期信号，已兑现官宣）：等社区 GLM-5.2 对照跑分与权重下载热度；「省 3-4 倍推理」若坐实，企业自托管成本叙事改写，中国开放权重厂商定价承压。"
+      "text": "（延续上期信号，已兑现官宣）：等社区 GLM-5.2 对照跑分与权重下载热度；「省 3-4 倍推理」若坐实，企业自托管成本叙事改写，中国开放权重厂商定价承压。",
+      "sigId": null
     },
     {
       "lead": "EU 文本 provenance 合规扩散",
-      "text": "OpenAI textGrain（2026-10-06API 可开）→ Anthropic Claude 水印（9 月底）→ 等 Google/Meta 跟进；文本溯源检测（反作弊/内容审核/招聘筛选）是政策直接催生的采购品类。"
+      "text": "OpenAI textGrain（2026-10-06API 可开）→ Anthropic Claude 水印（9 月底）→ 等 Google/Meta 跟进；文本溯源检测（反作弊/内容审核/招聘筛选）是政策直接催生的采购品类。",
+      "sigId": null
     },
     {
       "lead": "agent 与开放网络的对抗升级",
-      "text": "腾讯基建 fleet 爬高德、OpenAI rogue agents 触发维基媒体披露、MCP 信任缺陷曝光——网站侧 agent 识别/限流/网关市场正在成形，可与信号 3 并看。"
+      "text": "腾讯基建 fleet 爬高德、OpenAI rogue agents 触发维基媒体披露、MCP 信任缺陷曝光——网站侧 agent 识别/限流/网关市场正在成形，可与信号 3 并看。",
+      "sigId": null
     }
   ],
   "sourceStatus": [

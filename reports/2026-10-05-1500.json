@@ -320,15 +320,18 @@
   "signals": [
     {
       "lead": "2026-10-12~10-18 双旗舰对撞",
-      "text": "OpenAI 6.1 Sol Ultrafast「coming soon」（Tibo 10-04 确认；修正 2026-10-05 晨信号——「Astra 6.1」其实仍未现身）× Anthropic Fable 5.5 传 2026-10-13 正式发布（JAZII 爆料灰度导流中：更快、更贵）。撞车周=订阅转化窗口，盯发布顺序与定价。"
+      "text": "OpenAI 6.1 Sol Ultrafast「coming soon」（Tibo 10-04 确认；修正 2026-10-05 晨信号——「Astra 6.1」其实仍未现身）× Anthropic Fable 5.5 传 2026-10-13 正式发布（JAZII 爆料灰度导流中：更快、更贵）。撞车周=订阅转化窗口，盯发布顺序与定价。",
+      "sigId": null
     },
     {
       "lead": "消费级硬件跑大 MoE",
-      "text": "开源运行时 Strata 用「单卡+系统内存+SSD 流式」跑 Qwen3.8-Flash-Next 125B，r/LocalLLaMA 全天多帖实测（5090/Blackwell 6000 优化与幻觉毛病同报；另有 Mac Mini M5 64GB 同法跑同款）。内存墙正在变成 SSD 宽带问题——端侧/私有化推理成本曲线快速下移，对本地部署类交付直接利好。"
+      "text": "开源运行时 Strata 用「单卡+系统内存+SSD 流式」跑 Qwen3.8-Flash-Next 125B，r/LocalLLaMA 全天多帖实测（5090/Blackwell 6000 优化与幻觉毛病同报；另有 Mac Mini M5 64GB 同法跑同款）。内存墙正在变成 SSD 宽带问题——端侧/私有化推理成本曲线快速下移，对本地部署类交付直接利好。",
+      "sigId": null
     },
     {
       "lead": "西方开放权重十月潮",
-      "text": "AiWeekly 转称 Reflection 之外本月还有多款西方开放权重发布——若落地，开放权重供给面在 Q4 变宽，本土化部署/微调交付团队弹药充足，但中国团队的性价比优势也将被正面冲击。"
+      "text": "AiWeekly 转称 Reflection 之外本月还有多款西方开放权重发布——若落地，开放权重供给面在 Q4 变宽，本土化部署/微调交付团队弹药充足，但中国团队的性价比优势也将被正面冲击。",
+      "sigId": null
     }
   ],
   "sourceStatus": [

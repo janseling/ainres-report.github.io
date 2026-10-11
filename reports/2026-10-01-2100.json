@@ -741,19 +741,23 @@
   "signals": [
     {
       "lead": "agent 治理层「四件套」集齐",
-      "text": "Decisions API（决策限流，已报）+ Restate（持久化，已报）+ OpenShell（运行时隔离，本期）+ 行为审计（HF 渗透案例，本期）——巨头开始给「agent 执行安全」定价；这层独立创业窗口在收窄，审计/合规报告衍生位仍开放。"
+      "text": "Decisions API（决策限流，已报）+ Restate（持久化，已报）+ OpenShell（运行时隔离，本期）+ 行为审计（HF 渗透案例，本期）——巨头开始给「agent 执行安全」定价；这层独立创业窗口在收窄，审计/合规报告衍生位仍开放。",
+      "sigId": null
     },
     {
       "lead": "成本战打到缓存维度",
-      "text": "Argon 缓存 0.5 折 + Tinder 账单半年 10 倍（https://m.sohu.com/a/1083147254_129720）——按 token 收费的应用毛利被两头挤压，「降本工程」自身开始能卖钱。"
+      "text": "Argon 缓存 0.5 折 + Tinder 账单半年 10 倍（https://m.sohu.com/a/1083147254_129720）——按 token 收费的应用毛利被两头挤压，「降本工程」自身开始能卖钱。",
+      "sigId": null
     },
     {
       "lead": "跨境模型生意的合规红蓝灯",
-      "text": "OpenAI 一手在 Codex 接入 Kimi/GLM、一手归因 Moonshot 相关人员（https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign）——做跨境 AI 服务先审账号封禁与供应链风险，站队信号会越来越密。"
+      "text": "OpenAI 一手在 Codex 接入 Kimi/GLM、一手归因 Moonshot 相关人员（https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign）——做跨境 AI 服务先审账号封禁与供应链风险，站队信号会越来越密。",
+      "sigId": null
     },
     {
       "lead": "消费级天花板已数据化",
-      "text": "付费率 2.2%、月均 $31（https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/）——toC 订阅不可持续成共识，变现要么广告+抽成、要么转 toB；中国系开放模型是美国企业降本红利的直接受益方（AT&T 70% 目标）。"
+      "text": "付费率 2.2%、月均 $31（https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/）——toC 订阅不可持续成共识，变现要么广告+抽成、要么转 toB；中国系开放模型是美国企业降本红利的直接受益方（AT&T 70% 目标）。",
+      "sigId": null
     }
   ],
   "sourceStatus": [

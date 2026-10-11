@@ -597,15 +597,18 @@
   "signals": [
     {
       "lead": "2026-10-12~10-18 双旗舰对撞",
-      "text": "（延续上期）：OpenAI GPT-6.1 Sol Ultrafast「coming soon」× Anthropic Fable 5.5 传周二发布；2026-10-05 晚棋盘实验中 Sol 已以 828K 上下文专用跑道现身竞技场——发布临近的实锤。"
+      "text": "（延续上期）：OpenAI GPT-6.1 Sol Ultrafast「coming soon」× Anthropic Fable 5.5 传周二发布；2026-10-05 晚棋盘实验中 Sol 已以 828K 上下文专用跑道现身竞技场——发布临近的实锤。",
+      "sigId": null
     },
     {
       "lead": "Reflection 开放权重落地窗口",
-      "text": "（延续上期）：Axios 10-04 独家称其首个对标 DeepSeek/Qwen 的美国开放权重模型在即，NVIDIA 硬件捆绑＋数据主权叙事，本月西方开放权重发布潮。"
+      "text": "（延续上期）：Axios 10-04 独家称其首个对标 DeepSeek/Qwen 的美国开放权重模型在即，NVIDIA 硬件捆绑＋数据主权叙事，本月西方开放权重发布潮。",
+      "sigId": null
     },
     {
       "lead": "微型决策模型品类成形",
-      "text": "Amazon Strands Decider 2B（开源）→ StartLux 决策模型（登顶）→ DecisionTune 395M（10ms 本地），约一周内三连——「小决策外包」的 agent 工具链正在自成一层，成本曲线陡降。"
+      "text": "Amazon Strands Decider 2B（开源）→ StartLux 决策模型（登顶）→ DecisionTune 395M（10ms 本地），约一周内三连——「小决策外包」的 agent 工具链正在自成一层，成本曲线陡降。",
+      "sigId": null
     }
   ],
   "sourceStatus": [

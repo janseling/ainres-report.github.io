@@ -689,19 +689,23 @@
   "signals": [
     {
       "lead": "agent 运行时基建成体系吸金",
-      "text": "Decisions API（决策限流）+ Restate（工作流持久化）+ GitHub trending 的 openrig（Claude Code 与 Codex 融合单系统的多 agent harness，+624 星/日 https://github.com/mvschwarz/openrig）与 HeyGen hyperframes（HTML→视频、为 agent 而建，+349 星/日 https://github.com/heygen-com/hyperframes）——「编排-持久化-限流」三件套都有真金订单，agent 中间层是当前最实的创业/投资方向。"
+      "text": "Decisions API（决策限流）+ Restate（工作流持久化）+ GitHub trending 的 openrig（Claude Code 与 Codex 融合单系统的多 agent harness，+624 星/日 https://github.com/mvschwarz/openrig）与 HeyGen hyperframes（HTML→视频、为 agent 而建，+349 星/日 https://github.com/heygen-com/hyperframes）——「编排-持久化-限流」三件套都有真金订单，agent 中间层是当前最实的创业/投资方向。",
+      "sigId": null
     },
     {
       "lead": "自动交易 agent 的合规钟摆",
-      "text": "Robinhood Agents/Loops 把自动炒股推给散户，美国投顾合规、国内监管均未跟上——盯监管文书与牌照动作，先合规者先吃增量。"
+      "text": "Robinhood Agents/Loops 把自动炒股推给散户，美国投顾合规、国内监管均未跟上——盯监管文书与牌照动作，先合规者先吃增量。",
+      "sigId": null
     },
     {
       "lead": "内容方与 AI 平台的结算参考价已出",
-      "text": "Google 试点 ~100 家、中小站 <$1000/数月、头部 $1M/年（https://arstechnica.com/google/2026/09/google-is-paying-100-websites-for-contributions-to-ai-overviews-but-the-pilot-is-struggling/）——个人/团队做内容资产时，按这个价码决定「喂养 AI」还是「建独占渠道」。"
+      "text": "Google 试点 ~100 家、中小站 <$1000/数月、头部 $1M/年（https://arstechnica.com/google/2026/09/google-is-paying-100-websites-for-contributions-to-ai-overviews-but-the-pilot-is-struggling/）——个人/团队做内容资产时，按这个价码决定「喂养 AI」还是「建独占渠道」。",
+      "sigId": null
     },
     {
       "lead": "具身商业化收入质量审查",
-      "text": "数采闭环质疑 + 盈合破产 + 量子位 36 家机器人公司赚钱能力盘点（https://www.qbitai.com/2026/09/499280.html）——机器人赛道尽调重点转向真实客户收入占比与现金流转正路径。"
+      "text": "数采闭环质疑 + 盈合破产 + 量子位 36 家机器人公司赚钱能力盘点（https://www.qbitai.com/2026/09/499280.html）——机器人赛道尽调重点转向真实客户收入占比与现金流转正路径。",
+      "sigId": null
     }
   ],
   "sourceStatus": [

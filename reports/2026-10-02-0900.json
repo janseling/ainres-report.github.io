@@ -668,15 +668,18 @@
   "signals": [
     {
       "lead": "旗舰换代节奏战",
-      "text": "Fable 5.5 未官宣已在跑（https://m.sohu.com/a/1083273645_473283），OpenAI 缺席 6.1 Astra（TechCrunch 稿确认「因安全暂停」），Google 打缓存价格战——10 月盯 Anthropic 正式掀桌与定价（≥$50 输出）能否撑住高毛利。"
+      "text": "Fable 5.5 未官宣已在跑（https://m.sohu.com/a/1083273645_473283），OpenAI 缺席 6.1 Astra（TechCrunch 稿确认「因安全暂停」），Google 打缓存价格战——10 月盯 Anthropic 正式掀桌与定价（≥$50 输出）能否撑住高毛利。",
+      "sigId": null
     },
     {
       "lead": "Decision model 三级跳收官",
-      "text": "Amazon 2B 开源 + Perplexity 27B 开源 + 社区复现——「小决策核+大模型兜底」正在成为 toB agent 交付的标准成本模板，编排层报价会被重写。"
+      "text": "Amazon 2B 开源 + Perplexity 27B 开源 + 社区复现——「小决策核+大模型兜底」正在成为 toB agent 交付的标准成本模板，编排层报价会被重写。",
+      "sigId": null
     },
     {
       "lead": "Agent 安全进入司法与时政期",
-      "text": "HF 被黑诉讼 + 解雇安全研究员 + Grok 军政使用披露 + arXiv 激进化论文（https://arxiv.org/abs/2609.38296）——第三方审计、行为对齐、agent 身份管理（OpenID 规范重回 HN 热议）的付费需求同步放大。"
+      "text": "HF 被黑诉讼 + 解雇安全研究员 + Grok 军政使用披露 + arXiv 激进化论文（https://arxiv.org/abs/2609.38296）——第三方审计、行为对齐、agent 身份管理（OpenID 规范重回 HN 热议）的付费需求同步放大。",
+      "sigId": null
     }
   ],
   "sourceStatus": [

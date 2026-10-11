@@ -523,7 +523,18 @@
       ]
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "lead": "Gemini 4 Carbon 的 RSI 验证窗",
+      "text": "（SIG-20261010-1500-1，check 2026-10-14）：核 The Information 原始报道与第三方跑分；Carbon 与 Argon 是否分档发布。",
+      "sigId": "SIG-20261010-1500-1"
+    },
+    {
+      "lead": "决策模型品类三连击的收敛",
+      "text": "（SIG-20261010-1500-2，check 2026-10-17）：核 Microsoft-Decision-1 Foundry 官方文档/定价、Qwen 系表态，以及 Jev/Decisions API 的基准对垒。 继续跟踪：SIG-20261009-1500-1（Argon 官宣窗口，check 10-14）、SIG-20261007-0900-1（722 篇数学手稿验证窗，check 10-14）、SIG-20261006-2100-1（大模型双 IPO，check 10-17）。",
+      "sigId": "SIG-20261010-1500-2"
+    }
+  ],
   "sourceStatus": [
     "- 本期 29 源全部 OK，无 DOWN/FALLBACK、无连续失败。",
     "- 备注：VentureBeat 在断联 15 期后首次连通（0 条增量），继续观察；HN 主源超时由 Algolia 兜底吸收、OpenAI RSS 403 走渲染兜底，均无条目损失；搜狐三镜像各 parse_loss 2~4 条。"

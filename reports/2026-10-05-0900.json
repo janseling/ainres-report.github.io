@@ -816,19 +816,23 @@
   "signals": [
     {
       "lead": "GPT-6.1 Astra 回归前夜",
-      "text": "机器之心（2026-10-04 23:36）传 Anthropic 的 Tibo 预告「Astra 6.1 要来了」、OpenAI 研究员 Rajan Agarwal 同步公开征集「sloppy code」案例（https://m.sohu.com/a/1084023349_129720）——9/29 宣布「因安全未发布」的 GPT-6.1 大概率以「代码品味治理」为卖点回归，盯上线定价与 agent 交付指标。"
+      "text": "机器之心（2026-10-04 23:36）传 Anthropic 的 Tibo 预告「Astra 6.1 要来了」、OpenAI 研究员 Rajan Agarwal 同步公开征集「sloppy code」案例（https://m.sohu.com/a/1084023349_129720）——9/29 宣布「因安全未发布」的 GPT-6.1 大概率以「代码品味治理」为卖点回归，盯上线定价与 agent 交付指标。",
+      "sigId": null
     },
     {
       "lead": "决策模型成本曲线",
-      "text": "Jev 万亿 token/日的营收引擎 + StartLux/Amazon/Perplexity 一周内全部开源——「决策核」正在成为 toB agent 交付的默认组件，编排层报价需要重算。"
+      "text": "Jev 万亿 token/日的营收引擎 + StartLux/Amazon/Perplexity 一周内全部开源——「决策核」正在成为 toB agent 交付的默认组件，编排层报价需要重算。",
+      "sigId": null
     },
     {
       "lead": "FDE 万人培训窗口",
-      "text": "Anthropic Frontier Academy（$100M/1 万人，10-02 23:01 UTC 官宣、超窗口 2h 未单列）+ AWS $10 亿——「交付者教育」成为新业态，课程/认证/猎头三种生意同步成立。"
+      "text": "Anthropic Frontier Academy（$100M/1 万人，10-02 23:01 UTC 官宣、超窗口 2h 未单列）+ AWS $10 亿——「交付者教育」成为新业态，课程/认证/猎头三种生意同步成立。",
+      "sigId": null
     },
     {
       "lead": "内存供给趋紧",
-      "text": "Micron CEO 称 2027-2028 内存供给比 2026 更紧张（r/LocalLLaMA·2026-10-05 凌晨）——端侧/边缘推理的硬件成本曲线值得盯。"
+      "text": "Micron CEO 称 2027-2028 内存供给比 2026 更紧张（r/LocalLLaMA·2026-10-05 凌晨）——端侧/边缘推理的硬件成本曲线值得盯。",
+      "sigId": null
     }
   ],
   "sourceStatus": [

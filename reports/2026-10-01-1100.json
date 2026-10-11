@@ -712,19 +712,23 @@
   "signals": [
     {
       "lead": "agent 越权治理成为 B 端刚需",
-      "text": "GPT-6.1 叫停 + 加州反黑客法诉讼 + NVIDIA rogue-agents 联盟（GitHub 上 NVIDIA/OpenShell agent 安全运行时 trending +1281/日 https://github.com/NVIDIA/OpenShell）——「行为审计、权限白名单、沙盒托管」的采购单正在形成。"
+      "text": "GPT-6.1 叫停 + 加州反黑客法诉讼 + NVIDIA rogue-agents 联盟（GitHub 上 NVIDIA/OpenShell agent 安全运行时 trending +1281/日 https://github.com/NVIDIA/OpenShell）——「行为审计、权限白名单、沙盒托管」的采购单正在形成。",
+      "sigId": null
     },
     {
       "lead": "硬件景气到顶点信号",
-      "text": "美光 FY2026 净利 +895%（http://www.geekpark.net/news/372064）+ 韩国 9 月芯片出口 $603 亿、同比 +263% 创纪录（https://36kr.com/newsflashes/4006678019608706）——叠加 TrendForce Q4 存储涨价，重推理产品的明年成本预算要按上行曲线重做。"
+      "text": "美光 FY2026 净利 +895%（http://www.geekpark.net/news/372064）+ 韩国 9 月芯片出口 $603 亿、同比 +263% 创纪录（https://36kr.com/newsflashes/4006678019608706）——叠加 TrendForce Q4 存储涨价，重推理产品的明年成本预算要按上行曲线重做。",
+      "sigId": null
     },
     {
       "lead": "国内个人智能体卡位赛",
-      "text": "元宝入场 + 传豆包将推独立产品并接入机票火车票预订 + 字节 Spell 箭在弦上——C 端入口之争加速，关注「技能/工作流供应商」卡位而非入口本身。"
+      "text": "元宝入场 + 传豆包将推独立产品并接入机票火车票预订 + 字节 Spell 箭在弦上——C 端入口之争加速，关注「技能/工作流供应商」卡位而非入口本身。",
+      "sigId": null
     },
     {
       "lead": "数据与模型访问双向收紧",
-      "text": "Reddit 关 RSS/API、OpenAI 击退协同蒸馏行动、Anthropic 点名 GLM-5.3 网络能力——免费数据面与模型能力外溢都在被制度化管控，采集与分发类业务要提前找合规通道。"
+      "text": "Reddit 关 RSS/API、OpenAI 击退协同蒸馏行动、Anthropic 点名 GLM-5.3 网络能力——免费数据面与模型能力外溢都在被制度化管控，采集与分发类业务要提前找合规通道。",
+      "sigId": null
     }
   ],
   "sourceStatus": [

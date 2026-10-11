@@ -641,15 +641,18 @@
   "signals": [
     {
       "lead": "H-JEPA 开源复现窗",
-      "text": "LeCun 世界模型首份答卷代码权重全开源，盯社区复现/复刻、机器人与 Agent 仿真场景采用（check 10-15）。"
+      "text": "LeCun 世界模型首份答卷代码权重全开源，盯社区复现/复刻、机器人与 Agent 仿真场景采用（check 10-15）。",
+      "sigId": null
     },
     {
       "lead": "字节 AI 影视激励落地",
-      "text": "单项目激励百万的报名量、首批入选作品、结算结构（与 Seedance 合作计划并线）（check 10-15）。"
+      "text": "单项目激励百万的报名量、首批入选作品、结算结构（与 Seedance 合作计划并线）（check 10-15）。",
+      "sigId": null
     },
     {
       "lead": "AI agent × 平台权限攻防",
-      "text": "苹果收紧 Mac 完全磁盘访问 × Un-Mused 调试绕过 × REA 逆向爆火——盯苹果规则变更文档、Meta 回应与 REA 仓库治理反应（check 10-14）。"
+      "text": "苹果收紧 Mac 完全磁盘访问 × Un-Mused 调试绕过 × REA 逆向爆火——盯苹果规则变更文档、Meta 回应与 REA 仓库治理反应（check 10-14）。",
+      "sigId": null
     }
   ],
   "sourceStatus": [

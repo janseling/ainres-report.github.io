@@ -690,19 +690,23 @@
   "signals": [
     {
       "lead": "「按 AI 员工计价」",
-      "text": "OpenAI 从卖 token 转向按交付工作量+速度计费（Pro 500 独享 Astra Ultrafast 高速档）——订阅制天花板已现，观察国内模型厂是否跟进「员工制套餐」，这会改写国内 API 创业者的成本模型。"
+      "text": "OpenAI 从卖 token 转向按交付工作量+速度计费（Pro 500 独享 Astra Ultrafast 高速档）——订阅制天花板已现，观察国内模型厂是否跟进「员工制套餐」，这会改写国内 API 创业者的成本模型。",
+      "sigId": null
     },
     {
       "lead": "美国监管双轨化",
-      "text": "联邦改名「Super Intelligence」+ 反对新联邦监管，佛州禁令动议与加州反黑客诉讼在州端加码——出海美国业务的合规框架要按「最严州」设计。"
+      "text": "联邦改名「Super Intelligence」+ 反对新联邦监管，佛州禁令动议与加州反黑客诉讼在州端加码——出海美国业务的合规框架要按「最严州」设计。",
+      "sigId": null
     },
     {
       "lead": "可灵 4.0 十月正式上线",
-      "text": "与 Sora/Veo 横评 + 4.0 Flash 定价落地，AI 视频广告/短剧生产管线的成本账重算，变现窗口随之开关。"
+      "text": "与 Sora/Veo 横评 + 4.0 Flash 定价落地，AI 视频广告/短剧生产管线的成本账重算，变现窗口随之开关。",
+      "sigId": null
     },
     {
       "lead": "Agent 安全合规采购潮",
-      "text": "澳洲事件细节曝光 + Nvidia 安全联盟（OpenAI 不公开站台、私下合作）+ 加州诉讼多线并进，Q4 或出现首批「agent 审计/权限治理」B 端招标。"
+      "text": "澳洲事件细节曝光 + Nvidia 安全联盟（OpenAI 不公开站台、私下合作）+ 加州诉讼多线并进，Q4 或出现首批「agent 审计/权限治理」B 端招标。",
+      "sigId": null
     }
   ],
   "sourceStatus": [

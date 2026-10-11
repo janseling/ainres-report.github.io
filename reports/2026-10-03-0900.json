@@ -508,15 +508,18 @@
   "signals": [
     {
       "lead": "桌面 agent × OS 权限治理",
-      "text": "（新）：Apple FDA 收紧后，盯 OpenAI/Meta 桌面端是否改默认权限请求、其他 OS 是否跟进——交付合规需求将随平台规则一起放大。"
+      "text": "（新）：Apple FDA 收紧后，盯 OpenAI/Meta 桌面端是否改默认权限请求、其他 OS 是否跟进——交付合规需求将随平台规则一起放大。",
+      "sigId": null
     },
     {
       "lead": "版权方参投+授权和解模板",
-      "text": "（新）：Stability AI × 三大唱片是第一例；盯后续三款音频模型的实际发布节奏与数据披露，观察同类「和解换授权」是否外溢到视觉/视频侧。"
+      "text": "（新）：Stability AI × 三大唱片是第一例；盯后续三款音频模型的实际发布节奏与数据披露，观察同类「和解换授权」是否外溢到视觉/视频侧。",
+      "sigId": null
     },
     {
       "lead": "归因过滤训练配方开源",
-      "text": "（新，https://huggingface.co/blog/allenai/astabrief）：AstaBrief 开源后两周内，盯 repo 采用与企业报告场景的衍生项目。"
+      "text": "（新，https://huggingface.co/blog/allenai/astabrief）：AstaBrief 开源后两周内，盯 repo 采用与企业报告场景的衍生项目。",
+      "sigId": null
     }
   ],
   "sourceStatus": [

@@ -314,11 +314,13 @@
   "signals": [
     {
       "lead": "Gemini 4 Argon 官宣与全量开放窗口",
-      "text": "部分用户已可用、配套 Antigravity/Concierge 被曝在准备（SIG-20261009-1500-1，check 2026-10-11）→ 核 blog.google/Gemini 应用更新与定价档。"
+      "text": "部分用户已可用、配套 Antigravity/Concierge 被曝在准备（SIG-20261009-1500-1，check 2026-10-11）→ 核 blog.google/Gemini 应用更新与定价档。",
+      "sigId": "SIG-20261009-1500-1"
     },
     {
       "lead": "Sol Ultrafast 「速度单独定价」口碑危机",
-      "text": "6x 计价+额度消耗更快遭怒喷变相涨价（SIG-20261009-1500-3，check 2026-10-13）→ 核 OpenAI 是否调整额度/计价口径、同业跟价。 继续跟踪：SIG-20261006-0900-1 军令状节奏（Day-4 已兑付，check 10-13）；SIG-20261008-2100-1/2 将于 10-15 到期。"
+      "text": "6x 计价+额度消耗更快遭怒喷变相涨价（SIG-20261009-1500-3，check 2026-10-13）→ 核 OpenAI 是否调整额度/计价口径、同业跟价。 继续跟踪：SIG-20261006-0900-1 军令状节奏（Day-4 已兑付，check 10-13）；SIG-20261008-2100-1/2 将于 10-15 到期。",
+      "sigId": "SIG-20261009-1500-3"
     }
   ],
   "sourceStatus": [

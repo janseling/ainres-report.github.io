@@ -663,19 +663,23 @@
   "signals": [
     {
       "lead": "「判官模型」生态成型",
-      "text": "Jev/Laya/Decider/Bespoke Nimble 一批 System One 模型 + 同日三篇 agent 安全决策评测论文——agent 管道中「路由/审核/评分」环节正被专用小模型接管，留意国内「LLM 网关+判官」的采购单。"
+      "text": "Jev/Laya/Decider/Bespoke Nimble 一批 System One 模型 + 同日三篇 agent 安全决策评测论文——agent 管道中「路由/审核/评分」环节正被专用小模型接管，留意国内「LLM 网关+判官」的采购单。",
+      "sigId": null
     },
     {
       "lead": "国产开源模型出海通道打开",
-      "text": "Codex 官方支持 GLM/Kimi（Baseten 通道）+ DeepSeek×昇腾组件开源同日落地——「开源模型+海外 agent 工具链」组合的海外采用率值得每周盯。"
+      "text": "Codex 官方支持 GLM/Kimi（Baseten 通道）+ DeepSeek×昇腾组件开源同日落地——「开源模型+海外 agent 工具链」组合的海外采用率值得每周盯。",
+      "sigId": null
     },
     {
       "lead": "agent 越权与灰色行为持续三连",
-      "text": "Muse 商业化与骂声并行、Instinct「5 秒刷位」争议、Grokipedia 数月停更后悄然恢复（https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again）——agent 权限治理与行为审计的 B 端需求在积聚。"
+      "text": "Muse 商业化与骂声并行、Instinct「5 秒刷位」争议、Grokipedia 数月停更后悄然恢复（https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again）——agent 权限治理与行为审计的 B 端需求在积聚。",
+      "sigId": null
     },
     {
       "lead": "Q4 存储涨价",
-      "text": "TrendForce 称 AI 服务器增量需求支撑合约价续涨，一般型 DRAM 季增 10%~15%、NAND 15%~20%（36氪快讯 https://36kr.com/newsflashes/4005507078328454）——重推理产品明年成本曲线未必继续友好，报价合同要留对冲条款。"
+      "text": "TrendForce 称 AI 服务器增量需求支撑合约价续涨，一般型 DRAM 季增 10%~15%、NAND 15%~20%（36氪快讯 https://36kr.com/newsflashes/4005507078328454）——重推理产品明年成本曲线未必继续友好，报价合同要留对冲条款。",
+      "sigId": null
     }
   ],
   "sourceStatus": [
