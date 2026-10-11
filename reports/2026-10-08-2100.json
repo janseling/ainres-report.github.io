@@ -551,7 +551,24 @@
       ]
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "lead": "RTX Spark 端侧 Agent 实测潮",
+      "text": "Surface Laptop Ultra/联想盲约开卖后，盯 llama.cpp/Ollama/MLX 对 RTX Spark 的适配跑分、OEM 跟随报价与微软本地+云端调度接口开放（SIG-20261008-2100-1，check 10-15）"
+    },
+    {
+      "lead": "视频生成「秒钱计价」战",
+      "text": "Vidu Q4 $0.014/秒之后，盯可灵/Sora/Runway 定价反应与短剧厂牌批量采用证据（SIG-20261008-2100-2，check 10-15）"
+    },
+    {
+      "lead": "个人 Agent 消费潮三笔硬验证",
+      "text": "Manus ARR 口径×Meta Muse 周活×Instinct 估值，盯订阅转化/留存披露与国内大厂对标产品入场（SIG-20261008-2100-3，check 10-18）"
+    },
+    {
+      "lead": "继续跟踪",
+      "text": "SIG-20261007-0900-1 数学出货进入官方撤回/修订循环（本期 🔬 首条）；SIG-20261006-2100-1 Anthropic IPO 盯 11 月挂牌窗口。"
+    }
+  ],
   "sourceStatus": [
     "- venturebeat：DOWN（连续 6 期，Vercel 挡板，渲染 0 条）——已达「连续失败 3+ 期建议停用」线，建议下期起移除或专项校验",
     "- gh-trending：DOWN（curl 出口超时 25s，cd1）——GitHub 网络问题，观察下期"
