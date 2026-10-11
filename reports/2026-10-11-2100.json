@@ -3,7 +3,7 @@
   "date": "2026-10-11",
   "time": "21:00",
   "title": "AI 情报 · 10-11 21:00 场",
-  "generatedAt": "2026-10-11T13:14:09.109Z",
+  "generatedAt": "2026-10-11T15:42:41.247Z",
   "coverage": "2026-10-11 15:00 → 21:05（Asia/Shanghai）",
   "notes": [
     "周末傍晚档：政策库/官源 0 增量，A 股公告与非 AI 闲聊帖已剔除"
@@ -101,6 +101,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+MacRumors/TechCrunch",
           "publish_time": "2026-10-11 15:33",
+          "event_time": "2026-10-09",
+          "event_time_inferred": false,
           "verify_note": "外部检索（MacRumors 2026-10-09 16:44 北京 首发「Apple Signs Hiring and Licensing Deal With AI Podcast Startup Huxe」；TechCrunch 10-11 03:50 北京 同报 disclose 细节； https://news.google.com/rss/articles/CBMijgFBVV95cUxOV1VMQXZ6bmk0U2dHZHJpTWV0NG5LTlpnTF8zRG5sWHhRaXRPR3YzSGRmZE9Sbk1pSkl0MVV1OFpYbC0zQ2NUSjg4M1JXZTYxdWZLSDJ5bHhUVnI2c1djeTBlalpxbnJIcURINk1TakdOVEhVLUsxN1hzeEswNUoxNk5xbDV1ZEd1WWtRSHRn?oc=5 ）",
           "entities": [
             {
@@ -194,6 +196,8 @@
           "confidence": "中",
           "confidence_note": "B单源·未见独立来源",
           "publish_time": "2026-10-11 16:22",
+          "event_time": "2026-10-10 20:21",
+          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 10-11，仅新浪同源同步；前序事件「庞加莱猜想 Lean4 形式化」HN 9-28/29 已档）",
           "entities": [
             {
