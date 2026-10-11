@@ -378,7 +378,7 @@ function render(rep, rs, idx, ctx){
       });
     });
     if(bi >= 0 && bs >= SIG_TH){
-      ovRows[bi].sig = true; if(!ovRows[bi].sigSeq) ovRows[bi].sigSeq = si+1; ovRows[bi].sigLead = s.lead || ''; ovRows[bi].sigText = s.text || '';
+      ovRows[bi].sig = true; if(!ovRows[bi].sigSeq){ ovRows[bi].sigSeq = si+1; ovRows[bi].sigId = s.sigId; } ovRows[bi].sigLead = s.lead || ''; ovRows[bi].sigText = s.text || '';
       if(ovRows[bi].aScore < 0.3){
         const b = bestItem(blob);
         if(b && b.sc > ovRows[bi].aScore){ ovRows[bi].anc = b.id; ovRows[bi].aScore = b.sc; }
@@ -388,7 +388,7 @@ function render(rep, rs, idx, ctx){
       const b = bestItem(t);
       const anc = (b && b.sc >= 0.3) ? b.id : null;
       const asc = (b && b.sc >= 0.3) ? b.sc : 0;
-      ovRows.push({ text:t, sig:true, sigSeq:si+1, sigLead:s.lead || '', sigText:s.text || '', anc:anc, aScore:asc });
+      ovRows.push({ text:t, sig:true, sigSeq:si+1, sigId:s.sigId, sigLead:s.lead || '', sigText:s.text || '', anc:anc, aScore:asc });
       ovClauses.push(rowsClauses(t));
     }
   });
