@@ -280,7 +280,7 @@ function render(rep, rs, idx, ctx){
     const sm = SEC_META[sec.key] || {icon:sec.icon||'📋', zh:sec.title||sec.key};
     const items = sec.items.map((it, ii)=>{
       const main = it.urls && it.urls[0];
-      const angles = (it.angles||[]).map(a=>`<div class="angle ${a.kind}"><span class="tag">${a.icon} ${esc(a.label)}</span><span class="txt">${mdLinks(a.text)}</span></div>`).join('');
+      const angles = (it.angles||[]).map(a=>`<div class="angle ${a.kind}"><span class="tag">${a.icon} ${esc(a.label)}</span><span class="txt">${sigLink(mdLinks(a.text))}</span></div>`).join('');
       const C3 = { '高':'hi', '中':'md', '低':'lo' };
       const v3chips = [];
       if (it.confidence) v3chips.push(`<span class="chip c3 ${C3[it.confidence]||''}">● ${esc(it.confidence)}${it.confidence_note?` · ${esc(it.confidence_note)}`:''}</span>`);
