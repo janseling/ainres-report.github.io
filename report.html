@@ -128,6 +128,10 @@ details.prov .prov-body span{overflow-wrap:anywhere}
 .ov-item.canjump:hover{color:var(--ink)}
 .jumptag{float:right;font-family:var(--mono);font-size:10.5px;color:var(--dim);opacity:.7;padding-left:12px}
 .sigtag{font-family:var(--mono);font-size:10.5px;color:var(--amber);border:1px solid rgba(232,163,61,.4);background:rgba(232,163,61,.07);padding:0 7px;border-radius:10px;margin-left:8px;white-space:nowrap;letter-spacing:.04em;vertical-align:1px}
+.siglink{color:var(--amber);text-decoration:none;border-bottom:1px solid rgba(232,163,61,.35)}
+.siglink:hover{border-bottom-color:rgba(232,163,61,.7)}
+.i-summary .siglink{color:var(--amber)}
+.ov-item[id^="sig-"]{scroll-margin-top:64px}
 
 /* ==== signals ==== */
 .signals{margin-top:14px}
@@ -179,6 +183,8 @@ details.prov .prov-body span{overflow-wrap:anywhere}
 <script>
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const mdLinks = s => esc(s).replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_m,t,u)=>`<a href="${u}" target="_blank" rel="noopener">${t}</a>`);
+const SIGRE = /SIG-(\d{4})(\d{2})(\d{2})-(\d{4})-(\d+)/g;
+const sigLink = txt => txt.replace(SIGRE, (_m,y,mo,dd,tm,n)=>`<a class="siglink" href="${repUrl(y+"-"+mo+"-"+dd+"-"+tm)}#sig-${n}" title="${y}-${mo}-${dd} ${tm} 场 · 信号 ${n}">${_m}</a>`);
 const URL_RE = /https?:\/\/[^\s，。；、）)<>"]+/g;
 const hostOf = u => { try { return new URL(u).hostname.replace('www.',''); } catch(e) { return '链接'; } };
 const domPill = u => `<a class="dp" href="${esc(u)}" title="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))} ↗</a>`;
@@ -298,7 +304,7 @@ function render(rep, rs, idx, ctx){
         <h3 class="i-title">${main?`<a href="${esc(main)}" target="_blank" rel="noopener">${esc(it.title)}</a><a class="ext" href="${esc(main)}" target="_blank" rel="noopener">原文 ↗</a>`:esc(it.title)}</h3>
         ${it.meta?`<div class="i-meta">${esc(it.meta)}${it.event_time?` ｜ ${it.event_time_inferred?'~ ':''}事件 ${esc(it.event_time)}${it.event_time_inferred?'（推断）':''}`:''}</div>`:''}
         ${v3html}
-        ${it.summary?`<div class="i-summary">${it.summaryHtml || mdLinks(it.summary)}</div>`:''}
+        ${it.summary?`<div class="i-summary">${sigLink(it.summaryHtml || mdLinks(it.summary))}</div>`:''}
         ${angles?`<div class="angles">${angles}</div>`:''}
         ${verHtml}${provHtml}
       </article>`;
@@ -357,7 +363,7 @@ function render(rep, rs, idx, ctx){
   };
   const ovRows = (rep.overview||[]).map(o=>({ text:o, sig:false, anc:null, aScore:0 }));
   const ovClauses = ovRows.map(r=>rowsClauses(r.text));
-  (rep.signals||[]).forEach(s=>{
+  (rep.signals||[]).forEach((s,si)=>{
     const blob = (s.lead||'') + '，' + (s.text||'');
     const bn = normT(blob), sb = grams2(blob);
     let bi = -1, bs = 0;
@@ -371,7 +377,7 @@ function render(rep, rs, idx, ctx){
       });
     });
     if(bi >= 0 && bs >= SIG_TH){
-      ovRows[bi].sig = true; ovRows[bi].sigLead = s.lead || ''; ovRows[bi].sigText = s.text || '';
+      ovRows[bi].sig = true; if(!ovRows[bi].sigSeq) ovRows[bi].sigSeq = si+1; ovRows[bi].sigLead = s.lead || ''; ovRows[bi].sigText = s.text || '';
       if(ovRows[bi].aScore < 0.3){
         const b = bestItem(blob);
         if(b && b.sc > ovRows[bi].aScore){ ovRows[bi].anc = b.id; ovRows[bi].aScore = b.sc; }
@@ -381,7 +387,7 @@ function render(rep, rs, idx, ctx){
       const b = bestItem(t);
       const anc = (b && b.sc >= 0.3) ? b.id : null;
       const asc = (b && b.sc >= 0.3) ? b.sc : 0;
-      ovRows.push({ text:t, sig:true, sigLead:s.lead || '', sigText:s.text || '', anc:anc, aScore:asc });
+      ovRows.push({ text:t, sig:true, sigSeq:si+1, sigLead:s.lead || '', sigText:s.text || '', anc:anc, aScore:asc });
       ovClauses.push(rowsClauses(t));
     }
   });
@@ -390,7 +396,7 @@ function render(rep, rs, idx, ctx){
     const cr = (!a && r.sig && older && older.id) ? older.id : null;
     const ct = cr ? (r.text||'') + '；' + (r.sigLead||'') + '；' + (r.sigText||'') : '';
     const mark = r.sig?`<span class="sigtag" title="${esc('值得跟踪：'+(r.sigLead||'跟踪信号'))}">🧭 跟踪</span>`:'';
-    return `<div class="ov-item${(a||cr)?' canjump':''}"${a?` data-jump="it-${esc(a)}"`:''}${cr?` data-cross="${esc(cr)}" data-crosstext="${esc(ct)}"`:''}>${mdLinks(r.text)}${mark}${a?'<span class="jumptag">条目 ↳</span>':(cr?'<span class="jumptag">上期 ↳</span>':'')}</div>`;
+    return `<div class="ov-item${(a||cr)?' canjump':''}"${(r.sig&&r.sigSeq)?` id="sig-${r.sigSeq}"`:''}${a?` data-jump="it-${esc(a)}"`:''}${cr?` data-cross="${esc(cr)}" data-crosstext="${esc(ct)}"`:''}>${sigLink(mdLinks(r.text))}${mark}${a?'<span class="jumptag">条目 ↳</span>':(cr?'<span class="jumptag">上期 ↳</span>':'')}</div>`;
   }).join('');
 
   document.getElementById('wrap').innerHTML = `
@@ -448,7 +454,7 @@ function render(rep, rs, idx, ctx){
       .catch(()=>say('加载失败'))
       .finally(()=>{ el.dataset.bsy = ''; });
   };
-  document.querySelectorAll('.ov-item[data-jump], .ov-item[data-cross]').forEach(el=>el.addEventListener('click',()=>{
+  document.querySelectorAll('.ov-item[data-jump], .ov-item[data-cross]').forEach(el=>el.addEventListener('click',ev=>{ if(ev.target.closest('a')) return;
     const hj = el.getAttribute('data-jump');
     if(hj){
       location.hash = hj;
