@@ -3,7 +3,7 @@
   "date": "2026-10-11",
   "time": "09:00",
   "title": "AI 情报 · 10-11 09:00 场",
-  "generatedAt": "2026-10-11T01:08:44.086Z",
+  "generatedAt": "2026-10-11T01:11:13.239Z",
   "coverage": "2026-10-10 21:00 → 2026-10-11 09:05（Asia/Shanghai，fetch 窗口口径）",
   "notes": [
     "昨日 21:00 场后首个场次，无重复；GitHub Trending 源超时（首期 DOWN）；Jev/TypeSafe 昨日已报，36kr 两篇同事件深稿不重收"
@@ -316,11 +316,18 @@
           "urls": [
             "https://www.reddit.com/r/OpenAI/comments/1x2syz2/i_read_all_242_lean_scope_notes_in_openais_math"
           ],
-          "summary": "- 📌 跟踪回访 SIG-20261007-0900-1：722 篇数学稿争议新增第三方审读证据线（若坐实，官方「Lean 形式化率 42%」口径要打折）——第三方完整复现仍未发生，SIG 维持 open。",
-          "angles": [],
+          "summary": "若坐实，「headline 结论被 Lean 覆盖的部分有限」将直接拷问官方「Lean 形式化率 42%」口径——验证范围与对外叙事的落差比证明本身更值钱。- 📌 跟踪回访 SIG-20261007-0900-1：722 篇数学稿争议新增第三方审读证据线（若坐实，官方「Lean 形式化率 42%」口径要打折）——第三方完整复现仍未发生，SIG 维持 open。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "审读帖给了完整复验路径（commit+逐族 scope notes），是本轮数学稿争议中首个可低成本交叉验证的独立动作。"
+            }
+          ],
           "source_tier": "D",
           "type_tags": [
-            "技术进展"
+            "技术进展 / 安全"
           ],
           "confidence": "低",
           "confidence_note": "D源·社区审读未独立佐证",
