@@ -395,7 +395,7 @@ function render(rep, rs, idx, ctx){
   const ovHtml = ovRows.map(r=>{
     const a = anchorOf(r.text) || r.anc || null;
     const sm = r.sig ? ((r.sigText||'').match(SIGONE) || (r.text||'').match(SIGONE) || null) : null;
-    const sid = sm ? 'sig-' + sm[0].slice(4) : null;
+    const sid = sm ? 'sig-' + sm[0].slice(4) : (r.sigSeq ? 'sig-' + String(rep.id).replace(/-/g,'') + '-' + r.sigSeq : null);
     const cr = (!a && r.sig && older && older.id) ? older.id : null;
     const ct = cr ? (r.text||'') + '；' + (r.sigLead||'') + '；' + (r.sigText||'') : '';
     const mark = r.sig?`<span class="sigtag" title="${esc('值得跟踪：'+(r.sigLead||'跟踪信号'))}">🧭 跟踪</span>`:'';
