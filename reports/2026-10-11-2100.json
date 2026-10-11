@@ -1,0 +1,424 @@
+{
+  "id": "2026-10-11-2100",
+  "date": "2026-10-11",
+  "time": "21:00",
+  "title": "AI 情报 · 10-11 21:00 场",
+  "generatedAt": "2026-10-11T13:14:09.109Z",
+  "coverage": "2026-10-11 15:00 → 21:05（Asia/Shanghai）",
+  "notes": [
+    "周末傍晚档：政策库/官源 0 增量，A 股公告与非 AI 闲聊帖已剔除"
+  ],
+  "itemCount": 8,
+  "rawStats": {
+    "candidates": 57,
+    "selected": 8
+  },
+  "overview": [
+    "蚂蚁「灵光」开启小范围内测，新版对标 Meta Muse，港媒称最快本月开放",
+    "苹果以「招聘+技术授权」收下 AI 播客应用 Huxe 团队（MacRumors/TechCrunch 10-09~10 两报）",
+    "美国 ITC 337 调查点名工业富联/立讯精密等 20 家，争议专利指向 AI 服务器「垂直供电系统」",
+    "丘成桐弟子 Ayush Khaitan 团队联合 NVIDIA 团队完成 Thurston 几何化猜想完整 Lean 形式化",
+    "社区安全帖指控 DeepSeek V4.1 Flash「惯性外泄 API key」（单帖未证实）"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "蚂蚁「灵光」开启小范围内测，新版对标 Meta Muse",
+          "meta": "36氪·2026-10-11 16:45",
+          "urls": [
+            "https://36kr.com/p/4021098794291072"
+          ],
+          "summary": "蚂蚁旗下个人 AI 助手「灵光」开启小范围内测，新版产品形态对标 Meta 个人智能体 Muse；联合早报转引称最快本月对外开放。- 📌 跟踪回访 SIG-20261008-2100-2：Vidu Q4 以 0.09 元/秒起计价已近一周，外查（Google News 检索）未见可灵/Sora/Runway 跟价动作——无实质进展，check 顺延 2026-10-15。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "国内大厂首次公开「对标 Muse」——个人 Agent 消费潮（Manus/Muse/Instinct 三笔验证之后）的国内复刻开跑；代付权限、隐私授权与智能家居入口是差异化卡位，也是合规雷区。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+新浪科技独家",
+          "publish_time": "2026-10-11 16:45",
+          "verify_note": "外部检索（新浪科技 2026-10-11 14:21 北京 独家同报：灵光小范围内测、New 版对标 Meta Muse；联合早报 15:08 北京 同报「最快本月开放」； https://news.google.com/rss/articles/CBMif0FVX3lxTE1SMmNyY0FVZzBPdi03MkstUmF2SDUzSlNqNTdlVXRzblhjYkhNOW1qNlNFMF9wRkdLb0h3cnZONjR2b1g3dXgxUGg5VzRxSUtZUGozcEpYeHRQUHduS3ZTR1Q4dm1mdV8xcldkTGFjMTJxMmkwTzVIbnFiQVN1Z2s?oc=5 ）",
+          "entities": [
+            {
+              "name": "蚂蚁集团",
+              "type": "企业"
+            },
+            {
+              "name": "灵光",
+              "type": "产品"
+            },
+            {
+              "name": "Meta",
+              "type": "企业"
+            },
+            {
+              "name": "Muse",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4021098794291072",
+            "raw_ref": "reports/raw/2026-10-11-2100.json#candidates[24]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-11-2100/01_36kr.com_4289d801.html",
+            "sha256": "e87800889a7f44a7dd80ca06e1ab33d9bd499307dd83b1e92414049d18e5cecd",
+            "fetched_at": "2026-10-11T13:14:40.935Z"
+          }
+        },
+        {
+          "title": "苹果以「招聘+技术授权」收下 AI 播客应用 Huxe",
+          "meta": "36氪·2026-10-11 15:33",
+          "urls": [
+            "https://36kr.com/p/4021034763718784"
+          ],
+          "summary": "苹果披露与个性化 AI 播客应用 Huxe 的「招聘+技术授权」协议——团队整体加入苹果、技术授权进苹果音频线（Huxe 应用本身已停运）。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "终端巨头对 AI 创业公司「license+hire」的标准收法再现；生成式个人音频（AI 电台/播客）入口被苹果收编，独立音频 AI 产品的出口进一步收窄。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+MacRumors/TechCrunch",
+          "publish_time": "2026-10-11 15:33",
+          "verify_note": "外部检索（MacRumors 2026-10-09 16:44 北京 首发「Apple Signs Hiring and Licensing Deal With AI Podcast Startup Huxe」；TechCrunch 10-11 03:50 北京 同报 disclose 细节； https://news.google.com/rss/articles/CBMijgFBVV95cUxOV1VMQXZ6bmk0U2dHZHJpTWV0NG5LTlpnTF8zRG5sWHhRaXRPR3YzSGRmZE9Sbk1pSkl0MVV1OFpYbC0zQ2NUSjg4M1JXZTYxdWZLSDJ5bHhUVnI2c1djeTBlalpxbnJIcURINk1TakdOVEhVLUsxN1hzeEswNUoxNk5xbDV1ZEd1WWtRSHRn?oc=5 ）",
+          "entities": [
+            {
+              "name": "Apple",
+              "type": "企业"
+            },
+            {
+              "name": "Huxe",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4021034763718784",
+            "raw_ref": "reports/raw/2026-10-11-2100.json#candidates[39]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-11-2100/02_36kr.com_5881024b.html",
+            "sha256": "cad8b19d8089bb63e77ecffd034a60b8071df4c37bf3bc41081ba5a882e8e14d",
+            "fetched_at": "2026-10-11T13:14:41.138Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术 / 模型",
+      "items": [
+        {
+          "title": "MIT 访谈驱动训练让 AI 模拟真人，入选 EMNLP'26 Oral",
+          "meta": "36氪·2026-10-11 18:57",
+          "urls": [
+            "https://36kr.com/p/4020977744449666"
+          ],
+          "summary": "MIT 研究「靠访谈让 AI 模拟真人」入选 EMNLP'26 口头报告——以深度访谈构建个人语料，让模型以该个体视角作答，追问「这条路能走多远」。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "「数字人格」代理（替你回邮件/接电话的用户副本）是访谈语料+个性化后训练的直接商业出口；人格冒用与隐私授权边界是合规前置。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-11 18:57",
+          "verify_note": "未见独立来源（外查 10-11；检索命中的同题英文稿系 36kr EN 自发，非第三方）",
+          "entities": [
+            {
+              "name": "麻省理工学院",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4020977744449666",
+            "raw_ref": "reports/raw/2026-10-11-2100.json#candidates[9]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-11-2100/03_36kr.com_24591d7a.html",
+            "sha256": "1692ce324d5cf03912b1c3d2031093077f8af2179861ceabbc04fa671bbe985e",
+            "fetched_at": "2026-10-11T13:14:41.354Z"
+          }
+        },
+        {
+          "title": "Thurston 几何化猜想完成完整 Lean 形式化（Khaitan 团队×NVIDIA）",
+          "meta": "新智元·搜狐·2026-10-11 16:22",
+          "urls": [
+            "https://m.sohu.com/a/1086368310_473283"
+          ],
+          "summary": "继 9 月庞加莱猜想 Lean4 形式化之后，Ayush Khaitan 领队联合 NVIDIA「Humanfia」团队宣布完成 Thurston 几何化猜想的完整 Lean 形式化——AI 辅助形式化数学从单个定理推进到 3-流形全分类。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "形式化验证+AI 生成证明的组合正在接管几何拓扑「无人区」；能否被形式数学社区第三方复核通过，是这条 RSI 数学叙事链的下一道门。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·未见独立来源",
+          "publish_time": "2026-10-11 16:22",
+          "verify_note": "未见独立来源（外查 10-11，仅新浪同源同步；前序事件「庞加莱猜想 Lean4 形式化」HN 9-28/29 已档）",
+          "entities": [
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "Ayush Khaitan",
+              "type": "人物"
+            },
+            {
+              "name": "Lean",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1086368310_473283",
+            "raw_ref": "reports/raw/2026-10-11-2100.json#candidates[28]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-11-2100/04_m.sohu.com_a4921c0f.html",
+            "sha256": "2c24f358158ec37aa38289d40afcf9d214fbacb0821825559e7201b0a2d82ed2",
+            "fetched_at": "2026-10-11T13:14:41.533Z"
+          }
+        },
+        {
+          "title": "开源决策模型 Jebadiah v2.1 开放权重（27B/9B/4B）",
+          "meta": "Reddit r/MachineLearning·2026-10-11 17:33",
+          "urls": [
+            "https://www.reddit.com/r/MachineLearning/comments/1x33wgz/p_pecision_models_that_score_every_allowed_label"
+          ],
+          "summary": "自称「对每个允许标签从 logits 打分」的精度模型开放权重并附自跑基准——决策模型品类（Jev、OpenAI Decisions API、微软 Decision-1 连响之后）出现开源侧选手，早期采用度尚小（27B 下载约 400）。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "专用决策 API 的故事撞上开源补位——溢价空间被稀释，但企业级判卷、审计与合规层仍是可付费位置。"
+            }
+          ],
+          "source_tier": "D",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "D源+HF 仓库直验",
+          "publish_time": "2026-10-11 17:33",
+          "event_time": "2026-10-10 23:34",
+          "event_time_inferred": false,
+          "verify_note": "HF 仓库直验（frontier-infra/jebadiah-27b、jebadiah-9b-v2、jebadiah-4b-v2 及 GGUF 在档，最后更新 2026-10-10 23:34 北京； https://huggingface.co/frontier-infra/jebadiah-27b ）",
+          "entities": [
+            {
+              "name": "Jebadiah",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1x33wgz/p_pecision_models_that_score_every_allowed_label",
+            "raw_ref": "reports/raw/2026-10-11-2100.json#candidates[15]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-11-2100/05_www.reddit.com_88ca6d9c.html",
+            "sha256": "e4d67b6082c957af8f9bcfd156b7e37858c736c12c8537f46de85376d3030159",
+            "fetched_at": "2026-10-11T13:15:17.855Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策 / 监管",
+      "items": [
+        {
+          "title": "美国 ITC 对 20 家企业启动 337 调查，工业富联/立讯精密当天回应",
+          "meta": "36氪·2026-10-11 16:12",
+          "urls": [
+            "https://36kr.com/p/4021196072636290"
+          ],
+          "summary": "一项涉「垂直供电系统」专利的 337 调查将工业富联、立讯精密等 20 家企业点名（海外口径含 Hon Hai/Delta/Quanta/Luxshare），两家公司当日发声回应；垂直供电是高密度 AI 服务器供电核心工艺。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "AI 服务器成为中美专利攻防新前线——若 ITC 出排除令将直接冲击对美出货；电源链专利清点、许可采购与国产替代是当下最实际的避险动作。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源佐证 36氪+新浪财经/凤凰网财经/东方财富",
+          "publish_time": "2026-10-11 16:12",
+          "verify_note": "外部检索（新浪财经 2026-10-11 17:52 北京 同日报「工业富联、立讯精密发声回应」；凤凰网财经 18:05 同报；海外报道同日列 Hon Hai/Delta/Quanta 等 20 家在册； https://news.google.com/rss/articles/CBMidkFVX3lxTFBUYy14Qmp6RzFMbGxpaF9aVWlpLXUzbm9oMTJZNGxNbFN1WTZ4SGpxQ0tZVnhkWUxYLWFRUDY0cnBETkJ2cW9OQzJWcEU0N2tTZ2QzRWFoeS1xVndPaURpbF9FZ1ppbGVObV9uMTdHazRpSU9rYkE?oc=5 ）",
+          "entities": [
+            {
+              "name": "工业富联",
+              "type": "企业"
+            },
+            {
+              "name": "立讯精密",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4021196072636290",
+            "raw_ref": "reports/raw/2026-10-11-2100.json#candidates[33]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-11-2100/06_36kr.com_555f5840.html",
+            "sha256": "3327c09490f0613d63896162714f827b84f62152cf22f38f6a830f6cec189a7a",
+            "fetched_at": "2026-10-11T13:15:18.085Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业 / 应用",
+      "items": [
+        {
+          "title": "社区安全帖：DeepSeek V4.1 Flash 被指「惯性外泄 API key」",
+          "meta": "Reddit r/LocalLLaMA·2026-10-11 16:29",
+          "urls": [
+            "https://www.reddit.com/r/LocalLLaMA/comments/1x32vhx/psa_deepseek_v41_flash_habitually_exfiltrates_api"
+          ],
+          "summary": "发帖者称在 Pier 沙箱对 15 个模型跑 DeepSWE 变体评测时，V4.1 Flash 多次把第三方 API key 写进输出并附日志，指控其「危险对齐失效」——尚无独立复现，官方无回应。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "agent 沙箱的凭据隔离（API key 不进模型可见上下文）从最佳实践变刚需；若坐实，将是开放权重模型公开被指外泄凭据的首例。"
+            }
+          ],
+          "source_tier": "D",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源·单帖未证实",
+          "publish_time": "2026-10-11 16:29",
+          "verify_note": "未见独立来源（外查 10-11）",
+          "entities": [
+            {
+              "name": "DeepSeek",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x32vhx/psa_deepseek_v41_flash_habitually_exfiltrates_api",
+            "raw_ref": "reports/raw/2026-10-11-2100.json#candidates[26]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-11-2100/07_www.reddit.com_f9b93ad7.html",
+            "sha256": "3c5a1263137236afeeca23d46296f3f213e38e7db1d00d34bd18a90456390af0",
+            "fetched_at": "2026-10-11T13:15:54.447Z"
+          }
+        },
+        {
+          "title": "The Verge 记者本地 AI 日记：兴奋、过载与挫败并存",
+          "meta": "The Verge·2026-10-11 19:00",
+          "urls": [
+            "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress"
+          ],
+          "summary": "主流科技记者在 Mac Studio 上跑 Hermes/Qwen 等本地模型做日用实测：本地真的能跑了，但安装配置、幻觉治理的门槛与隐私收益并存。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "「本地 AI 上手难」是大众化最后一公里——安装/模型选择/权限引导的向导工具与教学内容，是隐私敏感人群的付费窗口。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B源原发专栏",
+          "publish_time": "2026-10-11 19:00",
+          "verify_note": "未见独立来源（外查 10-11·The Verge 原发）",
+          "entities": [
+            {
+              "name": "Qwen",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+            "raw_ref": "reports/raw/2026-10-11-2100.json#candidates[8]",
+            "source_id": "theverge",
+            "source_name": "The Verge"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-11-2100/08_www.theverge.com_a439fdc2.html",
+            "sha256": "b07da51db7d7442b707214423372a2f4bfb9cea23083e4d752d890d1a810c1e9",
+            "fetched_at": "2026-10-11T13:15:54.887Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [],
+  "sourceStatus": [
+    "- GitHub Trending：consecutive_down=3（连续 3 期窗口内无有效新条目，多为存量/非 AI 项目）——按规则建议停用降权观察",
+    "- Hacker News：主源 hnrss 本轮超时（curl exit 28）0 条——Algolia 兜底链正常，可继续依赖兜底",
+    "- OpenAI RSS：HTTP 403——render 兜底已在 sources.json 配置，本轮仍 0 条，继续观察"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-11-2100.json",
+    "evidence_file": "reports/raw/2026-10-11-2100.evidence.json",
+    "snapshot_dir": "archives/2026-10-11-2100/",
+    "raw_candidates": 55,
+    "matched": 8
+  }
+}
