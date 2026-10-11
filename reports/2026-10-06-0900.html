@@ -184,7 +184,8 @@ details.prov .prov-body span{overflow-wrap:anywhere}
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const mdLinks = s => esc(s).replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_m,t,u)=>`<a href="${u}" target="_blank" rel="noopener">${t}</a>`);
 const SIGRE = /SIG-(\d{4})(\d{2})(\d{2})-(\d{4})-(\d+)/g;
-const sigLink = txt => txt.replace(SIGRE, (_m,y,mo,dd,tm,n)=>`<a class="siglink" href="${repUrl(y+"-"+mo+"-"+dd+"-"+tm)}#sig-${n}" title="${y}-${mo}-${dd} ${tm} 场 · 信号 ${n}">${_m}</a>`);
+const SIGONE = /SIG-\d{8}-\d{4}-\d+/;
+const sigLink = txt => txt.replace(SIGRE, (_m,y,mo,dd,tm,n)=>`<a class="siglink" href="${repUrl(y+"-"+mo+"-"+dd+"-"+tm)}#sig-${y}${mo}${dd}-${tm}-${n}" title="${y}-${mo}-${dd} ${tm} 场 · 信号 ${n}">${_m}</a>`);
 const URL_RE = /https?:\/\/[^\s，。；、）)<>"]+/g;
 const hostOf = u => { try { return new URL(u).hostname.replace('www.',''); } catch(e) { return '链接'; } };
 const domPill = u => `<a class="dp" href="${esc(u)}" title="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))} ↗</a>`;
@@ -393,10 +394,12 @@ function render(rep, rs, idx, ctx){
   });
   const ovHtml = ovRows.map(r=>{
     const a = anchorOf(r.text) || r.anc || null;
+    const sm = r.sig ? ((r.sigText||'').match(SIGONE) || (r.text||'').match(SIGONE) || null) : null;
+    const sid = sm ? 'sig-' + sm[0].slice(4) : null;
     const cr = (!a && r.sig && older && older.id) ? older.id : null;
     const ct = cr ? (r.text||'') + '；' + (r.sigLead||'') + '；' + (r.sigText||'') : '';
     const mark = r.sig?`<span class="sigtag" title="${esc('值得跟踪：'+(r.sigLead||'跟踪信号'))}">🧭 跟踪</span>`:'';
-    return `<div class="ov-item${(a||cr)?' canjump':''}"${(r.sig&&r.sigSeq)?` id="sig-${r.sigSeq}"`:''}${a?` data-jump="it-${esc(a)}"`:''}${cr?` data-cross="${esc(cr)}" data-crosstext="${esc(ct)}"`:''}>${sigLink(mdLinks(r.text))}${mark}${a?'<span class="jumptag">条目 ↳</span>':(cr?'<span class="jumptag">上期 ↳</span>':'')}</div>`;
+    return `<div class="ov-item${(a||cr)?' canjump':''}"${sid?` id="${sid}"`:''}${a?` data-jump="it-${esc(a)}"`:''}${cr?` data-cross="${esc(cr)}" data-crosstext="${esc(ct)}"`:''}>${sigLink(mdLinks(r.text))}${mark}${a?'<span class="jumptag">条目 ↳</span>':(cr?'<span class="jumptag">上期 ↳</span>':'')}</div>`;
   }).join('');
 
   document.getElementById('wrap').innerHTML = `
