@@ -3,7 +3,7 @@
   "date": "2026-10-11",
   "time": "15:00",
   "title": "AI 情报 · 10-11 15:00 场",
-  "generatedAt": "2026-10-11T07:23:34.745Z",
+  "generatedAt": "2026-10-11T07:25:20.418Z",
   "coverage": "2026-10-11 09:00 → 15:05（Asia/Shanghai）",
   "notes": [],
   "itemCount": 12,
@@ -693,8 +693,8 @@
     },
     {
       "lead": "SIG-20261011-1500-2｜AgnesHarness 开源执行底座",
-      "text": "",
-      "sigId": null
+      "text": "FDE 方向可插拔 harness 开源（★103+tech-report）；盯 stars/issues 增长、首个企业级交付案例、与 Claude Code/OpenClaw 类宿主的兼容声明（check 2026-10-18）。",
+      "sigId": "SIG-20261011-1500-2"
     },
     {
       "lead": "SIG-20261011-1500-3｜OpenRSI Index 首批公开结果",

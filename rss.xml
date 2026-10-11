@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 11 Oct 2026 07:24:03 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 07:25:23 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-11 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-11-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-11-1500.html</guid>
+      <pubDate>Sun, 11 Oct 2026 07:00:00 GMT</pubDate>
+      <description>谷歌 Gemini Agent 亮相：跨 Workspace 统一工作 Agent + 职责化 Coworker Agent，任务可在 Gemini 与 Claude 间自动调度。</description>
+    </item>
     <item>
       <title>AI 情报 · 10-11 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-11-0900.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-05-0900.html</guid>
       <pubDate>Mon, 05 Oct 2026 01:00:00 GMT</pubDate>
       <description>决策模型赛道双响：Jev 母公司 TypeSafe 估值传 100 亿美元、日处理万亿 token；上海 StartLux 开源决策模型反超登顶</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-04 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-04-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-04-2100.html</guid>
-      <pubDate>Sun, 04 Oct 2026 13:00:00 GMT</pubDate>
-      <description>奥特曼发文警告「别把 AI 神化、别交出人类判断权」：「Claude 有意识」公共辩论假期发酵（10-02 场 NYT/梵蒂冈线的后续）</description>
     </item>
   </channel>
 </rss>
