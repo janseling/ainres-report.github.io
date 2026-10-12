@@ -41,24 +41,28 @@ h1{font-size:22px;font-weight:800;letter-spacing:.02em;line-height:1.35;margin:0
 .xchip{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11.5px;color:var(--amber);border:1px solid var(--line2,#31353f);border-radius:999px;padding:2px 10px}
 footer{margin-top:34px;font-size:12px;color:var(--dim)}
 @media (max-width:720px){.wrap{padding:18px 14px 40px}h1{font-size:19px}}
-.nvbar{position:relative;display:flex;align-items:center}
-.nv{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-family:var(--mono);font-size:12px;margin-left:auto}
-.nv a{color:var(--ink2);border:1px solid var(--line2);border-radius:999px;padding:3px 11px;white-space:nowrap;text-decoration:none}
-.nv a:hover{color:var(--amber);border-color:var(--dim)}
-.nv a.srch{color:var(--amber2);border-color:rgba(232,163,61,.55);background:rgba(232,163,61,.07)}
-.nv-btn{display:none;margin-left:auto;background:none;border:1px solid var(--line2);border-radius:6px;color:var(--ink2);font-size:15px;line-height:1;padding:4px 10px;cursor:pointer}
+.nvbar{position:sticky;top:0;z-index:20;background:rgba(12,13,16,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line,#262a33)}
+.nvbar .in{width:100%;max-width:760px;margin:0 auto;padding:8px 20px;display:flex;align-items:center;gap:8px;position:relative}
+.tb-brand{font-family:var(--mono);font-size:12px;letter-spacing:.16em;color:var(--dim,#77746a);white-space:nowrap}
+.tb-brand b{color:var(--amber,#e8a33d);font-weight:600}
+.tb-logo{height:16px;width:16px;border-radius:3px;flex:none;margin-right:5px;vertical-align:-3px}
+.nv{display:flex;flex-wrap:wrap;align-items:center;font-family:var(--mono);font-size:12px;margin-left:auto}
+.nv a{color:var(--ink2,#a5a294);text-decoration:none;white-space:nowrap;padding:6px 8px;border-radius:6px}
+.nv a:hover{color:var(--amber,#e8a33d)}
+.nv a.srch{color:var(--amber2,#f5c069)}
+.nv-btn{display:none;margin-left:auto;background:none;border:1px solid var(--line2,#31353f);border-radius:6px;color:var(--ink2,#a5a294);font-size:15px;line-height:1;padding:4px 10px;cursor:pointer}
 @media(max-width:720px){
 .nv-btn{display:block}
-.nv{display:none;position:absolute;top:42px;right:0;z-index:90;flex-direction:column;align-items:stretch;background:var(--panel,#15171e);border:1px solid var(--line2);border-radius:8px;padding:8px;box-shadow:0 10px 28px rgba(0,0,0,.45);margin-left:0;min-width:200px}
+.nv{display:none;position:absolute;top:40px;right:0;left:auto;z-index:90;flex-direction:column;align-items:stretch;background:var(--panel,#15171e);border:1px solid var(--line2,#31353f);border-radius:8px;padding:8px;box-shadow:0 10px 28px rgba(0,0,0,.45);margin-left:0;min-width:200px}
 .nv.open{display:flex}
-.nv a{border-color:transparent;padding:8px 12px}
+.nv a{padding:8px 12px}
 .nv a:hover{background:rgba(232,163,61,.06)}
 }
 </style>
 </head>
 <body>
 <div class="wrap">
-<div class="nvbar"><nav class="nv" id="nv"><a href="/">首页</a><a class="srch" href="/search.html">站内搜索</a><a href="/api.html">API 字段说明</a><a href="/rss.xml" target="_blank" rel="noopener">RSS 订阅 ↗</a><a href="/about.html">关于</a></nav><button class="nv-btn" id="nvBtn" aria-label="菜单">☰</button></div>
+<div class="nvbar"><div class="in"><a class="tb-brand" href="/" style="text-decoration:none"><img class="tb-logo" src="/icon.png" alt="">AI<b>情报</b>DB</a><nav class="nv" id="nv"><a href="/">首页</a><a class="srch" href="/search.html">🔍 站内检索</a><a href="/api.html">API 字段说明</a><a href="/rss.xml" target="_blank" rel="noopener">RSS 订阅 ↗</a><a href="/about.html">关于</a></nav><button class="nv-btn" id="nvBtn" aria-label="菜单">☰</button></div></div>
 <h1>Claude 渗流证明的形式社区背书</h1>
 <div class="meta"><span class="chip st-open">⏳ 跟踪中</span><span>登记 2026-10-07 15:10 场</span><span>next check 2026-10-12</span><span>1 期时间线 · 最新 10-07 15:10 场</span></div>
 <p class="lead">Anthropic 工程师 GitHub 静默提交 Lean 验证的渗流连续相变证明；第三方 percolation-after-anthropic 已钉为依赖并扩展 Kozma–Nitzan 不等式（VERIFICATION.md 记录复核）——若形式社区接收，Anthropic 数学叙事从传闻级升为硬成果</p>
