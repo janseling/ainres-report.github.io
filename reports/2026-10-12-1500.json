@@ -3,7 +3,7 @@
   "date": "2026-10-12",
   "time": "15:00",
   "title": "AI 情报 · 10-12 15:00 场",
-  "generatedAt": "2026-10-12T09:42:46.008Z",
+  "generatedAt": "2026-10-12T23:44:18.053Z",
   "coverage": "2026-10-12 09:00 → 15:05（Asia/Shanghai · fetch 窗口口径）",
   "notes": [
     "今日 09:00 场已收条目（Decart 收购/可灵 IPO/Reflection AI/陶哲轩数学 2.0/封号披露/元器停服/Vicor 专利战等）均已去重"
@@ -591,7 +591,7 @@
           ],
           "confidence": "高",
           "confidence_note": "主流媒体源·Reuters/NYT 同题趋势互证",
-          "publish_time": "2026-10-10",
+          "publish_time": "2026-10-10 13:00",
           "verify_note": "外部检索（Reuters 2026-10-08「Law firms give lawyers time off billing grind to test-drive AI」; news.google.com token 见 evidence.json）",
           "provenance": {
             "url": "https://www.cnbc.com/2026/10/10/ai-lawyers-billable-hour-legal-careers.html",
