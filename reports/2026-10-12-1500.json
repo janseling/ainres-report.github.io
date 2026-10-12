@@ -1,0 +1,624 @@
+{
+  "id": "2026-10-12-1500",
+  "date": "2026-10-12",
+  "time": "15:00",
+  "title": "AI 情报 · 10-12 15:00 场",
+  "generatedAt": "2026-10-12T07:10:41.501Z",
+  "coverage": "2026-10-12 09:00 → 15:05（Asia/Shanghai · fetch 窗口口径）",
+  "notes": [
+    "今日 09:00 场已收条目（Decart 收购/可灵 IPO/Reflection AI/陶哲轩数学 2.0/封号披露/元器停服/Vicor 专利战等）均已去重"
+  ],
+  "itemCount": 12,
+  "rawStats": {
+    "candidates": 204,
+    "selected": 12
+  },
+  "overview": [
+    "无问芯穹 23 亿元 C 轮落定：累计 43 亿，国内 AI Infra 最大单轮融资，战略全押 Agentic Infra",
+    "智谱悄然上线 GLM-5.3 高速版，输出近 500 t/s——「速度档」定价战从硅谷卷到中国",
+    "社区实测疑 Claude 新模型偷跑（「Claude Next」）：4 行提示出 3D 电影级画面，Anthropic 未官宣",
+    "马斯克亲口承认：全球攒够编程训练数据的只有 3 家——OpenAI/Anthropic/Cursor，xAI 不在其列",
+    "Axios 独家：OpenAI 与 Anthropic 秘密推演 AI 灾难「第二天」应对预案"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "无问芯穹完成 23 亿元 C 轮：累计 43 亿创国内 AI Infra 单轮融资纪录",
+          "meta": "36氪·2026-10-12 10:25",
+          "urls": [
+            "https://36kr.com/p/4022354331160454"
+          ],
+          "summary": "无问芯穹完成 23 亿元 C 轮融资，累计融资 43 亿元，创国内 AI Infra 赛道单轮融资纪录；公司战略转向「Agentic Infra」（智能体时代算力基础设施），此前已提出 AI 生产力公式（智能资源规模拆解）；凤凰网口径称其为 AI Infra 赛道的候选 IPO 标的。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "独立 AI Infra 厂商在大厂林立的夹缝里跑出最大单轮——agent 推理侧需求爆发被一级市场整体重定价；43 亿体量离 IPO 叙事更近，招股书式披露（客户结构/毛利）是下一批硬信息"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "agent 流量起来后「推理调度/弹性供给」成为独立可融资的层——应用团队不必自带算力，接入独立 infra 的议价窗口正在打开"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源佐证 36氪+新京报/上观/凤凰网",
+          "publish_time": "2026-10-12 10:25",
+          "verify_note": "外部检索（新京报 2026-10-12 11:11 北京同报「清华系独角兽无问芯穹完成23亿元C轮融资」; news.google.com/rss/articles/CBMicEFVX3lxTE9zak5xeTRkNmRJV3FQYnpLZTlCS1JMbjgtU0RhUEVLMDkxSll5VzY1NldaTi1qRkItYTJmMHNIQUVBVjhvVTBCVFBpc2xKdk5aTl8yQ1J2NXdoaVlMQVh1Si1ZUFNtUjV5SF9MSlNWNFc?oc=5）",
+          "entities": [
+            {
+              "name": "无问芯穹",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4022354331160454",
+            "raw_ref": "reports/raw/2026-10-12-1500.json#candidates[26]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-12-1500/01_36kr.com_27582be8.html",
+            "sha256": "3eddcc48bf8fc6abdc68c8ef0a7110106bb0695ab9773af1a7909d8c2fab3206",
+            "fetched_at": "2026-10-12T07:10:51.499Z"
+          }
+        },
+        {
+          "title": "智谱 GLM-5.3 高速版悄然亮相：输出近 500 t/s，先给编码「开倍速」",
+          "meta": "36氪·2026-10-12 13:55",
+          "urls": [
+            "https://36kr.com/p/4022354401104000"
+          ],
+          "summary": "智谱悄然上线 GLM-5.3 高速版：输出速度近每秒 500 token（量子位称 490 t/s），主打给写代码的过程「开倍速」；BigGo 报道称已在编码产品 ZCode 可用。速度从营销参数变成正式产品档位，此前 OpenAI 已把 Sol Ultrafast（300 t/s、6x 计价）立档。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "「速度单独定价」成全球 API 通用玩法——中国厂商把档位卷到 500 t/s 级，高速档的计价倍率与「烧额度」口碑是否在中国重演 Sol Ultrafast 争议是关键变量"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "编码 agent 对交互等待最敏感，「秒回」体验可由速度档直接重做——国内 coding 类产品可先吃高速档红利"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源佐证 36氪+智东西/量子位",
+          "publish_time": "2026-10-12 13:55",
+          "verify_note": "外部检索（智东西 2026-10-12 同题「每秒狂喷近500个token」; news.google.com/rss/articles/CBMiSEFVX3lxTE1FQ1AzV2xHYk8tZEdFZUQzMmp6azhxUEN3NS12QkhZYnBMbnJqRDZZeUw3ajdpaGozVkdlOUdZR2Y1NTJIdGdwNw?oc=5）",
+          "entities": [
+            {
+              "name": "智谱AI",
+              "type": "企业"
+            },
+            {
+              "name": "GLM",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4022354401104000",
+            "raw_ref": "reports/raw/2026-10-12-1500.json#candidates[27]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-12-1500/02_36kr.com_a0a7ebb2.html",
+            "sha256": "24dd2c08ee663ee6e6fe98c8bf7aab64fb6a892a721edb490918859d405847e7",
+            "fetched_at": "2026-10-12T07:10:51.699Z"
+          }
+        },
+        {
+          "title": "稚晖君系消费级机器人开卖：启元 Q1/T1 定价约 2~3 万元，上海首批交付已开跑",
+          "meta": "36氪·2026-10-10",
+          "urls": [
+            "https://36kr.com/p/4020176648755077"
+          ],
+          "summary": "上纬新材（稚晖君所在的智元系上市公司）开卖消费级启元 Q1/T1 机器人，定价约 2~3 万元「国产手机价位带」；10-05 启元多城联动发布会定档，10-07 上海开启首批交付，杭州大悦城体验店出现交付热潮（中华网口径）。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "智元系资本平台把「第二增长曲线」落到 To C 现金流——具身智能首批从「融资叙事」转「交付验证」的实测样本"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "与「虚假收入风波」（SIG-20261011-1500-4）对照着看：机器人判级正从估值排队转向真实交付验证，渠道与交付能力是下一个壁垒"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+凤凰网科技",
+          "publish_time": "2026-10-10",
+          "event_time": "2026-10-07",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（凤凰网科技 2026-10-07 同报「个人机器人落“沪”上海，上纬新材启元机器人开启首批交付」; news.google.com/rss/articles/CBMiTEFVX3lxTE1ZNk1SQU9zYWRvTFNHYlRiOTlYcEMtLUdSanEyNWZsQi1iX0ZXRVNGbjEyLUpaUnVDRmhmMXRfRkU5S25BMFdPc1F0aFI?oc=5）",
+          "entities": [
+            {
+              "name": "上纬新材",
+              "type": "企业"
+            },
+            {
+              "name": "启元",
+              "type": "产品"
+            },
+            {
+              "name": "稚晖君",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4020176648755077",
+            "raw_ref": "reports/raw/2026-10-12-1500.json#candidates[30]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-12-1500/03_36kr.com_66b74ef2.html",
+            "sha256": "a0f70d7689127e2fd573da956f7e7bbadafd041297b70419003883b3319f8fb5",
+            "fetched_at": "2026-10-12T07:10:51.934Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术 / 模型进展",
+      "items": [
+        {
+          "title": "社区实测疑 Claude 新模型偷跑：「Claude Next」4 行提示手搓 3D 电影级画面",
+          "meta": "36氪·2026-10-12 11:47",
+          "urls": [
+            "https://36kr.com/p/4022339459993481"
+          ],
+          "summary": "多位开发者连日实测称 Claude 疑似后台静默接入新一代 checkpoint：纯 JS 逐帧渲染出电影级 3D 动画（30 秒走完一生、平面涂鸦变立体、阴影随动），编码自主性/3D 渲染/空间推理被称「断层领先」；社区以「Claude Next」代称，猜测指向新 Opus、Opus 5.6 乃至 Fable 5.5——Anthropic 未官宣。📌 跟踪回访 SIG-20261006-0900-1：Fable 5.5 官宣仍未兑现，本轮新增社区实测偷跑传闻（未获官方确认）——官宣窗口信号维持 open",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "若「JS 逐帧渲染」路线坐实，视频/交互生成的算力成本结构会被改写（零 GPU 出片）——当前仅为社区口径，别急着押注"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "双源转述 36氪+新智元·源头系社区实测未获官方确认",
+          "publish_time": "2026-10-12 11:47",
+          "event_time": "2026-10-10",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（新智元搜狐镜像 2026-10-12 同题「4行提示手搓3D电影级大片」; m.sohu.com/a/1086617709_473283）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4022339459993481",
+            "raw_ref": "reports/raw/2026-10-12-1500.json#candidates[165]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-12-1500/04_36kr.com_6cc8fae0.html",
+            "sha256": "c82671cef91dab147f4bdccd3ae411fcf36fa8a042123c30af5c72164ab9bec0",
+            "fetched_at": "2026-10-12T07:10:52.168Z"
+          }
+        },
+        {
+          "title": "PhAI Labs 提出 RSI-Anything：把自我进化推到智能体任务全域",
+          "meta": "机器之心Pro·搜狐·2026-10-12 14:17",
+          "urls": [
+            "https://m.sohu.com/a/1086688317_129720"
+          ],
+          "summary": "RSI-Anything 把「自进化」从代码生成扩展到需持续观察、行动与环境交互的智能体任务：如化学反应优化中用世界模型预测催化剂/配体/溶剂，探索通用 RSI 新路径。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "RSI 叙事从「数学手稿」扩散到通用任务域，与 OpenRSI Index 公开评测线（SIG-20261011-1500-3）同向——「自进化」正变成跨厂商的基建叙事"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-12 14:17",
+          "verify_note": "未见独立来源（外查 10-12）",
+          "entities": [
+            {
+              "name": "PhAI Labs",
+              "type": "机构"
+            },
+            {
+              "name": "RSI-Anything",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1086688317_129720",
+            "raw_ref": "reports/raw/2026-10-12-1500.json#candidates[14]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-12-1500/05_m.sohu.com_9fc28341.html",
+            "sha256": "14f53e44ea7397bd544dfc674c7cc5fdc6e32397f74d6874656f7efbca9bfd92",
+            "fetched_at": "2026-10-12T07:10:52.312Z"
+          }
+        },
+        {
+          "title": "arXiv 实证拷问 Jev：更快的决策未必造出更好的 agent",
+          "meta": "arXiv·2026-10-12 12:00",
+          "urls": [
+            "https://arxiv.org/abs/2610.13092"
+          ],
+          "summary": "《When Faster Decisions Do Not Make Better Agents: An Empirical Study of Jev in Agent Workflows》（arXiv 2610.13092）：agent 依赖反复决策，Jev 让决策「更快更省」，但论文直问「换速度换成本是否真的更好」——决策品类（Jev/Decisions API/微软 Decision-1）的首批公开实证检验。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "$75 亿估值的决策品类刚拿完融资就遇上学术对线——采购叙事被迫从「延迟/成本」转向「决策质量」，效果审计是新的付费位（SIG-20261010-1500-2）"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·论文原文",
+          "publish_time": "2026-10-12 12:00",
+          "entities": [
+            {
+              "name": "arXiv",
+              "type": "机构"
+            },
+            {
+              "name": "Jev",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://arxiv.org/abs/2610.13092",
+            "raw_ref": "reports/raw/2026-10-12-1500.json#candidates[80]",
+            "source_id": "arxiv",
+            "source_name": "arXiv"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-12-1500/06_arxiv.org_594615cd.html",
+            "sha256": "174dcb8eb2d37831d8a22ea3f6746997c340e74bb373100f3926c0d0b706daa1",
+            "fetched_at": "2026-10-12T07:10:52.591Z"
+          }
+        },
+        {
+          "title": "跨维 UNITAS：自称全球首个「机器人任务原生」3D 世界模型",
+          "meta": "机器之心Pro·搜狐·2026-10-12 11:29",
+          "urls": [
+            "https://m.sohu.com/a/1086614618_129720"
+          ],
+          "summary": "UNITAS 不再从二维视觉推断三维，而是让模型直接在统一坐标系的三维 token 上学习物理直觉，宣称「全球首个机器人任务原生 3D 世界模型」并横扫多个榜单。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "世界模型从「先看 2D 再猜 3D」转向 3D 原生训练——机器人仿真与数据管线的成本结构是这条路线的胜负手（榜单为厂商自述，待第三方复核）"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-12 11:29",
+          "verify_note": "未见独立来源（外查 10-12）",
+          "entities": [
+            {
+              "name": "跨维智能",
+              "type": "企业"
+            },
+            {
+              "name": "UNITAS",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1086614618_129720",
+            "raw_ref": "reports/raw/2026-10-12-1500.json#candidates[169]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-12-1500/07_m.sohu.com_b408dbc9.html",
+            "sha256": "5bab6d76599383b6796329a9e339d6a62df55222e2c01397c4605818c15f55f7",
+            "fetched_at": "2026-10-12T07:10:52.813Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业 · 玩法",
+      "items": [
+        {
+          "title": "OpenAI 与 Anthropic 秘密推演 AI 灾难「第二天」预案（Axios 独家线）",
+          "meta": "36氪·2026-10-12 14:15",
+          "urls": [
+            "https://36kr.com/p/4022237879750785"
+          ],
+          "summary": "Axios 10-09 独家：OpenAI 与 Anthropic 正秘密推演「AI 灾难发生后的第二天」应对预案（含公众反弹/信任崩塌场景，「6 个月内引爆重大灾难」为推演设定）；Decrypt/Yahoo 同日跟进，36 氪今日首发式整理中文线。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "巨头把「灾后公众信任管理」做成正式预案——治理/合规/危机公关工具从企业级采购走向行业级，是 AI 治理的下一个真实付费位"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+Axios",
+          "publish_time": "2026-10-12 14:15",
+          "event_time": "2026-10-09",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Axios 2026-10-09 独家 scoop「AI companies plot “day after” scenarios for public revolt」; news.google.com/rss/articles/CBMid0FVX3lxTE1ha1RBX2ZHb3UzTExKcWhNY05zSVM4Q093ai1JU19kekVLMFFXZHBzUUxpQkpIOHZTN2NUUzBLSUNldEZZNEVjREkxT1gtRzdLZTRsZU1vck1mY09HdUVMQmR1X3lWdzZFcGoxWkJFNDVGcGx1ZTZN?oc=5）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4022237879750785",
+            "raw_ref": "reports/raw/2026-10-12-1500.json#candidates[17]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-12-1500/08_36kr.com_5d1caa49.html",
+            "sha256": "e7b6cab9128d885560606af36949aa80de50d96cb6c2317cb80dc32aadc21066",
+            "fetched_at": "2026-10-12T07:10:53.020Z"
+          }
+        },
+        {
+          "title": "马斯克亲口承认：攒够编程数据的全球只有 3 家，自己不在其中",
+          "meta": "36氪·2026-10-12 14:05",
+          "urls": [
+            "https://36kr.com/p/4022353646555013"
+          ],
+          "summary": "10-10 X Takeover 现场马斯克解释为何买 Cursor（背景：6~8 月已落定的 600 亿美元级收购）：要造像样的超级智能必须搞定编程，而全球攒够编程训练数据的只有 OpenAI、Anthropic、Cursor 三家，「谷歌勉强算半个」——xAI 自己原本没有入场券；Cursor 的护城河是数万亿 token 真实开发者交互数据，爬不到、造不出、只能靠真实程序员逐行攒。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "首富级买家为「真实开发者交互数据」定价背书——「交互数据=训练资产」的估值逻辑被官宣化，编码入口的收购溢价有了新锚点"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "编码产品的价值重心从模型挪到「真实使用数据的沉淀管道」——能攒出高质量开发者交互闭环的产品自带被收购叙事"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+新浪财经",
+          "publish_time": "2026-10-12 14:05",
+          "event_time": "2026-10-10",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（新浪财经 2026-10-12 同题收录三大口径; news.google.com/rss/articles/CBMipwFBVV95cUxPV3puYlJIdzdLQ0dCVnV0TnowbmRFQXA1WnZrQmF6cnZZeEZ3UFFuU21BUW16NlZFWHdUb21NSUhCMFZFaGwzamhNUUNzMlVOcVlTVU42Z3JmVmY4aEV4dTFPSC1Rbm5zS0F2Sm44ckdwdmpzMEdSUHlJcHhtelZtM0ZiWFNpbDB6UUFRTmFmWGNnaUI5RGJuYXRDNlVOSVZpYVMycExBRQ?oc=5）",
+          "entities": [
+            {
+              "name": "Elon Musk",
+              "type": "人物"
+            },
+            {
+              "name": "Cursor",
+              "type": "产品"
+            },
+            {
+              "name": "xAI",
+              "type": "企业"
+            },
+            {
+              "name": "Anysphere",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4022353646555013",
+            "raw_ref": "reports/raw/2026-10-12-1500.json#candidates[22]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-12-1500/09_36kr.com_330d8f6c.html",
+            "sha256": "7baadb181af3d250ee774157ac8ad8257be0ee255a59d955bc1354bae182dacb",
+            "fetched_at": "2026-10-12T07:10:53.259Z"
+          }
+        },
+        {
+          "title": "Karpathy：全球只有约 5000 人真正接触过最前沿 AI",
+          "meta": "机器之心Pro·搜狐·2026-10-12 10:21；36氪今日同题",
+          "urls": [
+            "https://m.sohu.com/a/1086578397_129720"
+          ],
+          "summary": "Karpathy 称全球只有约 5000 人真正接触过最前沿 AI，绝大多数人使用的是与前沿差距巨大的模型层——能力认知呈「四级折叠漏斗」：80 亿人用过 AI、20 亿人被蒙骗、2000 万人陷入「智能体眩晕」、5000 人触前沿；认知差随模型跃迁继续拉大。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "公众认知与前沿实况之间的巨差就是生意——面向亿万「还没接触前沿」用户的代理/科普/代做类产品是直接变现位；认知差在拉大，信息差产品时间窗还在开门（对找 AI 变现机会者，这是本期的元信号）"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源同报 机器之心+36氪+虎嗅/BlockBeats",
+          "publish_time": "2026-10-12 09:06",
+          "event_time": "2026-10-10",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（虎嗅 2026-10-12 同报「AI 使用漏斗：约5000人接触前沿系统」; news.google.com/rss/articles/CBMiVEFVX3lxTE80aUlHMVBNc282UFRTZDd1VVFOOUpvbGhzQ1JxTlpwV2dOdW5BaHRoY1hfTFZfNk5jcUJCWkpDRjRqRHNqaVlOdlB2Ukw4OFJuN2p4Tg?oc=5）",
+          "entities": [
+            {
+              "name": "Andrej Karpathy",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1086578397_129720",
+            "raw_ref": "reports/raw/2026-10-12-1500.json#candidates[186]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-12-1500/10_m.sohu.com_414df334.html",
+            "sha256": "8da14080d8c3b73b6680cc896f3d583491b6f1d1987653eda69122098ed6a572",
+            "fetched_at": "2026-10-12T07:10:53.461Z"
+          }
+        },
+        {
+          "title": "ARTEX 后续：开发者宣布把「AI 攻击工具」收归闭源，36氪复盘韩国 9 行被击穿教训",
+          "meta": "36氪·2026-10-12 14:16",
+          "urls": [
+            "https://36kr.com/p/4022247669372809"
+          ],
+          "summary": "韩国银行 AI 攻击事件后续：中国开发者开发的 ARTEX agent 工具此前被用于击穿 9 家韩国银行（CrowdStrike 10-08 报告、WSJ/NYT 同框），开发者现宣布将 ARTEX 收归闭源；36 氪今日刊发复盘，聚焦「安全工具变武器」的监管难点。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "agent 攻防两侧同步「闭源化」——反制工具收紧、攻击工具转地下；企业侧 agent 行为监控/审计采购需求继续放量（与 Goodfire probe、Anthropic 行为审计同链）"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+Reuters/WSJ/CrowdStrike 链",
+          "publish_time": "2026-10-12 14:16",
+          "event_time": "2026-10-08",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Reuters 2026-10-09「Chinese developer makes ARTEX AI agent closed-source after Korean bank hack」; news.google.com/rss/articles/CBMiwAFBVV95cUxNaDhjdzFXYTYzTzY4MENUQS1rcU5jejh0T25vN0tOZlVpMC1zY085QWppMzUwQXgwQjhhcFdjQm5iaGpnUUZrbENjWkppWm9FZV9keWpZNFgta0N2YWJsa1VIVXB5OGxiS0ZFQ0oxdTAxb3RTTEx3cm9heXNHb1FYWE85NkV6bWNVdHVidDdEM2F2dmJuNUpSZ3dhMXhpWnV6cGlHRllvM3JFZ1VrMUtrLUI3dGo5aXg5Z3VHUFVyOXY?oc=5）",
+          "entities": [
+            {
+              "name": "ARTEX",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4022247669372809",
+            "raw_ref": "reports/raw/2026-10-12-1500.json#candidates[16]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-12-1500/11_36kr.com_78813c93.html",
+            "sha256": "143ad1747e30dd8c3ffa32f4bbcefd4161ff7bddbc6a1ad6db2176d33c365af1",
+            "fetched_at": "2026-10-12T07:10:53.683Z"
+          }
+        },
+        {
+          "title": "CNBC：AI 正挤压律师的「可计费小时」",
+          "meta": "CNBC·2026-10-10·HN 今日上榜",
+          "urls": [
+            "https://www.cnbc.com/2026/10/10/ai-lawyers-billable-hour-legal-careers.html"
+          ],
+          "summary": "CNBC 特稿：AI 正改变律师工作方式并挤压「按小时计费」模式——效率上去了，客户开始追问「我的折扣呢」；Reuters 报律所已专门留出「不计费试驾 AI」时间，NYT 9-26 报客户开始要折扣。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "专业服务最先被冲击「计价单位」——按时间计费转按结果/包年计费的过渡期，是 AI 原生律所/审计所的定价重构机会（Dealroom 10-11 已在盘点 AI 原生律所）"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "主流媒体源·Reuters/NYT 同题趋势互证",
+          "publish_time": "2026-10-10",
+          "verify_note": "外部检索（Reuters 2026-10-08「Law firms give lawyers time off billing grind to test-drive AI」; news.google.com token 见 evidence.json）",
+          "provenance": {
+            "url": "https://www.cnbc.com/2026/10/10/ai-lawyers-billable-hour-legal-careers.html",
+            "raw_ref": "reports/raw/2026-10-12-1500.json#candidates[194]",
+            "source_id": "hn",
+            "source_name": "Hacker News"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-12-1500/12_www.cnbc.com_5c6a50e3.html",
+            "sha256": "abcfee5be01defd256e55a5020e88daac472255564ab0edb612d6bf119ca680e",
+            "fetched_at": "2026-10-12T07:11:01.555Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [],
+  "sourceStatus": [
+    "- 本期无 DOWN/FALLBACK、无 consecutive_down≥2 源（全源 OK）",
+    "- OpenAI RSS：主源 HTTP 403、render 兜底 parse 0——连续数期 0 条，官方 RSS 疑反爬，继续观察",
+    "- sohu 三镜像 parse_loss=3~4（同步稿解析丢条），暂观察"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-12-1500.json",
+    "evidence_file": "reports/raw/2026-10-12-1500.evidence.json",
+    "snapshot_dir": "archives/2026-10-12-1500/",
+    "raw_candidates": 204,
+    "matched": 12
+  }
+}
