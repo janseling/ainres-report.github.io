@@ -185,6 +185,14 @@ a.slot-card:hover{border-color:var(--dim)}
 }
 @keyframes ssp{0%,100%{opacity:1}50%{opacity:.35}}
 
+@media(max-width:720px){
+.sig-strip{flex-wrap:wrap;row-gap:0;padding:10px 12px 6px;border-radius:8px}
+.ss-rows{width:100%;display:flex;flex-direction:column}
+.ss-r{display:flex;align-items:center;gap:8px;padding:7px 1px;border-top:1px solid var(--line);font-size:12.5px;min-width:0;text-decoration:none}
+.ss-rt{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ink)}
+.ss-ra{color:var(--amber);font-family:var(--mono);font-size:11px;flex:none}
+.ss-rd{width:4px;height:4px;border-radius:50%;background:var(--amber);opacity:.75;flex:none}
+}
 .foot a:last-child,.sfoot a:last-child{margin-left:auto}
 </style>
 </head>
@@ -368,6 +376,12 @@ init();
     }
     var st=document.getElementById('ssTotal');if(st)st.textContent=total+' 条进行中';
     var sn=document.getElementById('ssNew');if(sn&&newCount>0)sn.hidden=false;
+    var sr=document.getElementById('ssRows');
+    if(sr){
+      var sh='';
+      for(i=0;i<srt.length&&i<3;i++){var c2=srt[i];sh+='<a class="ss-r" href="/topic/'+esc(c2.slug)+'.html"><span class="ss-rt">'+esc(c2.name)+'</span><span class="ss-ra">→</span></a>';}
+      sr.innerHTML=sh;
+    }
   }).catch(fail);
 })();
 
