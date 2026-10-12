@@ -101,7 +101,7 @@ a{color:var(--amber);text-decoration:none}
     }
     document.getElementById('sigList').innerHTML=h||'<div class="tp-ph">暂无专题</div>';
     document.getElementById('sgCount').textContent='信号线 '+total+' 条进行中 · "新"= 最新一期内有更新 · 点行进入信号页';
-    var rowsO=[];var sigList=document.getElementById('sigList');
+    var sigList=document.getElementById('sigList');var rowsO=[].slice.call(sigList.querySelectorAll('.tp-row'));
     var fwChip=document.getElementById('fwChip'),fwN=document.getElementById('fwN'),fwView=false;
     function fwCount(){var L=(window.__fwList?window.__fwList():{list:[]}).list||[];fwN.textContent=L.length?(' '+L.length):'';}
     function setView(on){
