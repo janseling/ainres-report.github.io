@@ -6,7 +6,7 @@
       "date": "2026-10-12",
       "time": "21:00",
       "title": "AI 情报 · 10-12 21:00 场",
-      "itemCount": 20,
+      "itemCount": 19,
       "coverage": "2026-10-12 07:00 → 13:05（Asia/Shanghai · fetch 窗口口径）",
       "note": "今日 09:00/15:00 场已收条目（Decart 收购/可灵 IPO/Reflection AI/陶哲轩数学 2.0/封号披露/元器停服/Vicor 专利战等）均已去重；本场上午段（07:00 起）与 15:00 场窗口相邻，已按 URL 去重",
       "overview": [
@@ -20,11 +20,11 @@
       "sectionCounts": {
         "product": 6,
         "tech": 5,
-        "industry": 9
+        "industry": 8
       },
       "rawStats": {
         "candidates": 119,
-        "selected": 15
+        "selected": 18
       }
     },
     {
