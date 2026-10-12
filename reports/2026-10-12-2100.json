@@ -3,7 +3,7 @@
   "date": "2026-10-12",
   "time": "21:00",
   "title": "AI 情报 · 10-12 21:00 场",
-  "generatedAt": "2026-10-12T19:44:52.121Z",
+  "generatedAt": "2026-10-12T21:43:52.663Z",
   "coverage": "2026-10-12 07:00 → 13:05（Asia/Shanghai · fetch 窗口口径）",
   "notes": [
     "今日 09:00/15:00 场已收条目（Decart 收购/可灵 IPO/Reflection AI/陶哲轩数学 2.0/封号披露/元器停服/Vicor 专利战等）均已去重；本场上午段（07:00 起）与 15:00 场窗口相邻，已按 URL 去重"
@@ -861,7 +861,7 @@
           "confidence": "高",
           "confidence_note": "多源佐证 投资界/虎嗅/OSCHINA+极客公园立场稿",
           "publish_time": "2026-10-12 10:14",
-          "event_time": null,
+          "event_time": "2026-10-09",
           "event_time_inferred": false,
           "verify_note": "外部检索（投资界 10-12、虎嗅/OSCHINA 10-10 多源同题；极客公园 12-15 立场稿「拆开参考≠照抄」为主链补充）",
           "entities": [
@@ -904,7 +904,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+新浪财经",
           "publish_time": "2026-10-12 07:44",
-          "event_time": "2026-10-12",
+          "event_time": "2026-10-11 07:54",
           "event_time_inferred": false,
           "verify_note": "外部检索（新浪财经同日同题在档；更新数据 402 贡献者/2425 PR/3055 commits、skills_search+skills_read、MCP Apps 取自原文）",
           "entities": [
