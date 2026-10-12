@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SIG · 专题总览 — AI 情报日报</title>
-<meta name="description" content="专题报道总览：由每日报「继续跟踪」信号自动聚合的专题追踪链，含状态、跟踪期数与最新更新场次。">
-<meta property="og:title" content="SIG · 专题总览 — AI 情报日报">
-<meta property="og:description" content="专题追踪链总览，数据开放（reports/topics.json）。">
+<title>信号追踪 — AI 情报日报</title>
+<meta name="description" content="信号追踪总览：由每日报「继续跟踪」信号自动聚合的信号线，含状态、跟踪期数与最新更新场次。">
+<meta property="og:title" content="信号追踪 — AI 情报日报">
+<meta property="og:description" content="信号线总览，数据开放（reports/topics.json）。">
 <meta property="og:type" content="website">
 <style>
 :root{--bg:#0c0d10;--panel:#15171e;--panel2:#191c24;--line:#262a33;--line2:#31353f;--ink:#d8d5c9;--ink2:#a5a294;--dim:#77746a;--amber:#e8a33d;--amber2:#f5c069;--mono:ui-monospace,"SF Mono","JetBrains Mono",Menlo,Consolas,monospace;--sans:-apple-system,"PingFang SC","Hiragino Sans GB","Noto Sans SC",sans-serif}
@@ -23,7 +23,9 @@ a{color:var(--amber);text-decoration:none}
 .brand .sub{font-family:var(--mono);font-size:11px;letter-spacing:.18em;color:var(--dim);border:1px solid var(--line2);padding:3px 8px;border-radius:3px}
 .tagline{color:var(--ink2);max-width:640px;margin:10px 0 0;font-size:13.5px}
 .statline{font-family:var(--mono);font-size:12px;color:var(--ink2);margin-top:10px}
-.mh-actions{font-family:var(--mono);font-size:12px;display:flex;gap:18px;margin-top:14px}
+.mh-actions{font-family:var(--mono);font-size:12px;display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.mh-actions a{color:var(--ink2);border:1px solid var(--line2);border-radius:999px;padding:3px 11px}
+.mh-actions a.srch{color:var(--amber2);border-color:rgba(232,163,61,.55);background:rgba(232,163,61,.07)}
 #sigList{padding:6px 0 30px}
 .tp-row{display:flex;align-items:center;gap:12px;padding:12px 6px;border-bottom:1px solid var(--line);color:var(--ink)}
 .tp-row:hover{background:rgba(232,163,61,.04)}
@@ -42,15 +44,16 @@ a{color:var(--amber);text-decoration:none}
 <body>
 <div class="wrap">
   <header class="masthead">
-    <div class="mh-meta"><span>INTEL·DAILY</span><span class="dot">◉</span><span>SIG · TOPICS</span><span>ASIA/SHANGHAI</span></div>
-    <div class="brand"><h1>专题<em>总览</em></h1><span class="sub">TOPICS</span></div>
-    <p class="tagline">专题报道由每日报的「继续跟踪」信号自动聚合——每条专题独立成页，收录该线索的全部跟踪节点与关联报道。数据开放：reports/topics.json。</p>
+    <div class="mh-meta"><span>INTEL·DAILY</span><span class="dot">◉</span><span>SIGNALS · TRACKING</span><span>ASIA/SHANGHAI</span></div>
+    <div class="brand"><h1>信号<em>追踪</em></h1><span class="sub">SIGNALS</span></div>
+    <p class="tagline">信号线由每日报的「继续跟踪」信号自动聚合——每条线独立成页，收录该线索的全部跟踪节点与关联报道。数据开放：reports/topics.json。</p>
     <div class="statline" id="statline"><span id="sgCount">加载中…</span></div>
-    <div class="mh-actions"><a href="/">← 返回首页</a><a href="/search.html">🔍 站内检索</a><a href="/rss.xml" target="_blank" rel="noopener">RSS 订阅 ↗</a></div>
+    <div class="mh-actions"><a href="/">← 返回首页</a><a class="srch" href="/search.html">🔍 站内检索</a><a href="/rss.xml" target="_blank" rel="noopener">RSS 订阅 ↗</a><a href="/about.html">关于</a></div>
   </header>
   <main id="sigList"><div class="tp-ph">加载中…</div></main>
   <footer class="foot">
     <a href="/">← 首页</a>
+    <a href="/about.html">关于</a>
     <a href="/rss.xml" target="_blank" rel="noopener">RSS ↗</a>
     <a href="https://github.com/janseling" target="_blank" rel="noopener">github/janseling</a>
   </footer>
@@ -77,7 +80,7 @@ a{color:var(--amber);text-decoration:none}
       h+='<a class="tp-row" href="/topic/'+esc(c.slug)+'.html"><span class="tp-dot'+(st==='open'?'':' c')+'"></span><span class="tp-name">'+esc(c.name)+(c.latest===maxLatest?'<em class="tp-new">New</em>':'')+'</span><span class="tp-meta">'+esc(String(c.nodes||0))+' 期 · 最新 '+fmt(c.latest)+' · 下查 '+esc(String(c.check||'').slice(5))+'</span><span class="tp-arr">→</span></a>';
     }
     document.getElementById('sigList').innerHTML=h||'<div class="tp-ph">暂无专题</div>';
-    document.getElementById('sgCount').textContent='SIG 专题 '+total+' 条进行中 · "新"= 最新一期内有更新 · 点行进入专题页';
+    document.getElementById('sgCount').textContent='信号线 '+total+' 条进行中 · "新"= 最新一期内有更新 · 点行进入信号页';
   }).catch(function(){document.getElementById('sgCount').textContent='专题数据加载失败';document.getElementById('sigList').innerHTML='';});
 })();
 </script>
