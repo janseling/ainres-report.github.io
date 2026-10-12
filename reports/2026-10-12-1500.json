@@ -3,7 +3,7 @@
   "date": "2026-10-12",
   "time": "15:00",
   "title": "AI 情报 · 10-12 15:00 场",
-  "generatedAt": "2026-10-12T07:10:41.501Z",
+  "generatedAt": "2026-10-12T09:42:46.008Z",
   "coverage": "2026-10-12 09:00 → 15:05（Asia/Shanghai · fetch 窗口口径）",
   "notes": [
     "今日 09:00 场已收条目（Decart 收购/可灵 IPO/Reflection AI/陶哲轩数学 2.0/封号披露/元器停服/Vicor 专利战等）均已去重"
@@ -301,7 +301,7 @@
           ],
           "confidence": "高",
           "confidence_note": "A源·论文原文",
-          "publish_time": "2026-10-12 12:00",
+          "publish_time": "2026-10-09 14:45",
           "entities": [
             {
               "name": "arXiv",
