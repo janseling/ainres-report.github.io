@@ -211,8 +211,11 @@ const URL_RE = /https?:\/\/[^\s，。；、）)<>"]+/g;
 const hostOf = u => { try { return new URL(u).hostname.replace('www.',''); } catch(e) { return '链接'; } };
 const domPill = u => `<a class="dp" href="${esc(u)}" title="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))} ↗</a>`;
 /* 佐证行：单一链接 → 挂到佐证描述文字上（原型口径「华尔街见闻 10-10 04:08 同报 ↗」）；无链接 → 纯文本；多链接 → 域名胶囊兜底 */
+/* 无协议链接补 https://（10-12 起 composer 佐证偶以裸域名给出；渲染端统一归一化） */
+const SLINK_RE = /(^|[^\w/@.:-])((?:[a-z0-9-]+\.)+[a-z0-9]{2,10}\/[^\s，。；、）)<>",]*)/g;
+const fixSchemeless = s => String(s).replace(SLINK_RE, (m, lead, rest) => lead + 'https://' + rest);
 function verifyFmt(note){
-  const s = String(note);
+  const s = fixSchemeless(note);
   const urls = s.match(URL_RE) || [];
   if (!urls.length) return esc(s);
   if (urls.length > 1) return esc(s).replace(URL_RE, um => domPill(um));

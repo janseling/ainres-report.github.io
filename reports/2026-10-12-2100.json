@@ -55,7 +55,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 The Verge+cnBeta",
           "publish_time": "2026-10-12 21:00",
-          "verify_note": "外部检索（cnBeta 2026-10-12 21:07 同步报道：每兆瓦可生成 token 较领先 GPU 系统高 40%; news.google.com/rss/articles/CBMiYEFVX3lxTE9UZnZqdl82ako1S1BENVlGZlVYaUgwQW9NbFRnM01xTG4tUU1MM0RBRnU1YmFaZkN6Qnp1M0ZfblJ3d0xwTXU5enpVemQ2SVpUOV80Y2wzRGFXWlZjdmZYbg?oc=5）",
+          "verify_note": "外部检索（cnBeta 2026-10-12 21:07 同步报道：每兆瓦可生成 token 较领先 GPU 系统高 40%; https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UZnZqdl82ako1S1BENVlGZlVYaUgwQW9NbFRnM01xTG4tUU1MM0RBRnU1YmFaZkN6Qnp1M0ZfblJ3d0xwTXU5enpVemQ2SVpUOV80Y2wzRGFXWlZjdmZYbg?oc=5）",
           "entities": [
             {
               "name": "Microsoft",
@@ -104,7 +104,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+TradingView/Investing",
           "publish_time": "2026-10-12 20:59",
-          "verify_note": "外部检索（TradingView 2026-10-12 20:14 同步报道：以 4 亿美元估值完成种子轮、DeepSeek 领投; news.google.com/rss/articles/CBMiZkFVX3lxTFBrcjk4VVpIdk9CRVc0MjNXN2xVdnNYNWhhMUExRjUzX1hSbFhhZURVa3NER3U0X2t0NHJFamlHRlNGYURTdVhKamlxMm43UWVrdzdPVW5ORGhZd1dRVUVOdkVNVGVaUQ?oc=5）",
+          "verify_note": "外部检索（TradingView 2026-10-12 20:14 同步报道：以 4 亿美元估值完成种子轮、DeepSeek 领投; https://news.google.com/rss/articles/CBMiZkFVX3lxTFBrcjk4VVpIdk9CRVc0MjNXN2xVdnNYNWhhMUExRjUzX1hSbFhhZURVa3NER3U0X2t0NHJFamlHRlNGYURTdVhKamlxMm43UWVrdzdPVW5ORGhZd1dRVUVOdkVNVGVaUQ?oc=5）",
           "entities": [
             {
               "name": "DeepSeek",
@@ -200,7 +200,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+新浪/CNA",
           "publish_time": "2026-10-12 20:13",
-          "verify_note": "外部检索（Channel NewsAsia 经 UA.NEWS 2026-10-12 14:19 同报：合作成立 Agentic AI 部门; news.google.com/rss/articles/CBMisgFBVV95cUxOTVRTVl9aYUlTSW5ITFg0UnZiVEw3MVJJdkpsTEFQbXBmVnI0a1cwcm8xajlhZE1QNnlLU014amF2aUZtSlRaY3JmLTZXajg2YTZ1MzF3SjNjZFZMY2dMZ29yZEpMc1RmRVBGNTY4SkxJV3JfeF9jem00SnAwWnFqLVB0OFM1NVpnU3h0alZ3QnhzZjU2aW14bkpQanprTmpXNVlmeEt0bEJ2LTI2cFNGaWxB?oc=5）",
+          "verify_note": "外部检索（Channel NewsAsia 经 UA.NEWS 2026-10-12 14:19 同报：合作成立 Agentic AI 部门; https://news.google.com/rss/articles/CBMisgFBVV95cUxOTVRTVl9aYUlTSW5ITFg0UnZiVEw3MVJJdkpsTEFQbXBmVnI0a1cwcm8xajlhZE1QNnlLU014amF2aUZtSlRaY3JmLTZXajg2YTZ1MzF3SjNjZFZMY2dMZ29yZEpMc1RmRVBGNTY4SkxJV3JfeF9jem00SnAwWnFqLVB0OFM1NVpnU3h0alZ3QnhzZjU2aW14bkpQanprTmpXNVlmeEt0bEJ2LTI2cFNGaWxB?oc=5）",
           "entities": [
             {
               "name": "HCLTech",
@@ -252,7 +252,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 新智元+凤凰网科技",
           "publish_time": "2026-10-12 08:29",
-          "verify_note": "外部检索（凤凰网科技 2026-10-12 08:29 同报：默认上下文从 272k 提升至 500k; news.google.com/rss/articles/CBMiTEFVX3lxTE9ENXhLMXlzQkNxUHRIQzRDSFA4NEc2ekowQ3hhM3E4MG5iRndLaGh1SFJ3WHJUcy1xcUEwNHhyWlhUd1hUU2s3QWNVNFY?oc=5）",
+          "verify_note": "外部检索（凤凰网科技 2026-10-12 08:29 同报：默认上下文从 272k 提升至 500k; https://news.google.com/rss/articles/CBMiTEFVX3lxTE9ENXhLMXlzQkNxUHRIQzRDSFA4NEc2ekowQ3hhM3E4MG5iRndLaGh1SFJ3WHJUcy1xcUEwNHhyWlhUd1hUU2s3QWNVNFY?oc=5）",
           "entities": [
             {
               "name": "OpenAI",
@@ -344,7 +344,7 @@
           "publish_time": "2026-10-12 15:13",
           "event_time": "2026-10-09",
           "event_time_inferred": false,
-          "verify_note": "外部检索（新浪网 2026-10-12 同题转发; news.google.com/rss/articles/CBMif0FVX3lxTE5oV2tJa090eUprYV9aTTNnR3NOQURtZk9IRGh5RVQxSjZXSWVVbGg5RTRSVlJBRlY2aExVeTVaeUkwQVBkbDU5Y2Z6MUJqNkU5MDZJRzNGbDIzVmpJRXAzVE9oV1MzOUs5alRnS1Blck8zUXZ5NE45QTJ0eDZmM1U?oc=5）",
+          "verify_note": "外部检索（新浪网 2026-10-12 同题转发; https://news.google.com/rss/articles/CBMif0FVX3lxTE5oV2tJa090eUprYV9aTTNnR3NOQURtZk9IRGh5RVQxSjZXSWVVbGg5RTRSVlJBRlY2aExVeTVaeUkwQVBkbDU5Y2Z6MUJqNkU5MDZJRzNGbDIzVmpJRXAzVE9oV1MzOUs5alRnS1Blck8zUXZ5NE45QTJ0eDZmM1U?oc=5）",
           "entities": [
             {
               "name": "Meta",
@@ -402,7 +402,7 @@
           "publish_time": "2026-10-12 17:54",
           "event_time": "2026-06-11",
           "event_time_inferred": false,
-          "verify_note": "外部检索（新京报 2026-06-11 首卡报道线，北京市政府门户 6-12 在案; news.google.com/rss/articles/CBMiYkFVX3lxTE1RaWg3WDVTdFZMMWtPc1JjMWFXcXhZNG5HRVVwT2lLbm5HYTI2WUFpRmE3Vi1rMzNiY0ZXRDNPNUtHNGR6ZXhLcnNCWGVla1QzUnJXWDVKX0dINVBmeld3a1JB?oc=5）",
+          "verify_note": "外部检索（新京报 2026-06-11 首卡报道线，北京市政府门户 6-12 在案; https://news.google.com/rss/articles/CBMiYkFVX3lxTE1RaWg3WDVTdFZMMWtPc1JjMWFXcXhZNG5HRVVwT2lLbm5HYTI2WUFpRmE3Vi1rMzNiY0ZXRDNPNUtHNGR6ZXhLcnNCWGVla1QzUnJXWDVKX0dINVBmeld3a1JB?oc=5）",
           "entities": [
             {
               "name": "尤里",
@@ -462,7 +462,7 @@
           "publish_time": "2026-10-12 18:46",
           "event_time": "2026-10-11",
           "event_time_inferred": false,
-          "verify_note": "外部检索（凤凰网科技 2026-10-12 17:48 同题「汪滔交底：Muse 是玩龙虾玩出来的」; news.google.com/rss/articles/CBMiVkFVX3lxTE82NFFidXJhbjR1QTJfX2dfSVE0UmJ1WWJFMVp6T1g2QldYUnJtb3JsMjhkVTJWWk9zTXBXblo2cHdUMzJPSURzWDdBTnBWRVNDMGpZOFpn?oc=5）",
+          "verify_note": "外部检索（凤凰网科技 2026-10-12 17:48 同题「汪滔交底：Muse 是玩龙虾玩出来的」; https://news.google.com/rss/articles/CBMiVkFVX3lxTE82NFFidXJhbjR1QTJfX2dfSVE0UmJ1WWJFMVp6T1g2QldYUnJtb3JsMjhkVTJWWk9zTXBXblo2cHdUMzJPSURzWDdBTnBWRVNDMGpZOFpn?oc=5）",
           "entities": [
             {
               "name": "Meta",
@@ -515,7 +515,7 @@
           "confidence": "高",
           "confidence_note": "双源口径 Ars+Yahoo Finance 在档",
           "publish_time": "2026-10-12 20:43",
-          "verify_note": "外部检索（Yahoo Finance 2026-05-21 已档「156 万员工 vs 100 万机器人」口径; news.google.com/rss/articles/CBMimAFBVV95cUxPNjlqaDhoRU0yNEZ5bWZsSWU4YmNLd05BTXB1NVZoUUsyRnNlV3Nxdmx3LUYtYkJ2WEo4V3BDVGtKU2Z6cjRZa1BEZThHMEdZRkNQVjJKbENlM2tZYlcxNm5yTjRHMWlTTHMzLVJZMGp1OFRBNDRrYklQa2toSkw5dkg0dnAxMXNVdGE1bEgzNjktZjMxTVMtNw?oc=5）",
+          "verify_note": "外部检索（Yahoo Finance 2026-05-21 已档「156 万员工 vs 100 万机器人」口径; https://news.google.com/rss/articles/CBMimAFBVV95cUxPNjlqaDhoRU0yNEZ5bWZsSWU4YmNLd05BTXB1NVZoUUsyRnNlV3Nxdmx3LUYtYkJ2WEo4V3BDVGtKU2Z6cjRZa1BEZThHMEdZRkNQVjJKbENlM2tZYlcxNm5yTjRHMWlTTHMzLVJZMGp1OFRBNDRrYklQa2toSkw5dkg0dnAxMXNVdGE1bEgzNjktZjMxTVMtNw?oc=5）",
           "entities": [
             {
               "name": "Amazon",
@@ -558,7 +558,7 @@
           "publish_time": "2026-10-12 20:51",
           "event_time": null,
           "event_time_inferred": false,
-          "verify_note": "外部检索（PitchBook 季度系列 VC Trends 在档，FT 原文未直接命中; news.google.com/rss/articles/CBMifkFVX3lxTE5KSzQ1Yjk1dXZtZU9QdzZtVEVRSzJTc0l3Zm9BcllJOGVhZGZDaVNhMDVndE1RRTlHZm9jOEk1N0ZlSzhjRnBUOHFCeWtFNUt1enM0ckdKS05mVXlqMGxaNHZxTWQ0aFppZl9YX0xITDIxd0FaaTl1aGNONkRwUQ?oc=5）",
+          "verify_note": "外部检索（PitchBook 季度系列 VC Trends 在档，FT 原文未直接命中; https://news.google.com/rss/articles/CBMifkFVX3lxTE5KSzQ1Yjk1dXZtZU9QdzZtVEVRSzJTc0l3Zm9BcllJOGVhZGZDaVNhMDVndE1RRTlHZm9jOEk1N0ZlSzhjRnBUOHFCeWtFNUt1enM0ckdKS05mVXlqMGxaNHZxTWQ0aFppZl9YX0xITDIxd0FaaTl1aGNONkRwUQ?oc=5）",
           "entities": [
             {
               "name": "Anduril",
@@ -646,7 +646,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+新浪财经",
           "publish_time": "2026-10-12 15:44",
-          "verify_note": "外部检索（新浪财经 2026-10-12 同题「Skills、MCP Apps 齐升级」; news.google.com/rss/articles/CBMif0FVX3lxTE9QLW4yNk5UV3RYUXhhR2tGWDZyYlQ2cVpJT3ZJOU9NczZvLTlmNGFfLUhxd1B0MXRoZXNuWl9kLWYtR0xWOEJiemJINUlRZFZDSTlhOGppMDlOXzdlTVZHZWpkNk1ITXM5djBsSXA2Sm9PZEY0LXFGai1uRklSblU?oc=5）",
+          "verify_note": "外部检索（新浪财经 2026-10-12 同题「Skills、MCP Apps 齐升级」; https://news.google.com/rss/articles/CBMif0FVX3lxTE9QLW4yNk5UV3RYUXhhR2tGWDZyYlQ2cVpJT3ZJOU9NczZvLTlmNGFfLUhxd1B0MXRoZXNuWl9kLWYtR0xWOEJiemJINUlRZFZDSTlhOGppMDlOXzdlTVZHZWpkNk1ITXM5djBsSXA2Sm9PZEY0LXFGai1uRklSblU?oc=5）",
           "entities": [
             {
               "name": "OpenClaw",
@@ -687,7 +687,7 @@
           "confidence": "高",
           "confidence_note": "多源佐证 36氪+投资界/OSCHINA",
           "publish_time": "2026-10-12 18:14",
-          "verify_note": "外部检索（投资界 2026-10-12 07:37 同线「逆向灭霸 REA 一天登顶 GitHub」; news.google.com/rss/articles/CBMiVkFVX3lxTE82NFFidXJhbjR1QTJfX2dfSVE0UmJ1WWJFMVp6T1g2QldYUnJtb3JsMjhkVTJWWk9zTXBXblo2cHdUMzJPSURzWDdBTnBWRVNDMGpZOFpn?oc=5）",
+          "verify_note": "外部检索（投资界 2026-10-12 07:37 同线「逆向灭霸 REA 一天登顶 GitHub」; https://news.google.com/rss/articles/CBMiVkFVX3lxTE82NFFidXJhbjR1QTJfX2dfSVE0UmJ1WWJFMVp6T1g2QldYUnJtb3JsMjhkVTJWWk9zTXBXblo2cHdUMzJPSURzWDdBTnBWRVNDMGpZOFpn?oc=5）",
           "entities": [
             {
               "name": "REA",
