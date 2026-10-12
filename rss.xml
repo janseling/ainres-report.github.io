@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 12 Oct 2026 01:19:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 05:45:24 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-12 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-12-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-12-0900.html</guid>
+      <pubDate>Mon, 12 Oct 2026 01:00:00 GMT</pubDate>
+      <description>亚马逊据悉洽谈以约 70 亿美元收购以色列实时视觉 AI 公司 Decart（WSJ 独家、Reuters 跟进）</description>
+    </item>
     <item>
       <title>AI 情报 · 10-11 21:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-11-2100.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-05-2100.html</guid>
       <pubDate>Mon, 05 Oct 2026 13:00:00 GMT</pubDate>
       <description>OpenAI 官宣 ChatGPT Ads 新视觉广告格式＋测量生态，本月内美国内测，12 亿周活开始广告变现</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-05 15:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-05-1500.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-05-1500.html</guid>
-      <pubDate>Mon, 05 Oct 2026 07:00:00 GMT</pubDate>
-      <description>Reflection（NVIDIA 系、$80 亿估值）将发美国首个对标 DeepSeek/Qwen 的开放权重模型，「西方开放权重月」开闸</description>
     </item>
   </channel>
 </rss>
