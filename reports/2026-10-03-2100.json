@@ -115,7 +115,7 @@
           "publish_time": "2026-10-03 18:44",
           "event_time": "2026-10-02",
           "event_time_inferred": false,
-          "verify_note": "外部检索（ai.meta.com/research/publications 论文页在列；Alexandr Wang X 官宣 6 题清单与文内一致；財経新聞引 Tech Times「Meta 10-02 公开 6 论文、5 篇解开此前未解问题」）",
+          "verify_note": "外部检索（https://ai.meta.com/research/publications 论文页在列；Alexandr Wang X 官宣 6 题清单与文内一致；財経新聞引 Tech Times「Meta 10-02 公开 6 论文、5 篇解开此前未解问题」）",
           "entities": [
             {
               "name": "Meta",

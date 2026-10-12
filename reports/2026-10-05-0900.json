@@ -168,7 +168,7 @@
           "confidence": "高",
           "confidence_note": "机器之心+TechCrunch 双源同报",
           "publish_time": "2026-10-03 21:27",
-          "verify_note": "外部检索（TechCrunch 10-03 原文《Meta wants your next gadget to be Muse-infused》；github.com/facebookincubator/muse-gadget-sdk ESP32 固件在库）",
+          "verify_note": "外部检索（TechCrunch 10-03 原文《Meta wants your next gadget to be Muse-infused》；https://github.com/facebookincubator/muse-gadget-sdk ESP32 固件在库）",
           "entities": [
             {
               "name": "Meta",
@@ -218,7 +218,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 量子位+PRNewswire 官方稿/unite.ai 同报：ARR 破 $1 亿、两年百倍",
           "publish_time": "2026-10-04 08:53",
-          "verify_note": "外部检索（PRNewswire 9-30 官方新闻稿《Meshy Surpasses $100 Million in Annual Recurring Revenue》+unite.ai/Dealroom 9-30 独立跟进）",
+          "verify_note": "外部检索（PRNewswire 9-30 官方新闻稿《Meshy Surpasses $100 Million in Annual Recurring Revenue》+https://unite.ai/Dealroom 9-30 独立跟进）",
           "entities": [
             {
               "name": "Meshy",
@@ -788,7 +788,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 GitHub Trending 快照+独立平台数据：ponytail 9 万+★、Product Hunt 上架",
           "publish_time": "2026-10-05 09:00",
-          "verify_note": "外部检索（github.com/DietrichGebert/ponytail 91.9k★（后续抓取 123k★）+Product Hunt《Ponytail: Make new code the last resort》——爆火获独立平台数据佐证）",
+          "verify_note": "外部检索（https://github.com/DietrichGebert/ponytail 91.9k★（后续抓取 123k★）+Product Hunt《Ponytail: Make new code the last resort》——爆火获独立平台数据佐证）",
           "entities": [
             {
               "name": "ponytail",

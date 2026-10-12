@@ -52,7 +52,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36kr+WSJ/Reuters 系",
           "publish_time": "2026-10-12 08:18",
-          "verify_note": "外部检索（Reuters 2026-10-12 05:46 北京转引 WSJ 报道报价约 70 亿美元; pymnts.com/news/artificial-intelligence/2026/amazon-weighs-7-billion-purchase-of-ai-startup-decart/）",
+          "verify_note": "外部检索（Reuters 2026-10-12 05:46 北京转引 WSJ 报道报价约 70 亿美元; https://pymnts.com/news/artificial-intelligence/2026/amazon-weighs-7-billion-purchase-of-ai-startup-decart/）",
           "entities": [
             {
               "name": "Amazon",
@@ -103,7 +103,7 @@
           "confidence": "高",
           "confidence_note": "多源佐证 36kr+凤凰网科技/新浪",
           "publish_time": "2026-10-12 08:17",
-          "verify_note": "外部检索（凤凰网科技 2026-10-11 14:48 北京同报「估值破千亿、背靠 BAT 投资冲刺 IPO」; news.google.com/rss/articles/CBMiTEFVX3lxTE40ckVOcGQxV2FqeHpCNUZQcFVQMHB4bjBnaUE4dzk4TGpSMHBKVFlkZ0szeW5FVVYtX2p0ejV0U1pfN2ZPdnUzaU5tdTU?oc=5）",
+          "verify_note": "外部检索（凤凰网科技 2026-10-11 14:48 北京同报「估值破千亿、背靠 BAT 投资冲刺 IPO」; https://news.google.com/rss/articles/CBMiTEFVX3lxTE40ckVOcGQxV2FqeHpCNUZQcFVQMHB4bjBnaUE4dzk4TGpSMHBKVFlkZ0szeW5FVVYtX2p0ejV0U1pfN2ZPdnUzaU5tdTU?oc=5）",
           "entities": [
             {
               "name": "快手",
@@ -154,7 +154,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36kr+FT/SiliconANGLE",
           "publish_time": "2026-10-12 07:47",
-          "verify_note": "外部检索（SiliconANGLE 2026-10-12 06:38 北京同报「buy, acquihire or invest more」; ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a）",
+          "verify_note": "外部检索（SiliconANGLE 2026-10-12 06:38 北京同报「buy, acquihire or invest more」; https://ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a）",
           "entities": [
             {
               "name": "NVIDIA",
@@ -253,7 +253,7 @@
           "publish_time": "2026-10-12 08:02",
           "event_time": "2026-10-11",
           "event_time_inferred": false,
-          "verify_note": "外部检索（投资界 2026-10-12 07:55 北京同题《陶哲轩：数学2.0时代已至》; news.google.com/rss/articles/CBMiVkFVX3lxTE8zcDBpZ2tlOXdoSDYwSnI0cEx6akNhNFlxc3BPYzBWNXFoUFNLZ2hPZUlSUm8xY2ZsMmRYejd3QUdnQktMd2tDalJkVHE3LWtmdTUyejRR?oc=5）",
+          "verify_note": "外部检索（投资界 2026-10-12 07:55 北京同题《陶哲轩：数学2.0时代已至》; https://news.google.com/rss/articles/CBMiVkFVX3lxTE8zcDBpZ2tlOXdoSDYwSnI0cEx6akNhNFlxc3BPYzBWNXFoUFNLZ2hPZUlSUm8xY2ZsMmRYejd3QUdnQktMd2tDalJkVHE3LWtmdTUyejRR?oc=5）",
           "entities": [
             {
               "name": "陶哲轩",
@@ -350,7 +350,7 @@
           "confidence": "高",
           "confidence_note": "多源佐证 The Verge+Business Insider/NBC",
           "publish_time": "2026-10-12 02:33",
-          "verify_note": "外部检索（Business Insider 2026-10-11 22:28 北京报道「AI rebrand is picking up steam」；NBC 2026-10-07 02:19 北京报司法部要求员工采用新口径; msn.com/en-us/news/other/trump-really-wants-to-make-super-intelligence-happen-is-it-going-to-happen/ar-AA2e1kk8）",
+          "verify_note": "外部检索（Business Insider 2026-10-11 22:28 北京报道「AI rebrand is picking up steam」；NBC 2026-10-07 02:19 北京报司法部要求员工采用新口径; https://msn.com/en-us/news/other/trump-really-wants-to-make-super-intelligence-happen-is-it-going-to-happen/ar-AA2e1kk8）",
           "entities": [
             {
               "name": "特朗普",
@@ -404,7 +404,7 @@
           "publish_time": "2026-10-12 08:50",
           "event_time": null,
           "event_time_inferred": false,
-          "verify_note": "外部检索（驱动之家/新浪财经 2026-10-11 同题转发；卫报同步报道滥用新规 11-12 生效; geekpark.net/news/372218 + theguardian.com/technology/2026/oct/08/anthropic-bans-abusive-behavior-claude）",
+          "verify_note": "外部检索（驱动之家/新浪财经 2026-10-11 同题转发；卫报同步报道滥用新规 11-12 生效; https://geekpark.net/news/372218 + https://theguardian.com/technology/2026/oct/08/anthropic-bans-abusive-behavior-claude）",
           "entities": [
             {
               "name": "Anthropic",
@@ -451,7 +451,7 @@
           "publish_time": "2026-10-12 08:12",
           "event_time": "2026-10-08",
           "event_time_inferred": false,
-          "verify_note": "外部检索（新浪财经同报「元器将于 11 月 9 日停止服务，所创建智能体将不再可用」; news.google.com/rss/articles/CBMif0FVX3lxTE9oalNuWDFjVnZXSTZOUGdybTRXRy1LZ1B2b0lYSDQzel9XSTRCT0FhN21WQ2RGRXhBRWFZZGthQ3p5d0NheW9vLTN3NkZQOFdQc0ZNWmNyRXY2SUViQ3Nqa3NNUTJ3U0RVUXJFWGdOUkhIRVlmb2ZMeGNsZXFEY3M?oc=5）",
+          "verify_note": "外部检索（新浪财经同报「元器将于 11 月 9 日停止服务，所创建智能体将不再可用」; https://news.google.com/rss/articles/CBMif0FVX3lxTE9oalNuWDFjVnZXSTZOUGdybTRXRy1LZ1B2b0lYSDQzel9XSTRCT0FhN21WQ2RGRXhBRWFZZGthQ3p5d0NheW9vLTN3NkZQOFdQc0ZNWmNyRXY2SUViQ3Nqa3NNUTJ3U0RVUXJFWGdOUkhIRVlmb2ZMeGNsZXFEY3M?oc=5）",
           "entities": [
             {
               "name": "腾讯",
@@ -496,7 +496,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36kr+Taipei Times",
           "publish_time": "2026-10-12 08:23",
-          "verify_note": "外部检索（Taipei Times 2026-10-12「US launches probe into Taiwan firms」同报 ITC 调查含 Hon Hai/Delta/Quanta; taipeitimes.com/News/biz/archives/2026/10/12/2003865784）",
+          "verify_note": "外部检索（Taipei Times 2026-10-12「US launches probe into Taiwan firms」同报 ITC 调查含 Hon Hai/Delta/Quanta; https://taipeitimes.com/News/biz/archives/2026/10/12/2003865784）",
           "entities": [
             {
               "name": "Vicor",

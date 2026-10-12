@@ -374,7 +374,7 @@
           "publish_time": "2026-09-28 11:58",
           "event_time": "2026-09-28",
           "event_time_inferred": false,
-          "verify_note": "外部检索（build.nvidia.com/openshell 官方专页与 NVIDIA/OpenShell 仓库在档：safe, private runtime for autonomous AI agents、Apache-2.0、docs.nvidia.com/openshell 专页；当前仓库计星与 10-01 榜单数字不一致，热度数字不再复核）",
+          "verify_note": "外部检索（https://build.nvidia.com/openshell 官方专页与 NVIDIA/OpenShell 仓库在档：safe, private runtime for autonomous AI agents、Apache-2.0、https://docs.nvidia.com/openshell 专页；当前仓库计星与 10-01 榜单数字不一致，热度数字不再复核）",
           "entities": [
             {
               "name": "NVIDIA",

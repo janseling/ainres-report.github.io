@@ -54,7 +54,7 @@
           "confidence": "高",
           "confidence_note": "多源佐证 36氪+新京报/上观/凤凰网",
           "publish_time": "2026-10-12 10:25",
-          "verify_note": "外部检索（新京报 2026-10-12 11:11 北京同报「清华系独角兽无问芯穹完成23亿元C轮融资」; news.google.com/rss/articles/CBMicEFVX3lxTE9zak5xeTRkNmRJV3FQYnpLZTlCS1JMbjgtU0RhUEVLMDkxSll5VzY1NldaTi1qRkItYTJmMHNIQUVBVjhvVTBCVFBpc2xKdk5aTl8yQ1J2NXdoaVlMQVh1Si1ZUFNtUjV5SF9MSlNWNFc?oc=5）",
+          "verify_note": "外部检索（新京报 2026-10-12 11:11 北京同报「清华系独角兽无问芯穹完成23亿元C轮融资」; https://news.google.com/rss/articles/CBMicEFVX3lxTE9zak5xeTRkNmRJV3FQYnpLZTlCS1JMbjgtU0RhUEVLMDkxSll5VzY1NldaTi1qRkItYTJmMHNIQUVBVjhvVTBCVFBpc2xKdk5aTl8yQ1J2NXdoaVlMQVh1Si1ZUFNtUjV5SF9MSlNWNFc?oc=5）",
           "entities": [
             {
               "name": "无问芯穹",
@@ -101,7 +101,7 @@
           "confidence": "高",
           "confidence_note": "多源佐证 36氪+智东西/量子位",
           "publish_time": "2026-10-12 13:55",
-          "verify_note": "外部检索（智东西 2026-10-12 同题「每秒狂喷近500个token」; news.google.com/rss/articles/CBMiSEFVX3lxTE1FQ1AzV2xHYk8tZEdFZUQzMmp6azhxUEN3NS12QkhZYnBMbnJqRDZZeUw3ajdpaGozVkdlOUdZR2Y1NTJIdGdwNw?oc=5）",
+          "verify_note": "外部检索（智东西 2026-10-12 同题「每秒狂喷近500个token」; https://news.google.com/rss/articles/CBMiSEFVX3lxTE1FQ1AzV2xHYk8tZEdFZUQzMmp6azhxUEN3NS12QkhZYnBMbnJqRDZZeUw3ajdpaGozVkdlOUdZR2Y1NTJIdGdwNw?oc=5）",
           "entities": [
             {
               "name": "智谱AI",
@@ -154,7 +154,7 @@
           "publish_time": "2026-10-10",
           "event_time": "2026-10-07",
           "event_time_inferred": false,
-          "verify_note": "外部检索（凤凰网科技 2026-10-07 同报「个人机器人落“沪”上海，上纬新材启元机器人开启首批交付」; news.google.com/rss/articles/CBMiTEFVX3lxTE1ZNk1SQU9zYWRvTFNHYlRiOTlYcEMtLUdSanEyNWZsQi1iX0ZXRVNGbjEyLUpaUnVDRmhmMXRfRkU5S25BMFdPc1F0aFI?oc=5）",
+          "verify_note": "外部检索（凤凰网科技 2026-10-07 同报「个人机器人落“沪”上海，上纬新材启元机器人开启首批交付」; https://news.google.com/rss/articles/CBMiTEFVX3lxTE1ZNk1SQU9zYWRvTFNHYlRiOTlYcEMtLUdSanEyNWZsQi1iX0ZXRVNGbjEyLUpaUnVDRmhmMXRfRkU5S25BMFdPc1F0aFI?oc=5）",
           "entities": [
             {
               "name": "上纬新材",
@@ -212,7 +212,7 @@
           "publish_time": "2026-10-12 11:47",
           "event_time": "2026-10-10",
           "event_time_inferred": false,
-          "verify_note": "外部检索（新智元搜狐镜像 2026-10-12 同题「4行提示手搓3D电影级大片」; m.sohu.com/a/1086617709_473283）",
+          "verify_note": "外部检索（新智元搜狐镜像 2026-10-12 同题「4行提示手搓3D电影级大片」; https://m.sohu.com/a/1086617709_473283）",
           "entities": [
             {
               "name": "Anthropic",
@@ -400,7 +400,7 @@
           "publish_time": "2026-10-12 14:15",
           "event_time": "2026-10-09",
           "event_time_inferred": false,
-          "verify_note": "外部检索（Axios 2026-10-09 独家 scoop「AI companies plot “day after” scenarios for public revolt」; news.google.com/rss/articles/CBMid0FVX3lxTE1ha1RBX2ZHb3UzTExKcWhNY05zSVM4Q093ai1JU19kekVLMFFXZHBzUUxpQkpIOHZTN2NUUzBLSUNldEZZNEVjREkxT1gtRzdLZTRsZU1vck1mY09HdUVMQmR1X3lWdzZFcGoxWkJFNDVGcGx1ZTZN?oc=5）",
+          "verify_note": "外部检索（Axios 2026-10-09 独家 scoop「AI companies plot “day after” scenarios for public revolt」; https://news.google.com/rss/articles/CBMid0FVX3lxTE1ha1RBX2ZHb3UzTExKcWhNY05zSVM4Q093ai1JU19kekVLMFFXZHBzUUxpQkpIOHZTN2NUUzBLSUNldEZZNEVjREkxT1gtRzdLZTRsZU1vck1mY09HdUVMQmR1X3lWdzZFcGoxWkJFNDVGcGx1ZTZN?oc=5）",
           "entities": [
             {
               "name": "OpenAI",
@@ -453,7 +453,7 @@
           "publish_time": "2026-10-12 14:05",
           "event_time": "2026-10-10",
           "event_time_inferred": false,
-          "verify_note": "外部检索（新浪财经 2026-10-12 同题收录三大口径; news.google.com/rss/articles/CBMipwFBVV95cUxPV3puYlJIdzdLQ0dCVnV0TnowbmRFQXA1WnZrQmF6cnZZeEZ3UFFuU21BUW16NlZFWHdUb21NSUhCMFZFaGwzamhNUUNzMlVOcVlTVU42Z3JmVmY4aEV4dTFPSC1Rbm5zS0F2Sm44ckdwdmpzMEdSUHlJcHhtelZtM0ZiWFNpbDB6UUFRTmFmWGNnaUI5RGJuYXRDNlVOSVZpYVMycExBRQ?oc=5）",
+          "verify_note": "外部检索（新浪财经 2026-10-12 同题收录三大口径; https://news.google.com/rss/articles/CBMipwFBVV95cUxPV3puYlJIdzdLQ0dCVnV0TnowbmRFQXA1WnZrQmF6cnZZeEZ3UFFuU21BUW16NlZFWHdUb21NSUhCMFZFaGwzamhNUUNzMlVOcVlTVU42Z3JmVmY4aEV4dTFPSC1Rbm5zS0F2Sm44ckdwdmpzMEdSUHlJcHhtelZtM0ZiWFNpbDB6UUFRTmFmWGNnaUI5RGJuYXRDNlVOSVZpYVMycExBRQ?oc=5）",
           "entities": [
             {
               "name": "Elon Musk",
@@ -508,7 +508,7 @@
           "publish_time": "2026-10-12 09:06",
           "event_time": "2026-10-10",
           "event_time_inferred": false,
-          "verify_note": "外部检索（虎嗅 2026-10-12 同报「AI 使用漏斗：约5000人接触前沿系统」; news.google.com/rss/articles/CBMiVEFVX3lxTE80aUlHMVBNc282UFRTZDd1VVFOOUpvbGhzQ1JxTlpwV2dOdW5BaHRoY1hfTFZfNk5jcUJCWkpDRjRqRHNqaVlOdlB2Ukw4OFJuN2p4Tg?oc=5）",
+          "verify_note": "外部检索（虎嗅 2026-10-12 同报「AI 使用漏斗：约5000人接触前沿系统」; https://news.google.com/rss/articles/CBMiVEFVX3lxTE80aUlHMVBNc282UFRTZDd1VVFOOUpvbGhzQ1JxTlpwV2dOdW5BaHRoY1hfTFZfNk5jcUJCWkpDRjRqRHNqaVlOdlB2Ukw4OFJuN2p4Tg?oc=5）",
           "entities": [
             {
               "name": "Andrej Karpathy",
@@ -551,7 +551,7 @@
           "publish_time": "2026-10-12 14:16",
           "event_time": "2026-10-08",
           "event_time_inferred": false,
-          "verify_note": "外部检索（Reuters 2026-10-09「Chinese developer makes ARTEX AI agent closed-source after Korean bank hack」; news.google.com/rss/articles/CBMiwAFBVV95cUxNaDhjdzFXYTYzTzY4MENUQS1rcU5jejh0T25vN0tOZlVpMC1zY085QWppMzUwQXgwQjhhcFdjQm5iaGpnUUZrbENjWkppWm9FZV9keWpZNFgta0N2YWJsa1VIVXB5OGxiS0ZFQ0oxdTAxb3RTTEx3cm9heXNHb1FYWE85NkV6bWNVdHVidDdEM2F2dmJuNUpSZ3dhMXhpWnV6cGlHRllvM3JFZ1VrMUtrLUI3dGo5aXg5Z3VHUFVyOXY?oc=5）",
+          "verify_note": "外部检索（Reuters 2026-10-09「Chinese developer makes ARTEX AI agent closed-source after Korean bank hack」; https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaDhjdzFXYTYzTzY4MENUQS1rcU5jejh0T25vN0tOZlVpMC1zY085QWppMzUwQXgwQjhhcFdjQm5iaGpnUUZrbENjWkppWm9FZV9keWpZNFgta0N2YWJsa1VIVXB5OGxiS0ZFQ0oxdTAxb3RTTEx3cm9heXNHb1FYWE85NkV6bWNVdHVidDdEM2F2dmJuNUpSZ3dhMXhpWnV6cGlHRllvM3JFZ1VrMUtrLUI3dGo5aXg5Z3VHUFVyOXY?oc=5）",
           "entities": [
             {
               "name": "ARTEX",

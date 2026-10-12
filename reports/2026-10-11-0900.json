@@ -445,7 +445,7 @@
           "publish_time": "2026-10-11 08:16",
           "event_time": "2026-07-23",
           "event_time_inferred": false,
-          "verify_note": "官方页直接核验（anthropic.com/transparency「Banned Accounts · 11.4 million · January–June 2026」在档；用户新政外部同报 36Kr/ForkLog 10-09）",
+          "verify_note": "官方页直接核验（https://anthropic.com/transparency「Banned Accounts · 11.4 million · January–June 2026」在档；用户新政外部同报 36Kr/ForkLog 10-09）",
           "entities": [
             {
               "name": "Anthropic",

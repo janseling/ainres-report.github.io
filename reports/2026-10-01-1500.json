@@ -216,7 +216,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 新智元+AndroidAuthority/Computerworld 同报",
           "publish_time": "2026-10-01 09:10",
-          "verify_note": "外部检索（AndroidAuthority 9-30 同报 ChatGPT Space 上线：共享 Pages+AI 协作；Computerworld 9-30 同报道；chatgpt.com/features/space 官方页在档）",
+          "verify_note": "外部检索（AndroidAuthority 9-30 同报 ChatGPT Space 上线：共享 Pages+AI 协作；Computerworld 9-30 同报道；https://chatgpt.com/features/space 官方页在档）",
           "entities": [
             {
               "name": "OpenAI",
