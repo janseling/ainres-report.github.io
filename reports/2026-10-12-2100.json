@@ -3,7 +3,7 @@
   "date": "2026-10-12",
   "time": "21:00",
   "title": "AI 情报 · 10-12 21:00 场",
-  "generatedAt": "2026-10-12T15:22:56.355Z",
+  "generatedAt": "2026-10-12T19:44:52.121Z",
   "coverage": "2026-10-12 07:00 → 13:05（Asia/Shanghai · fetch 窗口口径）",
   "notes": [
     "今日 09:00/15:00 场已收条目（Decart 收购/可灵 IPO/Reflection AI/陶哲轩数学 2.0/封号披露/元器停服/Vicor 专利战等）均已去重；本场上午段（07:00 起）与 15:00 场窗口相邻，已按 URL 去重"
@@ -60,7 +60,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 The Verge+cnBeta/东方财富/新浪/富途/Barron's 同刻同报",
-          "publish_time": "2026-10-12 13:00",
+          "publish_time": "2026-10-12 21:00",
           "event_time": "2026-10-12",
           "event_time_inferred": false,
           "verify_note": "外部检索（cnBeta/东方财富/新浪/富途/Barron's 同刻多源，数字逐字吻合：40% per-MW token 效率提升、2027 量产、多吉瓦级）",
@@ -432,8 +432,6 @@
           "confidence": "高",
           "confidence_note": "双源佐证 中新社/CSDN/36kr 通气会稿",
           "publish_time": "2026-10-12 08:29",
-          "event_time": "2026-10-23",
-          "event_time_inferred": false,
           "verify_note": "外部检索（中新社/CSDN/36kr 通气会稿同报：10-23 上海、真机实训、常态化仿真赛→实景赛→2027 WAIC 具身展）",
           "entities": [
             {
