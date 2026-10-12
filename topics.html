@@ -15,8 +15,6 @@ body{margin:0;background:repeating-linear-gradient(0deg,transparent 0 2px,rgba(2
 a{color:var(--amber);text-decoration:none}
 .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
 .masthead{padding:48px 0 20px}
-.mh-meta{font-family:var(--mono);font-size:11px;letter-spacing:.22em;color:var(--dim);text-transform:uppercase}
-.mh-meta .dot{color:var(--amber);margin:0 6px}
 .brand{display:flex;align-items:baseline;gap:12px;margin:10px 0 0}
 .brand h1{margin:0;font-size:30px;letter-spacing:.02em}
 .brand em{font-style:normal;color:var(--amber)}
@@ -52,6 +50,7 @@ a{color:var(--amber);text-decoration:none}
 .tp-arr{color:var(--dim);flex:none}
 .tp-ph{color:var(--dim);font-family:var(--mono);font-size:12px;padding:30px 0}
 .foot{border-top:1px solid var(--line);margin-top:30px;padding:18px 0 40px;font-family:var(--mono);font-size:11.5px;display:flex;gap:18px;color:var(--dim)}
+.foot a{color:var(--dim);text-decoration:none}
 @keyframes ssp{0%,100%{opacity:1}50%{opacity:.35}}
 @media(max-width:720px){.tp-meta{display:none}.brand h1{font-size:24px}}
 .foot a:last-child,.sfoot a:last-child{margin-left:auto}
@@ -62,7 +61,6 @@ a{color:var(--amber);text-decoration:none}
 <div class="wrap">
   
 <header class="masthead">
-    <div class="mh-meta"><span>INTEL·DAILY</span><span class="dot">◉</span><span>SIGNALS · TRACKING</span><span>ASIA/SHANGHAI</span></div>
     <div class="brand"><h1>信号<em>追踪</em></h1><span class="sub">SIGNALS</span></div>
     <p class="tagline">信号线由每日报的「继续跟踪」信号自动聚合——每条线独立成页，收录该线索的全部跟踪节点与关联报道。数据开放：reports/topics.json。</p>
     <div class="statline" id="statline"><span id="sgCount">加载中…</span></div>
