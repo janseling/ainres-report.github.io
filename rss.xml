@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 12 Oct 2026 07:11:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 07:47:47 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-12 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-12-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-12-1500.html</guid>
+      <pubDate>Mon, 12 Oct 2026 07:00:00 GMT</pubDate>
+      <description>无问芯穹 23 亿元 C 轮落定：累计 43 亿，国内 AI Infra 最大单轮融资，战略全押 Agentic Infra</description>
+    </item>
     <item>
       <title>AI 情报 · 10-12 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-12-0900.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-06-0900.html</guid>
       <pubDate>Tue, 06 Oct 2026 01:00:00 GMT</pubDate>
       <description>Reflection Beam 开放权重如期交卷：501B/23B 激活 MoE、1M 上下文，自称推理算力比 GLM-5.2 省 3-4 倍</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-05 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-05-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-05-2100.html</guid>
-      <pubDate>Mon, 05 Oct 2026 13:00:00 GMT</pubDate>
-      <description>OpenAI 官宣 ChatGPT Ads 新视觉广告格式＋测量生态，本月内美国内测，12 亿周活开始广告变现</description>
     </item>
   </channel>
 </rss>

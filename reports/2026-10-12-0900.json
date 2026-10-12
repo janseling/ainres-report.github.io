@@ -3,7 +3,7 @@
   "date": "2026-10-12",
   "time": "09:00",
   "title": "AI 情报 · 10-12 09:00 场",
-  "generatedAt": "2026-10-12T01:17:07.151Z",
+  "generatedAt": "2026-10-12T07:47:34.770Z",
   "coverage": "2026-10-11 21:00 → 2026-10-12 09:05（Asia/Shanghai，fetch 窗口口径）",
   "notes": [],
   "itemCount": 10,
@@ -402,6 +402,8 @@
           "confidence": "高",
           "confidence_note": "多源佐证 智源社区+驱动之家/新浪/极客公园",
           "publish_time": "2026-10-12 08:50",
+          "event_time": null,
+          "event_time_inferred": false,
           "verify_note": "外部检索（驱动之家/新浪财经 2026-10-11 同题转发；卫报同步报道滥用新规 11-12 生效; geekpark.net/news/372218 + theguardian.com/technology/2026/oct/08/anthropic-bans-abusive-behavior-claude）",
           "entities": [
             {
@@ -447,7 +449,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 爱范儿+新浪财经",
           "publish_time": "2026-10-12 08:12",
-          "event_time": "2026-11-09",
+          "event_time": "2026-10-08",
           "event_time_inferred": false,
           "verify_note": "外部检索（新浪财经同报「元器将于 11 月 9 日停止服务，所创建智能体将不再可用」; news.google.com/rss/articles/CBMif0FVX3lxTE9oalNuWDFjVnZXSTZOUGdybTRXRy1LZ1B2b0lYSDQzel9XSTRCT0FhN21WQ2RGRXhBRWFZZGthQ3p5d0NheW9vLTN3NkZQOFdQc0ZNWmNyRXY2SUViQ3Nqa3NNUTJ3U0RVUXJFWGdOUkhIRVlmb2ZMeGNsZXFEY3M?oc=5）",
           "entities": [
