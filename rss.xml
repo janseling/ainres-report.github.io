@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 13 Oct 2026 07:12:27 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 07:59:20 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-13 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-13-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-13-1500.html</guid>
+      <pubDate>Tue, 13 Oct 2026 07:00:00 GMT</pubDate>
+      <description>OpenAI 拟把关停半年的 Sora 移交前核心研发参与创办的新公司，转向专业 AI 影视工具（多源同报）。</description>
+    </item>
     <item>
       <title>AI 情报 · 10-13 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-13-0900.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-07-0900.html</guid>
       <pubDate>Wed, 07 Oct 2026 01:00:00 GMT</pubDate>
       <description>OpenAI 官方公开 722 篇数学手稿（出自未发布前沿模型），时点疑似 28 天军令状 Day-2 兑付</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-06 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-06-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-06-2100.html</guid>
-      <pubDate>Tue, 06 Oct 2026 13:00:00 GMT</pubDate>
-      <description>彭博：DeepSeek 即将敲定至少 800 亿元新融资（腾讯/宁德时代在列），总额或近 1000 亿元、为 2027 年初 IPO 铺路</description>
     </item>
   </channel>
 </rss>
