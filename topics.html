@@ -126,7 +126,7 @@ a{color:var(--amber);text-decoration:none}
         el.style.display=(inView&&hit)?'':'none';if(inView&&hit)vis++;
       });
       var ns=document.getElementById('sbNone');
-      if(ns&&ns.parentNode&&(!q||vis>0))ns.parentNode.removeChild(ns);
+      if(ns&&ns.parentNode)ns.parentNode.removeChild(ns);
       if(q){sgC.textContent='命中 '+vis+' / '+total;sgC.classList.add('sb-on');}else{sgC.classList.remove('sb-on');}
       if(q&&vis===0&&!document.getElementById('fwEmpty'))sigList.insertAdjacentHTML('beforeend','<div class="tp-ph" id="sbNone">没有匹配「'+esc(qIn.value.replace(/^\s+|\s+$/g,''))+'」的信号线</div>');
     }
