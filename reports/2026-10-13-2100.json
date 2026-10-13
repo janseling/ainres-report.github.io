@@ -3,7 +3,7 @@
   "date": "2026-10-13",
   "time": "21:00",
   "title": "AI 情报 · 10-13 21:00 场",
-  "generatedAt": "2026-10-13T15:42:01.014Z",
+  "generatedAt": "2026-10-13T16:57:35.578Z",
   "coverage": "2026-10-13 15:00 → 21:11（Asia/Shanghai，窗口口径）",
   "notes": [],
   "itemCount": 13,
@@ -52,7 +52,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 TechCrunch+Reuters",
           "publish_time": "2026-10-13 20:23",
-          "verify_note": "外部检索（Reuters 2026-10-13 12:22 北京 同步报道\"files for bankruptcy, agrees to sell some assets for $20 million\"；Forbes/NBC/Quartz 同日跟进）",
+          "verify_note": "外部检索（Reuters 2026-10-13 12:22 北京 同步报道\"files for bankruptcy, agrees to sell some assets for $20 million\"；Forbes/NBC/Quartz 同日跟进；https://www.reuters.com/legal/litigation/characterai-files-bankruptcy-agrees-sell-some-assets-disney-20-million-2026-10-13/）",
           "entities": [
             {
               "name": "Character.AI",
@@ -103,7 +103,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+华尔街见闻/凤凰网",
           "publish_time": "2026-10-13 19:57",
-          "verify_note": "外部检索（华尔街见闻 2026-10-13 09:53 北京 首报\"500亿变1000亿\"；凤凰网科技/驱动之家/虎嗅同日多源，驱动之家称宁德时代、腾讯、吉利参投）",
+          "verify_note": "外部检索（华尔街见闻 2026-10-13 09:53 北京 首报\"500亿变1000亿\"；凤凰网科技/驱动之家/虎嗅同日多源，驱动之家称宁德时代、腾讯、吉利参投；https://www.36kr.com/p/4024122077908865）",
           "entities": [
             {
               "name": "DeepSeek",
@@ -160,7 +160,7 @@
           "publish_time": "2026-10-13 19:02",
           "event_time": "2026-10-13",
           "event_time_inferred": false,
-          "verify_note": "外部检索（21财经 2026-10-13 10:25 北京\"半年4轮融资估值150亿\"；投资界 11:36、中国基金报 15:45 称投资方含深投控、俞敏洪旗下公司）",
+          "verify_note": "外部检索（21财经 2026-10-13 10:25 北京\"半年4轮融资估值150亿\"；投资界 11:36、中国基金报 15:45 称投资方含深投控、俞敏洪旗下公司；https://www.chnfund.com/article/AR9f765950-42ee-6493-168a-3a2445d35578）",
           "entities": [
             {
               "name": "星尘智能",
@@ -311,7 +311,7 @@
           "publish_time": "2026-10-13 15:25",
           "event_time": "2026-10-12",
           "event_time_inferred": false,
-          "verify_note": "外部检索（The Decoder 2026-10-12 17:39 北京 同报\"solved dozens of open math problems and actually got peer reviewed\"）",
+          "verify_note": "外部检索（The Decoder 2026-10-12 17:39 北京 同报\"solved dozens of open math problems and actually got peer reviewed\"；https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/）",
           "entities": [
             {
               "name": "Google DeepMind",
@@ -364,7 +364,7 @@
           "publish_time": "2026-10-13 18:00",
           "event_time": "2026-10-11",
           "event_time_inferred": false,
-          "verify_note": "外部检索（新京报 2026-10-11 22:27 北京 首报联盟成立；东方财富 10-12 06:04「牵头8家机构研发数学专用模型、上海将设实验室」；21财经 10-13 13:59 同报）",
+          "verify_note": "外部检索（新京报 2026-10-11 22:27 北京 首报联盟成立；东方财富 10-12 06:04「牵头8家机构研发数学专用模型、上海将设实验室」；21财经 10-13 13:59 同报；https://www.bjnews.com.cn/detail/1791728032129598.html）",
           "entities": [
             {
               "name": "丘成桐",
@@ -602,7 +602,7 @@
           "publish_time": "2026-10-13 16:28",
           "event_time": "2026-10-11",
           "event_time_inferred": false,
-          "verify_note": "外部检索（卫报 2026-10-12 01:24 北京 同报“Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment”；Sky News/Independent/Health Policy Watch 10-11~13 多源跟进）",
+          "verify_note": "外部检索（卫报 2026-10-12 01:24 北京 同报“Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment”；Sky News/Independent/Health Policy Watch 10-11~13 多源跟进；https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment）",
           "entities": [
             {
               "name": "The Lancet",

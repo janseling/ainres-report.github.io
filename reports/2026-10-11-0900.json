@@ -159,7 +159,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "商业合作 / 产品发布"
+            "产品发布",
+            "商业合作"
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 TechCrunch+MacRumors",
@@ -269,7 +270,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "人事变动 / 融资交易"
+            "融资交易",
+            "人事变动"
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 iheima+亿邦动力",
@@ -327,7 +329,8 @@
           ],
           "source_tier": "D",
           "type_tags": [
-            "技术进展 / 安全"
+            "技术进展",
+            "安全"
           ],
           "confidence": "低",
           "confidence_note": "D源·社区审读未独立佐证",
@@ -385,7 +388,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "安全 / 政策监管"
+            "政策监管",
+            "安全"
           ],
           "confidence": "高",
           "confidence_note": "多源佐证 Bloomberg+CNBC+TechCrunch",
@@ -491,7 +495,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "商业合作 / 数据行情"
+            "数据行情",
+            "商业合作"
           ],
           "confidence": "中",
           "confidence_note": "三层分化为 36氪综述观点；引用的 Uber 预算事实多源在档",

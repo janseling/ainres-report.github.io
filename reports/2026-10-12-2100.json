@@ -3,7 +3,7 @@
   "date": "2026-10-12",
   "time": "21:00",
   "title": "AI 情报 · 10-12 21:00 场",
-  "generatedAt": "2026-10-12T21:43:52.663Z",
+  "generatedAt": "2026-10-13T16:57:35.576Z",
   "coverage": "2026-10-12 07:00 → 13:05（Asia/Shanghai · fetch 窗口口径）",
   "notes": [
     "今日 09:00/15:00 场已收条目（Decart 收购/可灵 IPO/Reflection AI/陶哲轩数学 2.0/封号披露/元器停服/Vicor 专利战等）均已去重；本场上午段（07:00 起）与 15:00 场窗口相邻，已按 URL 去重"
@@ -56,14 +56,15 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "产品发布 / 技术进展"
+            "产品发布",
+            "技术进展"
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 The Verge+cnBeta/东方财富/新浪/富途/Barron's 同刻同报",
           "publish_time": "2026-10-12 21:00",
           "event_time": "2026-10-12",
           "event_time_inferred": false,
-          "verify_note": "外部检索（cnBeta/东方财富/新浪/富途/Barron's 同刻多源，数字逐字吻合：40% per-MW token 效率提升、2027 量产、多吉瓦级）",
+          "verify_note": "外部检索（cnBeta/东方财富/新浪/富途/Barron's 同刻多源，数字逐字吻合：40% per-MW token 效率提升、2027 量产、多吉瓦级；https://www.cnbeta.com.tw/articles/tech/1581808.htm）",
           "entities": [
             {
               "name": "Microsoft",
@@ -166,14 +167,15 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "技术进展 / 人事变动"
+            "技术进展",
+            "人事变动"
           ],
           "confidence": "高",
           "confidence_note": "官方开源线+36氪/新浪双发",
           "publish_time": "2026-10-12 07:13",
           "event_time": "2026-10-09",
           "event_time_inferred": false,
-          "verify_note": "外部检索（新浪同题转发在档；H-JEPA 官方开源 10-09/10 已档）",
+          "verify_note": "外部检索（新浪同题转发在档；H-JEPA 官方开源 10-09/10 已档；https://k.sina.com.cn/article_7264514723_1b0ffb2a300102v91k.html?from=tech）",
           "entities": [
             {
               "name": "Yann LeCun",
@@ -230,7 +232,7 @@
           "publish_time": "2026-10-12 12:58",
           "event_time": null,
           "event_time_inferred": true,
-          "verify_note": "外部检索（Investing/TradingView/金融界/新浪多源同报：初创 Winverse AI、种子轮、估值 $4 亿、DeepSeek 领投）",
+          "verify_note": "外部检索（Investing/TradingView/金融界/新浪多源同报：初创 Winverse AI、种子轮、估值 $4 亿、DeepSeek 领投；https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypfc7325635.shtml）",
           "entities": [
             {
               "name": "DeepSeek",
@@ -280,7 +282,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "融资交易 / 产品发布"
+            "产品发布",
+            "融资交易"
           ],
           "confidence": "中",
           "confidence_note": "B单源·TechCrunch，外查未见独立来源，外查 10-12",
@@ -338,7 +341,7 @@
           "publish_time": "2026-10-12 12:13",
           "event_time": null,
           "event_time_inferred": true,
-          "verify_note": "外部检索（CNA/新浪 7×24 同报：Agentic AI 业务部门+卓越中心口径一致）",
+          "verify_note": "外部检索（CNA/新浪 7×24 同报：Agentic AI 业务部门+卓越中心口径一致；https://finance.sina.com.cn/jjxw/2026-10-12/doc-iniuypfa0528260.shtml）",
           "entities": [
             {
               "name": "HCLTech",
@@ -385,7 +388,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "产品发布 / 技术进展"
+            "产品发布",
+            "技术进展"
           ],
           "confidence": "中",
           "confidence_note": "B单源·36氪",
@@ -427,7 +431,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "技术进展 / 数据行情"
+            "技术进展",
+            "数据行情"
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 中新社/CSDN/36kr 通气会稿",
@@ -474,7 +479,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "技术进展 / 数据行情"
+            "技术进展",
+            "数据行情"
           ],
           "confidence": "高",
           "confidence_note": "双源口径 Ars+Yahoo/24-7 Wall St.",
@@ -517,7 +523,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "融资交易 / 数据行情"
+            "融资交易",
+            "数据行情"
           ],
           "confidence": "中",
           "confidence_note": "B单源·36氪转引 FT/PitchBook，外查 10-12 待原核",
@@ -566,14 +573,15 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "产品发布 / 技术进展"
+            "产品发布",
+            "技术进展"
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 凤凰网+SmartHey",
           "publish_time": "2026-10-12 08:29",
           "event_time": "2026-10-12",
           "event_time_inferred": false,
-          "verify_note": "外部检索（凤凰网 08:29 北京首报 272k→500k；SmartHey 补「取消长上下文额外收费」）",
+          "verify_note": "外部检索（凤凰网 08:29 北京首报 272k→500k；SmartHey 补「取消长上下文额外收费」；https://tech.ifeng.com/c/8x9jYKuaAce）",
           "entities": [
             {
               "name": "OpenAI",
@@ -626,7 +634,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "人事变动 / 商业合作"
+            "商业合作",
+            "人事变动"
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 凤凰网+David Senra 72 分钟专访/NYT 安全隐患报道",
@@ -729,14 +738,15 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "政策监管 / 其他"
+            "政策监管",
+            "其他"
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+新京报/北京市政府/京报网",
           "publish_time": "2026-10-12 09:54",
           "event_time": null,
           "event_time_inferred": false,
-          "verify_note": "外部检索（新京报/北京市政府/京报网同题在档；36氪本期为制度梳理+ABC/Cybernews 引用线）",
+          "verify_note": "外部检索（新京报/北京市政府/京报网同题在档；36氪本期为制度梳理+ABC/Cybernews 引用线；https://m.bjnews.com.cn/detail/1781188213129096.html）",
           "entities": [
             {
               "name": "（虚拟人/数字艺人·行业）",
@@ -772,7 +782,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "数据行情 / 其他"
+            "数据行情",
+            "其他"
           ],
           "confidence": "中",
           "confidence_note": "B单源·36氪",
@@ -856,14 +867,15 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "产品发布 / 技术进展"
+            "产品发布",
+            "技术进展"
           ],
           "confidence": "高",
           "confidence_note": "多源佐证 投资界/虎嗅/OSCHINA+极客公园立场稿",
           "publish_time": "2026-10-12 10:14",
           "event_time": "2026-10-09",
           "event_time_inferred": false,
-          "verify_note": "外部检索（投资界 10-12、虎嗅/OSCHINA 10-10 多源同题；极客公园 12-15 立场稿「拆开参考≠照抄」为主链补充）",
+          "verify_note": "外部检索（投资界 10-12、虎嗅/OSCHINA 10-10 多源同题；极客公园 12-15 立场稿「拆开参考≠照抄」为主链补充；https://www.huxiu.com/article/4896423.html）",
           "entities": [
             {
               "name": "REA",
@@ -906,7 +918,7 @@
           "publish_time": "2026-10-12 07:44",
           "event_time": "2026-10-11 07:54",
           "event_time_inferred": false,
-          "verify_note": "外部检索（新浪财经同日同题在档；更新数据 402 贡献者/2425 PR/3055 commits、skills_search+skills_read、MCP Apps 取自原文）",
+          "verify_note": "外部检索（新浪财经同日同题在档；更新数据 402 贡献者/2425 PR/3055 commits、skills_search+skills_read、MCP Apps 取自原文；https://finance.sina.com.cn/roll/2026-10-12/doc-iniuxwik0448215.shtml）",
           "entities": [
             {
               "name": "OpenClaw",
@@ -948,7 +960,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "安全 / 其他"
+            "安全",
+            "其他"
           ],
           "confidence": "中",
           "confidence_note": "B单源·36氪",

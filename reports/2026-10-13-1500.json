@@ -3,7 +3,7 @@
   "date": "2026-10-13",
   "time": "15:00",
   "title": "AI 情报 · 10-13 15:00 场",
-  "generatedAt": "2026-10-13T09:55:24.859Z",
+  "generatedAt": "2026-10-13T16:57:35.577Z",
   "coverage": "2026-10-13 09:00 → 15:06（Asia/Shanghai，窗口口径）",
   "notes": [
     "09:00 场已收录的 Muse Wonder、Volta 敞口、Intel D-Series、Winverse 首报等已按 seen 去重，「后续」除外"
@@ -56,7 +56,7 @@
           "publish_time": "2026-10-13 10:21",
           "event_time": "2026-10-13",
           "event_time_inferred": true,
-          "verify_note": "外部检索（凤凰网科技 10-13 同步报道「换赛道进军 AI 影视工具」; tech.ifeng.com；AIBase 10-13 英文稿：模型移交 Katsberg 初创; news.aibase.com）",
+          "verify_note": "外部检索（凤凰网科技 10-13 同步报道「换赛道进军 AI 影视工具」; tech.ifeng.com；AIBase 10-13 英文稿：模型移交 Katsberg 初创; news.aibase.com；https://tech.ifeng.com/c/8xBTQRlDxOH）",
           "entities": [
             {
               "name": "OpenAI",
@@ -109,7 +109,7 @@
           "publish_time": "2026-10-13 11:48",
           "event_time": "2026-10-12",
           "event_time_inferred": false,
-          "verify_note": "外部检索（新京报 10-12 15:52 首报「模思智能完成超10亿元Pre-A轮融资」; m.bjnews.com.cn；新浪财经/盖世汽车同报）",
+          "verify_note": "外部检索（新京报 10-12 15:52 首报「模思智能完成超10亿元Pre-A轮融资」; m.bjnews.com.cn；新浪财经/盖世汽车同报；https://finance.sina.com.cn/tech/shenji/2026-10-12/doc-iniuxmtr7267773.shtml）",
           "entities": [
             {
               "name": "模思智能",
@@ -160,7 +160,7 @@
           "publish_time": "2026-10-13 11:29",
           "event_time": "2026-10-12",
           "event_time_inferred": false,
-          "verify_note": "外部检索（Pluang 10-12 08:06 同报; pluang.com；FourWeekMBA：Codex 内 Sol 默认 500K; fourweekmba.com）",
+          "verify_note": "外部检索（Pluang 10-12 08:06 同报; pluang.com；FourWeekMBA：Codex 内 Sol 默认 500K; fourweekmba.com；https://fourweekmba.com/ai-openai-lifts-gpt-6-1-sol-default-context-to-500k-in-codex/）",
           "entities": [
             {
               "name": "OpenAI",
@@ -207,7 +207,7 @@
           "publish_time": "2026-10-13 13:08",
           "event_time": "2026-10-12",
           "event_time_inferred": false,
-          "verify_note": "外部检索（Bloomberg 10-12 19:42「$400 Million Robot Lab」; bloomberg.com；Quartz/digitimes 10-13 同报）",
+          "verify_note": "外部检索（Bloomberg 10-12 19:42「$400 Million Robot Lab」; bloomberg.com；Quartz/digitimes 10-13 同报；https://www.bloomberg.com/news/articles/2026-10-12/deepseek-backs-ex-tencent-ai-scientist-s-400-million-robot-lab）",
           "entities": [
             {
               "name": "DeepSeek",
@@ -271,7 +271,7 @@
           "publish_time": "2026-10-13 13:06",
           "event_time": "2026-10-11",
           "event_time_inferred": false,
-          "verify_note": "外部检索（Sakana 官方博客《Recursive Self-Improvement through Collective Intelligence》10-11 23:00; sakana.ai；The Decoder 10-13 02:05 批评视角; the-decoder.com）",
+          "verify_note": "外部检索（Sakana 官方博客《Recursive Self-Improvement through Collective Intelligence》10-11 23:00; sakana.ai；The Decoder 10-13 02:05 批评视角; the-decoder.com；https://sakana.ai/mass/）",
           "entities": [
             {
               "name": "Sakana AI",
@@ -368,7 +368,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "安全／技术进展"
+            "技术进展",
+            "安全"
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+Al Jazeera",
@@ -411,12 +412,13 @@
           ],
           "source_tier": "A",
           "type_tags": [
-            "技术进展／安全"
+            "技术进展",
+            "安全"
           ],
           "confidence": "高",
           "confidence_note": "A源·论文原文",
           "publish_time": "2026-10-13 12:00",
-          "verify_note": "A 源豁免",
+          "verify_note": "A 源豁免；https://arxiv.org/abs/2610.12822",
           "entities": [
             {
               "name": "arXiv",
@@ -466,7 +468,7 @@
           "publish_time": "2026-10-13 13:32",
           "event_time": "2026-10-13",
           "event_time_inferred": false,
-          "verify_note": "外部检索（WSJ 10-13 12:15 原始报道「Delays Singapore IPO」; wsj.com；观点网「推迟新加坡15亿美元REIT IPO至明年」; guandian.cn）",
+          "verify_note": "外部检索（WSJ 10-13 12:15 原始报道「Delays Singapore IPO」; wsj.com；观点网「推迟新加坡15亿美元REIT IPO至明年」; guandian.cn；https://www.wsj.com/finance/blackstone-backed-hyperscale-data-center-operator-delays-singapore-ipo-2f18bdc2）",
           "entities": [
             {
               "name": "AirTrunk",
@@ -513,7 +515,7 @@
           "publish_time": "2026-10-13 13:05",
           "event_time": "2026-10-13",
           "event_time_inferred": false,
-          "verify_note": "外部检索（Nikkei Asia 10-13 10:00 首发; asia.nikkei.com；Reuters 10-13 10:51 转引; reuters.com；W.Media：大阪 $6.3B; w.media）",
+          "verify_note": "外部检索（Nikkei Asia 10-13 10:00 首发; asia.nikkei.com；Reuters 10-13 10:51 转引; reuters.com；W.Media：大阪 $6.3B; w.media；https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build-first-data-center-for-anthropic-in-japan）",
           "entities": [
             {
               "name": "NTT Data",

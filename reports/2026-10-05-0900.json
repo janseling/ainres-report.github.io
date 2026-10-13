@@ -51,8 +51,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "融资交易",
-            "产品发布"
+            "产品发布",
+            "融资交易"
           ],
           "confidence": "中",
           "confidence_note": "量子位+机器之心双源同报，核心数据为 CEO 自述口径",
@@ -107,9 +107,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（订阅与模型供应政策）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 新智元+MakeUseOf/cryptobriefing 同报：免费 Gemini 只剩 Flash-Lite，10-09 生效",
           "publish_time": "2026-10-04 15:45",
@@ -512,9 +510,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（开源治理）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 TechCrunch+The Verge/Tom's Hardware 同报：产品类提报 10-01 起暂停至至少 2027",
           "publish_time": "2026-10-05 04:31",
@@ -674,9 +670,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（算力基建工程）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 量子位+Electrek 8-06（一期 $16.8B 确址）+Tom's Hardware 10-07（Intel 14A 重申、否认 TSMC 接管）",
           "publish_time": "2026-10-04 14:12",
@@ -782,9 +776,7 @@
             }
           ],
           "source_tier": "C",
-          "type_tags": [
-            "其他（开源生态动向）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 GitHub Trending 快照+独立平台数据：ponytail 9 万+★、Product Hunt 上架",
           "publish_time": "2026-10-05 09:00",

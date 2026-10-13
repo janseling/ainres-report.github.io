@@ -43,9 +43,7 @@
             }
           ],
           "source_tier": "D",
-          "type_tags": [
-            "其他（订阅政策调整）"
-          ],
+          "type_tags": [],
           "confidence": "中",
           "confidence_note": "多账号邮件全文互证+官方帮助文档口径，官方无公告",
           "publish_time": "2026-09-30 07:08",

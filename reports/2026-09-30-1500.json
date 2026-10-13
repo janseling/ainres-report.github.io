@@ -123,9 +123,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（产品转型）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 TechCrunch+runtimeWire/startupresearcher 同步报道 Wabi 转向 agentic 消息助手",
           "publish_time": "2026-09-30 01:20",
@@ -436,9 +434,7 @@
             }
           ],
           "source_tier": null,
-          "type_tags": [
-            "其他（政策监测）"
-          ],
+          "type_tags": [],
           "confidence": "低",
           "confidence_note": "C源·HN 提交的一页站，无可核实实体；独立预测市场口径不一，维持低",
           "publish_time": "2026-09-30 04:16",

@@ -647,9 +647,7 @@
             }
           ],
           "source_tier": "A",
-          "type_tags": [
-            "其他（安全访问计划扩容）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "A源·官方原文",
           "publish_time": "2026-10-07 03:00",
@@ -770,24 +768,24 @@
   ],
   "signals": [
     {
-      "lead": "",
-      "text": "SIG-20261008-0900-1（open，check 10-14）GPT-6 全民免费+IUI 的转化漏斗——免费旗舰把流量推到 12 亿量级，盯订阅转化/算力成本披露与同业（Gemini/Claude 免费档）反应。",
-      "sigId": null
+      "lead": "（open，check 10-14）GPT-6 ",
+      "text": "（open，check 10-14）GPT-6 全民免费+IUI 的转化漏斗——免费旗舰把流量推到 12 亿量级，盯订阅转化/算力成本披露与同业（Gemini/Claude 免费档）反应。",
+      "sigId": "SIG-20261008-0900-1"
     },
     {
-      "lead": "",
-      "text": "SIG-20261008-0900-2（open，check 10-20）博通-OpenAI 500 亿级私募信贷融资——AI 基础设施债务化首单，盯交割官宣与后续\"循环融资\"报道。",
-      "sigId": null
+      "lead": "（open，check 10-20）博通-Ope",
+      "text": "（open，check 10-20）博通-OpenAI 500 亿级私募信贷融资——AI 基础设施债务化首单，盯交割官宣与后续\"循环融资\"报道。",
+      "sigId": "SIG-20261008-0900-2"
     },
     {
-      "lead": "",
-      "text": "SIG-20261008-0900-3（open，check 10-13）Haiku 5.5 一分钱小模型地板——盯国内 GLM/DeepSeek/豆包 mini 系 API 跟价与\"多小模型矩阵\"架构讨论升温。",
-      "sigId": null
+      "lead": "（open，check 10-13）Haiku ",
+      "text": "（open，check 10-13）Haiku 5.5 一分钱小模型地板——盯国内 GLM/DeepSeek/豆包 mini 系 API 跟价与\"多小模型矩阵\"架构讨论升温。",
+      "sigId": "SIG-20261008-0900-3"
     },
     {
-      "lead": "",
-      "text": "SIG-20261008-0900-4（open，check 10-21）麦当劳算法定价诉讼——AI 定价工具反垄断第一案，盯抗辩口径、和解条款与同类平台主动下架 AI 定价功能的动作。",
-      "sigId": null
+      "lead": "（open，check 10-21）麦当劳算法定",
+      "text": "（open，check 10-21）麦当劳算法定价诉讼——AI 定价工具反垄断第一案，盯抗辩口径、和解条款与同类平台主动下架 AI 定价功能的动作。",
+      "sigId": "SIG-20261008-0900-4"
     }
   ],
   "sourceStatus": [

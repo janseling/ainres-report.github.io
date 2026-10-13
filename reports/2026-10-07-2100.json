@@ -409,9 +409,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（榜单名次与估值口径）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 量子位+新智元·凤凰网同报",
           "publish_time": "2026-10-07 19:34",
@@ -463,9 +461,7 @@
             }
           ],
           "source_tier": "C",
-          "type_tags": [
-            "其他（生态动向）"
-          ],
+          "type_tags": [],
           "confidence": "低",
           "confidence_note": "C源·榜单快照无发布时刻",
           "publish_time": "2026-10-07 21:05",
@@ -513,9 +509,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（创业动向）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 The Verge+hngry.tv",
           "publish_time": "2026-10-07 20:00",
@@ -553,9 +547,7 @@
             }
           ],
           "source_tier": "D",
-          "type_tags": [
-            "其他（API 弃用）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "官方弃用页一手+Reddit 帖互证",
           "publish_time": "2026-10-07 20:42",

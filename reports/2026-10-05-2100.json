@@ -529,9 +529,7 @@
             }
           ],
           "source_tier": null,
-          "type_tags": [
-            "其他（企业自建案例复盘）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 VentureBeat+SaaS Sentinel/dataist 10-05 同报",
           "publish_time": "2026-10-04 23:00",

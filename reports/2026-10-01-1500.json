@@ -343,9 +343,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（访谈披露）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "Dwarkesh 一手页核实+Dealroom 摘编",
           "publish_time": "2026-09-30 22:03",
@@ -485,9 +483,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（行业调查）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 36氪调查+21财经/钛媒体同报炮轰事件；106/84 家数据仍单源口径",
           "publish_time": "2026-09-30 16:54",
@@ -529,9 +525,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（破产清算）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 36氪（转铅笔道）+OFweek/新浪财经 同报",
           "publish_time": "2026-09-30 15:34",
@@ -575,9 +569,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（商业进展）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+PRNewswire 官方通稿/Dealroom 同报",
           "publish_time": "2026-09-30 16:49",
@@ -615,9 +607,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（AI 虚拟人动向）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+ABC/CBS/Forbes 同报道 Misaligned；「一年扩 8 倍」细节仍单源",
           "publish_time": "2026-09-30 17:41",

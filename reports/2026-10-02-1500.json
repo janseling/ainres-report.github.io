@@ -104,8 +104,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "技术进展",
-            "产品发布"
+            "产品发布",
+            "技术进展"
           ],
           "confidence": "中",
           "confidence_note": "B单源评测·官方发布链已核实",
@@ -296,9 +296,7 @@
             }
           ],
           "source_tier": "A",
-          "type_tags": [
-            "其他（平台订阅政策反弹）"
-          ],
+          "type_tags": [],
           "confidence": "低",
           "confidence_note": "D源·社区多帖互证",
           "publish_time": "2026-10-02 09:07",
@@ -339,9 +337,7 @@
             }
           ],
           "source_tier": "D",
-          "type_tags": [
-            "其他（社区硬件实测）"
-          ],
+          "type_tags": [],
           "confidence": "低",
           "confidence_note": "D源·社区自报实测",
           "publish_time": "2026-10-02 10:49",

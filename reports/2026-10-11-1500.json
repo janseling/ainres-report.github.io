@@ -273,7 +273,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "融资交易 / 技术进展"
+            "技术进展",
+            "融资交易"
           ],
           "confidence": "中",
           "confidence_note": "B单源",

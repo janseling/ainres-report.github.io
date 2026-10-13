@@ -114,10 +114,11 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt
 const USP = new URLSearchParams(location.search);
 const qs = { e: (USP.get('e') || '').trim(), q: (USP.get('q') || '').trim() };
 let IDX = null, TMAP = {};
-function popSel(sel, arr, label){
+const TIER_ZH = { A:'官方源', B:'主流媒体源', C:'聚合源', D:'社区源' };
+function popSel(sel, arr, label, map){
   sel.innerHTML = '';
   const o = document.createElement('option'); o.value = ''; o.textContent = label; sel.appendChild(o);
-  arr.forEach(x => { const oo = document.createElement('option'); oo.value = x; oo.textContent = x; sel.appendChild(oo); });
+  arr.forEach(x => { const oo = document.createElement('option'); oo.value = x; oo.textContent = map ? (map[x] || x) : x; sel.appendChild(oo); });
 }
 function entHref(n){ return 'search.html?e=' + encodeURIComponent(n); }
 function renderLanding(){
@@ -171,7 +172,7 @@ function render(){
   if(!hits.length){ list.innerHTML = '<div class="none">无命中——换个关键词或放宽筛选</div>'; return; }
   list.innerHTML = hits.slice(0, 200).map(r => {
     const tyB = (r.ty || '').split('|').filter(Boolean).map(t => '<span class="b">' + esc(t) + '</span>').join('');
-    const tnB = r.tn ? '<span class="b' + (r.tn === 'A' ? ' bA' : '') + '">源 ' + esc(r.tn) + '</span>' : '';
+    const tnB = r.tn ? '<span class="b' + (r.tn === 'A' ? ' bA' : '') + '">' + esc(TIER_ZH[r.tn] || (r.tn + '级源')) + '</span>' : '';
     const ck = r.c === '高' ? 'b bH' : (r.c === '低' ? 'b bL' : 'b');
     const ccB = r.c ? '<span class="' + ck + '">' + esc(r.c) + '</span>' : '';
     const es = (r.e || '').split('|').filter(Boolean).slice(0, 6).map(n => '<a class="echip" href="' + entHref(n) + '">' + esc(n) + '</a>').join('');
@@ -195,7 +196,7 @@ function initPage(){
       $('sub').textContent = 'SEARCH · ' + nIss + ' 期 / ' + d.rows.length + ' 条';
       popSel($('ftysel'), d.types || [], '全部类型');
       popSel($('fcsel'), ['高','中','低'], '全部置信');
-      popSel($('ftnsel'), ['A','B','C','D'], '全部源级');
+      popSel($('ftnsel'), ['A','B','C','D'], '全部源级', TIER_ZH);
       const box = $('echips'); box.innerHTML = '<span class="lb">热门实体</span>';
       (d.ents || []).slice(0, 10).forEach(z => {
         const a = document.createElement('a'); a.className = 'echip'; a.href = entHref(z.n);

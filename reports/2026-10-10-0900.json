@@ -193,7 +193,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "技术进展 / 安全"
+            "技术进展",
+            "安全"
           ],
           "confidence": "高",
           "confidence_note": "B源·TechCrunch 报道 Anthropic 官方声明",
@@ -236,7 +237,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "融资交易 / 技术进展"
+            "技术进展",
+            "融资交易"
           ],
           "confidence": "高",
           "confidence_note": "B源·TechCrunch，36氪 10-10 00:55 同步佐证",

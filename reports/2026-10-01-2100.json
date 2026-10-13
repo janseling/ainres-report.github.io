@@ -214,9 +214,7 @@
             }
           ],
           "source_tier": "A",
-          "type_tags": [
-            "其他（模型安全披露）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "A源·官方原文",
           "publish_time": "2026-09-30 18:30",
@@ -527,9 +525,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（企业采购动向）"
-          ],
+          "type_tags": [],
           "confidence": "中",
           "confidence_note": "B单源·机器之心Pro 转引 FT",
           "publish_time": "2026-10-01 17:48",

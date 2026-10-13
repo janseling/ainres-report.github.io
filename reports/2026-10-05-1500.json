@@ -238,9 +238,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（订阅与运营承诺）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "量子位+新智元+36氪三家同报",
           "publish_time": "2026-10-05 08:50",
@@ -284,9 +282,7 @@
             }
           ],
           "source_tier": "C",
-          "type_tags": [
-            "其他（开源社区治理）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 Neowin+XDA/The Register",
           "publish_time": "2026-10-04 01:32",

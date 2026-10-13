@@ -3,7 +3,7 @@
   "date": "2026-10-13",
   "time": "09:00",
   "title": "AI 情报 · 10-13 09:00 场",
-  "generatedAt": "2026-10-13T01:08:08.897Z",
+  "generatedAt": "2026-10-13T16:57:35.576Z",
   "coverage": "2026-10-12 21:00 → 2026-10-13 09:05（Asia/Shanghai，窗口口径）",
   "notes": [],
   "itemCount": 14,
@@ -153,7 +153,7 @@
           "confidence": "中",
           "confidence_note": "B单源·聚合转载佐证",
           "publish_time": "2026-10-12 23:31",
-          "verify_note": "外部检索（TOKENPOST 10-12 23:34 北京 同步转载：Blueprints AI Pitches Construction Documents Generated in Minutes）",
+          "verify_note": "外部检索（TOKENPOST 10-12 23:34 北京 同步转载：Blueprints AI Pitches Construction Documents Generated in Minutes；https://www.technology.org/2026/10/13/blueprints-ai-permit-ready-blueprints-techcrunch-disrupt/）",
           "entities": [
             {
               "name": "Blueprints AI",
@@ -196,7 +196,8 @@
           ],
           "source_tier": "A",
           "type_tags": [
-            "技术进展/安全"
+            "技术进展",
+            "安全"
           ],
           "confidence": "高",
           "confidence_note": "A源·官方原文",
@@ -327,7 +328,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 intel官方页+ServeTheHome",
           "publish_time": "2026-10-13 03:25",
-          "verify_note": "外部检索（ServeTheHome 10-13 03:25 北京 同报：D-Series 命名与规格；另多家媒体 03:48 同框）",
+          "verify_note": "外部检索（ServeTheHome 10-13 03:25 北京 同报：D-Series 命名与规格；另多家媒体 03:48 同框；https://www.servethehome.com/intels-crescent-island-ai-server-gpu-gets-a-name-and-specs-meet-the-intel-gpu-d-series/）",
           "entities": [
             {
               "name": "Intel",
@@ -374,7 +375,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 Reddit+MarkTechPost",
           "publish_time": "2026-10-12 21:18",
-          "verify_note": "外部检索（MarkTechPost 10-13 05:41 北京 同报：Alibaba Qwen Introduces QwenGyre Elastic RL for XLong-Horizon Agents；FourWeekMBA/KuCoin 同框）",
+          "verify_note": "外部检索（MarkTechPost 10-13 05:41 北京 同报：Alibaba Qwen Introduces QwenGyre Elastic RL for XLong-Horizon Agents；FourWeekMBA/KuCoin 同框；https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents/）",
           "entities": [
             {
               "name": "通义千问",
@@ -413,13 +414,11 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（跑分争议）"
-          ],
+          "type_tags": [],
           "confidence": "中",
           "confidence_note": "B源；「API 仅弱版」事实获外部同报，「刷榜」指控未证实",
           "publish_time": "2026-10-13 07:14",
-          "verify_note": "外部检索（Google News 命中英文报道：Muse Wonder achieve frontier performance, but only the weaker one is available，10-13 04:04 北京）",
+          "verify_note": "外部检索（Google News 命中英文报道：Muse Wonder achieve frontier performance, but only the weaker one is available，10-13 04:04 北京；https://venturebeat.com/technology/metas-new-muse-wonder-and-muse-wonder-full-models-achieve-frontier-performance-but-only-the-weaker-one-is-available-via-api）",
           "entities": [
             {
               "name": "Meta",
@@ -473,7 +472,7 @@
           "publish_time": "2026-10-12 23:31",
           "event_time": "2026-10-12",
           "event_time_inferred": false,
-          "verify_note": "外部检索（BBC 10-12 15:47 北京 / Guardian 16:11 同报：AI less regulated than milk）",
+          "verify_note": "外部检索（BBC 10-12 15:47 北京 / Guardian 16:11 同报：AI less regulated than milk；https://www.bbc.com/news/articles/c6rmy7zmvx3lo）",
           "entities": [
             {
               "name": "微软",
@@ -523,9 +522,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（战略动向）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "多源佐证 虎嗅+驱动之家·均源起彭博社",
           "publish_time": "2026-10-13 08:27",
@@ -578,7 +575,7 @@
           "confidence": "高",
           "confidence_note": "多源佐证 36kr+CNBC+SiliconANGLE/IBD",
           "publish_time": "2026-10-13 08:40",
-          "verify_note": "外部检索（CNBC 10-12 16:27 北京：capital crunch could become AI's biggest bottleneck；IBD 10-13 04:45 / SiliconANGLE 08:11 同框）",
+          "verify_note": "外部检索（CNBC 10-12 16:27 北京：capital crunch could become AI's biggest bottleneck；IBD 10-13 04:45 / SiliconANGLE 08:11 同框；https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html）",
           "entities": [
             {
               "name": "Intel",
@@ -623,7 +620,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 kr36+Bloomberg",
           "publish_time": "2026-10-13 08:57",
-          "verify_note": "外部检索（Bloomberg 10-13 02:30 北京：JPMorgan, Goldman Curb Exposure on $5 Billion Volta AI Loan Sale；Dealroom 03:50 同报）",
+          "verify_note": "外部检索（Bloomberg 10-13 02:30 北京：JPMorgan, Goldman Curb Exposure on $5 Billion Volta AI Loan Sale；Dealroom 03:50 同报；https://www.bloomberg.com/news/articles/2026-10-12/jpmorgan-goldman-curb-exposure-on-5-billion-volta-ai-loan-sale）",
           "entities": [
             {
               "name": "Volta AI",
@@ -672,7 +669,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 Bloomberg 首报+Ars",
           "publish_time": "2026-10-13 04:59",
-          "verify_note": "外部检索（Bloomberg 10-13 02:24 北京 首报：Epic Games Delays Disney Project, Asks Developers to Use More AI；AvClub 同报）",
+          "verify_note": "外部检索（Bloomberg 10-13 02:24 北京 首报：Epic Games Delays Disney Project, Asks Developers to Use More AI；AvClub 同报；https://www.bloomberg.com/news/articles/2026-10-12/epic-games-delays-disney-project-asks-developers-to-use-more-ai）",
           "entities": [
             {
               "name": "Epic Games",

@@ -154,8 +154,8 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "技术进展",
-            "产品发布"
+            "产品发布",
+            "技术进展"
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 量子位实测稿+Pandaily/前途科技 10-02 同报；官方实测口径，独立复现仍缺",
@@ -301,9 +301,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（模型意识公共辩论）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源：NYT 09-29 原刊+Telegraph 10-02 跟进",
           "publish_time": "2026-10-02 18:02",
@@ -346,9 +344,7 @@
             }
           ],
           "source_tier": "A",
-          "type_tags": [
-            "其他（社区实测横评）"
-          ],
+          "type_tags": [],
           "confidence": "低",
           "confidence_note": "D源·自报口径小样本",
           "publish_time": "2026-10-02 18:36",

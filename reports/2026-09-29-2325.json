@@ -196,9 +196,7 @@
             }
           ],
           "source_tier": "A",
-          "type_tags": [
-            "其他（订阅政策调整）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "OpenAI DevDay 官方纪要同口径确认 Pro 200 重开",
           "publish_time": "2026-09-29 14:41",
@@ -248,9 +246,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（旗舰弃发）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "WSJ 独家+CNBC/CBC 同报多源",
           "publish_time": "2026-09-29 22:22",
@@ -430,9 +426,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（安全话语交锋）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 CNBC 访谈+Politico 同报",
           "publish_time": "2026-09-29 16:20",
@@ -481,9 +475,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（agent 安全事故）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 The Verge+Fast Company/TechRadar 同报",
           "publish_time": "2026-09-29 22:08",
@@ -521,9 +513,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "产品发布（平台能力开放）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 TechCrunch+Shopify 官方 changelog/PYMNTS",
           "publish_time": "2026-09-29 03:33",
@@ -563,9 +553,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（产品线调整）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 TechCrunch+9to5Google；Google 官方博客后续官宣",
           "publish_time": "2026-09-29 01:29",

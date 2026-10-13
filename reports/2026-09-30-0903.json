@@ -540,9 +540,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（AI 动态定价应用）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 CNBC+Reuters 原稿·TechSpot 独立跟进",
           "publish_time": "2026-09-29 19:56",
@@ -576,9 +574,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（算力金融化）"
-          ],
+          "type_tags": [],
           "confidence": "低",
           "confidence_note": "FT 原稿已核在案·知情人士措辞仍未证实",
           "publish_time": "2026-09-29",
@@ -660,9 +656,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（机构研判）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+TheFly/TipRanks",
           "publish_time": "2026-09-30 08:52",

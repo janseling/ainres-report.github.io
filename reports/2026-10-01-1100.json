@@ -641,7 +641,6 @@
           ],
           "source_tier": "B",
           "type_tags": [
-            "其他（产品规划）",
             "数据行情"
           ],
           "confidence": "中",
@@ -682,9 +681,7 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [
-            "其他（agent 安全事件后续）"
-          ],
+          "type_tags": [],
           "confidence": "高",
           "confidence_note": "双源佐证 36氪·TechCrunch+FastCompany·TechRadar",
           "publish_time": "2026-09-30 16:18",
