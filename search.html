@@ -40,6 +40,27 @@ body{background:repeating-linear-gradient(0deg,transparent 0 2px,rgba(255,255,25
 .rw-s{color:var(--ink2);font-size:12.5px;line-height:1.8;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .rw-e{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}
 .none{padding:44px 0;text-align:center;color:var(--dim);font-family:var(--mono);font-size:13px}
+/* 落地概览（统计瓦片+热门专题） */
+.ovw{padding:18px 0 6px}
+.ov-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:12px 0 16px}
+.ov-c{border:1px solid var(--line);border-radius:6px;padding:14px 16px}
+.ov-c .n{font-family:var(--mono);font-size:24px;font-weight:800;letter-spacing:.02em}
+.ov-c .l{font-family:var(--mono);font-size:10px;color:var(--dim);letter-spacing:.08em;margin-top:3px}
+.ov-hot{display:flex;gap:6px;flex-wrap:wrap;padding:4px 0 10px}
+/* 相关专题区块（结果上方 / 实体视图） */
+.tps{padding:2px 0 14px}
+.tp-h{font-family:var(--mono);font-size:10.5px;color:var(--dim);letter-spacing:.08em;padding:4px 0 6px}
+.tp{border:1px solid rgba(232,163,61,.30);border-radius:6px;padding:10px 12px;margin:0 0 8px;background:rgba(232,163,61,.05)}
+.tp:hover{border-color:rgba(232,163,61,.6)}
+.tp-t{font-size:14.5px;font-weight:700}
+.tp-t a{color:var(--amber);text-decoration:none}
+.tp-t a:hover{text-decoration:underline;text-underline-offset:3px}
+.tp-m{font-family:var(--mono);font-size:10.5px;color:var(--dim);margin-top:3px}
+/* 条目行底部相关专题 chips */
+.rw-tp{margin-top:8px;padding-top:8px;border-top:1px dashed var(--line);display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.rw-tp .lb{font-family:var(--mono);font-size:10px;color:var(--dim);letter-spacing:.06em}
+.rw-tp a{font-family:var(--mono);font-size:10.5px;color:var(--ink2);border:1px solid var(--line2);padding:2px 8px;border-radius:10px;text-decoration:none;white-space:nowrap}
+.rw-tp a:hover{color:var(--amber);border-color:rgba(232,163,61,.5)}
 .sfoot{max-width:1080px;margin:26px auto 0;width:100%;padding:16px 16px 0;border-top:1px solid var(--line);display:flex;gap:16px;flex-wrap:wrap;font-family:var(--mono);font-size:11px}
 .sfoot a{color:var(--dim);text-decoration:none}
 .sfoot a:hover{color:var(--amber)}
@@ -83,6 +104,8 @@ body{background:repeating-linear-gradient(0deg,transparent 0 2px,rgba(255,255,25
 </div>
 <div class="ents" id="echips"></div>
 <div class="meta" id="meta">加载检索索引…</div>
+<div class="ovw" id="ovw" style="display:none"></div>
+<div class="tps" id="tps" style="display:none"></div>
 <div id="list"></div>
 </div>
 <script>
@@ -90,17 +113,33 @@ const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const USP = new URLSearchParams(location.search);
 const qs = { e: (USP.get('e') || '').trim(), q: (USP.get('q') || '').trim() };
-let IDX = null;
+let IDX = null, TMAP = {};
 function popSel(sel, arr, label){
   sel.innerHTML = '';
   const o = document.createElement('option'); o.value = ''; o.textContent = label; sel.appendChild(o);
   arr.forEach(x => { const oo = document.createElement('option'); oo.value = x; oo.textContent = x; sel.appendChild(oo); });
 }
 function entHref(n){ return 'search.html?e=' + encodeURIComponent(n); }
+function renderLanding(){
+  if(!IDX) return;
+  const s = IDX.stats || {};
+  $('list').style.display = 'none';
+  $('tps').style.display = 'none';
+  $('ovw').style.display = '';
+  const tile = (n, l) => '<div class="ov-c"><div class="n">' + esc(n == null ? '—' : n) + '</div><div class="l">' + esc(l) + '</div></div>';
+  let h = '<div class="ov-g">' + tile(s.items, '条目 ITEMS') + tile(s.topics, '专题 TOPICS') + tile(s.issues, '期数 ISSUES') + tile(s.entities, '实体 ENTITIES') + '</div>';
+  const hot = (IDX.topics || []).slice().sort((a, b) => (b.n || 0) - (a.n || 0)).slice(0, 6);
+  if (hot.length) h += '<div class="lb" style="display:block;padding:2px 0 6px;font-family:var(--mono);font-size:10.5px;color:var(--dim);letter-spacing:.08em">🔥 热门专题 · 点击直达时间线</div><div class="ov-hot">' + hot.map(t => '<a class="echip" href="/topic/' + esc(t.s) + '.html">' + esc(t.t) + '<span class="cnt">(' + t.n + ')</span></a>').join('') + '</div>';
+  $('ovw').innerHTML = h;
+  $('meta').textContent = '共 ' + (s.issues || 0) + ' 期 · ' + (s.items || 0) + ' 条 · ' + (s.topics || 0) + ' 个专题 · ' + (s.entities || 0) + ' 实体 —— 输入关键词或点筛选开始检索';
+}
 function render(){
   if(!IDX) return;
   const kw = $('kwin').value.trim();
   const fty = $('ftysel').value, fcn = $('fcsel').value, ftn = $('ftnsel').value, fd = $('fdsel').value;
+  if(!kw && !qs.e && !fty && !fcn && !ftn && !(+fd)){ renderLanding(); return; }
+  $('ovw').style.display = 'none';
+  $('list').style.display = '';
   const cur = (+fd) ? new Date(Date.now() - (+fd) * 864e5).toISOString().slice(0, 10) : '';
   const hits = IDX.rows.filter(r => {
     if(qs.e && (('|' + r.e + '|').indexOf('|' + qs.e + '|')) < 0) return false;
@@ -112,6 +151,22 @@ function render(){
     return true;
   });
   $('meta').textContent = '命中 ' + hits.length + ' / ' + IDX.rows.length + ' 条' + (qs.e ? ' · 实体：' + qs.e : '') + (hits.length > 200 ? '（仅展示前 200）' : '');
+  /* 相关专题区块：实体模式按成员实体聚合命中；关键词模式按专题名命中 */
+  const T0 = IDX.topics || [];
+  let tps = qs.e ? T0.filter(t => ('|' + (t.e || '') + '|').indexOf('|' + qs.e + '|') >= 0) : [];
+  if (kw) {
+    const kl = kw.toLowerCase();
+    tps = (qs.e ? tps : T0).filter(t => String(t.t || '').toLowerCase().indexOf(kl) >= 0);
+  }
+  tps.sort((a, b) => (b.n || 0) - (a.n || 0));
+  const tbox = $('tps');
+  if (tps.length) {
+    tbox.style.display = '';
+    tbox.innerHTML = '<div class="tp-h">📌 相关专题 · ' + tps.length + '</div>' + tps.slice(0, 8).map(t =>
+      '<div class="tp"><div class="tp-t"><a href="/topic/' + esc(t.s) + '.html">' + esc(t.t) + '</a></div>' +
+      '<div class="tp-m">' + (t.n || 0) + ' 期跟踪 · 最新 ' + esc(String(t.l || '').slice(0, 10).replace(/-/g, '.')) +
+      (t.st === 'confirmed' ? ' · ✓ 已兑现' : t.st === 'void' ? ' · ✕ 已证伪' : '') + '</div></div>').join('');
+  } else tbox.style.display = 'none';
   const list = $('list');
   if(!hits.length){ list.innerHTML = '<div class="none">无命中——换个关键词或放宽筛选</div>'; return; }
   list.innerHTML = hits.slice(0, 200).map(r => {
@@ -120,11 +175,13 @@ function render(){
     const ck = r.c === '高' ? 'b bH' : (r.c === '低' ? 'b bL' : 'b');
     const ccB = r.c ? '<span class="' + ck + '">' + esc(r.c) + '</span>' : '';
     const es = (r.e || '').split('|').filter(Boolean).slice(0, 6).map(n => '<a class="echip" href="' + entHref(n) + '">' + esc(n) + '</a>').join('');
+    const tpch = (r.tp || []).map(sg => TMAP[sg] ? '<a href="/topic/' + esc(sg) + '.html">📌 ' + esc(TMAP[sg].t) + '</a>' : '').join('');
     return '<div class="rw">' +
       '<div class="rw-h"><span class="b">' + esc(r.d.slice(5)) + '</span>' + tyB + tnB + ccB + '<span style="margin-left:auto">' + esc(r.i) + '</span></div>' +
       '<div class="rw-t"><a href="reports/' + esc(r.i) + '.html#it-' + esc(r.a) + '">' + esc(r.ti) + '</a></div>' +
       (r.su ? '<div class="rw-s">' + esc(r.su) + '</div>' : '') +
       (es ? '<div class="rw-e">' + es + '</div>' : '') +
+      (tpch ? '<div class="rw-tp"><span class="lb">相关专题</span>' + tpch + '</div>' : '') +
       '</div>';
   }).join('');
 }
@@ -133,6 +190,7 @@ function initPage(){
     .then(r => r.ok ? r.json() : Promise.reject(new Error('http ' + r.status)))
     .then(d => {
       IDX = d;
+      (d.topics || []).forEach(t => { TMAP[t.s] = t; });
       const nIss = new Set(d.rows.map(r => r.i)).size;
       $('sub').textContent = 'SEARCH · ' + nIss + ' 期 / ' + d.rows.length + ' 条';
       popSel($('ftysel'), d.types || [], '全部类型');
