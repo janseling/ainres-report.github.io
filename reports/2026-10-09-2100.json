@@ -686,8 +686,13 @@
     },
     {
       "lead": "华盛顿旋转门",
-      "text": "OpenAI/Anthropic 吸纳前政府官员后的官方任命与监管口径变化（SIG-20261009-2100-4，check 2026-10-16）→ 核两家 policy 公告与白宫人事新闻。 继续跟踪：SIG-20261009-1500-1 Gemini 4 Argon 全量开放窗口（check 10-11，本期外查无新增官宣）；SIG-20261006-0900-1 军令状节奏（check 10-13）。",
+      "text": "OpenAI/Anthropic 吸纳前政府官员后的官方任命与监管口径变化（SIG-20261009-2100-4，check 2026-10-16）→ 核两家 policy 公告与白宫人事新闻。",
       "sigId": "SIG-20261009-2100-4"
+    },
+    {
+      "lead": "继续跟踪",
+      "text": "SIG-20261009-1500-1 Gemini 4 Argon 全量开放窗口（check 10-11，本期外查无新增官宣）；SIG-20261006-0900-1 军令状节奏（check 10-13）。",
+      "sigId": null
     }
   ],
   "sourceStatus": [

@@ -522,7 +522,23 @@
       ]
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "lead": "Amazon×Decart 收购交割",
+      "text": "Amazon×Decart 收购交割——实时视觉 agent 入口的垂直整合（盯交割公告与报价口径、Blaze 眼镜硬件路线、Mirage 开源节奏变化）",
+      "sigId": "SIG-20261012-0900-1"
+    },
+    {
+      "lead": "腾讯 agent 产品收缩周期（QClaw→元器",
+      "text": "腾讯 agent 产品收缩周期（QClaw→元器 11-9 停服）——盯元器停服公告细节、更多大厂 agent 下架/合并、承接方迁移策略",
+      "sigId": "SIG-20261012-0900-2"
+    },
+    {
+      "lead": "Anthropic 账号治理与新滥用政策（11-",
+      "text": "Anthropic 账号治理与新滥用政策（11-12 生效）——盯封号/申诉率变化、开发者迁移行为、企业合规采购清单是否出现",
+      "sigId": "SIG-20261012-0900-3"
+    }
+  ],
   "sourceStatus": [
     "- OpenAI RSS：HTTP 403，官方 render 兜底本轮仍 0 条（连续多期，暂不停用继续观察）",
     "- Hacker News：主源 hnrss 请求超时（curl exit 28），本轮 0 条；Algolia 兜底亦无窗口内新条目",

@@ -629,7 +629,23 @@
       ]
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "lead": "Sora 复活交割窗口",
+      "text": "模型移交初创（AIBase 称 Katsberg）与「专业影视工具」形态；盯 OpenAI 官方公告、新公司产品/定价、模型许可条款与 The Information 后续。",
+      "sigId": null
+    },
+    {
+      "lead": "Anthropic「AI 蠕虫」IoT 自我复制风险线",
+      "text": "盯官方红队报告原文、IoT/安全厂商新品反应、真实恶意案例是否出现。",
+      "sigId": null
+    },
+    {
+      "lead": "模思智能超 10 亿 Pre-A 后落地",
+      "text": "盯投资方名单披露与多模态世界模型的产品/API 化节奏。",
+      "sigId": null
+    }
+  ],
   "sourceStatus": [
     "- GitHub Trending：consecutive_down=2，本期已恢复 OK（9 条入窗），继续观察。",
     "- Hacker News：本轮 curl 超时（exit 28）0 条入窗，health 记 OK 未连续失败；观察一轮。",

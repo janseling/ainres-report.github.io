@@ -681,7 +681,28 @@
       ]
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "lead": "Amex 把「agent 支付授权」立成框架",
+      "text": "卡组织开始给 agent 商务立授权/拒付/争议规矩，与 Amazon 封禁外部 agent 构成「准入+支付」双侧治理——盯 Visa/Mastercard 对等框架与授权票据/审计中间件新品（check 10-16）",
+      "sigId": "SIG-20261013-2100-1"
+    },
+    {
+      "lead": "丘成桐「数学与AI实验室联盟」中国建制化",
+      "text": "8 机构千名学者造数学专用模型、上海设实验室——盯联盟首个数学大模型发布、高校/政府采购通道与第三方可复现对照（check 10-20）",
+      "sigId": "SIG-20261013-2100-2"
+    },
+    {
+      "lead": "Muse Wonder 跑分争议",
+      "text": "本期 3D 实测翻车+刷榜指控发酵，等第三方复测/仲裁与 AA 指数变动（check 10-16）",
+      "sigId": "SIG-20261013-0900-1"
+    },
+    {
+      "lead": "中国基模型双 IPO",
+      "text": "DeepSeek 1000 亿将完成+星尘估值 150 亿，IPO 铺路推进——盯辅导备案/递表节点（check 10-17）",
+      "sigId": "SIG-20261006-2100-1"
+    }
+  ],
   "sourceStatus": [
     "- 本期全源 OK：无 DOWN/FALLBACK，无 consecutive_down≥2 源",
     "- 留意零增量：HN 502（Algolia 兜底 0 增量）、OpenAI RSS 403（渲染兜底 0 增量）——连续两期零增量，下期仍零建议评估停用；ars/deepmind/simonw/qwen/minimax 本窗口安静属正常"

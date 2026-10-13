@@ -531,8 +531,13 @@
     },
     {
       "lead": "决策模型品类三连击的收敛",
-      "text": "（SIG-20261010-1500-2，check 2026-10-17）：核 Microsoft-Decision-1 Foundry 官方文档/定价、Qwen 系表态，以及 Jev/Decisions API 的基准对垒。 继续跟踪：SIG-20261009-1500-1（Argon 官宣窗口，check 10-14）、SIG-20261007-0900-1（722 篇数学手稿验证窗，check 10-14）、SIG-20261006-2100-1（大模型双 IPO，check 10-17）。",
+      "text": "（SIG-20261010-1500-2，check 2026-10-17）：核 Microsoft-Decision-1 Foundry 官方文档/定价、Qwen 系表态，以及 Jev/Decisions API 的基准对垒。",
       "sigId": "SIG-20261010-1500-2"
+    },
+    {
+      "lead": "继续跟踪",
+      "text": "SIG-20261009-1500-1（Argon 官宣窗口，check 10-14）、SIG-20261007-0900-1（722 篇数学手稿验证窗，check 10-14）、SIG-20261006-2100-1（大模型双 IPO，check 10-17）。",
+      "sigId": null
     }
   ],
   "sourceStatus": [

@@ -608,7 +608,23 @@
       ]
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "lead": "无问芯穹 C 轮后的 Agentic Infra",
+      "text": "无问芯穹 C 轮后的 Agentic Infra 决战——盯交割后产品节奏/客户与收入结构披露、大厂 infra 对垒、IPO 辅导节点",
+      "sigId": "SIG-20261012-1500-1"
+    },
+    {
+      "lead": "「速度档」定价战东移（GLM-5.3 高速版 ~",
+      "text": "「速度档」定价战东移（GLM-5.3 高速版 ~500 t/s vs Sol Ultrafast 300 t/s/6x）——盯智谱 API 正式计价倍率、开源权重是否放高速档、烧额度口碑是否重演",
+      "sigId": "SIG-20261012-1500-2"
+    },
+    {
+      "lead": "AI 灾难「第二天」预案工程化（Axios 独家",
+      "text": "AI 灾难「第二天」预案工程化（Axios 独家线）——盯后续报道与官方回应、「灾后信任/公关治理」类工具与咨询品类出现",
+      "sigId": "SIG-20261012-1500-3"
+    }
+  ],
   "sourceStatus": [
     "- 本期无 DOWN/FALLBACK、无 consecutive_down≥2 源（全源 OK）",
     "- OpenAI RSS：主源 HTTP 403、render 兜底 parse 0——连续数期 0 条，官方 RSS 疑反爬，继续观察",

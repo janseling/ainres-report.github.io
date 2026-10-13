@@ -412,7 +412,28 @@
       ]
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "lead": "蚂蚁灵光 10 月开放节点与 Muse 对位（SIG-20261",
+      "text": "蚂蚁灵光 10 月开放节点与 Muse 对位（SIG-20261011-2100-1）",
+      "sigId": "SIG-20261011-2100-1"
+    },
+    {
+      "lead": "ITC 337「垂直供电」调查走向",
+      "text": "应诉名单/裁决/排除令（SIG-20261011-2100-2）",
+      "sigId": null
+    },
+    {
+      "lead": "DeepSeek V4.1 Flash 外泄指控的独立复现与官方",
+      "text": "DeepSeek V4.1 Flash 外泄指控的独立复现与官方回应（SIG-20261011-2100-3）",
+      "sigId": "SIG-20261011-2100-3"
+    },
+    {
+      "lead": "Jebadiah 开源决策模型采用度",
+      "text": "Jebadiah 开源决策模型采用度，对接 SIG-20261010-1500-2 决策品类线（SIG-20261011-2100-4）",
+      "sigId": "SIG-20261011-2100-4"
+    }
+  ],
   "sourceStatus": [
     "- GitHub Trending：consecutive_down=3（连续 3 期窗口内无有效新条目，多为存量/非 AI 项目）——按规则建议停用降权观察",
     "- Hacker News：主源 hnrss 本轮超时（curl exit 28）0 条——Algolia 兜底链正常，可继续依赖兜底",

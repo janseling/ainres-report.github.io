@@ -320,7 +320,23 @@
       ]
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "lead": "GPT-5.5 断供日 10-14",
+      "text": "盯 Codex 生态迁移事故与 5.6 Sol 首周投诉率；仍硬编码 5.5 的生产 agent 需在断供前完成 fallback 改造——迁移评估服务是两周窗口的生意。",
+      "sigId": null
+    },
+    {
+      "lead": "GPT-6.1 Sol Ultrafast 节奏",
+      "text": "Tibo 何时给出日期与定价，缓存输入价格是否延续 Sol 线降价。",
+      "sigId": null
+    },
+    {
+      "lead": "Muse 提示词泄露是否换来 Meta/苹果官方回应",
+      "text": "Muse 提示词泄露是否换来 Meta/苹果官方回应；社区已开始用泄露原文反推家庭 agent 的权限设计范式。",
+      "sigId": null
+    }
+  ],
   "sourceStatus": [
     "- 搜狐系六路（新智元/机器之心Pro/甲子光年 镜像＋直抓）全部 DOWN——快照期 0 字节不可恢复，国内主源本窗口零增量主因（仅 10-05 存量 raw 捞回 3 条）",
     "- OpenAI(now)：DOWN（页面 body 仅几十字节，源在线，疑似反爬）",

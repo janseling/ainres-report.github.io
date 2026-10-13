@@ -271,7 +271,18 @@
       ]
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "lead": "M3.1-Flash 假期口碑若延续",
+      "text": "M3.1-Flash 假期口碑若延续，观察节后一两周内 MiniMax 是否转正式版并开放 API 定价。",
+      "sigId": null
+    },
+    {
+      "lead": "Kolibri 模型卡下载/star 增速",
+      "text": "Kolibri 模型卡下载/star 增速，与德国政企/工业界首批集成案例（主权 AI 官宣后的实际采用）。",
+      "sigId": null
+    }
+  ],
   "sourceStatus": [
     "- 新智元/机器之心Pro/甲子光年：搜狐镜像三源与直抓六路全部 DOWN（快照 0 字节，不可恢复）——国内源本档窗口零增量主因",
     "- arXiv：FALLBACK（当时 feed 解析 0 条，快照 10-03 21:08~21:27）",
