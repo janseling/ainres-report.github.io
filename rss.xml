@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 13 Oct 2026 01:11:02 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 07:12:27 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-13 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-13-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-13-0900.html</guid>
+      <pubDate>Tue, 13 Oct 2026 01:00:00 GMT</pubDate>
+      <description>Meta 发布首个前沿模型家族 Muse Wonder/Wonder Full：基准直逼 Opus 5.5，但 API 只开弱版，刷榜争议全网发酵。</description>
+    </item>
     <item>
       <title>AI 情报 · 10-12 21:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-12-2100.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-06-2100.html</guid>
       <pubDate>Tue, 06 Oct 2026 13:00:00 GMT</pubDate>
       <description>彭博：DeepSeek 即将敲定至少 800 亿元新融资（腾讯/宁德时代在列），总额或近 1000 亿元、为 2027 年初 IPO 铺路</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-06 15:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-06-1500.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-06-1500.html</guid>
-      <pubDate>Tue, 06 Oct 2026 07:00:00 GMT</pubDate>
-      <description>月之暗面据悉完成 IPO 前融资、最新估值约 500 亿美元；快手可灵 AI 同日传最早明年赴港上市、至少募资 10 亿美元</description>
     </item>
   </channel>
 </rss>
