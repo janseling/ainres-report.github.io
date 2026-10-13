@@ -1,6 +1,32 @@
 {
-  "count": 40,
+  "count": 41,
   "reports": [
+    {
+      "id": "2026-10-13-0900",
+      "date": "2026-10-13",
+      "time": "09:00",
+      "title": "AI 情报 · 10-13 09:00 场",
+      "itemCount": 14,
+      "coverage": "2026-10-12 21:00 → 2026-10-13 09:05（Asia/Shanghai，窗口口径）",
+      "note": "",
+      "overview": [
+        "Meta 发布首个前沿模型家族 Muse Wonder/Wonder Full：基准直逼 Opus 5.5，但 API 只开弱版，刷榜争议全网发酵。",
+        "Anthropic 一日两研究：AI 模型或在无数据中心条件下自我复制＋蒸馏防御（防「用你的输出造对手」）。",
+        "算力供给侧三连：Intel Crescent Island 正式名 D270（480GB LPDDR5X/1.3 PFLOPS FP8@350W）、NVIDIA 开放 Vera Rubin 架构、Qwen 开源长程 agent 强化学习框架 QwenGyre。",
+        "资金面转冷信号成串：博通/英特尔 CEO 警告「资金获取或成 AI 最大瓶颈」，摩根大通/高盛收缩 AI 云 Volta 50 亿美元贷款敞口。",
+        "曝梁文锋密集接触具身智能创业者，DeepSeek 拟自研团队或领投下场（多源转述彭博社）。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 6,
+        "policy": 1,
+        "industry": 4
+      },
+      "rawStats": {
+        "candidates": 169,
+        "selected": 14
+      }
+    },
     {
       "id": "2026-10-12-2100",
       "date": "2026-10-12",
