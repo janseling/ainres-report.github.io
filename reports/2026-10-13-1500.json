@@ -3,7 +3,7 @@
   "date": "2026-10-13",
   "time": "15:00",
   "title": "AI 情报 · 10-13 15:00 场",
-  "generatedAt": "2026-10-13T07:11:26.348Z",
+  "generatedAt": "2026-10-13T09:55:24.859Z",
   "coverage": "2026-10-13 09:00 → 15:06（Asia/Shanghai，窗口口径）",
   "notes": [
     "09:00 场已收录的 Muse Wonder、Volta 敞口、Intel D-Series、Winverse 首报等已按 seen 去重，「后续」除外"
@@ -205,6 +205,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 Bloomberg+36氪",
           "publish_time": "2026-10-13 13:08",
+          "event_time": "2026-10-12",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Bloomberg 10-12 19:42「$400 Million Robot Lab」; bloomberg.com；Quartz/digitimes 10-13 同报）",
           "entities": [
             {
