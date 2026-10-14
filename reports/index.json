@@ -1,6 +1,32 @@
 {
-  "count": 44,
+  "count": 45,
   "reports": [
+    {
+      "id": "2026-10-14-1500",
+      "date": "2026-10-14",
+      "time": "15:00",
+      "title": "AI 情报 · 10-14 15:00 场",
+      "itemCount": 14,
+      "coverage": "2026-10-14 09:00→15:00（Asia/Shanghai）",
+      "note": "本日 09:00 场已报条目经 seen 去重，无重复收录",
+      "overview": [
+        "Gemini 4 Argon 上市首日：实测确认物理/复杂任务跃升，开发者 API 五折（至 11 月），GitHub Copilot 已接入。",
+        "Anthropic 弃用 Git：7 人团队用 Claude 5 个月重造版本控制系统——AI 原生开发工具链重构第一案。",
+        "Character.AI 申请破产保护，部分资产约 $2000 万卖迪士尼，AI 陪伴赛道进入清算期。",
+        "阿里千问办公电商版开启邀测、企微×WorkBuddy 全量打通：国内办公 agent 抢「真实工作上下文」入口。",
+        "NVIDIA 宣布五年 $2.5 亿投入英国智能体安全研究；OpenAI 高管会议室窃听案被 FBI 侦破。"
+      ],
+      "sectionCounts": {
+        "product": 6,
+        "tech": 5,
+        "policy": 1,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": 136,
+        "selected": 14
+      }
+    },
     {
       "id": "2026-10-14-0900",
       "date": "2026-10-14",
