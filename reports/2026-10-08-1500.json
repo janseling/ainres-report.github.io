@@ -3,7 +3,7 @@
   "date": "2026-10-08",
   "time": "15:00",
   "title": "AI 情报 · 10-08 15:00 场",
-  "generatedAt": "2026-10-14T10:30:50.373Z",
+  "generatedAt": "2026-10-14T10:39:32.307Z",
   "coverage": "2026-10-08 09:00 → 15:05（Asia/Shanghai）",
   "notes": [
     "2026-10-08 09:00 场已覆盖 GPT-6 免费开放/IUI、Haiku 5.5、Mistral Le Chonk 等同题稿，本期不再收录"
@@ -278,7 +278,7 @@
           "urls": [
             "https://m.sohu.com/a/1084790655_129720"
           ],
-          "summary": "研究用 4 种可配置 Harness×5 模型×3 任务=60 项，叠加 Codex–GPT 与 Claude Code–Claude 原生搭配 6 项，形成 66 项比较矩阵——Harness 效果与模型、任务强耦合，「通用最佳 Harness」不存在。- 📌 跟踪回访 SIG-20261006-0900-4（Mod 标准战争）：学术侧开始为 Harness 争议提供第三方对照基准，第三方选型测评生态位出现，check 不变。",
+          "summary": "研究用 4 种可配置 Harness×5 模型×3 任务=60 项，叠加 Codex–GPT 与 Claude Code–Claude 原生搭配 6 项，形成 66 项比较矩阵——Harness 效果与模型、任务强耦合，「通用最佳 Harness」不存在。- 📌 跟踪回访 SIG-20261006-1500-4（Mod 标准战争）：学术侧开始为 Harness 争议提供第三方对照基准，第三方选型测评生态位出现，check 不变。",
           "angles": [
             {
               "kind": "tech",
