@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 14 Oct 2026 07:11:34 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 09:44:20 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-14 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-14-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-14-1500.html</guid>
+      <pubDate>Wed, 14 Oct 2026 07:00:00 GMT</pubDate>
+      <description>Gemini 4 Argon 上市首日：实测确认物理/复杂任务跃升，开发者 API 五折（至 11 月），GitHub Copilot 已接入。</description>
+    </item>
     <item>
       <title>AI 情报 · 10-14 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-14-0900.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-08-0900.html</guid>
       <pubDate>Thu, 08 Oct 2026 01:00:00 GMT</pubDate>
       <description>OpenAI 把 GPT-6 向约 12 亿用户全面免费开放，同时推出 IUI 交互界面。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-07 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-07-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-07-2100.html</guid>
-      <pubDate>Wed, 07 Oct 2026 13:00:00 GMT</pubDate>
-      <description>谷歌深夜上线 Playground：提示词在浏览器直接生成游戏，美国 18+ 用户即时可用</description>
     </item>
   </channel>
 </rss>

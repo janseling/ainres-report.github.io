@@ -3,7 +3,7 @@
   "date": "2026-10-14",
   "time": "15:00",
   "title": "AI 情报 · 10-14 15:00 场",
-  "generatedAt": "2026-10-14T07:11:31.974Z",
+  "generatedAt": "2026-10-14T09:43:19.325Z",
   "coverage": "2026-10-14 09:00→15:00（Asia/Shanghai）",
   "notes": [
     "本日 09:00 场已报条目经 seen 去重，无重复收录",
@@ -509,6 +509,8 @@
           "confidence": "中",
           "confidence_note": "B单源·未见独立来源",
           "publish_time": "2026-10-14 14:35",
+          "event_time": "2026-10-12 21:03",
+          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 10-14）",
           "entities": [
             {
