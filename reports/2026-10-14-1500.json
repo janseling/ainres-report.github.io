@@ -3,7 +3,7 @@
   "date": "2026-10-14",
   "time": "15:00",
   "title": "AI 情报 · 10-14 15:00 场",
-  "generatedAt": "2026-10-14T09:43:19.325Z",
+  "generatedAt": "2026-10-14T13:44:34.452Z",
   "coverage": "2026-10-14 09:00→15:00（Asia/Shanghai）",
   "notes": [
     "本日 09:00 场已报条目经 seen 去重，无重复收录",
@@ -57,7 +57,7 @@
           "publish_time": "2026-10-14 11:13",
           "event_time": "2026-10-14 00:01",
           "event_time_inferred": false,
-          "verify_note": "外部检索（Reuters 2026-10-14 00:10 同步报道：Argon 面向开发者与企业发布; reuters.com；blog.google 官方同日报道；GitHub Blog 02:39 宣布 Copilot 接入; github.blog）",
+          "verify_note": "外部检索（Reuters 2026-10-14 00:10 同步报道：Argon 面向开发者与企业发布; reuters.com；blog.google 官方同日报道；GitHub Blog 02:39 宣布 Copilot 接入; github.blog；https://www.reuters.com/business/google-launches-flagship-ai-model-gemini-4-argon-developers-businesses-2026-10-13/）",
           "entities": [
             {
               "name": "Google DeepMind",
@@ -110,7 +110,7 @@
           "publish_time": "2026-10-14 14:27",
           "event_time": "2026-10-14",
           "event_time_inferred": false,
-          "verify_note": "外部检索（凤凰网 2026-10-14 14:59 同步报道：一站式管理多平台店铺、今日开启邀测; ifeng.com；中华网财经 13:54：近百人开发、双十一预售前发布；证券之星同报）",
+          "verify_note": "外部检索（凤凰网 2026-10-14 14:59 同步报道：一站式管理多平台店铺、今日开启邀测; ifeng.com；中华网财经 13:54：近百人开发、双十一预售前发布；证券之星同报；直链未寻得（外查 10-14，来源站点反爬/未索引致直链不可得））",
           "entities": [
             {
               "name": "阿里巴巴",
@@ -164,7 +164,7 @@
           "publish_time": "2026-10-14 10:30",
           "event_time": "2026-10-14",
           "event_time_inferred": false,
-          "verify_note": "外部检索（Caixin Global 2026-10-14 14:22 同步报道：Tencent Integrates AI Agent WorkBuddy With Enterprise App; caixinglobal.com；BigGo Finance 13:05 同报）",
+          "verify_note": "外部检索（Caixin Global 2026-10-14 14:22 同步报道：Tencent Integrates AI Agent WorkBuddy With Enterprise App; caixinglobal.com；BigGo Finance 13:05 同报；https://www.caixinglobal.com/2026-10-14/tencent-integrates-ai-agent-workbuddy-with-enterprise-app-102493319.html）",
           "entities": [
             {
               "name": "腾讯",
@@ -221,7 +221,7 @@
           "publish_time": "2026-10-14 11:12",
           "event_time": "2026-10-13 21:03",
           "event_time_inferred": false,
-          "verify_note": "外部检索（Apple Newsroom 2026-10-13 21:03 官宣：Meet Apple HomeView; apple.com；CNBC/Reuters/CNN 同报）",
+          "verify_note": "外部检索（Apple Newsroom 2026-10-13 21:03 官宣：Meet Apple HomeView; apple.com；CNBC/Reuters/CNN 同报；https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/）",
           "entities": [
             {
               "name": "Apple",
@@ -333,7 +333,7 @@
           "publish_time": "2026-10-14 12:26",
           "event_time": "2026-10-12",
           "event_time_inferred": false,
-          "verify_note": "外部检索（Bloomberg 2026-10-12 19:42 首报：DeepSeek Backs Ex-Tencent AI Scientist's $400M Robot Lab; bloomberg.com；Investing.com/Quartz 跟进）",
+          "verify_note": "外部检索（Bloomberg 2026-10-12 19:42 首报：DeepSeek Backs Ex-Tencent AI Scientist's $400M Robot Lab; bloomberg.com；Investing.com/Quartz 跟进；直链未寻得（外查 10-14，来源站点反爬/未索引致直链不可得））",
           "entities": [
             {
               "name": "DeepSeek",
@@ -401,7 +401,7 @@
           "confidence": "高",
           "confidence_note": "多源佐证 The Register+凤凰网+InfoQ",
           "publish_time": "2026-10-14 06:37",
-          "verify_note": "外部检索（The Register 2026-10-14 06:37 同步报道：Anthropic reinvents source control as Claude floods the world with code; theregister.com；凤凰网科技 09:35、InfoQ-CN 11:51 同报）",
+          "verify_note": "外部检索（The Register 2026-10-14 06:37 同步报道：Anthropic reinvents source control as Claude floods the world with code; theregister.com；凤凰网科技 09:35、InfoQ-CN 11:51 同报；https://www.theregister.com/devops/2026/10/13/anthropic-reinvents-source-control-as-claude-floods-the-world-with-code/5302943）",
           "entities": [
             {
               "name": "Anthropic",
@@ -454,7 +454,7 @@
           "publish_time": "2026-10-14 12:47",
           "event_time": "2026-10-12",
           "event_time_inferred": false,
-          "verify_note": "外部检索（Phoronix 2026-10-12 08:16 首报：Torvalds Working On A Hefty Linux Kernel Improvement With Claude Code; phoronix.com；ZDNET 10-14 01:30 跟进）",
+          "verify_note": "外部检索（Phoronix 2026-10-12 08:16 首报：Torvalds Working On A Hefty Linux Kernel Improvement With Claude Code; phoronix.com；ZDNET 10-14 01:30 跟进；https://www.phoronix.com/news/Linus-Torvalds-Claude-Code）",
           "entities": [
             {
               "name": "Linus Torvalds",
@@ -561,7 +561,7 @@
           "confidence": "高",
           "confidence_note": "双源同报 机器之心Pro+量子位",
           "publish_time": "2026-10-14 10:55",
-          "verify_note": "双源同报（量子位 2026-10-14 12:51 独立同题报道：全身全模态世界模型; qbitai.com；GN 独立外源未命中 外查 10-14）",
+          "verify_note": "双源同报（量子位 2026-10-14 12:51 独立同题报道：全身全模态世界模型; qbitai.com；GN 独立外源未命中 外查 10-14；直链未寻得（外查 10-14，来源站点反爬/未索引致直链不可得））",
           "entities": [
             {
               "name": "破晓智能",
@@ -661,7 +661,7 @@
           "publish_time": "2026-10-14 14:46",
           "event_time": "2026-10-14 14:08",
           "event_time_inferred": false,
-          "verify_note": "外部检索（NVIDIA Newsroom 2026-10-14 14:08 官宣：$250 Million…UK Agentic Safety and Security Research Over the Next Five Years; nvidia.com；Reuters 14:19 同报: reuters.com）",
+          "verify_note": "外部检索（NVIDIA Newsroom 2026-10-14 14:08 官宣：$250 Million…UK Agentic Safety and Security Research Over the Next Five Years; nvidia.com；Reuters 14:19 同报: reuters.com；https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years）",
           "entities": [
             {
               "name": "NVIDIA",
@@ -721,7 +721,7 @@
           "publish_time": "2026-10-14 14:48",
           "event_time": "2026-09-30",
           "event_time_inferred": false,
-          "verify_note": "外部检索（New York Post 2026-10-14 04:46 首报：Saudi OpenAI engineer bugged top secret meetings; nypost.com；Cyber Kendra/tech-insider 同报）",
+          "verify_note": "外部检索（New York Post 2026-10-14 04:46 首报：Saudi OpenAI engineer bugged top secret meetings; nypost.com；Cyber Kendra/tech-insider 同报；https://nypost.com/2026/10/13/tech/saudi-openai-engineer-secretly-bugged-meetings-feds/）",
           "entities": [
             {
               "name": "OpenAI",
@@ -778,7 +778,7 @@
           "publish_time": "2026-10-14 09:31",
           "event_time": "2026-10-13 20:55",
           "event_time_inferred": false,
-          "verify_note": "外部检索（NBC 2026-10-13 20:55 首报：files for bankruptcy, will sell some assets to Disney for $20 million; nbcnews.com；CNN/CBS 同报，涉未成年人自杀诉讼）",
+          "verify_note": "外部检索（NBC 2026-10-13 20:55 首报：files for bankruptcy, will sell some assets to Disney for $20 million; nbcnews.com；CNN/CBS 同报，涉未成年人自杀诉讼；https://www.nbcnews.com/tech/tech-news/characterai-files-bankruptcy-sell-assets-disney-20-million-rcna603174）",
           "entities": [
             {
               "name": "Character.AI",

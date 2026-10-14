@@ -3,7 +3,7 @@
   "date": "2026-10-14",
   "time": "09:00",
   "title": "AI 情报 · 10-14 09:00 场",
-  "generatedAt": "2026-10-14T01:09:04.131Z",
+  "generatedAt": "2026-10-14T13:44:34.451Z",
   "coverage": "2026-10-13 21:00 → 2026-10-14 09:06（Asia/Shanghai，滚动窗口）",
   "notes": [
     "Character.AI 破产·迪士尼接盘、Muse 刷榜争议已见于上期（10-13 21:00），本期仅作后续；DeepSeek 千亿融资稿为上期同题转载不重收"
@@ -118,7 +118,7 @@
               "type": "产品"
             }
           ],
-          "verify_note": "外部检索（凤凰网 2026-10-13 22:51 同步报道：全栈定价 3999 元、10-16 开售; ifeng.com；财新、InfoQ、广州日报多家同报）",
+          "verify_note": "外部检索（凤凰网 2026-10-13 22:51 同步报道：全栈定价 3999 元、10-16 开售; ifeng.com；财新、InfoQ、广州日报多家同报；https://pingce.ifeng.com/c/8xCMTm7oACu）",
           "provenance": {
             "url": "https://m.sohu.com/a/1087331067_473283",
             "raw_ref": "reports/raw/2026-10-14-0900.json#candidates[126]",
@@ -180,7 +180,7 @@
               "type": "产品"
             }
           ],
-          "verify_note": "外部检索（xAI 官方页 2026-10-13 06:41 在档：Introducing The X Subscription | SpaceXSI; x.ai；Engadget/The New Stack 同日报）",
+          "verify_note": "外部检索（xAI 官方页 2026-10-13 06:41 在档：Introducing The X Subscription | SpaceXSI; x.ai；Engadget/The New Stack 同日报；https://x.ai/news/x-subscription）",
           "provenance": {
             "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription",
             "raw_ref": "reports/raw/2026-10-14-0900.json#candidates[119]",
@@ -233,7 +233,7 @@
               "type": "产品"
             }
           ],
-          "verify_note": "外部检索（Bloomberg 2026-10-14 01:00 同步报道：Play 商店支持私下上架 vibe-coded 应用; bloomberg.com；9to5Google/The Verge 同报）",
+          "verify_note": "外部检索（Bloomberg 2026-10-14 01:00 同步报道：Play 商店支持私下上架 vibe-coded 应用; bloomberg.com；9to5Google/The Verge 同报；直链未寻得（外查 10-14，来源站点反爬/未索引致直链不可得））",
           "provenance": {
             "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store",
             "raw_ref": "reports/raw/2026-10-14-0900.json#candidates[80]",
@@ -284,7 +284,7 @@
               "type": "企业"
             }
           ],
-          "verify_note": "外部检索（The Information 2026-10-14 06:07 同步报道：OpenAI in Early Talks to Buy Security Startup Trail of Bits; theinformation.com）",
+          "verify_note": "外部检索（The Information 2026-10-14 06:07 同步报道：OpenAI in Early Talks to Buy Security Startup Trail of Bits; theinformation.com；https://www.theinformation.com/articles/openai-early-talks-buy-security-startup-trail-bits）",
           "provenance": {
             "url": "https://36kr.com/p/4024955447906440",
             "raw_ref": "reports/raw/2026-10-14-0900.json#candidates[17]",
@@ -387,7 +387,7 @@
               "type": "产品"
             }
           ],
-          "verify_note": "GitHub 仓库直验（TencentCloud/TencentDB-Agent-Memory，★28,887、2026-10-13 18:43 push; https://github.com/TencentCloud/TencentDB-Agent-Memory）+ MarkTechPost 2026-05-23 已报道（marktechpost.com）",
+          "verify_note": "GitHub 仓库直验（TencentCloud/TencentDB-Agent-Memory，★28,887、2026-10-13 18:43 push; https://github.com/TencentCloud/TencentDB-Agent-Memory）+ MarkTechPost 2026-05-23 已报道（marktechpost.com；https://github.com/TencentCloud/TencentDB-Agent-Memory）",
           "provenance": {
             "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x50rgo/tencent_opensourced_agent_memory_and_it_runs_100",
             "raw_ref": "reports/raw/2026-10-14-0900.json#candidates[87]",
@@ -440,7 +440,7 @@
               "type": "人物"
             }
           ],
-          "verify_note": "外部检索（FT/AFR 2026-10-13 同步报道 Zuck「已追平前沿」造势期; ft.com、afr.com；「破产」原话未见独立转述，外查 2026-10-14）",
+          "verify_note": "外部检索（FT/AFR 2026-10-13 同步报道 Zuck「已追平前沿」造势期; ft.com、afr.com；「破产」原话未见独立转述，外查 2026-10-14；https://www.ft.com/content/fca23e77-be57-4d7e-ae61-74ff299e25cb）",
           "provenance": {
             "url": "https://m.sohu.com/a/1087419343_473283",
             "raw_ref": "reports/raw/2026-10-14-0900.json#candidates[41]",
@@ -556,7 +556,7 @@
               "type": "人物"
             }
           ],
-          "verify_note": "外部检索（AOL 2026-10-14 01:15 同步报道：Dimon 称正设围栏防 rogue agents; aol.com；Pluang 03:52 同报）",
+          "verify_note": "外部检索（AOL 2026-10-14 01:15 同步报道：Dimon 称正设围栏防 rogue agents; aol.com；Pluang 03:52 同报；直链未寻得（外查 10-14，来源站点反爬/未索引致直链不可得））",
           "provenance": {
             "url": "https://36kr.com/p/4024962841431944",
             "raw_ref": "reports/raw/2026-10-14-0900.json#candidates[12]",
@@ -646,7 +646,7 @@
               "type": "人物"
             }
           ],
-          "verify_note": "外部检索（Reuters 2026-10-14 07:29 同步报道：FBI arrests Saudi OpenAI engineer over covert recording device, DOJ says; reuters.com；SF Chronicle/NY Post 多家同报）",
+          "verify_note": "外部检索（Reuters 2026-10-14 07:29 同步报道：FBI arrests Saudi OpenAI engineer over covert recording device, DOJ says; reuters.com；SF Chronicle/NY Post 多家同报；https://www.reuters.com/world/us/fbi-arrests-former-openai-employee-planting-listening-device-2026-10-13/）",
           "provenance": {
             "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
             "raw_ref": "reports/raw/2026-10-14-0900.json#candidates[47]",

@@ -3,7 +3,7 @@
   "date": "2026-10-14",
   "time": "21:00",
   "title": "AI 情报 · 10-14 21:00 场",
-  "generatedAt": "2026-10-14T13:11:36.358Z",
+  "generatedAt": "2026-10-14T13:44:34.453Z",
   "coverage": "2026-10-14 15:00 → 21:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00/15:00 两场已报条目不重收，相关进展以「后续」标注"
@@ -56,7 +56,7 @@
           "publish_time": "2026-10-14 19:35",
           "event_time": "2026-10-14",
           "event_time_inferred": true,
-          "verify_note": "外部检索（21财经 2026-10-14 08:14 同报「谷歌面向全球开放 Gemini 4 Argon，推广期API价格仅为竞品五分之一」；机器之心Pro 同步稿 https://m.sohu.com/a/1087724298_129720; 21jingji.com）",
+          "verify_note": "外部检索（21财经 2026-10-14 08:14 同报「谷歌面向全球开放 Gemini 4 Argon，推广期API价格仅为竞品五分之一」；机器之心Pro 同步稿 https://m.sohu.com/a/1087724298_129720; 21jingji.com；https://m.sohu.com/a/1087724298_129720）",
           "entities": [
             {
               "name": "Gemini",
@@ -113,7 +113,7 @@
           "publish_time": "2026-10-14 19:43",
           "event_time": "2026-10-12",
           "event_time_inferred": false,
-          "verify_note": "外部检索（凤凰网科技 2026-10-12 07:02「Anthropic放弃后，消息称亚马逊洽谈收购Decart」；证券之星/智通财经 2026-10-12 07:00「Anthropic刚放弃，传亚马逊将以70亿美元接盘」; tech.ifeng.com）",
+          "verify_note": "外部检索（凤凰网科技 2026-10-12 07:02「Anthropic放弃后，消息称亚马逊洽谈收购Decart」；证券之星/智通财经 2026-10-12 07:00「Anthropic刚放弃，传亚马逊将以70亿美元接盘」; tech.ifeng.com；https://tech.ifeng.com/c/8x9ZVjul8I8）",
           "entities": [
             {
               "name": "Decart",
@@ -174,7 +174,7 @@
           "publish_time": "2026-10-14 19:31",
           "event_time": "2026-10-13",
           "event_time_inferred": false,
-          "verify_note": "外部检索（搜狐独家 2026-10-13 17:42「智元启动新融资，估值500亿元，IPO暂缓」；动点科技 10-14 15:12 同报「融资接近完成」; sohu.com）",
+          "verify_note": "外部检索（搜狐独家 2026-10-13 17:42「智元启动新融资，估值500亿元，IPO暂缓」；动点科技 10-14 15:12 同报「融资接近完成」; sohu.com；https://timeline.sohu.com/news/cQU99HtvGB?from=news）",
           "entities": [
             {
               "name": "智元机器人",
@@ -223,7 +223,7 @@
           "publish_time": "2026-10-14 16:55",
           "event_time": "2026-10-14",
           "event_time_inferred": false,
-          "verify_note": "外部检索（动点科技/观点网/金融界 2026-10-14 多源同报「亦庄国投等国资平台领投、一年近20亿」；搜狐增量稿称估值达 120 亿元; sohu.com）",
+          "verify_note": "外部检索（动点科技/观点网/金融界 2026-10-14 多源同报「亦庄国投等国资平台领投、一年近20亿」；搜狐增量稿称估值达 120 亿元; sohu.com；https://cn.technode.com/post/2026-10-14/sunmmio-3d-ai-inference-chip-funding/）",
           "entities": [
             {
               "name": "算苗科技",
@@ -272,7 +272,7 @@
           "publish_time": "2026-10-14 19:00",
           "event_time": "2026-10-14",
           "event_time_inferred": true,
-          "verify_note": "外部检索（The Next Web 2026-10-14 19:56 同报「$25M 加速关键材料生产」；Global Venturing 2026-10-14 20:06 同报「Hitachi Ventures 领投」; thenextweb.com; globalventuring.com）",
+          "verify_note": "外部检索（The Next Web 2026-10-14 19:56 同报「$25M 加速关键材料生产」；Global Venturing 2026-10-14 20:06 同报「Hitachi Ventures 领投」; thenextweb.com; globalventuring.com；https://thenextweb.com/news/scimplify-25m-critical-materials-china）",
           "entities": [
             {
               "name": "Scimplify",
@@ -328,7 +328,7 @@
           "publish_time": "2026-10-14 15:53",
           "event_time": "2026-10-13",
           "event_time_inferred": true,
-          "verify_note": "外部检索（BlockBeats 2026-10-14 04:00 同报「AI科研新榜单：Claude 48小时测试夺冠，GPT-6却钻了评分漏洞」; theblockbeats.info）",
+          "verify_note": "外部检索（BlockBeats 2026-10-14 04:00 同报「AI科研新榜单：Claude 48小时测试夺冠，GPT-6却钻了评分漏洞」; theblockbeats.info；https://www.theblockbeats.info/flash/371611）",
           "entities": [
             {
               "name": "Kimi",
@@ -393,7 +393,7 @@
           "publish_time": "2026-10-14 17:24",
           "event_time": "2026-10-13",
           "event_time_inferred": false,
-          "verify_note": "外部检索（手机新浪网 2026-10-13 19:18「一家成立九个月的公司，让机器人走出『排练过的世界』」；搜狐 10-13 20:55「数百万小时、500亿参数，自然意志的 Scaling 信仰」; sohu.com）",
+          "verify_note": "外部检索（手机新浪网 2026-10-13 19:18「一家成立九个月的公司，让机器人走出『排练过的世界』」；搜狐 10-13 20:55「数百万小时、500亿参数，自然意志的 Scaling 信仰」; sohu.com；https://t.cj.sina.com.cn/articles/view/1750070171/684ff39b02701i50o）",
           "entities": [
             {
               "name": "自然意志",
@@ -593,7 +593,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 kr36+虎嗅",
           "publish_time": "2026-10-14 18:07",
-          "verify_note": "外部检索（虎嗅 2026-10-14 16:53 同题「OpenAI提出每美元有效智能，大模型定价从Token转向任务价值」; huxiu.com）",
+          "verify_note": "外部检索（虎嗅 2026-10-14 16:53 同题「OpenAI提出每美元有效智能，大模型定价从Token转向任务价值」; huxiu.com；https://www.huxiu.com/article/4897469.html）",
           "entities": [
             {
               "name": "OpenAI",
@@ -642,7 +642,7 @@
           "publish_time": "2026-10-14 15:54",
           "event_time": "2026-10-14",
           "event_time_inferred": false,
-          "verify_note": "外部检索（日经中文网 2026-10-14 09:44「长鑫新技术传言引发全球存储股大跌」；大和评级 2026-10-14 同框「市场对长鑫科技4F2技术过度反应，存储器股回调属买入机会」; nikkei.com）",
+          "verify_note": "外部检索（日经中文网 2026-10-14 09:44「长鑫新技术传言引发全球存储股大跌」；大和评级 2026-10-14 同框「市场对长鑫科技4F2技术过度反应，存储器股回调属买入机会」; nikkei.com；https://cn.nikkei.com/politicsaeconomy/stockforex/64321-2026-10-14-09-21-45.html）",
           "entities": [
             {
               "name": "长鑫科技",

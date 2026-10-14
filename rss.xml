@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 14 Oct 2026 13:12:44 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 13:44:53 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-14 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-14-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-14-2100.html</guid>
+      <pubDate>Wed, 14 Oct 2026 13:00:00 GMT</pubDate>
+      <description>Gemini 4 Argon 正式面向全球开发者、企业与付费订阅用户开放，API 推广价 $2/$10（12-01 恢复 $4/$20），AA 口径每任务 $1.99 对 Astra 的 $3.26。</description>
+    </item>
     <item>
       <title>AI 情报 · 10-14 15:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-14-1500.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-08-1500.html</guid>
       <pubDate>Thu, 08 Oct 2026 07:00:00 GMT</pubDate>
       <description>OpenAI 在 ICANN 新 gTLD 轮一口气申请 15 个顶级域名，.agent/.mcp/.evals/.skill/.model 全在其中。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-08 09:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-08-0900.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-08-0900.html</guid>
-      <pubDate>Thu, 08 Oct 2026 01:00:00 GMT</pubDate>
-      <description>OpenAI 把 GPT-6 向约 12 亿用户全面免费开放，同时推出 IUI 交互界面。</description>
     </item>
   </channel>
 </rss>
