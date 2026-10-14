@@ -1,6 +1,32 @@
 {
-  "count": 43,
+  "count": 44,
   "reports": [
+    {
+      "id": "2026-10-14-0900",
+      "date": "2026-10-14",
+      "time": "09:00",
+      "title": "AI 情报 · 10-14 09:00 场",
+      "itemCount": 12,
+      "coverage": "2026-10-13 21:00 → 2026-10-14 09:06（Asia/Shanghai，滚动窗口）",
+      "note": "Character.AI 破产·迪士尼接盘、Muse 刷榜争议已见于上期（10-13 21:00），本期仅作后续；DeepSeek 千亿融资稿为上期同题转载不重收",
+      "overview": [
+        "Gemini 4 Argon 官宣并全球上线：付费档先行、API 至 11 月五折（SIG-20261009-1500-1 三日跟踪后已兑现）",
+        "OpenAI 被曝初步谈判收购安全公司 Trail of Bits（The Information 独家）",
+        "xAI 首推「X Subscription」：X Premium+Grok+Cursor 打包 $8 起订阅",
+        "阶跃星辰发布大模型原生智能体手机 STEPX Neo：3999 元、10-16 开售",
+        "agent 准入同日两极：摩根大通禁外部代理直连账户，Shopify 目录反向开放"
+      ],
+      "sectionCounts": {
+        "product": 5,
+        "tech": 3,
+        "policy": 1,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 147,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-10-13-2100",
       "date": "2026-10-13",
