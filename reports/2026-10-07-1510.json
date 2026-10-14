@@ -3,7 +3,7 @@
   "date": "2026-10-07",
   "time": "15:10",
   "title": "AI 情报 · 10-07 15:10 场",
-  "generatedAt": "2026-10-10T07:45:40.741Z",
+  "generatedAt": "2026-10-14T10:30:50.373Z",
   "coverage": "10-07 09:05 → 10-07 15:16（Asia/Shanghai）",
   "notes": [
     "昨 09:00 场已报条目全部去重；OpenAI Decisions API 公测（2026-10-07 04:53）因上期 OpenAI RSS 403 + Reddit 全挂漏抓，本期补收"
@@ -196,7 +196,7 @@
               "kind": "startup",
               "icon": "🛠️",
               "label": "产品/创业",
-              "text": "coding agent 工具链向「本地小模型优先」裂变，与 Claude Code Mods/DeepSeek Harness 标准之争（SIG-20261006-1500-4）同一主线——本地栈的插件/分发窗口对独立开发者友好，先看生态卡位再下注。"
+              "text": "coding agent 工具链向「本地小模型优先」裂变，与 Claude Code Mods/DeepSeek Harness 标准之争（SIG-20261006-0900-4）同一主线——本地栈的插件/分发窗口对独立开发者友好，先看生态卡位再下注。"
             }
           ],
           "source_tier": "C",
