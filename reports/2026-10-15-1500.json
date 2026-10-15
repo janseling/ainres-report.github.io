@@ -3,7 +3,7 @@
   "date": "2026-10-15",
   "time": "15:00",
   "title": "AI 情报 · 10-15 15:00 场",
-  "generatedAt": "2026-10-15T07:16:57.013Z",
+  "generatedAt": "2026-10-15T09:43:00.304Z",
   "coverage": "2026-10-15 09:06 → 15:06（Asia/Shanghai，窗口口径）",
   "notes": [
     "备注：八州起诉 OpenAI、Claude Code 桌面版等上午 09:00 场已报条目不重复收录"
@@ -332,6 +332,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+智东西/环球网 同报",
           "publish_time": "2026-10-15 11:24",
+          "event_time": "2026-10-14",
+          "event_time_inferred": false,
           "verify_note": "外部检索（智东西 10-14 22:35 同题、环球网 10-14 01:42《APUS AI开源Reflex Agent 探索智能体决策与记忆机制新路径》；直链未寻得（外查 10-15））",
           "entities": [
             {
@@ -489,7 +491,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 Folha+The Hindu/moneycontrol 事件线",
-          "publish_time": "2026-10-15 11:54",
+          "publish_time": "2026-10-14",
           "verify_note": "外部检索（The Hindu 10-12 〈卢拉为何申诉 Meta〉、moneycontrol 10-11 法院 48h 限时回应、RIOTIMES 10-14「Meta 否认偏袒」；https://www.thehindu.com/news/international/why-did-brazil-president-lula-file-a-complaint-against-meta-explained/article71578053.ece）",
           "entities": [
             {
@@ -636,6 +638,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 FT/NYT/Reuters/Bloomberg 多源同报",
           "publish_time": "2026-10-15 12:16",
+          "event_time": "2026-10-14",
+          "event_time_inferred": false,
           "verify_note": "外部检索（FT 10-14 22:06 GMT 首报「up 45% to $16.8bn ahead of IPO」；NYT/Reuters 同报；BI 直链 https://www.businessinsider.com/anthropic-reveals-16-8b-revenue-amid-ipo-preparations-2026-10）",
           "entities": [
             {
