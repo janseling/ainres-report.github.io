@@ -1,6 +1,32 @@
 {
-  "count": 48,
+  "count": 49,
   "reports": [
+    {
+      "id": "2026-10-15-2100",
+      "date": "2026-10-15",
+      "time": "21:00",
+      "title": "AI 情报 · 10-15 21:00 场",
+      "itemCount": 14,
+      "coverage": "2026-10-15 15:00 → 21:05（Asia/Shanghai，窗口口径）",
+      "note": "本日 09:00/15:00 场已报内容（Anthropic Q3 营收、豆包手机准入战、CoreWeave 债价等）不再重收",
+      "overview": [
+        "库克确认国行 Apple Intelligence 定档 10 月底测试版，首批不含 Siri 系功能。",
+        "亚马逊 Bee 上新随身 AI 录音硬件：$74.99 起，总结对话、接 Alexa 购物入口。",
+        "OpenAI 晒万级 Agent 极限实测：36 小时吞 1 万亿 Token，Agent 自改回测引擎提速 97%。",
+        "《科学美国人》月度追踪咬出反转：OpenAI 纳维-斯托克斯证明没走「西班牙路线」，公司自己都没读懂。",
+        "算力债务链裂口扩大：CoreWeave 债收益率近 15%；纽约主计长呼吁 Anthropic 暂缓 IPO。"
+      ],
+      "sectionCounts": {
+        "product": 2,
+        "tech": 6,
+        "industry": 5,
+        "policy": 1
+      },
+      "rawStats": {
+        "candidates": 104,
+        "selected": 14
+      }
+    },
     {
       "id": "2026-10-15-1500",
       "date": "2026-10-15",
