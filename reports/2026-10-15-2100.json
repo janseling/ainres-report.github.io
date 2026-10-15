@@ -3,7 +3,7 @@
   "date": "2026-10-15",
   "time": "21:00",
   "title": "AI 情报 · 10-15 21:00 场",
-  "generatedAt": "2026-10-15T13:15:28.417Z",
+  "generatedAt": "2026-10-15T15:42:15.845Z",
   "coverage": "2026-10-15 15:00 → 21:05（Asia/Shanghai，窗口口径）",
   "notes": [
     "本日 09:00/15:00 场已报内容（Anthropic Q3 营收、豆包手机准入战、CoreWeave 债价等）不再重收"
@@ -161,6 +161,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+科学美国人",
           "publish_time": "2026-10-15 20:01",
+          "event_time": "2026-10-13",
+          "event_time_inferred": false,
           "entities": [
             {
               "name": "OpenAI",
