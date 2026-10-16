@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 16 Oct 2026 01:12:06 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 03:45:22 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-16 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-16-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-16-0900.html</guid>
+      <pubDate>Fri, 16 Oct 2026 01:00:00 GMT</pubDate>
+      <description>Meta 官宣 816B 开放权重 Muse Spark Open：两台 M5 Ultra Mac Studio 本地能跑，Apple MLX 联合优化。</description>
+    </item>
     <item>
       <title>AI 情报 · 10-15 21:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-15-2100.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-09-2100.html</guid>
       <pubDate>Fri, 09 Oct 2026 13:00:00 GMT</pubDate>
       <description>GPU 租赁商 Lambda 拟融资 40 亿美元（黑石/Coatue 领投、投前 145 亿美元），积压订单两月内 150亿→500 亿美元，计划 2027 上市。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-09 15:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-09-1500.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-09-1500.html</guid>
-      <pubDate>Fri, 09 Oct 2026 07:00:00 GMT</pubDate>
-      <description>谷歌 Gemini 4 Argon 进入发布窗口：部分用户已可用、最快今日官宣全量开放。</description>
     </item>
   </channel>
 </rss>
