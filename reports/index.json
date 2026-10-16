@@ -1,6 +1,32 @@
 {
-  "count": 51,
+  "count": 52,
   "reports": [
+    {
+      "id": "2026-10-16-2100",
+      "date": "2026-10-16",
+      "time": "21:00",
+      "title": "AI 情报 · 10-16 21:00 场",
+      "itemCount": 14,
+      "coverage": "2026-10-16 15:00 → 21:05（Asia/Shanghai，fetch 窗口）",
+      "note": "今日 09:00/15:00 场已报内容未见重大增量，重复性分析稿未收",
+      "overview": [
+        "OpenAI 把「双手」放进 Chrome：ChatGPT 可接管浏览器标签页、双模式执行，早间 Unite.AI 报道、晚间 36kr/新智元跟进。",
+        "可灵 Kling 4.0 上线次日热度发酵：快手盘中一度涨超 6%，市场开始讨论「子资产估值反超母体」。",
+        "世界模型资本潮再+1：清华特奖得主创 GeoPT，3 个月估值 40 亿、蚂蚁美团押注，另有 158 家机构座次盘点。",
+        "端侧 AI PC 大考日：Surface Laptop Ultra 七家媒体同日评测解禁，爱范儿称 RTX Spark 笔记本实现 WorkBuddy 额度自由。",
+        "政策：国常会再定调「人工智能+」，以落地应用牵引技术创新。"
+      ],
+      "sectionCounts": {
+        "product": 5,
+        "tech": 6,
+        "policy": 1,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": 148,
+        "selected": 14
+      }
+    },
     {
       "id": "2026-10-16-1500",
       "date": "2026-10-16",
