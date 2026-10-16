@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 16 Oct 2026 07:13:31 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 07:43:44 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-16 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-16-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-16-1500.html</guid>
+      <pubDate>Fri, 16 Oct 2026 07:00:00 GMT</pubDate>
+      <description>Anthropic IPO 遇冷：投资者推动估值预期降至 $1.5 万亿，收入增速放缓成导火索</description>
+    </item>
     <item>
       <title>AI 情报 · 10-16 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-16-0900.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-10-0900.html</guid>
       <pubDate>Sat, 10 Oct 2026 01:00:00 GMT</pubDate>
       <description>非文本 AI 模型 Jev 开发商 TypeSafe 上线不到一个月估值 $7.5B，卖点是「比 LLM 快、省 token」。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-09 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-09-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-09-2100.html</guid>
-      <pubDate>Fri, 09 Oct 2026 13:00:00 GMT</pubDate>
-      <description>GPU 租赁商 Lambda 拟融资 40 亿美元（黑石/Coatue 领投、投前 145 亿美元），积压订单两月内 150亿→500 亿美元，计划 2027 上市。</description>
     </item>
   </channel>
 </rss>

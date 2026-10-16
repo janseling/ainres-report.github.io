@@ -3,7 +3,7 @@
   "date": "2026-10-16",
   "time": "09:00",
   "title": "AI 情报 · 10-16 09:00 场",
-  "generatedAt": "2026-10-16T03:45:18.548Z",
+  "generatedAt": "2026-10-16T07:43:41.556Z",
   "coverage": "2026-10-15 21:00 → 2026-10-16 09:05（Asia/Shanghai）",
   "notes": [],
   "itemCount": 14,
@@ -262,7 +262,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 kr36+Crypto Briefing",
-          "publish_time": "2026-10-13 16:43",
+          "publish_time": "2026-10-13 23:43",
           "event_time": "2026-10-13",
           "event_time_inferred": false,
           "entities": [
@@ -521,6 +521,8 @@
           "confidence": "高",
           "confidence_note": "多源佐证 TC+ChainCatcher/Konsulteer",
           "publish_time": "2026-10-16 03:14",
+          "event_time": "2026-10-15",
+          "event_time_inferred": false,
           "entities": [
             {
               "name": "Anthropic",
