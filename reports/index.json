@@ -1,6 +1,32 @@
 {
-  "count": 49,
+  "count": 50,
   "reports": [
+    {
+      "id": "2026-10-16-0900",
+      "date": "2026-10-16",
+      "time": "09:00",
+      "title": "AI 情报 · 10-16 09:00 场",
+      "itemCount": 14,
+      "coverage": "2026-10-15 21:00 → 2026-10-16 09:05（Asia/Shanghai）",
+      "note": "",
+      "overview": [
+        "Meta 官宣 816B 开放权重 Muse Spark Open：两台 M5 Ultra Mac Studio 本地能跑，Apple MLX 联合优化。",
+        "可灵 Kling 4.0 全量上线：30 秒原生直出、10-bit HDR、新增 MCP/CLI 接入。",
+        "Anthropic 双动作：Opus 5.5 极速版全面解禁（约 2.5 倍速）；METR 获员工级「透视」权限且不可拦截其发表。",
+        "FTC 向 OpenAI/Anthropic 发传票追查安全事件（消费者保护路径）。",
+        "CoreWeave 三创始人 IPO 后套现 33 亿美元，AI 算力股债双杀情绪延续。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 3,
+        "policy": 2,
+        "industry": 5
+      },
+      "rawStats": {
+        "candidates": 151,
+        "selected": 14
+      }
+    },
     {
       "id": "2026-10-15-2100",
       "date": "2026-10-15",

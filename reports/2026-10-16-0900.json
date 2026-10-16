@@ -1,0 +1,757 @@
+{
+  "id": "2026-10-16-0900",
+  "date": "2026-10-16",
+  "time": "09:00",
+  "title": "AI 情报 · 10-16 09:00 场",
+  "generatedAt": "2026-10-16T01:10:41.556Z",
+  "coverage": "2026-10-15 21:00 → 2026-10-16 09:05（Asia/Shanghai）",
+  "notes": [],
+  "itemCount": 14,
+  "rawStats": {
+    "candidates": 151,
+    "selected": 14
+  },
+  "overview": [
+    "Meta 官宣 816B 开放权重 Muse Spark Open：两台 M5 Ultra Mac Studio 本地能跑，Apple MLX 联合优化。",
+    "可灵 Kling 4.0 全量上线：30 秒原生直出、10-bit HDR、新增 MCP/CLI 接入。",
+    "Anthropic 双动作：Opus 5.5 极速版全面解禁（约 2.5 倍速）；METR 获员工级「透视」权限且不可拦截其发表。",
+    "FTC 向 OpenAI/Anthropic 发传票追查安全事件（消费者保护路径）。",
+    "CoreWeave 三创始人 IPO 后套现 33 亿美元，AI 算力股债双杀情绪延续。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资（4 条）",
+      "items": [
+        {
+          "title": "Meta 开放权重 Muse Spark Open：816B 参数，两台 Mac Studio 可跑，Apple MLX 合作",
+          "meta": "TechCrunch·2026-10-16 04:04",
+          "urls": [
+            "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs"
+          ],
+          "summary": "官方称「迄今最强美国开放权重模型」，两台 M5 Ultra Mac Studio 经 MLX 框架本地推理，Apple 团队联合优化。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "用开放权重打「美国牌」对标中国开放阵营，把隐私敏感行业私有化成本从云账单转成约 1.4 万美元级一次性设备支出。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "法务/医疗/政企桌面私有化方案的新底座，MLX 工具链（量化/微调/部署）服务窗口已开。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "官方博客+双源佐证 MetaAI+CNBC/Guardian",
+          "publish_time": "2026-10-16 00:56",
+          "entities": [
+            {
+              "name": "Meta",
+              "type": "企业"
+            },
+            {
+              "name": "Apple",
+              "type": "企业"
+            },
+            {
+              "name": "Muse Spark Open",
+              "type": "产品"
+            }
+          ],
+          "verify_note": "外部检索（Meta AI 官方博客同步官宣；xenospectrum 同报直链： https://xenospectrum.com/en/meta-muse-spark-open-local-deployment/）",
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs",
+            "raw_ref": "reports/raw/2026-10-16-0900.json#candidates[68]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-16-0900/01_techcrunch.com_8243c9a7.html",
+            "sha256": "05e3e8e283e99b3f1f901473fcc8655c2f99ebca8c1ed968b1e5d9fc9be20494",
+            "fetched_at": "2026-10-16T01:09:54.946Z"
+          }
+        },
+        {
+          "title": "可灵 AI 上线 Kling 4.0：30 秒原生直出、10-bit HDR，新增 MCP/CLI 接入",
+          "meta": "36氪·2026-10-16 08:54",
+          "urls": [
+            "https://36kr.com/p/4027843697676937"
+          ],
+          "summary": "9-28 预告的「10 月上线」兑现：单次生成最长 30 秒、支持 10-bit HDR、号刷新视频模型基准；新浪口径新增 MCP 与 CLI 接入。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "视频「秒钱计价」战再加码（Vidu $0.014/秒线），可灵以时长+画质+接口三板斧撑定价。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "MCP/CLI 让视频生成第一次成为可编排工具——广告/短剧批量出片 agent 工作流有了标准接线。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 kr36+新浪财经",
+          "publish_time": "2026-10-15 19:42",
+          "event_time": "2026-10-15",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "快手",
+              "type": "企业"
+            },
+            {
+              "name": "可灵AI",
+              "type": "产品"
+            }
+          ],
+          "verify_note": "外部检索（新浪财经 2026-10-15 19:42 同步报道：Kling 4.0 正式上线并新增 MCP/CLI 接入; https://finance.sina.com.cn/tech/roll/2026-10-16/doc-inivkncx8262887.shtml）",
+          "provenance": {
+            "url": "https://36kr.com/p/4027843697676937",
+            "raw_ref": "reports/raw/2026-10-16-0900.json#candidates[1]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-16-0900/02_36kr.com_f8dd69f8.html",
+            "sha256": "57a804e9366ca4a73b2b2eda11277290092ba31a5ffe1e0da7a2b92899a87345",
+            "fetched_at": "2026-10-16T01:09:55.194Z"
+          }
+        },
+        {
+          "title": "Anthropic Opus 5.5 极速版全面解禁，速度提升约 2.5 倍",
+          "meta": "36氪·2026-10-16 08:31",
+          "urls": [
+            "https://36kr.com/p/4027724790715014"
+          ],
+          "summary": "极速模式全量开放并随档位调价，36氪附避坑指南；媒体口径速度提升约 2.5 倍。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "「速度单独定价」集齐全球三极——GPT-6.1 Sol Ultrafast（6x）、GLM-5.3 高速版（~500 t/s）、Opus 5.5 极速版，编码场景价格战全维度化。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "高频编码/审查类 agent 成本模型再重写，按速度档报价的比价中间件需求上升。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 kr36+凤凰科技",
+          "publish_time": "2026-10-15 17:47",
+          "event_time": "2026-10-15",
+          "event_time_inferred": true,
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude Opus",
+              "type": "产品"
+            }
+          ],
+          "verify_note": "外部检索（凤凰科技 2026-10-15 17:47 同步报道：Anthropic 全面开放 Opus 5.5 极速模式; https://tech.ifeng.com/c/8xFEMlLKmrw）",
+          "provenance": {
+            "url": "https://36kr.com/p/4027724790715014",
+            "raw_ref": "reports/raw/2026-10-16-0900.json#candidates[19]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-16-0900/03_36kr.com_0be1fc8e.html",
+            "sha256": "fcfb636d8b2f0cfd92187b0ff78b939a4e1223ac7a394ce4890613f2c574c062",
+            "fetched_at": "2026-10-16T01:09:55.417Z"
+          }
+        },
+        {
+          "title": "Google Universal Cart 上线美国：Search+Gemini 全网统一购物车",
+          "meta": "TechCrunch·2026-10-15 22:29",
+          "urls": [
+            "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us"
+          ],
+          "summary": "谷歌把「全网比价+统一结算购物车」铺进 Search 与 Gemini 应用，美国区首发。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "agent 商务「平台准入+卡组织支付+购物车结算」三层渐齐（亚马逊封禁、Amex 框架同链）——独立 agent 购物入口窗口继续收窄。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "官方博客+双源佐证 blog.google+unite.ai",
+          "publish_time": "2026-10-15 21:05",
+          "entities": [
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "Gemini",
+              "type": "产品"
+            },
+            {
+              "name": "Universal Cart",
+              "type": "产品"
+            }
+          ],
+          "verify_note": "外部检索（Google 官方博客同步官宣；unite.ai 同报直链： https://www.unite.ai/google-launches-universal-cart-across-search-and-the-gemini-app/）",
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us",
+            "raw_ref": "reports/raw/2026-10-16-0900.json#candidates[138]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-16-0900/04_techcrunch.com_8560a2cd.html",
+            "sha256": "72ce832d778afd3e5e93cedd8fae7fb0fd379ea674866bcf4e5438c93007c9e7",
+            "fetched_at": "2026-10-16T01:09:56.154Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术（3 条）",
+      "items": [
+        {
+          "title": "📌 跟踪回访 SIG-20261006-0900-1：Fable 5.5 现身 Azure 目录，Anthropic 仍未官宣",
+          "meta": "36氪·2026-10-16 08:32",
+          "urls": [
+            "https://36kr.com/p/4027724934336903"
+          ],
+          "summary": "跟踪 10 天的 Fable 5.5 线索首见硬证据：Azure 模型目录出现 Fable 5.5 条目，「硬刚谷歌新模型」口径一致，官网仍静默。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "对照 Argon「先渠道上架、后官宣」节奏，官宣大概率已近——渠道预埋通常是发布会前最后一步。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 kr36+Crypto Briefing",
+          "publish_time": "2026-10-13 16:43",
+          "event_time": "2026-10-13",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude Fable",
+              "type": "产品"
+            },
+            {
+              "name": "Microsoft",
+              "type": "企业"
+            }
+          ],
+          "verify_note": "外部检索（Crypto Briefing 2026-10-13 同报：Azure 配置现 Fable 5.5、Anthropic 未确认; https://cryptobriefing.com/claude-fable-5-5-azure-sighting/）",
+          "provenance": {
+            "url": "https://36kr.com/p/4027724934336903",
+            "raw_ref": "reports/raw/2026-10-16-0900.json#candidates[18]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-16-0900/05_36kr.com_1fd82b31.html",
+            "sha256": "08c48fedf34d11b8ae60c19281403164ef00351efa0a6518b8343537c37e347d",
+            "fetched_at": "2026-10-16T01:09:56.355Z"
+          }
+        },
+        {
+          "title": "IBM Granite Switch 4.1：一个端点同时管对话、决策、语音（开源）",
+          "meta": "Hugging Face·2026-10-16 04:34",
+          "urls": [
+            "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
+          ],
+          "summary": "IBM 官方博客发布：单端点集成 chat、决策输出与语音，权重开放。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "决策品类开源侧再+1（Jev/Decisions API/微软 Decision-1 之后），switch 架构本质是「按任务路由省算力」。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "客服/工单类私有化场景要的「chat+判断+语音一站式小栈」有现成品可打包。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-10-16 04:34",
+          "entities": [
+            {
+              "name": "IBM",
+              "type": "企业"
+            },
+            {
+              "name": "Granite Switch",
+              "type": "产品"
+            },
+            {
+              "name": "Hugging Face",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+            "raw_ref": "reports/raw/2026-10-16-0900.json#candidates[64]",
+            "source_id": "huggingface",
+            "source_name": "Hugging Face"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-16-0900/06_huggingface.co_d3306435.html",
+            "sha256": "79b737837911cb897fe4558af4c9b85cec6000522520061239db8b8e82a2186c",
+            "fetched_at": "2026-10-16T01:10:32.957Z"
+          }
+        },
+        {
+          "title": "OpenAI 可解释性团队创建者长文：神经网络「黑箱几乎可读」",
+          "meta": "36氪·2026-10-16 08:34",
+          "urls": [
+            "https://36kr.com/p/4027793666593158"
+          ],
+          "summary": "Nick Cammarata 称 superposition（叠加）假说大部分有误：Qwen-32B 中约 90% 神经元只有单一任务，万亿参数模型可直接读，无需先训第二个模型展开。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "若被复现，基于 SAE 的可解释工具链前提要重估——把安全审计全押在 SAE 路线的产品需留后手。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-16 08:34",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Nick Cammarata",
+              "type": "人物"
+            }
+          ],
+          "verify_note": "未见独立来源（外查 10-16）",
+          "provenance": {
+            "url": "https://36kr.com/p/4027793666593158",
+            "raw_ref": "reports/raw/2026-10-16-0900.json#candidates[15]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-16-0900/07_36kr.com_66209210.html",
+            "sha256": "c7fc3ab8c745dbdf5940a1ca9f1b772a1acf74b43c38f95b1c6d1b338ba511dc",
+            "fetched_at": "2026-10-16T01:10:33.195Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策（2 条）",
+      "items": [
+        {
+          "title": "FTC 向 OpenAI、Anthropic 发传票，追查安全事件是否伤害美国消费者",
+          "meta": "Ars Technica·2026-10-15 23:43",
+          "urls": [
+            "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says"
+          ],
+          "summary": "沿「安全事故是否伤害美国消费者」路径索要文件，或按数据泄露迟报公司同款罚款标准处理；白宫此前淡化 AI 风险未拦住执法。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "安全事件上报/取证/审计 trail 成头部刚需，合规工具（事件归档+报告生成）新增付费场景。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源佐证 Ars+Gizmodo/TechRepublic",
+          "publish_time": "2026-10-15 17:56",
+          "event_time": "2026-10-15",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "美国联邦贸易委员会",
+              "type": "机构"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            }
+          ],
+          "verify_note": "外部检索（Gizmodo 2026-10-15 同报：FTC 就 AI 安全传唤两家; https://gizmodo.com/ftc-subpoenas-openai-and-anthropic-over-ai-safety-concerns-2000826413）",
+          "provenance": {
+            "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says",
+            "raw_ref": "reports/raw/2026-10-16-0900.json#candidates[123]",
+            "source_id": "ars",
+            "source_name": "Ars Technica"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-16-0900/08_arstechnica.com_ff09edf0.html",
+            "sha256": "2cbfedba5355a9a96b319734fc94a7d6aa686ffdceb45f5c850ab40ba5c628ac",
+            "fetched_at": "2026-10-16T01:10:34.919Z"
+          }
+        },
+        {
+          "title": "工信部推「人工智能+制造」，「产业导航图」覆盖千余场景",
+          "meta": "36氪·2026-10-16 08:29",
+          "urls": [
+            "https://36kr.com/p/4027818999878280"
+          ],
+          "summary": "10-15 发布的产业导航图覆盖 1000+ 场景、汽车列为重点赋能领域，同日表态以 AI+制造 赋能新型工业化。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "政策采购目录效应——质检/排产/能耗类制造业 AI 改造对接「导航图」场景名录，先挂名者吃补贴与采购窗口。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源佐证 ctdsb/盖世汽车/扬子晚报",
+          "publish_time": "2026-10-16 08:29",
+          "event_time": "2026-10-15",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "工业和信息化部",
+              "type": "机构"
+            }
+          ],
+          "verify_note": "外部检索（湖北日报旗下 ctdsb 2026-10-16 02:04 转载：工信部推动人工智能+制造赋能新型工业化; https://www.ctdsb.net/c1716_202610/2880291.html）",
+          "provenance": {
+            "url": "https://36kr.com/p/4027818999878280",
+            "raw_ref": "reports/raw/2026-10-16-0900.json#candidates[24]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-16-0900/09_36kr.com_da3bdbde.html",
+            "sha256": "6e8b4d488464da64091a12fbb9c9276e27290dd6b13d25abd195d9dcdf7e4413",
+            "fetched_at": "2026-10-16T01:10:35.130Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业·玩法（5 条）",
+      "items": [
+        {
+          "title": "📌 跟踪回访 SIG-20261010-0900-1：Anthropic 给 METR 员工级访问，且无权拦截其发表评估",
+          "meta": "TechCrunch·2026-10-16 03:14",
+          "urls": [
+            "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access"
+          ],
+          "summary": "第三方评估机构 METR 将以员工级权限独立评估风险/事件并自行发布，Anthropic 放弃拦截权；费城假警情事件后的「行为审计」制度化再进一步。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "monitorability 从厂商自查走向可采购的外部品类（Goodfire probe 同链）——评估机构、审计中间件两条变现线同时打开。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源佐证 TC+ChainCatcher/Konsulteer",
+          "publish_time": "2026-10-16 03:14",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "METR",
+              "type": "机构"
+            }
+          ],
+          "verify_note": "外部检索（ChainCatcher 2026-10-16 01:26 同报：Anthropic 向 METR 开放员工级访问、推进独立安全评估; https://www.chaincatcher.com/en/article/2296697）",
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access",
+            "raw_ref": "reports/raw/2026-10-16-0900.json#candidates[80]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-16-0900/10_techcrunch.com_bca736b8.html",
+            "sha256": "d993944d71e9ceb9f870bed8012cdf4314672d0614dc62844f62945688791cbb",
+            "fetched_at": "2026-10-16T01:10:36.744Z"
+          }
+        },
+        {
+          "title": "CoreWeave 三创始人 IPO 后套现 33 亿美元，纸面财富蒸发约 150 亿",
+          "meta": "36氪·2026-10-16 08:43",
+          "urls": [
+            "https://36kr.com/p/4027794141173635"
+          ],
+          "summary": "在债券收益率近 15%、股价大跌的窗口，三位创始人累计售股 33 亿美元、纸面财富缩水约 150 亿；36氪称其为「算力泡沫第一道裂缝」。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "创始人减持+债券跌破 80 美分+韩股熔断（昨日已报）同轨，算力资产定价正从叙事切换回现金流——进场先看债务久期。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 kr36+Bloomberg/Yahoo",
+          "publish_time": "2026-10-15 21:22",
+          "event_time": null,
+          "event_time_inferred": true,
+          "entities": [
+            {
+              "name": "CoreWeave",
+              "type": "企业"
+            }
+          ],
+          "verify_note": "外部检索（Yahoo Finance 2026-10-15 21:22 转彭博同报：三创始人 IPO 后售股 33 亿美元; https://finance.yahoo.com/markets/stocks/articles/coreweave-founders-shield-fortunes-3-202255611.html）",
+          "provenance": {
+            "url": "https://36kr.com/p/4027794141173635",
+            "raw_ref": "reports/raw/2026-10-16-0900.json#candidates[6]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-16-0900/11_36kr.com_d2ff5c66.html",
+            "sha256": "404a4e627f05dcce409de70ac696980b78309cc577b23d6201191ebc5a44fa43",
+            "fetched_at": "2026-10-16T01:10:36.967Z"
+          }
+        },
+        {
+          "title": "The Information：OpenAI 广告冲刺提速——挖 Meta/谷歌广告人才、下调广告价",
+          "meta": "36氪·2026-10-16 08:41",
+          "urls": [
+            "https://36kr.com/p/4027822795166337"
+          ],
+          "summary": "TI 独家称 OpenAI 加速广告变现：从 Meta/谷歌挖广告高管并下调广告产品定价；kr36 称广告收入目标或难达成。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "ChatGPT 货币化转入「订阅+广告」双轮；对标 Meta 广告体系（kr36 同日分析：腾讯字节走同一条路），入口流量开始按广告逻辑计价。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "商业合作",
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 kr36+The Information",
+          "publish_time": "2026-10-15",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Meta",
+              "type": "企业"
+            }
+          ],
+          "verify_note": "外部检索（The Information 原始报道：OpenAI Accelerates Ad Sprint With Meta Hires, Slashed Prices; https://www.theinformation.com/articles/openais-accelerates-ad-sprint-meta-hires-slashed-prices）",
+          "provenance": {
+            "url": "https://36kr.com/p/4027822795166337",
+            "raw_ref": "reports/raw/2026-10-16-0900.json#candidates[10]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-16-0900/12_36kr.com_c71a6a59.html",
+            "sha256": "ba6ef0d126c3e224bc190633f2a399c0af614e84529b8cbd8a04354e532e094f",
+            "fetched_at": "2026-10-16T01:10:37.166Z"
+          }
+        },
+        {
+          "title": "AI 玩具生意：99 元档卖爆电商平台，退货率 50%",
+          "meta": "36氪·2026-10-16 08:29",
+          "urls": [
+            "https://36kr.com/p/4027735001207168"
+          ],
+          "summary": "99 元档 AI 玩具在电商平台走量，头部 SKU 退货率高达 50%，多家大厂已排队入场，被比作「下一个泡泡玛特」。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "情绪消费+礼物经济的盘子是真的，但 50% 退货率暴露语音交互期望差——留存生死线在「IP 设定×订阅内容」，不在硬件毛利。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "入场先解决首发期望管理与对话内容供给，纯硬件思路大概率被退货率打穿。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-16 08:29",
+          "verify_note": "未见独立来源（外查 10-16；外网仅见本稿镜像）",
+          "provenance": {
+            "url": "https://36kr.com/p/4027735001207168",
+            "raw_ref": "reports/raw/2026-10-16-0900.json#candidates[23]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-16-0900/13_36kr.com_abf379e5.html",
+            "sha256": "1bbdc876286b2974f220fd3babec94c0859dbafe150f8b4bbba75449d99791a0",
+            "fetched_at": "2026-10-16T01:10:37.372Z"
+          }
+        },
+        {
+          "title": "DeepSeek 10-15 服务故障近 5 小时：全量补偿、赠金秒到账",
+          "meta": "极客公园·2026-10-16 08:15",
+          "urls": [
+            "http://www.geekpark.net/news/372430"
+          ],
+          "summary": "网页/API 服务故障近 5 小时后恢复，官方对 API 用户全量补偿（赠金即时到账，部分用户上限约 3000 元）；同期「Harness」新账号名引社区产品猜测（搜狐同日稿: https://www.sohu.com/a/1088269096_122029351）。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "融资落地后的稳定性首考——开放权重之外，SLA 与补偿条款正成为企业采购 API 合同的另一半语言。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 极客公园+新浪财经",
+          "publish_time": "2026-10-15 12:19",
+          "event_time": "2026-10-15 08:11",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "DeepSeek",
+              "type": "企业"
+            }
+          ],
+          "verify_note": "外部检索（新浪财经 2026-10-15 12:19 同报：宕机 5 小时发放赠金补偿; https://finance.sina.com.cn/roll/2026-10-15/doc-iniviekn1506064.shtml）",
+          "provenance": {
+            "url": "http://www.geekpark.net/news/372430",
+            "raw_ref": "reports/raw/2026-10-16-0900.json#candidates[31]",
+            "source_id": "geekpark",
+            "source_name": "极客公园"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-16-0900/14_www.geekpark.net_6b67f6ed.html",
+            "sha256": "4c8d9effd4cc0bdf76a837284a228069bbe10be9f33823f6162ff998bbbe6a97",
+            "fetched_at": "2026-10-16T01:10:37.593Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "FTC「AI 安全事件」传票的合规连锁",
+      "text": "（SIG-20261016-0900-1，check 2026-10-19）：盯被查名单是否扩大（Google/xAI）、两家回应与和解条款、「AI 安全事件上报义务」是否进立法草案——合规采购品类随之定价。",
+      "sigId": "SIG-20261016-0900-1"
+    },
+    {
+      "lead": "Meta×Apple 桌面开源权重联盟",
+      "text": "（SIG-20261016-0900-2，check 2026-10-19）：Muse Spark Open×MLX 打通后，盯 MLX 工具链配套（量化/微调/部署）、企业私有化打包报价、Google/微软端侧对垒动作。",
+      "sigId": "SIG-20261016-0900-2"
+    },
+    {
+      "lead": "Fable 5.5 官宣窗口",
+      "text": "Azure 目录预埋+Argon 式「渠道先行」节奏对照，官宣或在本周内。",
+      "sigId": "SIG-20261006-0900-1"
+    },
+    {
+      "lead": "Carbon/RSI 双线军备",
+      "text": "Brin 10-15 公开称谷歌模型逼近自改进临界点（Business Insider），Carbon 官宣与第三方复跑仍缺。",
+      "sigId": "SIG-20261010-1500-1"
+    }
+  ],
+  "sourceStatus": [
+    "- gh-trending DOWN（超时 0 条；连续失败第 1 期，继续观察）",
+    "- 爱范儿本轮 DNS 解析超时 0 条（非连续失败，观察即可）",
+    "- OpenAI RSS 持续 403、渲染兜底未产出（多期零产出，下期复议是否停用）"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-16-0900.json",
+    "evidence_file": "reports/raw/2026-10-16-0900.evidence.json",
+    "snapshot_dir": "archives/2026-10-16-0900/",
+    "raw_candidates": 150,
+    "matched": 14
+  }
+}
