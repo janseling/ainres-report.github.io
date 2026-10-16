@@ -3,7 +3,7 @@
   "date": "2026-10-16",
   "time": "21:00",
   "title": "AI 情报 · 10-16 21:00 场",
-  "generatedAt": "2026-10-16T13:14:49.667Z",
+  "generatedAt": "2026-10-16T13:18:07.146Z",
   "coverage": "2026-10-16 15:00 → 21:05（Asia/Shanghai，fetch 窗口）",
   "notes": [
     "今日 09:00/15:00 场已报内容未见重大增量，重复性分析稿未收"
@@ -735,14 +735,14 @@
       "sigId": "SIG-20261016-2100-2"
     },
     {
-      "lead": "- SIG-20261010-1500-2（延续）决策模型品类再扩容",
+      "lead": "决策模型品类再扩容",
       "text": "StartLux RLCD² 自称登顶——第 4 极入场，Jev/Decisions API/微软 Decision-1 多方对垒。",
-      "sigId": null
+      "sigId": "SIG-20261010-1500-2"
     },
     {
-      "lead": "- SIG-20261008-2100-1（延续）RTX Spark 端侧开卖评测潮",
+      "lead": "RTX Spark 端侧开卖评测潮",
       "text": "Surface Ultra 七家评测同日解禁+爱范儿实测「WorkBuddy 额度自由」——盯 llama.cpp/Ollama 适配与本地调度接口规范。",
-      "sigId": null
+      "sigId": "SIG-20261008-2100-1"
     }
   ],
   "sourceStatus": [
