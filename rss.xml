@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 17 Oct 2026 07:13:50 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 07:14:46 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-17 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-17-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-17-1500.html</guid>
+      <pubDate>Sat, 17 Oct 2026 07:00:00 GMT</pubDate>
+      <description>NVIDIA 官方连发 Dory 1.0-4B（循环架构 4B 小模型）与 Nemotron 3.5 Super-VL 120B 开放权重，社区 DERISKED 去护栏版数小时内涌现。</description>
+    </item>
     <item>
       <title>AI 情报 · 10-17 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-17-0900.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-11-0900.html</guid>
       <pubDate>Sun, 11 Oct 2026 01:00:00 GMT</pubDate>
       <description>NVIDIA 被曝在谈增持或收购美国开放权重初创 Reflection AI（FT 首报，Reuters/Bloomberg 同报）。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-10 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-10-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-10-2100.html</guid>
-      <pubDate>Sat, 10 Oct 2026 13:00:00 GMT</pubDate>
-      <description>LeCun 世界模型创业首次交卷：H-JEPA 代码与权重全开源（VentureBeat 同报）。</description>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
   "date": "2026-10-17",
   "time": "15:00",
   "title": "AI 情报 · 10-17 15:00 场",
-  "generatedAt": "2026-10-17T07:12:50.789Z",
+  "generatedAt": "2026-10-17T07:14:42.874Z",
   "coverage": "2026-10-17 09:00 → 15:05（Asia/Shanghai）",
   "notes": [
     "早场（09:00）已报题材（Mythos 5 量子电路、Reflection Beam 开源、OpenAI agentic 越权事件等）不重复收录；NVIDIA 官方 HF 库权重条为本场兜底直查补录（窗口外 24h 内）"
@@ -104,7 +104,9 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [],
+          "type_tags": [
+            "其他"
+          ],
           "confidence": "高",
           "confidence_note": "双源佐证 36kr+DoNews",
           "publish_time": "2026-10-17 10:46",
@@ -155,7 +157,9 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [],
+          "type_tags": [
+            "其他"
+          ],
           "confidence": "高",
           "confidence_note": "双源佐证 极客公园+Livemint",
           "publish_time": "2026-10-17 10:46",
@@ -552,7 +556,9 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [],
+          "type_tags": [
+            "其他"
+          ],
           "confidence": "中",
           "confidence_note": "B单源·判断类观察，事实链多源在档",
           "publish_time": "2026-10-17 13:17",
@@ -595,9 +601,9 @@
       "sigId": "SIG-20261017-1500-3"
     },
     {
-      "lead": "- SIG-20261008-2100-3（延续）个人 Agent 消费潮三笔硬验证",
-      "text": "kr36 观察 Instinct 热度冷却、估值与讨论背离——泡沫回摆观察点（check 2026-10-21）。",
-      "sigId": null
+      "lead": "个人 Agent 消费潮三笔硬验证",
+      "text": "kr36 观察 Instinct 热度冷却、估值与讨论背离——泡沫回摆观察点（check 2026-10-21）",
+      "sigId": "SIG-20261008-2100-3"
     }
   ],
   "sourceStatus": [
