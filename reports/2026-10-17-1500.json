@@ -3,7 +3,7 @@
   "date": "2026-10-17",
   "time": "15:00",
   "title": "AI 情报 · 10-17 15:00 场",
-  "generatedAt": "2026-10-17T07:14:42.874Z",
+  "generatedAt": "2026-10-17T09:46:22.521Z",
   "coverage": "2026-10-17 09:00 → 15:05（Asia/Shanghai）",
   "notes": [
     "早场（09:00）已报题材（Mythos 5 量子电路、Reflection Beam 开源、OpenAI agentic 越权事件等）不重复收录；NVIDIA 官方 HF 库权重条为本场兜底直查补录（窗口外 24h 内）"
@@ -163,6 +163,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 极客公园+Livemint",
           "publish_time": "2026-10-17 10:46",
+          "event_time": "2026-10-16 20:00",
+          "event_time_inferred": false,
           "entities": [
             {
               "name": "Apple",
