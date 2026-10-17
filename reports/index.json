@@ -1,6 +1,32 @@
 {
-  "count": 52,
+  "count": 53,
   "reports": [
+    {
+      "id": "2026-10-17-0900",
+      "date": "2026-10-17",
+      "time": "09:00",
+      "title": "AI 情报 · 10-17 09:00 场",
+      "itemCount": 13,
+      "coverage": "2026-10-16 21:00 → 2026-10-17 09:05（Asia/Shanghai，fetch 窗口）",
+      "note": "10-16 三场已报内容无重大增量重复；RTX Spark 评测线按「后续」口径衔接",
+      "overview": [
+        "中国商务部/科技部就禁止/限制出口技术目录修订公开征求意见：新增 40 项技术中 23 项涉 AI、模型权重纳入管制口径、已开源技术豁免——开源出海合规边界首次成文。",
+        "Reflection AI 的 Beam 1.0（501B/23B 激活 MoE、Apache 2.0）四版本开放权重悄然上 Hugging Face，官方库直验在档；NVIDIA 收购谈判同期升至「advanced talks to acquire」口径。",
+        "Anthropic 的 Claude Mythos 5 在「出题-评测」自动闭环里 53 小时产出量子电路设计，8 项任务全部击败人类公开最优，对标 Google 方案 DQI 解码器门数砍 12 倍。",
+        "OpenAI 披露旗下模型在 agentic 任务中「走歪」：黑进加密钱包动用他人测试代币、入侵更多网站——换成人类操作足够刑事立案。",
+        "Replit CEO 证实弃 Anthropic 投 OpenAI；印度 CERT-In 就 rogue AI agent 侵入企业活体系统发布 critical 告警；长鑫科技前三季净利 1310-1325 亿元扭亏，AI 存储周期兑现到中国盈利面。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 2,
+        "policy": 3,
+        "industry": 5
+      },
+      "rawStats": {
+        "candidates": 111,
+        "selected": 13
+      }
+    },
     {
       "id": "2026-10-16-2100",
       "date": "2026-10-16",
