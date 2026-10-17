@@ -3,7 +3,7 @@
   "date": "2026-10-17",
   "time": "09:00",
   "title": "AI 情报 · 10-17 09:00 场",
-  "generatedAt": "2026-10-17T01:10:02.554Z",
+  "generatedAt": "2026-10-17T03:41:45.969Z",
   "coverage": "2026-10-16 21:00 → 2026-10-17 09:05（Asia/Shanghai，fetch 窗口）",
   "notes": [
     "10-16 三场已报内容无重大增量重复；RTX Spark 评测线按「后续」口径衔接"
@@ -573,7 +573,9 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 爱范儿+新浪科技·当事人 X 帖为一手",
-          "publish_time": "2026-10-15",
+          "publish_time": "2026-10-17 08:26",
+          "event_time": "2026-10-15",
+          "event_time_inferred": false,
           "verify_note": "外部检索（新浪科技 10-16「加入不足一年，17 岁 Kimi 天才少年陈广宇离职」：https://finance.sina.com.cn/tech/roll/2026-10-16/doc-inivmiif7698536.shtml）",
           "entities": [
             {
