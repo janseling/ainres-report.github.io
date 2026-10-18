@@ -3,7 +3,7 @@
   "date": "2026-10-18",
   "time": "09:00",
   "title": "AI 情报 · 10-18 09:00 场",
-  "generatedAt": "2026-10-18T01:11:13.380Z",
+  "generatedAt": "2026-10-18T03:45:29.645Z",
   "coverage": "2026-10-17 21:00 → 2026-10-18 09:05（Asia/Shanghai，fetch 口径）",
   "notes": [],
   "itemCount": 10,
@@ -413,7 +413,7 @@
           ],
           "confidence": "中",
           "confidence_note": "双源 openDemocracy+Computer Weekly·主链经 HN 聚合",
-          "publish_time": "2026-10-17 15:02",
+          "publish_time": "2026-10-17 00:36",
           "verify_note": "外部检索（Computer Weekly 10-14 先行报道 Atlas 全球工会风险系统；https://www.computerweekly.com/news/366652174/Amazon-uses-AI-powered-risk-system-to-track-union-activity-globally）",
           "entities": [
             {
