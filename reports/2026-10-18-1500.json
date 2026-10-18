@@ -1,0 +1,473 @@
+{
+  "id": "2026-10-18-1500",
+  "date": "2026-10-18",
+  "time": "15:00",
+  "title": "AI 情报 · 10-18 15:00 场",
+  "generatedAt": "2026-10-18T07:15:53.446Z",
+  "coverage": "2026-10-18 09:00 → 15:05（Asia/Shanghai，fetch 窗口口径）",
+  "notes": [],
+  "itemCount": 8,
+  "rawStats": {
+    "candidates": 85,
+    "selected": 8
+  },
+  "overview": [
+    "DeepSeek 官方官宣「许愿式编程」成真：V4.1-Flash-1017 上线，同日开放自研搜索 API（Search/Fetch 各 5 元/千次）",
+    "Anthropic 联创 Jack Clark 在 IMF 曼谷讲座抛「奇点已至」：极端情景下 2030 年美国 GDP 或升至 44.4 万亿美元",
+    "FT：Anthropic 请律师教 AI agent 按人类规则谈判成交，agent 商务「信任层」再添拼图",
+    "HF 趋势榜首易主：DeepSeek-V4.1-Flash-1017 登顶；Muse Spark Open 迎端侧首例解码（M3 Ultra 256GB 约 4 t/s）",
+    "对冲基金加速撤离 AI 交易（高盛警告去杠杆或刚开始）；具身大脑「格物通智」完成近亿元天使轮"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "前华为车 BU 世界模型基模负责人创业，「格物通智」获近亿元天使轮",
+          "meta": "36氪·2026-10-18 09:30 硬氪首发",
+          "urls": [
+            "https://36kr.com/p/4025325566054529"
+          ],
+          "summary": "杭州具身大脑公司，主打「有手感的具身大脑」，创始团队出自华为车 BU 世界模型基模线；11:10 快讯确认交割完成（36kr.com/p/4030785079234952）。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "具身「大脑层」融资 10 月明显提速（模思、GeoPT、智元系之后 +1），天使轮窗口仍在；但判分逻辑正从「讲得出 story」转向「装得上真机」，纯叙事团队窗口在收窄。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·硬氪首发",
+          "publish_time": "2026-10-18 09:30",
+          "verify_note": "未见独立来源（外查 10-18；检索命中最全仅 36kr 同文与 MSN 转载）",
+          "entities": [
+            {
+              "name": "格物通智",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4025325566054529",
+            "raw_ref": "reports/raw/2026-10-18-1500.json#candidates[62]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-18-1500/01_36kr.com_d5d1ee61.html",
+            "sha256": "fdaa9e8bf5f852b3d783439d963823fd67b71f1bf25e1430e64876402953ae3b",
+            "fetched_at": "2026-10-18T07:12:29.233Z"
+          }
+        },
+        {
+          "title": "DeepSeek 官宣「许愿式编程」成真：V4.1-Flash-1017 上线＋开放自研搜索 API（千次 5 元）",
+          "meta": "官方 News·2026-10-17 发布",
+          "urls": [
+            "https://api-docs.deepseek.com/news/news261017"
+          ],
+          "summary": "官方口径——1017 版「基准更强、任务完成更快、输出更短」（性能-成本帕累托改进），专项适配 DeepSeek Harness/腾讯 CodeBuddy/WorkBuddy；「许愿式编程」＝自然语言许愿、AI 少轮次自主交付完整项目（故宫 3D 建模、赛车页游官方示例）；Search/Fetch API 各 5 元/千次，索引千亿级网页、日处理数亿次请求。kr36 今日两稿续跟进（token 消耗降超五成、「宠小白」），新浪/澎湃同报。（后续：模型本体 2026-10-17 21:00 场已收，本期补齐官方细节与 API 定价）",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "检索能力从模型捆绑里拆出来单卖、地板价 0.5 分/次——Tavily/Exa 类检索中间件报价被直接压过来，agent 应用联网成本结构重排。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "小白「许愿即得 app」继续压底开发门槛；独立开发者用 5 元/千次搜索 API 拼低成本联网 agent，套壳利润空间反而被打开。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "1017 按「训自家 Harness 同款」方式做专项优化——模型与执行框架垂直一体化的训练范式值得盯。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-10-17",
+          "event_time": "2026-10-17",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "DeepSeek",
+              "type": "企业"
+            },
+            {
+              "name": "DeepSeek-V4.1-Flash-1017",
+              "type": "产品"
+            },
+            {
+              "name": "DeepSeek Harness",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://api-docs.deepseek.com/news/news261017",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "官方 News"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-18-1500/02_api-docs.deepseek.com_8d6665ab.html",
+            "sha256": "8125b7812df5c3bf3caf1dbddd2048381232970ea71dffd2df8b97bffc5f8c59",
+            "fetched_at": "2026-10-18T07:12:29.653Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术 / 模型",
+      "items": [
+        {
+          "title": "HF 趋势榜易主：DeepSeek-V4.1-Flash-1017 登顶，Muse Spark Open 端侧首例解码落地",
+          "meta": "HF API 直查＋r/LocalLLaMA 实测",
+          "urls": [
+            "https://www.reddit.com/r/LocalLLaMA/comments/1x8qvaj/muse_spark_on_m3u_256_gb"
+          ],
+          "summary": "M3 Ultra 256GB 首例成功解码 Muse Spark Open 816B-A42B，约 4 t/s（可用性获实证、体验仍慢）；另一帖把 Ling 3.1 Flash 560B MoE 借 llama.cpp RPC 塞进 4 台 DGX Spark；DeepSeek 1017 双机 Spark 跑 57 tok/s 文本、92 tok/s 代码（TensorFold 较 vLLM kit 快 2.1-2.3x）。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "「买设备替代付云账单」的私有化报价开始有实测底稿——服务商要按社区实测 t/s 而非厂商宣传口径报价。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "趋势榜 HF 官方直查；实测帖为 D 源一手数据未独立佐证",
+          "publish_time": "2026-10-18 09:35",
+          "verify_note": "外部检索（Hugging Face 趋势 API 直查在档：1017 trendingScore 1033 居首、meta-models/Muse-Spark-Open-816B-A42B 第 7；https://huggingface.co/api/models?sort=trendingScore）",
+          "entities": [
+            {
+              "name": "DeepSeek-V4.1-Flash-1017",
+              "type": "产品"
+            },
+            {
+              "name": "Muse Spark Open",
+              "type": "产品"
+            },
+            {
+              "name": "NVIDIA DGX Spark",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8qvaj/muse_spark_on_m3u_256_gb",
+            "raw_ref": "reports/raw/2026-10-18-1500.json#candidates[61]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-18-1500/03_www.reddit.com_fa3606b8.html",
+            "sha256": "669c970c6134b7649b36bb36916e79a34d7f0ec084bc747eaddfbb6ed301d4a6",
+            "fetched_at": "2026-10-18T07:13:06.123Z"
+          }
+        },
+        {
+          "title": "浙大 OmniAI 发布具身长程记忆基准 EMem-Bench＋记忆模型 EMem-8B",
+          "meta": "新智元(搜狐)·2026-10-18 13:00",
+          "urls": [
+            "https://m.sohu.com/a/1089294389_473283"
+          ],
+          "summary": "2,554 条交互样本、四类记忆任务（被动观察/状态更新/反馈记录/经验迁移）；对 100 条失败轨迹归因显示 91% 具身失败与记忆相关；配套外部记忆系统 Embodied-Memorizer，发布三周 HF 下载近 3 万。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "腾讯 Hy-Memory（对话记忆专用小模型）之后具身侧记忆评测也立起来——agent 记忆层的「写入/遗忘治理＋可验证评测」是中间件变现位。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "B源·arXiv 原文在档",
+          "publish_time": "2026-10-18 13:00",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "论文一手直链在档（https://arxiv.org/abs/2609.28236）",
+          "entities": [
+            {
+              "name": "浙江大学 OmniAI",
+              "type": "机构"
+            },
+            {
+              "name": "EMem-Bench",
+              "type": "产品"
+            },
+            {
+              "name": "EMem-8B",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1089294389_473283",
+            "raw_ref": "reports/raw/2026-10-18-1500.json#candidates[22]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-18-1500/04_m.sohu.com_f2b05107.html",
+            "sha256": "c7d3c8d9811487df9bc9c09a03b8cd6bf478e53673e7a51f411dbd78e8807bc4",
+            "fetched_at": "2026-10-18T07:13:06.279Z"
+          }
+        },
+        {
+          "title": "社区 demo 自称「beats Jev」：决策模型品类门槛被继续下探",
+          "meta": "r/LocalLLaMA·2026-10-18 14:00",
+          "urls": [
+            "https://www.reddit.com/r/LocalLLaMA/comments/1x8vl4i/made_sum_crap_that_beats_jev"
+          ],
+          "summary": "r/LocalLLaMA 用户放出 Herbert 决策 demo 自称超越 Jev、公开征反馈；同期 36氪快讯称 StartLux-Decision 拿下 HF 榜首（11:48，HF 直查当前趋势榜首实为 DeepSeek 1017、StartLux 未入前十，该口径未核实）。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "决策品类（Jev/Decisions API/微软 Decision-1）的开源挑战从论文走向 demo——专用小模型叙事被社区快速复制，护城河需要重新回答。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源·自称未证",
+          "publish_time": "2026-10-18 14:00",
+          "verify_note": "未见独立来源（外查 10-18；HF demo 空间在档 https://huggingface.co/spaces/e12ex2/herbert-demo）",
+          "entities": [
+            {
+              "name": "Jev",
+              "type": "产品"
+            },
+            {
+              "name": "StartLux-Decision",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8vl4i/made_sum_crap_that_beats_jev",
+            "raw_ref": "reports/raw/2026-10-18-1500.json#candidates[6]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-18-1500/05_www.reddit.com_f938f998.html",
+            "sha256": "138507ebc1e05ae0b4707466313fabad31b2ca1285d1bde96c46c8dc0600b0e4",
+            "fetched_at": "2026-10-18T07:13:42.648Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业 / 玩法",
+      "items": [
+        {
+          "title": "Anthropic 联创 IMF 讲座抛「奇点已至」：极端情景 2030 年美国 GDP 44.4 万亿美元",
+          "meta": "36氪·2026-10-18 13:30；新智元 13:00 同报",
+          "urls": [
+            "https://36kr.com/p/4030919698731654"
+          ],
+          "summary": "RSI 驱动的极端情景：2030 年美国 GDP 基准 33.5 万亿→44.4 万亿美元（+32.4%，年化增速约 15.4%）；保守/显著情景分别 +1.6%/+8.3%；「1,000 万人类科学家统帅 10 亿数字科学家」叙事；佐证数据含内部人均代码生成近 10 倍、本周 Claude Opus 5.5 HLE 67.7%。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "IPO 路演前夕（SIG-20261006-2100-1 联动），这是 Anthropic 给资本市场的叙事弹药——利益相关方模型，估值谈判筹码大于中性预测。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "宏观叙事升温利好 AI 生产力工具的二级定价；创业侧把叙事当背景板、别当需求。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+新智元，另有 CNBC 等英文多源",
+          "publish_time": "2026-10-18 13:30",
+          "event_time": "2026-10-17",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（CNBC 同步报道：AI rapidly improving, could vastly boost U.S. GDP; https://www.cnbc.com/2026/10/17/ai-us-gdp-anthropics-clark.html）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Jack Clark",
+              "type": "人物"
+            },
+            {
+              "name": "IMF",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4030919698731654",
+            "raw_ref": "reports/raw/2026-10-18-1500.json#candidates[13]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-18-1500/06_36kr.com_9cf4963a.html",
+            "sha256": "6b0f4ac1505296fa34a2012edfbab7949a1a75cc8dc7a6bc7c58a1516b34af48",
+            "fetched_at": "2026-10-18T07:13:42.873Z"
+          }
+        },
+        {
+          "title": "FT：Anthropic 请律师教 AI agent 按人类规则谈判成交",
+          "meta": "36氪·2026-10-18 12:34 转 FT",
+          "urls": [
+            "https://36kr.com/p/4030866149282439"
+          ],
+          "summary": "Anthropic 正向律师群体取经，把人类律师的谈判伦理与成交规则注入 Claude agent，为 agent 规模化参与商务谈判铺路。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "agent 商务「信任层」拼图加速：Amex 授权框架（10-14 官宣）＋律师谈判规则＋Amazon/银行准入税——卡组织与模型厂各占一角，中间的审计/回放/争议处理层仍是空位。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "国内可直接复用该先例封装「合同谈判规则」（供应商/采购 agent 场景），规则争议成本被先行者消化。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "商业合作"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 FT 原文＋多家跟进",
+          "publish_time": "2026-10-18 12:34",
+          "verify_note": "外部检索（FT 原始报道：Anthropic turns to lawyers to help AI agents strike deals; https://www.ft.com/content/f7c26ac0-f5f2-443a-86b2-39d62f7920a9）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4030866149282439",
+            "raw_ref": "reports/raw/2026-10-18-1500.json#candidates[27]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-18-1500/07_36kr.com_5e571041.html",
+            "sha256": "f961b768806df93a4d6f79b073d0021f45852ceb4186c8bd19441104468a98f9",
+            "fetched_at": "2026-10-18T07:13:43.088Z"
+          }
+        },
+        {
+          "title": "对冲基金加速撤离 AI 交易；高盛警告「去杠杆或才刚开始」",
+          "meta": "36氪·2026-10-18 09:40",
+          "urls": [
+            "https://36kr.com/p/4030687709860230"
+          ],
+          "summary": "36氪综述对冲基金正加速撤离 AI 交易；此前高盛警告单周抛售规模达两年净买入量级；量化基金遭遇 8 月以来最惨一日（腾讯网 10-16 在档）。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "与 SIG-20261015-1500-1「股债双杀传染」同框——回撤从债市蔓延到量化与对冲体系，一级市场算力资产融资窗口继续收紧；创业侧是坏消息，但也压制此前离谱的算力报价。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 kr36＋东方财富/新浪同题",
+          "publish_time": "2026-10-18 09:40",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "外部检索（东方财富 2026-10-16 同题：对冲基金单周抛掉两年净买入，高盛警告去杠杆或才刚开始; https://fund.eastmoney.com/a/202610163898087363.html）",
+          "entities": [
+            {
+              "name": "高盛",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4030687709860230",
+            "raw_ref": "reports/raw/2026-10-18-1500.json#candidates[60]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-18-1500/08_36kr.com_0fdb6cd3.html",
+            "sha256": "8999ff52a980a88eaebfdca92e665943a9e89b2228b981c17dea2c49c7e8e0fc",
+            "fetched_at": "2026-10-18T07:13:43.326Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "DeepSeek 搜索 API 千次 5 元的检索地板价",
+      "text": "（SIG-20261018-1500-1，check 2026-10-21）：盯 Tavily/Exa/国内检索 API 与聚合器跟价反应；agent 应用「联网能力拆计费」的报价结构变化",
+      "sigId": "SIG-20261018-1500-1"
+    },
+    {
+      "lead": "Anthropic 律师谈判规则能否进产品",
+      "text": "（SIG-20261018-1500-2，check 2026-10-21）：盯 FT 后续与 Anthropic 规则文档披露；同类「谈判 agent」中间件与商务合规新品",
+      "sigId": "SIG-20261018-1500-2"
+    },
+    {
+      "lead": "RSI 双线军备",
+      "text": "Jack Clark IMF 讲台「奇点已至」＋44.4 万亿 GDP 宏观模拟（10-17 CNBC 等英文多源）——RSI 官方口径线再加密",
+      "sigId": "SIG-20261010-1500-1"
+    },
+    {
+      "lead": "决策模型品类",
+      "text": "36氪称 StartLux 登 HF 榜首（11:48 快讯，直查趋势榜首实为 DeepSeek 1017，口径待核）；社区 Herbert demo 自称 beats Jev",
+      "sigId": "SIG-20261010-1500-2"
+    }
+  ],
+  "sourceStatus": [],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-18-1500.json",
+    "evidence_file": "reports/raw/2026-10-18-1500.evidence.json",
+    "snapshot_dir": "archives/2026-10-18-1500/",
+    "raw_candidates": 83,
+    "matched": 7
+  }
+}

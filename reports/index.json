@@ -1,6 +1,31 @@
 {
-  "count": 56,
+  "count": 57,
   "reports": [
+    {
+      "id": "2026-10-18-1500",
+      "date": "2026-10-18",
+      "time": "15:00",
+      "title": "AI 情报 · 10-18 15:00 场",
+      "itemCount": 8,
+      "coverage": "2026-10-18 09:00 → 15:05（Asia/Shanghai，fetch 窗口口径）",
+      "note": "",
+      "overview": [
+        "DeepSeek 官方官宣「许愿式编程」成真：V4.1-Flash-1017 上线，同日开放自研搜索 API（Search/Fetch 各 5 元/千次）",
+        "Anthropic 联创 Jack Clark 在 IMF 曼谷讲座抛「奇点已至」：极端情景下 2030 年美国 GDP 或升至 44.4 万亿美元",
+        "FT：Anthropic 请律师教 AI agent 按人类规则谈判成交，agent 商务「信任层」再添拼图",
+        "HF 趋势榜首易主：DeepSeek-V4.1-Flash-1017 登顶；Muse Spark Open 迎端侧首例解码（M3 Ultra 256GB 约 4 t/s）",
+        "对冲基金加速撤离 AI 交易（高盛警告去杠杆或刚开始）；具身大脑「格物通智」完成近亿元天使轮"
+      ],
+      "sectionCounts": {
+        "product": 2,
+        "tech": 3,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 85,
+        "selected": 8
+      }
+    },
     {
       "id": "2026-10-18-0900",
       "date": "2026-10-18",
