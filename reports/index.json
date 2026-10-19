@@ -1,6 +1,32 @@
 {
-  "count": 59,
+  "count": 60,
   "reports": [
+    {
+      "id": "2026-10-19-1500",
+      "date": "2026-10-19",
+      "time": "15:00",
+      "title": "AI 情报 · 10-19 15:00 场",
+      "itemCount": 12,
+      "coverage": "2026-10-19 09:00 → 15:05（Asia/Shanghai，窗口口径）",
+      "note": "本日 09:00 场已出刊，早间稿件（Anthropic 公益基金/内部就业报告/Harness2 等）未重复收录",
+      "overview": [
+        "OpenAI 三个「极光」系模型在 API 榜单现身数小时即撤回，外部定性为 GPT-Image 3 测试前哨",
+        "Anthropic Dynamic Workflows Beta：让 Claude 自己写编排程序，可并行调度上千 Agent",
+        "网信办启动「未成年人用户数量巨大」网络平台认定工作，认定办法进入执行期",
+        "微信首屏「小微」AI 助手静默铺开，从回答问题转向执行任务",
+        "铭芯启睿（MemSilicon）超 4 亿元 A 轮落地，前 Graphcore 总裁执掌，押注 LPU 推理芯片"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 2,
+        "policy": 1,
+        "industry": 5
+      },
+      "rawStats": {
+        "candidates": 663,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-10-19-0900",
       "date": "2026-10-19",
