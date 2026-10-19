@@ -3,7 +3,7 @@
   "date": "2026-10-19",
   "time": "21:00",
   "title": "AI 情报 · 10-19 21:00 场",
-  "generatedAt": "2026-10-19T17:44:11.196Z",
+  "generatedAt": "2026-10-19T17:51:10.975Z",
   "coverage": "2026-10-19 15:00 → 21:05（Asia/Shanghai，抓取窗口）",
   "notes": [
     "采集面全绿（32 源 OK）"
@@ -62,7 +62,7 @@
               "type": "企业"
             }
           ],
-          "verify_note": "外部检索（India Today 2026-10-19 11:37 北京同报\"OpenAI is building humanoid robots, Altman teases demo timeline\"、Engadget 10-18 同报；https://www.indiatoday.in/technology/news/story/openai-is-building-humanoid-robots-sam-altman-teases-demo-timeline-3020468-2026-10-19；https://www.indiatoday.in/technology/news/story/openai-is-building-humanoid-robots-sam-altman-teases-demo-timeline-3020468-2026-10-19）",
+          "verify_note": "外部检索（India Today 2026-10-19 11:37 北京同报\"OpenAI is building humanoid robots, Altman teases demo timeline\"、Engadget 10-18 同报；https://www.indiatoday.in/technology/news/story/openai-is-building-humanoid-robots-sam-altman-teases-demo-timeline-3020468-2026-10-19）",
           "provenance": {
             "url": "https://36kr.com/p/4032719698318209",
             "raw_ref": "reports/raw/2026-10-19-2100.json#candidates[22]",
@@ -168,7 +168,7 @@
               "type": "产品"
             }
           ],
-          "verify_note": "外部检索（Reuters 2026-10-17 05:22 北京首报\"Weighs $18 Billion acquisition\"、WSJ/FT 10-17 跟进 early talks；https://www.reuters.com/business/media-telecom/softbank-weighs-18-billion-acquisition-allied-universal-bloomberg-news-reports-2026-10-16/；https://www.reuters.com/business/media-telecom/softbank-weighs-18-billion-acquisition-allied-universal-bloomberg-news-reports-2026-10-16/）",
+          "verify_note": "外部检索（Reuters 2026-10-17 05:22 北京首报\"Weighs $18 Billion acquisition\"、WSJ/FT 10-17 跟进 early talks；https://www.reuters.com/business/media-telecom/softbank-weighs-18-billion-acquisition-allied-universal-bloomberg-news-reports-2026-10-16/）",
           "provenance": {
             "url": "https://36kr.com/p/4032481437505152",
             "raw_ref": "reports/raw/2026-10-19-2100.json#candidates[78]",
@@ -289,7 +289,7 @@
               "type": "产品"
             }
           ],
-          "verify_note": "外部检索（雷科技 2026-10-19 16:34\"世界模型评测平台发布，用真机实测给行业'测谎'\"、搜狐/新浪财经同日跟进；https://www.leikeji.com/article/80048；https://www.leikeji.com/article/80048）",
+          "verify_note": "外部检索（雷科技 2026-10-19 16:34\"世界模型评测平台发布，用真机实测给行业'测谎'\"、搜狐/新浪财经同日跟进；https://www.leikeji.com/article/80048）",
           "provenance": {
             "url": "https://36kr.com/p/4032758104429449",
             "raw_ref": "reports/raw/2026-10-19-2100.json#candidates[30]",
@@ -345,7 +345,7 @@
               "type": "企业"
             }
           ],
-          "verify_note": "外部检索（The Hacker News 2026-10-19 14:07 北京、CyberSecurityNews 18:14、DevOps.com 17:03 同报 breach 与蒸馏定性报道；https://thehackernews.com/2026/10/opencode-console-breach-may-have.html；https://thehackernews.com/2026/10/opencode-console-breach-may-have.html）",
+          "verify_note": "外部检索（The Hacker News 2026-10-19 14:07 北京、CyberSecurityNews 18:14、DevOps.com 17:03 同报 breach 与蒸馏定性报道；https://thehackernews.com/2026/10/opencode-console-breach-may-have.html）",
           "provenance": {
             "url": "https://36kr.com/p/4032460528358018",
             "raw_ref": "reports/raw/2026-10-19-2100.json#candidates[35]",
@@ -528,7 +528,7 @@
               "type": "机构"
             }
           ],
-          "verify_note": "外部检索（Politico 2026-10-13 20:01 北京已报民主党 PAC 在摇摆选区投放 AI 攻击广告、BBC 10-14 07:02 北京报\"数据中心成中期选举睡眠议题\"；https://www.politico.com/news/2026/10/13/new-democrat-pac-hits-gop-on-ai-in-tight-midterm-races-01116365；https://www.politico.com/news/2026/10/13/new-democrat-pac-hits-gop-on-ai-in-tight-midterm-races-01116365）",
+          "verify_note": "外部检索（Politico 2026-10-13 20:01 北京已报民主党 PAC 在摇摆选区投放 AI 攻击广告、BBC 10-14 07:02 北京报\"数据中心成中期选举睡眠议题\"；https://www.politico.com/news/2026/10/13/new-democrat-pac-hits-gop-on-ai-in-tight-midterm-races-01116365）",
           "provenance": {
             "url": "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
             "raw_ref": "reports/raw/2026-10-19-2100.json#candidates[44]",
