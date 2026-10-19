@@ -62,6 +62,7 @@
               "type": "企业"
             }
           ],
+          "verify_note": "外部检索（India Today 2026-10-19 11:37 北京同报\"OpenAI is building humanoid robots, Altman teases demo timeline\"、Engadget 10-18 同报；直链未寻得）",
           "provenance": {
             "url": "https://36kr.com/p/4032719698318209",
             "raw_ref": "reports/raw/2026-10-19-2100.json#candidates[22]",
@@ -112,6 +113,7 @@
               "type": "产品"
             }
           ],
+          "verify_note": "外部检索（Reuters 2026-10-19 20:25 北京同步报道\"MiniMax launches updated AI model M3.1 Flash, claims major improvements\"、MarkTechPost 20:37 口径 428B MoE/$https://0.15/M 输入；直链未寻得；社区官宣帖在档 https://www.reddit.com/r/LocalLLaMA/comments/1x9v193/minimaxm31flash_released ）",
           "provenance": {
             "url": "https://36kr.com/p/4032748449026946",
             "raw_ref": "reports/raw/2026-10-19-2100.json#candidates[38]",
@@ -130,7 +132,7 @@
           "urls": [
             "https://36kr.com/p/4032481437505152"
           ],
-          "summary": "Allied Universal 是约 80 万人的美国最大安保人力巨头；软银在谈收购并想借其推行机器人替代一线人工——劳动密集型服务业成机器人规模化落地的下一个试验场。- 📌 跟踪回访 SIG-20261013-1500-1（Sora 复活线）：36氪晚间稿称 OpenAI 准备复活关停半年的 Sora，直接归因 Seedance 表现太好、供给端与需求端均已成熟（2026-10-19 20:31）https://36kr.com/p/4032720082408579｜ 佐证：未见独立来源（外查 10-19；归因判断为 36氪观点）进展：交割/复活官宣未落地，\"OpenAI 重回视频生成\"的口径在扩散；继续盯新公司注册信息与产品形态。",
+          "summary": "Allied Universal 是约 80 万人的美国最大安保人力巨头；软银在谈收购并想借其推行机器人替代一线人工——劳动密集型服务业成机器人规模化落地的下一个试验场。- 📌 跟踪回访 SIG-20261013-1500-1（Sora 复活线）：36氪晚间稿称 OpenAI 准备复活关停半年的 Sora，直接归因 Seedance 表现太好、供给端与需求端均已成熟（2026-10-19 20:31）https://36kr.com/p/4032720082408579进展：交割/复活官宣未落地，\"OpenAI 重回视频生成\"的口径在扩散；继续盯新公司注册信息与产品形态。",
           "angles": [
             {
               "kind": "invest",
@@ -166,6 +168,7 @@
               "type": "产品"
             }
           ],
+          "verify_note": "外部检索（Reuters 2026-10-17 05:22 北京首报\"Weighs $18 Billion acquisition\"、WSJ/FT 10-17 跟进 early talks；直链未寻得）",
           "provenance": {
             "url": "https://36kr.com/p/4032481437505152",
             "raw_ref": "reports/raw/2026-10-19-2100.json#candidates[78]",
@@ -231,6 +234,7 @@
               "type": "产品"
             }
           ],
+          "verify_note": "外部检索（机器之心Pro 2026-10-19 20:55 同日同报\"传统基准拿满分，真机频碰壁\"； https://m.sohu.com/a/1089793350_129720 ）",
           "provenance": {
             "url": "https://36kr.com/p/4032720866349953",
             "raw_ref": "reports/raw/2026-10-19-2100.json#candidates[25]",
@@ -285,6 +289,7 @@
               "type": "产品"
             }
           ],
+          "verify_note": "外部检索（雷科技 2026-10-19 16:34\"世界模型评测平台发布，用真机实测给行业'测谎'\"、搜狐/新浪财经同日跟进；直链未寻得）",
           "provenance": {
             "url": "https://36kr.com/p/4032758104429449",
             "raw_ref": "reports/raw/2026-10-19-2100.json#candidates[30]",
@@ -310,7 +315,7 @@
           "urls": [
             "https://36kr.com/p/4032460528358018"
           ],
-          "summary": "｜ 佐证：外部检索（The Hacker News 2026-10-19 14:07 北京、CyberSecurityNews 18:14、DevOps.com 17:03 同报 breach 与蒸馏定性报道；直链未寻得）📌 跟踪回访 SIG-20261018-0900-1：事件进入定性争议阶段（官方称\"蒸馏攻击\"、社区质疑甩锅），受影响面与赔付口径未闭环。",
+          "summary": "📌 跟踪回访 SIG-20261018-0900-1：事件进入定性争议阶段（官方称\"蒸馏攻击\"、社区质疑甩锅），受影响面与赔付口径未闭环。",
           "angles": [
             {
               "kind": "invest",
@@ -340,6 +345,7 @@
               "type": "企业"
             }
           ],
+          "verify_note": "外部检索（The Hacker News 2026-10-19 14:07 北京、CyberSecurityNews 18:14、DevOps.com 17:03 同报 breach 与蒸馏定性报道；直链未寻得）",
           "provenance": {
             "url": "https://36kr.com/p/4032460528358018",
             "raw_ref": "reports/raw/2026-10-19-2100.json#candidates[35]",
@@ -386,6 +392,7 @@
               "type": "企业"
             }
           ],
+          "verify_note": "底座事实与 api-docs.deepseek.com 官方公告一致（ https://api-docs.deepseek.com/news/news261017 ，10-17 场已核）；GEO 行业面未见独立来源（外查 10-19）",
           "provenance": {
             "url": "https://36kr.com/p/4032717708809091",
             "raw_ref": "reports/raw/2026-10-19-2100.json#candidates[46]",
@@ -404,7 +411,7 @@
           "urls": [
             "https://36kr.com/p/4032703419373187"
           ],
-          "summary": "｜ 佐证：外部检索（InfoQ-CN 2026-10-13\"GitHub 新晋顶流 REA\"、21世纪经济报道/新浪 2026-10-19 12:20 同题续报；直链未寻得）＋ GitHub API 直验星标持续增长（ https://github.com/morluto/rea ）📌 跟踪回访 SIG-20261010-2100-3：★10-16 27.0 万 → 10-19 晨 32.2 万 → 21:12 实测 33.1 万（+8,819/半日），平台方仍无下架/风控动作。",
+          "summary": "📌 跟踪回访 SIG-20261010-2100-3：★10-16 27.0 万 → 10-19 晨 32.2 万 → 21:12 实测 33.1 万（+8,819/半日），平台方仍无下架/风控动作。",
           "angles": [
             {
               "kind": "invest",
@@ -426,6 +433,7 @@
               "type": "产品"
             }
           ],
+          "verify_note": "外部检索（InfoQ-CN 2026-10-13\"GitHub 新晋顶流 REA\"、21世纪经济报道/新浪 2026-10-19 12:20 同题续报；直链未寻得）＋ GitHub API 直验星标持续增长（ https://github.com/morluto/rea ）",
           "provenance": {
             "url": "https://36kr.com/p/4032703419373187",
             "raw_ref": "reports/raw/2026-10-19-2100.json#candidates[20]",
@@ -472,6 +480,7 @@
               "type": "产品"
             }
           ],
+          "verify_note": "未见独立来源（外查 10-19）",
           "provenance": {
             "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9skrx/ai_labs_report_benchmark_scores_64_higher_than",
             "raw_ref": "reports/raw/2026-10-19-2100.json#candidates[87]",
@@ -519,6 +528,7 @@
               "type": "机构"
             }
           ],
+          "verify_note": "外部检索（Politico 2026-10-13 20:01 北京已报民主党 PAC 在摇摆选区投放 AI 攻击广告、BBC 10-14 07:02 北京报\"数据中心成中期选举睡眠议题\"；直链未寻得）",
           "provenance": {
             "url": "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
             "raw_ref": "reports/raw/2026-10-19-2100.json#candidates[44]",
