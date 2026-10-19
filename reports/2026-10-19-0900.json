@@ -3,7 +3,7 @@
   "date": "2026-10-19",
   "time": "09:00",
   "title": "AI 情报 · 10-19 09:00 场",
-  "generatedAt": "2026-10-19T01:10:49.366Z",
+  "generatedAt": "2026-10-19T03:42:26.981Z",
   "coverage": "2026-10-18 21:00 → 2026-10-19 09:05（Asia/Shanghai）",
   "notes": [
     "36氪晨间频道大量非 AI 财经快讯已滤；Replit「默认切 OpenAI」TC 详稿（10-18 02:48）超出本期窗口，按信号台账顺带核记录"
@@ -482,6 +482,8 @@
           "confidence": "中",
           "confidence_note": "B单源+官方结果页在档；「打穿」幅度未独立核",
           "publish_time": "2026-10-19 08:12",
+          "event_time": "2026-10-13",
+          "event_time_inferred": false,
           "verify_note": "外部检索（ARC Prize 2026-10-13 已刊 Gemini 4 Argon 评测结果页；The Decoder 2026-10-16 23:08 北京 称 Argon 为数月来最接近前沿的谷歌模型；https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwZU1GY2lDSzZ1aC1zeFBmRVlWOEFEWWU0TXJiU2NPZXdlVTM3WUJJanVWYTFjc3pIZ0ptakJoZmdsMXIydVNDQU00UURRNEtMYXRsUktRTTJ5anliSExJ?oc=5）",
           "entities": [
             {
