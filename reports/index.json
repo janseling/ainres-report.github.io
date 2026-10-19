@@ -1,6 +1,32 @@
 {
-  "count": 60,
+  "count": 61,
   "reports": [
+    {
+      "id": "2026-10-19-2100",
+      "date": "2026-10-19",
+      "time": "21:00",
+      "title": "AI 情报 · 10-19 21:00 场",
+      "itemCount": 10,
+      "coverage": "2026-10-19 15:00 → 21:05（Asia/Shanghai，抓取窗口）",
+      "note": "采集面全绿（32 源 OK）",
+      "overview": [
+        "OpenAI 确认下场做人形机器人：19 个岗位开放招聘、最高年薪约 $48.5 万，Altman 称\"AI 大脑是关键\"，样机瞄准 2027。",
+        "MiniMax 官宣 M3.1 Flash：号称速度提升 3 倍、价格降约 70%，权重 10-23 放出，此前以神秘代号混榜数周。",
+        "软银拟以约 180 亿美元估值收购 80 万人安保巨头 Allied Universal，机器人替代人工叙事进入超大规模服务业。",
+        "智元×NVIDIA×多所高校推 WorldOracle 真机评测平台；商汤线把 GPT-6 Astra 押上真机平台——\"模拟器满分、真机碰壁\"。",
+        "36氪预警 GEO（生成式引擎优化）生意倒计时：DeepSeek 搜索 API 主动过滤 SEO 作弊/GEO 操纵。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 2,
+        "industry": 4,
+        "policy": 1
+      },
+      "rawStats": {
+        "candidates": 129,
+        "selected": 11
+      }
+    },
     {
       "id": "2026-10-19-1500",
       "date": "2026-10-19",
