@@ -113,7 +113,7 @@
               "type": "产品"
             }
           ],
-          "verify_note": "外部检索（Reuters 2026-10-19 20:25 北京同步报道\"MiniMax launches updated AI model M3.1 Flash, claims major improvements\"、MarkTechPost 20:37 口径 428B MoE/$https://0.15/M 输入；直链未寻得；社区官宣帖在档 https://www.reddit.com/r/LocalLLaMA/comments/1x9v193/minimaxm31flash_released ）",
+          "verify_note": "外部检索（Reuters 2026-10-19 20:25 北京同步报道\"MiniMax launches updated AI model M3.1 Flash, claims major improvements\"、MarkTechPost 20:37 口径 428B MoE/$0.15/M 输入；直链未寻得；社区官宣帖在档 https://www.reddit.com/r/LocalLLaMA/comments/1x9v193/minimaxm31flash_released ）",
           "provenance": {
             "url": "https://36kr.com/p/4032748449026946",
             "raw_ref": "reports/raw/2026-10-19-2100.json#candidates[38]",

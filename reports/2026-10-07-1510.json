@@ -56,7 +56,7 @@
           "publish_time": "2026-10-07 14:29",
           "event_time": "2026-10-06",
           "event_time_inferred": false,
-          "verify_note": "外部检索（@Google 官宣与 TestingCatalog 等多家跟进，价格口径一致 $https://0.034/1K、$https://0.076/4K）",
+          "verify_note": "外部检索（@Google 官宣与 TestingCatalog 等多家跟进，价格口径一致 $0.034/1K、$0.076/4K）",
           "entities": [
             {
               "name": "Google",

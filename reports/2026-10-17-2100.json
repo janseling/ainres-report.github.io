@@ -56,7 +56,7 @@
           "publish_time": "2026-10-17 17:17",
           "event_time": "2026-10-17",
           "event_time_inferred": false,
-          "verify_note": "官方原文核验（官方 News 页当日释出：RL 自反馈端到端项目开发、Harness/腾讯 CodeBuddy/WorkBuddy 优化、Search & Fetch $https://0.75/千次且 10-31 前经 Harness/Claude Code/Codex 免费计 https://api-docs.deepseek.com/news/news261017/ ＋ https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017 10-17 10:40 建档、likes 525）",
+          "verify_note": "官方原文核验（官方 News 页当日释出：RL 自反馈端到端项目开发、Harness/腾讯 CodeBuddy/WorkBuddy 优化、Search & Fetch $0.75/千次且 10-31 前经 Harness/Claude Code/Codex 免费计 https://api-docs.deepseek.com/news/news261017/ ＋ https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017 10-17 10:40 建档、likes 525）",
           "entities": [
             {
               "name": "DeepSeek",

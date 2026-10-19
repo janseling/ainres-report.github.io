@@ -106,7 +106,7 @@
           "publish_time": "2026-09-29",
           "event_time": "2026-09-29",
           "event_time_inferred": false,
-          "verify_note": "外部检索（OpenAI 官方页同口径：智能近 Astra、Astra 定价 1/5、缓存输入 $https://0.10/M；GPT-6 Sol/Luna 发布页标注 09-22）",
+          "verify_note": "外部检索（OpenAI 官方页同口径：智能近 Astra、Astra 定价 1/5、缓存输入 $0.10/M；GPT-6 Sol/Luna 发布页标注 09-22）",
           "entities": [
             {
               "name": "Artificial Analysis",

@@ -106,7 +106,7 @@
           "publish_time": "2026-10-18 19:44",
           "event_time": "2026-10-15",
           "event_time_inferred": false,
-          "verify_note": "外部检索（The Decoder 2026-10-15 23:27 北京 同题研究报道：49/50 题、约合 $https://2.40/题；https://news.google.com/rss/articles/CBMimAFBVV95cUxQaFAxLUdXbFNmNFNCS2hnd01iTEFkbmdFNHlGVUlYZDc5X1dNSmMxYXBVNUxlb29NVklxVmNEd2EzQXJMcjhBY1lJbE9CaF9YTUJ6Q1ZFWkc2d2lWQXNPNnNFUktzMkNHQmhiZWhDQ3NEOHd2WlVGenh6Q1hGTWFNWUU5X3QtOGlwUVZWV1JFbXBXOWhmUll1RA）",
+          "verify_note": "外部检索（The Decoder 2026-10-15 23:27 北京 同题研究报道：49/50 题、约合 $2.40/题；https://news.google.com/rss/articles/CBMimAFBVV95cUxQaFAxLUdXbFNmNFNCS2hnd01iTEFkbmdFNHlGVUlYZDc5X1dNSmMxYXBVNUxlb29NVklxVmNEd2EzQXJMcjhBY1lJbE9CaF9YTUJ6Q1ZFWkc2d2lWQXNPNnNFUktzMkNHQmhiZWhDQ3NEOHd2WlVGenh6Q1hGTWFNWUU5X3QtOGlwUVZWV1JFbXBXOWhmUll1RA）",
           "entities": [
             {
               "name": "OpenAI",
