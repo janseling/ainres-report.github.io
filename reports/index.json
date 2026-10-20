@@ -1,6 +1,32 @@
 {
-  "count": 62,
+  "count": 63,
   "reports": [
+    {
+      "id": "2026-10-20-1500",
+      "date": "2026-10-20",
+      "time": "15:00",
+      "title": "AI 情报 · 10-20 15:00 场",
+      "itemCount": 12,
+      "coverage": "2026-10-20 09:00 → 15:05（Asia/Shanghai，fetch 窗口）",
+      "note": "上午 09:00 场已收的 M3.1 Flash 跑分、Fable 突袭等 13 条不重复收录",
+      "overview": [
+        "美国下令联邦民用机构停用 DeepSeek（敏感数据暴露风险）",
+        "剂泰科技获礼来约 11 亿美元 AI-LNP 平台首单，港股 07666 盘中一度 +15%",
+        "英伟达 DreamZero 团队创业，全球首个机器人大脑 API 开放（种子轮口径 9000 万美元）",
+        "DeepSeek-1017 登顶 Code Arena: WebDev 开源榜首；QM：AI 原生 App 用户 5.46 亿",
+        "高盛再上调 AI 服务器预测（TAM 上修 31%/45%）；AI 股反弹、CoreWeave 获上调评级"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 3,
+        "industry": 4,
+        "policy": 1
+      },
+      "rawStats": {
+        "candidates": 88,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-10-20-0900",
       "date": "2026-10-20",
