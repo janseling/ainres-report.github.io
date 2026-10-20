@@ -3,7 +3,7 @@
   "date": "2026-10-20",
   "time": "09:00",
   "title": "AI 情报 · 10-20 09:00 场",
-  "generatedAt": "2026-10-20T01:18:06.280Z",
+  "generatedAt": "2026-10-20T03:42:32.163Z",
   "coverage": "2026-10-19 21:00 → 2026-10-20 09:05（Asia/Shanghai，抓取窗口）",
   "notes": [],
   "itemCount": 13,
@@ -499,6 +499,8 @@
           "confidence": "高",
           "confidence_note": "A源·官方原文；kr36 同题跟进",
           "publish_time": "2026-10-20 03:27",
+          "event_time": "2026-10-19",
+          "event_time_inferred": false,
           "entities": [
             {
               "name": "NVIDIA",
