@@ -1,6 +1,31 @@
 {
-  "count": 63,
+  "count": 64,
   "reports": [
+    {
+      "id": "2026-10-20-2100",
+      "date": "2026-10-20",
+      "time": "21:00",
+      "title": "AI 情报 · 10-20 21:00 场",
+      "itemCount": 14,
+      "coverage": "2026-10-20 15:00→21:00（Asia/Shanghai，窗口口径）",
+      "note": "备注：本日 09:00/15:00 场已收条目已去重；Fable 5.5 官宣窗口今晚仍未兑现，明晨到期核",
+      "overview": [
+        "DeepSeek 把核心推理框架 DeepInfer 全栈开源：兼容英伟达/昇腾，官方仓库约 3 小时破 7000 星。",
+        "记忆张量（MemTensor）开源 MemT 1.0：把长期记忆做成模型内生能力，第三方口径称长历史推理提速近 4 倍。",
+        "具身评测平台 RoboColiseum 上线即爆冷：Opus 5.5 战胜 GPT-6/Gemini 4，大模型得分碾压机器人专用策略。",
+        "CoreWeave 引爆 AI 融资恐慌，「AI 相关 CDS 需求井喷」——算力债务风险开始成体系定价。",
+        "美国产品线三连：Eka 物理机械臂估值 14.5 亿美元、Otter.ai 拿 GC 3.2 亿、Yelp 上线代打电话 agent；美团上线 DeepSkill 收录 37 万技能。"
+      ],
+      "sectionCounts": {
+        "product": 5,
+        "tech": 4,
+        "industry": 5
+      },
+      "rawStats": {
+        "candidates": 137,
+        "selected": 14
+      }
+    },
     {
       "id": "2026-10-20-1500",
       "date": "2026-10-20",

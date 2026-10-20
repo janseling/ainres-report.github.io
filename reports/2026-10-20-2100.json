@@ -1,0 +1,733 @@
+{
+  "id": "2026-10-20-2100",
+  "date": "2026-10-20",
+  "time": "21:00",
+  "title": "AI 情报 · 10-20 21:00 场",
+  "generatedAt": "2026-10-20T13:11:46.389Z",
+  "coverage": "2026-10-20 15:00→21:00（Asia/Shanghai，窗口口径）",
+  "notes": [
+    "备注：本日 09:00/15:00 场已收条目已去重；Fable 5.5 官宣窗口今晚仍未兑现，明晨到期核"
+  ],
+  "itemCount": 14,
+  "rawStats": {
+    "candidates": 137,
+    "selected": 14
+  },
+  "overview": [
+    "DeepSeek 把核心推理框架 DeepInfer 全栈开源：兼容英伟达/昇腾，官方仓库约 3 小时破 7000 星。",
+    "记忆张量（MemTensor）开源 MemT 1.0：把长期记忆做成模型内生能力，第三方口径称长历史推理提速近 4 倍。",
+    "具身评测平台 RoboColiseum 上线即爆冷：Opus 5.5 战胜 GPT-6/Gemini 4，大模型得分碾压机器人专用策略。",
+    "CoreWeave 引爆 AI 融资恐慌，「AI 相关 CDS 需求井喷」——算力债务风险开始成体系定价。",
+    "美国产品线三连：Eka 物理机械臂估值 14.5 亿美元、Otter.ai 拿 GC 3.2 亿、Yelp 上线代打电话 agent；美团上线 DeepSkill 收录 37 万技能。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "Eka Robotics 以物理 AI 模型冲上 14.5 亿美元估值，机械臂抓取「像人一样顺滑」",
+          "meta": "TechCrunch·2026-10-20 21:00",
+          "urls": [
+            "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving"
+          ],
+          "summary": "Eka Robotics 以物理 AI 模型驱动机械臂抓取多品类物体，业内评价其顺滑接近人类操作水平，对应估值 1.45B 美元。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "具身估值锚从参数与 demo 转向物理世界稳定性；抓取通用化是仓储分拣最大缺口，拿得出稳定性证据的平台型玩家开始吃溢价。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "垂直抓取方案商面临「被巨头平台收编或高价并购」两难，早卡行业数据与场景标准比卷本体更值钱。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-20 21:00",
+          "verify_note": "未见独立来源（外查 10-20）",
+          "entities": [
+            {
+              "name": "Eka Robotics",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving",
+            "raw_ref": "reports/raw/2026-10-20-2100.json#candidates[0]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-20-2100/01_techcrunch.com_da387e24.html",
+            "sha256": "d9205179fba31f35718184acabe28eb2888d4bf070307c4c2c18dee5529cb8bf",
+            "fetched_at": "2026-10-20T13:12:31.597Z"
+          }
+        },
+        {
+          "title": "Otter.ai 获 General Catalyst 3.2 亿美元：不稀释股权的收入分成融资",
+          "meta": "TechCrunch·2026-10-20 19:00",
+          "urls": [
+            "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool"
+          ],
+          "summary": "会议记录 AI Otter.ai 宣布获 GC 客户价值基金（CVF）3.2 亿美元，CVF 以未来收入分成方式获得回报、不占股权。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "收入分成型资金入场 AI 应用层，现金流稳定的会议工具类 SaaS 多了「不摊股」融资通道，赛道股权估值锚被下压。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "会议纪要是 agent 记忆/CRM 数据的天然入口，绑定收入分成后向销售情报层扩张的商业动机变强。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-20 19:00",
+          "verify_note": "未见独立来源（外查 10-20）",
+          "entities": [
+            {
+              "name": "Otter.ai",
+              "type": "企业"
+            },
+            {
+              "name": "General Catalyst",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool",
+            "raw_ref": "reports/raw/2026-10-20-2100.json#candidates[62]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-20-2100/02_techcrunch.com_650a048e.html",
+            "sha256": "c0d4769a883f565f64484971ef00aa8354c18aae88387c15dc427e8d53b1a982",
+            "fetched_at": "2026-10-20T13:12:33.333Z"
+          }
+        },
+        {
+          "title": "Yelp 上线代打电话 agent：AI 帮你打电话查餐厅排队",
+          "meta": "TechCrunch·2026-10-20 19:00",
+          "urls": [
+            "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant"
+          ],
+          "summary": "Yelp 在 app 内批量嵌入 AI 能力：代打电话查餐厅等位、按记忆偏好做个性化推荐。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "本地生活入口的「代打」能力门槛不高，但通话记录与偏好数据壁垒深，平台做比初创做更有规模优势。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "垂直场景代打（挂号/政务/售后投诉）是可平移切口，通话录音告知与 AI 身份标识合规是先行门槛。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-20 19:00",
+          "verify_note": "未见独立来源（外查 10-20）",
+          "entities": [
+            {
+              "name": "Yelp",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant",
+            "raw_ref": "reports/raw/2026-10-20-2100.json#candidates[61]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-20-2100/03_techcrunch.com_0a36e1ee.html",
+            "sha256": "84910b52a419e2cbd358c8b10fef73839c24e486e9d05760244bced340ac31c0",
+            "fetched_at": "2026-10-20T13:12:35.386Z"
+          }
+        },
+        {
+          "title": "美团上线 DeepSkill：收录超 37 万个技能工具的 Agent 技能平台",
+          "meta": "36氪·2026-10-20 16:27",
+          "urls": [
+            "https://36kr.com/p/4033593429776009"
+          ],
+          "summary": "美团推出定位「大众点评版」的 Skill 平台 DeepSkill，收录超 37 万个技能工具，含真实验证环节。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "大流量平台下场做技能分发，「skill 市场」从 GitHub 自发生态走向平台化竞价位（SIG-20261007-2100-2 主线再+1）。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "技能开发者多一条独立分发渠道，但排序规则与抽成才是生死线；对单一宿主平台的分发依赖开始贬值。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源同报",
+          "publish_time": "2026-10-20 16:27",
+          "verify_note": "外部检索（搜狐/网易/链捕手等多源收录「美团推出DeepSkill技能平台收录超37万工具」; https://www.sohu.com/a/1090125837_122066679; https://www.163.com/dy/article/L9LUMPD805566LES.html; https://www.chaincatcher.com/article/2297452）",
+          "entities": [
+            {
+              "name": "美团",
+              "type": "企业"
+            },
+            {
+              "name": "DeepSkill",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4033593429776009",
+            "raw_ref": "reports/raw/2026-10-20-2100.json#candidates[106]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-20-2100/04_36kr.com_953080a8.html",
+            "sha256": "879f3e058f08db0390768863fd92101542d7624fd370262ca68ad4fc56e43162",
+            "fetched_at": "2026-10-20T13:12:35.628Z"
+          }
+        },
+        {
+          "title": "后续｜MiniMax「兔皮」揭晓是 M3.1 Flash：国模 Agent 榜第一、全时段价格下探",
+          "meta": "36氪·2026-10-20 20:33",
+          "urls": [
+            "https://36kr.com/p/4034139912950921"
+          ],
+          "summary": "36氪晚间稿证实此前匿名跑分选手即 M3.1 Flash：国模 Agent 榜第一、全时段价格下探，与 DeepSeek V4.1-Flash-1017 双线对垒。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "Flash 平替大战进入「成本/延迟双榜+揭名营销」阶段（SIG-20261020-1500-1 延续）；比价标尺从 token 单价转向同任务成本。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "AA 独立口径已可公开核对，榜单可信度高于厂商自报；下一步盯 API 实际成交价与企业采用通报。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "官方博客+AA 数据页双源佐证",
+          "publish_time": "2026-10-20 20:33",
+          "event_time": "2026-10-20",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（Artificial Analysis 已单列 M3.1 Flash 模型页; https://artificialanalysis.ai/models/minimax-m3-1-flash; MiniMax 官方博客 https://www.minimax.io/blog/minimax-m31f）",
+          "entities": [
+            {
+              "name": "MiniMax",
+              "type": "企业"
+            },
+            {
+              "name": "M3.1 Flash",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4034139912950921",
+            "raw_ref": "reports/raw/2026-10-20-2100.json#candidates[12]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-20-2100/05_36kr.com_6ae1f82e.html",
+            "sha256": "ce8c40d6fc6e6d5dd2315ed164ba3522e39cf1c25c25715bdbd8764374b3baf7",
+            "fetched_at": "2026-10-20T13:12:35.830Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术突破 / 模型进展",
+      "items": [
+        {
+          "title": "DeepSeek 全栈开源推理框架 DeepInfer：兼容英伟达/昇腾，单集群日吞吐 155 万亿 Token",
+          "meta": "36氪·2026-10-20 18:14",
+          "urls": [
+            "https://36kr.com/p/4034049305973891"
+          ],
+          "summary": "36氪深稿称 DeepSeek 开源核心推理框架 DeepInfer，兼容英伟达与华为昇腾芯片，单集群日吞吐 155 万亿 Token、每卡每小时收入 38 美元；新智元同日「突发」稿同步，官方称从模型、TileLang、算子库到推理框架与 API 编解码全链开源，后续新模型的推理代码与性能优化都进 DeepInfer。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "开源自家推理栈并公开单位收入，等于把「低价仍有毛利」摆上台面——API 价格战从口号进入账本级证明；昇腾兼容是国产算力栈的强表态。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "推理服务商/私有化交付团队可直接换用 DeepInfer，双芯片兼容降低私有化报价复杂度，自维护推理框架的溢价被抽走。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "155 万亿 Token 与 $38/卡/小时 为媒体转述口径，第三方复核交由 SIG-20261020-2100-1 跟踪。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "官方一手仓库+多源佐证",
+          "publish_time": "2026-10-20 18:14",
+          "verify_note": "外部检索（DeepSeek 官方仓库 deepseek-ai/DeepInfer 已建档：7,366★、pushed 2026-10-20 19:03 北京; https://github.com/deepseek-ai/DeepInfer; 官方 X 宣布开源; https://twitter.com/deepseek_ai/status/2112476496283775135）",
+          "entities": [
+            {
+              "name": "DeepSeek",
+              "type": "企业"
+            },
+            {
+              "name": "DeepInfer",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4034049305973891",
+            "raw_ref": "reports/raw/2026-10-20-2100.json#candidates[72]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-20-2100/06_36kr.com_6ef7ee82.html",
+            "sha256": "5e667ea231d7957141c59ed6ce1df8c3434d4425479c627556ad017f94288a6d",
+            "fetched_at": "2026-10-20T13:12:36.058Z"
+          }
+        },
+        {
+          "title": "记忆张量开源 MemT 1.0：把长期记忆做成模型内生能力，自称迈向递归自我改进",
+          "meta": "36氪·2026-10-20 19:01",
+          "urls": [
+            "https://36kr.com/p/4034026689057921"
+          ],
+          "summary": "记忆张量（MemTensor）开源 MemT 1.0：记忆原生架构让长历史推理大幅提速、存储锐减，36氪与机器之心 Pro 同日刊发。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "与腾讯 Hy-Memory（SIG-20261016-2100-2 主线）、港科大「失联记忆」修复（本期同日 kr36 稿）同框，「通用模型+记忆专用层」分层架构在开源侧快速成型。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "记忆层是 agent 中间件新变现金位，「开源+论文」组合意在卡行业标准与开发者心智。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "官方仓库+论文+双源同报",
+          "publish_time": "2026-10-20 19:01",
+          "event_time": "2026-10-20 16:42",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（官方仓库 MemTensor/MemT-1.0 在档; https://github.com/MemTensor/MemT-1.0; arXiv 论文 https://arxiv.org/abs/2610.26825; 网易科技同题「长历史推理提速近4倍、存储缩减130倍」; https://www.163.com/tech/article/L9MF6HG400098IEO.html）",
+          "entities": [
+            {
+              "name": "MemTensor",
+              "type": "企业"
+            },
+            {
+              "name": "MemT 1.0",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4034026689057921",
+            "raw_ref": "reports/raw/2026-10-20-2100.json#candidates[60]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-20-2100/07_36kr.com_54f7e138.html",
+            "sha256": "0936461fcc96f6c47508358279940b8150b924cccd23aed0392ba1e0c8d8e37b",
+            "fetched_at": "2026-10-20T13:12:36.277Z"
+          }
+        },
+        {
+          "title": "具身评测平台 RoboColiseum 上线爆冷：Opus 5.5 战胜 GPT-6/Gemini 4",
+          "meta": "新智元(搜狐同步)·2026-10-20 17:00",
+          "urls": [
+            "https://m.sohu.com/a/1090262664_473283"
+          ],
+          "summary": "新智元称具身仿真评测平台 RoboColiseum 上线即爆冷：Opus 5.5 总榜击败 GPT-6/Gemini 4；在指令跟随与空间理解两项「脑力」赛道，大模型得分碾压传统机器人专用策略模型。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "具身脑通用评测位稀缺，榜单公信力是稀缺资产；「大模型直接当机器人大脑」路线获新证据，专用小模型策略路线承压。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "榜单结果未经独立复核，机器人厂商报名与复盘数据是下一步验证点。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·平台上线获官媒佐证，爆冷结果未独立复核",
+          "publish_time": "2026-10-20 17:00",
+          "verify_note": "外部检索（人民日报客户端同题收录《具身智能仿真评测平台RoboColiseum上线》; https://www.peopleapp.com/column/30052973969-500007660116; 官方站 https://robocoliseum.ai）",
+          "entities": [
+            {
+              "name": "RoboColiseum",
+              "type": "产品"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            },
+            {
+              "name": "GPT-6",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1090262664_473283",
+            "raw_ref": "reports/raw/2026-10-20-2100.json#candidates[95]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-20-2100/08_m.sohu.com_6a77dc22.html",
+            "sha256": "6f3cfc8592643cf80d61990bdc8658cecb631c160c646d800db2afe574354231",
+            "fetched_at": "2026-10-20T13:12:36.521Z"
+          }
+        },
+        {
+          "title": "浙大「求是引擎」：一场 72 小时 AI 自主科研直播想证明什么",
+          "meta": "甲子光年(搜狐同步)·2026-10-20 17:42",
+          "urls": [
+            "https://m.sohu.com/a/1090287414_100016644"
+          ],
+          "summary": "甲子光年独家对话浙大杨怡豪：求是引擎以 72 小时直播方式做 AI 自主科研，借吻接数问题推进纪录，并强调让结果可验证、可被普通人复跑。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "RSI 主线（SIG-20261010-1500-1）出现中国学术侧样本：直播+可验证设计直面「自改自评」质疑，第三方复跑若跟上有公信力价值。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·独家对话",
+          "publish_time": "2026-10-20 17:42",
+          "verify_note": "未见独立来源（外查 10-20）",
+          "entities": [
+            {
+              "name": "浙江大学",
+              "type": "机构"
+            },
+            {
+              "name": "杨怡豪",
+              "type": "人物"
+            },
+            {
+              "name": "求是引擎",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1090287414_100016644",
+            "raw_ref": "reports/raw/2026-10-20-2100.json#candidates[82]",
+            "source_id": "sohu-jzgn",
+            "source_name": "甲子光年(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-20-2100/09_m.sohu.com_0c683948.html",
+            "sha256": "58c5c4922cfa82cd2fe7fc69c610481827c817d6a4832f9a3276a0422f7420f1",
+            "fetched_at": "2026-10-20T13:12:36.752Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向 / 应用玩法",
+      "items": [
+        {
+          "title": "Meta Muse 分享会话泄露个人与商业机密：一次查询枚举数千条对话标题",
+          "meta": "Ars Technica·2026-10-20 20:33",
+          "urls": [
+            "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations"
+          ],
+          "summary": "Ars 报道 Meta Muse 在共享场景暴露用户个人与商业秘密，单次查询即可按标题列出数千条他人会话。📌 后续 SIG-20261010-2100-3（延续）：Muse 隐私负面再+1（偷看私信→苹果权限收紧→会话泄露），平台权限攻防主线延续。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "Muse 是「个人 agent」放量代表，隐私负面直接抬高企业采购的会话隔离/审计要求；agent 会话分享治理是新合规采购点。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-20 20:33",
+          "verify_note": "未见独立来源（外查 10-20）",
+          "entities": [
+            {
+              "name": "Meta",
+              "type": "企业"
+            },
+            {
+              "name": "Muse",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations",
+            "raw_ref": "reports/raw/2026-10-20-2100.json#candidates[13]",
+            "source_id": "ars",
+            "source_name": "Ars Technica"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-20-2100/10_arstechnica.com_5d7a67d6.html",
+            "sha256": "e3896da6107a14dd198d68b8a40256536dedc9dfafcc14c4834f08fc1767b58a",
+            "fetched_at": "2026-10-20T13:12:39.071Z"
+          }
+        },
+        {
+          "title": "CoreWeave 引爆 AI 融资恐慌：个案正在改写债务市场情绪",
+          "meta": "36氪·2026-10-20 19:13",
+          "urls": [
+            "https://36kr.com/p/4034069349651332"
+          ],
+          "summary": "36氪晚间复盘称 CoreWeave 债务连锁持续发酵、市场对 AI 融资的恐慌被引爆，文章同时提醒「个案不等于全行业危机」。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "恐慌在融资端蔓延、二级市场却在反弹（Reuters 10-19 晚口径），一二级的估值剪刀差越拉越大——私募轮定价与 IPO 窗口（SIG-20261015-1500-1 延续）是最大不确定项。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源同题：36kr+腾讯新闻",
+          "publish_time": "2026-10-20 19:13",
+          "verify_note": "外部检索（腾讯新闻 2026-10-18 同题「股债双杀的CoreWeave，本轮AI崩盘的风暴眼」; https://news.qq.com/rain/a/20261018A05DBE00; 36kr 10-15 深稿在档 https://www.36kr.com/p/4027081742979712）",
+          "entities": [
+            {
+              "name": "CoreWeave",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4034069349651332",
+            "raw_ref": "reports/raw/2026-10-20-2100.json#candidates[51]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-20-2100/11_36kr.com_58508b9d.html",
+            "sha256": "4f2da6741e95b84a49c6d23f83ba83d7c72990b605650f6a77e79a7c1de68471",
+            "fetched_at": "2026-10-20T13:12:39.321Z"
+          }
+        },
+        {
+          "title": "AI 相关 CDS 需求「井喷」：算力债券的对冲生意开张",
+          "meta": "36氪·2026-10-20 19:11",
+          "urls": [
+            "https://36kr.com/p/4034086192567175"
+          ],
+          "summary": "36氪称 AI 相关信用违约互换（CDS）需求出现井喷，AI 泡沫担忧加剧。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "对冲工具化＝市场给 AI 债务风险正式定价，CDS/算力保险成为可售新仓位；算力采购方的租金报价模型应把对冲成本计入。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·趋势获通讯社印证",
+          "publish_time": "2026-10-20 19:11",
+          "verify_note": "外部检索（Reuters 专文解释 CDS 为何令 AI 投资者恐慌（2026-07-29）; https://www.reuters.com/business/finance/global-markets-cds-explainer-2026-07-29/; FT 同题早稿 https://www.ft.com/content/c5f9380e-df86-42a9-a387-a0d5e04ad45f）",
+          "provenance": {
+            "url": "https://36kr.com/p/4034086192567175",
+            "raw_ref": "reports/raw/2026-10-20-2100.json#candidates[55]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-20-2100/12_36kr.com_60ae9806.html",
+            "sha256": "6c7823bc14a015196f1861b4daac423dd369d753dae3567e26288f829ba72c02",
+            "fetched_at": "2026-10-20T13:12:39.546Z"
+          }
+        },
+        {
+          "title": "35 万个 AI 专门「骗骗子」：陪聊装傻套情报，让电诈空转 17 年功力白干",
+          "meta": "36氪·2026-10-20 18:13",
+          "urls": [
+            "https://36kr.com/p/4034013108376708"
+          ],
+          "summary": "36氪刊文称反诈侧部署约 35 万个「专骗骗子」的 AI，陪聊装傻套取话术情报、累计收集超 25 万条诈骗分子信息，电诈窝点被持续拖入空转；同日另一篇同题稿称「这届 AI 把电信诈骗犯逼疯了」。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "反诈对抗（AI vs AI）是 B/G 端明确付费场景；「蜜罐 agent」打法可平移到反爬、反薅羊毛市场，合规边界（不完成真实犯罪成交、不输出可复用的作案手法）是采购前提。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-20 18:13",
+          "verify_note": "未见独立来源（外查 10-20）",
+          "provenance": {
+            "url": "https://36kr.com/p/4034013108376708",
+            "raw_ref": "reports/raw/2026-10-20-2100.json#candidates[75]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-20-2100/13_36kr.com_8a29d610.html",
+            "sha256": "9a01ac639bfeff9d4cb5cd5eff1618f19a4bfde946fbb6ee429dfbb7c6ee481b",
+            "fetched_at": "2026-10-20T13:12:39.756Z"
+          }
+        },
+        {
+          "title": "AI 算力中心背后，一场价值千亿的「制冷战争」",
+          "meta": "36氪·2026-10-20 19:48",
+          "urls": [
+            "https://36kr.com/p/4034075867419524"
+          ],
+          "summary": "36氪产业深稿称散热已成为制约 AI 发展的命门，算力中心制冷供应链是一场千亿级战场。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "液冷/温控是 AI 基建里少有的「非芯片」环节，国产设备商订单与出海节奏是最实的跟踪线；算力选址中电力之外制冷成本权重上行。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·原创产业深稿",
+          "publish_time": "2026-10-20 19:48",
+          "verify_note": "未见独立来源（外查 10-20）",
+          "provenance": {
+            "url": "https://36kr.com/p/4034075867419524",
+            "raw_ref": "reports/raw/2026-10-20-2100.json#candidates[29]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-20-2100/14_36kr.com_8d9d21af.html",
+            "sha256": "4659e8a45327fa1a6f22f6d4c95ecae551eab7e16be6d2f0f1e903c1dbd4346e",
+            "fetched_at": "2026-10-20T13:12:39.965Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "DeepInfer 生态采用与口径复核",
+      "text": "（SIG-20261020-2100-1，check 2026-10-27）：盯昇腾/英伟达双平台上机实测、155 万亿日 Token 与 $38/卡/小时口径的第三方复核、vLLM/llama.cpp 生态适配跟进。",
+      "sigId": "SIG-20261020-2100-1"
+    },
+    {
+      "lead": "AI 风险对冲工具产品化",
+      "text": "（SIG-20261020-2100-2，check 2026-10-27）：AI 相关 CDS 井喷之后，盯算力租赁保险条款、CDS 对冲服务化案例、私募轮估值口径与租金报价联动。",
+      "sigId": "SIG-20261020-2100-2"
+    },
+    {
+      "lead": "Fable 5.5 官宣窗",
+      "text": "今晚复核 Anthropic 官网/RSS 最新仍止于 10-06 Cyber Verification 扩版，外查无官宣，爆料所指「10-21 突袭」未兑现——check 2026-10-21 明日到期，核官宣与定价档。",
+      "sigId": "SIG-20261006-0900-1"
+    },
+    {
+      "lead": "Flash 平替双榜",
+      "text": "MiniMax 晚稿揭晓「兔皮之下是 M3.1 Flash」+国模 Agent 第一（本期 📦 后续已收）——check 2026-10-23 维持，盯 M3.1 权重 10-23 口径与 API 实际成交价。",
+      "sigId": "SIG-20261020-1500-1"
+    }
+  ],
+  "sourceStatus": [
+    "- 本期 31 源全部 OK，无 DOWN/FALLBACK、无 consecutive_down≥2 记录。",
+    "- 观察项（脚本判 OK 未计 DOWN，但本期窗口 0 产出）：The Verge 连接超时（curl exit 28）、Hacker News 原站 502（Algolia 兜底可查）、OpenAI RSS 403；若下期连续 0 产出将升级登记。"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-20-2100.json",
+    "evidence_file": "reports/raw/2026-10-20-2100.evidence.json",
+    "snapshot_dir": "archives/2026-10-20-2100/",
+    "raw_candidates": 136,
+    "matched": 14
+  }
+}
