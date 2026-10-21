@@ -1,6 +1,31 @@
 {
-  "count": 66,
+  "count": 67,
   "reports": [
+    {
+      "id": "2026-10-21-2100",
+      "date": "2026-10-21",
+      "time": "21:00",
+      "title": "AI 情报 · 10-21 21:00 场",
+      "itemCount": 12,
+      "coverage": "2026-10-21 15:00 → 21:06（Asia/Shanghai）",
+      "note": "今日 09:00/15:00 场已收条目（Anthropic 招股书、Orchestra Bio 收购、蛋白湿验官宣等）均已去重；Citrini 条为后续增量",
+      "overview": [
+        "OpenAI 前沿模型+Codex 上架谷歌云，「全模型柜台」多云开闸（双源佐证）。",
+        "Vera Rubin 基础设施在谷歌云 GA：A5X 实例下月开放、扩至欧洲（A源）。",
+        "PostgreSQL 19 推迟发布：AI 审查找茬快过人类修 bug（双源佐证）。",
+        "FDE 驻场日薪摸到一万元，AI 交付层人力溢价坐实（双源佐证）。",
+        "卖方研究所 Citrini 用 Claude 出抗蝎毒蛋白：20 万美元/3 个月/17 个阳性（后续·双源）。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 3,
+        "industry": 5
+      },
+      "rawStats": {
+        "candidates": 102,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-10-21-1500",
       "date": "2026-10-21",
