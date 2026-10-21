@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 21 Oct 2026 01:19:15 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 07:16:50 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-21 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-21-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-21-0900.html</guid>
+      <pubDate>Wed, 21 Oct 2026 01:00:00 GMT</pubDate>
+      <description>OpenAI 官宣收购生技初创 Orchestra Bio 并入 Rosalind 生命科学线；Anthropic 官方研究页披露 Claude 64 小时设计 31 万种蛋白、17 种过湿实验——AI-for-science 两线同日提速。</description>
+    </item>
     <item>
       <title>AI 情报 · 10-20 21:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-20-2100.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-14-2100.html</guid>
       <pubDate>Wed, 14 Oct 2026 13:00:00 GMT</pubDate>
       <description>Gemini 4 Argon 正式面向全球开发者、企业与付费订阅用户开放，API 推广价 $2/$10（12-01 恢复 $4/$20），AA 口径每任务 $1.99 对 Astra 的 $3.26。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-14 15:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-14-1500.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-14-1500.html</guid>
-      <pubDate>Wed, 14 Oct 2026 07:00:00 GMT</pubDate>
-      <description>Gemini 4 Argon 上市首日：实测确认物理/复杂任务跃升，开发者 API 五折（至 11 月），GitHub Copilot 已接入。</description>
     </item>
   </channel>
 </rss>
