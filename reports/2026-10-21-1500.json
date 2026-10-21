@@ -3,7 +3,7 @@
   "date": "2026-10-21",
   "time": "15:00",
   "title": "AI 情报 · 10-21 15:00 场",
-  "generatedAt": "2026-10-21T07:15:13.546Z",
+  "generatedAt": "2026-10-21T07:17:08.632Z",
   "coverage": "2026-10-21 09:05→15:05（Asia/Shanghai，窗口口径）",
   "notes": [
     "备注：本日 09:00 场已收条目经 seen 去重，无重叠"
@@ -71,8 +71,8 @@
           },
           "snapshot": {
             "file": "archives/2026-10-21-1500/01_36kr.com_aa97e39b.html",
-            "sha256": "1ca929fad65de2e3ab2fb965979aaa0f8387893581da7752b6a7be72a58829d2",
-            "fetched_at": "2026-10-21T07:16:09.135Z"
+            "sha256": "e3e76a455e6514806bc5cfb86a75ef8e4f507a1e5ef1eee75a55123e5ae46f44",
+            "fetched_at": "2026-10-21T07:16:26.390Z"
           }
         },
         {
@@ -122,7 +122,7 @@
           "snapshot": {
             "file": "archives/2026-10-21-1500/02_m.sohu.com_e1bbca6f.html",
             "sha256": "4c79f9942c5a81fbdbb9a8d6c5239bf7853c21f8d733751ef373c2e99c066003",
-            "fetched_at": "2026-10-21T07:16:09.321Z"
+            "fetched_at": "2026-10-21T07:16:26.478Z"
           }
         }
       ]
@@ -177,8 +177,8 @@
           },
           "snapshot": {
             "file": "archives/2026-10-21-1500/03_36kr.com_7e909393.html",
-            "sha256": "85b61e2bf8c46fab23f0c9d4eb574a05072e3172de8b4353df4598991f96fe72",
-            "fetched_at": "2026-10-21T07:16:09.557Z"
+            "sha256": "0a3196f06bcaf452bb36abb5ce3bef36a8f98f845584676c57030625bcde7b6a",
+            "fetched_at": "2026-10-21T07:16:26.710Z"
           }
         },
         {
@@ -218,7 +218,7 @@
           "snapshot": {
             "file": "archives/2026-10-21-1500/04_arxiv.org_4f24e668.html",
             "sha256": "01e08c027c146af878e9c8b39fdb929b1bbbeb7e7ad85081f59994df13436e17",
-            "fetched_at": "2026-10-21T07:16:09.830Z"
+            "fetched_at": "2026-10-21T07:16:26.976Z"
           }
         },
         {
@@ -258,7 +258,7 @@
           "snapshot": {
             "file": "archives/2026-10-21-1500/05_arxiv.org_19d0fec8.html",
             "sha256": "5d065eb744f81208f8f799528f3e34f22e7684b57220da64cf254961820180d7",
-            "fetched_at": "2026-10-21T07:16:10.096Z"
+            "fetched_at": "2026-10-21T07:16:27.227Z"
           }
         }
       ]
@@ -330,8 +330,8 @@
           },
           "snapshot": {
             "file": "archives/2026-10-21-1500/06_www.reddit.com_de02aabb.html",
-            "sha256": "1e7e33bc3f3c4264e64dc4aec2ab91ea642c9f8514583d1ead7326250a3ee2d9",
-            "fetched_at": "2026-10-21T07:16:46.524Z"
+            "sha256": "b5d10e37420230ca44a006c71032c5bcebad2861c29b835662e7425bafc9dee6",
+            "fetched_at": "2026-10-21T07:17:03.644Z"
           }
         },
         {
@@ -375,8 +375,8 @@
           },
           "snapshot": {
             "file": "archives/2026-10-21-1500/07_36kr.com_3ad0e701.html",
-            "sha256": "0a0a7412c1ea1f49876e3fe40106c1c01de2e26f88a91dcb24604f6560c4d95e",
-            "fetched_at": "2026-10-21T07:16:46.777Z"
+            "sha256": "e3dee8c570ae619e6457f7100921789260eda4dd4006053e92aeae2246de3dfb",
+            "fetched_at": "2026-10-21T07:17:03.879Z"
           }
         }
       ]
@@ -399,9 +399,9 @@
       "sigId": "SIG-20261021-1500-3"
     },
     {
-      "lead": "- SIG-20261006-0900-1（延续）Fable 5.5 官宣窗",
+      "lead": "Fable 5.5 官宣窗",
       "text": "10-20「明日突袭」爆料当日未兑现、Anthropic RSS 零增量 → 下次 check 10-25。",
-      "sigId": null
+      "sigId": "SIG-20261006-0900-1"
     }
   ],
   "sourceStatus": [
