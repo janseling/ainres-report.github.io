@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 22 Oct 2026 07:14:08 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 13:19:03 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-22 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-22-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-22-1500.html</guid>
+      <pubDate>Thu, 22 Oct 2026 07:00:00 GMT</pubDate>
+      <description>PHP 双 RCE 事件进入国家级应急：工信部 NVDB 发布风险提示，韩国上调网络危机预警级别，此前芬兰/荷兰/法德等多国政府网站已预防性下线。</description>
+    </item>
     <item>
       <title>AI 情报 · 10-22 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-22-0900.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-16-0900.html</guid>
       <pubDate>Fri, 16 Oct 2026 01:00:00 GMT</pubDate>
       <description>Meta 官宣 816B 开放权重 Muse Spark Open：两台 M5 Ultra Mac Studio 本地能跑，Apple MLX 联合优化。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-15 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-15-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-15-2100.html</guid>
-      <pubDate>Thu, 15 Oct 2026 13:00:00 GMT</pubDate>
-      <description>库克确认国行 Apple Intelligence 定档 10 月底测试版，首批不含 Siri 系功能。</description>
     </item>
   </channel>
 </rss>

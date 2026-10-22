@@ -1,6 +1,32 @@
 {
-  "count": 69,
+  "count": 70,
   "reports": [
+    {
+      "id": "2026-10-22-2100",
+      "date": "2026-10-22",
+      "time": "21:00",
+      "title": "AI 情报 · 10-22 21:00 场",
+      "itemCount": 15,
+      "coverage": "2026-10-22 15:00→21:05（Asia/Shanghai，窗口口径）",
+      "note": "",
+      "overview": [
+        "DeepSeek 千亿融资逼近收官：游戏/半导体产业资本批量入局，多源口径腾讯、宁德时代领衔。",
+        "田渊栋 Recursive 首个模型 Flint-40B-A2B 开源：EurekaMachine「AI 造 AI」全程参与、MacBook 可跑，海外媒体与 HF 官仓双侧确认。",
+        "腾讯元宝搜索经腾讯云对外开放，机器之心实测+极客公园「搜索基础设施时代」定性，检索 API 地板价竞争加码。",
+        "Gemini 4 Carbon 首批实测曝光「手感直逼 Opus 5.5」（仍传闻级）；The Verge 把「Claude 造出蝎毒抗血清」的传播版叙事拉回事实面。",
+        "特斯拉 Optimus 弗里蒙特产线开跑、马斯克自认周产 2 万台还需一年；MiniMax 港股破发，模型股进入重估窗口。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 3,
+        "policy": 2,
+        "industry": 6
+      },
+      "rawStats": {
+        "candidates": 151,
+        "selected": 15
+      }
+    },
     {
       "id": "2026-10-22-1500",
       "date": "2026-10-22",
