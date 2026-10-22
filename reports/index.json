@@ -1,6 +1,32 @@
 {
-  "count": 68,
+  "count": 69,
   "reports": [
+    {
+      "id": "2026-10-22-1500",
+      "date": "2026-10-22",
+      "time": "15:00",
+      "title": "AI 情报 · 10-22 15:00 场",
+      "itemCount": 11,
+      "coverage": "2026-10-22 09:00 → 15:05（Asia/Shanghai）",
+      "note": "今晨 09:00 场已收 php2shell 首报与 Meta Q3 电话会口径，相关增量标注「后续」",
+      "overview": [
+        "PHP 双 RCE 事件进入国家级应急：工信部 NVDB 发布风险提示，韩国上调网络危机预警级别，此前芬兰/荷兰/法德等多国政府网站已预防性下线。",
+        "前万国数据海外业务 DayOne 已递交 F-1 冲纳斯达克（代码 DODC）：彭博口径至多募 50 亿美元、估值约 200 亿美元，但推迟上市/募资削半传闻同步在传。",
+        "Meta Q3 落地：AI 支出把自由现金流压负，管理层把 Muse 摆到 AI 战略心脏位并催其更早挣钱。",
+        "清华×智元×无问芯穹提出「集体经验学习」：96 台机器人共享执行经验协同进化，成功率反超人类。",
+        "决策模型与 Agent 评测工具链同日上新：UCLA×Adobe Tev 长程考题集、arXiv DecisionPivot 诊断基准、NVIDIA Cosmos 开发工具扩展。"
+      ],
+      "sectionCounts": {
+        "product": 1,
+        "tech": 5,
+        "policy": 1,
+        "industry": 4
+      },
+      "rawStats": {
+        "candidates": 220,
+        "selected": 11
+      }
+    },
     {
       "id": "2026-10-22-0900",
       "date": "2026-10-22",
