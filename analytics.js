@@ -6,7 +6,7 @@
  */
 (function () {
   'use strict';
-  var BAIDU_ID = '23624950';  // 百度统计 siteId（tongji.baidu.com 代码获取里 hm.js? 后面那串）
+  var BAIDU_ID = '11276f4a08c06cacf74728c5cee7fec4';  // 百度统计 siteId（tongji.baidu.com 代码获取里 hm.js? 后面那串）
   var GA_ID = 'G-XVMBC8YJSV';     // GA4 衡量 ID，G- 开头（analytics.google.com → 数据流）
   try {
     var qs = new URLSearchParams(location.search);
