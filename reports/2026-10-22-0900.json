@@ -3,7 +3,7 @@
   "date": "2026-10-22",
   "time": "09:00",
   "title": "AI 情报 · 10-22 09:00 场",
-  "generatedAt": "2026-10-22T01:22:06.036Z",
+  "generatedAt": "2026-10-22T03:42:33.322Z",
   "coverage": "2026-10-21 21:00 → 2026-10-22 09:05（Asia/Shanghai）",
   "notes": [
     "备注：web_search 供应商不可用，全部外查降级 Bing/Google News RSS 提取式（proxy 7890），留痕与直链见 reports/raw/2026-10-22-0900.evidence.json"
@@ -397,7 +397,7 @@
           ],
           "confidence": "高",
           "confidence_note": "A源·官方原文",
-          "publish_time": "2026-10-21 21:37",
+          "publish_time": "2026-10-21 12:50",
           "event_time": "2026-10-21",
           "event_time_inferred": true,
           "entities": [
@@ -494,7 +494,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 BBC+CTOL Digital",
-          "publish_time": "2026-10-22 03:14",
+          "publish_time": "2026-10-21 23:41",
           "event_time": "2026-10-21",
           "event_time_inferred": false,
           "verify_note": "外部检索（CTOL Digital 2026-10-22 01:00 北京同报：DeepMind 工会因五角大楼条款寻求集体谈判；https://ctol.digital/news/google-deepmind-pentagon-terms-union-anthropic/）",
