@@ -3,7 +3,7 @@
   "date": "2026-10-13",
   "time": "09:00",
   "title": "AI 情报 · 10-13 09:00 场",
-  "generatedAt": "2026-10-13T16:57:35.576Z",
+  "generatedAt": "2026-10-22T23:43:00.454Z",
   "coverage": "2026-10-12 21:00 → 2026-10-13 09:05（Asia/Shanghai，窗口口径）",
   "notes": [],
   "itemCount": 14,
@@ -575,6 +575,8 @@
           "confidence": "高",
           "confidence_note": "多源佐证 36kr+CNBC+SiliconANGLE/IBD",
           "publish_time": "2026-10-13 08:40",
+          "event_time": "2026-10-12",
+          "event_time_inferred": false,
           "verify_note": "外部检索（CNBC 10-12 16:27 北京：capital crunch could become AI's biggest bottleneck；IBD 10-13 04:45 / SiliconANGLE 08:11 同框；https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html）",
           "entities": [
             {
