@@ -1,13 +1,13 @@
 /* AI 情报日报 · 全站统计加载器
  * 接入：百度统计（hm.baidu.com）+ Google Analytics 4（gtag.js)
  * ID 在下方填写，留 '' = 该渠道关闭；改 ID 后把各页引用的 ?v=1 版本号 +1 破缓存。
- * 引用方式（各页 <head> 内）：<script defer src="/analytics.js?v=1"></script>
+ * 引用方式（各页 <head> 内）：<script defer src="/analytics.js?v=2"></script>
  * 测试通道：URL 追加 &__baid=xxx&__ga=G-TEST 可临时覆盖 ID（上线冒烟用）。
  */
 (function () {
   'use strict';
-  var BAIDU_ID = '';  // 百度统计 siteId（tongji.baidu.com 代码获取里 hm.js? 后面那串）
-  var GA_ID = '';     // GA4 衡量 ID，G- 开头（analytics.google.com → 数据流）
+  var BAIDU_ID = '23624891';  // 百度统计 siteId（tongji.baidu.com 代码获取里 hm.js? 后面那串）
+  var GA_ID = 'G-9VZH66Z6EH';     // GA4 衡量 ID，G- 开头（analytics.google.com → 数据流）
   try {
     var qs = new URLSearchParams(location.search);
     if (qs.get('__baid')) BAIDU_ID = qs.get('__baid');
