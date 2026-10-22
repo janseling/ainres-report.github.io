@@ -3,7 +3,7 @@
   "date": "2026-10-22",
   "time": "21:00",
   "title": "AI 情报 · 10-22 21:00 场",
-  "generatedAt": "2026-10-22T13:19:03.050Z",
+  "generatedAt": "2026-10-22T15:45:30.934Z",
   "coverage": "2026-10-22 15:00→21:05（Asia/Shanghai，窗口口径）",
   "notes": [],
   "itemCount": 15,
@@ -103,6 +103,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 机器之心+腾讯新闻官宣稿",
           "publish_time": "2026-10-22 19:10",
+          "event_time": "2026-10-20",
+          "event_time_inferred": false,
           "verify_note": "外部检索（腾讯新闻 2026-10-20 17:01 同报：正式对外开放、千亿级索引、每月2000次免费调用; https://news.qq.com/rain/a/20261020A09ZI600）",
           "entities": [
             {
@@ -367,6 +369,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 The Verge+BlockTempo",
           "publish_time": "2026-10-22 20:21",
+          "event_time": "2026-10-20",
+          "event_time_inferred": false,
           "verify_note": "外部检索（BlockTempo 2026-10-21 02:12 同报官方口径：211 件送测、17 件达标、强调非抗毒血清; https://www.blocktempo.com/anthropic-claude-scorpion-toxin-binder/）",
           "entities": [
             {
@@ -572,6 +576,8 @@
           "confidence": "中",
           "confidence_note": "B单源·指标口径未获第二源直证",
           "publish_time": "2026-10-22 20:52",
+          "event_time": "2026-10-21",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Yahoo Finance 2026-10-21 15:05 同题线：Meta AI 支出令投资者借用金融危机剧本对冲; https://finance.yahoo.com/technology/ai/articles/meta-ai-spending-spree-investors-140500568.html）",
           "entities": [
             {
