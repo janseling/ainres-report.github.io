@@ -3,7 +3,7 @@
   "date": "2026-10-23",
   "time": "15:00",
   "title": "AI 情报 · 10-23 15:00 场",
-  "generatedAt": "2026-10-23T07:13:51.360Z",
+  "generatedAt": "2026-10-23T07:14:06.420Z",
   "coverage": "2026-10-23 09:00 → 15:05（Asia/Shanghai，窗口口径，无 gap 补采）",
   "notes": [
     "与 09:00 场零重叠；渲染类 3 源本期 DOWN（本地渲染器浏览器锁，见 🩺，相关事实已用 API 直验补位）"
@@ -436,7 +436,9 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [],
+          "type_tags": [
+            "其他"
+          ],
           "confidence": "高",
           "confidence_note": "双源佐证 36kr+虎嗅",
           "publish_time": "2026-10-23 09:17",
@@ -479,7 +481,9 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [],
+          "type_tags": [
+            "其他"
+          ],
           "confidence": "中",
           "confidence_note": "B单源",
           "publish_time": "2026-10-23 09:21",
