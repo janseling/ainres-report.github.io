@@ -3,7 +3,7 @@
   "date": "2026-10-23",
   "time": "21:00",
   "title": "AI 情报 · 10-23 21:00 场",
-  "generatedAt": "2026-10-23T13:16:08.335Z",
+  "generatedAt": "2026-10-23T17:42:52.007Z",
   "coverage": "2026-10-23 15:00 → 21:05（Asia/Shanghai，窗口口径）",
   "notes": [
     "与 15:00 场零重叠（日更聚合/财报快讯类噪声已滤）"
@@ -333,7 +333,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 机器之心+arXiv 原文",
           "publish_time": "2026-10-23 20:23",
-          "event_time": "2026-10-06",
+          "event_time": "2026-10-06 13:03",
           "event_time_inferred": false,
           "verify_note": "外部检索（arXiv 原文：https://arxiv.org/abs/2610.07767）",
           "entities": [
@@ -380,7 +380,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 机器之心+arXiv 原文",
           "publish_time": "2026-10-23 16:31",
-          "event_time": "2026-10-13",
+          "event_time": "2026-10-14 01:57",
           "event_time_inferred": false,
           "verify_note": "外部检索（arXiv 原文：https://arxiv.org/abs/2610.18842）",
           "entities": [
@@ -476,7 +476,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 新智元+arXiv/Yahoo Finance",
           "publish_time": "2026-10-23 17:54",
-          "event_time": "2026-10-22",
+          "event_time": "2026-10-22 17:01",
           "event_time_inferred": false,
           "verify_note": "外部检索（arXiv 论文：https://arxiv.org/abs/2610.30949；Yahoo Finance 2026-10-23 官方通稿：https://finance.yahoo.com/technology/ai/articles/iquest-research-releases-iquest-q1-100000306.html）",
           "entities": [
