@@ -1,6 +1,32 @@
 {
-  "count": 70,
+  "count": 71,
   "reports": [
+    {
+      "id": "2026-10-23-0900",
+      "date": "2026-10-23",
+      "time": "09:00",
+      "title": "AI 情报 · 10-23 09:00 场",
+      "itemCount": 15,
+      "coverage": "2026-10-22 21:00 → 2026-10-23 09:05（Asia/Shanghai，窗口口径）",
+      "note": "",
+      "overview": [
+        "OpenAI 被曝推进约 $300 亿新融资、估值口径 $1.25 万亿；DeepSeek 传收官 $150 亿（宁德/腾讯列名），中美两大模型融资竞速同框",
+        "安全面「黑暗 48 小时」：php2Shell 攻击抢跑披露 4 天（AWS 亲证）；中国黑客借 AI agent 攻破 ConnectWise 波及数千企业",
+        "agent 基建三连：1Password 推「代登录不见密码」、NVIDIA 上线 AI 工厂可观测平台 Minerva、Anthropic 把 Agent Skills 标准捐给 Linux 基金会 AAIF",
+        "OpenAI Decisions API 全面开放接 Jev 竞品；Pichai 自曝 Argon Token 消耗暴涨 3 倍、剧透 Gemini 5.0",
+        "FCC 首次动用「外国监控芯片」封禁权；Uber 全员 3 万人上 ChatGPT Work；MiniMax 破发进入重估叙事"
+      ],
+      "sectionCounts": {
+        "product": 5,
+        "tech": 4,
+        "policy": 1,
+        "industry": 5
+      },
+      "rawStats": {
+        "candidates": 201,
+        "selected": 15
+      }
+    },
     {
       "id": "2026-10-22-2100",
       "date": "2026-10-22",
