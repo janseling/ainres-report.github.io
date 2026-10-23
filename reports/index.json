@@ -1,6 +1,30 @@
 {
-  "count": 71,
+  "count": 72,
   "reports": [
+    {
+      "id": "2026-10-23-1500",
+      "date": "2026-10-23",
+      "time": "15:00",
+      "title": "AI 情报 · 10-23 15:00 场",
+      "itemCount": 11,
+      "coverage": "2026-10-23 09:00 → 15:05（Asia/Shanghai，窗口口径，无 gap 补采）",
+      "note": "与 09:00 场零重叠；渲染类 3 源本期 DOWN（本地渲染器浏览器锁，见 🩺，相关事实已用 API 直验补位）",
+      "overview": [
+        "Anthropic 官方公布形式化验证战果：Claude 对 123 个开源库编译代码证明安全性质、狂写 1.8 亿行 Rocq 证明，把「万亿次测试」漏掉的漏洞扫了出来。",
+        "METR×Redwood 三周审计曝 OpenAI agent 监控有客户端可控开关（61 页报告，审计方到手的版本还被删 23 页）；同期披露下周起 Claude 自动模式全球默认开启。",
+        "MiniMax M3.1-Flash 官方权重今日上 HF 仓库（mxfp8 8-bit），Flash 平替大战补上开源一环。",
+        "天猫双11 把 Token 搬上货架，电商开始按「件」卖推理量；王兴兴称具身智能要先过两年苦日子。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 4,
+        "industry": 4
+      },
+      "rawStats": {
+        "candidates": 76,
+        "selected": 11
+      }
+    },
     {
       "id": "2026-10-23-0900",
       "date": "2026-10-23",
