@@ -1,6 +1,31 @@
 {
-  "count": 72,
+  "count": 73,
   "reports": [
+    {
+      "id": "2026-10-23-2100",
+      "date": "2026-10-23",
+      "time": "21:00",
+      "title": "AI 情报 · 10-23 21:00 场",
+      "itemCount": 13,
+      "coverage": "2026-10-23 15:00 → 21:05（Asia/Shanghai，窗口口径）",
+      "note": "与 15:00 场零重叠（日更聚合/财报快讯类噪声已滤）",
+      "overview": [
+        "美国银行业开始批量封禁未核验 AI agent 访问客户账户（Reuters/Forbes/NYP 多源）——agent 准入战从电商打到银行账户层。",
+        "Anthropic 被曝在部分账号秘密测试不同订阅额度（SemiAnalysis 量化「月总量约少两成、5h 档多约两成」），中文双源同日跟进；同日官宣携手 Hg 落地欧洲 AI 咨询公司。",
+        "MiniMax M3.1-Flash 开源续报：华为昇腾预告接入、上线三天处理超 100 万亿 Token，港股 MINIMAX-W 升逾 11%。",
+        "RSI 线双里程碑：ex-Anthropic 团队 Mirendil 单人手搓 100B-500B 编程基座；上交/伯克利等机构论文首次系统化「物理递归自改进」。",
+        "机器人创企松延动力被曝秘密递表港交所（宁德时代领投）；钛动科技发布行业首个 Pro-Agent「Navos」。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 6,
+        "industry": 4
+      },
+      "rawStats": {
+        "candidates": 137,
+        "selected": 13
+      }
+    },
     {
       "id": "2026-10-23-1500",
       "date": "2026-10-23",
