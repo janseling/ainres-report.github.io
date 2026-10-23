@@ -80,6 +80,11 @@
             "raw_ref": "reports/raw/2026-10-23-2100.json#candidates[17]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-23-2100/01_36kr.com_7d7196ea.html",
+            "sha256": "855faca157d2a9bd004974714e2cc0ef423c3a1116556ece2b2c98e7a47de1dd",
+            "fetched_at": "2026-10-23T13:17:37.012Z"
           }
         },
         {
@@ -126,6 +131,11 @@
             "raw_ref": "reports/raw/2026-10-23-2100.json#candidates[82]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-23-2100/02_36kr.com_84e1a4fa.html",
+            "sha256": "d7f06378864b2833c0538b054e649035ca1c1ea4803496d58cefd19b3cf0d7e3",
+            "fetched_at": "2026-10-23T13:17:37.259Z"
           }
         },
         {
@@ -174,6 +184,11 @@
             "raw_ref": "reports/raw/2026-10-23-2100.json#candidates[51]",
             "source_id": "sohu-xzy",
             "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-23-2100/03_m.sohu.com_33c35b61.html",
+            "sha256": "d9a542da10ddc99090435a546662dc827f5bf533bf4249900c7c16bd9006955d",
+            "fetched_at": "2026-10-23T13:17:37.491Z"
           }
         }
       ]
@@ -226,6 +241,11 @@
             "raw_ref": "reports/raw/2026-10-23-2100.json#candidates[116]",
             "source_id": "anthropic",
             "source_name": "Anthropic"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-23-2100/04_www.anthropic.com_6950f616.html",
+            "sha256": "784b6170533ea72bbe53a38616770820364922e456cbcd7a5bdabbf6729618cd",
+            "fetched_at": "2026-10-23T13:17:40.211Z"
           }
         },
         {
@@ -278,6 +298,11 @@
             "raw_ref": "reports/raw/2026-10-23-2100.json#candidates[55]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-23-2100/05_36kr.com_c5ec2acd.html",
+            "sha256": "84f3471a29f5352248036f433573b8f689c041932019f99c3f2807a4bec86ef0",
+            "fetched_at": "2026-10-23T13:17:40.478Z"
           }
         },
         {
@@ -326,6 +351,11 @@
             "raw_ref": "reports/raw/2026-10-23-2100.json#candidates[27]",
             "source_id": "sohu-jqzx",
             "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-23-2100/06_m.sohu.com_e882cf37.html",
+            "sha256": "f4044c38d8d059972f85af3de794f4e43bec47dead56dbbcb0d530ff587c12af",
+            "fetched_at": "2026-10-23T13:17:40.680Z"
           }
         },
         {
@@ -372,6 +402,11 @@
             "raw_ref": "reports/raw/2026-10-23-2100.json#candidates[87]",
             "source_id": "sohu-jqzx",
             "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-23-2100/07_m.sohu.com_20ea360c.html",
+            "sha256": "d9b7598bd194161844ee26560b085daee1955993ba994dfc6fbb7446d61a0a89",
+            "fetched_at": "2026-10-23T13:17:41.109Z"
           }
         },
         {
@@ -412,6 +447,11 @@
             "raw_ref": "reports/raw/2026-10-23-2100.json#candidates[52]",
             "source_id": "sohu-xzy",
             "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-23-2100/08_m.sohu.com_09b21be2.html",
+            "sha256": "2d88d999fedb2d1280ea89b46c706a43abc3e5ef7ab1273d01346bc93da79468",
+            "fetched_at": "2026-10-23T13:17:41.280Z"
           }
         },
         {
@@ -454,6 +494,11 @@
             "raw_ref": "reports/raw/2026-10-23-2100.json#candidates[74]",
             "source_id": "sohu-xzy",
             "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-23-2100/09_m.sohu.com_6260b21c.html",
+            "sha256": "2c8a17a3ab43b93b7309a02b6cf9e0fd6eb1b491c93894e38b0c20e39d3fba7f",
+            "fetched_at": "2026-10-23T13:17:41.481Z"
           }
         }
       ]
@@ -507,6 +552,11 @@
             "raw_ref": "reports/raw/2026-10-23-2100.json#candidates[47]",
             "source_id": "reddit",
             "source_name": "Reddit"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-23-2100/10_www.reddit.com_bead3486.html",
+            "sha256": "c12f3320b40ed9fbae9117ae34a8099d688fc98303e102f84f063ff1216d2e0b",
+            "fetched_at": "2026-10-23T13:18:17.854Z"
           }
         },
         {
@@ -555,6 +605,11 @@
             "raw_ref": "reports/raw/2026-10-23-2100.json#candidates[20]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-23-2100/11_36kr.com_f2d9f986.html",
+            "sha256": "f5c17c003b47577dc6a4514071ae94a747d4eee4be08e165fd9b98d4ad45b560",
+            "fetched_at": "2026-10-23T13:18:18.106Z"
           }
         },
         {
@@ -605,6 +660,11 @@
             "raw_ref": "reports/raw/2026-10-23-2100.json#candidates[89]",
             "source_id": "sohu-jqzx",
             "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-23-2100/12_m.sohu.com_14d46a08.html",
+            "sha256": "d0a0ba84096cbbc84fb1301bdf6fc327af9162175e439923c8a832631b48c6a5",
+            "fetched_at": "2026-10-23T13:18:18.274Z"
           }
         },
         {
@@ -641,6 +701,11 @@
             "raw_ref": "reports/raw/2026-10-23-2100.json#candidates[98]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-23-2100/13_36kr.com_dd44b2b0.html",
+            "sha256": "61f4b9a636165be8a2a9fdecfcf991d922d6c1a3eda7ccb7359a35238b5826d3",
+            "fetched_at": "2026-10-23T13:18:18.532Z"
           }
         }
       ]
@@ -674,7 +739,7 @@
   "provenance_meta": {
     "raw_file": "reports/raw/2026-10-23-2100.json",
     "evidence_file": "reports/raw/2026-10-23-2100.evidence.json",
-    "snapshot_dir": null,
+    "snapshot_dir": "archives/2026-10-23-2100/",
     "raw_candidates": 137,
     "matched": 13
   }
