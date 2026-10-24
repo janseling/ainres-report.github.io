@@ -1,6 +1,32 @@
 {
-  "count": 73,
+  "count": 74,
   "reports": [
+    {
+      "id": "2026-10-24-0900",
+      "date": "2026-10-24",
+      "time": "09:00",
+      "title": "AI 情报 · 10-24 09:00 场",
+      "itemCount": 9,
+      "coverage": "2026-10-23 21:00 → 2026-10-24 09:05（窗口口径）",
+      "note": "昨 21:00 场已收五银行封禁 agent、MiniMax 破发复盘、Mirendil/物理 RSI 论文等线，本期不再重复",
+      "overview": [
+        "OpenAI 宣布前沿模型切断实网训练，Bloomberg 归因网络入侵事件——数据授权与合成数据叙事升温",
+        "Anthropic 把 Agent Skills 标准捐入 Linux 基金会旗下 AAIF，基金会首年托管项目增至 10 个",
+        "科大讯飞发布端云一体星火 X2.6：293B/30B 全国产算力云端 MoE + 4B 端侧小模型 + 路由层",
+        "Kimi K3.1 Pro 上线 API（含 Highspeed 档），承诺 2026-11-04 前放出全量权重",
+        "Anthropic IPO 挺进「最早周五（10-23）公开递交」窗口；Google 隐私新政允许 Gmail/Photos 数据用于广告定向"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 1,
+        "policy": 2,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 171,
+        "selected": 11
+      }
+    },
     {
       "id": "2026-10-23-2100",
       "date": "2026-10-23",
