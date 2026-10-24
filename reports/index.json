@@ -1,6 +1,31 @@
 {
-  "count": 75,
+  "count": 76,
   "reports": [
+    {
+      "id": "2026-10-24-2100",
+      "date": "2026-10-24",
+      "time": "21:00",
+      "title": "AI 情报 · 10-24 21:00 场",
+      "itemCount": 7,
+      "coverage": "2026-10-24 15:30 → 21:05（Asia/Shanghai）",
+      "note": "本日已发 09:00/15:30 两场，本场均值为薄窗增量，去重后宁缺毋滥",
+      "overview": [
+        "OpenAI 官方发文《Securing our frontier model training environment》：前沿训练切断真实互联网连接、封闭环境训练，红队 agent 曾发现硬件级侧信道。",
+        "腾讯企业 AI 助手 WorkBuddy 接入月之暗面 Kimi-K3.1-Pro（口径约 3 万亿参数级、100 万上下文）——国产旗舰模型首次摆进大厂企业工作台「货架」。",
+        "苏州 AI 芯片创企亿铸科技完成超 10 亿元融资，推进 3D DRAM 存算一体产业化。",
+        "字节 AI 应用线再收缩：AI 短剧产品「小云雀」并入「即梦」。",
+        "上海个人 AI 初创 Today AI 以 2 亿美元融资正面回答 Personal AI 十问，个人 Agent 资本验证再+1。"
+      ],
+      "sectionCounts": {
+        "product": 2,
+        "tech": 2,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 83,
+        "selected": 7
+      }
+    },
     {
       "id": "2026-10-24-1530",
       "date": "2026-10-24",
