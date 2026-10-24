@@ -1,0 +1,593 @@
+{
+  "id": "2026-10-24-1530",
+  "date": "2026-10-24",
+  "time": "15:30",
+  "title": "AI 情报 · 10-24 15:30 场",
+  "generatedAt": "2026-10-24T07:45:55.451Z",
+  "coverage": "2026-10-24 09:00 → 15:36（窗口口径）",
+  "notes": [
+    "今晨 09:00 场已收 Kimi K3.1 Pro 上线、OpenAI 断实网训练、AAIF 标准捐赠、Token 上天猫双11 货架等线，本期只收增量"
+  ],
+  "itemCount": 10,
+  "rawStats": {
+    "candidates": 96,
+    "selected": 10
+  },
+  "overview": [
+    "信通院报告：词元价格较 2025 下半年翻倍、日耗增 3 倍——中国大模型市场进入「量价齐升」通道",
+    "亚马逊 CEO：AWS 容量 2027 年底前基本售罄、2028 大部已订，电力成为扩容瓶颈",
+    "软银 5 年期 CDS 432bp 创近四年新高，646 亿美元押注 OpenAI 的融资压力显性化",
+    "英国官宣 1 亿英镑 AI 生物安全实验室，OpenAI/Anthropic 参与并提供模型额度",
+    "Utopai Studios 跻身独角兽：AI 影视垂直后训练获资本独立定价；Kimi K3.1 Pro 霸榜口径与「额度烧光」口碑同框"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "Utopai Studios 跻身独角兽，「全球最大独立 AI 影视公司」获资本独立定价",
+          "meta": "36氪·2026-10-24 13:46",
+          "urls": [
+            "https://36kr.com/p/4039455708058753"
+          ],
+          "summary": "全球最大独立 AI 影视公司 Utopai Studios 晋身独角兽；其 Utopai X 物理/音频垂直定制模型此前在 AA 盲评 10 项细分中 7 项超基座。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "「行业数据壁垒可验证」的后训练故事被资本市场单独立价，垂直模型从基座厂附赠变成独立资产类别——这是国内影视/广告/游戏垂域后训练团队最直接的估值样板。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对标位在「制片工作流×垂域后训练×数据回供封闭性」，估值锚已经现成。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+The Information",
+          "publish_time": "2026-10-24 13:46",
+          "event_time": "2026-10-22",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（The Information 2026-10-22 同步报道：Utopai Becomes a Unicorn as Video AI Takes Off; https://www.theinformation.com/newsletters/ai-agenda/utopai-becomes-unicorn-video-ai-takes）",
+          "entities": [
+            {
+              "name": "Utopai Studios",
+              "type": "企业"
+            },
+            {
+              "name": "Utopai X",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4039455708058753",
+            "raw_ref": "reports/raw/2026-10-24-1530.json#candidates[15]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-24-1530/01_36kr.com_a3cea6e2.html",
+            "sha256": "9ae5d5cf13842c54f4b52c236e0e7df13d2ca4499a7174eebd4a53d584382c6e",
+            "fetched_at": "2026-10-24T07:49:18.848Z"
+          }
+        },
+        {
+          "title": "中国移动携手主流车企发布业内首个汽车行业 AI 基座，面向全行业开放共享",
+          "meta": "36氪·2026-10-24 13:30",
+          "urls": [
+            "https://36kr.com/p/4039353805870210"
+          ],
+          "summary": "中国移动联合主流车企在京发布业内首个汽车行业 AI 基座，属「国家人工智能应用中试基地（制造领域汽车方向）」首年建设答卷，能力面向全行业开放共享。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "运营商以「国家队基座+开放共享」卡位 2B 入口——卖的不是模型是生态位，车企智能化采购多了一个新选项。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "围绕基座做数据合规、座舱/售后场景微调的中小服务商多了一个可承接的公共底座。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+新浪财经/新京报 GN 同题在档",
+          "publish_time": "2026-10-24 13:30",
+          "event_time": "2026-10-23",
+          "event_time_inferred": false,
+          "verify_note": "直链未寻得（外查 2026-10-24；GN 检索见新浪财经 2026-10-23 22:58「中国移动携手主流车企在京发布业内首个汽车行业AI基座——国家人工智能应用中试基地（制造领域汽车方向）交出首年建设答卷」与新京报 10-24 同题）",
+          "entities": [
+            {
+              "name": "中国移动",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4039353805870210",
+            "raw_ref": "reports/raw/2026-10-24-1530.json#candidates[17]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-24-1530/02_36kr.com_16228f35.html",
+            "sha256": "3fb4dfbacaf08d5179ee57e2eb7b542701b7ff11643ebba175f9193a80c338d0",
+            "fetched_at": "2026-10-24T07:49:19.180Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术 / 模型",
+      "items": [
+        {
+          "title": "Kimi K3.1 Pro 官方口径「杀进全球前四、Agent 榜第一」",
+          "meta": "36氪·2026-10-24 15:00",
+          "urls": [
+            "https://36kr.com/p/4039469378163840"
+          ],
+          "summary": "36氪称 K3.1 Pro 综合杀进全球前四、Agent 榜第一，代码模型与审美是升级主线；今晨 09:00 场已收官方发布（API+Highspeed 档、承诺 11-04 前全量放权重），本条为榜单口径跟进。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "榜单口径与 11-04 权重兑现构成双验证窗，第三方收录稳态比首发通稿更值得等。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "开放权重阵营对美前沿的又一次卡位尝试，编码场景选型再添强候选。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·榜单口径未经第三方稳态收录，社区对排名已有分歧",
+          "publish_time": "2026-10-24 15:00",
+          "verify_note": "外部检索（Crypto Briefing 2026-10-23 同步报道：Kimi K3.1 Pro 上线、编码性能逼近 Claude Opus 5.5; https://cryptobriefing.com/moonshot-ai-launches-kimi-k3-1-pro-closing-in-on-claude-opus-5-5-in-coding-performance/）",
+          "entities": [
+            {
+              "name": "月之暗面",
+              "type": "企业"
+            },
+            {
+              "name": "Kimi",
+              "type": "产品"
+            },
+            {
+              "name": "Kimi K3.1 Pro",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4039469378163840",
+            "raw_ref": "reports/raw/2026-10-24-1530.json#candidates[3]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-24-1530/03_36kr.com_c35deb3e.html",
+            "sha256": "3d9359f8f7300b4209a693261d86c2c56535233617065f3b9e86200442920e0f",
+            "fetched_at": "2026-10-24T07:49:19.402Z"
+          }
+        },
+        {
+          "title": "K3.1 Pro 社区炸锅：比 K3 快、性能逼近 Opus，但额度 10 分钟烧光",
+          "meta": "36氪·2026-10-23 19:32",
+          "urls": [
+            "https://36kr.com/p/4039236862514306"
+          ],
+          "summary": "发布当晚社区实测反馈集中：速度与性能升级获认可，但额度消耗极快、「10 分钟烧光」成热梗——旗舰能力↑与单任务 token 成本↑的矛盾第一次在中国旗舰模型上被公开吐槽。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "与 GPT-6.1 Sol Ultrafast「烧额度」口碑（SIG-20261009-1500-3）完全同构：订阅制「额度焦虑」是全球旗舰的通用变现摩擦点，谁先给出用量治理方案谁拿口碑。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "旗舰 API 的成本假设要重算（详见本场信通院条），应用方选型需重跑压测。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+爱范儿实测同题",
+          "publish_time": "2026-10-23 19:32",
+          "event_time": "2026-10-23",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（爱范儿 2026-10-24 同题实测：国模继续卷旗舰; https://www.ifanr.com/1685684）",
+          "entities": [
+            {
+              "name": "月之暗面",
+              "type": "企业"
+            },
+            {
+              "name": "Kimi K3.1 Pro",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4039236862514306",
+            "raw_ref": "reports/raw/2026-10-24-1530.json#candidates[46]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-24-1530/04_36kr.com_4287e8b4.html",
+            "sha256": "0106c9b73f415e5546d63f803886d9262bc877d5e0b9e56cab300079f2a76ff9",
+            "fetched_at": "2026-10-24T07:49:19.797Z"
+          }
+        },
+        {
+          "title": "港科广发布 UI2App 基准：只给静态截图，考察模型推断隐含应用行为",
+          "meta": "新智元(搜狐)·2026-10-24 11:42",
+          "urls": [
+            "https://m.sohu.com/a/1092071717_473283"
+          ],
+          "summary": "UI2App 关注只给静态截图时，模型能否推断界面元素联动、一次操作会改变哪些数据，并把它实现成可交互应用——把「截图转应用」从视觉重建提升到行为推断的评测口径。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "GUI agent 评测位再+1；做截图/原型转应用的团队可直接拿它当卖点参照系。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-24 11:42",
+          "verify_note": "未见独立来源（外查 2026-10-24）",
+          "entities": [
+            {
+              "name": "香港科技大学(广州)",
+              "type": "机构"
+            },
+            {
+              "name": "UI2App",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1092071717_473283",
+            "raw_ref": "reports/raw/2026-10-24-1530.json#candidates[30]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-24-1530/05_m.sohu.com_5863e940.html",
+            "sha256": "13ddda10a75ce3102f344bb2d1c505cf24f2229827e95533961c38228e39ef14",
+            "fetched_at": "2026-10-24T07:49:20.076Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策监管",
+      "items": [
+        {
+          "title": "英国官宣 1 亿英镑 AI 生物安全实验室，OpenAI、Anthropic 参与并提供模型额度",
+          "meta": "36氪·2026-10-24 10:38",
+          "urls": [
+            "https://36kr.com/p/4039227569804420"
+          ],
+          "summary": "英国在约 8 亿美元 AI 安全资金包中列 1 亿英镑建 AI 生物安全实验室，检测未来大流行风险；凤凰网口径 OpenAI、Anthropic 参与合作并提供最高 2 亿英镑模型额度。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "政府 AI 安全资金池从 agent 安全（NVIDIA 英国 2.5 亿美元专项）扩到生物安全——模型商用「额度赞助」换政府准入与背书，政府生意成为新收入线。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "生物安全检测/评估工具链与合规咨询是直接采购窗口。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+Bloomberg",
+          "publish_time": "2026-10-24 10:38",
+          "event_time": "2026-10-22",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Bloomberg 2026-10-23 同步报道：UK Vows £100 Million for Biosecurity Lab With OpenAI, Anthropic; https://www.bloomberg.com/news/articles/2026-10-23/uk-vows-100-million-for-biosecurity-lab-with-openai-anthropic）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4039227569804420",
+            "raw_ref": "reports/raw/2026-10-24-1530.json#candidates[45]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-24-1530/06_36kr.com_f1d5e46e.html",
+            "sha256": "566def90cea2ec47728a25e7cf43b935e518fa80693a542c0719d39c13b3ead3",
+            "fetched_at": "2026-10-24T07:49:20.314Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业 / 玩法",
+      "items": [
+        {
+          "title": "亚马逊 CEO：AWS 云计算容量 2027 年底前基本售罄，2028 大部分已被预订",
+          "meta": "36氪·2026-10-24 10:21",
+          "urls": [
+            "https://36kr.com/p/4039224352461960"
+          ],
+          "summary": "Jassy 称 AI 需求下 AWS 容量 2027 年底前基本售罄、2028 年大部分已订，电力供给不足拖慢扩容部署节奏。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "行业从「先有产能再有客户」翻转成「客户排队等产能」——供给稀缺支撑涨价与长约，算力转售/电力接入成新的稀缺资产层。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+The Information",
+          "publish_time": "2026-10-24 10:21",
+          "event_time": "2026-10-23",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（The Information 2026-10-23 同步简报：AWS Largely Sold Out Of Capacity Into 2028, Jassy Says; https://www.theinformation.com/briefings/aws-sold-capacity-2028-jassy-says）",
+          "entities": [
+            {
+              "name": "亚马逊",
+              "type": "企业"
+            },
+            {
+              "name": "AWS",
+              "type": "产品"
+            },
+            {
+              "name": "Andy Jassy",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4039224352461960",
+            "raw_ref": "reports/raw/2026-10-24-1530.json#candidates[49]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-24-1530/07_36kr.com_3218c033.html",
+            "sha256": "373c7212e0211ce49c36c62abe2bbfa8abab46b41a721fd45b323cabbc16bbf7",
+            "fetched_at": "2026-10-24T07:49:20.539Z"
+          }
+        },
+        {
+          "title": "信通院报告：词元价格较 2025 下半年翻倍、日均消耗量增 3 倍",
+          "meta": "36氪·2026-10-24 14:25",
+          "urls": [
+            "https://36kr.com/p/4039392032117641"
+          ],
+          "summary": "信通院 AI 所联合 AIIA 发布大模型词元服务报告：词元价格较 2025 下半年翻倍回升、日均消耗量增长 3 倍；同日 9点1氪 汇总口径「国内大模型均价涨至 13 元」。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "中国大模型市场从价格战转入「量价齐升」通道——API 应用方成本模型要重写，Token 优化（缓存/小模型路由/批处理）重新变成刚需生意。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "单日 500 万亿词元级的吞吐增长说明推理供给仍在爬坡，价格回涨是供需再平衡信号而非单纯涨价。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+金融界/澎湃/新浪财经 GN 同题在档",
+          "publish_time": "2026-10-24 14:25",
+          "event_time": "2026-10-23",
+          "event_time_inferred": false,
+          "verify_note": "直链未寻得（外查 2026-10-24；GN 检索见金融界 2026-10-23 13:32「一天烧掉500万亿词元，价格还涨了近一倍」与澎湃/观点网/新浪财经同题）",
+          "entities": [
+            {
+              "name": "中国信通院",
+              "type": "机构"
+            },
+            {
+              "name": "AIIA",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4039392032117641",
+            "raw_ref": "reports/raw/2026-10-24-1530.json#candidates[8]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-24-1530/08_36kr.com_7b85a08b.html",
+            "sha256": "3f7e971b9a37622a7fc04c8281e8142e112f667ab092e588f5874ca38f81d9ab",
+            "fetched_at": "2026-10-24T07:49:20.940Z"
+          }
+        },
+        {
+          "title": "孙正义的保险丝快断了：软银 5 年期 CDS 432bp 创近四年新高",
+          "meta": "36氪·2026-10-24 13:30",
+          "urls": [
+            "https://36kr.com/p/4039315418829698"
+          ],
+          "summary": "646 亿美元押注 OpenAI 之下，软银 5 年期 CDS 升至 432bp（2022-11 以来最高），AI 融资压力显性化传导至大股东信用；虎嗅 10-24 称孙正义仍在加码 AI 投资。- 📌 跟踪回访 SIG-20261022-0900-1：AI 债恐慌「过虑论」的 PE 口径继续加码——Blackstone Jon Gray 称 CoreWeave「能找到出路」（10-22）、Blackstone 视利差走阔为收集机会（10-22），CNBC 同报 CoreWeave 债券收益率再飙升；「过虑 vs 定价」多空对峙延续（已核，check 顺延 10-28）",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "AI 债务链的「总保险丝」看大股东 CDS——软银-OpenAI-算力链信用联动一旦恶化，IPO 定价与私募轮估值口径都会被拉扯。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+Bloomberg",
+          "publish_time": "2026-10-24 13:30",
+          "event_time": "2026-10-19",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Bloomberg 2026-10-20 同步报道：SoftBank Credit Risk Hits 4-Year High on AI Funding Strain; https://www.bloomberg.com/news/articles/2026-10-20/softbank-group-credit-risk-hits-4-year-high-on-ai-funding-strain）",
+          "entities": [
+            {
+              "name": "软银",
+              "type": "企业"
+            },
+            {
+              "name": "孙正义",
+              "type": "人物"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4039315418829698",
+            "raw_ref": "reports/raw/2026-10-24-1530.json#candidates[18]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-24-1530/09_36kr.com_3acc1449.html",
+            "sha256": "2b77b5f58c632a21c7bb8c2b2fe969dff699c66d0f794a08415c6ae5783439f7",
+            "fetched_at": "2026-10-24T07:49:21.175Z"
+          }
+        },
+        {
+          "title": "36氪评论「AI 斩杀线」：王虹和韦东奕们也要被 AI 斩杀了吗",
+          "meta": "36氪·2026-10-24 09:50",
+          "urls": [
+            "https://36kr.com/p/4039179185837190"
+          ],
+          "summary": "评论稿以「AI 斩杀线」为标尺讨论 AI 能力曲线逼近顶尖数学/竞赛人才的临界时刻——「做题家」技能资产的护城河正被重新定价。- 📌 跟踪回访 SIG-20261022-0900-2：Duet 披露面扩大——研究预览面向 Pro/Max 订阅档（betanews 2026-10-23; https://betanews.com/article/proactive-ai-agent-claude-duet/），US 等候名单开启（techmymoney 10-23），6000+ 应用连接器口径多源在档（cryptobriefing 10-21; https://cryptobriefing.com/anthropic-unveils-claude-duet-ai-agent/）；定价页与「付款签约先问准」条款文本仍未出，Muse/Dots 付费结构披露缺位（已核，check 顺延 10-28）- 📌 跟踪回访 SIG-20261022-0900-3：php2shell 治理端落锤——PHP 官方提前发布 PHP2Shell 双漏洞应急补丁且披露前已有攻击在跑（BleepingComputer 2026-10-21; https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/），后续再披露第三 flaw（techaeris 10-23）；国内侧 360 安全云发布应急防护方案（飞象网 10-23）；php/php-src 今晨登上 GitHub Trending（raw 直验），抢修热度可见（已核，check 顺延 10-28）",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "教育与培训定价逻辑（竞赛辅导、学历信号）面临 AI 重估；「教 AI 做题」与「教人做 AI 干不了的事」是两条分化的赛道。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·观点稿",
+          "publish_time": "2026-10-24 09:50",
+          "verify_note": "未见独立来源（外查 2026-10-24）",
+          "entities": [
+            {
+              "name": "王虹",
+              "type": "人物"
+            },
+            {
+              "name": "韦东奕",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4039179185837190",
+            "raw_ref": "reports/raw/2026-10-24-1530.json#candidates[56]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-24-1530/10_36kr.com_1adf6950.html",
+            "sha256": "30e9284bffcc65fd50507db4d7018609afc906243695bd30252e3e4328defbe9",
+            "fetched_at": "2026-10-24T07:49:21.416Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "大模型词元价格回升周期",
+      "text": "（SIG-20261024-1530-1，check 2026-10-27）：盯信通院报告原文口径、国内厂商 API 调价页变动与「均价 13 元」口径扩散、企业侧成本反馈",
+      "sigId": "SIG-20261024-1530-1"
+    },
+    {
+      "lead": "K3.1 Pro 额度口碑与用量治理",
+      "text": "（SIG-20261024-1530-2，check 2026-10-27）：盯 Moonshot 官方额度说明/扩容/调价与社区复测，与 Sol Ultrafast「烧额度」口碑对照",
+      "sigId": "SIG-20261024-1530-2"
+    },
+    {
+      "lead": "agent 安全进入政府资金池",
+      "text": "英国官宣 1 亿英镑 AI 生物安全实验室、OpenAI/Anthropic 参与供额度——资金池从 agent 安全扩到生物安全（check 维持 10-28）",
+      "sigId": "SIG-20261014-1500-3"
+    },
+    {
+      "lead": "垂直后训练挑战通用榜单",
+      "text": "Utopai 跻身独角兽（The Information 10-22 口径，kr36 10-24 跟进），行业数据壁垒的融资故事获资本定价（check 维持 10-26）",
+      "sigId": "SIG-20261006-1500-3"
+    }
+  ],
+  "sourceStatus": [
+    "- 中国信通院（caict）：DOWN（HTTP 412 WAF 间歇反爬，连跌 2 期；已知问题，http 直连路径可自愈，下期观察）"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-24-1530.json",
+    "evidence_file": "reports/raw/2026-10-24-1530.evidence.json",
+    "snapshot_dir": "archives/2026-10-24-1530/",
+    "raw_candidates": 89,
+    "matched": 10
+  }
+}
