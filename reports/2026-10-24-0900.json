@@ -3,7 +3,7 @@
   "date": "2026-10-24",
   "time": "09:00",
   "title": "AI 情报 · 10-24 09:00 场",
-  "generatedAt": "2026-10-24T01:14:05.560Z",
+  "generatedAt": "2026-10-24T11:42:09.478Z",
   "coverage": "2026-10-23 21:00 → 2026-10-24 09:05（窗口口径）",
   "notes": [
     "昨 21:00 场已收五银行封禁 agent、MiniMax 破发复盘、Mirendil/物理 RSI 论文等线，本期不再重复"
@@ -53,7 +53,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 甲子光年+新浪财经",
-          "publish_time": "2026-10-23",
+          "publish_time": "2026-10-23 22:26",
           "event_time": "2026-10-22",
           "event_time_inferred": false,
           "verify_note": "外部检索（新浪财经 2026-10-23 同步报道：科大讯飞发布端云一体星火X2.6，敏感数据留端复杂任务上云; https://finance.sina.com.cn/stock/t/2026-10-23/doc-iniweuqq8106825.shtml）",
