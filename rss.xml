@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 24 Oct 2026 07:49:25 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 09:43:06 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-24 15:30 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-24-1530.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-24-1530.html</guid>
+      <pubDate>Sat, 24 Oct 2026 07:30:00 GMT</pubDate>
+      <description>信通院报告：词元价格较 2025 下半年翻倍、日耗增 3 倍——中国大模型市场进入「量价齐升」通道</description>
+    </item>
     <item>
       <title>AI 情报 · 10-24 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-24-0900.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-18-0900.html</guid>
       <pubDate>Sun, 18 Oct 2026 01:00:00 GMT</pubDate>
       <description>第三方 AI 工具平台 OpenCode 遭攻击，用户 GPT/Claude 余额一夜清空，官方急召轮换 Key。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-17 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-17-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-17-2100.html</guid>
-      <pubDate>Sat, 17 Oct 2026 13:00:00 GMT</pubDate>
-      <description>DeepSeek 官宣 V4.1-Flash-1017 全线上线：官方称端到端项目开发性能-成本「帕累托改进」，权重开放、价格不变，HF 官传数小时 525 like。</description>
     </item>
   </channel>
 </rss>

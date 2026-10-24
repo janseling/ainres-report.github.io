@@ -3,7 +3,7 @@
   "date": "2026-10-24",
   "time": "15:30",
   "title": "AI 情报 · 10-24 15:30 场",
-  "generatedAt": "2026-10-24T07:45:55.451Z",
+  "generatedAt": "2026-10-24T09:43:03.229Z",
   "coverage": "2026-10-24 09:00 → 15:36（窗口口径）",
   "notes": [
     "今晨 09:00 场已收 Kimi K3.1 Pro 上线、OpenAI 断实网训练、AAIF 标准捐赠、Token 上天猫双11 货架等线，本期只收增量"
@@ -218,8 +218,6 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+爱范儿实测同题",
           "publish_time": "2026-10-23 19:32",
-          "event_time": "2026-10-23",
-          "event_time_inferred": false,
           "verify_note": "外部检索（爱范儿 2026-10-24 同题实测：国模继续卷旗舰; https://www.ifanr.com/1685684）",
           "entities": [
             {
