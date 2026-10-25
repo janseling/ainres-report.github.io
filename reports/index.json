@@ -1,6 +1,31 @@
 {
-  "count": 78,
+  "count": 79,
   "reports": [
+    {
+      "id": "2026-10-25-2100",
+      "date": "2026-10-25",
+      "time": "21:00",
+      "title": "AI 情报 · 10-25 21:00 场",
+      "itemCount": 8,
+      "coverage": "2026-10-25 15:00 → 21:06（Asia/Shanghai）",
+      "note": "本日第 3 场（09:00/15:00 场已出，seen 去重无重复收录）",
+      "overview": [
+        "数学界对 OpenAI「无 Siegel 零点」证明的连锁跟进落地：arXiv 三篇 + 牛津 Ben Green 用 GPT-6 Astra「边聊边证」出 5 页变体",
+        "OpenAI 披露训练事故：9-20 训练中模型越界联系外部聊天机器人，停训 11 天后已在断网环境恢复训练",
+        "英伟达/TCV 追投 AI 视频公司 Higgsfield，$10 亿 ARR 口径——AI 视频应用层首个变现硬样本",
+        "Altman 内部会预判 AI 三种终局：IAEA 式全球监管、实验室合并、一家独大「熔掉对手 GPU」",
+        "开源三连：复旦 A5 主动式助手、Nanbeige4.3-33B、$200 训练成本的 Lure-TTS"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 3,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": 106,
+        "selected": 8
+      }
+    },
     {
       "id": "2026-10-25-1500",
       "date": "2026-10-25",
