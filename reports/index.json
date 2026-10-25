@@ -1,6 +1,32 @@
 {
-  "count": 76,
+  "count": 77,
   "reports": [
+    {
+      "id": "2026-10-25-0900",
+      "date": "2026-10-25",
+      "time": "09:00",
+      "title": "AI 情报 · 10-25 09:00 场",
+      "itemCount": 8,
+      "coverage": "2026-10-24 13:00 → 2026-10-25 09:05（Asia/Shanghai）",
+      "note": "周日晨场信源产出稀薄，窗口以 Reddit 噪声为主，从严筛选；Kimi K3.1 Pro 首发、英国 AI 生物安全实验室等昨期已收条目只录实质后续",
+      "overview": [
+        "Kimi K3.1 Pro 后续：开放权重定档 11-04，三家海外媒体同报其裁掉网络攻击训练数据以对齐出口管制",
+        "Anthropic 挂牌前两周双元老离职：Claude Code 桌面之父 Anthony Morris 与 Thariq Shihipar 官宣走人",
+        "哈佛匿名审稿实验刷屏：AI 审稿意见错误率约为人类编辑 1/3，与陶哲轩「严审 AI」口径正面相撞",
+        "选举研究：强制二选一时 Grok 力挺共和党、GPT 力挺民主党，近 500 场竞选 90% 以上分歧",
+        "Block 发布拟人度极高的语音模型，MacBook M4 Max 可完全本地运行"
+      ],
+      "sectionCounts": {
+        "product": 1,
+        "tech": 3,
+        "policy": 1,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 144,
+        "selected": 8
+      }
+    },
     {
       "id": "2026-10-24-2100",
       "date": "2026-10-24",

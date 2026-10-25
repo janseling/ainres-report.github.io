@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script defer src="/analytics.js?v=2"></script>
+<!-- SHARE-CARD:BEGIN publish_web.js 生成（会按期重生成，勿手改） -->
+<title>AI 情报 · 10-25 09:00 场</title>
+<meta name="description" content="Kimi K3.1 Pro 后续：开放权重定档 11-04，三家海外媒体同报其裁掉网络攻击训练数据以对齐出口管制；Anthropic 挂牌前两周双元老离职：Claude Code 桌面之父 Anthony Morris 与 Thariq Shihipar 官宣走人；哈佛匿名审稿实验刷屏：AI 审稿意见错误率约为人类编辑 1/3，与陶哲轩「严审 AI」口径正面相撞；选举研究：强制二选一时 Grok 力挺共和党、GPT 力挺民主党，近 500 场竞选 90% 以上分歧；Block 发布拟人度极高的语音模型，MacBook M4 Max 可完全本地运行">
+<meta property="og:title" content="AI 情报 · 10-25 09:00 场">
+<meta property="og:description" content="Kimi K3.1 Pro 后续：开放权重定档 11-04，三家海外媒体同报其裁掉网络攻击训练数据以对齐出口管制；Anthropic 挂牌前两周双元老离职：Claude Code 桌面之父 Anthony Morris 与 Thariq Shihipar 官宣走人；哈佛匿名审稿实验刷屏：AI 审稿意见错误率约为人类编辑 1/3，与陶哲轩「严审 AI」口径正面相撞；选举研究：强制二选一时 Grok 力挺共和党、GPT 力挺民主党，近 500 场竞选 90% 以上分歧；Block 发布拟人度极高的语音模型，MacBook M4 Max 可完全本地运行">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ainews.im-max.com/reports/2026-10-25-0900.html">
+<meta property="og:image" content="https://ainews.im-max.com/icon.png">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="600">
+<meta property="og:site_name" content="AI 情报日报">
+<meta property="og:locale" content="zh_CN">
+<!-- SHARE-CARD:END -->
+<link rel="icon" href="/favicon.ico">
+<link rel="alternate" type="application/rss+xml" title="AI 情报日报" href="/rss.xml">
+<style>
+:root{
+  --bg:#0c0d10; --panel:#15171e; --panel2:#191c24;
+  --line:#262a33; --line2:#31353f;
+  --ink:#d8d5c9; --ink2:#a5a294; --dim:#77746a;
+  --amber:#e8a33d; --amber2:#f5c069; --green:#8cc07a; --red:#d0684f;
+  --steel:#8fb3d9; --lav:#b8a8d4;
+  --mono:ui-monospace,"SF Mono","JetBrains Mono","Cascadia Code",Menlo,Consolas,monospace;
+  --sans:-apple-system,"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:
+    repeating-linear-gradient(0deg,transparent 0 2px,rgba(255,255,255,.008) 2px 4px),
+    radial-gradient(ellipse 120% 80% at 50% -10%,#13161e 0%,var(--bg) 58%);
+  color:var(--ink);font-family:var(--sans);min-height:100vh;font-size:14.5px;line-height:1.8;
+}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+a{color:var(--amber2);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+
+/* ==== top bar ==== */
+.topbar{position:sticky;top:0;z-index:20;background:rgba(12,13,16,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.topbar .in{max-width:1080px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;gap:12px}
+.tb-brand{font-family:var(--mono);font-size:12px;letter-spacing:.16em;color:var(--dim);white-space:nowrap}
+.tb-logo{width:18px;height:18px;border-radius:4px;display:inline-block;vertical-align:-3px;margin-right:6px}
+.totop{position:fixed;right:18px;bottom:22px;width:40px;height:40px;border-radius:50%;background:#16181d;border:1px solid var(--line2);color:var(--ink2);display:none;align-items:center;justify-content:center;z-index:60;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.4);opacity:.78}
+.totop:hover{opacity:1;color:var(--amber);border-color:rgba(232,163,61,.45)}
+.totop.on{display:flex}
+.totop svg{width:16px;height:16px}
+.tb-brand b{color:var(--amber);font-weight:600}
+.topbar .in{position:relative}
+.tb-nav{display:flex;gap:8px;font-family:var(--mono);font-size:12px}
+.tb-nav a{color:var(--ink2);border:1px solid var(--line2);border-radius:999px;padding:3px 10px}
+.tb-nav a:hover{color:var(--amber)}
+.tb-nav a.srch{color:var(--amber2);border-color:rgba(232,163,61,.55);background:rgba(232,163,61,.07)}
+.tb-nav a:disabled{color:#3d4048;pointer-events:none}
+.tb-mode{margin-left:8px;font-family:var(--mono);font-size:12px;color:var(--amber);cursor:pointer;white-space:nowrap;user-select:none}
+.tb-mode:hover{text-decoration:underline;text-underline-offset:3px}
+.item{scroll-margin-top:64px}
+
+/* ==== masthead ==== */
+.masthead{padding:18px 0 14px;position:relative}
+.crumb{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--dim);text-transform:uppercase;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.crumb .no{color:var(--amber)}
+.crumb.hline{align-items:baseline}
+.crumb.hline .title{margin:0;font-size:20px}
+.title{font-size:20px;font-weight:800;letter-spacing:.03em;margin:8px 0 2px;line-height:1.35}
+.cov{margin-top:10px;padding:5px 2px 5px 14px;border-left:3px solid var(--amber);background:none;color:var(--ink2);font-size:12.5px;line-height:1.7}
+
+/* ==== section nav ==== */
+.navchips{margin:14px 0 2px;display:flex;gap:7px;flex-wrap:wrap}
+.nchip{font-family:var(--mono);font-size:11.5px;color:var(--ink2);border:1px solid var(--line2);padding:4px 11px;border-radius:20px;text-decoration:none;transition:.2s}
+.nchip:hover{border-color:var(--amber);color:var(--amber);text-decoration:none}
+
+/* ==== sections & items ==== */
+section{margin-top:46px}
+.sec-h{display:flex;align-items:baseline;gap:12px;padding-bottom:8px;border-bottom:1px solid var(--line2);margin-bottom:4px;cursor:pointer;user-select:none}
+.sec-h .no{font-family:var(--mono);font-size:12px;color:var(--amber);letter-spacing:.1em}
+.sec-h h2{font-size:19px;font-weight:700;letter-spacing:.04em}
+.sec-h .n{font-family:var(--mono);font-size:11px;color:var(--dim);margin-left:auto}
+section.collapsed > :not(.sec-h){display:none}
+.sec-h::after{content:"▾";font-size:11px;color:var(--dim)}
+section.collapsed .sec-h::after{content:"▸"}
+.item{border-top:1px dashed var(--line);padding:16px 0 4px;margin:26px 0 10px;background:transparent;animation:up .45s cubic-bezier(.2,.7,.3,1) both;animation-delay:calc(var(--i,0)*.04s)}
+.item:first-of-type{border-top:none}
+.i-title{font-size:16px;font-weight:700;line-height:1.6}
+.i-title a{color:var(--ink)}
+.i-title a:hover{color:var(--amber2);text-decoration:none}
+.i-title .ext{font-size:12px;font-weight:700;color:var(--amber);margin-left:10px;font-family:var(--mono);border:1px solid rgba(232,163,61,.5);background:rgba(232,163,61,.08);padding:2px 10px;border-radius:12px;white-space:nowrap;vertical-align:2px}
+.i-title a.ext:hover{color:var(--amber);text-decoration:none}
+.i-meta{font-family:var(--mono);font-size:10.5px;color:var(--dim);margin-top:6px;letter-spacing:.03em}
+.i-summary{margin-top:12px;color:#d6dae1;font-size:13px;line-height:1.9}
+.i-summary .ent{color:var(--amber);text-decoration:none;border-bottom:1px solid rgba(232,163,61,.35)}
+.i-summary .ent:hover{border-bottom-color:rgba(232,163,61,.7)}
+.i-summary a{border-bottom:1px dotted var(--steel);color:var(--steel)}
+
+.angles{margin-top:0}
+.angle{border-left:2px solid var(--steel);padding:6px 0 2px 12px;margin-top:14px;border-radius:0;font-size:12.5px;line-height:1.85;color:var(--ink2)}
+.angle .tag{display:inline;color:var(--steel);font-family:var(--mono);font-size:10.5px;margin-right:6px;letter-spacing:.04em}
+.angle .txt{color:var(--ink2)}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.item{animation:none}}
+
+/* ==== v3 chips（类型/置信度/时间/实体） ==== */
+.i-v3{margin-top:9px;display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-family:var(--mono);font-size:10.5px;letter-spacing:.03em;padding:2.5px 8px;border-radius:3px;border:1px solid var(--line2);color:var(--ink2);display:inline-flex;align-items:center;gap:4px;line-height:1.5;white-space:nowrap}
+.chip i{font-style:normal;color:var(--dim)}
+.chip.t3{color:var(--amber2);border-color:rgba(232,163,61,.32);background:rgba(232,163,61,.06)}
+.chip.c3.hi{color:var(--green);border-color:rgba(140,192,122,.38)}
+.chip.c3.md{color:var(--amber2);border-color:rgba(232,163,61,.38)}
+.chip.c3.lo{color:var(--red);border-color:rgba(208,104,79,.42)}
+.chip.s3{color:var(--steel)}
+.chip.e3{color:var(--lav)}
+.i-verify{margin-top:10px;color:#7f9377;font-size:11.5px;font-family:var(--mono);line-height:1.85;overflow-wrap:anywhere}
+.i-verify a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+details.prov{margin-top:6px;font-family:var(--mono);font-size:10.5px;color:var(--dim)}
+details.prov summary{cursor:pointer;letter-spacing:.05em;user-select:none}
+details.prov summary:hover{color:var(--amber)}
+details.prov .prov-body{margin-top:5px;display:flex;flex-direction:column;gap:2px;line-height:1.7}
+details.prov .prov-body span{overflow-wrap:anywhere}
+
+
+/* ==== overview (速览) ==== */
+.ovlist{margin-top:12px}
+.ov-item{padding:6px 2px 6px 14px;margin:6px 0;color:var(--ink2);font-size:14px;line-height:1.72;border-left:3px solid var(--amber)}
+.ov-item.canjump{cursor:pointer}
+.ov-item.canjump:hover{color:var(--ink)}
+.jumptag{float:right;font-family:var(--mono);font-size:10.5px;color:var(--dim);opacity:.7;padding-left:12px}
+.sigtag{font-family:var(--mono);font-size:10.5px;color:var(--amber);border:1px solid rgba(232,163,61,.4);background:rgba(232,163,61,.07);padding:0 7px;border-radius:10px;margin-left:8px;white-space:nowrap;letter-spacing:.04em;vertical-align:1px}
+.siglink{color:var(--amber);text-decoration:none;border-bottom:1px solid rgba(232,163,61,.35)}
+.siglink:hover{border-bottom-color:rgba(232,163,61,.7)}
+.i-summary .siglink{color:var(--amber)}
+.ov-item[id^="sig-"]{scroll-margin-top:64px}
+
+/* ==== signals ==== */
+.signals{margin-top:14px}
+.sig{display:flex;gap:14px;padding:15px 2px;border-bottom:1px dashed var(--line)}
+.sig:last-child{border-bottom:none}
+.sig .sno{font-family:var(--mono);font-size:18px;color:var(--amber);flex:none;width:34px;font-weight:700;opacity:.9}
+.sig .body b{color:var(--ink);font-weight:700;display:block;margin-bottom:2px}
+.sig .body{color:var(--ink2);font-size:14px}
+
+.rawline{margin-top:14px;font-family:var(--mono);font-size:11px;color:#5a584f;letter-spacing:.04em}
+
+/* ==== pager ==== */
+.pager{margin:36px 0 10px;display:flex;gap:10px;justify-content:space-between;align-items:center}
+.pager a{display:block;padding:8px 10px;border:none;border-radius:0;font-family:var(--mono);font-size:12px;color:var(--ink2);transition:.2s}
+.pager a:hover{border-color:var(--amber);color:var(--amber);text-decoration:none}
+.pager a:disabled{color:#3d4048;border-color:var(--line);pointer-events:none}
+.pager .mid{font-family:var(--mono);font-size:11px;color:var(--dim)}
+
+.msg{padding:70px 0;text-align:center;color:var(--dim)}
+.msg h2{font-size:18px;color:var(--ink2);margin-bottom:10px}
+.foot{padding:20px 0 44px;border-top:1px solid var(--line);margin-top:40px;color:var(--dim);font-size:12px;font-family:var(--mono);display:flex;gap:14px;flex-wrap:wrap;justify-content:space-between}
+.foot a{color:var(--dim)}
+.nv{display:flex;flex-wrap:wrap;align-items:center;font-family:var(--mono);font-size:12px;margin-left:auto}
+.nv a{color:var(--ink2);text-decoration:none;white-space:nowrap;padding:6px 8px;border-radius:6px}
+.nv a:hover{color:var(--amber)}
+.nv a.srch{color:var(--amber2)}
+.nv-btn{display:none;margin-left:auto;background:none;border:1px solid var(--line2);border-radius:6px;color:var(--ink2);font-size:15px;line-height:1;padding:4px 10px;cursor:pointer}
+@media(max-width:720px){
+.nv-btn{display:block}
+.nv{display:none;position:absolute;top:40px;right:0;left:auto;z-index:90;flex-direction:column;align-items:stretch;background:var(--panel);border:1px solid var(--line2);border-radius:8px;padding:8px;box-shadow:0 10px 28px rgba(0,0,0,.45);margin-left:0;min-width:200px}
+.nv.open{display:flex}
+.nv a{padding:8px 12px}
+.nv a:hover{background:rgba(232,163,61,.06)}
+}
+.foot a:last-child,.sfoot a:last-child{margin-left:auto}
+.fw-star{cursor:pointer;font-size:14px;line-height:1;color:var(--dim,#77746a);background:none;border:0;flex:none;padding:0 3px;transition:color .15s,transform .1s;display:inline-block}
+.fw-star:hover{color:var(--amber,#e8a33d);transform:scale(1.18)}
+.fw-star.fw-on{color:var(--amber,#e8a33d)}
+.fw-toast{position:fixed;left:50%;bottom:84px;transform:translateX(-50%);background:var(--panel,#15171e);border:1px solid var(--line2,#31353f);color:var(--ink2,#a5a294);font:11.5px/1.5 var(--mono,monospace);padding:10px 14px;border-radius:8px;box-shadow:0 10px 28px rgba(0,0,0,.45);z-index:96;opacity:.97;transition:opacity .5s;white-space:nowrap}
+.fw-toast.fw-out{opacity:0}
+@media(max-width:720px){.foot a[href*="github"],.sfoot a[href*="github"]{display:none}}
+</style>
+</head>
+<body>
+<script>window.__PAGE_DATA__={"rep":{"id":"2026-10-25-0900","date":"2026-10-25","time":"09:00","title":"AI 情报 · 10-25 09:00 场","generatedAt":"2026-10-25T01:10:30.925Z","coverage":"2026-10-24 13:00 → 2026-10-25 09:05（Asia/Shanghai）","notes":["周日晨场信源产出稀薄，窗口以 Reddit 噪声为主，从严筛选；Kimi K3.1 Pro 首发、英国 AI 生物安全实验室等昨期已收条目只录实质后续"],"itemCount":8,"rawStats":{"candidates":144,"selected":8},"overview":["Kimi K3.1 Pro 后续：开放权重定档 11-04，三家海外媒体同报其裁掉网络攻击训练数据以对齐出口管制","Anthropic 挂牌前两周双元老离职：Claude Code 桌面之父 Anthony Morris 与 Thariq Shihipar 官宣走人","哈佛匿名审稿实验刷屏：AI 审稿意见错误率约为人类编辑 1/3，与陶哲轩「严审 AI」口径正面相撞","选举研究：强制二选一时 Grok 力挺共和党、GPT 力挺民主党，近 500 场竞选 90% 以上分歧","Block 发布拟人度极高的语音模型，MacBook M4 Max 可完全本地运行"],"sections":[{"key":"product","icon":"📦","title":"产品发布 / 融资","items":[{"title":"Block 新语音模型「以假乱真」，本地跑在 MacBook M4 Max 上","meta":"TechCrunch","urls":["https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human"],"summary":"Block 称语音模型拟真度「诡异」，语音能力无需云、MacBook M4 Max 本地即可跑，主打商家语音客服/语音 agent 场景。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"Block 手握数百万中小商家，本地语音模型把「电话接线/语音客服」成本压到消费级硬件水平，商户语音 agent 变现路径清晰。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"中小商家语音 IVR/外呼、本地语音栈 + 商家工作流是明确切口；语音 TCO 竞争从 token 计价转向硬件门槛。"},{"kind":"tech","icon":"⚡","label":"技术/可行性","text":"M4 Max 统一内存跑全双工语音栈已被验证，端侧语音模型蒸馏路线可行。"}],"source_tier":"B","type_tags":["产品发布"],"confidence":"中","confidence_note":"B单源·同步转载佐证","publish_time":"2026-10-25 00:00","event_time":"2026-10-24","event_time_inferred":false,"entities":[{"name":"Block","type":"企业"}],"verify_note":"外部检索（MSN 同步刊发 2026-10-24: https://www.msn.com/en-us/news/other/block-s-new-voice-model-sounds-eerily-human/ar-AA2fZGaQ ；AndroGuider 实测解读: https://www.androguider.com/2026/10/blocks-eerily-human-voice-ai-runs.html ）","provenance":{"url":"https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human","raw_ref":"reports/raw/2026-10-25-0900.json#candidates[86]","source_id":"techcrunch","source_name":"TechCrunch"},"snapshot":{"file":"archives/2026-10-25-0900/01_techcrunch.com_ed1379dd.html","sha256":"5bb05cc3d4b32b026eb3d03b1f1d18520b62d6fddb9f41e9d96dd2f8c11637eb","fetched_at":"2026-10-25T01:11:19.502Z"},"summaryHtml":"\u003ca class=\"ent\" href=\"../search.html?e=Block\" title=\"Block · 实体检索\">Block\u003c/a> 称语音模型拟真度「诡异」，语音能力无需云、MacBook M4 Max 本地即可跑，主打商家语音客服/语音 agent 场景。"}]},{"key":"tech","icon":"🔬","title":"技术突破 / 模型进展","items":[{"title":"Kimi K3.1 Pro 后续：开放权重档期落定 ＋「网络攻击训练数据移除」多源确认","meta":"后续","urls":["https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from"],"summary":"社区帖称 K3.1 Pro 开放权重移除网络攻击类训练数据，主因中国新增出口管制、次因网络攻击滥用担忧；XenoSpectrum 口径其独立指数列第 4。社区自报 Terminal-Bench v4 达 67%（未独立佐证，低置信）。","angles":[{"kind":"tech","icon":"⚡","label":"技术/可行性","text":"开放权重「合规裁剪」首次成为出海标配动作——权重交付条款与数据裁剪范围将进采购清单。"}],"source_tier":null,"type_tags":["技术进展"],"confidence":"高","confidence_note":"双源佐证 reddit+3 家媒体","publish_time":"2026-10-25 00:05","event_time":null,"event_time_inferred":false,"entities":[{"name":"Moonshot AI","type":"企业"},{"name":"Kimi K3.1 Pro","type":"产品"}],"verify_note":"外部检索（unite.ai 首发稿同报发布与开放权重档期: https://www.unite.ai/moonshot-ai-releases-kimi-k3-1-pro-first-model-in-new-k3-1-series/ ；Express Tribune 转载同报数据裁剪: https://ua.news/en/technologies/moonshot-obmezhila-kibermozhlivosti-modeli-kimi-k3-1-pro-the-express-tribune ；StratNews Global 同报: https://stratnewsglobal.com/technology/moonshot-kimi-model-hacking-capabilities-ai-cyberattacks/ ；XenoSpectrum 榜单口径: https://xenospectrum.com/en/kimi-k31-pro-benchmarks-cost/ ）","provenance":{"url":"https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from","raw_ref":"reports/raw/2026-10-25-0900.json#candidates[85]","source_id":"reddit","source_name":"Reddit"},"snapshot":{"file":"archives/2026-10-25-0900/02_www.reddit.com_134ef6cb.html","sha256":"8b96e51ee0fc304c67e2c20a9763f1153803c2915b16500fccdcbecd2afde153","fetched_at":"2026-10-25T01:11:55.672Z"},"summaryHtml":"社区帖称 K3.1 Pro 开放权重移除网络攻击类训练数据，主因中国新增出口管制、次因网络攻击滥用担忧；XenoSpectrum 口径其独立指数列第 4。社区自报 Terminal-Bench v4 达 67%（未独立佐证，低置信）。"},{"title":"哈佛匿名审稿实验：AI 审稿意见错误率约为人类编辑 1/3","meta":"","urls":["https://m.sohu.com/a/1092323757_473283"],"summary":"实验让 3 位前编辑只比对匿名审稿意见：一位编辑 10 组全部选 AI；不联网 Claude 对阵人类专家，人类审稿错误率反高约 3 倍。","angles":[{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"AI 初审/拒稿预筛/审稿质检是学术出版工具的真实付费点；「与陶哲轩严审 AI 呼吁对撞」的叙事给产品留出合规包装位。"}],"source_tier":null,"type_tags":["技术进展"],"confidence":"高","confidence_note":"B源·新浪/搜狐多号同报","publish_time":"2026-10-25 06:10","event_time":"2026-10-24","event_time_inferred":false,"entities":[{"name":"Harvard","type":"机构"},{"name":"Claude","type":"产品"}],"verify_note":"外部检索（新浪财经同报: https://finance.sina.cn/2026-10-25/detail-iniwkrxi3611600.d.html ；搜狐科技号同题稿: https://www.sohu.com/a/1092184507_122066679 ）","provenance":{"url":"https://m.sohu.com/a/1092323757_473283","raw_ref":"reports/raw/2026-10-25-0900.json#candidates[20]","source_id":"sohu-xzy","source_name":"新智元(搜狐同步)"},"snapshot":{"file":"archives/2026-10-25-0900/03_m.sohu.com_08c306ff.html","sha256":"64a79bbee2c92b9d6d0221ab280010853b94a18885cba5ae7f035e8ae4f25917","fetched_at":"2026-10-25T01:11:55.856Z"},"summaryHtml":"实验让 3 位前编辑只比对匿名审稿意见：一位编辑 10 组全部选 AI；不联网 \u003ca class=\"ent\" href=\"../search.html?e=Claude\" title=\"Claude · 实体检索\">Claude\u003c/a> 对阵人类专家，人类审稿错误率反高约 3 倍。"},{"title":"本地开源推理实测潮：ANE 192K 上下文、8GB 显卡 70 t/s","meta":"","urls":["https://www.reddit.com/r/LocalLLaMA/comments/1xejv61/m6_mac_mini_owners_32gb_now_you_can_run_qwen3827b"],"summary":"ANEMLL Forge 0.2.1 让 Qwen3.8-27B 在 M6 Mac mini 神经引擎上跑到 192K 上下文（INT8 K/V 缓存）；同期社区在 8GB GPU、RTX 5090 上对 Qwen-Flash-Next / DeepSeek V4.1 Flash 做本地实测。- 📌 跟踪回访 SIG-20261011-1500-2（已核实进展）：agnes-harness 采用度续起势——GitHub API 直验 AgnesAI-Labs/agnes-harness ★1,280/forks 49（10-23 时 1,169，两日 +111）、仍在 push https://github.com/AgnesAI-Labs/agnes-harness- 📌 跟踪回访 SIG-20261006-0900-2（已核实进展）：Beam 权重热度兑现续升——HF 直验 reflection/Beam-1.0-501B-A23B 下载 5,209/likes 254（10-22 时 3,555/208）https://huggingface.co/reflection/Beam-1.0-501B-A23B ；社区对照跑分仍缺- 📌 跟踪回访 SIG-20261016-2100-2（已核实进展）：Hy-Memory 采用面增长延续——HF 直验 tencent/Hy-Memory-30B-A3B 下载 3,923/likes 310（10-22 时 2,682/273）https://huggingface.co/tencent/Hy-Memory-30B-A3B ；微软「长记忆毒药」研究原文仍未见","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"「本地够用」实测潮延续=端侧推理工具链（量化/缓存优化/ drafting）仍处窗口期，插件化变现快于整体套件。"}],"source_tier":null,"type_tags":["技术进展"],"confidence":"低","confidence_note":"D源·社区自报，窗口多帖互证","publish_time":"2026-10-25 05:05","entities":[{"name":"ANEMLL","type":"产品"},{"name":"Qwen3.8-27B","type":"产品"}],"verify_note":"未见独立来源（外查 10-25）；窗口内 capy-flash v0.7.4（GitHub 直验 ★93、10-24 21:18 UTC push: https://github.com/ValerioDolci/capy-flash ）与 TensorSharp Day-1 支持帖互证（均为社区自报）","provenance":{"url":"https://www.reddit.com/r/LocalLLaMA/comments/1xejv61/m6_mac_mini_owners_32gb_now_you_can_run_qwen3827b","raw_ref":"reports/raw/2026-10-25-0900.json#candidates[26]","source_id":"reddit","source_name":"Reddit"},"snapshot":{"file":"archives/2026-10-25-0900/04_www.reddit.com_503f0a36.html","sha256":"19bbfe46f40ed0bf44c8f68ba7ffb33ccd645c9b1e8dad9abf312eb802d76670","fetched_at":"2026-10-25T01:12:32.462Z"},"summaryHtml":"\u003ca class=\"ent\" href=\"../search.html?e=ANEMLL\" title=\"ANEMLL · 实体检索\">ANEMLL\u003c/a> Forge 0.2.1 让 \u003ca class=\"ent\" href=\"../search.html?e=Qwen3.8-27B\" title=\"Qwen3.8-27B · 实体检索\">Qwen3.8-27B\u003c/a> 在 M6 Mac mini 神经引擎上跑到 192K 上下文（INT8 K/V 缓存）；同期社区在 8GB GPU、\u003ca class=\"ent\" href=\"../search.html?e=RTX%205090\" title=\"RTX 5090 · 实体检索\">RTX 5090\u003c/a> 上对 \u003ca class=\"ent\" href=\"../search.html?e=Qwen\" title=\"Qwen · 实体检索\">Qwen\u003c/a>-Flash-Next / \u003ca class=\"ent\" href=\"../search.html?e=DeepSeek\" title=\"DeepSeek · 实体检索\">DeepSeek\u003c/a> V4.1 Flash 做本地实测。- 📌 跟踪回访 SIG-20261011-1500-2（已核实进展）：agnes-harness 采用度续起势——\u003ca class=\"ent\" href=\"../search.html?e=GitHub\" title=\"GitHub · 实体检索\">GitHub\u003c/a> API 直验 \u003ca class=\"ent\" href=\"../search.html?e=AgnesAI-Labs\" title=\"AgnesAI-Labs · 实体检索\">AgnesAI-Labs\u003c/a>/agnes-harness ★1,280/forks 49（10-23 时 1,169，两日 +111）、仍在 push https://github.com/\u003ca class=\"ent\" href=\"../search.html?e=AgnesAI-Labs\" title=\"AgnesAI-Labs · 实体检索\">AgnesAI-Labs\u003c/a>/agnes-harness- 📌 跟踪回访 SIG-20261006-0900-2（已核实进展）：\u003ca class=\"ent\" href=\"../search.html?e=Beam\" title=\"Beam · 实体检索\">Beam\u003c/a> 权重热度兑现续升——HF 直验 reflection/\u003ca class=\"ent\" href=\"../search.html?e=Beam\" title=\"Beam · 实体检索\">Beam\u003c/a>-1.0-501B-A23B 下载 5,209/likes 254（10-22 时 3,555/208）https://huggingface.co/reflection/\u003ca class=\"ent\" href=\"../search.html?e=Beam\" title=\"Beam · 实体检索\">Beam\u003c/a>-1.0-501B-A23B ；社区对照跑分仍缺- 📌 跟踪回访 SIG-20261016-2100-2（已核实进展）：Hy-Memory 采用面增长延续——HF 直验 tencent/\u003ca class=\"ent\" href=\"../search.html?e=Hy-Memory-30B-A3B\" title=\"Hy-Memory-30B-A3B · 实体检索\">Hy-Memory-30B-A3B\u003c/a> 下载 3,923/likes 310（10-22 时 2,682/273）https://huggingface.co/tencent/\u003ca class=\"ent\" href=\"../search.html?e=Hy-Memory-30B-A3B\" title=\"Hy-Memory-30B-A3B · 实体检索\">Hy-Memory-30B-A3B\u003c/a> ；\u003ca class=\"ent\" href=\"../search.html?e=%E5%BE%AE%E8%BD%AF\" title=\"微软 · 实体检索\">微软\u003c/a>「长记忆毒药」研究原文仍未见"}]},{"key":"policy","icon":"🏛️","title":"政策监管","items":[{"title":"选举研究：被强制二选一，Grok 挺共和党、GPT 挺民主党","meta":"TechCrunch","urls":["https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats"],"summary":"新研究对约 500 场竞选做强制二选一：Grok 压倒性推荐共和党候选人，OpenAI GPT 偏向民主党，两模型 90% 以上结论相左。- 📌 跟踪回访 SIG-20261008-0900-4（已兑现一格）：麦当劳 AI 定价诉讼被告首次回应——10-22 麦当劳在联邦法院称诉讼「充斥失实陈述」（MSN/WTTW 口径）https://www.msn.com/en-us/money/general/mcdonald-s-accused-of-ai-fueled-price-fixing-in-federal-court-says-lawsuit-is-filled-with-inaccuracies/ar-AA2fNx5l ；算法定价反垄断进入正庭对垒阶段","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"11 月初中期选举在即，「政治倾向评测/中立法」将成为政企采购与合规生意；Anthropic 已发官方 midterms 准备文件（10-14）。"},{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"倾向校准/审计工具（红队报告、party-neutral 评测集）是可复用产品位，客户=平台方与竞选技术商。"}],"source_tier":"B","type_tags":["政策监管"],"confidence":"高","confidence_note":"双源佐证 TechCrunch+CryptoBriefing","publish_time":"2026-10-24 23:00","event_time":"2026-10-24","event_time_inferred":false,"entities":[{"name":"Grok","type":"产品"},{"name":"OpenAI","type":"企业"},{"name":"GPT","type":"产品"}],"verify_note":"外部检索（CryptoBriefing 独立同报: https://cryptobriefing.com/grok-republican-gpt-democratic-ai-bias-study/ ；Yahoo Tech 同步: https://tech.yahoo.com/ai/chatgpt/articles/forced-pick-grok-ai-model-150000104.html ）","provenance":{"url":"https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats","raw_ref":"reports/raw/2026-10-25-0900.json#candidates[91]","source_id":"techcrunch","source_name":"TechCrunch"},"snapshot":{"file":"archives/2026-10-25-0900/05_techcrunch.com_833d5d33.html","sha256":"72a41875b74571b4bf86d959978552a86885c0810b0d43cee4ce2741f651c660","fetched_at":"2026-10-25T01:12:33.219Z"},"summaryHtml":"新研究对约 500 场竞选做强制二选一：\u003ca class=\"ent\" href=\"../search.html?e=Grok\" title=\"Grok · 实体检索\">Grok\u003c/a> 压倒性推荐共和党候选人，\u003ca class=\"ent\" href=\"../search.html?e=OpenAI\" title=\"OpenAI · 实体检索\">OpenAI\u003c/a> \u003ca class=\"ent\" href=\"../search.html?e=GPT\" title=\"GPT · 实体检索\">GPT\u003c/a> 偏向\u003ca class=\"ent\" href=\"../search.html?e=%E6%B0%91%E4%B8%BB%E5%85%9A\" title=\"民主党 · 实体检索\">民主党\u003c/a>，两模型 90% 以上结论相左。- 📌 跟踪回访 SIG-20261008-0900-4（已兑现一格）：\u003ca class=\"ent\" href=\"../search.html?e=%E9%BA%A6%E5%BD%93%E5%8A%B3\" title=\"麦当劳 · 实体检索\">麦当劳\u003c/a> AI 定价诉讼被告首次回应——10-22 \u003ca class=\"ent\" href=\"../search.html?e=%E9%BA%A6%E5%BD%93%E5%8A%B3\" title=\"麦当劳 · 实体检索\">麦当劳\u003c/a>在联邦法院称诉讼「充斥失实陈述」（MSN/WTTW 口径）https://www.msn.com/en-us/money/general/mcdonald-s-accused-of-ai-fueled-price-fixing-in-federal-court-says-lawsuit-is-filled-with-inaccuracies/ar-AA2fNx5l ；算法定价反垄断进入正庭对垒阶段"}]},{"key":"industry","icon":"🌐","title":"行业·玩法","items":[{"title":"Anthropic 挂牌前两周双元老官宣离职","meta":"","urls":["https://m.sohu.com/a/1092323902_473283"],"summary":"Claude Code 桌面集成缔造者 Anthony Morris 与 Thariq Shihipar 同日宣布离开 Anthropic，时点距其 IPO 挂牌窗约两周——核心产品人 IPO 前退出是路演敏感信号。","angles":[{"kind":"invest","icon":"💰","label":"投资/商业","text":"IPO 前人事流失将放大做空与定价博弈口径（对照 9-29 做空报告与 10-15 Q3 营收 $168 亿线）。"}],"source_tier":null,"type_tags":["人事变动"],"confidence":"高","confidence_note":"双源佐证 新智元+OfficeChai","publish_time":"2026-10-25 06:10","event_time":"2026-10-24 19:03","event_time_inferred":false,"entities":[{"name":"Anthropic","type":"企业"},{"name":"Claude Code","type":"产品"},{"name":"Anthony Morris","type":"人物"},{"name":"Thariq Shihipar","type":"人物"}],"verify_note":"外部检索（OfficeChai 同报点名两人及 IPO 时间窗: https://officechai.com/ai/thariq-shihipar-anthony-morris-announce-theyre-leaving-anthropic-weeks-before-its-ipo/ ）","provenance":{"url":"https://m.sohu.com/a/1092323902_473283","raw_ref":"reports/raw/2026-10-25-0900.json#candidates[19]","source_id":"sohu-xzy","source_name":"新智元(搜狐同步)"},"snapshot":{"file":"archives/2026-10-25-0900/06_m.sohu.com_af68f5d4.html","sha256":"12094497110102ef732a4cc01ef8b97e404de6772ffe43214a3c8e1f913baec6","fetched_at":"2026-10-25T01:12:33.675Z"},"summaryHtml":"\u003ca class=\"ent\" href=\"../search.html?e=Claude%20Code\" title=\"Claude Code · 实体检索\">Claude Code\u003c/a> 桌面集成缔造者 \u003ca class=\"ent\" href=\"../search.html?e=Anthony%20Morris\" title=\"Anthony Morris · 实体检索\">Anthony Morris\u003c/a> 与 \u003ca class=\"ent\" href=\"../search.html?e=Thariq%20Shihipar\" title=\"Thariq Shihipar · 实体检索\">Thariq Shihipar\u003c/a> 同日宣布离开 \u003ca class=\"ent\" href=\"../search.html?e=Anthropic\" title=\"Anthropic · 实体检索\">Anthropic\u003c/a>，时点距其 IPO 挂牌窗约两周——核心产品人 IPO 前退出是路演敏感信号。"},{"title":"TechCrunch 维护「AI 坟场」滚动清单：失败项目全收录","meta":"后续·更新","urls":["https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it"],"summary":"9-15 起持续更新的失败项目名单：Apple 反复跳票的 Siri AI、OpenAI 混乱的超级 app 等——本期 RSS 刷新再入档。","angles":[{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"反向清单即选题库：被巨头做砸的场景（Siri 类助手、超级 app）正是独立产品的定位缝隙；避坑叙事可直接做内容产品。"}],"source_tier":null,"type_tags":["其他"],"confidence":"中","confidence_note":"B单源·自家清单","publish_time":"2026-10-25 03:00","entities":[{"name":"Apple","type":"企业"},{"name":"OpenAI","type":"企业"}],"verify_note":"未见独立来源（外查 10-25，TC 自家滚动专题性质）","provenance":{"url":"https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it","raw_ref":"reports/raw/2026-10-25-0900.json#candidates[55]","source_id":"techcrunch","source_name":"TechCrunch"},"snapshot":{"file":"archives/2026-10-25-0900/07_techcrunch.com_988202d2.html","sha256":"382d22be0d728e213abf88026b47567686a18f643ff368b4e963f4bbada39b72","fetched_at":"2026-10-25T01:12:34.412Z"},"summaryHtml":"9-15 起持续更新的失败项目名单：\u003ca class=\"ent\" href=\"../search.html?e=Apple\" title=\"Apple · 实体检索\">Apple\u003c/a> 反复跳票的 \u003ca class=\"ent\" href=\"../search.html?e=Siri\" title=\"Siri · 实体检索\">Siri\u003c/a> AI、\u003ca class=\"ent\" href=\"../search.html?e=OpenAI\" title=\"OpenAI · 实体检索\">OpenAI\u003c/a> 混乱的超级 app 等——本期 RSS 刷新再入档。"},{"title":"盘点：能住进短信里的一线 AI agents","meta":"","urls":["https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages"],"summary":"TC 盘点可驻留短信/iMessage 的通用与垂直（家庭/旅行/工作）agent——入口继续向「零安装、会话即应用」迁移。- 📌 跟踪回访 SIG-20261017-2100-3（已兑现一格）：禾赛 Kosmo 合作深化——奥斯卡级渲染器首次牵手国产空间相机、把真实世界「搬」进皮克斯（新浪 10-24 收录）https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwhtfy2247537.shtml ；B 端商业化与 C 端发售节点待续核- 📌 跟踪回访 SIG-20261010-2100-3（已核实进展）：REA 逆向工具 GitHub API 直验 morluto/rea ★378,832（10-22 时 357,885，两日半 +20,947）、10-25 01:08 UTC 仍在 push https://github.com/morluto/rea ；平台仍无下架/风控反应","angles":[{"kind":"startup","icon":"🛠️","label":"产品/创业","text":"短信/iMessage/WhatsApp 即入口：分发成本低、留存靠号码，是新 agent 冷启动的最低通道；国内对标是小程序级 agent。"}],"source_tier":null,"type_tags":["其他"],"confidence":"中","confidence_note":"B单源·同步转载佐证","publish_time":"2026-10-24 22:00","entities":[{"name":"Manus","type":"产品"},{"name":"Muse","type":"产品"}],"verify_note":"外部检索（MSN 同步刊发: https://www.msn.com/en-us/news/other/here-are-the-top-ai-agents-that-can-live-in-your-text-messages/ar-AA2duEJg ）","provenance":{"url":"https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages","raw_ref":"reports/raw/2026-10-25-0900.json#candidates[104]","source_id":"techcrunch","source_name":"TechCrunch"},"snapshot":{"file":"archives/2026-10-25-0900/08_techcrunch.com_f75803ca.html","sha256":"0eb6a4057d7d6b3dee226fa0ab8ee8da27fdfb730a1fe11cfbbd662da742f20b","fetched_at":"2026-10-25T01:12:35.705Z"},"summaryHtml":"TC 盘点可驻留短信/iMessage 的通用与垂直（家庭/旅行/工作）agent——入口继续向「零安装、会话即应用」迁移。- 📌 跟踪回访 SIG-20261017-2100-3（已兑现一格）：\u003ca class=\"ent\" href=\"../search.html?e=%E7%A6%BE%E8%B5%9B\" title=\"禾赛 · 实体检索\">禾赛\u003c/a> \u003ca class=\"ent\" href=\"../search.html?e=Kosmo\" title=\"Kosmo · 实体检索\">Kosmo\u003c/a> 合作深化——奥斯卡级渲染器首次牵手国产空间相机、把真实世界「搬」进皮克斯（新浪 10-24 收录）https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwhtfy2247537.shtml ；B 端商业化与 C 端发售节点待续核- 📌 跟踪回访 SIG-20261010-2100-3（已核实进展）：\u003ca class=\"ent\" href=\"../search.html?e=REA\" title=\"REA · 实体检索\">REA\u003c/a> 逆向工具 \u003ca class=\"ent\" href=\"../search.html?e=GitHub\" title=\"GitHub · 实体检索\">GitHub\u003c/a> API 直验 morluto/\u003ca class=\"ent\" href=\"../search.html?e=rea\" title=\"rea · 实体检索\">rea\u003c/a> ★378,832（10-22 时 357,885，两日半 +20,947）、10-25 01:08 UTC 仍在 push https://github.com/morluto/\u003ca class=\"ent\" href=\"../search.html?e=rea\" title=\"rea · 实体检索\">rea\u003c/a> ；平台仍无下架/风控反应"}]}],"signals":[{"lead":"Kimi 开放权重「合规裁剪」先例","text":"（SIG-20261025-0900-1，check 2026-11-07）：盯 DeepSeek/Qwen/GLM 开放权重是否跟进裁剪网络攻击类数据，权重交付许可条款是否随之改写——出口管制（SIG-20261017-0900-1）与开源出海的交叉点","sigId":"SIG-20261025-0900-1"},{"lead":"美中期选举周的 AI 政治倾向评测与平台护栏","text":"（SIG-20261025-0900-2，check 2026-11-01）：Grok/GPT 倾向研究之后，盯 11-03 选举日前后各平台选举护栏公告与新倾向研究/复现","sigId":"SIG-20261025-0900-2"},{"lead":"AI 同行评审进入出版决策链","text":"（SIG-20261025-0900-3，check 2026-11-08）：哈佛实验后，盯期刊/顶会（NeurIPS/ICML 类）AI 初审政策公告与学界反弹","sigId":"SIG-20261025-0900-3"},{"lead":"Anthropic IPO 挂牌窗口","text":"双元老 IPO 前官宣离职坐实「上市前人事流失」叙事，11 月挂牌节点临近，盯路演定价与做空口径变化","sigId":"SIG-20261006-2100-1"}],"sourceStatus":["- caict 中国信通院：DOWN（HTTP 412，consecutive_down=4）——连续失败已超 3 期，建议停用或换镜像。","- 本轮单次超时（未形成连败）：geekpark/theverge/HN 网络超时；HN 未走成 Algolia 兜底，建议下轮复查。"],"provenance_meta":{"raw_file":"reports/raw/2026-10-25-0900.json","evidence_file":"reports/raw/2026-10-25-0900.evidence.json","snapshot_dir":"archives/2026-10-25-0900/","raw_candidates":137,"matched":8}},"ctx":{"no":"77","older":{"id":"2026-10-24-2100","date":"2026-10-24","time":"21:00"},"newer":null}}</script>
+
+<div class="topbar"><div class="in">
+  <a class="tb-brand" href="/" style="text-decoration:none"><img class="tb-logo" src="/icon.png" alt="">AI<b>情报</b>DB</a>
+  <nav class="tb-nav">
+    <a href="javascript:void 0" id="tbPrev">‹ 上一期</a>
+    <a href="javascript:void 0" id="tbNext">下一期 ›</a>
+  </nav>
+  <nav class="nv" id="nv">
+    <a href="/">首页</a><a href="/api.html">API 字段说明</a><a href="/rss.xml" target="_blank" rel="noopener">RSS 订阅 ↗</a><a href="/about.html">关于</a><a class="srch" href="/search.html">🔍 站内检索</a>
+  </nav>
+  <button class="nv-btn" id="nvBtn" aria-label="菜单">☰</button>
+  <span class="tb-mode" id="tbMode" title="速读：证据链全收起；深度：证据链全部展开" style="display:none">🔍 速读</span>
+</div></div>
+
+<div class="wrap" id="wrap">
+  <div class="msg"><span id="loadmsg">正在加载期报…</span></div>
+</div>
+
+<footer class="wrap foot">
+  <a href="/">首页</a><a href="/api.html">API 字段说明</a><a href="/rss.xml" target="_blank" rel="noopener">RSS 订阅 ↗</a><a href="/about.html">关于</a><a href="/search.html">🔍 站内检索</a><a href="https://github.com/janseling" target="_blank" rel="noopener">github/janseling</a>
+</footer>
+<button class="totop" id="toTop" title="返回顶部" aria-label="返回顶部"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 9.5 8 4.5l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 5v6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+
+<script>
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const mdLinks = s => esc(s).replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_m,t,u)=>`<a href="${u}" target="_blank" rel="noopener">${t}</a>`);
+const SIGRE = /SIG-(\d{4})(\d{2})(\d{2})-(\d{4})-(\d+)/g;
+const SIGONE = /SIG-\d{8}-\d{4}-\d+/;
+const SIGTAKEN = Object.create(null);
+const sigLink = txt => txt.replace(SIGRE, (_m,y,mo,dd,tm,n)=>{
+    const slug = 'sig-'+y+mo+dd+'-'+tm+'-'+n;
+    const refid = SIGTAKEN[slug] ? '' : ` id="refsig-${y}${mo}${dd}-${tm}-${n}"`;
+    SIGTAKEN[slug] = 1;
+    return `<a class="siglink"${refid} href="../topic/${slug}.html" title="信号专题 · 事件时间线">${_m}</a>`;
+  });
+const URL_RE = /https?:\/\/[^\s，。；、）)<>"]+/g;
+const hostOf = u => { try { return new URL(u).hostname.replace('www.',''); } catch(e) { return '链接'; } };
+const domPill = u => `<a class="dp" href="${esc(u)}" title="${esc(u)}" target="_blank" rel="noopener">${esc(hostOf(u))} ↗</a>`;
+/* 佐证行：单一链接 → 挂到佐证描述文字上（原型口径「华尔街见闻 10-10 04:08 同报 ↗」）；无链接 → 纯文本；多链接 → 域名胶囊兜底 */
+/* 无协议链接补 https://（10-12 起 composer 佐证偶以裸域名给出；渲染端统一归一化） */
+const SLINK_RE = /(^|[^\w/@.:-])((?:[a-z0-9-]+\.)+[a-z0-9]{2,10}\/[^\s，。；、）)<>",]*)/g;
+const fixSchemeless = s => String(s).replace(SLINK_RE, (m, lead, rest) => lead + 'https://' + rest);
+function verifyFmt(note){
+  const s = fixSchemeless(note);
+  const urls = s.match(URL_RE) || [];
+  if (!urls.length) return esc(s);
+  if (urls.length > 1) return esc(s).replace(URL_RE, um => domPill(um));
+  const u = urls[0], i = s.indexOf(u);
+  let head = s.slice(0, i);
+  head = head.trimEnd();
+  if (head.endsWith(';') || head.endsWith('；')) head = head.slice(0, -1).trimEnd();
+  const op = head.indexOf('（');
+  let prefix = '', txt = head;
+  if (op >= 0){ prefix = head.slice(0, op + 1); txt = head.slice(op + 1); }
+  if (!txt.trim()) txt = hostOf(u);
+  return esc(prefix) + `<a class="dp" href="${esc(u)}" title="${esc(u)}" target="_blank" rel="noopener">${esc(txt)} ↗</a>` + esc(s.slice(i + u.length));
+}
+
+const SEC_META = {
+  product:{icon:'📦', zh:'产品发布 / 融资'}, tech:{icon:'🔬', zh:'技术突破 / 模型进展'},
+  policy:{icon:'🏛️', zh:'政策监管'}, industry:{icon:'🌐', zh:'行业动向 / 应用玩法'},
+};
+// 信源分级直白化展示（数据仍存 A/B/C/D 字母码，sources.json tier）；悬停 title 给完整口径
+const TIER_ZH = { A:'官方源', B:'主流媒体源', C:'聚合源', D:'社区源' };
+const TIER_TIP = {
+  A:'官方一手信息（公司博客 / 官方公告 / arXiv 论文）',
+  B:'主流科技与 AI 垂直媒体（TechCrunch / 量子位 等）',
+  C:'聚合榜单（Hacker News / GitHub Trending / Product Hunt）',
+  D:'社区讨论（Reddit 等，未经证实比例较高）',
+};
+const params = new URLSearchParams(location.search);
+const wantId = params.get('id') || (location.hash ? location.hash.slice(1) : '');
+// 站内链接：静态期报页（reports/<id>.html）直跳同目录文件；SPA 模式走 ?id=
+const repUrl = id => (window.__PAGE_DATA__ ? id + '.html' : 'report.html?id=' + id);
+const MODE_KEY = 'aid-mode';
+function modeSet(){
+  const bm = document.getElementById('tbMode'); if(!bm) return;
+  const deep = localStorage.getItem(MODE_KEY) === 'deep';
+  bm.textContent = deep ? '📖 深度' : '🔍 速读';
+  document.querySelectorAll('details.prov').forEach(d => d.open = deep);
+}
+document.getElementById('tbMode').addEventListener('click', () => {
+  const deep = localStorage.getItem(MODE_KEY) === 'deep';
+  localStorage.setItem(MODE_KEY, deep ? 'fast' : 'deep'); modeSet();
+});
+
+async function init(){
+  const P = window.__PAGE_DATA__;   // publish_web.js 生成的静态期报页内联数据，免 fetch 直渲
+  if(P && P.rep){
+    render(P.rep, null, 0, P.ctx);
+    document.querySelectorAll('[href="./"]').forEach(a => a.setAttribute('href','../'));
+    return;
+  }
+  let manifest;
+  try{
+    const r = await fetch('reports/index.json?v=' + Date.now());
+    if(!r.ok) throw new Error('manifest ' + r.status);
+    manifest = await r.json();
+  }catch(e){
+    document.getElementById('loadmsg').innerHTML = '⚠️ 索引加载失败（' + esc(e.message) + '）<br><br><a href="/">返回首页</a>';
+    return;
+  }
+  const rs = manifest.reports || [];
+  if(!rs.length){ document.getElementById('loadmsg').textContent = '归档为空'; return; }
+  let idx = rs.findIndex(x => x.id === wantId);
+  if(idx < 0) idx = 0;
+  const meta = rs[idx];
+  let rep;
+  try{
+    const r = await fetch('reports/' + meta.id + '.json?v=' + Date.now());
+    if(!r.ok) throw new Error(r.status);
+    rep = await r.json();
+  }catch(e){
+    document.getElementById('loadmsg').innerHTML = '⚠️ 报告数据加载失败（' + esc(e.message) + '）<br><br><a href="/">返回首页</a>';
+    return;
+  }
+  render(rep, rs, idx);
+}
+
+function render(rep, rs, idx, ctx){
+  if(!window.__PAGE_DATA__) document.title = rep.title + ' · AI 情报';
+  const no = ctx ? ctx.no : String(rs.length - idx).padStart(2,'0');
+  const newer = ctx ? ctx.newer : rs[idx-1];
+  const older = ctx ? ctx.older : rs[idx+1];
+  const setPager = (id, el) => { const a = document.getElementById(el); if(id){ a.href = repUrl(id); } else { a.disabled = true; a.removeAttribute('href'); } };
+  setPager(newer && newer.id, 'tbNext'); setPager(older && older.id, 'tbPrev');
+
+
+  const secsHtml = (rep.sections||[]).map((sec, si)=>{
+    const sm = SEC_META[sec.key] || {icon:sec.icon||'📋', zh:sec.title||sec.key};
+    const items = sec.items.map((it, ii)=>{
+      const main = it.urls && it.urls[0];
+      const angles = (it.angles||[]).map(a=>`<div class="angle ${a.kind}"><span class="tag">${a.icon} ${esc(a.label)}</span><span class="txt">${sigLink(mdLinks(a.text))}</span></div>`).join('');
+      const C3 = { '高':'hi', '中':'md', '低':'lo' };
+      const v3chips = [];
+      if (it.confidence) v3chips.push(`<span class="chip c3 ${C3[it.confidence]||''}">● ${esc(it.confidence)}${it.confidence_note?` · ${esc(it.confidence_note)}`:''}</span>`);
+      if (it.source_tier){ const tz = TIER_ZH[it.source_tier] || (it.source_tier + '级源');
+        v3chips.push(`<span class="chip s3"${TIER_TIP[it.source_tier]?` title="${esc(TIER_TIP[it.source_tier])}"`:''}>${esc(tz)}</span>`); }
+      (it.type_tags||[]).forEach(t=>v3chips.push(`<span class="chip t3">${esc(t)}</span>`));
+      if (it.snapshot) v3chips.push(`<span class="chip x3" title="${esc(it.snapshot.file)}">快照 ✓</span>`);
+      if ((it.entities||[]).length) v3chips.push(`<span class="chip e3">实体: ${esc(it.entities.map(e=>e.name).join(' / '))}</span>`);
+      const v3html = v3chips.length?`<div class="i-v3">${v3chips.join('')}</div>`:'';
+      const provBits = [];
+      const pv = it.provenance || {};
+      if (pv.raw_ref || pv.source_id) provBits.push(`<span>溯源 ${esc(pv.raw_ref || '—')}${pv.source_name?` · 源 ${esc(pv.source_name)}`:''}</span>`);
+      if (it.snapshot) provBits.push(`<span>原文快照 ✓ ${esc(it.snapshot.file)} · sha256 ${(it.snapshot.sha256||'').slice(0,8)}</span>`);
+      if (it.original_title) provBits.push(`<span>原题：${esc(it.original_title)}</span>`);
+      const provHtml = provBits.length?`<details class="prov"><summary>证据链 ▾</summary><div class="prov-body">${provBits.join('')}</div></details>`:'';
+      const verParts = [];
+      if (it.verify_note) verParts.push(verifyFmt(it.verify_note));
+      (it.urls||[]).slice(1).forEach(u=>verParts.push(domPill(u)));
+      const verHtml = verParts.length?`<div class="i-verify">✓ 外部佐证：${verParts.join(' · ')}</div>`:'';
+
+      return `<article class="item" id="it-${esc(sec.key)}-${ii}" style="--i:${ii}">
+        <h3 class="i-title">${main?`<a href="${esc(main)}" target="_blank" rel="noopener">${esc(it.title)}</a><a class="ext" href="${esc(main)}" target="_blank" rel="noopener">原文 ↗</a>`:esc(it.title)}</h3>
+        ${it.meta?`<div class="i-meta">${esc(it.meta)}${it.event_time?` ｜ ${it.event_time_inferred?'~ ':''}事件 ${esc(it.event_time)}${it.event_time_inferred?'（推断）':''}`:''}</div>`:''}
+        ${v3html}
+        ${it.summary?`<div class="i-summary">${sigLink(it.summaryHtml || mdLinks(it.summary))}</div>`:''}
+        ${angles?`<div class="angles">${angles}</div>`:''}
+        ${verHtml}${provHtml}
+      </article>`;
+    }).join('');
+    return `<section id="sec-${esc(sec.key)}">
+      <div class="sec-h"><span class="no">0${si+1}</span><h2>${sm.icon} ${esc(sm.zh)}</h2><span class="n">${sec.items.length} 条</span></div>
+      ${items}
+    </section>`;
+  }).join('');
+
+  const navChips = (rep.sections||[]).map(s=>{
+      const sm = SEC_META[s.key]||{icon:s.icon||'📋',zh:s.title};
+      return `<a class="nchip" href="#sec-${esc(s.key)}">${sm.icon} ${esc((sm.zh||'').split(' / ')[0])} ${s.items.length}</a>`;
+    }).join('');
+
+  const grams2 = s => { s = String(s).toLowerCase().replace(/\s+/g,''); const a=[]; for(let i=0;i<=s.length-2;i++)a.push(s.slice(i,i+2)); return a; };
+  const anchorOf = ovText => {
+    const ovn = String(ovText).toLowerCase().replace(/\s+/g,'');
+    if(!ovn || !ovn.length || !(rep.sections||[]).length) return null;
+    let best=null, bestScore=0;
+    (rep.sections||[]).forEach(sec=>(sec.items||[]).forEach((it,ii)=>{
+      const tg=grams2(it.title||''); if(tg.length<4) return;
+      let hits=0; tg.forEach(g=>{ if(ovn.includes(g)) hits++; });
+      const sc=hits/tg.length;
+      if(sc>bestScore){bestScore=sc;best=sec.key+'-'+ii;}
+    }));
+    return bestScore>=0.4?best:null;
+  };
+    /* 速览与跟踪信号合并：分句 2-gram 双向相似度 ≥0.38 去重；锚定=标题@0.4 优先，标记/追加行用 标题+原题+摘要 分句兜底 @0.3 */
+  const normT = s => grams2(s).join('');
+  const CLAUSE_RE = new RegExp('[；;。]');
+  const SIG_TH = 0.38;
+  const rowsClauses = t => String(t).split(CLAUSE_RE).map(c=>c.trim()).filter(c=>c).map(c=>({ n:normT(c), g:grams2(c) }));
+  const itemIdx = [];
+  (rep.sections||[]).forEach(sec=>(sec.items||[]).forEach((it,ii)=>{
+    const hay = (it.title||'') + '；' + (it.original_title||'') + '；' + (it.summary||'');
+    itemIdx.push({ id: sec.key + '-' + ii, cl: rowsClauses(hay) });
+  }));
+  const bestItem = text => {
+    const tcs = rowsClauses(text);
+    let best = null, bs = 0;
+    itemIdx.forEach(rec=>{
+      let m = 0;
+      tcs.forEach(tc=>{
+        if(!tc.n) return;
+        rec.cl.forEach(ic=>{
+          if(!ic.n) return;
+          let h1 = 0; tc.g.forEach(g=>{ if(ic.n.indexOf(g) >= 0) h1++; });
+          let h2 = 0; ic.g.forEach(g=>{ if(tc.n.indexOf(g) >= 0) h2++; });
+          m = Math.max(m, Math.max(tc.g.length? h1/tc.g.length : 0, ic.g.length? h2/ic.g.length : 0));
+        });
+      });
+      if(m > bs){ bs = m; best = rec.id; }
+    });
+    return best ? { id: best, sc: bs } : null;
+  };
+  const ovRows = (rep.overview||[]).map(o=>({ text:o, sig:false, anc:null, aScore:0 }));
+  const ovClauses = ovRows.map(r=>rowsClauses(r.text));
+  (rep.signals||[]).forEach((s,si)=>{
+    const blob = (s.lead||'') + '，' + (s.text||'');
+    const bn = normT(blob), sb = grams2(blob);
+    let bi = -1, bs = 0;
+    ovRows.forEach((r,ri)=>{
+      ovClauses[ri].forEach(cl=>{
+        if(!cl.n) return;
+        let h1 = 0; sb.forEach(g=>{ if(cl.n.indexOf(g) >= 0) h1++; });
+        let h2 = 0; cl.g.forEach(g=>{ if(bn.indexOf(g) >= 0) h2++; });
+        const sc = Math.max(sb.length? h1/sb.length : 0, cl.g.length? h2/cl.g.length : 0);
+        if(sc > bs){ bs = sc; bi = ri; }
+      });
+    });
+    if(bi >= 0 && bs >= SIG_TH){
+      ovRows[bi].sig = true; if(!ovRows[bi].sigSeq){ ovRows[bi].sigSeq = si+1; ovRows[bi].sigId = s.sigId; } ovRows[bi].sigLead = s.lead || ''; ovRows[bi].sigText = s.text || '';
+      if(ovRows[bi].aScore < 0.3){
+        const b = bestItem(blob);
+        if(b && b.sc > ovRows[bi].aScore){ ovRows[bi].anc = b.id; ovRows[bi].aScore = b.sc; }
+      }
+    } else {
+      const t = (s.lead? s.lead + '：' : '') + (s.text||'');
+      const b = bestItem(t);
+      const anc = (b && b.sc >= 0.3) ? b.id : null;
+      const asc = (b && b.sc >= 0.3) ? b.sc : 0;
+      ovRows.push({ text:t, sig:true, sigSeq:si+1, sigId:s.sigId, sigLead:s.lead || '', sigText:s.text || '', anc:anc, aScore:asc });
+      ovClauses.push(rowsClauses(t));
+    }
+  });
+  const ovHtml = ovRows.map(r=>{
+    const a = anchorOf(r.text) || r.anc || null;
+  const ownStamp = String(rep.id).replace(/^(\d{4})-(\d{2})-(\d{2})-(\d{4})$/, '$1$2$3-$4');
+  const preTaken = {};
+  (rep.signals||[]).forEach(s=>{ if(s.sigId) preTaken['sig-' + String(s.sigId).replace('SIG-','')] = 1; });
+    const sid = r.sigId ? 'sig-' + String(r.sigId).replace('SIG-','') : (r.sig && r.sigSeq && !preTaken['sig-' + ownStamp + '-' + r.sigSeq] ? 'sig-' + ownStamp + '-' + r.sigSeq : null);
+    const cr = (!a && r.sig && older && older.id) ? older.id : null;
+    const ct = cr ? (r.text||'') + '；' + (r.sigLead||'') + '；' + (r.sigText||'') : '';
+    const mark = r.sig?`<span class="sigtag" title="${esc('值得跟踪：'+(r.sigLead||'跟踪信号'))}">🧭 跟踪</span>`:'';
+    return `<div class="ov-item${(a||cr)?' canjump':''}"${sid?` id="${sid}"`:''}${a?` data-jump="it-${esc(a)}"`:''}${cr?` data-cross="${esc(cr)}" data-crosstext="${esc(ct)}"`:''}>${sigLink(mdLinks(r.text))}${mark}${r.sigId?`<span class="fw-star" data-fw="${esc(r.sigId)}" data-name="${esc(r.sigLead||'')}">☆</span>`:''}${a?'<span class="jumptag">条目 ↳</span>':(cr?'<span class="jumptag">上期 ↳</span>':'')}</div>`;
+  }).join('');
+
+  document.getElementById('wrap').innerHTML = `
+  <header class="masthead">
+    <div class="crumb hline"><span class="no">NO.${no}</span><h1 class="title">${esc(rep.date)} ${esc(rep.time)} 场</h1></div>
+    <blockquote class="cov">${esc(String(rep.coverage||'').replace(/（[^）]*）$/,''))}</blockquote>
+    <div class="navchips">${navChips}</div>
+  </header>
+  ${ovRows.length?`<section id="sec-overview"><div class="sec-h"><span class="no">🔭</span><h2>速览</h2><span class="n">${ovRows.length} 条</span></div><div class="ovlist">${ovHtml}</div></section>`:''}
+  ${secsHtml || '<div class="msg">本期无条目</div>'}
+  ${rep.rawStats && rep.rawStats.candidates?`<div class="rawline">▸ raw archive: reports/raw/${esc(rep.id)}.json（候选 ${rep.rawStats.candidates.toLocaleString()}${rep.rawStats.selected?'／入选 '+rep.rawStats.selected:''}）${rep.provenance_meta&&rep.provenance_meta.evidence_file?` · 证据链 ${esc(rep.provenance_meta.evidence_file)}`:''}${rep.provenance_meta&&rep.provenance_meta.snapshot_dir?` · 快照 ${esc(rep.provenance_meta.snapshot_dir)}`:''}</div>`:''}
+  <nav class="pager">
+    ${older?`<a href="${repUrl(esc(older.id))}">‹ ${esc(older.date.slice(5))} ${esc(older.time)}</a>`:'<a disabled>‹ 已是早期</a>'}
+    <a href="/" style="border:none">☰ 首页</a>
+    ${newer?`<a href="${repUrl(esc(newer.id))}">${esc(newer.date.slice(5))} ${esc(newer.time)} ›</a>`:'<a disabled>已是最新 ›</a>'}
+  </nav>`;
+  window.__fwHyd && window.__fwHyd();
+
+  /* 速览行点击：本页锚直接滚；跨期行→拉上一期数据→同款分句匹配→跳上一期条目 */
+  const crossJump = (el, cid) => {
+    if(el.dataset.bsy) return;
+    el.dataset.bsy = '1';
+    const jt = el.querySelector('.jumptag');
+    const say = msg => { if(jt){ jt.textContent = msg; setTimeout(()=>{ if(jt) jt.textContent = '上期 ↳'; }, 1800); } };
+    const base = window.__PAGE_DATA__ ? '' : 'reports/';
+    fetch(base + cid + '.json?v=' + Date.now())
+      .then(r=>r.ok?r.json():null)
+      .then(d=>{
+        if(!d || !d.sections){ say('上期数据缺失'); return; }
+        const idx2 = [];
+        (d.sections||[]).forEach(sec=>(sec.items||[]).forEach((it,ii)=>{
+          const hay = (it.title||'') + '；' + (it.original_title||'') + '；' + (it.summary||'');
+          idx2.push({ id: sec.key + '-' + ii, cl: rowsClauses(hay) });
+        }));
+        const tcs = rowsClauses(el.getAttribute('data-crosstext') || '');
+        let best = null, bs = 0;
+        idx2.forEach(rec=>{
+          let m = 0;
+          tcs.forEach(tc=>{
+            if(!tc.n) return;
+            rec.cl.forEach(ic=>{
+              if(!ic.n) return;
+              let h1 = 0; tc.g.forEach(g=>{ if(ic.n.indexOf(g) >= 0) h1++; });
+              let h2 = 0; ic.g.forEach(g=>{ if(tc.n.indexOf(g) >= 0) h2++; });
+              m = Math.max(m, Math.max(tc.g.length? h1/tc.g.length : 0, ic.g.length? h2/ic.g.length : 0));
+            });
+          });
+          if(m > bs){ bs = m; best = rec.id; }
+        });
+        if(best && bs >= 0.3){
+          location.href = repUrl(cid) + '#it-' + best;
+        } else {
+          say('上期未匹配');
+        }
+      })
+      .catch(()=>say('加载失败'))
+      .finally(()=>{ el.dataset.bsy = ''; });
+  };
+  document.querySelectorAll('.ov-item[data-jump], .ov-item[data-cross]').forEach(el=>el.addEventListener('click',ev=>{ if(ev.target.closest('a')||ev.target.closest('.fw-star')) return;
+    const hj = el.getAttribute('data-jump');
+    if(hj){
+      location.hash = hj;
+      const t = document.getElementById(hj);
+      if(t) t.scrollIntoView({block:'start'});
+      return;
+    }
+    const cid = el.getAttribute('data-cross');
+    if(cid) crossJump(el, cid);
+  }));
+  /* 板块折叠：点板块头切换展开/收起，默认全部展开 */
+  document.querySelectorAll("section .sec-h").forEach(secHead=>secHead.addEventListener("click",ev=>{
+    if(ev.target.closest("a")) return;
+    secHead.parentElement.classList.toggle("collapsed");
+  }));
+  /* 阅读档位落地（内层重建后重放）+ 带锚直达时滚到条目 */
+  modeSet();
+  if(location.hash){ const hid=location.hash.replace(/[^#A-Za-z0-9_-]/g,''); const hop=()=>{ const el=document.querySelector(hid); if(el) el.scrollIntoView({block:'start',behavior:'instant'}); }; hop(); [250,900,1600,2600,4000].forEach(ms=>setTimeout(hop,ms)); }
+}
+(function(){ const ns=document.getElementById('navSearch'); if(ns) ns.href = window.__PAGE_DATA__ ? '../search.html' : 'search.html'; })();
+init();
+</script>
+<script>
+(function(){
+  var b = document.getElementById('toTop'); if(!b) return;
+  var tick = function(){ b.classList.toggle('on', (window.scrollY||0) > 360); };
+  window.addEventListener('scroll', tick, {passive:true}); tick();
+  b.addEventListener('click', function(){ window.scrollTo({top:0, behavior:'smooth'}); });
+})();
+</script>
+<script>(function(){var b=document.getElementById("nvBtn"),n=document.getElementById("nv");if(b&&n){b.addEventListener("click",function(e){e.stopPropagation();n.classList.toggle("open")});document.addEventListener("click",function(e){if(!n.contains(e.target)&&!b.contains(e.target))n.classList.remove("open")});}})();</script>
+<script>(function(){var K="aiintelfollow",HK="aiintelfollowhint";function rd(){try{var d=JSON.parse(localStorage.getItem(K)||"");if(d&&d.v===1&&Array.isArray(d.list))return d}catch(e){}return{v:1,list:[]}}function wr(d){try{localStorage.setItem(K,JSON.stringify(d))}catch(e){}}function has(id){return rd().list.some(function(x){return x.id===id})}function tn(){try{var d=JSON.parse(localStorage.getItem(HK)||"{}");return(d&&d.n)||0}catch(e){return 0}}function paint(el){var on=has(el.getAttribute("data-fw"));el.classList.toggle("fw-on",on);el.setAttribute("aria-pressed",on?"true":"false");el.textContent=on?"★":"☆";el.title=on?"取消关注":"关注这个信号"}function hyd(){var els=document.querySelectorAll("[data-fw]");for(var i=0;i<els.length;i++)paint(els[i])}function toast(){var t=document.createElement("div");t.className="fw-toast";t.textContent="⭐ 关注仅保存在当前浏览器，更换浏览器或设备后不会保留";document.body.appendChild(t);setTimeout(function(){t.classList.add("fw-out")},3600);setTimeout(function(){if(t.parentNode)t.parentNode.removeChild(t)},4200)}document.addEventListener("click",function(ev){var el=ev.target?ev.target.closest("[data-fw]"):null;if(!el)return;ev.preventDefault();ev.stopPropagation();var id=el.getAttribute("data-fw"),name=el.getAttribute("data-name")||"";var d=rd(),i=-1,j;for(j=0;j<d.list.length;j++)if(d.list[j].id===id){i=j;break}var on;if(i>=0){d.list.splice(i,1);on=false}else{d.list.push({id:id,n:String(name),t:Date.now()});on=true}wr(d);paint(el);if(on&&tn()<3){try{localStorage.setItem(HK,JSON.stringify({n:tn()+1}))}catch(e){}toast()}try{document.dispatchEvent(new CustomEvent("followchange",{detail:{id:id,on:on}}))}catch(e){}});window.addEventListener("storage",function(e){if(!e||(e.key===K))hyd()});if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",hyd);else hyd();window.__fwHyd=hyd;window.__fwHas=has;window.__fwList=rd;})();</script>
+</body>
+</html>
