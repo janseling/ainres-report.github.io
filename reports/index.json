@@ -1,6 +1,31 @@
 {
-  "count": 77,
+  "count": 78,
   "reports": [
+    {
+      "id": "2026-10-25-1500",
+      "date": "2026-10-25",
+      "time": "15:00",
+      "title": "AI 情报 · 10-25 15:00 场",
+      "itemCount": 7,
+      "coverage": "2026-10-25 09:00 → 15:06（Asia/Shanghai）",
+      "note": "周日午后信源产出稀薄（窗口 90 候选，B 源多为快讯流水），从严筛选；晨场（09:00）已收条目不重收；Anthropic 新闻页候选经 datePublished 直验均为 10-08~10-21 存量，本期零新增",
+      "overview": [
+        "SK 海力士撤回 Solidigm 美股 IPO：原定「美国史上最大半导体 IPO 之一」（募 100~150 亿美元/最高约 1,500 亿美元）79 天告吹",
+        "模型巨头合围 REA「逆向一切」：OpenAI 以 Cyber Abuse 封号、Claude 在逆向任务中段急刹",
+        "DeepSeek V4.1-Flash（763B MoE）支持合入 llama.cpp；ISTA 2-bit 量化「与基座同分」被社区质疑基准饱和",
+        "具身智能 IPO 寒潮双稿旁证：智元被指放弃年内 IPO，招股书判级标准转向订单与回款",
+        "「提示词工程已死」被祖师爷 Riley Goodside 盖章：功夫从 prompt 上移到 harness/loop"
+      ],
+      "sectionCounts": {
+        "product": 2,
+        "tech": 2,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 90,
+        "selected": 7
+      }
+    },
     {
       "id": "2026-10-25-0900",
       "date": "2026-10-25",
