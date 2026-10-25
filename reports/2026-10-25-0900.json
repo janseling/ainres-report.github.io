@@ -3,7 +3,7 @@
   "date": "2026-10-25",
   "time": "09:00",
   "title": "AI 情报 · 10-25 09:00 场",
-  "generatedAt": "2026-10-25T01:10:30.925Z",
+  "generatedAt": "2026-10-25T01:12:55.500Z",
   "coverage": "2026-10-24 13:00 → 2026-10-25 09:05（Asia/Shanghai）",
   "notes": [
     "周日晨场信源产出稀薄，窗口以 Reddit 噪声为主，从严筛选；Kimi K3.1 Pro 首发、英国 AI 生物安全实验室等昨期已收条目只录实质后续"
@@ -62,13 +62,13 @@
           "publish_time": "2026-10-25 00:00",
           "event_time": "2026-10-24",
           "event_time_inferred": false,
+          "verify_note": "外部检索（MSN 同步刊发 2026-10-24: https://www.msn.com/en-us/news/other/block-s-new-voice-model-sounds-eerily-human/ar-AA2fZGaQ ；AndroGuider 实测解读: https://www.androguider.com/2026/10/blocks-eerily-human-voice-ai-runs.html ）",
           "entities": [
             {
               "name": "Block",
               "type": "企业"
             }
           ],
-          "verify_note": "外部检索（MSN 同步刊发 2026-10-24: https://www.msn.com/en-us/news/other/block-s-new-voice-model-sounds-eerily-human/ar-AA2fZGaQ ；AndroGuider 实测解读: https://www.androguider.com/2026/10/blocks-eerily-human-voice-ai-runs.html ）",
           "provenance": {
             "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human",
             "raw_ref": "reports/raw/2026-10-25-0900.json#candidates[86]",
@@ -112,6 +112,7 @@
           "publish_time": "2026-10-25 00:05",
           "event_time": null,
           "event_time_inferred": false,
+          "verify_note": "外部检索（unite.ai 首发稿同报发布与开放权重档期: https://www.unite.ai/moonshot-ai-releases-kimi-k3-1-pro-first-model-in-new-k3-1-series/ ；Express Tribune 转载同报数据裁剪: https://ua.news/en/technologies/moonshot-obmezhila-kibermozhlivosti-modeli-kimi-k3-1-pro-the-express-tribune ；StratNews Global 同报: https://stratnewsglobal.com/technology/moonshot-kimi-model-hacking-capabilities-ai-cyberattacks/ ；XenoSpectrum 榜单口径: https://xenospectrum.com/en/kimi-k31-pro-benchmarks-cost/ ）",
           "entities": [
             {
               "name": "Moonshot AI",
@@ -122,7 +123,6 @@
               "type": "产品"
             }
           ],
-          "verify_note": "外部检索（unite.ai 首发稿同报发布与开放权重档期: https://www.unite.ai/moonshot-ai-releases-kimi-k3-1-pro-first-model-in-new-k3-1-series/ ；Express Tribune 转载同报数据裁剪: https://ua.news/en/technologies/moonshot-obmezhila-kibermozhlivosti-modeli-kimi-k3-1-pro-the-express-tribune ；StratNews Global 同报: https://stratnewsglobal.com/technology/moonshot-kimi-model-hacking-capabilities-ai-cyberattacks/ ；XenoSpectrum 榜单口径: https://xenospectrum.com/en/kimi-k31-pro-benchmarks-cost/ ）",
           "provenance": {
             "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from",
             "raw_ref": "reports/raw/2026-10-25-0900.json#candidates[85]",
@@ -159,6 +159,7 @@
           "publish_time": "2026-10-25 06:10",
           "event_time": "2026-10-24",
           "event_time_inferred": false,
+          "verify_note": "外部检索（新浪财经同报: https://finance.sina.cn/2026-10-25/detail-iniwkrxi3611600.d.html ；搜狐科技号同题稿: https://www.sohu.com/a/1092184507_122066679 ）",
           "entities": [
             {
               "name": "Harvard",
@@ -169,7 +170,6 @@
               "type": "产品"
             }
           ],
-          "verify_note": "外部检索（新浪财经同报: https://finance.sina.cn/2026-10-25/detail-iniwkrxi3611600.d.html ；搜狐科技号同题稿: https://www.sohu.com/a/1092184507_122066679 ）",
           "provenance": {
             "url": "https://m.sohu.com/a/1092323757_473283",
             "raw_ref": "reports/raw/2026-10-25-0900.json#candidates[20]",
@@ -204,6 +204,7 @@
           "confidence": "低",
           "confidence_note": "D源·社区自报，窗口多帖互证",
           "publish_time": "2026-10-25 05:05",
+          "verify_note": "未见独立来源（外查 10-25）；窗口内 capy-flash v0.7.4（GitHub 直验 ★93、10-24 21:18 UTC push: https://github.com/ValerioDolci/capy-flash ）与 TensorSharp Day-1 支持帖互证（均为社区自报）",
           "entities": [
             {
               "name": "ANEMLL",
@@ -214,7 +215,6 @@
               "type": "产品"
             }
           ],
-          "verify_note": "未见独立来源（外查 10-25）；窗口内 capy-flash v0.7.4（GitHub 直验 ★93、10-24 21:18 UTC push: https://github.com/ValerioDolci/capy-flash ）与 TensorSharp Day-1 支持帖互证（均为社区自报）",
           "provenance": {
             "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xejv61/m6_mac_mini_owners_32gb_now_you_can_run_qwen3827b",
             "raw_ref": "reports/raw/2026-10-25-0900.json#candidates[26]",
@@ -264,6 +264,7 @@
           "publish_time": "2026-10-24 23:00",
           "event_time": "2026-10-24",
           "event_time_inferred": false,
+          "verify_note": "外部检索（CryptoBriefing 独立同报: https://cryptobriefing.com/grok-republican-gpt-democratic-ai-bias-study/ ；Yahoo Tech 同步: https://tech.yahoo.com/ai/chatgpt/articles/forced-pick-grok-ai-model-150000104.html ）",
           "entities": [
             {
               "name": "Grok",
@@ -278,7 +279,6 @@
               "type": "产品"
             }
           ],
-          "verify_note": "外部检索（CryptoBriefing 独立同报: https://cryptobriefing.com/grok-republican-gpt-democratic-ai-bias-study/ ；Yahoo Tech 同步: https://tech.yahoo.com/ai/chatgpt/articles/forced-pick-grok-ai-model-150000104.html ）",
           "provenance": {
             "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats",
             "raw_ref": "reports/raw/2026-10-25-0900.json#candidates[91]",
@@ -322,6 +322,7 @@
           "publish_time": "2026-10-25 06:10",
           "event_time": "2026-10-24 19:03",
           "event_time_inferred": false,
+          "verify_note": "外部检索（OfficeChai 同报点名两人及 IPO 时间窗: https://officechai.com/ai/thariq-shihipar-anthony-morris-announce-theyre-leaving-anthropic-weeks-before-its-ipo/ ）",
           "entities": [
             {
               "name": "Anthropic",
@@ -340,7 +341,6 @@
               "type": "人物"
             }
           ],
-          "verify_note": "外部检索（OfficeChai 同报点名两人及 IPO 时间窗: https://officechai.com/ai/thariq-shihipar-anthony-morris-announce-theyre-leaving-anthropic-weeks-before-its-ipo/ ）",
           "provenance": {
             "url": "https://m.sohu.com/a/1092323902_473283",
             "raw_ref": "reports/raw/2026-10-25-0900.json#candidates[19]",
@@ -375,6 +375,7 @@
           "confidence": "中",
           "confidence_note": "B单源·自家清单",
           "publish_time": "2026-10-25 03:00",
+          "verify_note": "未见独立来源（外查 10-25，TC 自家滚动专题性质）",
           "entities": [
             {
               "name": "Apple",
@@ -385,7 +386,6 @@
               "type": "企业"
             }
           ],
-          "verify_note": "未见独立来源（外查 10-25，TC 自家滚动专题性质）",
           "provenance": {
             "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
             "raw_ref": "reports/raw/2026-10-25-0900.json#candidates[55]",
@@ -420,6 +420,7 @@
           "confidence": "中",
           "confidence_note": "B单源·同步转载佐证",
           "publish_time": "2026-10-24 22:00",
+          "verify_note": "外部检索（MSN 同步刊发: https://www.msn.com/en-us/news/other/here-are-the-top-ai-agents-that-can-live-in-your-text-messages/ar-AA2duEJg ）",
           "entities": [
             {
               "name": "Manus",
@@ -430,7 +431,6 @@
               "type": "产品"
             }
           ],
-          "verify_note": "外部检索（MSN 同步刊发: https://www.msn.com/en-us/news/other/here-are-the-top-ai-agents-that-can-live-in-your-text-messages/ar-AA2duEJg ）",
           "provenance": {
             "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages",
             "raw_ref": "reports/raw/2026-10-25-0900.json#candidates[104]",
