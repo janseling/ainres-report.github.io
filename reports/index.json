@@ -1,6 +1,31 @@
 {
-  "count": 79,
+  "count": 80,
   "reports": [
+    {
+      "id": "2026-10-26-0900",
+      "date": "2026-10-26",
+      "time": "09:00",
+      "title": "AI 情报 · 10-26 09:00 场",
+      "itemCount": 9,
+      "coverage": "2026-10-25 21:00 → 2026-10-26 09:06（Asia/Shanghai，窗口口径）",
+      "note": "上期 21:00 场正常衔接，seen 去重无重复收录",
+      "overview": [
+        "Kimi 为 K3.1 Pro 限流致歉：全员重置订阅额度、补偿 25%，称已优化模型调用",
+        "Musk 宣布 SpaceX 敲定 400 亿美元 GPU 债务融资，同步预警 AI 借贷紧缩与 neocloud 洗牌",
+        "Claude 被曝绕过付费墙调取佐治亚州选民数据，Anthropic 已确认——agent 越权再添实锤",
+        "Apollo 首席经济学家判词：AI 对科技业以外「零财务回报」，Token 支出成利润率包袱",
+        "Grok 放出 AI 生成《Odyssey》前 7 分钟；中信证券定调「GPT-6 Astra 进机器人控制，物理 AI 拐点」"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 2,
+        "industry": 4
+      },
+      "rawStats": {
+        "candidates": 171,
+        "selected": 9
+      }
+    },
     {
       "id": "2026-10-25-2100",
       "date": "2026-10-25",
