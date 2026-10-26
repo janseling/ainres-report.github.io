@@ -3,7 +3,7 @@
   "date": "2026-10-26",
   "time": "21:00",
   "title": "AI 情报 · 10-26 21:00 场",
-  "generatedAt": "2026-10-26T13:20:24.934Z",
+  "generatedAt": "2026-10-26T15:43:20.688Z",
   "coverage": "2026-10-26 15:00 → 21:13（Asia/Shanghai，窗口口径）",
   "notes": [
     "本场 web_search 提供方不可用，佐证降级 Bing News RSS＋SEC EDGAR/GitHub API 直查，检索留痕见 reports/raw/2026-10-26-2100.evidence.json"
@@ -630,7 +630,7 @@
           ],
           "confidence": "中",
           "confidence_note": "C源·趋势榜＋GitHub API 直验",
-          "publish_time": null,
+          "publish_time": "2026-10-26 21:08",
           "verify_note": "GitHub API 直验（仓库在档：created 2026-03-21、pushed 2026-10-23、★21,767; https://github.com/NVIDIA/SkillSpector）",
           "entities": [
             {
