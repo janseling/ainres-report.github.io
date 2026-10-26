@@ -1,6 +1,31 @@
 {
-  "count": 81,
+  "count": 82,
   "reports": [
+    {
+      "id": "2026-10-26-2100",
+      "date": "2026-10-26",
+      "time": "21:00",
+      "title": "AI 情报 · 10-26 21:00 场",
+      "itemCount": 13,
+      "coverage": "2026-10-26 15:00 → 21:13（Asia/Shanghai，窗口口径）",
+      "note": "本场 web_search 提供方不可用，佐证降级 Bing News RSS＋SEC EDGAR/GitHub API 直查，检索留痕见 reports/raw/2026-10-26-2100.evidence.json",
+      "overview": [
+        "Anthropic 公开递交纳斯达克 S-1（代码 ANT），上市进入倒计时，与 OpenAI $300 亿私募竞速正面对撞。",
+        "SpaceX 与 Apollo 敲定约 400 亿美元 GPU 融资租赁，马斯克同步预警 200 家云厂商「终局」；Citadel 联席 CIO 称 AI 浪潮「会沉掉一些船」。",
+        "DeepSeek V4.1-Flash-1017 单周调用量登顶全球第一、环比 +801%，开源推理框架 DeepInfer 生态一周起势。",
+        "Dario 称代码工作将快速消失「该学弹钢琴」；首部 AI 院线电影 3 日仅百万票房，AI 内容变现冷热两极。",
+        "AI 教科书底层公式 Bug 曝光、Gemini 率先自修复；Turo×特斯拉推出美国首个 FSD 监督版租车。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 3,
+        "industry": 7
+      },
+      "rawStats": {
+        "candidates": 102,
+        "selected": 13
+      }
+    },
     {
       "id": "2026-10-26-1500",
       "date": "2026-10-26",
