@@ -1,6 +1,32 @@
 {
-  "count": 80,
+  "count": 81,
   "reports": [
+    {
+      "id": "2026-10-26-1500",
+      "date": "2026-10-26",
+      "time": "15:00",
+      "title": "AI 情报 · 10-26 15:00 场",
+      "itemCount": 12,
+      "coverage": "2026-10-26 09:00 → 15:06（Asia/Shanghai，窗口口径）",
+      "note": "本日 09:00 场已收条目（Kimi 致歉、OpenAI 断网训练细节、NVIDIA Flora 标注工具等）已去重",
+      "overview": [
+        "OpenAI 中端新模型 GPT-6.1 Terra 被公开代码仓库坐实，GitHub Copilot 产线已用其替代 Sol 做代码审查。",
+        "r/opensource 一纸公告全面封杀 AI 项目与 MCP 中间件，开源社区「AI 血统审查」开撕。",
+        "猫王版权方按 274 首×15 万美元法定上限向 Anthropic 索赔 4110 万美元，音乐版权跟进出版方诉讼线。",
+        "Anthropic「50 死熔断」监管草案惹众怒，达里奥 2000 字逐点回应批评者。",
+        "Abridge 拿下德州大学医疗系统全系统协议，叠加 VA 五年 7.7572 亿美元框架，医疗环境智能采购天花板抬升。"
+      ],
+      "sectionCounts": {
+        "product": 1,
+        "tech": 4,
+        "policy": 2,
+        "industry": 5
+      },
+      "rawStats": {
+        "candidates": 117,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-10-26-0900",
       "date": "2026-10-26",
