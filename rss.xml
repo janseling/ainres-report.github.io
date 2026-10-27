@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Oct 2026 07:18:40 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 09:43:19 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-27 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-27-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-27-1500.html</guid>
+      <pubDate>Tue, 27 Oct 2026 07:00:00 GMT</pubDate>
+      <description>NVIDIA 官宣 30 亿美元入股 Meta 并扩大 Muse 系列合作，个人 agent 军备赛进入资本层。</description>
+    </item>
     <item>
       <title>AI 情报 · 10-27 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-27-0900.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-21-0900.html</guid>
       <pubDate>Wed, 21 Oct 2026 01:00:00 GMT</pubDate>
       <description>OpenAI 官宣收购生技初创 Orchestra Bio 并入 Rosalind 生命科学线；Anthropic 官方研究页披露 Claude 64 小时设计 31 万种蛋白、17 种过湿实验——AI-for-science 两线同日提速。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-20 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-20-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-20-2100.html</guid>
-      <pubDate>Tue, 20 Oct 2026 13:00:00 GMT</pubDate>
-      <description>DeepSeek 把核心推理框架 DeepInfer 全栈开源：兼容英伟达/昇腾，官方仓库约 3 小时破 7000 星。</description>
     </item>
   </channel>
 </rss>

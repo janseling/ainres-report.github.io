@@ -3,7 +3,7 @@
   "date": "2026-10-27",
   "time": "15:00",
   "title": "AI 情报 · 10-27 15:00 场",
-  "generatedAt": "2026-10-27T07:17:32.348Z",
+  "generatedAt": "2026-10-27T09:43:16.306Z",
   "coverage": "2026-10-27 09:00 → 15:05（Asia/Shanghai，窗口口径）",
   "notes": [
     "备注：本日 09:00 场已收 GPT-6.1 Terra 官宣、Anthropic S-1 首发、OpenAI 三项科学发现等 12 条，本章只收增量并作后续标注"
@@ -369,6 +369,8 @@
           "confidence": "中",
           "confidence_note": "B 单源，MSN 同稿转载+arXiv 论文直验",
           "publish_time": "2026-10-27 11:05",
+          "event_time": "2026-09-29 00:30",
+          "event_time_inferred": false,
           "verify_note": "外部检索（MSN 同稿转载; https://www.msn.cn/zh-cn/%E6%8A%80%E6%9C%AF/%E7%A1%AC%E4%BB%B6%E5%92%8C%E8%AE%BE%E5%A4%87/%E8%AE%A9ai%E5%AD%A6%E4%BC%9A%E7%BB%99%E6%98%87%E8%85%BEnpu）＋arXiv 论文直验（2609.35568）",
           "entities": [
             {
