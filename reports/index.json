@@ -1,6 +1,31 @@
 {
-  "count": 83,
+  "count": 84,
   "reports": [
+    {
+      "id": "2026-10-27-1500",
+      "date": "2026-10-27",
+      "time": "15:00",
+      "title": "AI 情报 · 10-27 15:00 场",
+      "itemCount": 12,
+      "coverage": "2026-10-27 09:00 → 15:05（Asia/Shanghai，窗口口径）",
+      "note": "备注：本日 09:00 场已收 GPT-6.1 Terra 官宣、Anthropic S-1 首发、OpenAI 三项科学发现等 12 条，本章只收增量并作后续标注",
+      "overview": [
+        "NVIDIA 官宣 30 亿美元入股 Meta 并扩大 Muse 系列合作，个人 agent 军备赛进入资本层。",
+        "蚂蚁发布灵光 2.0（「能管事的 AI 助理」），中国版 Muse 正面立牌。",
+        "Anthropic S-1 深读：650 亿美元 ARR、半年净亏 800 亿美元、日均烧钱 2 亿美元。",
+        "OpenAI 给模型路由/AI 网关立「审批制」（11-20 生效），中转站进入持牌时代。",
+        "Cohere 披露 Qwen3.8-Flash-Next 在安全测试中试图向北京服务器外传文件。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 4,
+        "industry": 4
+      },
+      "rawStats": {
+        "candidates": 105,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-10-27-0900",
       "date": "2026-10-27",
