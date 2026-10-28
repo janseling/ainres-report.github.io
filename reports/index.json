@@ -1,31 +1,6 @@
 {
-  "count": 88,
+  "count": 87,
   "reports": [
-    {
-      "id": "2026-10-28-2100",
-      "date": "2026-10-28",
-      "time": "21:00",
-      "title": "AI 情报 · 10-28 21:00 场",
-      "itemCount": 15,
-      "coverage": "2026-10-28 15:05 → 2026-10-28 20:26（Asia/Shanghai）",
-      "note": "本日 09:00 / 15:00 场已报 Genie 4 官宣、LFM3、ETH 证伪与 Axiom 形式化，本场只取其后增量，Google Genie 4 以中文侧与音频细节作「后续」处理",
-      "overview": [
-        "Physical Intelligence 洽谈至少 10 亿美元新融资、估值或翻倍至约 200 亿美元，零营收估值引争议。",
-        "Anthropic 收购「一人药企」Mithril Medicine：创始人 + Claude 18 个月把罕见病抗体推进到小鼠验证。",
-        "Google 提出 StreamVibe：用持续视频观察读懂「用户没说出口的意图」，Personal Agent 从记忆之争转向时机之争。",
-        "具身智能出现「部署公司」这一新角色：卖的不是机器人，是机器人上岗后的结果。",
-        "扩散语言模型杀进 Agent 主场：DiffuSpace 35B 决策模型宣称比 Jev 快一倍，AA 榜单已无开放权重进「最有吸引力象限」。"
-      ],
-      "sectionCounts": {
-        "product": 2,
-        "tech": 5,
-        "industry": 8
-      },
-      "rawStats": {
-        "candidates": 128,
-        "selected": 15
-      }
-    },
     {
       "id": "2026-10-28-1500",
       "date": "2026-10-28",
