@@ -3,7 +3,7 @@
   "date": "2026-10-28",
   "time": "09:00",
   "title": "AI 情报 · 10-28 09:00 场",
-  "generatedAt": "2026-10-28T03:40:57.236Z",
+  "generatedAt": "2026-10-28T17:41:33.875Z",
   "coverage": "2026-10-27 21:00 → 2026-10-28 09:05（Asia/Shanghai，窗口口径）",
   "notes": [
     "本日 09:00 首批；10-27 15:00/21:00 场已收 NVIDIA 入股 Meta、灵光 2.0、Anthropic S-1 深读等，本期只收当夜增量与后续"
@@ -172,7 +172,7 @@
           "confidence": "高",
           "confidence_note": "A源·官方原文 HFLiquidAI 博客",
           "publish_time": "2026-10-28 01:16",
-          "event_time": "2026-10-27 05:16",
+          "event_time": "2026-10-28 01:16",
           "event_time_inferred": false,
           "verify_note": "外部检索（未见独立来源；外查 10-28，360 检索仅见 LFM2 存量与社区转帖，无媒体同报；https://huggingface.co/blog/LiquidAI/lfm3）",
           "entities": [
@@ -233,7 +233,7 @@
           "confidence": "高",
           "confidence_note": "三源同报 DeepMind官方+TechCrunch+36氪",
           "publish_time": "2026-10-28 00:01",
-          "event_time": "2026-10-27",
+          "event_time": "2026-10-28 00:13",
           "event_time_inferred": false,
           "entities": [
             {
@@ -289,7 +289,7 @@
           "confidence": "中",
           "confidence_note": "B单源·知情人士措辞，多平台转载同一稿",
           "publish_time": "2026-10-28 08:11",
-          "event_time": null,
+          "event_time": "2026-10-28",
           "event_time_inferred": false,
           "verify_note": "外部检索（界面新闻、新浪财经、东方财富 2026-10-28 同步转载同一「知情人士」稿，属同一线人信息非独立源；https://finance.eastmoney.com/a/202610283912345678.html）",
           "entities": [
@@ -463,7 +463,7 @@
           "confidence": "中",
           "confidence_note": "B单源·提案阶段",
           "publish_time": "2026-10-28 05:50",
-          "event_time": null,
+          "event_time": "2026-10-27",
           "event_time_inferred": false,
           "verify_note": "外部检索（未见独立来源；外查 10-28，360/媒体检索无同报，提案原文未寻得直链；https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses）",
           "entities": [
