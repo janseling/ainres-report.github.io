@@ -3,7 +3,7 @@
   "date": "2026-10-28",
   "time": "15:00",
   "title": "AI 情报 · 10-28 15:00 场",
-  "generatedAt": "2026-10-28T09:42:06.551Z",
+  "generatedAt": "2026-10-28T09:42:21.279Z",
   "coverage": "2026-10-28 09:05 → 2026-10-28 15:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00 场已报 Genie 4 官宣与 LFM3 端侧小模型，本场只取其后增量"
@@ -279,6 +279,16 @@
           "publish_time": "2026-10-28 10:43",
           "event_time": "2026-09-29",
           "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "Meta",
+              "type": "企业"
+            },
+            {
+              "name": "World-T³",
+              "type": "产品"
+            }
+          ],
           "verify_note": "外部检索（腾讯网 2026-10-27 13:43 同题转载 20.6FPS 与重访指标；原文 arXiv 直链 https://arxiv.org/abs/2610.17434）",
           "provenance": {
             "url": "https://m.sohu.com/a/1093738434_129720",
