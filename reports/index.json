@@ -1,6 +1,32 @@
 {
-  "count": 87,
+  "count": 88,
   "reports": [
+    {
+      "id": "2026-10-28-2100",
+      "date": "2026-10-28",
+      "time": "21:00",
+      "title": "AI 情报 · 10-28 21:00 场",
+      "itemCount": 8,
+      "coverage": "2026-10-28 15:00→21:05（Asia/Shanghai）",
+      "note": "与 15:00 场去重：Genie 4、Anthropic 治理两稿、Ling-3.1-flash 等已于午后场收录，本场不再重复",
+      "overview": [
+        "扩散语言模型首次正面打进 Agent 主场：DiffuSpace Clover-35B 在 WindTunnel 网页任务上把中位耗时压到 Jev+Mercury 组合的一半",
+        "数十个 agent 24 天完成有限单群分类定理 Lean 形式化，4310 万行代码，顺手揪出 40 年前的论证缺口",
+        "Physical Intelligence 传以近 200 亿美元投后估值再募 10 亿美元，零营收估值翻倍，物理 AI 进入资本密集段",
+        "苹果 iPrefBench 实测 7 个前沿 agent：动作完成率 91.6%，完整任务成功率只有 47.7%——「会干活」与「懂你」之间是断崖",
+        "高盛引 OpenRouter 数据：开源权重吃掉 72% Token 流量却只拿到 27% 支出，算力与定价两头挤"
+      ],
+      "sectionCounts": {
+        "product": 2,
+        "tech": 3,
+        "policy": 1,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": null,
+        "selected": 8
+      }
+    },
     {
       "id": "2026-10-28-1500",
       "date": "2026-10-28",

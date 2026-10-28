@@ -1,0 +1,524 @@
+{
+  "id": "2026-10-28-2100",
+  "date": "2026-10-28",
+  "time": "21:00",
+  "title": "AI 情报 · 10-28 21:00 场",
+  "generatedAt": "2026-10-28T13:12:13.665Z",
+  "coverage": "2026-10-28 15:00→21:05（Asia/Shanghai）",
+  "notes": [
+    "与 15:00 场去重：Genie 4、Anthropic 治理两稿、Ling-3.1-flash 等已于午后场收录，本场不再重复"
+  ],
+  "itemCount": 8,
+  "rawStats": {
+    "candidates": null,
+    "selected": 8
+  },
+  "overview": [
+    "扩散语言模型首次正面打进 Agent 主场：DiffuSpace Clover-35B 在 WindTunnel 网页任务上把中位耗时压到 Jev+Mercury 组合的一半",
+    "数十个 agent 24 天完成有限单群分类定理 Lean 形式化，4310 万行代码，顺手揪出 40 年前的论证缺口",
+    "Physical Intelligence 传以近 200 亿美元投后估值再募 10 亿美元，零营收估值翻倍，物理 AI 进入资本密集段",
+    "苹果 iPrefBench 实测 7 个前沿 agent：动作完成率 91.6%，完整任务成功率只有 47.7%——「会干活」与「懂你」之间是断崖",
+    "高盛引 OpenRouter 数据：开源权重吃掉 72% Token 流量却只拿到 27% 支出，算力与定价两头挤"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "Physical Intelligence 洽谈至少 10 亿美元新轮，投后估值逼近 200 亿美元",
+          "meta": "36氪·2026-10-28 20:11",
+          "urls": [
+            "https://36kr.com/p/4045441160303750"
+          ],
+          "summary": "本轮由现有股东 Avenir 与 Lux Capital 领投。公司 2024 年 11 月 4 亿美元融资估值 24 亿美元，2026 年 7 月升至 110 亿美元，四个月后再募即接近翻倍；旗舰模型 pi-zero 尚无正式商业化产品，联合创始人 Lachy Groom 曾公开表示短期不提供商业化路线图。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "这是「通用机器人操作系统」叙事的定价样本——同期 Figure AI 估值 390 亿美元走软硬一体、Skild AI 超 140 亿美元走 ARR（已破 1 亿美元）数据飞轮，三条路线被资本同时溢价。对 Max 的提示是：一级市场在为「通用大脑」支付平台期权，而商业化耐心与技术瓶颈的错配会让这类估值的回撤比 LLM 更陡。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "软硬解耦的判断值得借来做生意——Sergey Levine 口径低端机械臂单价约 3500 美元、自产材料成本可压到 1000 美元以下，意味着「便宜硬件 + 聪明模型」的集成商（把模型塞进具体工序、按交付效果收费）比自研本体更适合小团队切入；同时数据采集与后训练是真正的稀缺位，部署公司会顺着数据公司的价值链向上长。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Bloomberg+Quartz",
+          "publish_time": "2026-10-28 20:11",
+          "event_time": "2026-10-27",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（Bloomberg 于 2026-10-27 19:43 GMT 报道「Robotics Lab Physical Intelligence in Talks for a $20 Billion Valuation」，Quartz 20:14 GMT 同步：正寻求约 200 亿美元估值；https://news.google.com/rss/search?q=%22Physical+Intelligence%22+funding）",
+          "entities": [
+            {
+              "name": "Physical Intelligence",
+              "type": "企业"
+            },
+            {
+              "name": "Avenir",
+              "type": "机构"
+            },
+            {
+              "name": "Lux Capital",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4045441160303750",
+            "raw_ref": "reports/raw/2026-10-28-2100.json#candidates[24]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-28-2100/01_36kr.com_ac57ec47.html",
+            "sha256": "1b3d65f2736dcfb1131ef36e3e6b62aea5516d0a00843e082713b2a685086f4b",
+            "fetched_at": "2026-10-28T13:12:03.145Z"
+          }
+        },
+        {
+          "title": "即梦把剧本、分镜、生成、剪辑收进同一个工作室，视频生成转向「从 idea 到成片」的流水线",
+          "meta": "极客公园·2026-10-28 16:04",
+          "urls": [
+            "http://www.geekpark.net/news/373066"
+          ],
+          "summary": "极客公园实测：从一句故事灵感出发，工具辅助完善人物设定与剧情冲突、生成剧本并自动拆解分镜，再串到视频生成与后期，团队可并行推进多个短剧项目。文章定位是「短剧行业生产节奏越来越快」下的流程压缩。- 📌 跟踪回访 SIG-20261013-1500-1：Sora 复活交割窗口仍未兑现——Google News 检索止于 10-13/14 的传闻口径与 10-18 的 Katzenberg 转述，OpenAI 无官方公告、新公司注册信息与模型许可条款均未落地，本周内无实质进展，check 顺延至 2026-11-02。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "真正的信息差不在单条视频的质量，而在流程资产的沉淀——分镜与人物设定一旦结构化，就能复用到续集、衍生与多语版本，这恰好是短剧厂牌最想要的可复制性。对小团队，切「剧本→分镜」这一段（不碰生成模型）做成 SaaS 或插件，比正面拼模型便宜得多。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "工具免费化会继续压短剧单集成本，卖点从「创意」转向「产能」，毛利往分发端集中。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-28 16:04",
+          "verify_note": "未见独立来源（外查 10-28）",
+          "entities": [
+            {
+              "name": "即梦",
+              "type": "产品"
+            },
+            {
+              "name": "字节跳动",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "http://www.geekpark.net/news/373066",
+            "raw_ref": "reports/raw/2026-10-28-2100.json#candidates[84]",
+            "source_id": "geekpark",
+            "source_name": "极客公园"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-28-2100/02_www.geekpark.net_5d7958a7.html",
+            "sha256": "82867fbd3fc08f36b9a8a4ea2be15da245f3c1b94ed36852364cf7dc209ba782",
+            "fetched_at": "2026-10-28T13:12:03.402Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术 / 模型进展",
+      "items": [
+        {
+          "title": "扩散语言模型打进 Agent 主场：DiffuSpace Clover-35B-A3B 网页任务中位 1.52 秒，快过 Jev＋Mercury 组合一倍",
+          "meta": "36氪转量子位·2026-10-28 17:25",
+          "urls": [
+            "https://36kr.com/p/4045119600399241"
+          ],
+          "summary": "Clover 为 35B 总参/约 3B 激活的 MoE 块扩散模型，在网页 Agent 评测 WindTunnel 的 49 个任务、每任务 3 次采样中，中位执行 1.52 秒、成功率 98.6%（Jev＋Mercury 2.5 组合为 3.21 秒/95.9%）；SWE-bench Verified 73.6、Terminal-Bench 2.1 51.7、τ³ 65.3、BFCL-v4 67.9。工程上用块扩散重构门控 Delta 网络，把已生成上下文压进持续更新的状态，块内双向注意力并行更新。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "扩散路线补上了老毛病——过去扩散 LM 做 agent 容易工具调用格式出错、同一步反复重试；Clover 的连续任务演示（WebMCP 6 项任务串跑、电商下单全流程）说明「读反馈→调动作」闭环能跑通。若这条线在更长任务上稳住，自回归在 agent 场景的默认地位第一次有了替代品。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对做 agent 中间件的人来说，延迟即体验——1.5 秒 vs 3.2 秒的差距足以改写「是否需要异步/排队」的架构假设，也意味着实时网页操作的商业形态（比价、抢单、客服代操作）开始变得可行。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+HF 模型页",
+          "publish_time": "2026-10-28 17:25",
+          "event_time": "2026-10-24",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（Hugging Face API 直验 Diffuspace/Clover-35B-A3B-Preview 已上架：createdAt 2026-10-24、likes 58、downloads 105、Apache-2.0、base_model 为 Qwen3.6-35B-A3B；https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview）",
+          "entities": [
+            {
+              "name": "DiffuSpace",
+              "type": "企业"
+            },
+            {
+              "name": "Clover",
+              "type": "产品"
+            },
+            {
+              "name": "Jev",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4045119600399241",
+            "raw_ref": "reports/raw/2026-10-28-2100.json#candidates[73]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-28-2100/03_36kr.com_36397a14.html",
+            "sha256": "51624d67d8efa1b1e46d5e4fc233740e24e009dea2215c9c51187db1d94355d0",
+            "fetched_at": "2026-10-28T13:12:03.711Z"
+          }
+        },
+        {
+          "title": "Axiom Math 用数十个 agent 在 24 天内完成有限单群分类定理 Lean 形式化：4310 万行代码、205 万声明，还揪出近 40 年的论证缺口",
+          "meta": "36氪·2026-10-28 16:07",
+          "urls": [
+            "https://36kr.com/p/4045021328675973"
+          ],
+          "summary": "项目覆盖 715 篇参考文献、100 个里程碑，是人类史上最庞大证明工程（1983 年宣布完成、2004 年才用 1221 页补上关键缺口）的首份整体计算机可检查版本；过程中 agent 不仅找出历史论文的错误，还参与构造了一项新的群论结果。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "这次真正值钱的是「规模化形式化」的工序——把 1.5 万页散文证明拆成可验证声明、跨数百篇论文对齐定义、再用 agent 群并行推。一旦这套流水线可复用，任何依赖大量文献的学科（数学、密码学、编译器验证）都会出现「先形式化、再研究」的新工程路径。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "形式化的第一波付费方不是数学家，而是需要「可审计正确性」的行业（芯片协议、金融合约、航空软件）——把 Axiom 式的 agent 流水线包成合规交付服务，比做通用数学工具更容易收到钱。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+Unite.AI",
+          "publish_time": "2026-10-28 16:07",
+          "event_time": "2026-10-26",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Unite.AI 于 2026-10-27 16:54 GMT 报道「Axiom Math Releases 43.1M-Line Lean Proof of Group Classification」，XenoSpectrum 同期称其「exposing a flaw in an intermediate step」；https://news.google.com/rss/search?q=Axiom+Math+finite+simple+groups+Lean+formalization）",
+          "entities": [
+            {
+              "name": "Axiom Math",
+              "type": "企业"
+            },
+            {
+              "name": "Lean",
+              "type": "产品"
+            },
+            {
+              "name": "Daniel Gorenstein",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4045021328675973",
+            "raw_ref": "reports/raw/2026-10-28-2100.json#candidates[83]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-28-2100/04_36kr.com_4a2d9f35.html",
+            "sha256": "a58306b7b7b07f0bf2e924a5d902f1af5a2586c56e446ec92b4d3c620aec6577",
+            "fetched_at": "2026-10-28T13:12:04.112Z"
+          }
+        },
+        {
+          "title": "苹果 iPrefBench：前沿 agent 动作完成率 91.6%，完整任务成功率仅 47.7%——「会干活」不等于「懂你」",
+          "meta": "36氪·2026-10-28 18:19",
+          "urls": [
+            "https://36kr.com/p/4045215881057155"
+          ],
+          "summary": "基准跑在可执行 iOS 环境，26 个应用、130 个未完全指定的任务、3051 条用户活动记录；被省略信息被标注了唯一来源（可从历史推断 / 必须问用户）。Opus 5 动作完成率 91.6% 但任务成功率 47.7%；对「必须问」的信息只到 51.3%（可推断信息为 76.3%），各模型每任务平均只问 0.08~0.35 次，而需要确认的信息平均 0.89 项，询问召回率最高 44.3%。- 📌 跟踪回访 SIG-20261007-0900-1：OpenAI 数学手稿的独立验证线继续走「接着做」而不是「复现/证伪」——本轮窗口无第三方全量复现，但 Axiom Math 的 CFSG 形式化（本期条）是同一范式的外部实证：AI 产出被组织成可逐步检查的代码而非散装论文，验证成本从人力审读转向形式系统编译。open，check 顺延至 2026-11-02。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "这是个人 agent 商业化最硬的一道坎——用户容忍「点错按钮」，不容忍「帮我订错了餐厅」。把「何时推断、何时追问」做成可配置策略层（按场景设打扰预算、关键动作强确认），是比模型能力更容易变现的中间件。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "评测口径也值得抄：把「个性化」从主观感受改成可计分的推断/询问双指标，agent 采购清单迟早会用类似指标来定价。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 arXiv+36氪；外查仅 36氪独立镜像",
+          "publish_time": "2026-10-28 18:19",
+          "event_time": "2026-10-26",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（arXiv 2610.34735 直验：论文题为 iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents，Submitted on 26 Oct 2026；https://arxiv.org/abs/2610.34735）",
+          "entities": [
+            {
+              "name": "Apple",
+              "type": "企业"
+            },
+            {
+              "name": "iPrefBench",
+              "type": "产品"
+            },
+            {
+              "name": "Claude Opus 5",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4045215881057155",
+            "raw_ref": "reports/raw/2026-10-28-2100.json#candidates[58]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-28-2100/05_36kr.com_f268fc57.html",
+            "sha256": "241d57b2891a2671269f9889b3e43cff6a06657d47f8f9e0004da5ae0eea0ca3",
+            "fetched_at": "2026-10-28T13:12:04.357Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策 / 监管",
+      "items": [
+        {
+          "title": "Anthropic 官方「美国科学发现承诺」页面在档：三年 1.5 亿美元投向联邦 Genesis Mission",
+          "meta": "Anthropic·2026-10-08",
+          "urls": [
+            "https://www.anthropic.com/news/genesis-mission-commitment"
+          ],
+          "summary": "schema.org 元数据直验 datePublished 2026-10-08，摘要明确：Anthropic 承诺三年 1.5 亿美元参与这一联邦「以 AI 加速科学发现」计划。本期窗口内政府侧（网信办/工信部/国务院政策库）零新增，故以此条补齐政策面。- 📌 跟踪回访 SIG-20261017-0900-1：中国 AI 技术出口管制正式稿仍未见发布（窗口内网信办/工信部/国务院政策库零新增，10-16 征求意见稿之后无公示反馈与细则）；开源豁免边界继续悬置。open，check 顺延至 2026-11-02。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "政府科研预算开始用「产业承诺 + 联邦计划」的组合来撬动模型能力，这类合作会先落到算力与评测环节——Genesis Mission 的受资助名单与算力伙伴是下一轮可跟的采购线索。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "跟着联邦计划的子任务找生意：科研数据整备、合规审计、结果可复现性验证，都是「官方出一半钱、机构自付一半」的采购买点。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-10-08 08:00",
+          "original_title": "Building on our commitment to American scientific discovery",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Genesis Mission",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+            "raw_ref": "reports/raw/2026-10-28-2100.json#candidates[102]",
+            "source_id": "anthropic",
+            "source_name": "Anthropic"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-28-2100/06_www.anthropic.com_6c062b86.html",
+            "sha256": "e104439b7b3c56cc35bebcf3cb3df0fa123ce7f628afee9292c5be8b7149c5a4",
+            "fetched_at": "2026-10-28T13:12:05.389Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向",
+      "items": [
+        {
+          "title": "高盛引 OpenRouter 数据：开源权重吃掉 72% Token 流量却只拿到 27% 支出，中国实验室占平台 69% 流量",
+          "meta": "36氪·2026-10-28 16:18",
+          "urls": [
+            "https://36kr.com/p/4045209934697607"
+          ],
+          "summary": "高盛分析师 Bobby Molavi 口径：9 月第二周开源权重模型处理 72% Token、仅获 27% 支出；闭源份额从 1 月初 89% 降至 73%。Token 需求自去年 11 月增长 27 倍，平台周处理量从 2025-01 的 0.5 万亿升至 2026-09-14 当周 128.4 万亿（约 250 倍）；同期 H200 租赁价年内涨 160%、B200 涨 120%、A100 仍高于年初。Epoch AI 9-22 报告称同等性能成本每季度降约 47%、前沿模型降约 66%。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "这是「用量爆炸 ≠ 收入爆炸」的量化版——租金涨、token 价崩，钱被算力供应商拿走，云厂商账面 FCF 被挤压。对创业者的直接含义：靠卖 token 差价的中介几乎无利可图，价值要么往上游（算力/租赁）要么往下游（交付/结果收费）走。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "把「单位任务成本」当作产品指标来做（按任务而非按 token 报价），在开源权重 3~4 倍价格差里做路由+质量兜底，是当下最现实的套利结构。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 BigGo+Futurum",
+          "publish_time": "2026-10-28 16:18",
+          "event_time": "2026-09-14",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（BigGo Finance 2026-10-27 04:05 GMT 转述「Token demand up 250×」与同一组 72%/27% 数据；Futurum 10-26 独立撰文「Enterprises Embrace Open Weights but Infrastructure Sellers Profit Most」；https://news.google.com/rss/search?q=open-weight+models+72%25+tokens+27%25+spend）",
+          "entities": [
+            {
+              "name": "高盛",
+              "type": "机构"
+            },
+            {
+              "name": "OpenRouter",
+              "type": "产品"
+            },
+            {
+              "name": "Epoch AI",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4045209934697607",
+            "raw_ref": "reports/raw/2026-10-28-2100.json#candidates[82]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-28-2100/07_36kr.com_07a40a39.html",
+            "sha256": "489b7d33f047adf2eecf0013c0eff6057bfba20e533f50828374c3180af723fb",
+            "fetched_at": "2026-10-28T13:12:05.685Z"
+          }
+        },
+        {
+          "title": "Anthropic 工程经理宣布取消编程面试：「编码面试已经死了」，新人第一次能直接与资深工程师竞争",
+          "meta": "36氪·2026-10-28 17:34",
+          "urls": [
+            "https://36kr.com/p/4045061872473225"
+          ],
+          "summary": "判断来自工程经理、Electron 联合维护者 Felix Rieseberg：React 小题已无法提供招聘信号，「与考察手写汇编无异」。他的主张是「Hunger beats tenure」。文中还给出一组行业数据：Karat 调查美国/印度/中国 400 名工程负责人，美国仅 38% 企业允许现场用 AI，中国达 68%；CoderPad 调查中 34% 完全禁止；AI 允许后 66% 招聘方最看重「发现并修复 AI 错误」。- 📌 跟踪回访 SIG-20261006-0900-2：Beam 权重的热度验证线本轮无新增（窗口内无对照跑分/第三方复现），HF 下载数较 10-25 口径继续缓增但未见社区复现潮。open，check 顺延至 2026-11-02。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "「给候选人 AI 环境、看他如何划边界/审代码/接管」正在成为新面试形态，实操评估平台（防作弊+过程回放）是明确采购缺口；对个人，知识积累不再是壁垒，判断与执行力才是。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源佐证 Business Insider+Firstpost+The Decoder",
+          "publish_time": "2026-10-28 17:34",
+          "event_time": "2026-10-28",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Business Insider 2026-10-28 10:58 GMT 报道 Anthropic 经理称 coding interview is dead 并给出对初级开发者的建议；Firstpost 05:44 GMT、The Decoder 11:21 GMT 同题；https://news.google.com/rss/search?q=Anthropic+coding+interviews+scrapped+Rieseberg）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Felix Rieseberg",
+              "type": "人物"
+            },
+            {
+              "name": "Canva",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4045061872473225",
+            "raw_ref": "reports/raw/2026-10-28-2100.json#candidates[72]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-28-2100/08_36kr.com_e22ed836.html",
+            "sha256": "d28658cf822fe307fc686d59bd706597eb06f9d1aecafde87f3f8c6bf1a0ec2a",
+            "fetched_at": "2026-10-28T13:12:06.983Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "扩散语言模型 vs 自回归在 agent 场景的正面替代",
+      "text": "（SIG-20261028-2100-1，check 2026-11-02）：盯 Clover 在长程任务上的稳定性、多模态/端侧版本，以及是否有第三方在真实业务流程中复跑 WindTunnel 口径",
+      "sigId": "SIG-20261028-2100-1"
+    },
+    {
+      "lead": "大规模数学形式化的交付化",
+      "text": "（SIG-20261028-2100-2，check 2026-11-02）：Axiom Math 项目是否被第三方 Lean 编译器全量校验、是否出现面向产业的「形式化交付」供应商",
+      "sigId": "SIG-20261028-2100-2"
+    },
+    {
+      "lead": "个人 agent 的「推断 vs 询问」策略层",
+      "text": "（SIG-20261028-2100-3，check 2026-11-02）：iPrefBench 是否被主流 agent 平台纳入验收口径、是否出现按打扰预算定价的中间件",
+      "sigId": "SIG-20261028-2100-3"
+    },
+    {
+      "lead": "零营收物理 AI 的估值回撤窗口",
+      "text": "（SIG-20261028-2100-4，check 2026-11-02）：Physical Intelligence 本轮是否交割、条款是否含商业化时间表，Figure/Skild 的估值与 ARR 对照是否发生收敛",
+      "sigId": "SIG-20261028-2100-4"
+    }
+  ],
+  "sourceStatus": [
+    "- 本期 32 源全部 OK（health 无 DOWN/FALLBACK，consecutive_down 均为 0）",
+    "- 采集侧偶发：The Verge curl 超时、HN 502、OpenAI RSS 403——脚本均已兜底或单次降级，未影响候选池（本期 119 条候选）"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-28-2100.json",
+    "evidence_file": null,
+    "snapshot_dir": "archives/2026-10-28-2100/",
+    "raw_candidates": 119,
+    "matched": 8
+  }
+}
