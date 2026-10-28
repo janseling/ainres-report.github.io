@@ -1,6 +1,32 @@
 {
-  "count": 86,
+  "count": 87,
   "reports": [
+    {
+      "id": "2026-10-28-1500",
+      "date": "2026-10-28",
+      "time": "15:00",
+      "title": "AI 情报 · 10-28 15:00 场",
+      "itemCount": 20,
+      "coverage": "2026-10-28 09:05 → 2026-10-28 15:05（Asia/Shanghai）",
+      "note": "本日 09:00 场已报 Genie 4 官宣与 LFM3 端侧小模型，本场只取其后增量",
+      "overview": [
+        "两大实验室同日报「证伪 ETH」：OpenAI 论文与 Anthropic 署名 Claude 的论文撞车，学界仍在复核。",
+        "Axiom Math 数十 agent 24 天形式化有限单群分类，43.1M 行 Lean、205 万个声明。",
+        "谷歌 Genie 4 实测：30 秒生成可玩世界、24 帧实时交互，单次体验拉到 2 分钟。",
+        "Anthropic 随机对照实验：86% 专家关键判断跟着 AI 立场走，77% 事后复述 AI 论点。",
+        "Anthropic 官博《强化对蒸馏攻击的防御》，蒸馏成功率降 90% 以上（官方一手）。"
+      ],
+      "sectionCounts": {
+        "product": 2,
+        "tech": 5,
+        "policy": 3,
+        "industry": 10
+      },
+      "rawStats": {
+        "candidates": 288,
+        "selected": 13
+      }
+    },
     {
       "id": "2026-10-28-0900",
       "date": "2026-10-28",
