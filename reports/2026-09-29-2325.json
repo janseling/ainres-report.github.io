@@ -3,7 +3,7 @@
   "date": "2026-09-29",
   "time": "23:25",
   "title": "AI 情报 · 09-29 23:25 场",
-  "generatedAt": "2026-10-21T17:42:39.495Z",
+  "generatedAt": "2026-10-28T21:41:55.374Z",
   "coverage": "2026-09-28 23:25 → 2026-09-29 23:25（Asia/Shanghai）",
   "notes": [],
   "itemCount": 13,
@@ -46,6 +46,8 @@
           "confidence": "高",
           "confidence_note": "AMD 官方新闻稿+TC 双源",
           "publish_time": "2026-09-29 04:39",
+          "event_time": "2026-09-28",
+          "event_time_inferred": false,
           "verify_note": "外部检索（AMD 官方新闻稿同口径：全股票约 $8.2B、预计年底前交割、李飞飞任 AMD EVP 兼首席科学家；Fortune/Markets Insider 09-29 跟报）",
           "entities": [
             {
