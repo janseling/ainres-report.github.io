@@ -5,7 +5,21 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Oct 2026 13:20:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 01:29:55 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-28 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-28-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-28-0900.html</guid>
+      <pubDate>Wed, 28 Oct 2026 01:00:00 GMT</pubDate>
+      <description>DeepMind 发布 Genie 4：原生音频＋实时改世界，单次连贯时长翻倍到约 2 分钟</description>
+    </item>
+    <item>
+      <title>AI 情报 · 10-27 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-27-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-27-2100.html</guid>
+      <pubDate>Tue, 27 Oct 2026 13:00:00 GMT</pubDate>
+      <description>Anthropic 内部系统被 ex-DOGE 成员创办的 Cathedral 用 AI agent 12 小时攻破，薪酬/Slack/会议实录曝光，权重与客户消息未失守</description>
+    </item>
     <item>
       <title>AI 情报 · 10-27 15:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-27-1500.html</link>
@@ -131,20 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-21-2100.html</guid>
       <pubDate>Wed, 21 Oct 2026 13:00:00 GMT</pubDate>
       <description>OpenAI 前沿模型+Codex 上架谷歌云，「全模型柜台」多云开闸（双源佐证）。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-21 15:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-21-1500.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-21-1500.html</guid>
-      <pubDate>Wed, 21 Oct 2026 07:00:00 GMT</pubDate>
-      <description>Reuters 独家（Reddit 回流补录）：字节/阿里/腾讯被曝合下超 $350 亿英伟达合规卡订单，The Verge 同步跟进称英伟达产能未必吃得下。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-21 09:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-21-0900.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-21-0900.html</guid>
-      <pubDate>Wed, 21 Oct 2026 01:00:00 GMT</pubDate>
-      <description>OpenAI 官宣收购生技初创 Orchestra Bio 并入 Rosalind 生命科学线；Anthropic 官方研究页披露 Claude 64 小时设计 31 万种蛋白、17 种过湿实验——AI-for-science 两线同日提速。</description>
     </item>
   </channel>
 </rss>

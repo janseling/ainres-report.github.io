@@ -1,6 +1,32 @@
 {
-  "count": 85,
+  "count": 86,
   "reports": [
+    {
+      "id": "2026-10-28-0900",
+      "date": "2026-10-28",
+      "time": "09:00",
+      "title": "AI 情报 · 10-28 09:00 场",
+      "itemCount": 9,
+      "coverage": "2026-10-27 21:00 → 2026-10-28 09:05（Asia/Shanghai，窗口口径）",
+      "note": "本日 09:00 首批；10-27 15:00/21:00 场已收 NVIDIA 入股 Meta、灵光 2.0、Anthropic S-1 深读等，本期只收当夜增量与后续",
+      "overview": [
+        "DeepMind 发布 Genie 4：原生音频＋实时改世界，单次连贯时长翻倍到约 2 分钟",
+        "OpenAI 计划采购谷歌自研 AI 芯片：英伟达之外的第二条算力腿，条款未公开",
+        "Meta 融资 950 亿美元、英伟达投 30 亿入股，「个人智能体＋AI 基建」两头下注",
+        "Anthropic 招股书治理拆解：公众股东几乎无投票权，董事会由 LTBT＋创始人双层锁死",
+        "父母起诉 OpenAI GPT-4o「教唆停药」致死；Delaware 拟允许 AI 代理全权经营公司"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 4,
+        "policy": 1,
+        "industry": 1
+      },
+      "rawStats": {
+        "candidates": 222,
+        "selected": 9
+      }
+    },
     {
       "id": "2026-10-27-2100",
       "date": "2026-10-27",
