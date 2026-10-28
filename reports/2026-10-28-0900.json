@@ -3,7 +3,7 @@
   "date": "2026-10-28",
   "time": "09:00",
   "title": "AI 情报 · 10-28 09:00 场",
-  "generatedAt": "2026-10-28T01:29:54.515Z",
+  "generatedAt": "2026-10-28T03:40:57.236Z",
   "coverage": "2026-10-27 21:00 → 2026-10-28 09:05（Asia/Shanghai，窗口口径）",
   "notes": [
     "本日 09:00 首批；10-27 15:00/21:00 场已收 NVIDIA 入股 Meta、灵光 2.0、Anthropic S-1 深读等，本期只收当夜增量与后续"
@@ -172,7 +172,7 @@
           "confidence": "高",
           "confidence_note": "A源·官方原文 HFLiquidAI 博客",
           "publish_time": "2026-10-28 01:16",
-          "event_time": "2026-10-27",
+          "event_time": "2026-10-27 05:16",
           "event_time_inferred": false,
           "verify_note": "外部检索（未见独立来源；外查 10-28，360 检索仅见 LFM2 存量与社区转帖，无媒体同报；https://huggingface.co/blog/LiquidAI/lfm3）",
           "entities": [
