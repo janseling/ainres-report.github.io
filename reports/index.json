@@ -1,6 +1,32 @@
 {
-  "count": 88,
+  "count": 89,
   "reports": [
+    {
+      "id": "2026-10-29-0900",
+      "date": "2026-10-29",
+      "time": "09:00",
+      "title": "AI 情报 · 10-29 09:00 场",
+      "itemCount": 13,
+      "coverage": "2026-10-28 21:00 → 2026-10-29 09:00（Asia/Shanghai）",
+      "note": "窗口内 224 条候选，前半夜三季报与 Gemini 4 Carbon 占屏，国产稿以招聘/传闻为主",
+      "overview": [
+        "Google 甩出 Gemini 4 Carbon：Artificial Analysis v5.0 登顶，但只先给网络安全防御方用，\"最强模型不卖给你\"成了新投放策略。",
+        "微软与 Alphabet 同日交卷：微软单季从 OpenAI 拿到 10 亿美元收入，Azure 首次亮出季度美元收入 332 亿；Alphabet 单季首次破 1000 亿美元。",
+        "Anthropic 上市前补企业黏性课：按客户拆 token 花费的用量报表工具上线，配合 Q2 经营性盈利与 900% 净收入留存叙事。",
+        "英伟达 Nemotron 3.5 Transcribe 开源，30B 参数单芯片可跑，40 语言转录 + 翻译 + 说话人分离合一。",
+        "监管与诉讼双线：纽约州长签署 AI 陪伴类聊天机器人未成年人保护法案；ChatGPT 建议减药致死案被家属起诉。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 5,
+        "policy": 1,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": null,
+        "selected": 10
+      }
+    },
     {
       "id": "2026-10-28-2100",
       "date": "2026-10-28",
