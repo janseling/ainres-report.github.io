@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Oct 2026 01:10:41 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 01:10:57 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-29 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-29-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-29-0900.html</guid>
+      <pubDate>Thu, 29 Oct 2026 01:00:00 GMT</pubDate>
+      <description>Google 甩出 Gemini 4 Carbon：Artificial Analysis v5.0 登顶，但只先给网络安全防御方用，&quot;最强模型不卖给你&quot;成了新投放策略。</description>
+    </item>
     <item>
       <title>AI 情报 · 10-28 21:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-28-2100.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-22-2100.html</guid>
       <pubDate>Thu, 22 Oct 2026 13:00:00 GMT</pubDate>
       <description>DeepSeek 千亿融资逼近收官：游戏/半导体产业资本批量入局，多源口径腾讯、宁德时代领衔。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-22 15:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-22-1500.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-22-1500.html</guid>
-      <pubDate>Thu, 22 Oct 2026 07:00:00 GMT</pubDate>
-      <description>PHP 双 RCE 事件进入国家级应急：工信部 NVDB 发布风险提示，韩国上调网络危机预警级别，此前芬兰/荷兰/法德等多国政府网站已预防性下线。</description>
     </item>
   </channel>
 </rss>
