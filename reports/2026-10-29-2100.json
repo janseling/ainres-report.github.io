@@ -1,0 +1,528 @@
+{
+  "id": "2026-10-29-2100",
+  "date": "2026-10-29",
+  "time": "21:00",
+  "title": "AI 情报 · 10-29 21:00 场",
+  "generatedAt": "2026-10-29T13:07:06.887Z",
+  "coverage": "2026-10-29 15:00 → 21:05（Asia/Shanghai，标准窗口）",
+  "notes": [
+    "本日已报 09:00、15:00 两场，Gemini 4 Carbon 发布与 AA v5 榜单技术账已在早场收录，本期只取「官方原文首次进窗口」与未被覆盖的新线；OpenAI 返 API 额度 15:00 场已收，本期不重复"
+  ],
+  "itemCount": 9,
+  "rawStats": {
+    "candidates": 117,
+    "selected": 9
+  },
+  "overview": [
+    "Google 官方《Gemini 4 Carbon: our next frontier model》首次进入抓取窗口，与早场中文转述拼成完整一手链路，网安与长程任务定位坐实。",
+    "Anthropic 在 S-1 之后的第一个动作是买公司：收购一个人的生物技术初创 Mithril，并启动自有药物项目。",
+    "Alphabet 财报把「AI 烧钱」写成股价事件：单日跌约 10%，资本开支维持不变、2027 还要显著加。",
+    "Shopify 把 Shop Pay 接进 Visa/万事达的智能体支付令牌，agent 直接结账从概念进入商户后台。",
+    "英伟达 20/30/40 系 GPU 的隐藏算力被开源工具解锁，RTX 4090 张量吞吐从 166 提到 332 TFLOPS。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "Anthropic 收购「一个人的制药公司」Mithril，正式开做药：Claude 串起 11 家实验室",
+          "meta": "Anthropic 官方·2026-10-27 20:20 ｜ 36氪转述 2026-10-29 18:39",
+          "urls": [
+            "https://www.anthropic.com/news/early-progress-accelerating-drug-development-claude",
+            "https://36kr.com/p/4046787920156297"
+          ],
+          "summary": "官方页称 Mithril 由单人创办、用 Claude 协调 11 家实验外包方跑通早期药物发现流程；同时 Anthropic 宣布自有药物研发项目立项，这是其首份实质生命科学业务披露。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "IPO 前用一笔小额收购把「模型公司」估值叙事往「药物发现平台」挪，对标的是 Recursion/Isomorphic 的药研 AI 估值倍数（后者普遍按管线而非 token 计价）。S-1 里的生命科学条线因此从 PPT 变成有交易对手的业务。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "一人公司 + Claude 调度 11 家 CRO，等于把「项目经理 + 实验外包撮合」这件苦活压给模型——国内做实验室自动化/科研 SaaS 的团队可直接复刻这套调度层，卖点是「把散装 CRO 变成可编排 API」。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "技术进展",
+            "商业合作"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Anthropic 官方+R&D World/Quartz",
+          "publish_time": "2026-10-27 20:20",
+          "event_time": "2026-10-27",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（R&D World 2026-10-27 23:10 同步报道：Anthropic 收购由匿名 X 用户创立的一人生物技术公司 Mithril，以其协调 11 家实验室; https://www.rdworldonline.com/anthropic-acquires-a-one-person-biotech-that-used-claude-to-coordinate-11-labs/）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            },
+            {
+              "name": "Mithril",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.anthropic.com/news/early-progress-accelerating-drug-development-claude",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Anthropic 官方"
+          }
+        },
+        {
+          "title": "Shopify 把 Shop Pay 接进 Visa/万事达的智能体支付令牌，AI 代理可直接结账",
+          "meta": "36氪·2026-10-29 20:38 ｜ The Information 2026-10-29 06:58",
+          "urls": [
+            "https://36kr.com/p/4046930726566153",
+            "https://www.theinformation.com/"
+          ],
+          "summary": "商户侧把 Shop Pay 的令牌化支付开放给站外 AI 代理结账，覆盖站内与站外两种通道；同日 Defiant 补充 Shop Pay 已被带进 AI 会话内结算。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "卡组织收单费率不动、但「谁持有令牌」成为新分成位——Visa/万事达选择做基础设施而非入口，等于承认 agent 结账绕不开卡组织清算。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "独立开发者最现实的机会不在收单，而在「agent 结账失败率」这一层：地址补全、风控预检、退款对账，都是卡组织与 Shopify 都不做的脏活。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布",
+            "商业合作"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+Defiant",
+          "publish_time": "2026-10-29 20:38",
+          "verify_note": "外部检索（The Defiant 2026-10-29 14:06 同步报道：Shop Pay 接入 Visa/万事达智能体令牌并开放站外结账; https://thedefiant.io/news/defi/shopify-takes-shop-pay-into-ai-agents-off-platform-checkouts）",
+          "entities": [
+            {
+              "name": "Shopify",
+              "type": "企业"
+            },
+            {
+              "name": "Visa",
+              "type": "企业"
+            },
+            {
+              "name": "Mastercard",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4046930726566153",
+            "raw_ref": "reports/raw/2026-10-29-2100.json#candidates[11]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
+        },
+        {
+          "title": "智元 GO-3 Preview 拿下 RoboDojo/RoboTwin/RoboColiseum 三项第一，主张「全链路 Scaling」",
+          "meta": "机器之心Pro·2026-10-29 18:30 ｜ 36氪 2026-10-29 18:39",
+          "urls": [
+            "https://m.sohu.com/a/1094503618_129720",
+            "https://36kr.com/p/4046793427866502"
+          ],
+          "summary": "具身原生架构 WRAM 把任务理解、未来状态预测与动作生成串成一条链；预训练约九成数据取自人类第一视角视频，部署后仍持续累积经验，宣称开箱可用数百种任务。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "真正的卖点不是榜单，是「部署后还能学」——这直接对应国内工厂/仓储集成商的痛点：买一台机器人，三个月后产线变了它就废了。做本体二次调优的团队可把「上线后持续微调」写进合同报价。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "人类视频与机器人轨迹分工（前者学物理状态变化、后者学状态到动作的映射）是当前具身数据效率最主流的折中，值得作为自建数采路线的参照。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布",
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·官方口径未独立复核",
+          "publish_time": "2026-10-29 18:30",
+          "event_time": "2026-10-29",
+          "event_time_inferred": true,
+          "verify_note": "未见独立来源（外查 10-29；Google News 仅命中 AGIBOT Innovation Day 官方稿 https://agibot.com/news/ 与存量条目）",
+          "entities": [
+            {
+              "name": "智元机器人",
+              "type": "企业"
+            },
+            {
+              "name": "GO-3",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1094503618_129720",
+            "raw_ref": "reports/raw/2026-10-29-2100.json#candidates[55]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术 / 研究",
+      "items": [
+        {
+          "title": "Google 官方发布 Gemini 4 Carbon，首发只给网络安全防御方",
+          "meta": "Google 官方·2026-10-28 17:08 ｜ Reuters 2026-10-28 18:12",
+          "urls": [
+            "https://blog.google/products/gemini/gemini-4-carbon/",
+            "https://www.reuters.com/technology/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus/"
+          ],
+          "summary": "官方口径为编码与 agent 任务的显著提升＋长上下文＋网安专长；首发通过可信测试方/防御方渠道分批给，不是全量开放。Ars 同日标题直白：「你不能用」。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "AA 榜 59 分登顶（早场已述技术账），本期补的一手信息是「首发闸门」——Google 选择按用途而非按付费档放量，这在安全对齐史上少见，意味着 Carbon 的部分能力（漏洞发现/利用）被认为需要受控分发。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "闸门本身就是生意——谁能做「防御方资质」的合规背书与代理申请，谁就吃这波企业安全预算；国内等保/关基客户同理。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "产品发布",
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-10-28 17:08",
+          "event_time": "2026-10-28",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（Reuters 2026-10-28 18:12 同步报道：Google 发布网络安全方向的 Gemini 4 Carbon；Windows Central 10-28 21:13 称「目前只有网安防御方可用」; https://www.reuters.com/technology/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus/）",
+          "entities": [
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "Google DeepMind",
+              "type": "机构"
+            },
+            {
+              "name": "Gemini",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://blog.google/products/gemini/gemini-4-carbon/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Google 官方"
+          }
+        },
+        {
+          "title": "英伟达 20/30/40 系 GPU 隐藏算力被开源解锁：RTX 4090 张量吞吐 166→332 TFLOPS",
+          "meta": "机器之心Pro·2026-10-29 15:34 ｜ GitHub 2026-10-26",
+          "urls": [
+            "https://m.sohu.com/a/1094415272_129720",
+            "https://github.com/JustAResearcher/gpu-unlock-ada"
+          ],
+          "summary": "无需刷写固件、不换硬件，靠本地生成固件解锁 Ada 架构被限的张量核心指令通路；作者称 3090 Ti 提升约 80%，但明确提示可能损伤硬件。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "对推理侧是实打实的单位算力成本下降——一台 4090 机器跑本地模型的有效吞吐接近翻倍，等于把端侧自托管的 TCO 曲线整体下压，这与过去两周「本地够用论」实测潮同向。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "灰色但需求真实——租赁 4090 云算力的服务商成本模型会立刻重算；同时「解锁后稳定性/寿命」的检测与保单可能成为新的服务位。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 机器之心+GitHub 仓库直验",
+          "publish_time": "2026-10-29 15:34",
+          "event_time": "2026-10-26",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（GitHub API 直验：JustAResearcher/gpu-unlock-ada ★4,473/forks 572，描述「RTX 4090 张量解锁源码、固件本地生成」，pushed 2026-10-26；Tom's Hardware 2026-10-26 同步报道「近乎翻倍」; https://github.com/JustAResearcher/gpu-unlock-ada）",
+          "entities": [
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "RTX 4090",
+              "type": "产品"
+            },
+            {
+              "name": "JustAResearcher",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1094415272_129720",
+            "raw_ref": "reports/raw/2026-10-29-2100.json#candidates[99]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策 / 监管",
+      "items": [
+        {
+          "title": "特朗普政府向核电站提供 50 亿美元贷款，专供数据中心供电",
+          "meta": "36氪·2026-10-29 20:47 ｜ TechCrunch 2026-10-28 23:53",
+          "urls": [
+            "https://36kr.com/p/4046927069755655",
+            "https://techcrunch.com/2026/10/28/trump-doe-loans-5b-to-nuclear-plants-that-will-power-data-centers/"
+          ],
+          "summary": "美国能源部以贷款而非补贴形式，把重启/延寿中的核电产能锁定给 AI 数据中心，Constellation 为主要受益方。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "这是 AI 资本开支向能源侧外溢的最新一环——算力融资已在博通-OpenAI 私募信贷线上承压（SIG-20261008-0900-2），能源侧改用政府担保贷款接棒，风险从私人信贷转到纳税人表内。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "核电侧的门槛极高，但「数据中心电力调度与需求响应软件」是配套刚需，且客户只有几十家、单价高，适合小而精的团队。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易",
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+TechCrunch",
+          "publish_time": "2026-10-29 20:47",
+          "event_time": "2026-10-28",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（TechCrunch 2026-10-28 23:53 同步报道：DOE 向为数据中心供电的核电站提供 50 亿美元贷款；Bloomberg 2026-10-28 05:07 同报对 Constellation 的融资; https://techcrunch.com/2026/10/28/trump-doe-loans-5b-to-nuclear-plants-that-will-power-data-centers/）",
+          "entities": [
+            {
+              "name": "Constellation",
+              "type": "企业"
+            },
+            {
+              "name": "美国能源部",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4046927069755655",
+            "raw_ref": "reports/raw/2026-10-29-2100.json#candidates[4]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业 / 玩法",
+      "items": [
+        {
+          "title": "Alphabet Q3：营收 1,276 亿美元、云收入翻倍到 307 亿，但资本开支 514 亿美元把股价砸下约 10%",
+          "meta": "36氪·2026-10-29 19:19 ｜ CNBC 2026-10-29 00:00",
+          "urls": [
+            "https://36kr.com/p/4046813256062080",
+            "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html"
+          ],
+          "summary": "单季资本开支 514 亿美元、云业务同比翻倍，但搜索收入增速放缓叠加现金流承压，市场用脚投票。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "与 15:00 场已报的「AI 云大厂股价分化」是同一条线的量化落点——市场奖励克制、惩罚开支，Google 恰好是「花得最多、讲的故事最长」的一方。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "巨头 capex 见顶的预期一旦成立，最先受影响的是下游 GPU 租赁与推理转售价格；做 API 转售/算力套利的团队应提前准备「价格下行」的报价条款，而不是锁长约。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+CNBC",
+          "publish_time": "2026-10-29 19:19",
+          "event_time": "2026-10-29",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（CNBC 2026-10-29 00:00 同步报道：Alphabet 跌 10%，维持 2026 资本开支、预告 2027 显著增加；Reuters 同日「搜索增长放缓、现金消耗恶化」; https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html）",
+          "entities": [
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "Gemini",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4046813256062080",
+            "raw_ref": "reports/raw/2026-10-29-2100.json#candidates[37]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
+        },
+        {
+          "title": "Flapping Airplanes 拿 10 亿美元 A 轮：不做更大的模型，改学习机制来解「数据饥渴」",
+          "meta": "36氪·2026-10-29 19:09 ｜ TechCrunch 2026-10-21 15:00",
+          "urls": [
+            "https://36kr.com/p/4046761437156489",
+            "https://techcrunch.com/2026/10/21/flapping-airplanes-raises-1b-at-a-6b-valuation/"
+          ],
+          "summary": "融资由 Index 与 Lux 联合领投，投后 60 亿美元；公司主张下一代能力来自学习机制而非继续堆数据。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "「没有产品、成立一年、60 亿估值」是当下一级市场对「非 scaling 路线」给出的最高溢价之一——资本在给「另一条技术路线」买期权，而不是给收入买倍数。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "如果学习机制真的比数据量更有效，受影响最大的是靠数据护城河融资的行业模型公司；这个假设目前仍无公开复现证据。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+TechCrunch/Bloomberg",
+          "publish_time": "2026-10-29 19:09",
+          "event_time": "2026-10-21",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（TechCrunch 2026-10-21 15:00 同步报道：成立一年的 AI 实验室以 60 亿美元估值融资 10 亿美元，尚无产品; https://techcrunch.com/2026/10/21/flapping-airplanes-raises-1b-at-a-6b-valuation/）",
+          "entities": [
+            {
+              "name": "Flapping Airplanes",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4046761437156489",
+            "raw_ref": "reports/raw/2026-10-29-2100.json#candidates[40]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
+        },
+        {
+          "title": "SafeAgents：给编码 agent 的每一次工具调用加一道执行前检查的开源代理",
+          "meta": "Reddit r/LocalLLaMA·2026-10-29 20:05",
+          "urls": [
+            "https://www.reddit.com/r/LocalLLaMA/comments/1xii45s/safeagents_an_opensource_proxy_that_checks_every/"
+          ],
+          "summary": "以代理形式插在 CLI agent 与工具之间，对危险命令/越界路径做拦截，属于「不改进模型、只加护栏」的路线。- 📌 跟踪回访 SIG-20261009-1500-4（agent 商业准入）：Shopify 把 Shop Pay 接进卡组织智能体支付令牌，与 10-22 沃尔玛开放接口同向——「亚马逊挡、零售与卡组织欢迎」的分裂格局进一步固定，Amazon 侧正式条款仍未见披露。- 📌 跟踪回访 SIG-20261006-0900-1（双旗舰对撞）：Obsidian 3 泄露线索全部指向 Anthropic 未发布的 Fable 5.5，AA v5 榜上 Opus 5.5 以 58 分险胜 GPT-6 Astra、Carbon 59 分居首但编码 agent 指数仍落后 Opus 5.5（62 分）——官宣仍未兑现，等权重开放窗口。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "与 Anthropic、微软的 agent 治理叙事同向（SIG-20261009-0900-3）：企业愿意为「看得见的拦截」付钱，而不愿为「看不见的对齐」付钱——护栏层是做 agent 中间件最容易收费的位置。"
+            }
+          ],
+          "source_tier": "D",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源·社区发布未获独立报道",
+          "publish_time": "2026-10-29 20:05",
+          "verify_note": "未见独立来源（外查 10-29；Google News「SafeAgents proxy」0 命中）",
+          "entities": [
+            {
+              "name": "SafeAgents",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xii45s/safeagents_an_opensource_proxy_that_checks_every/",
+            "raw_ref": "reports/raw/2026-10-29-2100.json#candidates[28]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "Gemini 4 Carbon 的放量闸门",
+      "text": "（SIG-20261029-2100-1，check 2026-11-02）：首发只给网安防御方，盯是否扩到普通 API/付费档、定价是否延续 Argon 的 $2/$10 促销档。",
+      "sigId": "SIG-20261029-2100-1"
+    },
+    {
+      "lead": "Anthropic 的「模型公司→药研平台」转身",
+      "text": "（SIG-20261029-2100-2，check 2026-11-02）：Mithril 之后是否再收管线、S-1 生命科学条线是否给出可核的业务数字。",
+      "sigId": "SIG-20261029-2100-2"
+    },
+    {
+      "lead": "agent 商业准入",
+      "text": "Shopify 接入卡组织令牌是「入口战」的第二块拼图，下一站看 Amazon 是否被迫开白名单。",
+      "sigId": "SIG-20261009-1500-4"
+    },
+    {
+      "lead": "Beam 对照跑分",
+      "text": "本轮无第三方复现，但 GPU 解锁与端侧实测潮同向利好本地权重路线，check 顺延 11-01。",
+      "sigId": "SIG-20261006-0900-2"
+    }
+  ],
+  "sourceStatus": [
+    "- GitHub Trending：DOWN（curl 超时 25s 无响应，本期用 GitHub API 检索兜底，非连续失败）。"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-29-2100.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 117,
+    "matched": 7
+  }
+}

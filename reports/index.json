@@ -1,6 +1,32 @@
 {
-  "count": 90,
+  "count": 91,
   "reports": [
+    {
+      "id": "2026-10-29-2100",
+      "date": "2026-10-29",
+      "time": "21:00",
+      "title": "AI 情报 · 10-29 21:00 场",
+      "itemCount": 9,
+      "coverage": "2026-10-29 15:00 → 21:05（Asia/Shanghai，标准窗口）",
+      "note": "本日已报 09:00、15:00 两场，Gemini 4 Carbon 发布与 AA v5 榜单技术账已在早场收录，本期只取「官方原文首次进窗口」与未被覆盖的新线；OpenAI 返 API 额度 15:00 场已收，本期不重复",
+      "overview": [
+        "Google 官方《Gemini 4 Carbon: our next frontier model》首次进入抓取窗口，与早场中文转述拼成完整一手链路，网安与长程任务定位坐实。",
+        "Anthropic 在 S-1 之后的第一个动作是买公司：收购一个人的生物技术初创 Mithril，并启动自有药物项目。",
+        "Alphabet 财报把「AI 烧钱」写成股价事件：单日跌约 10%，资本开支维持不变、2027 还要显著加。",
+        "Shopify 把 Shop Pay 接进 Visa/万事达的智能体支付令牌，agent 直接结账从概念进入商户后台。",
+        "英伟达 20/30/40 系 GPU 的隐藏算力被开源工具解锁，RTX 4090 张量吞吐从 166 提到 332 TFLOPS。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 2,
+        "policy": 1,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 117,
+        "selected": 9
+      }
+    },
     {
       "id": "2026-10-29-1500",
       "date": "2026-10-29",
