@@ -1,6 +1,31 @@
 {
-  "count": 89,
+  "count": 90,
   "reports": [
+    {
+      "id": "2026-10-29-1500",
+      "date": "2026-10-29",
+      "time": "15:00",
+      "title": "AI 情报 · 10-29 15:00 场",
+      "itemCount": 11,
+      "coverage": "2026-10-29 09:00 → 2026-10-29 15:05（Asia/Shanghai）",
+      "note": "本日已报 09:00 场（Gemini 4 Carbon、微软账本、Anthropic 用量报表等）已去重，本场只留增量与午后新稿",
+      "overview": [
+        "OpenAI 把订阅用户直接导流成 API 客户：ChatGPT Pro/Business 每月最高返 500 美元 API 额度，数字与 Anthropic 三周前的规则几乎一一对应。",
+        "Gemini 4 Carbon 午后中文面继续深挖：AA 榜 59 分登顶靠的是复杂推理与长上下文，编码 agent 仍是短板，\"拿了第一但不卖给公众\"。",
+        "扩散语言模型正式杀进 Agent 主场：DiffuSpace Clover-35B-A3B 网页任务中位 1.52 秒，比 Jev 组合快一倍多。",
+        "蚂蚁开源 AntOmniEvo，把\"调 AI 系统\"本身交给 AI 7×24 跑；开源仓库一夜 ★1,214。",
+        "微软单季从 OpenAI 拿到 10 亿美元、占营收近 11%——\"竞争对手\"也是最大客户，这层结构比财报数字更值得看。"
+      ],
+      "sectionCounts": {
+        "product": 5,
+        "tech": 4,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": 128,
+        "selected": 11
+      }
+    },
     {
       "id": "2026-10-29-0900",
       "date": "2026-10-29",
