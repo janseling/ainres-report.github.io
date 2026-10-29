@@ -3,7 +3,7 @@
   "date": "2026-10-29",
   "time": "09:00",
   "title": "AI 情报 · 10-29 09:00 场",
-  "generatedAt": "2026-10-29T01:10:34.833Z",
+  "generatedAt": "2026-10-29T03:42:14.868Z",
   "coverage": "2026-10-28 21:00 → 2026-10-29 09:00（Asia/Shanghai）",
   "notes": [
     "窗口内 224 条候选，前半夜三季报与 Gemini 4 Carbon 占屏，国产稿以招聘/传闻为主"
@@ -174,8 +174,8 @@
           "confidence": "高",
           "confidence_note": "A源·官方原文＋双源佐证 TechCrunch、SiliconANGLE",
           "publish_time": "2026-10-28 14:58",
-          "event_time": "2026-10-28",
-          "event_time_inferred": true,
+          "event_time": "2026-10-28 23:00",
+          "event_time_inferred": false,
           "verify_note": "外部检索（TechCrunch 2026-10-28 23:00 北京同步报道：30B 模型可在单芯片上运行、支持 40 种语言并区分 8 位说话人，但只处理录音不支持直播流；https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/）",
           "entities": [
             {
