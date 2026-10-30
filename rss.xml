@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 30 Oct 2026 01:07:24 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 01:08:21 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-30 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-30-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-30-0900.html</guid>
+      <pubDate>Fri, 30 Oct 2026 01:00:00 GMT</pubDate>
+      <description>OpenAI 撤回 Pro 档降额并翻倍放量，Plus 用户原地不动——算力分配第一次公开按付费档划出「优先序列」。</description>
+    </item>
     <item>
       <title>AI 情报 · 10-29 21:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-29-2100.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-23-2100.html</guid>
       <pubDate>Fri, 23 Oct 2026 13:00:00 GMT</pubDate>
       <description>美国银行业开始批量封禁未核验 AI agent 访问客户账户（Reuters/Forbes/NYP 多源）——agent 准入战从电商打到银行账户层。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-23 15:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-23-1500.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-23-1500.html</guid>
-      <pubDate>Fri, 23 Oct 2026 07:00:00 GMT</pubDate>
-      <description>Anthropic 官方公布形式化验证战果：Claude 对 123 个开源库编译代码证明安全性质、狂写 1.8 亿行 Rocq 证明，把「万亿次测试」漏掉的漏洞扫了出来。</description>
     </item>
   </channel>
 </rss>
