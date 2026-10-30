@@ -3,7 +3,7 @@
   "date": "2026-10-30",
   "time": "21:00",
   "title": "AI 情报 · 10-30 21:00 场",
-  "generatedAt": "2026-10-30T15:43:12.520Z",
+  "generatedAt": "2026-10-30T17:40:58.004Z",
   "coverage": "2026-10-30 15:00 → 21:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00/15:00 场已报额度翻倍、XHEART X7 Ultra、Genie 4、Ling-3.1-flash 等，本场去重后聚焦「数学形式化 / 世界模型军备 / 模型家法与版权战场」"
@@ -53,7 +53,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 Reuters+TechCrunch",
-          "publish_time": "2026-10-30 20:06",
+          "publish_time": "2026-10-30 02:05",
           "event_time": "2026-10-29",
           "event_time_inferred": false,
           "verify_note": "外部检索（Reuters 2026-10-29 15:00 GMT 同步报道「Mistral AI publicly releases Large 4, targets cybersecurity users」；TechCrunch 2026-10-29 17:00 GMT 同报放出权重；https://www.reuters.com/technology/mistral-ai-publicly-releases-large-4-targets-cybersecurity-users-2026-10-29/）",
@@ -565,8 +565,8 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 OpenAI 官方+Reuters",
-          "publish_time": "2026-10-29 17:05",
-          "event_time": "2026-10-29",
+          "publish_time": "2026-10-30 18:53",
+          "event_time": "2026-10-29 17:05",
           "event_time_inferred": false,
           "verify_note": "外部检索（OpenAI 官方 2026-10-29 17:05 GMT 发布〈An updated Model Spec for more capable and beneficial AI〉；Reuters 18:47 GMT 同报；https://openai.com/index/updated-model-spec/）",
           "entities": [
@@ -613,9 +613,9 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 Wikimedia 官方+ForkLog",
-          "publish_time": "2026-10-30 09:00",
+          "publish_time": "2026-10-30 17:00",
           "event_time": "2026-10-30",
-          "event_time_inferred": false,
+          "event_time_inferred": true,
           "verify_note": "外部检索（Wikimedia Foundation 官方 2026-10-30 09:00 GMT 发布〈files to protect open knowledge in New York Times v OpenAI〉；ForkLog 11:12 GMT 同报；https://wikimediafoundation.org/）",
           "entities": [
             {
@@ -701,9 +701,9 @@
           ],
           "confidence": "中",
           "confidence_note": "B单源",
-          "publish_time": "2026-10-30 11:00",
+          "publish_time": "2026-10-30 19:00",
           "event_time": "2026-10-30",
-          "event_time_inferred": false,
+          "event_time_inferred": true,
           "verify_note": "未见独立来源（外查 10-30，同题仅 The Verge 本篇，其余为 10-15/16 辩论存量）",
           "entities": [
             {
