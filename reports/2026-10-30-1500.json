@@ -3,15 +3,15 @@
   "date": "2026-10-30",
   "time": "15:00",
   "title": "AI 情报 · 10-30 15:00 场",
-  "generatedAt": "2026-10-30T07:08:53.716Z",
+  "generatedAt": "2026-10-30T07:11:05.638Z",
   "coverage": "2026-10-30 09:00 → 15:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00 场已报 GPT-6.1 Terra 口碑、Genie 4、Ling-3.1-flash 等条目，本场去重后聚焦「额度返还 / 芯片与具身 / 资本与治理」"
   ],
   "itemCount": 14,
   "rawStats": {
-    "candidates": 115,
-    "selected": 12
+    "candidates": 104,
+    "selected": 14
   },
   "overview": [
     "OpenAI 连夜把 Pro/Business Premium 额度翻倍，撤销 9 月底的 Pro 200 减半计划，Plus 不变。",

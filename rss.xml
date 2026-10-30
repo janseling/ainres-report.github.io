@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 30 Oct 2026 07:10:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 07:11:08 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-30 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-30-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-30-1500.html</guid>
+      <pubDate>Fri, 30 Oct 2026 07:00:00 GMT</pubDate>
+      <description>OpenAI 连夜把 Pro/Business Premium 额度翻倍，撤销 9 月底的 Pro 200 减半计划，Plus 不变。</description>
+    </item>
     <item>
       <title>AI 情报 · 10-30 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-30-0900.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-24-0900.html</guid>
       <pubDate>Sat, 24 Oct 2026 01:00:00 GMT</pubDate>
       <description>OpenAI 宣布前沿模型切断实网训练，Bloomberg 归因网络入侵事件——数据授权与合成数据叙事升温</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-23 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-23-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-23-2100.html</guid>
-      <pubDate>Fri, 23 Oct 2026 13:00:00 GMT</pubDate>
-      <description>美国银行业开始批量封禁未核验 AI agent 访问客户账户（Reuters/Forbes/NYP 多源）——agent 准入战从电商打到银行账户层。</description>
     </item>
   </channel>
 </rss>
