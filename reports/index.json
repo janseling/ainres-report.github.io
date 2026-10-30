@@ -1,6 +1,32 @@
 {
-  "count": 91,
+  "count": 92,
   "reports": [
+    {
+      "id": "2026-10-30-0900",
+      "date": "2026-10-30",
+      "time": "09:00",
+      "title": "AI 情报 · 10-30 09:00 场",
+      "itemCount": 12,
+      "coverage": "2026-10-29 21:00 → 2026-10-30 09:05（Asia/Shanghai，标准窗口）",
+      "note": "窗口 211 条候选里 36氪 凌晨财经快讯占近七成，AI 线集中在 OpenAI 额度与开源权重；ChatGPT Pro 额度翻倍、Mistral Large 4 权重、奥特曼自曝新模型三条同日成组报道，按主线拆分，不重复收录",
+      "overview": [
+        "OpenAI 撤回 Pro 档降额并翻倍放量，Plus 用户原地不动——算力分配第一次公开按付费档划出「优先序列」。",
+        "Mistral 把万亿参数 Large 4 的权重放上 HuggingFace，主打「主权可控」，开源权重第一次正面咬住代码与网安场景。",
+        "奥特曼自曝一个「兴奋到两晚没睡」的新模型，并把它描述成能并行跑一万次的 agent 集群。",
+        "Reddit Q3 明确转向「登录才能看」，Reddit CEO 直说 Google AI Mode 不带来流量。",
+        "特朗普把进口机器人定性为国家安全威胁，但先谈贸易、暂不加税。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 3,
+        "policy": 1,
+        "industry": 4
+      },
+      "rawStats": {
+        "candidates": 211,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-10-29-2100",
       "date": "2026-10-29",
