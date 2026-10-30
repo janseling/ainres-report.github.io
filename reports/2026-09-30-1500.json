@@ -3,7 +3,7 @@
   "date": "2026-09-30",
   "time": "15:00",
   "title": "AI 情报 · 09-30 15:00 场",
-  "generatedAt": "2026-10-09T04:06:20.919Z",
+  "generatedAt": "2026-10-30T09:40:55.111Z",
   "coverage": "2026-09-29 21:47 → 2026-09-30 15:00（Asia/Shanghai；24h 窗口，含上期信源失效未及收录的回补）",
   "notes": [
     "信源状态见文末"
@@ -350,7 +350,7 @@
           ],
           "confidence": "高",
           "confidence_note": "36氪双稿+arXiv 第三方评测原文链",
-          "publish_time": "2026-09-30 13:20",
+          "publish_time": "2026-09-30 13:52",
           "verify_note": "外部检索（FT/Dealroom/Enera 同步报道：TypeSafe 的 Jev System One 决策模型走红，传估值冲 $100 亿、$10 亿融资洽谈）",
           "entities": [
             {
