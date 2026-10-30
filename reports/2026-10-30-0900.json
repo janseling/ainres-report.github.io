@@ -3,7 +3,7 @@
   "date": "2026-10-30",
   "time": "09:00",
   "title": "AI 情报 · 10-30 09:00 场",
-  "generatedAt": "2026-10-30T01:07:22.763Z",
+  "generatedAt": "2026-10-30T03:40:50.560Z",
   "coverage": "2026-10-29 21:00 → 2026-10-30 09:05（Asia/Shanghai，标准窗口）",
   "notes": [
     "窗口 211 条候选里 36氪 凌晨财经快讯占近七成，AI 线集中在 OpenAI 额度与开源权重；ChatGPT Pro 额度翻倍、Mistral Large 4 权重、奥特曼自曝新模型三条同日成组报道，按主线拆分，不重复收录"
@@ -180,6 +180,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 TechCrunch+Bloomberg",
           "publish_time": "2026-10-29 22:35",
+          "event_time": "2026-10-29 22:35",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Bloomberg 2026-10-29 同步报道：Wabi 融资 5500 万美元、估值 12.5 亿美元；PR Newswire 同日官方稿; https://www.bloomberg.com/）",
           "entities": [
             {
@@ -345,8 +347,8 @@
           "confidence": "高",
           "confidence_note": "A源·官方原文",
           "publish_time": "2026-10-29 21:37",
-          "event_time": "2026-10-29",
-          "event_time_inferred": true,
+          "event_time": "2026-10-29 21:37",
+          "event_time_inferred": false,
           "entities": [
             {
               "name": "IBM",
@@ -396,7 +398,7 @@
           ],
           "confidence": "高",
           "confidence_note": "C源·GitHub API 直验星数与推送时间",
-          "publish_time": null,
+          "publish_time": "2026-10-30",
           "verify_note": "外部检索（GitHub API 直验：三个仓库 pushed_at 均为 2026-10-29，星数分别为 50,073/8,153/6,018; https://api.github.com/repos/HKUDS/DeepTutor）",
           "entities": [
             {
