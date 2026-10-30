@@ -3,7 +3,7 @@
   "date": "2026-10-30",
   "time": "15:00",
   "title": "AI 情报 · 10-30 15:00 场",
-  "generatedAt": "2026-10-30T07:11:05.638Z",
+  "generatedAt": "2026-10-30T08:26:31.877Z",
   "coverage": "2026-10-30 09:00 → 15:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00 场已报 GPT-6.1 Terra 口碑、Genie 4、Ling-3.1-flash 等条目，本场去重后聚焦「额度返还 / 芯片与具身 / 资本与治理」"
@@ -54,7 +54,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+BleepingComputer",
           "publish_time": "2026-10-30 10:53",
-          "event_time": "2026-10-30",
+          "event_time": "2026-10-29 19:35",
           "event_time_inferred": true,
           "verify_note": "外部检索（BleepingComputer 2026-10-29 23:35 GMT 同步报道「OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut」; https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/）",
           "entities": [
