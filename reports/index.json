@@ -1,6 +1,32 @@
 {
-  "count": 92,
+  "count": 93,
   "reports": [
+    {
+      "id": "2026-10-30-1500",
+      "date": "2026-10-30",
+      "time": "15:00",
+      "title": "AI 情报 · 10-30 15:00 场",
+      "itemCount": 14,
+      "coverage": "2026-10-30 09:00 → 15:05（Asia/Shanghai）",
+      "note": "本日 09:00 场已报 GPT-6.1 Terra 口碑、Genie 4、Ling-3.1-flash 等条目，本场去重后聚焦「额度返还 / 芯片与具身 / 资本与治理」",
+      "overview": [
+        "OpenAI 连夜把 Pro/Business Premium 额度翻倍，撤销 9 月底的 Pro 200 减半计划，Plus 不变。",
+        "中国首个「大模型定义」车规芯片 XHEART X7 Ultra 量产：700 TOPS、内存带宽消耗降 80%。",
+        "破壳机器人把具身模型做成 RoboAPI，一句 prompt 零样本驱动陌生机械臂。",
+        "清华+智元 96 台真机群体经验学习，成功率 79.2%→98.3%（120 次测试）。",
+        "Thrive Holdings 以 153 亿美元全现金收购 ADT，AI 落地家庭安防入口。"
+      ],
+      "sectionCounts": {
+        "product": 5,
+        "tech": 4,
+        "policy": 2,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 115,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-10-30-0900",
       "date": "2026-10-30",
