@@ -3,15 +3,15 @@
   "date": "2026-10-30",
   "time": "21:00",
   "title": "AI 情报 · 10-30 21:00 场",
-  "generatedAt": "2026-10-30T13:06:02.949Z",
+  "generatedAt": "2026-10-30T13:06:41.618Z",
   "coverage": "2026-10-30 15:00 → 21:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00/15:00 场已报额度翻倍、XHEART X7 Ultra、Genie 4、Ling-3.1-flash 等，本场去重后聚焦「数学形式化 / 世界模型军备 / 模型家法与版权战场」"
   ],
-  "itemCount": 20,
+  "itemCount": 21,
   "rawStats": {
     "candidates": 136,
-    "selected": 19
+    "selected": 20
   },
   "overview": [
     "Axiom 多智能体 24 天跑通有限单群分类定理（CFSG）Lean 形式化，产出超 4000 万行代码库并修补原证明漏洞。",
@@ -934,6 +934,58 @@
             "source_id": "kr36",
             "source_name": "36氪"
           }
+        },
+        {
+          "title": "凛冬已至：AI 正在抛弃手机和 PC",
+          "meta": "36氪，2026-10-30 19:05",
+          "urls": [
+            "https://36kr.com/p/4048192204093959"
+          ],
+          "summary": "HBM 与服务器内存吃掉新增产能，消费级手机/PC 的内存与存储供给被挤压，AI 数据中心被形容成「吞噬内存的黑洞」，终端厂商开始面对减配或涨价。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "存储周期的定价权正在从终端客户转向算力客户，手机/PC 的 BOM 结构与毛利会被结构性压缩；反过来看，做存储模组与国产替代的标的短期受益。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "创业：终端侧更现实的机会在「省内存」——更小的 KV cache、端侧小模型、冷数据下沉，这些技术从优化项变成硬件成本项的直接对冲。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-30 19:05",
+          "event_time": "2026-10-30",
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 10-30，Google News 检索无同题报道）",
+          "entities": [
+            {
+              "name": "三星电子",
+              "type": "企业"
+            },
+            {
+              "name": "SK 海力士",
+              "type": "企业"
+            },
+            {
+              "name": "美光",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4048192204093959",
+            "raw_ref": "reports/raw/2026-10-30-2100.json#candidates[54]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
         }
       ]
     }
@@ -968,6 +1020,6 @@
     "evidence_file": null,
     "snapshot_dir": null,
     "raw_candidates": 125,
-    "matched": 19
+    "matched": 20
   }
 }

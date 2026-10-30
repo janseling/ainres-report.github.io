@@ -6,7 +6,7 @@
       "date": "2026-10-30",
       "time": "21:00",
       "title": "AI 情报 · 10-30 21:00 场",
-      "itemCount": 20,
+      "itemCount": 21,
       "coverage": "2026-10-30 15:00 → 21:05（Asia/Shanghai）",
       "note": "本日 09:00/15:00 场已报额度翻倍、XHEART X7 Ultra、Genie 4、Ling-3.1-flash 等，本场去重后聚焦「数学形式化 / 世界模型军备 / 模型家法与版权战场」",
       "overview": [
@@ -20,11 +20,11 @@
         "product": 3,
         "tech": 8,
         "policy": 4,
-        "industry": 5
+        "industry": 6
       },
       "rawStats": {
         "candidates": 136,
-        "selected": 19
+        "selected": 20
       }
     },
     {
