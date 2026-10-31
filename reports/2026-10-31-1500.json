@@ -3,7 +3,7 @@
   "date": "2026-10-31",
   "time": "15:00",
   "title": "AI 情报 · 10-31 15:00 场",
-  "generatedAt": "2026-10-31T07:10:02.811Z",
+  "generatedAt": "2026-10-31T07:42:05.019Z",
   "coverage": "2026-10-31 09:00 → 15:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00 场已报 Claude Ultra 改版、Apple 智能官网官宣、Suncatcher 卫星上线、Anthropic 垃圾级评级等条目；本场去重后聚焦「招股书里的隐性负债 / 算力融资的新担保结构 / 智能体安全与蒸馏」三条增量线。"
@@ -153,6 +153,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 TC+雅虎财经转道琼斯",
           "publish_time": "2026-10-31 09:20",
+          "event_time": "2026-10-31 01:20",
+          "event_time_inferred": false,
           "verify_note": "外部检索（雅虎财经转道琼斯 10-30 19:57 同步报道：NVIDIA in talks to back $30 billion Nscale data center project for Anthropic; https://finance.yahoo.com/news/update-market-chatter-nvidia-in-talks-to-back-30-billion-nscale-data-center-project-for-anthropic-113045721.html）",
           "entities": [
             {
