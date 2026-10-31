@@ -1,6 +1,33 @@
 {
-  "count": 95,
+  "count": 96,
   "reports": [
+    {
+      "id": "2026-10-31-1500",
+      "date": "2026-10-31",
+      "time": "15:00",
+      "title": "AI 情报 · 10-31 15:00 场",
+      "itemCount": 16,
+      "coverage": "2026-10-31 09:00 → 15:05（Asia/Shanghai）",
+      "note": "本日 09:00 场已报 Claude Ultra 改版、Apple 智能官网官宣、Suncatcher 卫星上线、Anthropic 垃圾级评级等条目；本场去重后聚焦「招股书里的隐性负债 / 算力融资的新担保结构 / 智能体安全与蒸馏」三条增量线。",
+      "overview": [
+        "Anthropic 招股书被算出近 9000 亿美元「未来隐性债务」，上市前的估值叙事被迫加一个负债科目。",
+        "OpenAI 把本轮融资目标下调 100 亿美元至约 200 亿、估值 1.25 万亿美元，抢跑 Anthropic 的窗口在收窄。",
+        "NVIDIA 正谈为 Nscale 西弗吉尼亚算力中心当「共同签字人」，芯片商开始给客户的地产融资背书。",
+        "清华提出 ActionOPD：在「动作语义」层蒸馏 Agent，绕开教师 Token 概率，小模型也能学会决策。",
+        "OpenDS-World 实测 12 款前沿模型做真实互联网深搜，最强准确率仅 39%——Agent 的「研究能力」被公开证伪。",
+        "苹果国行 Apple 智能确认 11-04 开发者测试、12 月随 iOS 27.3 正式放出，云端交给千问。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 5,
+        "policy": 2,
+        "industry": 5
+      },
+      "rawStats": {
+        "candidates": 113,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-10-31-0900",
       "date": "2026-10-31",
