@@ -1,0 +1,613 @@
+{
+  "id": "2026-10-31-2100",
+  "date": "2026-10-31",
+  "time": "21:00",
+  "title": "AI 情报 · 10-31 21:00 场",
+  "generatedAt": "2026-10-31T13:16:08.380Z",
+  "coverage": "2026-10-31 15:00 → 21:05（Asia/Shanghai）",
+  "notes": [
+    "本日第 4 场，早间与午后场已报条目不再重复；Anthropic RSS 旧文集中入窗，均已剔出"
+  ],
+  "itemCount": 10,
+  "rawStats": {
+    "candidates": 89,
+    "selected": 10
+  },
+  "overview": [
+    "Anthropic 把 Max 20x 改名 Ultra（仍 $200），并取消已认证 Ultra 账户的 5 小时限额，周总量仍受限",
+    "国行 Apple 智能官宣落地：11-04 开发者测试、12 月随 iOS 27.3 正式推送，云端外援换成阿里千问",
+    "奥特曼开炮「个人 PC 囤 DRAM 是糟蹋」，本地推理叙事与云端集中叙事的路线分歧被摆上台面",
+    "Anthropic 中期选举护栏上线：多步伪装竞选仍可能穿透单条请求的拒绝逻辑",
+    "CLASHarness 多 Agent 冲突基准、RWE-Bench 工程设计基准同日释出：能力评估开始向「真实工作流」迁移"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "Claude 顶配套餐改名 Ultra 并取消 5 小时限额",
+          "meta": "36氪·2026-10-31 09:15",
+          "urls": [
+            "https://36kr.com/p/4049021975886084"
+          ],
+          "summary": "原 Max 5x 改名 Max（$100/月），原 Max 20x 改名 Ultra（$200/月），已认证 Ultra 账户取消 5 小时滚动限额，新账户需自动验证后解除；每周总量上限保持不变，$100 的 Max 仍保留 5 小时限制。Claude Code 负责人 Boris Cherny 与 Alex Albert 已公开确认。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "这是订阅侧的「保价加量」——价格不动、把最贵用户的最高频痛点（写代码中途被 limit）先解决，本质是与 OpenAI 的额度战在同一价位段贴身缠斗。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对重度开发者来说，$200 档从「要掂量」变成「可长期挂后台」，代理类、常驻编码助手类产品可以重新按「不间断会话」设计定价与容量。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-31 09:15",
+          "verify_note": "未见独立来源（外查 10-31，GN/DDG 检索均无独立同报稿，检索通道部分不可用）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            },
+            {
+              "name": "Claude Code",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4049021975886084",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-31-2100/01_36kr.com_31d99a23.html",
+            "sha256": "986f4363e1eaeb423a73db2460e6e125f4a47f1eb4eedb4ec29eaff6c4bea0b5",
+            "fetched_at": "2026-10-31T13:14:31.375Z"
+          }
+        },
+        {
+          "title": "Anthropic 推出 2026 美国中期选举保障措施包",
+          "meta": "Anthropic 官方·2026-10-14",
+          "urls": [
+            "https://www.anthropic.com/news/2026-us-midterms"
+          ],
+          "summary": "官方委托 Future of Free Speech、ISD、McCain Institute 三家独立机构做红队，结论是单条有害请求能稳定拒绝，但把恶意竞选拆成多条看似无害的小任务时会漏；已加新分类器覆盖伪造社媒账号/假新闻站、外国国家行为体与选举基础设施攻防，并与 Democracy Works 打通官方投票信息。本条原收录日期为 10-28，按官方原文时间回标为 10-14。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "拆任务绕审查是通用攻击面，做面向平台的 AI 内容风控、竞选合规审计的团队可拿这份公开红队方法当产品基线。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "「单请求安全 ≠ 多步任务安全」再次被官方实测确认，agent 编排层的任务级策略检查是缺口，不是可选项。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-10-14 00:00",
+          "verify_note": "未见独立来源（外查 10-31；搜狐镜像自媒体转述，官方仓库与论文属主源自证非独立同报）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            },
+            {
+              "name": "Institute for Strategic Dialogue",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.anthropic.com/news/2026-us-midterms",
+            "raw_ref": "reports/raw/2026-10-31-2100.json#candidates[58]",
+            "source_id": "anthropic",
+            "source_name": "Anthropic"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-31-2100/02_www.anthropic.com_ad577cc4.html",
+            "sha256": "3d064c87103cc3488715110191dcc40c426669ba0eba74f7bd8211c308395744",
+            "fetched_at": "2026-10-31T13:14:32.250Z"
+          }
+        },
+        {
+          "title": "GitHub Trending：claude-mem 长期上下文层走红",
+          "meta": "GitHub · 2026-10-31 更新",
+          "urls": [
+            "https://github.com/thedotmack/claude-mem"
+          ],
+          "summary": "定位是「每个 agent 的持久记忆」：抓取会话过程、AI 压缩后把相关上下文注回下一次会话，明确列出兼容 Claude Code、OpenClaw、Codex、Gemini CLI、Copilot、OpenCode 等多家。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "记忆层已经是各家 agent 的公共补丁而非单一厂商功能，跨客户端的记忆中间件有真实需求；但 10 万星也意味着同质化竞争已经开始，差异化只能落在压缩质量与隐私边界。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "C源榜单·已外验仓库数据",
+          "publish_time": null,
+          "verify_note": "外部检索（GitHub API 2026-10-31 直验仓库 10.7 万星、当日仍有 push、建库 2025-08-31; https://api.github.com/repos/thedotmack/claude-mem）",
+          "entities": [
+            {
+              "name": "claude-mem",
+              "type": "产品"
+            },
+            {
+              "name": "Claude Code",
+              "type": "产品"
+            },
+            {
+              "name": "OpenClaw",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://github.com/thedotmack/claude-mem",
+            "raw_ref": "reports/raw/2026-10-31-2100.json#candidates[62]",
+            "source_id": "gh-trending",
+            "source_name": "GitHub Trending"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-31-2100/03_github.com_853c63f7.html",
+            "sha256": "d7fcde86388b04f6d2cdebbc1e40ee95c2dc5f49f9dc7e38b4534aefaacd20be",
+            "fetched_at": "2026-10-31T13:14:33.973Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术",
+      "items": [
+        {
+          "title": "CLASHarness：首个多 Agent 冲突基准发布，15 个前沿模型同场考核",
+          "meta": "新智元·搜狐同步·2026-10-31 20:32",
+          "urls": [
+            "https://m.sohu.com/a/1095477167_473283"
+          ],
+          "summary": "Google 与 Emory、USC、UChicago 等高校团队联合释出，含 600 个多轮可执行冲突任务、20 个真实领域、7,970 张 4K 视觉证据图、3,284 项必测检查点；关键真值只藏在 4K 截图里以逼模型取证。开源侧 Kimi K3 21.8%、DeepSeek V4 Pro 19.8% 反超多款闭源模型。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "「队友汇报 vs 实时监控截图」不一致的场景说明，agent 需要强制以真实状态源为准的仲裁层，而不是信任子 agent 的文字结论。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源级自媒体转述，未见独立同报",
+          "publish_time": "2026-10-31 20:32",
+          "verify_note": "未见独立来源（外查 10-31；搜狐镜像自媒体转述，官方仓库与论文属主源自证非独立同报）",
+          "entities": [
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "Kimi K3",
+              "type": "产品"
+            },
+            {
+              "name": "DeepSeek V4 Pro",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1095477167_473283",
+            "raw_ref": "reports/raw/2026-10-31-2100.json#candidates[1]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-31-2100/04_m.sohu.com_de4f7dab.html",
+            "sha256": "7c84317291df23d563688fcfc5e7f741b85ac65842541f9a061b4a77fd1a07d5",
+            "fetched_at": "2026-10-31T13:14:34.145Z"
+          }
+        },
+        {
+          "title": "RWE-Bench 揭穿工程设计短板：最强 GPT-6 Astra 仅 37%",
+          "meta": "新智元·搜狐同步·2026-10-31 20:32",
+          "urls": [
+            "https://m.sohu.com/a/1095477614_473283"
+          ],
+          "summary": "Xplore AI 于 10-27 发布，20 道真实工程题（机械 9/航空 6/电子 5），要求模型用 CadQuery、Gmsh、CalculiX 自己建模、划网格、做有限元分析，由物理求解器逐项判分。Astra 37%、Opus 5.5 29%、Sol 25%，其余近乎全零；每题最多给 24 小时，模型平均 2~3 小时就交卷。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "CAE/CAD 垂直 agent 是明显的空白带——题目门槛就是行业经验，谁掌握软件接口与工程校验回路，谁就有议价权。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "速度快但分低，说明模型在「自认为做完」和「收敛到可交付」之间缺乏自我验收，长任务需要外部求解器当裁判。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源级自媒体，榜单方有利益关联",
+          "publish_time": "2026-10-31 20:32",
+          "event_time": "2026-10-27",
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 10-31；搜狐镜像自媒体转述，官方仓库与论文属主源自证非独立同报）",
+          "entities": [
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "Claude Opus 5.5",
+              "type": "产品"
+            },
+            {
+              "name": "Xplore AI",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1095477614_473283",
+            "raw_ref": "reports/raw/2026-10-31-2100.json#candidates[0]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-31-2100/06_m.sohu.com_2bfc7142.html",
+            "sha256": "f3efc081f935076a35bc6dbe1981e2fcabd385bd04aaaff159875c395a7dca0f",
+            "fetched_at": "2026-10-31T13:14:34.609Z"
+          }
+        },
+        {
+          "title": "AI 真实工程设计能力大排行出炉，多模型零分",
+          "meta": "新智元·搜狐同步·2026-10-31 20:32",
+          "urls": [
+            "https://m.sohu.com/a/1095477614_473283"
+          ],
+          "summary": "成本数据值得单看：GPT-6.1 Sol 每题约 $10、Astra 与 Opus 5.5 约 $58、Claude Fable 5.1 近 $98 却只过 7%；若每题允许 5 次、成功一次即算，Opus 5.5 可到 70% 反超 Astra 的 60%。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "按「单次尝试」计价的工程 agent 会被重试成本吃穿，按「交付验收」计价才有毛利空间——这与 Anthropic 同日改订阅限额是同一条逻辑的两面。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源级自媒体，样本小置信区间重叠",
+          "publish_time": "2026-10-31 20:32",
+          "verify_note": "未见独立来源（外查 10-31；搜狐镜像自媒体转述，官方仓库与论文属主源自证非独立同报）",
+          "entities": [
+            {
+              "name": "Claude Fable 5.1",
+              "type": "产品"
+            },
+            {
+              "name": "Gemini 4 Argon",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1095477614_473283",
+            "raw_ref": "reports/raw/2026-10-31-2100.json#candidates[0]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-31-2100/06_m.sohu.com_2bfc7142.html",
+            "sha256": "f3efc081f935076a35bc6dbe1981e2fcabd385bd04aaaff159875c395a7dca0f",
+            "fetched_at": "2026-10-31T13:14:34.609Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业·玩法",
+      "items": [
+        {
+          "title": "奥特曼：把 DRAM 装在个人 PC 里是糟蹋，应优先给 AI 数据中心",
+          "meta": "36氪/机器之心·2026-10-31 16:07",
+          "urls": [
+            "https://36kr.com/p/4049467472493065"
+          ],
+          "summary": "在 Cheeky Pint 播客里他说「让每个人把全球有限的 DRAM 闲置在自己电脑里、使用率只有 5%，非常糟糕」；同场还谈到 AI 把漏洞发现能力推到互联网代码面难以承受的程度、沙箱只能有限有效并坚持叫 agent teams 而非 swarms。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "这是为闭源云端商业模式的公开辩护，与消费级硬件的内存涨价直接对撞；内存定价权向数据中心倾斜的判断，会顺着上游晶圆产能传导到整机价格。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "本地推理创业者在舆论场上的对手不是算力，而是「集中更高效」的主流叙事；做本地栈的必须给出云端替代不了的场景（隐私、离线、低延迟），否则难讲价。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-31 16:07",
+          "event_time": "2026-10-30",
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 10-31；GN/DDG 检索无独立同报稿，检索通道部分不可用，仅见中文转载）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Sam Altman",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4049467472493065",
+            "raw_ref": "reports/raw/2026-10-31-2100.json#candidates[43]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-31-2100/07_36kr.com_66613cc1.html",
+            "sha256": "eebbd94d0241af614cef1ef05460bcef6a3650d03bef1ee95a1fd809b08e59bf",
+            "fetched_at": "2026-10-31T13:14:34.787Z"
+          }
+        },
+        {
+          "title": "国行 Apple 智能官宣，云端能力由阿里千问承接",
+          "meta": "36氪/爱范儿·2026-10-31 09:13",
+          "urls": [
+            "https://36kr.com/p/4049055297436164"
+          ],
+          "summary": "11-04 起随 iOS 27.3 开发者测试版测试，12 月正式版面向中国用户推送；首波仅 iPhone（15 Pro 及后续），含写作工具、照片消除与自然语言检索、智绘表情、实时翻译、视觉智能、通知摘要。架构为「苹果自研 AFM 端侧打底 + 千问云端扩展」，用户需授权才转交。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "与海外版接 ChatGPT 的路径一致，中国市场的云端入口交给了阿里，等于给千问一个系统级的分发位；对国内其他模型厂商是通道层面的劣势。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "系统级写作与视觉入口被锁死后，第三方 App 的差异化只剩「深度工作流」；围绕 Siri/视觉智能做扩展层的小工具，窗口期大约到 iOS 27.3 正式推送。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-10-31 09:13",
+          "verify_note": "未见独立来源（外查 10-31；GN/DDG 检索无独立同报稿，检索通道部分不可用）",
+          "entities": [
+            {
+              "name": "Apple",
+              "type": "企业"
+            },
+            {
+              "name": "Apple Intelligence",
+              "type": "产品"
+            },
+            {
+              "name": "阿里通义千问",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4049055297436164",
+            "raw_ref": "reports/raw/2026-10-31-2100.json#candidates[52]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-31-2100/08_36kr.com_4ffc5bc1.html",
+            "sha256": "5169411710d0c8f3f50597a4c485a263b471691532f50519cbf553cc77f151e7",
+            "fetched_at": "2026-10-31T13:14:34.983Z"
+          }
+        },
+        {
+          "title": "电科金仓发布 KES AI 数据库：把语义层、向量与权限一起塞进库内",
+          "meta": "36氪·2026-10-31 19:52",
+          "urls": [
+            "https://36kr.com/p/4049722853545097"
+          ],
+          "summary": "10-30 在北京发布，核心主张是「数据不出库」：库内维护业务语义、集成 ONNX Runtime 在 SQL 里做向量生成与检索、权限脱敏审计统一生效；实测 1 亿条 768 维向量 98% 召回下，索引与检索峰值内存开销比业界降低 95.4%、延迟降低 80%。配套 KES MCP 与 Agent Skills 对接主流 agent 框架。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "RAG 的「抽数据出库」链路一直是政企合规的卡点，库内语义 + 库内向量是这一批信创客户的刚性需求，交付与迁移服务存在可做的生意。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "内存与延迟两个数字来自厂商自测，未披露基线，参考价值需第三方复现。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·厂商发布口径",
+          "publish_time": "2026-10-31 19:52",
+          "event_time": "2026-10-30",
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 10-31；厂商发布会口径，独立同报未检索到）",
+          "entities": [
+            {
+              "name": "电科金仓",
+              "type": "企业"
+            },
+            {
+              "name": "KES AI数据库",
+              "type": "产品"
+            },
+            {
+              "name": "中国人民大学",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4049722853545097",
+            "raw_ref": "reports/raw/2026-10-31-2100.json#candidates[11]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-31-2100/09_36kr.com_16634332.html",
+            "sha256": "02206b5d93b453a5a7a5091d6522db28709b9b178a8e25e4dd9e3d2aa0b0d17f",
+            "fetched_at": "2026-10-31T13:14:35.199Z"
+          }
+        },
+        {
+          "title": "趋境科技 B 轮超 13 亿元，联合智谱、摩尔线程推国产异构 Token 工厂",
+          "meta": "新智元·搜狐同步·2026-10-31 20:32",
+          "urls": [
+            "https://m.sohu.com/a/1095477093_473283"
+          ],
+          "summary": "在 2026 GAI+C 大会上发布「国产异构推理高品质 AI Token 工厂」，三项技术为国产 PD 分离异构协同、异构 KV Cache 转换、异构算力融合；本轮募资超 13 亿元，年内累计 24 亿元，公司称日均 Token 产量半年增长超十倍。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "资本在押注「把非先进算力榨出可用 Token」这一层，逻辑与奥特曼「集中更高效」相反——卖点是让受限的国产卡也能接住长上下文生意。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "长上下文推理（平均 110K、最长 200K）是真实需求，推理加速层对做 agent 应用的团队是可外采的降本项，但要先验「性价比超过清一色先进算力」这一基线。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源级自媒体转述厂商口径",
+          "publish_time": "2026-10-31 20:32",
+          "event_time": "2026-10-31",
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 10-31；厂商发布会口径，自媒体转述，独立同报未检索到）",
+          "entities": [
+            {
+              "name": "趋境科技",
+              "type": "企业"
+            },
+            {
+              "name": "智谱",
+              "type": "企业"
+            },
+            {
+              "name": "摩尔线程",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1095477093_473283",
+            "raw_ref": "reports/raw/2026-10-31-2100.json#candidates[2]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-10-31-2100/10_m.sohu.com_2a4de0e6.html",
+            "sha256": "a5139db02072764ee308803ad4410cdfb97ec32ad4b53e33871b15b7fea5eda4",
+            "fetched_at": "2026-10-31T13:14:35.387Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "Ultra 取消 5 小时限额后，OpenAI 是否在 $200 档对等让利",
+      "text": "（SIG-20261031-2100-1，check 2026-11-04）：盯 OpenAI 订阅页与额度政策变化",
+      "sigId": "SIG-20261031-2100-1"
+    },
+    {
+      "lead": "国行 Apple 智能 11-04 测试版的千问调用边界",
+      "text": "（SIG-20261031-2100-2，check 2026-11-06）：盯实际可用功能清单与第三方 App 受影响面",
+      "sigId": "SIG-20261031-2100-2"
+    },
+    {
+      "lead": "CLASHarness 是否被主流 agent 框架采纳为回归基准",
+      "text": "（SIG-20261031-2100-3，check 2026-11-07）：盯 GitHub 引用与厂商评测引用",
+      "sigId": "SIG-20261031-2100-3"
+    },
+    {
+      "lead": "奥特曼「内存优先给数据中心」论调后的内存定价与本地推理舆论反扑",
+      "text": "（SIG-20261031-2100-4，check 2026-11-05）：盯 DRAM 合同价与主要本地推理厂商回应",
+      "sigId": "SIG-20261031-2100-4"
+    }
+  ],
+  "sourceStatus": [
+    "- openai：本次 DOWN（HTTP 403），连续失败 1 期；渲染兜底未取到新文，需下期复验",
+    "- hn：本次 FALLBACK（HTTP 502，走 Algolia 兜底），连续失败 1 期",
+    "- arxiv：本次 DOWN（curl 超时，1.34MB 仅收到 1.10MB），连续失败 1 期",
+    "- 搜狐三镜像：解析丢失 4/4/3 条（parse_loss），作者页噪音条目需人工过滤"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-10-31-2100.json",
+    "evidence_file": null,
+    "snapshot_dir": "archives/2026-10-31-2100/",
+    "raw_candidates": 74,
+    "matched": 9
+  }
+}

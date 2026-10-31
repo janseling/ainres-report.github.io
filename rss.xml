@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 31 Oct 2026 09:41:22 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 13:16:08 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 10-31 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-10-31-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-31-2100.html</guid>
+      <pubDate>Sat, 31 Oct 2026 13:00:00 GMT</pubDate>
+      <description>Anthropic 把 Max 20x 改名 Ultra（仍 $200），并取消已认证 Ultra 账户的 5 小时限额，周总量仍受限</description>
+    </item>
     <item>
       <title>AI 情报 · 10-31 15:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-10-31-1500.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-25-1500.html</guid>
       <pubDate>Sun, 25 Oct 2026 07:00:00 GMT</pubDate>
       <description>SK 海力士撤回 Solidigm 美股 IPO：原定「美国史上最大半导体 IPO 之一」（募 100~150 亿美元/最高约 1,500 亿美元）79 天告吹</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-25 09:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-25-0900.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-25-0900.html</guid>
-      <pubDate>Sun, 25 Oct 2026 01:00:00 GMT</pubDate>
-      <description>Kimi K3.1 Pro 后续：开放权重定档 11-04，三家海外媒体同报其裁掉网络攻击训练数据以对齐出口管制</description>
     </item>
   </channel>
 </rss>
