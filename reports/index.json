@@ -1,6 +1,32 @@
 {
-  "count": 94,
+  "count": 95,
   "reports": [
+    {
+      "id": "2026-10-31-0900",
+      "date": "2026-10-31",
+      "time": "09:00",
+      "title": "AI 情报 · 10-31 09:00 场",
+      "itemCount": 12,
+      "coverage": "2026-10-30 21:00 → 2026-10-31 09:05（Asia/Shanghai）",
+      "note": "",
+      "overview": [
+        "Claude 订阅改版：Max 20x 更名 Ultra、取消 5 小时单次限额、月赠 API 额度翻倍至 200 美元。",
+        "FT 口径：信用机构拟给 Anthropic 高「垃圾级」评级，IPO 前融资成本承压。",
+        "苹果中国官网宣布 iOS 27.3 引入 Apple Intelligence，国行 Siri 由中国区模型伙伴承接。",
+        "四大厂商背书 AI 爬虫 opt-out 统一开关；DoorDash 自曝第三方 agent 至今仅「数百单」。",
+        "Anthropic 在 Cursor 市场的 VS Code 扩展被植入后门前门，带验证徽章分发近 12 小时。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 2,
+        "policy": 1,
+        "industry": 5
+      },
+      "rawStats": {
+        "candidates": 194,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-10-30-2100",
       "date": "2026-10-30",
