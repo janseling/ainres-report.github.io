@@ -3,7 +3,7 @@
   "date": "2026-10-30",
   "time": "09:00",
   "title": "AI 情报 · 10-30 09:00 场",
-  "generatedAt": "2026-10-30T03:40:50.560Z",
+  "generatedAt": "2026-10-31T01:40:34.321Z",
   "coverage": "2026-10-29 21:00 → 2026-10-30 09:05（Asia/Shanghai，标准窗口）",
   "notes": [
     "窗口 211 条候选里 36氪 凌晨财经快讯占近七成，AI 线集中在 OpenAI 额度与开源权重；ChatGPT Pro 额度翻倍、Mistral Large 4 权重、奥特曼自曝新模型三条同日成组报道，按主线拆分，不重复收录"
@@ -126,7 +126,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 TechCrunch+SiliconANGLE/ZDNET",
-          "publish_time": "2026-10-29 25:00",
+          "publish_time": "2026-10-29 22:51",
           "event_time": "2026-10-29 22:51",
           "event_time_inferred": false,
           "verify_note": "外部检索（SiliconANGLE 2026-10-29 同步报道：Mistral 发布 Large 4 开放权重，为企业提供「主权控制」；The New Stack 同日称其代码任务领先 GLM-5.3 一分; https://siliconangle.com/）",
