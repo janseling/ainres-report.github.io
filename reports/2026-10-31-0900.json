@@ -3,7 +3,7 @@
   "date": "2026-10-31",
   "time": "09:00",
   "title": "AI 情报 · 10-31 09:00 场",
-  "generatedAt": "2026-10-31T01:03:22.169Z",
+  "generatedAt": "2026-10-31T03:42:45.293Z",
   "coverage": "2026-10-30 21:00 → 2026-10-31 09:05（Asia/Shanghai）",
   "notes": [],
   "itemCount": 12,
@@ -387,7 +387,7 @@
           ],
           "confidence": "中",
           "confidence_note": "B单源",
-          "publish_time": "2026-10-30 16:53",
+          "publish_time": "2026-10-30 18:06",
           "verify_note": "未见独立来源（外查 10-31；HN-Algolia 无同题）",
           "entities": [
             {
@@ -496,7 +496,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 Ars+TC",
-          "publish_time": "2026-10-30 19:30",
+          "publish_time": "2026-10-30 18:09",
           "verify_note": "外部检索（TechCrunch 2026-10-30 13:54 UTC 同报，并称 DoorDash 对第三方 agent 厂商保持开放；https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents）",
           "entities": [
             {
@@ -544,7 +544,9 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 Ars+DoublePulsar",
-          "publish_time": "2026-10-30 21:09",
+          "publish_time": "2026-10-30 18:13",
+          "event_time": "2026-10-30 18:03",
+          "event_time_inferred": false,
           "verify_note": "外部检索（HN 2026-10-30 10:22 UTC 399 分收录 DoublePulsar 一手分析，标题即「以验证账号投递远控木马」；https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2）",
           "entities": [
             {
