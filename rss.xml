@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 01 Nov 2026 07:13:11 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 09:41:35 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-01 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-01-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-01-1500.html</guid>
+      <pubDate>Sun, 01 Nov 2026 07:00:00 GMT</pubDate>
+      <description>OpenAI 把新一轮融资目标从 300 亿美元砍到 200 亿、估值从 1.4 万亿降到 1.25 万亿，实收承诺仅约 110 亿美元。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-01 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-01-0900.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-26-0900.html</guid>
       <pubDate>Mon, 26 Oct 2026 01:00:00 GMT</pubDate>
       <description>Kimi 为 K3.1 Pro 限流致歉：全员重置订阅额度、补偿 25%，称已优化模型调用</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-25 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-25-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-25-2100.html</guid>
-      <pubDate>Sun, 25 Oct 2026 13:00:00 GMT</pubDate>
-      <description>数学界对 OpenAI「无 Siegel 零点」证明的连锁跟进落地：arXiv 三篇 + 牛津 Ben Green 用 GPT-6 Astra「边聊边证」出 5 页变体</description>
     </item>
   </channel>
 </rss>
