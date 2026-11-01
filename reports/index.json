@@ -1,6 +1,32 @@
 {
-  "count": 99,
+  "count": 100,
   "reports": [
+    {
+      "id": "2026-11-01-2100",
+      "date": "2026-11-01",
+      "time": "21:00",
+      "title": "AI 情报 · 11-01 21:00 场",
+      "itemCount": 12,
+      "coverage": "2026-11-01 15:00 → 21:12（Asia/Shanghai）",
+      "note": "本日 09:00 / 15:00 场已报项不再重复（Claude Code 游戏复刻规则、OpenAI 融资与额度池、Project Suncatcher 等）；本场主线：订阅与算力的「账本重算」",
+      "overview": [
+        "Anthropic 把订阅改名 Max/Ultra，已激活的 Ultra 账户解除 5 小时窗口限制。",
+        "腾讯汤道生谈 WorkBuddy：AI 办公已跑通，商业化先养产品与伙伴，不做收入冲刺。",
+        "蚂蚁灵光 2.0 实测：打通支付宝/钉钉/飞书/米家，卡点从模型能力变成跨平台权限与责任。",
+        "DeepSeek 公布 Super-agent 设计：Router+Worker 双层 + 异步 ReAct，正面解决「人只能盯 3~5 个会话」。",
+        "Anthropic 招股书：Q2 营收 115.55 亿美元、营业利润 9.74 亿，账面净亏 807 亿来自可转债公允价值。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 5,
+        "policy": 1,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 88,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-11-01-1500",
       "date": "2026-11-01",
