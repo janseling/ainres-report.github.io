@@ -1,0 +1,529 @@
+{
+  "id": "2026-11-01-0900",
+  "date": "2026-11-01",
+  "time": "09:00",
+  "title": "AI 情报 · 11-01 09:00 场",
+  "generatedAt": "2026-11-01T01:14:38.476Z",
+  "coverage": "2026-10-31 21:00 → 2026-11-01 09:05（Asia/Shanghai）",
+  "notes": [
+    "本场次候选 136 条（Reddit 占 112 条，社区噪音为主），B 源有效稿仅 6 条"
+  ],
+  "itemCount": 8,
+  "rawStats": {
+    "candidates": 150,
+    "selected": 8
+  },
+  "overview": [
+    "OpenAI 新一轮融资目标从 3000 亿美元下调至 2000 亿，首关金额更低，FT/WSJ 口径指向大投资人态度转冷。",
+    "DeepSeek Harness 团队放出 Super-agent 架构探索：Router+Worker、事件触发、无人 @ 也主动修 Bug。",
+    "GPT-6 Astra 用 100 分钟推出 38 年无解的 Sompolinsky 模型完整李雅普诺夫谱解析解，Claude Opus 5.5 负责翻译收尾。",
+    "OpenAI 修掉 ChatGPT HTML 预览的链式越权漏洞（可窃取任意登录用户数据），仅付 5000 美元赏金。",
+    "Binance 追回 90% 被盗的 63 亿美元资产，周日恢复提现；xAI 数据中心排污诉讼被法官允许继续。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "OpenAI 融资目标缩水：3000 亿→2000 亿美元，首关更低",
+          "meta": "TechCrunch·2026-10-31 16:12 UTC",
+          "urls": [
+            "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round"
+          ],
+          "summary": "FT 称目标已从 3000 亿美元（1.4 万亿估值档）降至 2000 亿，首关金额更低，领投为阿联酋投资团；WSJ 补充已锁定 110 亿、部分大型投资人「反应冷淡」。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "这是今年 AI 叙事里最硬的反向信号——此前口径是「估值一路抬、认购超额」，现在变成「目标先砍三分之一、首关再打折」。结合同日市场对 AI 基建开支的抛售（见本期信号），说明卖方定价权从模型公司转向资金方。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对创业者的含义不是「OpenAI 要完」，而是「便宜算力/便宜 API 的窗口期可能更长」——头部若被迫收紧烧钱节奏，推理侧降价与生态补贴会继续；反过来，靠转售 OpenAI 额度套利的中间层会先受挤压。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源转述 FT/WSJ",
+          "publish_time": "2026-11-01 00:12",
+          "verify_note": "未见独立来源（外查 11-01；web_search provider 不可用，GN 多次空返回，正文内引 FT 周五报道＋WSJ 跟进）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "FT",
+              "type": "机构"
+            },
+            {
+              "name": "WSJ",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round",
+            "raw_ref": "reports/raw/2026-11-01-0900.json#candidates[93]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-01-0900/01_techcrunch.com_c361ea6e.html",
+            "sha256": "eab0e3a15082711afc08acc2795646cc63414c74c1d8feb91dcc6c2432e09116",
+            "fetched_at": "2026-11-01T01:14:54.862Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术进展",
+      "items": [
+        {
+          "title": "DeepSeek 发布 Super-agent 架构探索：Router+Worker 双层，无人 @ 也能主动修 Bug",
+          "meta": "爱范儿·2026-10-31 13:59 UTC",
+          "urls": [
+            "https://www.ifanr.com/1687026"
+          ],
+          "summary": "官方技术文章《Super-agent 设计探索》：Router 持续在线统一接收群聊/GitHub/邮件事件并分派，Worker 独立上下文执行并汇报；两级过滤（规则筛＋模型判）决定是否介入；已内部自用，群聊反馈问题可自动复现并提 PR。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "「Session 应成为系统内部细节」是本条真正的判断——它把 agent 的产品单位从会话换成「常驻团队」，谁先定义事件→订阅→汇报这套调度协议，谁就握住多 agent 的中间件位。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "这条给创业者的直接机会是「Router 侧的能力差」——一个只会派活的弱模型也能胜任 Router，说明调度层的价值不在模型而在权限、审计、跨平台连接器；这正是中小团队能做的生意。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源转述官方技术文章，官方 news 页未见同题",
+          "publish_time": "2026-10-31 21:59",
+          "verify_note": "未见独立来源（外查 11-01；https://deepseek.com/news 最新止于 10-29，无同题页）",
+          "entities": [
+            {
+              "name": "DeepSeek",
+              "type": "企业"
+            },
+            {
+              "name": "DeepSeek Harness",
+              "type": "产品"
+            },
+            {
+              "name": "Super-agent",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.ifanr.com/1687026",
+            "raw_ref": "reports/raw/2026-11-01-0900.json#candidates[118]",
+            "source_id": "ifanr",
+            "source_name": "爱范儿"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-01-0900/02_www.ifanr.com_51a9c25d.html",
+            "sha256": "1b9eec692f99080b26398ed564cf19dff29ad2b82fb18658df996440fffb688d",
+            "fetched_at": "2026-11-01T01:14:55.028Z"
+          }
+        },
+        {
+          "title": "GPT-6 Astra 用 100 分钟推出 38 年悬案的完整解析李雅普诺夫谱，Claude Opus 5.5 收尾翻译",
+          "meta": "新智元(搜狐同步)·2026-10-31 23:52 UTC",
+          "urls": [
+            "https://m.sohu.com/a/1095589866_473283"
+          ],
+          "summary": "理论神经科学家 David Clark 把 Sompolinsky 1988 模型的「完整谱解析解」喂给 GPT-6 Astra（Max 模式），AI 独立运算 100 分钟后给出推导：先做降维移位借最小范数解，再用「前向场＋后向场」的时间双向动力学，最后以空腔方法压缩为单点自洽方程；Claude Opus 5.5 协助把「外星数学」翻成人类可读证明，并重现原论文结果。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "关键不在「AI 会证明」，而在「AI 用了人类不用的一招」——把最小范数解写成正则化极限下的双向场，这是把物理直觉当计算捷径用。意味着后续理论科学的工作流变成「AI 先出粗解、人类做翻译与验证」。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "这是 OpenAI「军令状」叙事的最强续篇（连续三周数学/物理产出），对 Anthropic 的 IPO 定价是侧面压力：算力换科学成果的转化率一旦被市场认账，前沿模型的估值锚就从「token 收入」挪向「科研产能」。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源＋arXiv 原论文直验",
+          "publish_time": "2026-11-01 07:52",
+          "verify_note": "外部检索（arXiv 直验：arXiv:2610.12426《Lyapunov spectrum of random neural networks》作者 David G. Clark，2026-10-08 提交; https://arxiv.org/abs/2610.12426）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "Claude Opus 5.5",
+              "type": "产品"
+            },
+            {
+              "name": "David G. Clark",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1095589866_473283",
+            "raw_ref": "reports/raw/2026-11-01-0900.json#candidates[5]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-01-0900/03_m.sohu.com_cf2d23f5.html",
+            "sha256": "e860ebf55b79233487eb9074d1d4d70ebb7148ec79b2c7f4c3d2f5067ce6b394",
+            "fetched_at": "2026-11-01T01:14:55.264Z"
+          }
+        },
+        {
+          "title": "ChatGPT 账号可被一键接管：HTML 预览沙箱逃逸链条曝光，赏金仅 5000 美元",
+          "meta": "Simon Willison·2026-10-31 23:15 UTC",
+          "urls": [
+            "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts"
+          ],
+          "summary": "Parameter Labs 发现：MathLive 虚拟键盘的 postMessage 接收端用了 innerHTML，任意沙箱 iframe 都能注入 HTML；再借 YouTube oEmbed 反射脚本绕过 CSP，最终可在 ChatGPT 页面里执行 JS，读取隐私数据并外带。用户只要点开一个分享链接即中招，OpenAI 已封堵并付 5000 美元赏金。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "这是「artifact 类产品」的通用风险模型——第三方 SDK 的消息接收端一旦用 innerHTML，沙箱隔离等于零。任何做 AI 生成小应用/预览渲染的产品，验收清单里必须加「跨 iframe 消息来源白名单」。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对安全创业是明确需求信号：AI 应用的 CSP 与沙箱配置审计，几乎没人做，但每家都在踩；5000 美元赏金本身就是市场定价的错误——同类漏洞的第三方审计报价会远高于此。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源转述 Parameter Labs 研究，OpenAI 已修复未公开发文",
+          "publish_time": "2026-10-31 23:15",
+          "verify_note": "未见独立来源（外查 11-01；GN 查询多次空返回，OpenAI 安全公告未见同题）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "ChatGPT",
+              "type": "产品"
+            },
+            {
+              "name": "Parameter Labs",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts",
+            "raw_ref": "reports/raw/2026-11-01-0900.json#candidates[8]",
+            "source_id": "simonw",
+            "source_name": "Simon Willison"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-01-0900/04_simonwillison.net_785d4ceb.html",
+            "sha256": "205eb2116fd3ff9f0f8b75f548176700025a29f9ee5597355d09b97bacf8bc23",
+            "fetched_at": "2026-11-01T01:14:56.353Z"
+          }
+        },
+        {
+          "title": "XHEART X7 Ultra 上车：大模型定义芯片，宣称计算利用率 98.7%、带宽降 80%",
+          "meta": "机器之心Pro(搜狐同步)·2026-10-31 14:30 UTC",
+          "urls": [
+            "https://m.sohu.com/a/1095492955_129720"
+          ],
+          "summary": "10-29 发布：700 TOPS 大模型算力、超大核 NPU 核内 TB/s 级交互、LayerNorm/Softmax/Transpose 专用硬件通道、模型计算与权重加载并行；X7 系列已量产 8 个月、出货超 20 万颗、搭载 10 款量产车型、手握 40 余款订单。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "真正可验证的是「计算利用率 98.7%」这个口径——它把行业默认的「标称算力打三折」变成可对比指标；但为厂商自测，缺第三方复跑。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "芯片侧拼的是「模型适配」，意味着做车端模型压缩/算子适配的团队从配角变主角：车厂买芯片越来越像买「模型能不能跑满」，适配服务的议价能力上升。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源转厂商发布会数据",
+          "publish_time": "2026-10-31 22:30",
+          "verify_note": "未见独立来源（外查 11-01；GN 查询空返回，数据均为发布会单方口径）",
+          "entities": [
+            {
+              "name": "XHEART",
+              "type": "企业"
+            },
+            {
+              "name": "Momenta",
+              "type": "企业"
+            },
+            {
+              "name": "X7 Ultra",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1095492955_129720",
+            "raw_ref": "reports/raw/2026-11-01-0900.json#candidates[113]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-01-0900/05_m.sohu.com_738af2df.html",
+            "sha256": "5ba320d102f6b66c8db652ada722334e43254aa34ef20f0e0f64e439fa80344c",
+            "fetched_at": "2026-11-01T01:14:56.793Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策监管",
+      "items": [
+        {
+          "title": "法官驳回 xAI 撤诉动议：Colossus 数据中心 35 台燃气轮机未办排污许可，NAACP 诉讼继续",
+          "meta": "TechCrunch·2026-10-31 21:17 UTC",
+          "urls": [
+            "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward"
+          ],
+          "summary": "联邦法官 Debra M. Brown 认定原告依《清洁空气法》有起诉资格、燃气轮机不属于「移动源」豁免、公民诉讼条款不违宪，案件进入实体审理。南方环境法中心称 xAI 从未取得施工与运营许可。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "AI 基建的合规成本第一次以判例形式落地 Memphis。这条对数据中心选址与电力合同的连锁影响大于罚款本身：燃气轮机快速供电这条「捷径」被判例堵上后，并网排期会重新变成瓶颈。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "数据中心能源合规（排放核算、许可代申、并网排期咨询）是被政策直接催生的服务品类——客户不缺钱，缺时间。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源，引判词原文",
+          "publish_time": "2026-11-01 05:17",
+          "event_time": "2026-10-31",
+          "event_time_inferred": true,
+          "verify_note": "未见独立来源（外查 11-01；GN 空返回，正文直接引 Judge Debra M. Brown 判词）",
+          "entities": [
+            {
+              "name": "xAI",
+              "type": "企业"
+            },
+            {
+              "name": "SpaceX",
+              "type": "企业"
+            },
+            {
+              "name": "NAACP",
+              "type": "机构"
+            },
+            {
+              "name": "Colossus",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward",
+            "raw_ref": "reports/raw/2026-11-01-0900.json#candidates[27]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-01-0900/06_techcrunch.com_b57691e7.html",
+            "sha256": "644e45bd7b901f15f4ac3f981d939c024b7e2692b45b85188b686a649e4f9c12",
+            "fetched_at": "2026-11-01T01:14:58.905Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向",
+      "items": [
+        {
+          "title": "Binance 已追回 90% 被盗资产：63 亿美元大劫案，周日恢复提现",
+          "meta": "The Verge·2026-10-31 18:40 UTC",
+          "urls": [
+            "https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto"
+          ],
+          "summary": "Binance CEO 称公司自有资金已补上 90%，剩余 10% 为流动性较差代币、仍在补足；提现仍暂停，官方称按原时间表于 2026-11-01（周日）恢复。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "用自有资金而非保险/储备金全额兜底，是一次「信任换定价」的公开演练；但 63 亿美元量级意味着后续合规与准备金披露压力必然上升。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "链上资金追踪与冷热钱包隔离审计，在事件后 72 小时内是刚需采购窗口；做钱包 MPC/多签与交易所托管审计的团队应直接对接。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源，引官方 X 声明",
+          "publish_time": "2026-11-01 02:40",
+          "verify_note": "未见独立来源（外查 11-01；GN 空返回，Verge 正文引 Binance 官方 X 帖）",
+          "entities": [
+            {
+              "name": "Binance",
+              "type": "企业"
+            },
+            {
+              "name": "CZ",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto",
+            "raw_ref": "reports/raw/2026-11-01-0900.json#candidates[58]",
+            "source_id": "theverge",
+            "source_name": "The Verge"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-01-0900/07_www.theverge.com_e625b621.html",
+            "sha256": "dca105257fdd1356a722777a5d2dfced0249433855b1429ecb104fab503ee454",
+            "fetched_at": "2026-11-01T01:14:59.358Z"
+          }
+        },
+        {
+          "title": "苹果新 CEO Ternus 首谈 AI 路线：不「为 AI 而 AI」，Siri 升级今年夏天已落地",
+          "meta": "TechCrunch·2026-10-31 21:41 UTC",
+          "urls": [
+            "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake"
+          ],
+          "summary": "9 月正式接任的 John Ternus 在 Wired 采访问中回应「苹果落后 AI」：「每个人都有观点，我很满意我们现在的状态」；称会「绝对地利用 AI」，但「做得对的时候，人们不会去想这件事是不是 AI 做的」。- 📌 跟踪回访 SIG-20261025-0900-2（美中期选举周的 AI 倾向评测与平台护栏）：到期核，11-03 选举日前未见各平台新增选举护栏公告，也无新倾向复现研究（本轮候选 0 相关）→ 无实质进展，check 顺延至 2026-11-06（选举日后再核一次）。- 📌 跟踪回访 SIG-20261006-0900-2（Reflection Beam 独立验证窗口）：到期核，本轮窗口无 Beam 对照跑分/第三方复现报道 → 未兑现，check 顺延至 2026-11-06。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "这句话等于官方宣示产品判据是「无感」，不是「有 AI 功能」——对做 AI 硬件/助手的小团队是明确信号：卖「AI」标签溢价正在失效，卖「省事」的体验差才有溢价。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源，引 Wired 专访",
+          "publish_time": "2026-11-01 05:41",
+          "verify_note": "未见独立来源（外查 11-01；GN 空返回）",
+          "entities": [
+            {
+              "name": "Apple",
+              "type": "企业"
+            },
+            {
+              "name": "John Ternus",
+              "type": "人物"
+            },
+            {
+              "name": "Siri",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+            "raw_ref": "reports/raw/2026-11-01-0900.json#candidates[18]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-01-0900/08_techcrunch.com_362d7951.html",
+            "sha256": "27dbc81f02e8c1b6cc9af288fb61e4462162c8aed1b2f34c0e8027e84ad18da3",
+            "fetched_at": "2026-11-01T01:15:00.689Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "OpenAI 融资缩水的定价传导",
+      "text": "（SIG-20261101-0900-1，check 2026-11-04）：盯 FT/WSJ 后续首关金额、阿联酋投资团名单是否坐实，以及 Anthropic 11-16 挂牌窗口的估值是否跟着下调。",
+      "sigId": "SIG-20261101-0900-1"
+    },
+    {
+      "lead": "DeepSeek Super-agent 的协议外溢",
+      "text": "（SIG-20261101-0900-2，check 2026-11-06）：盯开源原型（Harness/Cordis 插件）是否放出 Router 调度层规范、其它 agent 框架是否跟进「事件触发+订阅式 Worker」。",
+      "sigId": "SIG-20261101-0900-2"
+    },
+    {
+      "lead": "AI 生成界面的沙箱安全成为验收项",
+      "text": "（SIG-20261101-0900-3，check 2026-11-07）：盯 OpenAI/Anthropic/Google 是否发布 artifact 渲染的统一安全规范，以及是否有第三方审计产品成单。",
+      "sigId": "SIG-20261101-0900-3"
+    },
+    {
+      "lead": "Fable 5.5 官宣窗口",
+      "text": "上一轮无实质进展；本期 Anthropic 官方窗口仍无新条目，check 维持 2026-11-04。",
+      "sigId": "SIG-20261006-0900-1"
+    }
+  ],
+  "sourceStatus": [
+    "- GitHub Trending：DOWN（curl timeout 25s，连续失败）",
+    "- OpenAI 博客：FALLBACK（HTTP 403，走渲染兜底，本期 0 条目）",
+    "- Hacker News：FALLBACK（curl exit 35 连接重置，Algolia 兜底，本期 0 条目）",
+    "- 极客公园：网络超时 25s（parse 0）",
+    "- 36氪：抓取耗时 104s、候选 0（接近超时）"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-01-0900.json",
+    "evidence_file": "reports/raw/2026-11-01-0900.evidence.json",
+    "snapshot_dir": "archives/2026-11-01-0900/",
+    "raw_candidates": 136,
+    "matched": 8
+  }
+}

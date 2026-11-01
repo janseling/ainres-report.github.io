@@ -1,6 +1,32 @@
 {
-  "count": 97,
+  "count": 98,
   "reports": [
+    {
+      "id": "2026-11-01-0900",
+      "date": "2026-11-01",
+      "time": "09:00",
+      "title": "AI 情报 · 11-01 09:00 场",
+      "itemCount": 8,
+      "coverage": "2026-10-31 21:00 → 2026-11-01 09:05（Asia/Shanghai）",
+      "note": "本场次候选 136 条（Reddit 占 112 条，社区噪音为主），B 源有效稿仅 6 条",
+      "overview": [
+        "OpenAI 新一轮融资目标从 3000 亿美元下调至 2000 亿，首关金额更低，FT/WSJ 口径指向大投资人态度转冷。",
+        "DeepSeek Harness 团队放出 Super-agent 架构探索：Router+Worker、事件触发、无人 @ 也主动修 Bug。",
+        "GPT-6 Astra 用 100 分钟推出 38 年无解的 Sompolinsky 模型完整李雅普诺夫谱解析解，Claude Opus 5.5 负责翻译收尾。",
+        "OpenAI 修掉 ChatGPT HTML 预览的链式越权漏洞（可窃取任意登录用户数据），仅付 5000 美元赏金。",
+        "Binance 追回 90% 被盗的 63 亿美元资产，周日恢复提现；xAI 数据中心排污诉讼被法官允许继续。"
+      ],
+      "sectionCounts": {
+        "product": 1,
+        "tech": 4,
+        "policy": 1,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": 150,
+        "selected": 8
+      }
+    },
     {
       "id": "2026-10-31-2100",
       "date": "2026-10-31",
