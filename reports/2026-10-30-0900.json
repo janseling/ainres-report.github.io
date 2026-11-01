@@ -3,7 +3,7 @@
   "date": "2026-10-30",
   "time": "09:00",
   "title": "AI 情报 · 10-30 09:00 场",
-  "generatedAt": "2026-10-31T01:40:34.321Z",
+  "generatedAt": "2026-11-01T17:44:20.740Z",
   "coverage": "2026-10-29 21:00 → 2026-10-30 09:05（Asia/Shanghai，标准窗口）",
   "notes": [
     "窗口 211 条候选里 36氪 凌晨财经快讯占近七成，AI 线集中在 OpenAI 额度与开源权重；ChatGPT Pro 额度翻倍、Mistral Large 4 权重、奥特曼自曝新模型三条同日成组报道，按主线拆分，不重复收录"
@@ -232,7 +232,9 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 TechCrunch+Seeking Alpha",
-          "publish_time": "2026-10-29 19:56",
+          "publish_time": "2026-10-30 03:56",
+          "event_time": "2026-10-29",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Seeking Alpha 2026-10-29 同步报道：ADT 将以约 153 亿美元被 Thrive Holdings 收购；Security Sales & Integration 同题; https://seekingalpha.com/）",
           "entities": [
             {
@@ -520,7 +522,9 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 Verge+Reuters",
-          "publish_time": "2026-10-29 20:07",
+          "publish_time": "2026-10-30 04:07",
+          "event_time": "2026-10-29",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Reuters 2026-10-29 同步报道：Reddit 在 Google AI 冲击流量后转向登录优先体验；CNBC 同日报其股价因弱指引下跌; https://www.reuters.com/）",
           "entities": [
             {
@@ -569,7 +573,9 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 Verge+Android Authority",
-          "publish_time": "2026-10-29 18:45",
+          "publish_time": "2026-10-30 02:45",
+          "event_time": "2026-10-29",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Android Authority 2026-10-29 18:59 GMT 同步报道：Gemini 移动端与网页端获得更强的文档编辑能力; https://www.androidauthority.com/）",
           "entities": [
             {
@@ -614,7 +620,9 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 TechCrunch+Yahoo Tech",
-          "publish_time": "2026-10-29 19:14",
+          "publish_time": "2026-10-30 03:14",
+          "event_time": "2026-10-28",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Yahoo Tech 2026-10-29 同步转载 TechCrunch 稿，含应用截图与功能介绍; https://tech.yahoo.com/）",
           "entities": [
             {
