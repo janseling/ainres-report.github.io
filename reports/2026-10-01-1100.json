@@ -3,7 +3,7 @@
   "date": "2026-10-01",
   "time": "11:00",
   "title": "AI 情报 · 10-01 11:00 场",
-  "generatedAt": "2026-10-31T21:40:40.024Z",
+  "generatedAt": "2026-11-01T09:41:25.172Z",
   "coverage": "2026-09-30 11:00 → 2026-10-01 11:00（Asia/Shanghai；24h 为主，2 条重大放宽至 48h 并标注）",
   "notes": [
     "信源状态见文末"
@@ -467,7 +467,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 智东西+Inferact 官方博客·vLLM 官方转发",
-          "publish_time": null,
+          "publish_time": "2026-10-01",
           "event_time": "2026-09-23",
           "event_time_inferred": false,
           "verify_note": "外部检索（Inferact 9-23 官方博客及开源 repo 在档：16 颗 TPU v7 低并发解码 709 tokens/s vs GB200 450，92 层 MoE 并入单 Pallas 调用；vLLM 官方号转发确认）",
