@@ -3,7 +3,7 @@
   "date": "2026-09-30",
   "time": "15:00",
   "title": "AI 情报 · 09-30 15:00 场",
-  "generatedAt": "2026-10-30T09:40:55.111Z",
+  "generatedAt": "2026-11-01T09:41:25.171Z",
   "coverage": "2026-09-29 21:47 → 2026-09-30 15:00（Asia/Shanghai；24h 窗口，含上期信源失效未及收录的回补）",
   "notes": [
     "信源状态见文末"
@@ -437,7 +437,7 @@
           "type_tags": [],
           "confidence": "低",
           "confidence_note": "C源·HN 提交的一页站，无可核实实体；独立预测市场口径不一，维持低",
-          "publish_time": "2026-09-30 04:16",
+          "publish_time": "2026-09-30",
           "verify_note": "外部检索（Polymarket/Manifold 同题但口径不一：US 政府 2026 年内禁止开源/开放权重 AI 模型的预测概率约 16%（Polymarket）/28%（Manifold），与本条 7% 判定不一致，故不升级置信度）",
           "provenance": {
             "url": "https://isopenweightaibannedyet.com",
