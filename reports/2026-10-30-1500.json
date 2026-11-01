@@ -3,7 +3,7 @@
   "date": "2026-10-30",
   "time": "15:00",
   "title": "AI 情报 · 10-30 15:00 场",
-  "generatedAt": "2026-10-30T17:40:45.196Z",
+  "generatedAt": "2026-11-01T17:44:20.740Z",
   "coverage": "2026-10-30 09:00 → 15:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00 场已报 GPT-6.1 Terra 口碑、Genie 4、Ling-3.1-flash 等条目，本场去重后聚焦「额度返还 / 芯片与具身 / 资本与治理」"
@@ -399,6 +399,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 量子位+机器之心，论文 arXiv 2610.25736",
           "publish_time": "2026-10-30 11:48",
+          "event_time": "2026-10-19",
+          "event_time_inferred": false,
           "verify_note": "外部检索（机器之心Pro 2026-10-30 14:32 同报并给出论文直链；arXiv 2610.25736 技术报告在档; https://arxiv.org/abs/2610.25736）",
           "entities": [
             {
