@@ -3,7 +3,7 @@
   "date": "2026-11-01",
   "time": "21:00",
   "title": "AI 情报 · 11-01 21:00 场",
-  "generatedAt": "2026-11-01T14:04:11.229Z",
+  "generatedAt": "2026-11-01T21:45:01.657Z",
   "coverage": "2026-11-01 15:00 → 21:12（Asia/Shanghai）",
   "notes": [
     "本日 09:00 / 15:00 场已报项不再重复（Claude Code 游戏复刻规则、OpenAI 融资与额度池、Project Suncatcher 等）；本场主线：订阅与算力的「账本重算」"
@@ -54,8 +54,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 机器之心+Pasquale Pillitteri",
           "publish_time": "2026-11-01 20:51",
-          "event_time": "2026-11-01",
-          "event_time_inferred": true,
+          "event_time": "2026-10-31",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Pasquale Pillitteri 2026-10-30 19:02 GMT〈Claude Ultra 登场取代 Max 20x，5 小时限制取消〉同步报道; https://news.google.com/rss/articles/CBMimwFBVV95cUxNcS1ZMUxoUXp1Q21QbFJSTEZUeWVDaUtBWm53eDN1YVBIeVNySjlQZE81VXRoSFQ1MnpjcTFQYXdNVFVERUR1Q1J6QXNZaExJTVE1RTNiZ01JeWNsNHFzaGFUYnJUeWxHWFM1aHd6bFljZ1JfLW1Uc3FiU012bWxobDVlY252TUlwQlNzcDl0NmxHOV9tQ2loYXlndw?oc=5；直链未寻得，Google News 聚合跳转无法解析原文）",
           "entities": [
             {
@@ -284,8 +284,6 @@
           "confidence": "中",
           "confidence_note": "B单源，搜狐同步",
           "publish_time": "2026-11-01 21:02",
-          "event_time": null,
-          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 2026-11-01，外部检索仅得同一稿件镜像，未寻得论文页直链）",
           "entities": [
             {
@@ -349,8 +347,6 @@
           "confidence": "高",
           "confidence_note": "双源佐证 量子位+智源社区",
           "publish_time": "2026-11-01 16:02",
-          "event_time": null,
-          "event_time_inferred": false,
           "verify_note": "外部检索（智源社区 2026-11-01 15:50〈如何让 AI 像牛顿一样思考？代数世界模型：从探索走向证明〉; https://news.google.com/rss/articles/CBMiSEFVX3lxTFByT3dsNVpZMXhsM3Q1SzVzczJidDFfcWZVZDR6cEV2U0N5bEhfYXJ3MDlORXc?oc=5）",
           "entities": [
             {
@@ -410,7 +406,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 机器之心+驱动之家",
           "publish_time": "2026-11-01 19:47",
-          "event_time": null,
+          "event_time": "2026-11-01",
           "event_time_inferred": false,
           "verify_note": "外部检索（驱动之家 2026-11-01 18:27〈让机器人既会认路又能干活 飞捷科思发布统一世界动作模型 Fysiverse-UniWAM〉; https://news.google.com/rss/articles/CBMiWEFVX3lxTE15ZFR0VDduS2JNd0JDcWlINVNJR0YwQ1l0aGNBRWJpSmpncXc0eGJOb3VyUUEzQTAtWEFlWjhmcnhFOEZtSG1neUdZejdlN3liYnN5eG00MHU?oc=5）",
           "entities": [
