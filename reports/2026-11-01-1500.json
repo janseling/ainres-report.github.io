@@ -3,7 +3,7 @@
   "date": "2026-11-01",
   "time": "15:00",
   "title": "AI 情报 · 11-01 15:00 场",
-  "generatedAt": "2026-11-01T07:12:07.891Z",
+  "generatedAt": "2026-11-01T21:45:01.657Z",
   "coverage": "2026-11-01 09:00 → 14:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00 场已报：Beam 跑分窗口/B 站科学晚同题不再重复；本场以「资本定价转向」为主线"
@@ -549,8 +549,6 @@
           "confidence": "低",
           "confidence_note": "D源·转述官方未点明，独立佐证仅见综述稿",
           "publish_time": "2026-11-01 14:52",
-          "event_time": null,
-          "event_time_inferred": false,
           "verify_note": "外部检索（OrcaRouter 2026-10-27〈OpenAI's six misalignment reports, and its new rulebook〉综述同步提及六份失准报告；未寻得该包仓库留言板事件的原报告直链，https://www.orcarouter.ai 综述为二手转述）",
           "entities": [
             {
@@ -658,8 +656,6 @@
           "confidence": "中",
           "confidence_note": "B单源，搜狐同步",
           "publish_time": "2026-11-01 11:11",
-          "event_time": null,
-          "event_time_inferred": false,
           "verify_note": "外部检索（未寻得独立来源（外查 11-01）：Google News 仅命中该文自身转载；文中引用的 OpenAI/Anthropic 下线页为官方一手数据可复核，但榜单排序无第三方复算；原文直链 https://m.sohu.com/a/1095650524_473283）",
           "entities": [
             {
@@ -713,8 +709,6 @@
           "confidence": "高",
           "confidence_note": "GitHub API 直验",
           "publish_time": "2026-11-01",
-          "event_time": "2026-11-01",
-          "event_time_inferred": false,
           "verify_note": "外部检索（GitHub API 直验四仓库 star 与许可，见 🌐 趋势条；仓库 https://github.com/pbakaus/impeccable）",
           "entities": [
             {
@@ -730,6 +724,8 @@
               "type": "产品"
             }
           ],
+          "event_time": "2026-11-01",
+          "event_time_inferred": false,
           "provenance": {
             "url": "https://m.sohu.com/a/1095683335_100016644",
             "raw_ref": "reports/raw/2026-11-01-1500.json#candidates[21]",
