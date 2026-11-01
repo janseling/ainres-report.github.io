@@ -3,7 +3,7 @@
   "date": "2026-11-01",
   "time": "21:00",
   "title": "AI 情报 · 11-01 21:00 场",
-  "generatedAt": "2026-11-01T21:45:01.657Z",
+  "generatedAt": "2026-11-01T23:44:26.915Z",
   "coverage": "2026-11-01 15:00 → 21:12（Asia/Shanghai）",
   "notes": [
     "本日 09:00 / 15:00 场已报项不再重复（Claude Code 游戏复刻规则、OpenAI 融资与额度池、Project Suncatcher 等）；本场主线：订阅与算力的「账本重算」"
@@ -461,8 +461,6 @@
           "confidence": "中",
           "confidence_note": "B单源，搜狐同步",
           "publish_time": "2026-11-01 20:50",
-          "event_time": null,
-          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 2026-11-01；外部检索仅命中同一稿件镜像，未寻得论文页直链）",
           "entities": [
             {
@@ -529,8 +527,6 @@
           "confidence": "高",
           "confidence_note": "多源佐证 The Verge+CalMatters",
           "publish_time": "2026-11-01 21:00",
-          "event_time": null,
-          "event_time_inferred": false,
           "verify_note": "外部检索（CalMatters 2026-10-30 12:00 GMT〈How Prop. 45 could reshape California's fight over data centers〉; https://news.google.com/rss/articles/CBMipAFBVV95cUxPRlRTeHFaMk16eDM2Q0dWSDVjZDVOR0JjZ3k3ODI1TjJlMjE3TDhTQndaRWoxVkJ4S1VENnVxVmxQV3UxeTV5aHk4WTZFWVp6anA4SVhmQnhHZVh0aThVRmNyUHE5Nm81Sy03QjNONlZjTTZYZjU0QWJjbFdER0x2ZURVSUFEcG5fQ2RCZ281NGJUTHk5Z3ZGd0g2NHhuREl3ZEVndQ?oc=5 ；Jefferson Public Radio 10-31 同题）",
           "entities": [
             {
@@ -593,8 +589,6 @@
           "confidence": "高",
           "confidence_note": "多源佐证 36氪+风闻+财联社",
           "publish_time": "2026-11-01 16:16",
-          "event_time": null,
-          "event_time_inferred": false,
           "verify_note": "外部检索（风闻 2026-11-01 14:03 GMT 同题同步; https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JQ0JLeFVpbERiSWdDOXVfejYzYVM3U1h2dlBobUd1R3YwTlJYR1FseGlxZzZDRTJyWXppX3U4dU9rNkhiWmVtRDB5N2FTM2dHaFZrVWJ5T0ZUeGc?oc=5 ；财联社、新浪 11-01 分别报 950 亿/975 亿美元融资口径）",
           "entities": [
             {
