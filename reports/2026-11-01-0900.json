@@ -3,7 +3,7 @@
   "date": "2026-11-01",
   "time": "09:00",
   "title": "AI 情报 · 11-01 09:00 场",
-  "generatedAt": "2026-11-01T01:14:38.476Z",
+  "generatedAt": "2026-11-01T03:40:23.825Z",
   "coverage": "2026-10-31 21:00 → 2026-11-01 09:05（Asia/Shanghai）",
   "notes": [
     "本场次候选 136 条（Reddit 占 112 条，社区噪音为主），B 源有效稿仅 6 条"
@@ -54,6 +54,8 @@
           "confidence": "中",
           "confidence_note": "B单源转述 FT/WSJ",
           "publish_time": "2026-11-01 00:12",
+          "event_time": "2026-10-30",
+          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 11-01；web_search provider 不可用，GN 多次空返回，正文内引 FT 周五报道＋WSJ 跟进）",
           "entities": [
             {
@@ -415,6 +417,8 @@
           "confidence": "中",
           "confidence_note": "B单源，引官方 X 声明",
           "publish_time": "2026-11-01 02:40",
+          "event_time": "2026-10-31",
+          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 11-01；GN 空返回，Verge 正文引 Binance 官方 X 帖）",
           "entities": [
             {
