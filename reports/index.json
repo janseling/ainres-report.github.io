@@ -1,6 +1,32 @@
 {
-  "count": 98,
+  "count": 99,
   "reports": [
+    {
+      "id": "2026-11-01-1500",
+      "date": "2026-11-01",
+      "time": "15:00",
+      "title": "AI 情报 · 11-01 15:00 场",
+      "itemCount": 12,
+      "coverage": "2026-11-01 09:00 → 14:05（Asia/Shanghai）",
+      "note": "本日 09:00 场已报：Beam 跑分窗口/B 站科学晚同题不再重复；本场以「资本定价转向」为主线",
+      "overview": [
+        "OpenAI 把新一轮融资目标从 300 亿美元砍到 200 亿、估值从 1.4 万亿降到 1.25 万亿，实收承诺仅约 110 亿美元。",
+        "OpenAI 12 月起把 ChatGPT 与 Codex 额度并成一口 token 池，Instant 聊天除外；同步收紧单账号设备数。",
+        "Claude Code 由服务端远程注入「不复刻特定现有游戏」两句话，独立工作室已因 AI 克隆潮撤下公测。",
+        "谷歌 Project Suncatcher 原型星在轨跑通 Gemma 4，首次由轨道上的 TPU 生成并回传完整回复。",
+        "启元/北大团队《One Scan is Enough》：用一次 iPhone 扫描做场景后训练，真实环境导航成功率 25%→85%。"
+      ],
+      "sectionCounts": {
+        "product": 5,
+        "tech": 2,
+        "policy": 1,
+        "industry": 4
+      },
+      "rawStats": {
+        "candidates": 95,
+        "selected": 15
+      }
+    },
     {
       "id": "2026-11-01-0900",
       "date": "2026-11-01",
