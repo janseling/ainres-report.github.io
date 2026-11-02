@@ -1,0 +1,711 @@
+{
+  "id": "2026-11-02-0900",
+  "date": "2026-11-02",
+  "time": "09:00",
+  "title": "AI 情报 · 11-02 09:00 场",
+  "generatedAt": "2026-11-02T07:31:12.939Z",
+  "coverage": "2026-11-01 21:00 → 11-02 09:08（Asia/Shanghai）",
+  "notes": [
+    "补刊说明：0900 场采集完成后报告层中断，本条为续跑补刊（09:19 误推群的一条半截消息作废，以本条为准）；本日已报场次（11-01 2100/1500）内容不再重复"
+  ],
+  "itemCount": 12,
+  "rawStats": {
+    "candidates": 245,
+    "selected": 12
+  },
+  "overview": [
+    "苹果官宣 Apple 智能登陆中国大陆：接入阿里千问，11 月 4 日开放测试。",
+    "GPT-6.2 Astra 与 Fable 5.5 双双「泄露级曝光」，OpenAI 与 Anthropic 新旗舰同日亮相（均未官宣）。",
+    "Anthropic 自曝：用户每句对话都在后台被扫描举报——Claude 封号潮的原因浮出水面。",
+    "Claude 驱动的 AI 智能体给活鼠做了脑部手术，Opus 5.5 却拒绝动手。",
+    "Pathos AI 估值 30 亿美元：不生成分子、只「读懂疾病」的 AI 制药公司拿到跨国药企真金白银。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "iPhone 国行 AI 真的来了：Apple 智能接入阿里千问，11 月 4 日开放测试",
+          "meta": "36氪·2026-11-02 08:30",
+          "urls": [
+            "https://36kr.com/p/4051767251735430"
+          ],
+          "summary": "等了两年，中国 iPhone 用户终于等来：Apple 智能面向中国大陆推出首批功能，接入阿里千问，11 月 4 日开放测试，「下周登陆中国大陆」；新一代 Siri 仍要继续等。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "国行 AI 落地 = 中国大模型拿到了 iOS 生态的「入口级」分发位——千问定义国行 iPhone 的默认 AI 体验，这是花钱难买的排他窗口。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "短期流量口在「Apple 智能 + 千问」的适配生态：提示词迁移、工作流适配、国行 vs 国际版功能差异对照，都是可以立刻做的内容型产品。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源佐证 爱范儿+华尔街见闻+新浪+智源社区",
+          "publish_time": "2026-11-02 08:30",
+          "event_time": "2026-10-31",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（华尔街见闻 2026-11-01 09:15〈苹果官宣：Apple智能接入阿里千问，11月4日开放测试〉、爱范儿 11-01 06:34 同题、新浪 11-01 18:38、智源社区 11-02 14:40〈苹果正式官宣：Apple 智能下周登陆中国大陆〉；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "苹果",
+              "type": "企业"
+            },
+            {
+              "name": "Apple Intelligence",
+              "type": "产品"
+            },
+            {
+              "name": "阿里千问",
+              "type": "产品"
+            },
+            {
+              "name": "Siri",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4051767251735430",
+            "raw_ref": "reports/raw/2026-11-02-0900.json#candidates[28]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-02-0900/01_36kr.com_5ad5950d.html",
+            "sha256": "5124394a2895d7faff86d12d1a150ffc235ffddb92966a3ef079872f6b4a6129",
+            "fetched_at": "2026-11-02T07:32:38.504Z"
+          }
+        },
+        {
+          "title": "Muse 人形机器人来了：小扎带队，中国造",
+          "meta": "36氪·2026-11-02 08:31",
+          "urls": [
+            "https://36kr.com/p/4051751097226372"
+          ],
+          "summary": "Meta 的人形机器人产品线 Muse 亮相——小扎带队，中国造；Meta 机器人业务产品副总裁曾来上海工作近两个月。注意与 Meta 同名 AI 助理 Muse 是两条产品线。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "「美国品牌 + 中国供应链」在机器人上复刻了手机时代的组合——中国整机与供应链公司又一次卡位国际大牌产能。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "机器人代工/零部件公司蹭上国际品牌周期，与 AI 助理同名产品线会持续制造搜索混淆——两条 Muse 的品牌方迟早要处理命名。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+智东西+腾讯新闻",
+          "publish_time": "2026-11-02 08:31",
+          "event_time": "2026-11-01",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（智东西 2026-11-01 23:00〈Muse人形机器人来了！小扎带队，中国造〉、腾讯新闻 11-02 10:16〈扎克伯格牌机器人，中国造〉；直链未寻得）",
+          "entities": [
+            {
+              "name": "Meta",
+              "type": "企业"
+            },
+            {
+              "name": "Muse",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4051751097226372",
+            "raw_ref": "reports/raw/2026-11-02-0900.json#candidates[26]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-02-0900/02_36kr.com_917f4c35.html",
+            "sha256": "0b75d996b29c54aa10a4824d141f7c082db6b5198db3c2afcd500b973896dba0",
+            "fetched_at": "2026-11-02T07:32:38.724Z"
+          }
+        },
+        {
+          "title": "OpenAI、Claude 新旗舰同日曝光：GPT-6.2 Astra 与 Fable 5.5 泄露级亮相",
+          "meta": "36氪·2026-11-02 08:30",
+          "urls": [
+            "https://36kr.com/p/4051806214214530"
+          ],
+          "summary": "一夜之间两家新旗舰双双曝光：OpenAI 的 GPT-6.2 Astra 与 Anthropic 的 Fable 5.5——泄露/测试痕迹被社区捕捉，均未官宣。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "同日「漏出」通常意味着发布窗口临近；曝光先于官宣造势，11 月的旗舰对撞几乎不可避免。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "每轮旗舰曝光都会带走一轮「等新模型」的付费观望——订阅定价和发布节奏的博弈，中小企业只能跟进不能对抗。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "多源曝光，未经官宣，泄露性质",
+          "publish_time": "2026-11-02 08:30",
+          "event_time": "2026-11-01",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（华尔街见闻 2026-11-02 08:27 同题、凤凰网科技 11-02 07:07、爱范儿 11-02 09:51〈一夜之间，GPT-6.2 Astra 和 Fable 5.5 双双曝光，AI 圈疯狂 11 月要来了〉；直链未寻得）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6.2 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Fable 5.5",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4051806214214530",
+            "raw_ref": "reports/raw/2026-11-02-0900.json#candidates[29]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-02-0900/03_36kr.com_ddfefbeb.html",
+            "sha256": "6aa58808ffac3f23b189a033ba56e00f8b7199e01dc4921d8e1b21fb6f02f7e7",
+            "fetched_at": "2026-11-02T07:32:39.116Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术",
+      "items": [
+        {
+          "title": "Claude 给活鼠做了场脑部手术，Opus 5.5 却不肯动手",
+          "meta": "36氪·2026-11-02 08:31",
+          "urls": [
+            "https://36kr.com/p/4051750786405505"
+          ],
+          "summary": "AI 智能体在真实生物实验里给活鼠做了脑部手术（基因疗法注射），中途差点罢工；同门 Opus 5.5 拒绝执行同类操作。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "「AI 做湿实验」从演示走向真实操作——同时拒答边界（生物安全）开始产品化：哪些模型肯做、哪些不肯，正在变成科研选型的显性变量。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "无人值守湿实验自动化是明确的高价新品类，生物安全合规是它的护城河。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源佐证 MIT科技评论+凤凰网+Mezha",
+          "publish_time": "2026-11-02 08:31",
+          "event_time": "2026-10-31",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（MIT 科技评论中文版 2026-11-01 19:30〈AI首次操刀活鼠脑部实验，中途却差点罢工〉、凤凰网 10-31 10:09 同题、Mezha 10-31〈AI智能体帮助向活体小鼠脑内注射基因疗法〉；直链未寻得）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            },
+            {
+              "name": "Opus 5.5",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4051750786405505",
+            "raw_ref": "reports/raw/2026-11-02-0900.json#candidates[25]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-02-0900/04_36kr.com_227408ea.html",
+            "sha256": "72f20571f68bb5ea66cd3a14b07f9881496e8e6c97a4eeddbdf8ed921950a0e6",
+            "fetched_at": "2026-11-02T07:32:39.471Z"
+          }
+        },
+        {
+          "title": "AI 推导出「外星数学」，38 年无解混沌难题被 GPT-6 联手 Claude 终结",
+          "meta": "36氪·2026-11-02 08:12",
+          "urls": [
+            "https://36kr.com/p/4051783938774151"
+          ],
+          "summary": "人类苦思 38 年的无解混沌难题，被 GPT-6 联手 Claude 推导出的「外星数学」在百分钟内破局。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "「AI 自创新数学框架解题」正成为旗舰模型的标准秀肌肉项目——与下一条（RSI 为什么还做不到）对照阅读。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "科学发现叙事每兑现一次，科研 Agent 赛道的融资溢价就抬一档。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源+新浪财经同步镜像",
+          "publish_time": "2026-11-02 08:12",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "外部检索（新浪财经 2026-11-01 07:52 同题同步；直链未寻得）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6",
+              "type": "产品"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4051783938774151",
+            "raw_ref": "reports/raw/2026-11-02-0900.json#candidates[42]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-02-0900/05_36kr.com_c28236f1.html",
+            "sha256": "cd5b93c4c3f20751cb23765920a53de6602e48aaad027e0a8257dfc39b184f4a",
+            "fetched_at": "2026-11-02T07:32:39.701Z"
+          }
+        },
+        {
+          "title": "为什么 AI 能解千禧年题，但做不到 RSI",
+          "meta": "36氪·2026-11-02 08:25",
+          "urls": [
+            "https://36kr.com/p/4051759062602629"
+          ],
+          "summary": "分析稿：AI 在有明确验收的封闭问题（千禧年题）上已能达标，但开放式的递归自我改进（RSI）仍跨不过去——验收函数的存在与否是分界线。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "与上条对照：「能解题」与「能自我改进」之间隔着验收函数——做 AI 自动化的同理，能落地的都是有明确验收标准的环节。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源评论稿",
+          "publish_time": "2026-11-02 08:25",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 2026-11-02，评论稿无同题独立报道）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4051759062602629",
+            "raw_ref": "reports/raw/2026-11-02-0900.json#candidates[36]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-02-0900/06_36kr.com_7eb36a15.html",
+            "sha256": "72a89d589f9d194d66b0d263a285821ea1954af3aef26a4b1817c46dfe2be62d",
+            "fetched_at": "2026-11-02T07:32:39.920Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向 / 玩法",
+      "items": [
+        {
+          "title": "微软 AI CEO 警告：AI 应保持无意识状态，我们无权创造「数字物种」",
+          "meta": "36氪·2026-11-02 08:40",
+          "urls": [
+            "https://36kr.com/p/4051887762084739"
+          ],
+          "summary": "微软 AI CEO 公开警告：AI 应保持无意识状态，人类无权创造「数字物种」。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "头部厂商开始为「AI 权利与边界」定叙事——这是监管落地前的舆论占位，谁先定义边界谁就影响后续规则。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "「AI 权利/数字物种」类的合规咨询与内容赛道会随叙事升温，先占位者吃搜索红利。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管",
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源 TradingView+亿邦动力+cnBeta",
+          "publish_time": "2026-11-02 08:40",
+          "event_time": "2026-11-01",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（TradingView 2026-11-02 08:28、亿邦动力 11-02 09:06、cnBeta 11-02 13:41 同题；直链未寻得）",
+          "entities": [
+            {
+              "name": "微软",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4051887762084739",
+            "raw_ref": "reports/raw/2026-11-02-0900.json#candidates[17]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-02-0900/07_36kr.com_9a34ba37.html",
+            "sha256": "c5f1eb7d392b0f06f44b2bd9a9c5b7c87251083e72e1989377f6934ccbf4ef91",
+            "fetched_at": "2026-11-02T07:32:40.139Z"
+          }
+        },
+        {
+          "title": "Anthropic 自曝：你聊的每句话，它都在后台悄悄举报",
+          "meta": "36氪·2026-11-02 08:10",
+          "urls": [
+            "https://36kr.com/p/4051781915661193"
+          ],
+          "summary": "Anthropic 自曝：用户每句对话都在后台被扫描，违规即举报封号——「当面笑脸递代码，转身 10 个 Token 把你卖了」，Claude 突然封号潮的原因浮出水面。⚠️ 对做 AI 应用的团队：平台侧会扫描全部对话内容，「用户数据不出平台」的默认假设要重新评估——法务/医疗/客户数据等敏感工作流需要提前做脱敏层。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "合规脱敏与私有化网关的需求因这类事件变实，企业客户愿意为此付费。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源，搜狐同题镜像",
+          "publish_time": "2026-11-02 08:10",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "外部检索（搜狐 2026-10-31 11:55 同题镜像；背景：10-09 财联社/投资界曾报〈Anthropic 新规禁止虐待模型，持续辱骂 Claude 或被封号〉；直链未寻得）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4051781915661193",
+            "raw_ref": "reports/raw/2026-11-02-0900.json#candidates[46]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-02-0900/08_36kr.com_8a4eea38.html",
+            "sha256": "f07f84dfc1a350c135fed119791ba70dd98d2402085729e6860877758bd7842e",
+            "fetched_at": "2026-11-02T07:32:40.350Z"
+          }
+        },
+        {
+          "title": "马斯克挖走 Claude 最强「产品大脑」Jenny Wen",
+          "meta": "36氪·2026-11-02 08:28",
+          "urls": [
+            "https://36kr.com/p/4051818861613955"
+          ],
+          "summary": "马斯克挖走 Claude 最强「产品大脑」Jenny Wen；同期 Claude Code 灵魂人物 Thariq 亦官宣离职——Anthropic 产品侧连续失血。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "头部实验室的人才流向开始向 xAI 倾斜，且稀缺的是产品岗而非研究岗——「能把模型做成产品」的人比「能训模型」的人更抢手。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源 36氪+华尔街见闻",
+          "publish_time": "2026-11-02 08:28",
+          "event_time": "2026-11-01",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（华尔街见闻 2026-11-02 14:54 同题；相关：搜狐 11-02 03:28〈巅峰时刻出走，ClaudeCode 灵魂人物 Thariq 官宣离职〉；直链未寻得）",
+          "entities": [
+            {
+              "name": "马斯克",
+              "type": "人物"
+            },
+            {
+              "name": "Jenny Wen",
+              "type": "人物"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4051818861613955",
+            "raw_ref": "reports/raw/2026-11-02-0900.json#candidates[30]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-02-0900/09_36kr.com_1febc128.html",
+            "sha256": "b187055ccc1846b1ee833864fa6772b5854b07c2f70a3b006e6b4fcad35f5d81",
+            "fetched_at": "2026-11-02T07:32:40.568Z"
+          }
+        },
+        {
+          "title": "30 亿美元估值的 Pathos AI，揭开 AI 制药的「下半场真相」",
+          "meta": "36氪·2026-11-02 08:27",
+          "urls": [
+            "https://36kr.com/p/4051860191958147"
+          ],
+          "summary": "当行业还在为「AI 生成分子进临床」欢呼时，不做分子生成、靠「读懂疾病」赚钱的 Pathos AI 已完成 2.37 亿美元 E 轮、估值 30 亿美元；中国药企康宁杰瑞 10 月底行使认股权证 6250 万美元认购其 E 轮优先股。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "AI 制药下半场分化：从「生成分子」转向「读懂疾病」——不碰生成、做疾病理解与临床决策的公司先拿到跨国药企的钱。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "「BD + 股权」双通道（康宁杰瑞式）值得国产 AI 制药公司研究：卖服务不如换船票。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源 UA.NEWS/STAT+东方财富",
+          "publish_time": "2026-11-02 08:27",
+          "event_time": "2026-10-23",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（UA.NEWS 2026-10-23 16:45〈Pathos 宣布完成 2.37 亿美元 E 轮融资，估值 30 亿美元——STAT News〉、东方财富 10-30 20:22〈康宁杰瑞行使认股权证 6250 万美元认购 Pathos AI 的 E 轮优先股〉；直链未寻得）",
+          "entities": [
+            {
+              "name": "Pathos AI",
+              "type": "企业"
+            },
+            {
+              "name": "康宁杰瑞",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4051860191958147",
+            "raw_ref": "reports/raw/2026-11-02-0900.json#candidates[32]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-02-0900/10_36kr.com_967ccb85.html",
+            "sha256": "434a7b81814a96252fa67a0978dc0586d5e46979f441495f1c6e80c0fedfee0a",
+            "fetched_at": "2026-11-02T07:32:40.822Z"
+          }
+        },
+        {
+          "title": "Kimi 半年三次道歉：模型越强，生意却越难做？",
+          "meta": "36氪·2026-11-02 08:24",
+          "urls": [
+            "https://36kr.com/p/4051802714297480"
+          ],
+          "summary": "Kimi 这次栽在「烧额度」上——半年三次道歉；性能逼近 Opus 的 K3.1 Pro 反而因额度问题引发用户不满。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "「模型越强、成本越高、定价越难」的矛盾在 C 端订阅上正面爆发：性能追平头部反而放大亏损，二线模型公司的商业化窗口在收窄。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "用量看板与成本预警是 C 端 AI 产品当下最缺的基础设施——谁先把它做成默认功能，谁少挨一次道歉。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源，野马财经/搜狐相关报道",
+          "publish_time": "2026-11-02 08:24",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "外部检索（野马财经 2026-10-27 10:56〈性能逼近 Opus 的 Kimi K3.1 Pro，为何栽在额度上？〉、搜狐 10-28 11:15〈Kimi 为什么总在道歉？〉；直链未寻得）",
+          "entities": [
+            {
+              "name": "月之暗面",
+              "type": "企业"
+            },
+            {
+              "name": "Kimi",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4051802714297480",
+            "raw_ref": "reports/raw/2026-11-02-0900.json#candidates[38]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-02-0900/11_36kr.com_d48f3f47.html",
+            "sha256": "63cd8a59b10a1d5467748777d0794f755f25af85855b4f45a1c23a6ab4d55921",
+            "fetched_at": "2026-11-02T07:32:41.033Z"
+          }
+        },
+        {
+          "title": "OpenAI 或将数据中心改名为「AI compute campuses」",
+          "meta": "TechCrunch·2026-11-01 21:55",
+          "urls": [
+            "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses"
+          ],
+          "summary": "数据中心民意基础差，OpenAI 考虑将其更名为「AI compute campuses」（AI 算力园区）。- 📌 跟踪回访 SIG-20261006-0900-1：Fable 5.5 官宣窗口有实质进展——GPT-6.2 Astra 与 Fable 5.5 双双「泄露级曝光」（爱范儿 11-02 09:51、华尔街见闻 11-02 08:27），OpenAI 侧 GPT-6.2 Astra 已可在 Codex CLI 直接调用（Reddit 多帖实测），Anthropic 侧仍无官宣。check 顺延至 2026-11-05。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "命名即政治：AI 基建成为社区议题后，头部公司开始管理「数据中心」的公众形象——品牌先行于选址，说明选址阻力已是真实约束。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源 TechCrunch",
+          "publish_time": "2026-11-01 21:55",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 2026-11-02）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+            "raw_ref": "reports/raw/2026-11-02-0900.json#candidates[74]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-02-0900/12_techcrunch.com_e621a5b3.html",
+            "sha256": "9ba04a139fed389f4c25691ab3dc5708ac4406f1fa4202e32d0b6efed5c44a79",
+            "fetched_at": "2026-11-02T07:32:42.479Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "Apple 智能国行落地节奏",
+      "text": "（SIG-20261102-0900-1，check 2026-11-04）：盯 11-04 测试开放的实际体验、千问之外是否有第二个国产模型席位、以及国产大模型进入 iOS 生态的排他条款。",
+      "sigId": "SIG-20261102-0900-1"
+    },
+    {
+      "lead": "Anthropic 后台审查机制的信任外溢",
+      "text": "（SIG-20261102-0900-2，check 2026-11-05）：盯是否有用户/企业因「对话被扫描」迁移到竞品、其他厂商是否跟进同类机制、以及隐私监管是否介入。",
+      "sigId": "SIG-20261102-0900-2"
+    },
+    {
+      "lead": "AI 制药「读懂疾病」路线的 BD 通道",
+      "text": "（SIG-20261102-0900-3，check 2026-11-05）：盯康宁杰瑞式「BD + 股权」交易是否批量出现、分子生成派如何回应估值分化。",
+      "sigId": "SIG-20261102-0900-3"
+    },
+    {
+      "lead": "Mythos 级 14T 权重泄露传闻",
+      "text": "（SIG-20261102-0900-4，check 2026-11-05）：Reddit 多帖流传「Mythos 级训练 run 权重泄露上 HF」，全为 D 源未证实——盯 Anthropic 官方回应或 HF 下架动作，证实/证伪都是信号。",
+      "sigId": "SIG-20261102-0900-4"
+    }
+  ],
+  "sourceStatus": [
+    "- 工信部：DOWN（parse 0 条，consecutive_down=1，暂不处置）"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-02-0900.json",
+    "evidence_file": "reports/raw/2026-11-02-0900.evidence.json",
+    "snapshot_dir": "archives/2026-11-02-0900/",
+    "raw_candidates": 204,
+    "matched": 12
+  }
+}
