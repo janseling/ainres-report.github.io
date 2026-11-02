@@ -1,6 +1,31 @@
 {
-  "count": 102,
+  "count": 103,
   "reports": [
+    {
+      "id": "2026-11-02-2100",
+      "date": "2026-11-02",
+      "time": "21:00",
+      "title": "AI 情报 · 11-02 21:00 场",
+      "itemCount": 9,
+      "coverage": "2026-11-02 15:00 → 21:05（Asia/Shanghai）",
+      "note": "本日第 3 场，09:00/15:00 已报条目（LeCun 新论文、具身融资退潮、Anthropic 日本发股等）不再重复",
+      "overview": [
+        "Marvell 以 1150 亿美元全股票吞下 Lumentum，「芯片+光学」闭环把 AI 互联推到并购主战场。",
+        "甲骨文启动 100 亿美元六档美元债，惠誉同日确认 BBB——AI 资本开支继续走债务化。",
+        "商汤 SenseNova 6.8 Flash 正式版发布，轻量模型直接对标 Opus 5.5 的办公交付。",
+        "HarnessSQL 用 8B 在真实数据库跑出 45.2%，把「训练-部署脱节」当成一等问题。",
+        "Karpathy 两小时用 Claude 复刻 YouTube，用 HN 的人类推荐替代点击率排序。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 2,
+        "industry": 4
+      },
+      "rawStats": {
+        "candidates": 142,
+        "selected": 9
+      }
+    },
     {
       "id": "2026-11-02-1500",
       "date": "2026-11-02",
