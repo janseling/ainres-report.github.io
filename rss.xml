@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 02 Nov 2026 07:33:01 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 08:32:33 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-02 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-02-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-02-0900.html</guid>
+      <pubDate>Mon, 02 Nov 2026 01:00:00 GMT</pubDate>
+      <description>苹果官宣 Apple 智能登陆中国大陆：接入阿里千问，11 月 4 日开放测试。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-01 21:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-01-2100.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-26-2100.html</guid>
       <pubDate>Mon, 26 Oct 2026 13:00:00 GMT</pubDate>
       <description>Anthropic 公开递交纳斯达克 S-1（代码 ANT），上市进入倒计时，与 OpenAI $300 亿私募竞速正面对撞。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-26 15:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-26-1500.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-26-1500.html</guid>
-      <pubDate>Mon, 26 Oct 2026 07:00:00 GMT</pubDate>
-      <description>OpenAI 中端新模型 GPT-6.1 Terra 被公开代码仓库坐实，GitHub Copilot 产线已用其替代 Sol 做代码审查。</description>
     </item>
   </channel>
 </rss>
