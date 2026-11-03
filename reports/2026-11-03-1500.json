@@ -1,9 +1,9 @@
 {
-  "id": "2026-11-03-1545",
+  "id": "2026-11-03-1500",
   "date": "2026-11-03",
-  "time": "15:45",
-  "title": "AI 情报 · 11-03 15:45 场",
-  "generatedAt": "2026-11-03T08:10:48.748Z",
+  "time": "15:00",
+  "title": "AI 情报 · 11-03 15:00 场",
+  "generatedAt": "2026-11-03T08:33:58.462Z",
   "coverage": "2026-11-03 09:00 → 11-03 15:52（Asia/Shanghai）",
   "notes": [
     "本日 09:00 场已报条目按去重跳过；Anthropic 招股书修订稿的财务口径与本场同时段的估值/算力稿合并成一条"
@@ -76,12 +76,12 @@
           ],
           "provenance": {
             "url": "https://36kr.com/p/4053289729905793",
-            "raw_ref": "reports/raw/2026-11-03-1545.json#candidates[219]",
+            "raw_ref": "reports/raw/2026-11-03-1500.json#candidates[219]",
             "source_id": "kr36",
             "source_name": "36氪"
           },
           "snapshot": {
-            "file": "archives/2026-11-03-1545/01_36kr.com_e9243d15.html",
+            "file": "archives/2026-11-03-1500/01_36kr.com_e9243d15.html",
             "sha256": "3f402ee9fc38b5dcd4b3af8f3aaa16f8115cf053286e88e3a1b9dd4d75cf7777",
             "fetched_at": "2026-11-03T08:10:17.207Z"
           }
@@ -130,12 +130,12 @@
           ],
           "provenance": {
             "url": "https://36kr.com/p/4053673729430403",
-            "raw_ref": "reports/raw/2026-11-03-1545.json#candidates[23]",
+            "raw_ref": "reports/raw/2026-11-03-1500.json#candidates[23]",
             "source_id": "kr36",
             "source_name": "36氪"
           },
           "snapshot": {
-            "file": "archives/2026-11-03-1545/02_36kr.com_d89839b0.html",
+            "file": "archives/2026-11-03-1500/02_36kr.com_d89839b0.html",
             "sha256": "0c2d1f2ba929ae411a8ca4242086612d9ef727c033134497fd4c8f969f4fa636",
             "fetched_at": "2026-11-03T08:10:17.419Z"
           }
@@ -183,12 +183,12 @@
           ],
           "provenance": {
             "url": "https://36kr.com/p/4053394503603076",
-            "raw_ref": "reports/raw/2026-11-03-1545.json#candidates[207]",
+            "raw_ref": "reports/raw/2026-11-03-1500.json#candidates[207]",
             "source_id": "kr36",
             "source_name": "36氪"
           },
           "snapshot": {
-            "file": "archives/2026-11-03-1545/03_36kr.com_554379fd.html",
+            "file": "archives/2026-11-03-1500/03_36kr.com_554379fd.html",
             "sha256": "07661219354129721115914c3f5419ef8e099c68ef384d85476c8ff153a47416",
             "fetched_at": "2026-11-03T08:10:17.582Z"
           }
@@ -240,12 +240,12 @@
           ],
           "provenance": {
             "url": "https://www.qbitai.com/2026/11/507313.html",
-            "raw_ref": "reports/raw/2026-11-03-1545.json#candidates[213]",
+            "raw_ref": "reports/raw/2026-11-03-1500.json#candidates[213]",
             "source_id": "qbitai",
             "source_name": "量子位"
           },
           "snapshot": {
-            "file": "archives/2026-11-03-1545/04_www.qbitai.com_04ee5ea2.html",
+            "file": "archives/2026-11-03-1500/04_www.qbitai.com_04ee5ea2.html",
             "sha256": "961e89f808db40bb4023377c76726f88809b249eeedae893fb7a85adfd596b20",
             "fetched_at": "2026-11-03T08:10:17.906Z"
           }
@@ -308,12 +308,12 @@
           ],
           "provenance": {
             "url": "https://m.sohu.com/a/1096526652_129720",
-            "raw_ref": "reports/raw/2026-11-03-1545.json#candidates[47]",
+            "raw_ref": "reports/raw/2026-11-03-1500.json#candidates[47]",
             "source_id": "sohu-jqzx",
             "source_name": "机器之心Pro(搜狐同步)"
           },
           "snapshot": {
-            "file": "archives/2026-11-03-1545/05_m.sohu.com_ba4df035.html",
+            "file": "archives/2026-11-03-1500/05_m.sohu.com_ba4df035.html",
             "sha256": "f0d6573b8633445739cd77916ef01f90c517831417d066b4dc618b041b3d06fd",
             "fetched_at": "2026-11-03T08:10:17.996Z"
           }
@@ -365,12 +365,12 @@
           ],
           "provenance": {
             "url": "https://www.qbitai.com/2026/11/507367.html",
-            "raw_ref": "reports/raw/2026-11-03-1545.json#candidates[189]",
+            "raw_ref": "reports/raw/2026-11-03-1500.json#candidates[189]",
             "source_id": "qbitai",
             "source_name": "量子位"
           },
           "snapshot": {
-            "file": "archives/2026-11-03-1545/06_www.qbitai.com_0abda820.html",
+            "file": "archives/2026-11-03-1500/06_www.qbitai.com_0abda820.html",
             "sha256": "fe1a5e4905029c40567fc91e0b062da85415e62c6cb6e35439f2198140d39662",
             "fetched_at": "2026-11-03T08:10:18.279Z"
           }
@@ -418,12 +418,12 @@
           ],
           "provenance": {
             "url": "https://m.sohu.com/a/1096562852_473283",
-            "raw_ref": "reports/raw/2026-11-03-1545.json#candidates[35]",
+            "raw_ref": "reports/raw/2026-11-03-1500.json#candidates[35]",
             "source_id": "sohu-xzy",
             "source_name": "新智元(搜狐同步)"
           },
           "snapshot": {
-            "file": "archives/2026-11-03-1545/07_m.sohu.com_358ecce3.html",
+            "file": "archives/2026-11-03-1500/07_m.sohu.com_358ecce3.html",
             "sha256": "cdd9b1d9d0a5db803e7dbf6a582298ff7b96a0474e40e3215a071473087b6e38",
             "fetched_at": "2026-11-03T08:10:18.384Z"
           }
@@ -469,12 +469,12 @@
           ],
           "provenance": {
             "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing",
-            "raw_ref": "reports/raw/2026-11-03-1545.json#candidates[10]",
+            "raw_ref": "reports/raw/2026-11-03-1500.json#candidates[10]",
             "source_id": "techcrunch",
             "source_name": "TechCrunch"
           },
           "snapshot": {
-            "file": "archives/2026-11-03-1545/08_techcrunch.com_b0b84c07.html",
+            "file": "archives/2026-11-03-1500/08_techcrunch.com_b0b84c07.html",
             "sha256": "f42be5def9fdff75ab03e42e6f884300120f3fa266aba2aae9908ee0686f5c5c",
             "fetched_at": "2026-11-03T08:10:20.011Z"
           }
@@ -525,12 +525,12 @@
           ],
           "provenance": {
             "url": "https://36kr.com/p/4053709042176903",
-            "raw_ref": "reports/raw/2026-11-03-1545.json#candidates[5]",
+            "raw_ref": "reports/raw/2026-11-03-1500.json#candidates[5]",
             "source_id": "kr36",
             "source_name": "36氪"
           },
           "snapshot": {
-            "file": "archives/2026-11-03-1545/09_36kr.com_f9c49b11.html",
+            "file": "archives/2026-11-03-1500/09_36kr.com_f9c49b11.html",
             "sha256": "794d5f10b222631b29559867d6dc3a6d815ace3fde97c62bb8f7e25ba8ec0de6",
             "fetched_at": "2026-11-03T08:10:20.183Z"
           }
@@ -590,12 +590,12 @@
           ],
           "provenance": {
             "url": "https://36kr.com/p/4053494364378244",
-            "raw_ref": "reports/raw/2026-11-03-1545.json#candidates[178]",
+            "raw_ref": "reports/raw/2026-11-03-1500.json#candidates[178]",
             "source_id": "kr36",
             "source_name": "36氪"
           },
           "snapshot": {
-            "file": "archives/2026-11-03-1545/10_36kr.com_94dec9c9.html",
+            "file": "archives/2026-11-03-1500/10_36kr.com_94dec9c9.html",
             "sha256": "8ff23f6e1b4c8b538e6f1b99be27ce697d139f9e16b6256fe4dd4b0ee8e77b07",
             "fetched_at": "2026-11-03T08:10:20.439Z"
           }
@@ -647,12 +647,12 @@
           ],
           "provenance": {
             "url": "https://36kr.com/p/4053440422860672",
-            "raw_ref": "reports/raw/2026-11-03-1545.json#candidates[186]",
+            "raw_ref": "reports/raw/2026-11-03-1500.json#candidates[186]",
             "source_id": "kr36",
             "source_name": "36氪"
           },
           "snapshot": {
-            "file": "archives/2026-11-03-1545/11_36kr.com_934e6bfd.html",
+            "file": "archives/2026-11-03-1500/11_36kr.com_934e6bfd.html",
             "sha256": "b1173d24de989acc365fba5bb57565dd7b21d5abeeded6932df278b50bd49044",
             "fetched_at": "2026-11-03T08:10:20.631Z"
           }
@@ -698,12 +698,12 @@
           ],
           "provenance": {
             "url": "https://36kr.com/p/4053287241290886",
-            "raw_ref": "reports/raw/2026-11-03-1545.json#candidates[216]",
+            "raw_ref": "reports/raw/2026-11-03-1500.json#candidates[216]",
             "source_id": "kr36",
             "source_name": "36氪"
           },
           "snapshot": {
-            "file": "archives/2026-11-03-1545/12_36kr.com_4cea9325.html",
+            "file": "archives/2026-11-03-1500/12_36kr.com_4cea9325.html",
             "sha256": "8d87d7ac21c803a883ebf75bffed9289357a45993931acaa540f785a891959fd",
             "fetched_at": "2026-11-03T08:10:20.844Z"
           }
@@ -714,23 +714,23 @@
   "signals": [
     {
       "lead": "Anthropic 挂牌定价区间与评级结果",
-      "text": "（SIG-20261103-1545-1，check 2026-11-09）：盯承销定价区间是否落在 1.5 万亿美元以下、 Moody's/S&P 实际评级，以及 698 亿美元一年期到期承诺的再融资安排。",
-      "sigId": "SIG-20261103-1545-1"
+      "text": "（SIG-20261103-1500-1，check 2026-11-09）：盯承销定价区间是否落在 1.5 万亿美元以下、 Moody's/S&P 实际评级，以及 698 亿美元一年期到期承诺的再融资安排。",
+      "sigId": "SIG-20261103-1500-1"
     },
     {
       "lead": "二开/RaaS 机器人平台的规模化验证",
-      "text": "（SIG-20261103-1545-2，check 2026-11-10）：盯擎天租、万机易租的月度租赁台数与毛利率披露，以及智元「合作伙伴销售占比 60%」的年终兑现度。",
-      "sigId": "SIG-20261103-1545-2"
+      "text": "（SIG-20261103-1500-2，check 2026-11-10）：盯擎天租、万机易租的月度租赁台数与毛利率披露，以及智元「合作伙伴销售占比 60%」的年终兑现度。",
+      "sigId": "SIG-20261103-1500-2"
     },
     {
       "lead": "agent 运行时「协调层」的标准之争",
-      "text": "（SIG-20261103-1545-3，check 2026-11-10）：盯 CoworkOS 是否被主流框架吸收、DeepSeek 是否放出 Router/Worker 参考实现，以及是否出现按「并行度/会话」计价的 API。",
-      "sigId": "SIG-20261103-1545-3"
+      "text": "（SIG-20261103-1500-3，check 2026-11-10）：盯 CoworkOS 是否被主流框架吸收、DeepSeek 是否放出 Router/Worker 参考实现，以及是否出现按「并行度/会话」计价的 API。",
+      "sigId": "SIG-20261103-1500-3"
     },
     {
       "lead": "Fable 5.5 正式发布与「代码生视频」的独立复现",
-      "text": "（SIG-20261103-1545-4，check 2026-11-08）：盯 Anthropic 官方页面与 API 文档、第三方是否复刻出同质量纯代码动画，以及模型参数与定价口径。",
-      "sigId": "SIG-20261103-1545-4"
+      "text": "（SIG-20261103-1500-4，check 2026-11-08）：盯 Anthropic 官方页面与 API 文档、第三方是否复刻出同质量纯代码动画，以及模型参数与定价口径。",
+      "sigId": "SIG-20261103-1500-4"
     }
   ],
   "sourceStatus": [
@@ -738,9 +738,9 @@
     "- 说明：36氪部分快讯页（广东「人工智能+消费」、华尔街劝定价等）在无头渲染下偶发返回「该实体不存在或已下线」，正文以同题文章页与外部检索交叉核验；不影响条目成立。"
   ],
   "provenance_meta": {
-    "raw_file": "reports/raw/2026-11-03-1545.json",
-    "evidence_file": "reports/raw/2026-11-03-1545.evidence.json",
-    "snapshot_dir": "archives/2026-11-03-1545/",
+    "raw_file": "reports/raw/2026-11-03-1500.json",
+    "evidence_file": "reports/raw/2026-11-03-1500.evidence.json",
+    "snapshot_dir": "archives/2026-11-03-1500/",
     "raw_candidates": 243,
     "matched": 12
   }
