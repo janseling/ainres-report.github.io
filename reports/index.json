@@ -1,6 +1,32 @@
 {
-  "count": 105,
+  "count": 106,
   "reports": [
+    {
+      "id": "2026-11-03-1545",
+      "date": "2026-11-03",
+      "time": "15:45",
+      "title": "AI 情报 · 11-03 15:45 场",
+      "itemCount": 12,
+      "coverage": "2026-11-03 09:00 → 11-03 15:52（Asia/Shanghai）",
+      "note": "本日 09:00 场已报条目按去重跳过；Anthropic 招股书修订稿的财务口径与本场同时段的估值/算力稿合并成一条",
+      "overview": [
+        "Anthropic 修订 S-1：Q3 营收 169.6 亿美元、重回 5.67 亿美元经营亏损，采购与租赁承诺累计 8954 亿美元。",
+        "华尔街把估值锚拉回 1.5 万亿以内，承销侧开始劝「审慎定价」。",
+        "机器人生意出现倒挂：本体卖不动，二开+租赁的「4S 店」先跑出独角兽。",
+        "人大/复旦 CoworkOS 与 DeepSeek Super Agent 同频：主脑定策略、协调层管状态、子智能体干活。",
+        "苹果 Watch 音频智能进 beta：Live Rewind 与 Siri Recap 把「常听」做成可回放的笔记。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 4,
+        "policy": 1,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 302,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-11-03-1500",
       "date": "2026-11-03",
