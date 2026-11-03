@@ -3,7 +3,7 @@
   "date": "2026-11-03",
   "time": "21:00",
   "title": "AI 情报 · 11-03 21:00 场",
-  "generatedAt": "2026-11-03T13:19:28.653Z",
+  "generatedAt": "2026-11-03T17:44:16.080Z",
   "coverage": "2026-11-03 15:00 → 21:05（Asia/Shanghai，窗口口径）",
   "notes": [
     "备注：本期 web_search 工具不可用，佐证按 §7 降级 curl 检索完成"
@@ -621,6 +621,8 @@
               "type": "产品"
             }
           ],
+          "event_time": "2026-10-22",
+          "event_time_inferred": false,
           "provenance": {
             "url": "https://www.ifanr.com/1687274",
             "raw_ref": "reports/raw/2026-11-03-2100.json#candidates[105]",
