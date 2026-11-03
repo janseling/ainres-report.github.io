@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T13:20:26.379Z",
+ "generated": "2026-11-03T13:22:37.359Z",
  "count": 250,
  "chains": [
   {
@@ -2477,7 +2477,7 @@
    "slug": "sig-20261103-2100-1",
    "name": "dots「一事一议」多模型路由",
    "status": "open",
-   "check": "",
+   "check": "2026-11-06",
    "born": "2026-11-03-2100",
    "nodes": 1,
    "latest": "2026-11-03-2100"
@@ -2487,7 +2487,7 @@
    "slug": "sig-20261103-2100-2",
    "name": "Weight-Space Programming 复现与滥用面",
    "status": "open",
-   "check": "",
+   "check": "2026-11-06",
    "born": "2026-11-03-2100",
    "nodes": 1,
    "latest": "2026-11-03-2100"
@@ -2497,7 +2497,7 @@
    "slug": "sig-20261103-2100-3",
    "name": "DeepSeek V5 全国产算力预训练",
    "status": "open",
-   "check": "",
+   "check": "2026-11-06",
    "born": "2026-11-03-2100",
    "nodes": 1,
    "latest": "2026-11-03-2100"
