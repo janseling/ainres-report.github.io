@@ -1,5 +1,5 @@
 {
-  "count": 106,
+  "count": 105,
   "reports": [
     {
       "id": "2026-11-03-1545",
@@ -25,31 +25,6 @@
       "rawStats": {
         "candidates": 302,
         "selected": 12
-      }
-    },
-    {
-      "id": "2026-11-03-1500",
-      "date": "2026-11-03",
-      "time": "15:00",
-      "title": "AI 情报 · 11-03 15:00 场",
-      "itemCount": 13,
-      "coverage": "2026-11-03 09:00 → 11-03 15:05（Asia/Shanghai）",
-      "note": "补刊说明：1500 场采集完成后模型空闲超时中断（cron 记 error），续跑补刊；0900 场已报内容（Anthropic RSI、Altman 下一代 GPT、MIT 权重编辑、Karpathy HackerTube 等）不再重复",
-      "overview": [
-        "美团 LongCat-2.5 悄然上线：1.6 万亿参数、48B 激活，国产芯特别优化。",
-        "Qwen Code 仓库 PR 泄露 qwen4-max / qwen4-coder-plus / qwen4-omni-120b 型号串。",
-        "Anthropic 招股书再爆：Q3 营收近 170 亿美元但营业转亏，算力承诺 8954 亿美元。",
-        "李佳琦直播间半小时卖出 10 万份千问办公会员，约 2 万亿 Token。",
-        "北大联手 IBM：模拟计算进入矩阵时代，「GPU 迭代一百次的事一步做完」。"
-      ],
-      "sectionCounts": {
-        "product": 4,
-        "tech": 4,
-        "industry": 5
-      },
-      "rawStats": {
-        "candidates": 234,
-        "selected": 13
       }
     },
     {

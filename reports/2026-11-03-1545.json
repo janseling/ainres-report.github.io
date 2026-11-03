@@ -739,7 +739,7 @@
   ],
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-03-1545.json",
-    "evidence_file": null,
+    "evidence_file": "reports/raw/2026-11-03-1545.evidence.json",
     "snapshot_dir": "archives/2026-11-03-1545/",
     "raw_candidates": 243,
     "matched": 12
