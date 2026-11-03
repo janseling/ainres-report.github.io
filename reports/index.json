@@ -1,6 +1,31 @@
 {
-  "count": 105,
+  "count": 106,
   "reports": [
+    {
+      "id": "2026-11-03-2100",
+      "date": "2026-11-03",
+      "time": "21:00",
+      "title": "AI 情报 · 11-03 21:00 场",
+      "itemCount": 12,
+      "coverage": "2026-11-03 15:00 → 21:05（Asia/Shanghai，窗口口径）",
+      "note": "备注：本期 web_search 工具不可用，佐证按 §7 降级 curl 检索完成",
+      "overview": [
+        "OpenAI 个人智能体 dots 升级「一事一议」：Terra 入列，按步换模型，旗舰只镇场",
+        "CentOS 创始人 11 天用 AI 写出 13.9 万行 Linux 兼容内核 Ginux，Rocky Linux 10 跑通",
+        "MIT 用 GPT-6 Astra 对 Qwen 权重做「微创手术」，数学成绩 6 倍；Meta 研究员泼冷水",
+        "DeepSeek V5 传改用华为昇腾预训练（TrendForce 佐证）；Fable 5.5 实测流出、官宣临近",
+        "Revolut 自托管 GLM 5.3 编码成本降 90%——「美企投奔中国开源」信号再+1"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 3,
+        "industry": 5
+      },
+      "rawStats": {
+        "candidates": 131,
+        "selected": 13
+      }
+    },
     {
       "id": "2026-11-03-1500",
       "date": "2026-11-03",
