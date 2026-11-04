@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 04 Nov 2026 08:24:13 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 13:14:47 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-04 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-04-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-04-1500.html</guid>
+      <pubDate>Wed, 04 Nov 2026 07:00:00 GMT</pubDate>
+      <description>腾讯混元发布 Hy4：号称首次跻身最强开源模型，主打真实生产力。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-04 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-04-0900.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-29-0900.html</guid>
       <pubDate>Thu, 29 Oct 2026 01:00:00 GMT</pubDate>
       <description>Google 甩出 Gemini 4 Carbon：Artificial Analysis v5.0 登顶，但只先给网络安全防御方用，&quot;最强模型不卖给你&quot;成了新投放策略。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-28 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-28-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-28-2100.html</guid>
-      <pubDate>Wed, 28 Oct 2026 13:00:00 GMT</pubDate>
-      <description>扩散语言模型首次正面打进 Agent 主场：DiffuSpace Clover-35B 在 WindTunnel 网页任务上把中位耗时压到 Jev+Mercury 组合的一半</description>
     </item>
   </channel>
 </rss>
