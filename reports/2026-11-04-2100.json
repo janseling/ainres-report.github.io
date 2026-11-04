@@ -3,7 +3,7 @@
   "date": "2026-11-04",
   "time": "21:00",
   "title": "AI 情报 · 11-04 21:00 场",
-  "generatedAt": "2026-11-04T13:12:06.057Z",
+  "generatedAt": "2026-11-04T13:53:12.396Z",
   "coverage": "2026-11-04 15:00 → 21:05（Asia/Shanghai，窗口口径）",
   "notes": [
     "本日 09:00/15:00 场已报内容已去重；Anthropic 官网三条候选（新加坡办公室/Accenture/生命科学验证计划）经原链核日期均为 9-10 月旧闻，超 48h 未收"
@@ -272,7 +272,7 @@
           "confidence_note": "D源·自报+MarkTechPost收录，跑分未独立复现",
           "publish_time": "2026-11-04 17:00",
           "event_time": "2026-11-02",
-          "event_time_inferred": false,
+          "event_time_inferred": true,
           "verify_note": "外部检索（MarkTechPost 同步报道：753B 开放权重科学模型发布; https://www.marktechpost.com/2026/11/02/deep-principle-hydrogen-1-0-open-weight-scientific-model/）",
           "entities": [
             {
@@ -329,7 +329,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 新智元+大公文汇网",
           "publish_time": "2026-11-04 18:03",
-          "event_time": "2026-11-03",
+          "event_time": "2026-11-03 22:00",
           "event_time_inferred": false,
           "verify_note": "外部检索（大公文汇网/HK01 同步报道：百度披露 Apollo World，虚拟里程 1 天抵实车连测 3 年; https://www.wenweipo.com/a/202611/03/AP6ae9f6f1e4b0fa89498bb85a.html）",
           "entities": [
@@ -442,7 +442,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+驱动之家",
           "publish_time": "2026-11-04 18:04",
-          "event_time": "2026-11-03",
+          "event_time": "2026-11-04",
           "event_time_inferred": false,
           "verify_note": "外部检索（驱动之家/腾讯新闻 同步报道：iOS 27.3 测试版推送，国行苹果智能上线，需预留 7GB 存储; https://news.qq.com/rain/a/20261104A03QJH00）",
           "entities": [
@@ -480,7 +480,7 @@
       "items": [
         {
           "title": "德州变天：州长胜选人曾承诺停批新建数据中心，AI 算力股应声下挫",
-          "meta": "CNBC via HN·2026-11-04 15:00",
+          "meta": "CNBC·2026-11-04 13:16",
           "urls": [
             "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html"
           ],
@@ -500,7 +500,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 CNBC+Seeking Alpha",
-          "publish_time": "2026-11-04 15:00",
+          "publish_time": "2026-11-04 13:16",
           "event_time": "2026-11-03",
           "event_time_inferred": false,
           "verify_note": "外部检索（Bloomberg/Seeking Alpha 同步报道：Hinojosa 胜选后 AI 数据中心股下跌; https://seekingalpha.com/news/4664474-ai-stocks-tied-to-texas-data-center-boom-slide-after-hinojosa-win）",
