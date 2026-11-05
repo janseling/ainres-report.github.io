@@ -3,7 +3,7 @@
   "date": "2026-11-05",
   "time": "09:00",
   "title": "AI 情报 · 11-05 09:00 场",
-  "generatedAt": "2026-11-05T01:35:58.415Z",
+  "generatedAt": "2026-11-05T09:46:51.089Z",
   "coverage": "2026-11-04 21:00 → 11-05 09:33（Asia/Shanghai）",
   "notes": [
     "补刊说明：0900 场执行中断（cron 误记 ok、177 秒即止，raw 亦缺失），本刊含重新采集；11-04 21:00 场内容不再重复"
@@ -192,8 +192,6 @@
           "confidence": "低",
           "confidence_note": "B单源，未见独立来源（外查 2026-11-05）",
           "publish_time": "2026-11-05 09:10",
-          "event_time": null,
-          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 2026-11-05）",
           "entities": [
             {
@@ -242,7 +240,7 @@
           "confidence": "低",
           "confidence_note": "B单源，未见独立来源（外查 2026-11-05）",
           "publish_time": "2026-11-05 09:02",
-          "event_time": null,
+          "event_time": "2026-10-16 00:20",
           "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 2026-11-05）",
           "entities": [
@@ -340,8 +338,6 @@
           "confidence": "中",
           "confidence_note": "C源一手项目帖 [P]，作者开源",
           "publish_time": "2026-11-05 05:47",
-          "event_time": null,
-          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 2026-11-05；作者一手开源帖）",
           "entities": [
             {
@@ -387,8 +383,6 @@
           "confidence": "低",
           "confidence_note": "C源，未见独立来源（外查 2026-11-05）",
           "publish_time": "2026-11-04 23:53",
-          "event_time": null,
-          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 2026-11-05）",
           "entities": [
             {
@@ -517,8 +511,6 @@
           "confidence": "中",
           "confidence_note": "B单源 + 相关佐证",
           "publish_time": "2026-11-05 08:43",
-          "event_time": null,
-          "event_time_inferred": false,
           "verify_note": "外部检索（mrjjxw 10-03 15:00〈美债收益率飙升致美股IPO市场\"熄火\"，Anthropic 2万亿美元估值存疑〉相关佐证；直链未寻得）",
           "entities": [
             {
@@ -558,8 +550,6 @@
           "confidence": "中",
           "confidence_note": "B单源",
           "publish_time": "2026-11-05 08:18",
-          "event_time": null,
-          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 2026-11-05）",
           "entities": [
             {
@@ -599,8 +589,6 @@
           "confidence": "高",
           "confidence_note": "多源 界面/京报网 同步",
           "publish_time": "2026-11-05 08:01",
-          "event_time": null,
-          "event_time_inferred": false,
           "verify_note": "外部检索（界面 10-29 17:59〈月薪最高8万元，FDE为何如此抢手？〉、京报网〈招聘需求涨42倍！AI圈最火岗位〉；直链未寻得）",
           "entities": [
             {
