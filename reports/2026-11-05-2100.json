@@ -1,0 +1,609 @@
+{
+  "id": "2026-11-05-2100",
+  "date": "2026-11-05",
+  "time": "21:00",
+  "title": "AI 情报 · 11-05 21:00 场",
+  "generatedAt": "2026-11-05T13:15:47.408Z",
+  "coverage": "2026-11-05 15:00 → 21:05（Asia/Shanghai）",
+  "notes": [
+    "15:00 场已覆盖当日白天增量，本场无重复收录"
+  ],
+  "itemCount": 11,
+  "rawStats": {
+    "candidates": 126,
+    "selected": 11
+  },
+  "overview": [
+    "OpenAI 官宣收购 Pierre Computer，Codex 要内建 Git 代码存储，Axios 称直指 GitHub",
+    "OpenAI Images 2.6 上线：出图快 50%、支持一句话生成 GIF，API 价格不变",
+    "百度开源文心 5.5 Flash Base（280B MoE/14B 激活），主打效率路线",
+    "首家纯人形机器人公司 Agility Robotics 完成合并登陆纳斯达克",
+    "零一万物获杭州及临平国资数亿元融资，押注企业决策层 AI",
+    "Anthropic 上市前夕 Claude Code 产品负责人 Cat Wu 转投 OpenAI"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "OpenAI 收购 Pierre Computer，Codex 里要再造一个 GitHub",
+          "meta": "36氪·2026-11-05 20:30",
+          "urls": [
+            "https://36kr.com/p/4056787186881670"
+          ],
+          "summary": "OpenAI 官宣收购代码工具团队 Pierre Computer，计划把 Git 式代码存储/工作流原生并入 Codex；同日 Meta 也收购了一款代码工具，两大巨头同日补齐 AI 开发全流程版图。- 📌 跟踪回访 SIG-20261105-2100-1：（新立）盯 Codex 内建 Git 存储落地节奏与微软/GitHub 反应，check 2026-11-09。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "开发工具入口战从「插件/CLI」升级到「托管平台」，GitHub（微软）被正面瞄准；agent 写码量越大，代码托管与评审环节的卡位价值越高。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "围绕「AI 原生代码托管」的周边（评审、回放、权限审计）暂时还是空窗，但巨头入场后独立空间会快速收窄。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "商业合作"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+SiliconANGLE/Axios",
+          "publish_time": "2026-11-05 20:30",
+          "event_time": "2026-11-04 22:33",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（SiliconANGLE 2026-11-04 21:14 GMT 同步报道：官方宣布收购 Pierre Computer、把 Git 代码存储带进 Codex； https://siliconangle.com/2026/11/04/openai-to-acquire-developer-tooling-startup-pierre-computer/ ；Axios 独家称直指 GitHub）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Codex",
+              "type": "产品"
+            },
+            {
+              "name": "Pierre Computer",
+              "type": "企业"
+            },
+            {
+              "name": "GitHub",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4056787186881670",
+            "raw_ref": "reports/raw/2026-11-05-2100.json#candidates[10]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-2100/01_36kr.com_77d4c7e8.html",
+            "sha256": "4ab6d336c8e458bf1d38e4801ecebb127566fe00f7725bf471d27e088fdb0e88",
+            "fetched_at": "2026-11-05T13:15:47.860Z"
+          }
+        },
+        {
+          "title": "OpenAI Images 2.6 上线：出图快 50%，一句话生成 GIF",
+          "meta": "36氪·2026-11-05 20:43",
+          "urls": [
+            "https://36kr.com/p/4056770966459268"
+          ],
+          "summary": "Images 2.6 进 ChatGPT/Codex/API：生成提速 50%，支持文字或照片直出动图 GIF、帧编辑；API 价格不变。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "「6 秒出图+一句话 GIF」把轻量动图生产成本打到接近零，表情包/社媒素材类小工具的付费窗口正在关闭，做分发和场景的还能活。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+BlockTempo/Decrypt",
+          "publish_time": "2026-11-05 20:43",
+          "event_time": "2026-11-04 22:33",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（BlockTempo 2026-11-05 03:07 GMT 同步报道：Images 2.6 新增 GIF 动图与 Flare/Sunburst，API 价格不变； https://www.blocktempo.com/openai-chatgpt-images-gif-animation-flare-sunburst-api-price-unchanged/ ）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "ChatGPT",
+              "type": "产品"
+            },
+            {
+              "name": "Images 2.6",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4056770966459268",
+            "raw_ref": "reports/raw/2026-11-05-2100.json#candidates[8]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-2100/02_36kr.com_7679c87d.html",
+            "sha256": "90f5ce58c51ab0f39b200371851f8cf79bd1d8306e058a30fef5c16d8a803e0b",
+            "fetched_at": "2026-11-05T13:15:48.086Z"
+          }
+        },
+        {
+          "title": "零一万物获杭州国资数亿元，李开复下注企业决策层",
+          "meta": "36氪·2026-11-05 17:30",
+          "urls": [
+            "https://36kr.com/p/4056534105183105"
+          ],
+          "summary": "零一万物完成数亿元融资，国资入局；公司重心转向「把 AI 送进企业决策层」的企业转型业务，并落地杭州临平。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "基模型大厂集体转向「产业落地+区域国资绑定」的生存样本；对做企业 AI 落地的团队，国资买单方在增多。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+腾讯新闻",
+          "publish_time": "2026-11-05 17:30",
+          "event_time": "2026-11-02",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（腾讯新闻 2026-11-02 16:53 同步报道：完成数亿元股权融资，投资方为杭州及临平区国资； https://news.qq.com/rain/a/20261102A0A8Z100 ）",
+          "entities": [
+            {
+              "name": "零一万物",
+              "type": "企业"
+            },
+            {
+              "name": "李开复",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4056534105183105",
+            "raw_ref": "reports/raw/2026-11-05-2100.json#candidates[57]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-2100/03_36kr.com_bf1af906.html",
+            "sha256": "6e257d36c2168c334e9bc6f2f9dcf23249e1f07a9451436ce8108ede18d89565",
+            "fetched_at": "2026-11-05T13:15:48.257Z"
+          }
+        },
+        {
+          "title": "Agility Robotics 登陆纳斯达克：首家纯人形机器人上市公司",
+          "meta": "TechCrunch·2026-11-05 20:00",
+          "urls": [
+            "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying"
+          ],
+          "summary": "Agility 经 SPAC 合并完成上市，成为二级市场首只「纯人形机器人」标的，媒体普遍提示商业化兑现度待验。📌 跟踪回访 SIG-20261023-2100-1（延续）：具身智能上市判级添美股对照样本——智元港股递表后，二级市场对人形机器人给了首个公开定价锚。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "A 股/港股排队的机器人公司多了个可对照的估值标尺；上市不等于判级通过，看后续季度订单兑现。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 TC+Ars Technica",
+          "publish_time": "2026-11-05 20:00",
+          "event_time": "2026-11-05",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Ars Technica 同日同步报道：美国人形机器人部署头部公司挂牌纳斯达克； https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market ；Yahoo 证实 11-04 SPAC 合并完成）",
+          "entities": [
+            {
+              "name": "Agility Robotics",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying",
+            "raw_ref": "reports/raw/2026-11-05-2100.json#candidates[23]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-2100/04_techcrunch.com_e6093828.html",
+            "sha256": "7c1c2fa06fc439ec4c88cf8f85874063395efed00e96ebb6ecbf76c0404aa788",
+            "fetched_at": "2026-11-05T13:15:49.361Z"
+          }
+        },
+        {
+          "title": "百度开源文心 5.5 Flash Base：280B MoE/14B 激活",
+          "meta": "量子位·2026-11-05 15:15",
+          "urls": [
+            "https://www.qbitai.com/2026/11/507787.html"
+          ],
+          "summary": "百度 11-05 官宣开源文心 5.5 Flash Base：280B 参数、每 token 仅激活 14B，注意力/专家路由/训练机制系统性提效，自报多项同尺寸 SOTA。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "draft 模型涌现外推能力（只学多预测 1 个 token 却能连续起草多个、接受率高于外挂 MTP），投机解码路线又添实证。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "开源+效率牌继续把私有化推理成本往下打，做微调/托管交付的团队评测清单可以加上这一条。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 量子位+机器之心",
+          "publish_time": "2026-11-05 15:15",
+          "event_time": "2026-11-05",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（机器之心搜狐镜像同日同报：围绕效率主线系统性优化、多项基准刷新同尺寸 SOTA； https://m.sohu.com/a/1097577247_129720 ；Startup Fortune 亦同报）",
+          "entities": [
+            {
+              "name": "百度",
+              "type": "企业"
+            },
+            {
+              "name": "文心",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/11/507787.html",
+            "raw_ref": "reports/raw/2026-11-05-2100.json#candidates[84]",
+            "source_id": "qbitai",
+            "source_name": "量子位"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-2100/05_www.qbitai.com_8c59ee07.html",
+            "sha256": "3d3fa01317cc717299fbbf281cec12eee3d66e0cabec1a30627d9bec0ed4187a",
+            "fetched_at": "2026-11-05T13:15:49.670Z"
+          }
+        },
+        {
+          "title": "MIT「Astra 爆改 Qwen 权重」神作被 spaCy 作者锤爆",
+          "meta": "36氪·2026-11-05 17:32",
+          "urls": [
+            "https://36kr.com/p/4056481264866438"
+          ],
+          "summary": "此前刷屏的「GPT-6 Astra 微改 Qwen 权重、数学成绩 6 倍提升」遭 spaCy 作者长文炮轰，36氪跟进稿亦判「跟我们想要的 RSI 没多大关系」——权重空间编程的原始叙事被公开降温。- 📌 跟踪回访 SIG-20261105-2100-2：（新立）盯 Images 2.6 的 GIF 能力对国内图像/视频工具的跟功能与跟价，check 2026-11-09。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "热度与证据链再次错位；凡是「改一点点权重=质变」类叙事，等独立复现再动。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+搜狐科技",
+          "publish_time": "2026-11-05 17:32",
+          "event_time": "2026-11-04",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（搜狐科技 2026-11-05 同步报道：MIT 研究 Astra 修改 Qwen 权重遭质疑； https://www.sohu.com/a/1097508831_122066678 ）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "MIT",
+              "type": "机构"
+            },
+            {
+              "name": "Qwen",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4056481264866438",
+            "raw_ref": "reports/raw/2026-11-05-2100.json#candidates[55]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-2100/06_36kr.com_d5110387.html",
+            "sha256": "14c91835573cdf23cd3b7b0cb7a7f73c5564ea4ba6186312f2d358a49a322a2c",
+            "fetched_at": "2026-11-05T13:15:49.868Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业·玩法",
+      "items": [
+        {
+          "title": "学校想关 AI 功能，谷歌搜索将同步下线：强制捆绑引争议",
+          "meta": "36氪·2026-11-05 17:29",
+          "urls": [
+            "https://36kr.com/p/4056597733021312"
+          ],
+          "summary": "谷歌教育账户把 AI 功能与搜索服务捆绑：学校要关 AI 就得整体放弃搜索，引发「强制捆绑」争议，DuckDuckGo 趁机向学校推销自家无 AI 搜索。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "「无 AI 干净版」成了新卖点；教育与政府等强合规场景里，反 AI 捆绑的替代品有真实采购需求。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+ChainCatcher",
+          "publish_time": "2026-11-05 17:29",
+          "event_time": "2026-11-04",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（ChainCatcher 2026-11-04 13:21 同步报道：Google 允许学校禁用 AI 但将同时失去搜索服务； https://www.chaincatcher.com/article/2301838 ）",
+          "entities": [
+            {
+              "name": "谷歌",
+              "type": "企业"
+            },
+            {
+              "name": "DuckDuckGo",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4056597733021312",
+            "raw_ref": "reports/raw/2026-11-05-2100.json#candidates[58]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-2100/07_36kr.com_e1101b8b.html",
+            "sha256": "e27bb124616a013c3cb38eeb3002df016ee0fe290d9d8778be745db5f2df5d04",
+            "fetched_at": "2026-11-05T13:15:50.080Z"
+          }
+        },
+        {
+          "title": "谷歌把自愿离职计划扩至多国：省下的钱投 AI",
+          "meta": "36氪·2026-11-05 19:41",
+          "urls": [
+            "https://36kr.com/p/4056607874536578"
+          ],
+          "summary": "Reuters 证实谷歌向多个国家员工发出自愿买断邀约（最高 12 个月补偿），为 AI 开支腾挪成本；哈萨比斯同场放话「未来一个人或能干十个人的活」。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "大厂「裁员省钱投 AI」进入跨国制度化阶段，非 AI 岗位预算持续向算力和模型团队迁移。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+Reuters",
+          "publish_time": "2026-11-05 19:41",
+          "event_time": "2026-11-04",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（Reuters 独家：谷歌自愿买断扩展至多个国家； https://www.msn.com/en-us/money/human-resources/google-extends-voluntary-buyout-offers-to-employees-in-several-countries-reuters/ar-AA2gJdJx ）",
+          "entities": [
+            {
+              "name": "谷歌",
+              "type": "企业"
+            },
+            {
+              "name": "Demis Hassabis",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4056607874536578",
+            "raw_ref": "reports/raw/2026-11-05-2100.json#candidates[30]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-2100/08_36kr.com_0a97db3f.html",
+            "sha256": "f23eb74bcc22b913216672e21d85749bae6358f79007db1ceeb296abc12c365f",
+            "fetched_at": "2026-11-05T13:15:50.284Z"
+          }
+        },
+        {
+          "title": "Cat Wu 转投 OpenAI，Anthropic 上市前连失核心",
+          "meta": "36氪·2026-11-05 15:52",
+          "urls": [
+            "https://36kr.com/p/4056380039435140"
+          ],
+          "summary": "Claude Code 产品负责人 Cat Wu 入职 OpenAI 掌管核心产品管理；Anthropic 冲刺 IPO 之际两周内核心成员接连出走。📌 跟踪回访 SIG-20261006-2100-1（延续）：Anthropic 挂牌前人事流失再+1（第四名核心成员口径见 BigGo）——招股书风险章节之外，人才面正在给 11-16 当周挂牌添变数。",
+          "angles": [],
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+Business Insider",
+          "publish_time": "2026-11-05 15:52",
+          "event_time": "2026-11-04",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（Business Insider 2026-11-05 00:57 同步报道：Cat Wu 从 Anthropic 跳槽 OpenAI 掌管核心产品线； https://www.businessinsider.com/cat-wu-joins-openai-from-anthropic-product-lead-coup-2026-11 ；PANews 称两周连失三员大将）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Claude Code",
+              "type": "产品"
+            },
+            {
+              "name": "Cat Wu",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4056380039435140",
+            "raw_ref": "reports/raw/2026-11-05-2100.json#candidates[76]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-2100/09_36kr.com_8042dc9a.html",
+            "sha256": "25ba91ad014decbca617aa87950fb90255999173771a80b89798bc78a9fb8961",
+            "fetched_at": "2026-11-05T13:15:50.484Z"
+          }
+        },
+        {
+          "title": "腾讯 Hy4 调用激增，WorkBuddy 紧急扩容十倍",
+          "meta": "36氪·2026-11-05 19:46",
+          "urls": [
+            "https://36kr.com/p/4056784814592904"
+          ],
+          "summary": "混元 Hy4 在 WorkBuddy 首发后调用激增，推理集群扩容十倍，官方顺势延长 Hy3 限免——国内 AI 办公工作台出现首个「算力被用户打爆」的公开样本。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "需求侧真实起量（而非补贴拉动）的信号；围绕企业 AI 工作台的容量治理、成本护栏是下一个采购点。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+腾讯新闻",
+          "publish_time": "2026-11-05 19:46",
+          "event_time": "2026-11-05",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（腾讯新闻同日同报：Hy4 调用激增 WorkBuddy 已十倍扩容、Hy3 限免延至 11-15； https://news.qq.com/rain/a/20261105A0CR9O00 ）",
+          "entities": [
+            {
+              "name": "腾讯",
+              "type": "企业"
+            },
+            {
+              "name": "WorkBuddy",
+              "type": "产品"
+            },
+            {
+              "name": "混元",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4056784814592904",
+            "raw_ref": "reports/raw/2026-11-05-2100.json#candidates[28]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-2100/10_36kr.com_1b81a64c.html",
+            "sha256": "686a2e4f60a7fb52862a75f698650fb135674f2eb03d25f0f1505bfe879e693f",
+            "fetched_at": "2026-11-05T13:15:50.688Z"
+          }
+        },
+        {
+          "title": "瑞典建筑商 AI 数据中心订单积压达 2242 亿元",
+          "meta": "36氪·2026-11-05 20:35",
+          "urls": [
+            "https://36kr.com/p/4056833516967047"
+          ],
+          "summary": "AI 数据中心建设潮外溢到上游建造业：瑞典建筑商 Skanska 订单积压总额约 2242 亿元人民币，同时警示新进入者风险。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "算力资本开支的受益链继续向土建/电力等「卖水人」扩散；传统行业里的 AI 敞口正在被市场重新定价。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+Reuters/AOL",
+          "publish_time": "2026-11-05 20:35",
+          "event_time": "2026-11-05",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（Reuters via AOL 2026-11-05 02:45 同步报道：Skanska 对 AI 数据中心热潮新进入者持谨慎态度、订单积压高企； https://www.aol.com/articles/skanska-wary-newcomers-ai-data-104529000.html ）",
+          "entities": [
+            {
+              "name": "Skanska",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4056833516967047",
+            "raw_ref": "reports/raw/2026-11-05-2100.json#candidates[9]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-2100/11_36kr.com_ef9286e8.html",
+            "sha256": "a006cf6ce838ec5921850f96f9b3c2a5a25184eff18bee71a75a706229affc7a",
+            "fetched_at": "2026-11-05T13:15:50.896Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "Codex 内建 Git 代码存储的落地与 GitHub 攻防",
+      "text": "（SIG-20261105-2100-1，check 2026-11-09）：盯 Codex 侧 Git 功能灰度节奏、微软/GitHub 官方回应，以及「AI 原生代码托管」第三方工具站队。",
+      "sigId": "SIG-20261105-2100-1"
+    },
+    {
+      "lead": "Images 2.6 的 GIF 能力外溢",
+      "text": "（SIG-20261105-2100-2，check 2026-11-09）：盯美图/可灵/即梦类国内工具的跟功能与跟价，以及 GIF/动图在社媒素材市场的用量数据。",
+      "sigId": "SIG-20261105-2100-2"
+    },
+    {
+      "lead": "零一万物「国资+企业决策层」转型兑现",
+      "text": "（SIG-20261105-2100-3，check 2026-11-12）：盯 Pre-IPO 轮进展与港股递表节点、企业决策层 AI 的首波签约案例。",
+      "sigId": "SIG-20261105-2100-3"
+    }
+  ],
+  "sourceStatus": [
+    "- 全部 31 个采集源 OK，无 DOWN/FALLBACK，无 consecutive_down≥2；HN 主源超时由 Algolia 兜底吸收，未影响候选。"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-05-2100.json",
+    "evidence_file": "reports/raw/2026-11-05-2100.evidence.json",
+    "snapshot_dir": "archives/2026-11-05-2100/",
+    "raw_candidates": 109,
+    "matched": 11
+  }
+}

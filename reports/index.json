@@ -1,6 +1,31 @@
 {
-  "count": 111,
+  "count": 112,
   "reports": [
+    {
+      "id": "2026-11-05-2100",
+      "date": "2026-11-05",
+      "time": "21:00",
+      "title": "AI 情报 · 11-05 21:00 场",
+      "itemCount": 11,
+      "coverage": "2026-11-05 15:00 → 21:05（Asia/Shanghai）",
+      "note": "15:00 场已覆盖当日白天增量，本场无重复收录",
+      "overview": [
+        "OpenAI 官宣收购 Pierre Computer，Codex 要内建 Git 代码存储，Axios 称直指 GitHub",
+        "OpenAI Images 2.6 上线：出图快 50%、支持一句话生成 GIF，API 价格不变",
+        "百度开源文心 5.5 Flash Base（280B MoE/14B 激活），主打效率路线",
+        "首家纯人形机器人公司 Agility Robotics 完成合并登陆纳斯达克",
+        "零一万物获杭州及临平国资数亿元融资，押注企业决策层 AI",
+        "Anthropic 上市前夕 Claude Code 产品负责人 Cat Wu 转投 OpenAI"
+      ],
+      "sectionCounts": {
+        "product": 6,
+        "industry": 5
+      },
+      "rawStats": {
+        "candidates": 126,
+        "selected": 11
+      }
+    },
     {
       "id": "2026-11-05-1500",
       "date": "2026-11-05",
