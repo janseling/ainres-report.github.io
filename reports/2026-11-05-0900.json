@@ -1,0 +1,637 @@
+{
+  "id": "2026-11-05-0900",
+  "date": "2026-11-05",
+  "time": "09:00",
+  "title": "AI 情报 · 11-05 09:00 场",
+  "generatedAt": "2026-11-05T01:35:58.415Z",
+  "coverage": "2026-11-04 21:00 → 11-05 09:33（Asia/Shanghai）",
+  "notes": [
+    "补刊说明：0900 场执行中断（cron 误记 ok、177 秒即止，raw 亦缺失），本刊含重新采集；11-04 21:00 场内容不再重复"
+  ],
+  "itemCount": 13,
+  "rawStats": {
+    "candidates": 146,
+    "selected": 14
+  },
+  "overview": [
+    "Anthropic 人事震荡：Claude Code「产品一姐」Cat Wu 离职加入 OpenAI。",
+    "Meta 收购 AI 编码初创 Conductor：多 Agent 并行开发工具入 Meta。",
+    "OpenAI Images 2.6 上线：ChatGPT 原生生成 GIF，图像生成提速 50%。",
+    "英伟达+UT-Austin 发布 Realtime-Bench：实时互动任务 GPT-6 也只有 44% 成功率。",
+    "Apple 传大幅削减内部 AI 使用预算；字节被曝限制员工用外部 AI——中美大厂同时「管住自己人的 AI」。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "Claude Code「产品一姐」Cat Wu 加入 OpenAI，前一天刚宣布离职",
+          "meta": "36氪·2026-11-05 09:12",
+          "urls": [
+            "https://36kr.com/p/4056162615350407"
+          ],
+          "summary": "Anthropic 核心成员、Claude Code 产品负责人 Cat Wu 无缝跳槽 OpenAI——前一天刚宣布离职；普林斯顿 CS 出身、一手带火 Claude Code，团队两周内已流失 3 名骨干。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "Anthropic 正处 IPO 前夕，核心产品负责人流向直接竞对——上市招股书里的「人才稳定性」叙事会承压；OpenAI 则补上了编程工具线的产品短板。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源 BlockBeats/cnBeta 同步",
+          "publish_time": "2026-11-05 09:12",
+          "event_time": "2026-11-04",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（BlockBeats 11-03 19:12〈Claude Code近两周3名骨干离职，产品负责人Cat Wu也走了〉、cnBeta 11-04 14:23〈Anthropic上市前夕失去关键产品主管〉；直链未寻得）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Cat Wu",
+              "type": "人物"
+            },
+            {
+              "name": "Claude Code",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4056162615350407",
+            "raw_ref": "reports/raw/2026-11-05-0900.json#candidates[5]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-0900/01_36kr.com_71899501.html",
+            "sha256": "1a40b32490d0ecaefee857700c21822d323a4f3974b731cd5d77baad012e327c",
+            "fetched_at": "2026-11-05T01:36:14.310Z"
+          }
+        },
+        {
+          "title": "Meta 收购 AI 编码初创 Conductor：多 Agent 并行开发入 Meta",
+          "meta": "TechCrunch·2026-11-05 05:10",
+          "urls": [
+            "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor"
+          ],
+          "summary": "Conductor 允许工程师同时部署多支 Agent 团队并行开发项目的不同部分——Meta 收下这家 AI 编码初创。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "大厂对「多 Agent 并行开发」的收购卡位：编码 Agent 的下一站是「编排多 Agent」，不是「单 Agent 更聪明」。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [],
+          "confidence": "高",
+          "confidence_note": "A源 TechCrunch 一手；Axios 同步",
+          "publish_time": "2026-11-05 05:10",
+          "event_time": "2026-11-04",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Axios/Moomoo 11-05 02:19〈Meta收购AI编程初创公司Conductor〉、Mezha 11-04 20:30；直链未寻得）",
+          "entities": [
+            {
+              "name": "Meta",
+              "type": "企业"
+            },
+            {
+              "name": "Conductor",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor",
+            "raw_ref": "reports/raw/2026-11-05-0900.json#candidates[67]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-0900/02_techcrunch.com_2f7abd08.html",
+            "sha256": "eb0a0ffd656be57f1dbbcfaae035e7fabaf03943058b915b2cfd670f9340721c",
+            "fetched_at": "2026-11-05T01:36:15.479Z"
+          }
+        },
+        {
+          "title": "OpenAI Images 2.6 上线：ChatGPT 原生生 GIF，图像生成提速 50%",
+          "meta": "Reddit r/OpenAI·2026-11-05 07:40",
+          "urls": [
+            "https://www.reddit.com/r/OpenAI/comments/1xo3lwb/openai_adds_gif_creation_to_chatgpt_with_images"
+          ],
+          "summary": "ChatGPT 获得原生 GIF 生成与逐帧编辑能力（Images 2.6），另有两个新 API 模型同时放出。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "GIF 是社交平台的硬通货——原生动图 + 提速 50%，直指表情包/短视频切片的生产链。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源 凤凰网/观点网/驱动之家 同步",
+          "publish_time": "2026-11-05 07:40",
+          "event_time": "2026-11-04",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（凤凰网 11-05 06:51〈OpenAI上线Images 2.6：ChatGPT可原生生成并编辑GIF动图〉、观点网 11-05 08:56〈图像生成速度提升50%〉、驱动之家 11-05 08:22；直链未寻得）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "ChatGPT",
+              "type": "产品"
+            },
+            {
+              "name": "Images 2.6",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/OpenAI/comments/1xo3lwb/openai_adds_gif_creation_to_chatgpt_with_images",
+            "raw_ref": "reports/raw/2026-11-05-0900.json#candidates[46]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-0900/03_www.reddit.com_6598043b.html",
+            "sha256": "59d02520debe854e56ac3db5d2490a9027c1d7a103da0e8525e70eec9cfe0d16",
+            "fetched_at": "2026-11-05T01:36:52.127Z"
+          }
+        },
+        {
+          "title": "「易博图」连续完成两轮近 4 亿元融资",
+          "meta": "36氪·2026-11-05 09:10",
+          "urls": [
+            "https://36kr.com/p/4056171126002824"
+          ],
+          "summary": "",
+          "angles": [],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "低",
+          "confidence_note": "B单源，未见独立来源（外查 2026-11-05）",
+          "publish_time": "2026-11-05 09:10",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 2026-11-05）",
+          "entities": [
+            {
+              "name": "易博图",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4056171126002824",
+            "raw_ref": "reports/raw/2026-11-05-0900.json#candidates[8]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-0900/04_36kr.com_7c19ab92.html",
+            "sha256": "1fd0bd3a1ba1142c784fe98db898be1c2d316ac99370e2a8198d85827bdfb3f1",
+            "fetched_at": "2026-11-05T01:36:52.436Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术",
+      "items": [
+        {
+          "title": "英伟达、UT-Austin 发布 Realtime-Bench：实时互动任务难倒 GPT-6",
+          "meta": "机器之心Pro·2026-11-05 09:02",
+          "urls": [
+            "https://m.sohu.com/a/1097102307_129720"
+          ],
+          "summary": "Realtime-Bench 把模型放进持续变化的环境，考察时间约束下的观察-推理-行动闭环；表现最好的 GPT-6 Astra 也只有 44% 任务成功率。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "「实时性」是聊天基准测不出来的能力——对 Agent 进入物理世界，这类基准比 MMLU 更要命。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "B单源，未见独立来源（外查 2026-11-05）",
+          "publish_time": "2026-11-05 09:02",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 2026-11-05）",
+          "entities": [
+            {
+              "name": "英伟达",
+              "type": "企业"
+            },
+            {
+              "name": "UT-Austin",
+              "type": "机构"
+            },
+            {
+              "name": "Realtime-Bench",
+              "type": "产品"
+            },
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1097102307_129720",
+            "raw_ref": "reports/raw/2026-11-05-0900.json#candidates[11]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-0900/05_m.sohu.com_1133d073.html",
+            "sha256": "d1dab59db30a608b8e40e2c2d3a7a21a693dd21caf92000778603b082409e682",
+            "fetched_at": "2026-11-05T01:36:52.844Z"
+          }
+        },
+        {
+          "title": "Length Is Cheap: Attention Predicts Context Rot in Retrieval",
+          "meta": "Reddit r/MachineLearning·2026-11-05 05:08",
+          "urls": [
+            "https://www.reddit.com/r/MachineLearning/comments/1xnzzgn/length_is_cheap_competition_is_not_attention"
+          ],
+          "summary": "研究指出：长上下文的「注意力衰减」（context rot）可以用注意力分布预测——上下文长度不是关键，注意力竞争才是。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "直接命中 RAG/长上下文产品的设计假设：塞更多文档不如管理注意力。"
+            }
+          ],
+          "source_tier": "D",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "C源，未见独立来源（外查 2026-11-05）",
+          "publish_time": "2026-11-05 05:08",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 2026-11-05）",
+          "entities": [
+            {
+              "name": "Context Rot(方法)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1xnzzgn/length_is_cheap_competition_is_not_attention",
+            "raw_ref": "reports/raw/2026-11-05-0900.json#candidates[68]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-0900/06_www.reddit.com_561f00bf.html",
+            "sha256": "a9d533f75634f4472b70895eab6f61094c3a2408221c74d73cd28d1b03e16eb9",
+            "fetched_at": "2026-11-05T01:37:28.962Z"
+          }
+        },
+        {
+          "title": "NKI layer megakernels：GLM-5.3-Flash 跑上 AWS Trainium2，推理引擎开源",
+          "meta": "Reddit r/MachineLearning·2026-11-05 05:47",
+          "urls": [
+            "https://www.reddit.com/r/MachineLearning/comments/1xo0yuq/p_nki_layer_megakernels_for_glm53flash_on_aws"
+          ],
+          "summary": "团队在单台 trn2.48xlarge 上为 GLM-5.3-Flash（320B MoE、1M 上下文）写出推理引擎并开源，逐层剖析 decode 耗时去向。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "非 NVIDIA 芯片的推理引擎生态在长出来——国产模型 + 云厂商自研芯片的组合值得跟踪。"
+            }
+          ],
+          "source_tier": "D",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "C源一手项目帖 [P]，作者开源",
+          "publish_time": "2026-11-05 05:47",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 2026-11-05；作者一手开源帖）",
+          "entities": [
+            {
+              "name": "GLM-5.3-Flash",
+              "type": "产品"
+            },
+            {
+              "name": "AWS Trainium2",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1xo0yuq/p_nki_layer_megakernels_for_glm53flash_on_aws",
+            "raw_ref": "reports/raw/2026-11-05-0900.json#candidates[59]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-0900/07_www.reddit.com_0340bbb9.html",
+            "sha256": "99a9dafa781f8d234025465275f82749d940dd7e01084f4a59f9b3812253c8ff",
+            "fetched_at": "2026-11-05T01:38:05.299Z"
+          }
+        },
+        {
+          "title": "LLM 能从企业轨迹中重建业务逻辑吗？",
+          "meta": "Reddit r/MachineLearning·2026-11-04 23:53",
+          "urls": [
+            "https://www.reddit.com/r/MachineLearning/comments/1xnrqhb/can_llms_reconstruct_business_logic_from"
+          ],
+          "summary": "探讨 LLM 能否从企业系统留痕（traces）中重建业务逻辑，进而自动化 routine 白领工作。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "「从系统轨迹反推业务规则」如果可行，企业自动化将跳过「写需求文档」这一步。"
+            }
+          ],
+          "source_tier": "D",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "C源，未见独立来源（外查 2026-11-05）",
+          "publish_time": "2026-11-04 23:53",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 2026-11-05）",
+          "entities": [
+            {
+              "name": "LLM(方法)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/MachineLearning/comments/1xnrqhb/can_llms_reconstruct_business_logic_from",
+            "raw_ref": "reports/raw/2026-11-05-0900.json#candidates[106]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-0900/08_www.reddit.com_b6418afa.html",
+            "sha256": "06c899666fb2311a9be7a53f826f98a2411407655c440a5bfdc93597ad4bf82e",
+            "fetched_at": "2026-11-05T01:38:42.911Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向 / 玩法",
+      "items": [
+        {
+          "title": "Apple 传大幅削减内部 AI 使用预算",
+          "meta": "TechCrunch·2026-11-05 09:26",
+          "urls": [
+            "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage"
+          ],
+          "summary": "Apple 被曝显著削减工程团队的内部 AI 使用支出——一边发布 Apple 智能，一边管住内部账单。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "与字节限制员工外部 AI 同日出现：大厂从「放开用」转向「管着用」，内部 AI 治理进入预算时代。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [],
+          "confidence": "高",
+          "confidence_note": "A源 TechCrunch 一手",
+          "publish_time": "2026-11-05 09:26",
+          "event_time": "2026-11-04",
+          "event_time_inferred": false,
+          "verify_note": "无需外部（TechCrunch 一手报道；原文 https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage ）",
+          "entities": [
+            {
+              "name": "Apple",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage",
+            "raw_ref": "reports/raw/2026-11-05-0900.json#candidates[1]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-0900/09_techcrunch.com_6df28908.html",
+            "sha256": "8d51cbc96137da39308a01d93d3e67141a605226cb367475bf678246ee508456",
+            "fetched_at": "2026-11-05T01:38:44.067Z"
+          }
+        },
+        {
+          "title": "字节新规限制员工使用外部 AI？知情人士回应",
+          "meta": "36氪·2026-11-05 08:34",
+          "urls": [
+            "https://36kr.com/p/4056135544165507"
+          ],
+          "summary": "字节被曝本月起限制员工使用 Claude、Codex 等外部 AI 工具；知情人士回应「非工作场景不受限」。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "与 Apple 削预算同框：中外大厂同步收紧员工 AI 使用——数据安全 + 自家产品导流，双重动机。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [],
+          "confidence": "高",
+          "confidence_note": "多源 新浪财经/中华网/观点网 同步",
+          "publish_time": "2026-11-05 08:34",
+          "event_time": "2026-11-04",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（观点网 11-04 22:12〈字节跳动本月起限制员工使用Claude、Codex等外部AI工具〉、新浪财经 11-04 23:23、中华网 11-05 08:05〈非工作场景不受限〉；直链未寻得）",
+          "entities": [
+            {
+              "name": "字节跳动",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4056135544165507",
+            "raw_ref": "reports/raw/2026-11-05-0900.json#candidates[23]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-0900/10_36kr.com_4233643f.html",
+            "sha256": "ab4ca027fbdd61c33d3b6a272eb6e778a8f991adf08727f9a500c2ae788eff4f",
+            "fetched_at": "2026-11-05T01:38:44.283Z"
+          }
+        },
+        {
+          "title": "Anthropic IPO 没撤回，但万亿 AI 泡沫缩水让华尔街怕了",
+          "meta": "36氪·2026-11-05 08:43",
+          "urls": [
+            "https://36kr.com/p/4056128858215556"
+          ],
+          "summary": "辟谣 IPO 撤回传闻，但「万亿 AI 泡沫缩水」已让华尔街对 Anthropic 上市态度转谨慎——「谁敢接盘」成为问句。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "接 1500 场「算力经济学恶化」：AI 公司上市窗口与市场风险偏好同步收紧。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [],
+          "confidence": "中",
+          "confidence_note": "B单源 + 相关佐证",
+          "publish_time": "2026-11-05 08:43",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "外部检索（mrjjxw 10-03 15:00〈美债收益率飙升致美股IPO市场\"熄火\"，Anthropic 2万亿美元估值存疑〉相关佐证；直链未寻得）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4056128858215556",
+            "raw_ref": "reports/raw/2026-11-05-0900.json#candidates[17]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-0900/11_36kr.com_6d306b72.html",
+            "sha256": "771e5e17d7b3748e5eb8de4df61be702fcfce1dcfe998f29477fd6f9634080f0",
+            "fetched_at": "2026-11-05T01:38:44.720Z"
+          }
+        },
+        {
+          "title": "一家 8 万 Star 的 AI 公司，决定让 AI 接管自己",
+          "meta": "36氪·2026-11-05 08:18",
+          "urls": [
+            "https://36kr.com/p/4056040123945860"
+          ],
+          "summary": "拥有 8 万 GitHub Star 的 AI 公司决定让 AI 接管自身运营——「人类只需看验收单」。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "「AI 公司用 AI 运营自己」是最激进的自证实验——成了就是最好的销售案例，砸了就是最好的风险教材。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-11-05 08:18",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 2026-11-05）",
+          "entities": [
+            {
+              "name": "开源 AI 公司",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4056040123945860",
+            "raw_ref": "reports/raw/2026-11-05-0900.json#candidates[34]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-0900/12_36kr.com_fd10990a.html",
+            "sha256": "7f5ffb9781e4d9e9214d84f9dd241da52cfe9f0f43e18acf7c58b414db068bc2",
+            "fetched_at": "2026-11-05T01:38:44.992Z"
+          }
+        },
+        {
+          "title": "月薪 8 万招人，一群 FDE 却接不到单｜风向",
+          "meta": "36氪·2026-11-05 08:01",
+          "urls": [
+            "https://36kr.com/p/4054788668429440"
+          ],
+          "summary": "FDE（前向部署工程师）月薪最高 8 万、招聘需求涨 42 倍，但一批 FDE 却接不到单——供需错配的行业样本。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "AI 圈最火的岗位不是模型工程师，而是「把模型装进客户业务」的人——但能交付的 FDE 和想要 FDE 的客户对不上号。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [],
+          "confidence": "高",
+          "confidence_note": "多源 界面/京报网 同步",
+          "publish_time": "2026-11-05 08:01",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "外部检索（界面 10-29 17:59〈月薪最高8万元，FDE为何如此抢手？〉、京报网〈招聘需求涨42倍！AI圈最火岗位〉；直链未寻得）",
+          "entities": [
+            {
+              "name": "FDE(岗位)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4054788668429440",
+            "raw_ref": "reports/raw/2026-11-05-0900.json#candidates[40]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-05-0900/13_36kr.com_de74465d.html",
+            "sha256": "460ae0e9acd655ea1ad75aa069e161ba2ededb0a2b44ee1cc6069fa7582345c1",
+            "fetched_at": "2026-11-05T01:38:45.194Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [],
+  "sourceStatus": [
+    "- 全部信源 OK，无 DOWN/FALLBACK。"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-05-0900.json",
+    "evidence_file": null,
+    "snapshot_dir": "archives/2026-11-05-0900/",
+    "raw_candidates": 146,
+    "matched": 13
+  }
+}

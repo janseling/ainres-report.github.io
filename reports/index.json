@@ -1,6 +1,31 @@
 {
-  "count": 109,
+  "count": 110,
   "reports": [
+    {
+      "id": "2026-11-05-0900",
+      "date": "2026-11-05",
+      "time": "09:00",
+      "title": "AI 情报 · 11-05 09:00 场",
+      "itemCount": 13,
+      "coverage": "2026-11-04 21:00 → 11-05 09:33（Asia/Shanghai）",
+      "note": "补刊说明：0900 场执行中断（cron 误记 ok、177 秒即止，raw 亦缺失），本刊含重新采集；11-04 21:00 场内容不再重复",
+      "overview": [
+        "Anthropic 人事震荡：Claude Code「产品一姐」Cat Wu 离职加入 OpenAI。",
+        "Meta 收购 AI 编码初创 Conductor：多 Agent 并行开发工具入 Meta。",
+        "OpenAI Images 2.6 上线：ChatGPT 原生生成 GIF，图像生成提速 50%。",
+        "英伟达+UT-Austin 发布 Realtime-Bench：实时互动任务 GPT-6 也只有 44% 成功率。",
+        "Apple 传大幅削减内部 AI 使用预算；字节被曝限制员工用外部 AI——中美大厂同时「管住自己人的 AI」。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 4,
+        "industry": 5
+      },
+      "rawStats": {
+        "candidates": 146,
+        "selected": 14
+      }
+    },
     {
       "id": "2026-11-04-2100",
       "date": "2026-11-04",
