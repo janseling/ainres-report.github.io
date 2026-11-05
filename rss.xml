@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 05 Nov 2026 01:42:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 07:26:07 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-05 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-05-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-05-1500.html</guid>
+      <pubDate>Thu, 05 Nov 2026 07:00:00 GMT</pubDate>
+      <description>OpenAI 收购 Pierre：Codex 从「写代码」伸向「管代码」。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-05 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-05-0900.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-30-0900.html</guid>
       <pubDate>Fri, 30 Oct 2026 01:00:00 GMT</pubDate>
       <description>OpenAI 撤回 Pro 档降额并翻倍放量，Plus 用户原地不动——算力分配第一次公开按付费档划出「优先序列」。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 10-29 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-10-29-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-10-29-2100.html</guid>
-      <pubDate>Thu, 29 Oct 2026 13:00:00 GMT</pubDate>
-      <description>Google 官方《Gemini 4 Carbon: our next frontier model》首次进入抓取窗口，与早场中文转述拼成完整一手链路，网安与长程任务定位坐实。</description>
     </item>
   </channel>
 </rss>
