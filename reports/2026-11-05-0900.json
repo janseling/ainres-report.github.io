@@ -77,8 +77,8 @@
           },
           "snapshot": {
             "file": "archives/2026-11-05-0900/01_36kr.com_71899501.html",
-            "sha256": "1a40b32490d0ecaefee857700c21822d323a4f3974b731cd5d77baad012e327c",
-            "fetched_at": "2026-11-05T01:36:14.310Z"
+            "sha256": "2cfd57fe21653c5e50e23bb6fe09bca6ea2e0040e6c3c11a20e87660c7b3b630",
+            "fetched_at": "2026-11-05T01:38:39.382Z"
           }
         },
         {
@@ -122,8 +122,8 @@
           },
           "snapshot": {
             "file": "archives/2026-11-05-0900/02_techcrunch.com_2f7abd08.html",
-            "sha256": "eb0a0ffd656be57f1dbbcfaae035e7fabaf03943058b915b2cfd670f9340721c",
-            "fetched_at": "2026-11-05T01:36:15.479Z"
+            "sha256": "56df10e711bc540fba24f9c36c18225c8a7a4dd54290bbce80a825ef30bf20dc",
+            "fetched_at": "2026-11-05T01:38:42.853Z"
           }
         },
         {
@@ -173,8 +173,8 @@
           },
           "snapshot": {
             "file": "archives/2026-11-05-0900/03_www.reddit.com_6598043b.html",
-            "sha256": "59d02520debe854e56ac3db5d2490a9027c1d7a103da0e8525e70eec9cfe0d16",
-            "fetched_at": "2026-11-05T01:36:52.127Z"
+            "sha256": "15850367a670abeadfe05e6384277178c3be1b236e0fc10eccbdeabe0ef08491",
+            "fetched_at": "2026-11-05T01:39:19.317Z"
           }
         },
         {
@@ -209,8 +209,8 @@
           },
           "snapshot": {
             "file": "archives/2026-11-05-0900/04_36kr.com_7c19ab92.html",
-            "sha256": "1fd0bd3a1ba1142c784fe98db898be1c2d316ac99370e2a8198d85827bdfb3f1",
-            "fetched_at": "2026-11-05T01:36:52.436Z"
+            "sha256": "3c7e1e5d7c9fdaa4a7d24a030423cf789bef75b9dec03da3929161e83119381a",
+            "fetched_at": "2026-11-05T01:39:19.534Z"
           }
         }
       ]
@@ -272,7 +272,7 @@
           "snapshot": {
             "file": "archives/2026-11-05-0900/05_m.sohu.com_1133d073.html",
             "sha256": "d1dab59db30a608b8e40e2c2d3a7a21a693dd21caf92000778603b082409e682",
-            "fetched_at": "2026-11-05T01:36:52.844Z"
+            "fetched_at": "2026-11-05T01:39:19.590Z"
           }
         },
         {
@@ -314,8 +314,8 @@
           },
           "snapshot": {
             "file": "archives/2026-11-05-0900/06_www.reddit.com_561f00bf.html",
-            "sha256": "a9d533f75634f4472b70895eab6f61094c3a2408221c74d73cd28d1b03e16eb9",
-            "fetched_at": "2026-11-05T01:37:28.962Z"
+            "sha256": "2d05b02bbdc2bc2ecd4366a415a19234506910d26382884709094251dfbd9b78",
+            "fetched_at": "2026-11-05T01:39:57.290Z"
           }
         },
         {
@@ -361,8 +361,8 @@
           },
           "snapshot": {
             "file": "archives/2026-11-05-0900/07_www.reddit.com_0340bbb9.html",
-            "sha256": "99a9dafa781f8d234025465275f82749d940dd7e01084f4a59f9b3812253c8ff",
-            "fetched_at": "2026-11-05T01:38:05.299Z"
+            "sha256": "bfd50ecd364e3ea60f37133448c8988118d2ec609c3face0d89812bff1782028",
+            "fetched_at": "2026-11-05T01:40:36.694Z"
           }
         },
         {
@@ -404,8 +404,8 @@
           },
           "snapshot": {
             "file": "archives/2026-11-05-0900/08_www.reddit.com_b6418afa.html",
-            "sha256": "06c899666fb2311a9be7a53f826f98a2411407655c440a5bfdc93597ad4bf82e",
-            "fetched_at": "2026-11-05T01:38:42.911Z"
+            "sha256": "3731cbb53ef9f46ba87c40a09b31b9e027cb3b2bac894902a30a8dc3a4233f92",
+            "fetched_at": "2026-11-05T01:41:12.931Z"
           }
         }
       ]
@@ -452,8 +452,8 @@
           },
           "snapshot": {
             "file": "archives/2026-11-05-0900/09_techcrunch.com_6df28908.html",
-            "sha256": "8d51cbc96137da39308a01d93d3e67141a605226cb367475bf678246ee508456",
-            "fetched_at": "2026-11-05T01:38:44.067Z"
+            "sha256": "a1f40d0de45fb02fd29f2e8724606fc6afac8b5bcdfd9134665e6293912bfded",
+            "fetched_at": "2026-11-05T01:41:13.903Z"
           }
         },
         {
@@ -493,8 +493,8 @@
           },
           "snapshot": {
             "file": "archives/2026-11-05-0900/10_36kr.com_4233643f.html",
-            "sha256": "ab4ca027fbdd61c33d3b6a272eb6e778a8f991adf08727f9a500c2ae788eff4f",
-            "fetched_at": "2026-11-05T01:38:44.283Z"
+            "sha256": "9713b6ab4de9bd4ff20ea27b6ab7ce17f64bb7e099d6836896a114a7c230f7ee",
+            "fetched_at": "2026-11-05T01:41:14.335Z"
           }
         },
         {
@@ -534,8 +534,8 @@
           },
           "snapshot": {
             "file": "archives/2026-11-05-0900/11_36kr.com_6d306b72.html",
-            "sha256": "771e5e17d7b3748e5eb8de4df61be702fcfce1dcfe998f29477fd6f9634080f0",
-            "fetched_at": "2026-11-05T01:38:44.720Z"
+            "sha256": "62441d378e17064a7fcae43e2454f88a17b6d8b8a41f090b6a32ecb5e1f561eb",
+            "fetched_at": "2026-11-05T01:41:16.392Z"
           }
         },
         {
@@ -575,8 +575,8 @@
           },
           "snapshot": {
             "file": "archives/2026-11-05-0900/12_36kr.com_fd10990a.html",
-            "sha256": "7f5ffb9781e4d9e9214d84f9dd241da52cfe9f0f43e18acf7c58b414db068bc2",
-            "fetched_at": "2026-11-05T01:38:44.992Z"
+            "sha256": "5fd5587f841c6317e433a56123a826a4009132037c169b105e91fed72ef390a0",
+            "fetched_at": "2026-11-05T01:41:16.634Z"
           }
         },
         {
@@ -616,8 +616,8 @@
           },
           "snapshot": {
             "file": "archives/2026-11-05-0900/13_36kr.com_de74465d.html",
-            "sha256": "460ae0e9acd655ea1ad75aa069e161ba2ededb0a2b44ee1cc6069fa7582345c1",
-            "fetched_at": "2026-11-05T01:38:45.194Z"
+            "sha256": "8c4003b1699e1a567100e2410430d4c14a3762b7eefc0316b716be1eeba699c5",
+            "fetched_at": "2026-11-05T01:41:16.852Z"
           }
         }
       ]
