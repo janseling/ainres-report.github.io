@@ -1,6 +1,31 @@
 {
-  "count": 113,
+  "count": 114,
   "reports": [
+    {
+      "id": "2026-11-06-1500",
+      "date": "2026-11-06",
+      "time": "15:00",
+      "title": "AI 情报 · 11-06 15:00 场",
+      "itemCount": 10,
+      "coverage": "2026-11-06 09:10 → 15:06（Asia/Shanghai）",
+      "note": "补刊（原 run 中断，复用 15:06 raw 续跑；09:00 场已报 GPT-6 Cyber/METR/纳指/社区契约等，本场无重复收录）",
+      "overview": [
+        "Palo Alto Networks 洽购 AI Agent 安全初创 Clutch（约 5 亿美元），Agent 安全线被安全巨头下场圈地",
+        "甲子光年 10 月期报告：AI 进入「长期任务与科学验证」阶段，个人智能体靠主动记忆持续理解用户",
+        "苹果 M6 MacBook Pro 首发评测：能效比是主打，本地跑大模型成为 Pro 级新品的主要叙事之一",
+        "机器之心三连发聚焦具身智能：数据战成本账、世界建模可迁移性、双臂灵巧操作从人类示范学习",
+        "MIT Tech Review 口径下的 Anthropic 研发加速独立评估继续发酵，Claude 进化速度话题热度延续"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 4,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 182,
+        "selected": 10
+      }
+    },
     {
       "id": "2026-11-06-0900",
       "date": "2026-11-06",

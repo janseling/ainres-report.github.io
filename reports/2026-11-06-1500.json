@@ -1,0 +1,497 @@
+{
+  "id": "2026-11-06-1500",
+  "date": "2026-11-06",
+  "time": "15:00",
+  "title": "AI 情报 · 11-06 15:00 场",
+  "generatedAt": "2026-11-06T08:04:51.201Z",
+  "coverage": "2026-11-06 09:10 → 15:06（Asia/Shanghai）",
+  "notes": [
+    "补刊（原 run 中断，复用 15:06 raw 续跑；09:00 场已报 GPT-6 Cyber/METR/纳指/社区契约等，本场无重复收录）"
+  ],
+  "itemCount": 10,
+  "rawStats": {
+    "candidates": 182,
+    "selected": 10
+  },
+  "overview": [
+    "Palo Alto Networks 洽购 AI Agent 安全初创 Clutch（约 5 亿美元），Agent 安全线被安全巨头下场圈地",
+    "甲子光年 10 月期报告：AI 进入「长期任务与科学验证」阶段，个人智能体靠主动记忆持续理解用户",
+    "苹果 M6 MacBook Pro 首发评测：能效比是主打，本地跑大模型成为 Pro 级新品的主要叙事之一",
+    "机器之心三连发聚焦具身智能：数据战成本账、世界建模可迁移性、双臂灵巧操作从人类示范学习",
+    "MIT Tech Review 口径下的 Anthropic 研发加速独立评估继续发酵，Claude 进化速度话题热度延续"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "Palo Alto Networks 洽购 AI Agent 安全初创 Clutch，约 5 亿美元",
+          "meta": "TechCrunch·2026-11-06 06:28",
+          "urls": [
+            "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m"
+          ],
+          "summary": "网络安全巨头 Palo Alto Networks 正洽谈以约 5 亿美元收购 AI Agent 安全初创 Clutch（Lightspeed 与 SignalFire 投资，上轮估值 8500 万美元，本轮报价溢价近 6 倍）。Agent 走进企业生产系统后，「管住 Agent 的权限与行为」成为安全支出的新类目。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "Agent 安全是「Agent 渗透率」的衍生赛道——Agent 越多的企业越需要笼子，安全巨头下场意味着这个类目从创业叙事进入整合期。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "️ 产品/创业：给 Agent 做权限笼子的生意开始被巨头定价。做垂直 Agent 的团队，明年标书里大概率会多一栏「Agent 行为审计」。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "B源 TechCrunch + MSN/PYMNTS/Mezha 多家同报",
+          "publish_time": "2026-11-05",
+          "event_time": "2026-11-05",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（MSN 转载 TechCrunch 同题报道 https://www.msn.com/en-us/technology/tech-companies/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500-m ；PYMNTS 亦同报）",
+          "entities": [
+            {
+              "name": "Palo Alto Networks",
+              "type": "企业"
+            },
+            {
+              "name": "Clutch",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m",
+            "raw_ref": "reports/raw/2026-11-06-1500.json#candidates[2]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
+        },
+        {
+          "title": "甲子光年 10 月期报告：AI 进入「长期任务与科学验证」阶段",
+          "meta": "甲子光年智库·2026-11-06 05:40",
+          "urls": [
+            "https://m.sohu.com/a/1098028323_100016644"
+          ],
+          "summary": "报告主题《持续代办，可靠交付》：10 月 AI 进一步承接跨时间、跨系统的复杂事务——个人智能体借主动记忆持续理解用户，运行平台支持任务执行与恢复，科研场景开始出现可复算的效率证据。与 METR 评估（09:00 场已报）形成同一叙事的两面：Agent 从「聊得好」转向「办得成、可验证」。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "️ 产品/创业：「长期任务」是 Agent 产品分化的分水岭——能记住、能恢复、能验证的产品吃掉留存，做不到的开始流失。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [],
+          "confidence": "中",
+          "confidence_note": "B源 甲子光年智库月度系列；独立第三方同报未见，机构 9 月期报告有公开记录 https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vYlRheTdlbjA3UmxCSEdLV3dUTFNkWmxQcThLbkhQSW5Fczh5RXc1NGU0OWFUTTQ3RmR",
+          "publish_time": "2026-11-06",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（月度报告系列，9 月期有 Google News 收录佐证机构与系列连续性）",
+          "entities": [
+            {
+              "name": "甲子光年",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1098028323_100016644",
+            "raw_ref": "reports/raw/2026-11-06-1500.json#candidates[7]",
+            "source_id": "sohu-jzgn",
+            "source_name": "甲子光年(搜狐同步)"
+          }
+        },
+        {
+          "title": "苹果 M6 MacBook Pro 首发评测：能效比是主打，本地大模型成新叙事",
+          "meta": "少数派·2026-11-06 03:06",
+          "urls": [
+            "https://sspai.com/post/118570"
+          ],
+          "summary": "M6 MacBook Pro 初评测齐了：2nm 工艺能效比明显提升，修图/剪辑/入门级本地大模型都能应付，原本加在 Pro 级 SoC 的预算可腾给内存/硬盘。多家评测口径一致：性能达标，「涨价」是主要槽点。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "️ 产品/创业：M6 让「本地跑 30B 级模型」从小众玩具变成默认能力。面向个人开发者的本地 AI 工具链（量化/推理/Agent Runtime）的可用池又扩大一圈。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "B源 少数派实测 + 凰家评测/IT之家/至顶网多源同报",
+          "publish_time": "2026-11-06",
+          "event_time": "2026-11-05",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（凤凰网凰家评测同题报道；IT之家 M6 首发体验稿；至顶网 \"Apple Mac mini评测：M6性能强劲\" https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tckZUU3ctd29ISUlYdE1zeE5rc2hjdmZobUpGNGJwWVp0T09HcXcyZzJlU2NrWlVpSjB ）",
+          "entities": [
+            {
+              "name": "Apple",
+              "type": "企业"
+            },
+            {
+              "name": "M6",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://sspai.com/post/118570",
+            "raw_ref": "reports/raw/2026-11-06-1500.json#candidates[147]",
+            "source_id": "sspai",
+            "source_name": "少数派"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术",
+      "items": [
+        {
+          "title": "具身数据战：百万小时数据喂下去，机器人就能学会一切？",
+          "meta": "机器之心Pro·2026-11-06 03:31",
+          "urls": [
+            "https://m.sohu.com/a/1097951574_129720"
+          ],
+          "summary": "塔尖会复盘具身智能的数据问题：HiFi-UMI 探索降低策略冷启动对真机示范的依赖，结合三维监督、物理评测与纠错反馈推动策略迭代；并探索 GPT-Astra 等大模型与具身策略协同。「百万小时真实数据」的采集成本仍是行业最大分歧点。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "数据战本质是成本战——谁能用更少真机数据达标，谁的商业模型先转起来。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "训练场基建与数据服务（含仿真合成数据）是具身链里少数已经拿到确定性订单的环节。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "B源 机器之心 + 腾讯新闻同步报道 https://news.qq.com/rain/a/20261106A0668200",
+          "publish_time": "2026-11-06",
+          "event_time": "2026-11-05",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（腾讯新闻 2026-11-06 同步收录 https://news.qq.com/rain/a/20261106A0668200 ）",
+          "entities": [
+            {
+              "name": "HiFi-UMI(项目)",
+              "type": null
+            },
+            {
+              "name": "GPT-Astra",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1097951574_129720",
+            "raw_ref": "reports/raw/2026-11-06-1500.json#candidates[142]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          }
+        },
+        {
+          "title": "世界建模是可迁移能力吗：Northwestern/CMU 用 2k 样本跨领域提升 22 项基准",
+          "meta": "机器之心Pro·2026-11-06 03:26",
+          "urls": [
+            "https://m.sohu.com/a/1097949216_129720"
+          ],
+          "summary": "团队先给「世界建模」一个不依赖下游任务的能力定义与测量，再验证「模型缺不缺它/学没学会它/能否被不同监督共同提升」，证明世界建模可作为跨任务能力被单独训练——仅 2k 样本即让 22 项基准提升，并给出训练配方。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "若口径经原论文复核站得住，「先训能力、再接任务」会成为机器人/Agent 预训练的新分层。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B源 机器之心单源；为研究解读稿，原论文未独立溯源",
+          "publish_time": "2026-11-06",
+          "event_time": "2026-11-05",
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（英文原论文与作者团队口径未寻得直链，暂按单源解读稿收录）",
+          "entities": [
+            {
+              "name": "Northwestern",
+              "type": "机构"
+            },
+            {
+              "name": "CMU",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1097949216_129720",
+            "raw_ref": "reports/raw/2026-11-06-1500.json#candidates[143]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          }
+        },
+        {
+          "title": "CoRL 2026：DexRoam 让移动双臂灵巧操作从人类示范学习",
+          "meta": "机器之心Pro·2026-11-06 03:37",
+          "urls": [
+            "https://m.sohu.com/a/1097953883_129720"
+          ],
+          "summary": "DexRoam 在解决人机动作差异的同时保留人类示范中连续、精细的全身协同关系，使其与机器人数据共同用于策略训练，拓展移动双臂灵巧操作的数据来源，减少对高成本遥操作示范的依赖。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "手机/普通相机拍摄的人类示范若能持续喂给策略训练，数据采集成本再降一个量级。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B源 机器之心单源；腾讯新闻同日收录 https://news.qq.com/rain/a/20261106A069ME00",
+          "publish_time": "2026-11-06",
+          "event_time": "2026-11-05",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（腾讯新闻 2026-11-06 同步收录 https://news.qq.com/rain/a/20261106A069ME00 ）",
+          "entities": [
+            {
+              "name": "DexRoam(项目)",
+              "type": null
+            },
+            {
+              "name": "CoRL",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1097953883_129720",
+            "raw_ref": "reports/raw/2026-11-06-1500.json#candidates[140]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          }
+        },
+        {
+          "title": "Benchmark as Software：Terminal-Bench 与持续化评测的案例",
+          "meta": "arXiv 一手",
+          "urls": [
+            "https://arxiv.org/abs/2611.07166"
+          ],
+          "summary": "主张评测集应像软件一样被持续维护与版本化：Terminal-Bench 把 benchmark 的生命周期工程化（版本、回归、演化追踪），直指静态评测集正在失效的问题。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "当模型迭代以周计，静态 benchmark 的信息量半衰期也在缩短；「评测即软件」会变成基础设施团队的常规工种。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "️ 产品/创业：给企业做「私有评测集版本化与回归」的服务，是评测赛道里贴近预算的活。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·arXiv 原文",
+          "publish_time": "2026-11-06",
+          "verify_note": "无需外部（arXiv 一手；原文 https://arxiv.org/abs/2611.07166 ）",
+          "entities": [
+            {
+              "name": "Terminal-Bench(项目)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://arxiv.org/abs/2611.07166",
+            "raw_ref": "reports/raw/2026-11-06-1500.json#candidates[107]",
+            "source_id": "arxiv",
+            "source_name": "arXiv"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业·玩法",
+      "items": [
+        {
+          "title": "Claude 进化速度话题续热：80% 增量来自 AI 的解读稿",
+          "meta": "机器之心Pro·2026-11-06 02:48",
+          "urls": [
+            "https://m.sohu.com/a/1097915424_129720"
+          ],
+          "summary": "METR 评估进入中文传播面后，「研发效率翻倍、八成增量来自 AI」成为头条叙事；配套审查同时呈现双方在风险表述上的分歧。原始报告的方法局限（测量窗口/自选对照组）在本轮传播中几乎不被提及。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "️ 产品/创业：传播面把「80% 增量来自 AI」简化成了采购理由。给企业做 AI 研发效率度量的咨询盘，正站在风口上——但要把方法局限写进合同。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [],
+          "confidence": "中",
+          "confidence_note": "B源 机器之心解读稿；原始 METR 报告 09:00 场已收录，本条为传播面观察",
+          "publish_time": "2026-11-06",
+          "event_time": "2026-11-06",
+          "event_time_inferred": false,
+          "verify_note": "无需外部（一手报告链接已于 09:00 场归档：https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/ ）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "METR",
+              "type": "机构"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1097915424_129720",
+            "raw_ref": "reports/raw/2026-11-06-1500.json#candidates[152]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          }
+        },
+        {
+          "title": "「Agent 技能」标准之争延续：google/skills 与 scenario-labs/skills 同日进 GitHub Trending",
+          "meta": "GitHub Trending·2026-11-06",
+          "urls": [
+            "https://github.com/google/skills"
+          ],
+          "summary": "google/skills、scenario-labs/skills、ConardLi/garden-skills 同日上榜，加上 Anthropic 已把 Agent Skills 捐给 Agentic AI Foundation、GitHub Copilot 实装实验支持——SKILL.md 生态正在从「Anthropic 单家约定」变成「多家的事实标准」。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "️ 产品/创业：技能包生态进入「多平台分发」阶段——正是我们的 skills-monetization 赛道窗口；同一包多平台适配会是刚需。"
+            }
+          ],
+          "source_tier": "C",
+          "type_tags": [],
+          "confidence": "中",
+          "confidence_note": "C源 GitHub Trending 榜单；Anthropic 向 Agentic AI Foundation 捐赠 Agent Skills 有官方一手 https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "publish_time": "2026-11-06",
+          "event_time": "2026-11-06",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Anthropic 官方公告：Donating Agent Skills to the Agentic AI Foundation https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation ）",
+          "entities": [
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://github.com/google/skills",
+            "raw_ref": "reports/raw/2026-11-06-1500.json#candidates[175]",
+            "source_id": "gh-trending",
+            "source_name": "GitHub Trending"
+          }
+        },
+        {
+          "title": "Agent 平台评测出炉：DelegateEval 关注个人外部服务 Agent 的平台化评估",
+          "meta": "arXiv 一手",
+          "urls": [
+            "https://arxiv.org/abs/2611.07652"
+          ],
+          "summary": "把「个人 Agent 替用户调用外部服务」这件事平台化评测：不同平台承载同一批任务，评估成功率/失败模式的差异。个人助理 Agent 的「平台红利」第一次被做成可比数据。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "个人 Agent 的竞争正从「模型谁强」转向「平台接入了多少服务、失败谁来兜底」。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·arXiv 原文",
+          "publish_time": "2026-11-06",
+          "verify_note": "无需外部（arXiv 一手；原文 https://arxiv.org/abs/2611.07652 ）",
+          "entities": [
+            {
+              "name": "DelegateEval(项目)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://arxiv.org/abs/2611.07652",
+            "raw_ref": "reports/raw/2026-11-06-1500.json#candidates[39]",
+            "source_id": "arxiv",
+            "source_name": "arXiv"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "Agent 安全成为安全巨头并购标的",
+      "text": "（SIG-20261106-1500-1，check 2026-11-09）：盯 Palo Alto-Clutch 是否落定、CrowdStrike/Microsoft 对同类标的动作、Agent 审计类创业公司的融资口径变化。",
+      "sigId": "SIG-20261106-1500-1"
+    },
+    {
+      "lead": "「评测即软件」能否成为标准实践",
+      "text": "（SIG-20261106-1500-2，check 2026-11-12）：盯 Terminal-Bench 采纳度、各大 lab 是否跟进版本化评测、企业侧私有评测服务询价情况。",
+      "sigId": "SIG-20261106-1500-2"
+    },
+    {
+      "lead": "SKILL.md 多平台事实标准成型",
+      "text": "（SIG-20261106-1500-3，check 2026-11-12）：盯 Agentic AI Foundation 后续治理动作、google/skills 与 anthropic skills 的互通互认、Copilot/ 其他宿主的兼容进度。",
+      "sigId": "SIG-20261106-1500-3"
+    }
+  ],
+  "sourceStatus": [
+    "- 甲子光年搜狐同步、机器之心搜狐同步、TechCrunch、少数派、GitHub Trending：OK",
+    "- arXiv：OK（120 条候选，A 源充足）",
+    "- Reddit r/OpenAI、r/LocalLLaMA：OK（31 条，多为 D 级水帖，本期未收录）",
+    "- Hacker News：OK（C 源，价格与大盘两条已核）",
+    "- 其余源 OK，无 FALLBACK，无 consecutive_down"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-06-1500.json",
+    "evidence_file": null,
+    "snapshot_dir": null,
+    "raw_candidates": 182,
+    "matched": 10
+  }
+}
