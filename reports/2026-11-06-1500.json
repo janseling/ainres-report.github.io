@@ -3,7 +3,7 @@
   "date": "2026-11-06",
   "time": "15:00",
   "title": "AI 情报 · 11-06 15:00 场",
-  "generatedAt": "2026-11-06T09:47:30.361Z",
+  "generatedAt": "2026-11-06T09:48:14.740Z",
   "coverage": "2026-11-06 09:10 → 15:06（Asia/Shanghai）",
   "notes": [
     "补刊（原 run 中断，复用 15:06 raw 续跑；09:00 场已报 GPT-6 Cyber/METR/纳指/社区契约等，本场无重复收录）"
@@ -401,7 +401,7 @@
           "type_tags": [],
           "confidence": "中",
           "confidence_note": "C源 GitHub Trending 榜单；Anthropic 向 Agentic AI Foundation 捐赠 Agent Skills 有官方一手 https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
-          "publish_time": "2026-11-06",
+          "publish_time": "2026-11-06 15:06",
           "event_time": "2026-11-06",
           "event_time_inferred": false,
           "verify_note": "外部检索（Anthropic 官方公告：Donating Agent Skills to the Agentic AI Foundation https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation ）",
