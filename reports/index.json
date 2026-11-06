@@ -1,6 +1,33 @@
 {
-  "count": 112,
+  "count": 113,
   "reports": [
+    {
+      "id": "2026-11-06-0900",
+      "date": "2026-11-06",
+      "time": "09:00",
+      "title": "AI 情报 · 11-06 09:00 场",
+      "itemCount": 16,
+      "coverage": "2026-11-05 15:00 → 11-06 09:10（Asia/Shanghai）",
+      "note": "21:00 场已覆盖 11-05 白天增量，本场无重复收录",
+      "overview": [
+        "OpenAI 发布网络安全模型 GPT-6 Cyber：Firefox 挖出 81 个新漏洞、Linux 复现 948 条提权路径，获「Critical」安全评级",
+        "美国中期选举翻转 AI 叙事：纳指单日暴跌 5.52% 进入回调，民主党同步推动《禁止人工超级智能法案》",
+        "OpenAI 发布《社区契约》：自付数据中心电费水费、放弃项目 NDA；Brockman 称公司 2027 年可具备 IPO 条件",
+        "METR 独立评估：Anthropic 研发效率同比提速约一倍，主因是 Claude 自己写代码",
+        "Perplexity 上线工作区 Agent「Teammates」；Airbnb 宣布 2027 上半年推出 AI 旅行 Agent",
+        "Dropbox 3.5 亿美元收购 Tigris Data，为 Agent 云存储铺路"
+      ],
+      "sectionCounts": {
+        "product": 6,
+        "tech": 5,
+        "policy": 2,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 152,
+        "selected": 13
+      }
+    },
     {
       "id": "2026-11-05-2100",
       "date": "2026-11-05",
