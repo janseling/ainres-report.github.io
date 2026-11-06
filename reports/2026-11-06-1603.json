@@ -1,0 +1,465 @@
+{
+  "id": "2026-11-06-1603",
+  "date": "2026-11-06",
+  "time": "16:03",
+  "title": "AI 情报 · 11-06 16:03 场",
+  "generatedAt": "2026-11-06T08:29:15.233Z",
+  "coverage": "2026-11-06 15:06 → 16:09（Asia/Shanghai）",
+  "notes": [
+    "本日第 3 场（09:00/15:00 已报 GPT-6 Cyber/METR/纳指/Clutch 等，无重复收录）；窗口薄，含 09:00 场漏收的 Gemini Omni 1.2 Flash（发布于今日 01:00，24h 内补报）"
+  ],
+  "itemCount": 7,
+  "rawStats": {
+    "candidates": 643,
+    "selected": 7
+  },
+  "overview": [
+    "谷歌 Gemini Omni 1.2 Flash 发布：原生 15 秒视频+降价 30%，文生/图生视频双榜第一",
+    "GPT-6.2 Astra/Sol 传最快周五突袭：API 灰度代号秒删、Codex 用量标识出现，旁证链成型",
+    "Claude Code 产品负责人 Cat Wu 跳槽 OpenAI，Anthropic 十天失四骨干",
+    "华科+地平线 Multimodal Flow：多模态「第三条路」，1.6B/150B tokens 受控对比全面胜双主流架构",
+    "源策未来 Anchor 1 人形「小脑」发布；阿里达喀尔专有云赛后转主权云；「算力地租」稿拆四小龙生存战"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "谷歌 Gemini Omni 1.2 Flash：15 秒视频+降价三成，双榜登顶",
+          "meta": "36氪·2026-11-06 09:54",
+          "urls": [
+            "https://36kr.com/p/4057626189534338"
+          ],
+          "summary": "原生 15 秒视频生成（3~15 秒步进自由指定）、多轮对话式编辑、参考图遵循增强（角色/产品/风格图+动作片段混合引导，跨镜头保细节一致）；720p 生成价降至 $0.07/秒（较上代 -30%，智东西口径不到 Seedance 2.5 同质价 1/3）；文生视频/图生视频双榜第一、编辑榜第三。企业走 Gemini API/AI Studio，C 端进 Gemini App/Flow/Vids。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "视频生成竞争重心从「画质军备」转向「时长+价格+工作流」：广告 A/B、电商 SKU 级视频覆盖这些此前算不过账的场景开始成立。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "「批量变体生产」工具层（模板+对话式精修+批量出片）是低门槛起手位；15 秒素材约 $1，成本敏感客户可先算 ROI 再选型。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪·智东西+blog.google",
+          "publish_time": "2026-11-06 09:54",
+          "event_time": "2026-11-06 01:00",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（blog.google 2026-11-05 17:20 UTC 官方发布〈Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips〉同步；The Decoder/Neowin/AIBase 多源同报；官方直链 https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ ）",
+          "entities": [
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "Gemini Omni 1.2 Flash",
+              "type": "产品"
+            },
+            {
+              "name": "Seedance",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4057626189534338",
+            "raw_ref": "reports/raw/2026-11-06-1603.json#candidates[187]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-1603/01_36kr.com_cfac13fc.html",
+            "sha256": "c7acea76d6e99e0836842d5369b343edf5b9007d3d34eb35798855efb0343fb4",
+            "fetched_at": "2026-11-06T08:29:23.121Z"
+          }
+        },
+        {
+          "title": "源策未来发布 Anchor 1：人形机器人全身控制的「小脑」",
+          "meta": "机器之心Pro·2026-11-06 11:05",
+          "urls": [
+            "https://m.sohu.com/a/1097933444_129720"
+          ],
+          "summary": "Anchor 1 定位全身智能架构 System 0 层：只给双腕/双踝/骨盆五个锚点指令，重定向挪到离线、部署直给，72 段全身操作真机测试中手腕/脚踝全局位置误差低于此前最好对比方法，遥操作示范采集成功率自 37.5% 基线显著提升；真机手写 ANCHOR 六字母、165~188cm 操作员动捕直驱同一台机器人。行业坐标：Figure Helix 02（1 月）→英伟达 SONIC（2 月）→DeepMind/智元跟进，全身控制「小脑层」赛道成形。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "示范采集成功率直接决定数据工厂单价——小脑层成熟度正在成为具身数据供给侧的定价锚。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B 单源+官方论文一手可验",
+          "publish_time": "2026-11-06 11:05",
+          "event_time": "2026-11-06",
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 11-06；团队论文 https://arxiv.org/abs/2611.00193 与项目页 https://archon.tech/research/anchor1 一手可验）",
+          "entities": [
+            {
+              "name": "源策未来",
+              "type": "企业"
+            },
+            {
+              "name": "Anchor 1",
+              "type": "产品"
+            },
+            {
+              "name": "Figure",
+              "type": "企业"
+            },
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1097933444_129720",
+            "raw_ref": "reports/raw/2026-11-06-1603.json#candidates[176]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-1603/02_m.sohu.com_50b2c096.html",
+            "sha256": "9f7b8bc39d4a2b761ebcde0790ba0aa53240e316edfd5748fe4a69060dd22d30",
+            "fetched_at": "2026-11-06T08:29:23.325Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术",
+      "items": [
+        {
+          "title": "GPT-6.2 Astra 传最快周五突袭：内部模型 low 档胜前代 max 档",
+          "meta": "36氪·2026-11-06 09:54",
+          "urls": [
+            "https://36kr.com/p/4057431368782726"
+          ],
+          "summary": "The Information 风声：最快周五 OpenAI 团组新发 Astra/Sol+网安模型；旁证链已成型——API 灰度代号 rc-ada-or-vm/rc-ada-sh-vm 秒删（11-04）、gpt-6.2-astra 进入 Codex 用量统计（11-06）、社区爆料称 low 档胜 GPT-6 Astra 满血 max 档、Sol 与旗舰同源高强度博弈 RL。奥特曼 11-03 已预告下一代 GPT 以 1 万 Agent 攻千禧难题（11-03 场已报）。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "若「low 档胜 max 档」属实，推理档位性价比曲线整体上移——API 重度用户等 48 小时再下单可能是理性策略。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "多源传闻·The Information 风声+社区旁证，官方未证实",
+          "publish_time": "2026-11-06 09:54",
+          "verify_note": "外部检索（Yahoo Tech 2026-11-03〈Fable 5.5, GPT 6.2 Astra Could Be Right Around the Corner〉同报；tokenpost 2026-11-06 11:05 北京报 Codex 用量统计出现 gpt-6.2-astra 标识；36氪英文站 11-04 报 API 灰度代号 rc-ada 秒删；直链未寻得）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6.2 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "GPT-6.2 Sol",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4057431368782726",
+            "raw_ref": "reports/raw/2026-11-06-1603.json#candidates[188]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-1603/05_36kr.com_9f5c3d68.html",
+            "sha256": "7789c35790a3f2dbe32548e97657bdd615d972233d80ddfb82abb675dfd20b67",
+            "fetched_at": "2026-11-06T08:29:23.952Z"
+          }
+        },
+        {
+          "title": "Multimodal Flow：不做 Token 化也不搞双系统的多模态第三条路",
+          "meta": "机器之心Pro·2026-11-06 09:11",
+          "urls": [
+            "https://m.sohu.com/a/1097610203_129720"
+          ],
+          "summary": "王兴刚团队×地平线提出全连续架构：语言/视觉各留原生连续嵌入空间、共享同一 Flow Matching 目标；MF-1 仅 1.6B 参数/150B tokens 从零预训练，GenEval/VQAv2/MMBench 在同等预算受控对比中全面超 Transfusion 式混合与 Chameleon 式全离散。开源已放。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "两条可复用经验：语义特征（SigLIP2/DINOv2）优于像素重建特征、一套 CFG 双向引导文本与图像；1.6B 就能打，端侧多模态底座成本曲线可能重画。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B 单源+论文一手可验",
+          "publish_time": "2026-11-06 09:11",
+          "verify_note": "未见独立来源（外查 11-06；论文 https://arxiv.org/pdf/2609.40362 与开源 https://github.com/hustvl/Multimodal-Flow 一手可验）",
+          "entities": [
+            {
+              "name": "华中科技大学",
+              "type": "机构"
+            },
+            {
+              "name": "地平线",
+              "type": "企业"
+            },
+            {
+              "name": "Multimodal Flow",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1097610203_129720",
+            "raw_ref": "reports/raw/2026-11-06-1603.json#candidates[194]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-1603/04_m.sohu.com_57941cfd.html",
+            "sha256": "ba828e4819e364a13e41ed0bd0533e05c1dae44b94ba1e379058cec2f079b7c0",
+            "fetched_at": "2026-11-06T08:29:23.726Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业·玩法",
+      "items": [
+        {
+          "title": "Claude Code 产品负责人 Cat Wu 跳槽 OpenAI，Anthropic 十天失四骨干",
+          "meta": "36氪·2026-11-06 09:54",
+          "urls": [
+            "https://36kr.com/p/4057431368782726"
+          ],
+          "summary": "Cat Wu（Claude Code+Cowork 总产品负责人、与 Boris Cherny 并称「蝙蝠侠与罗宾」）11-04 官宣离职、27 小时后入职 OpenAI Core Products，汇报 Codex 一号位 Tibo Sottiaux；此前十天 Anthropic 已连失 Thariq Shihipar/Anthony Morris/Sunil Shah。OpenAI 同期辟谣 Tibo 退休传闻。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "招股书公示后的人才战实锤：上市窗口临近+对手旗舰将至，核心产品人才被对手定向收割，留人成本会写进 Anthropic 下一季费用表。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "深度依赖 Claude Code 生态的团队值得留一手：核心产品负责人换防期，路线连续性风险上调。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪·APPSO+Business Insider",
+          "publish_time": "2026-11-06 09:54",
+          "event_time": "2026-11-05",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Business Insider 2026-11-05 08:57 北京〈A top Anthropic product leader has been poached by OpenAI〉同报，11-04 先报离职；Livemint/Techeconomy/FourWeekMBA 多源跟进；直链未寻得）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Cat Wu",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4057431368782726",
+            "raw_ref": "reports/raw/2026-11-06-1603.json#candidates[188]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-1603/05_36kr.com_9f5c3d68.html",
+            "sha256": "7789c35790a3f2dbe32548e97657bdd615d972233d80ddfb82abb675dfd20b67",
+            "fetched_at": "2026-11-06T08:29:23.952Z"
+          }
+        },
+        {
+          "title": "「算力地租」：四小龙的四种付租姿势",
+          "meta": "36氪·2026-11-06 12:22",
+          "urls": [
+            "https://36kr.com/p/4057575286052741"
+          ],
+          "summary": "算力以「新型地租」挤压四小龙：Kimi 资本换算力（ARR 破 $3 亿、F 轮 $35 亿全砸扩卡与 K4）；智谱自建算力当「地主」（十万级国产芯片推理、单位 token 成本较年初 -80%，上半年 MaaS 收入 8.25 亿 vs 经调整净亏 19.64 亿）；MiniMax 收入换轨 B 端（毛利 4.7%→69.4%、ARR 破 $8 亿）但股价自高点回撤近 88% 破发；阶跃押注终端全栈（2026 营收预期约 12 亿）。另：字节扣子企业版下线倒计时并入豆包，2026 年大厂与创企已清退/合并 25+ 款独立 AI 产品。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "独立模型公司的估值逻辑正从「模型能力」切换到「现金流表+IPO 窗口」，未来 12~18 个月是生死验证期。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "应用层别把业务押在任何一家「四小龙」单一 API 上——多模型路由与抽象层是保命设计。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [],
+          "confidence": "中",
+          "confidence_note": "B 单源分析稿；关键数据为已报存量口径",
+          "publish_time": "2026-11-06 12:22",
+          "verify_note": "未见独立来源（外查 11-06；Tech商业公众号稿，36氪渠道在档）",
+          "entities": [
+            {
+              "name": "月之暗面",
+              "type": "企业"
+            },
+            {
+              "name": "智谱",
+              "type": "企业"
+            },
+            {
+              "name": "MiniMax",
+              "type": "企业"
+            },
+            {
+              "name": "阶跃星辰",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4057575286052741",
+            "raw_ref": "reports/raw/2026-11-06-1603.json#candidates[166]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-1603/06_36kr.com_647c56f1.html",
+            "sha256": "f37f593bd960a573112e417cb857d8de418ddff2099ddff9f92911a077010909",
+            "fetched_at": "2026-11-06T08:29:24.164Z"
+          }
+        },
+        {
+          "title": "阿里达喀尔青奥会：奥运首个专有云底座，赛后移交变主权云",
+          "meta": "36氪·2026-11-06 09:00",
+          "urls": [
+            "https://36kr.com/p/4056693761987461"
+          ],
+          "summary": "奥运史上首个基于 Apsara Stack 的专有云底座（双 AZ、票务/电子签证全量核心系统、约 100 万张付费票全场次验票），赛后整体移交塞内加尔转国家主权云；开幕式 AI 共创影片用 Wan3.0，现场千问+FunASR 多语问答与 AIGC 击鼓体验日均 400 人次。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "「重资产赛事交付→主权云长尾」把一次性赞助变成国家级基础设施订单——中国云出海在价格战之外的第二条路径。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "有本地化部署能力的团队可以搭船：主权云移交后的政务/教育/医疗应用生态是长期服务缺口。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "商业合作"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 36氪+Philstar",
+          "publish_time": "2026-11-06 09:00",
+          "event_time": "2026-10-31",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Philstar 2026-11-06 10:00 北京同步报道〈Alibaba brings Cloud and AI to the first Youth Olympic Games in Africa〉；FF News/Broadcast 11-02/03 跟进；直链未寻得）",
+          "entities": [
+            {
+              "name": "阿里巴巴",
+              "type": "企业"
+            },
+            {
+              "name": "阿里云",
+              "type": "企业"
+            },
+            {
+              "name": "Wan 3.0",
+              "type": "产品"
+            },
+            {
+              "name": "千问",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4056693761987461",
+            "raw_ref": "reports/raw/2026-11-06-1603.json#candidates[196]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-1603/07_36kr.com_5207fede.html",
+            "sha256": "c35a03d3c577db7a62bfc6627c24a0505402f426e4a6b5f4138f40375b947ff9",
+            "fetched_at": "2026-11-06T08:29:24.365Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "GPT-6.2 Astra/Sol 周五发布窗与证据链",
+      "text": "（SIG-20261106-1603-1，check 2026-11-09）：盯 OpenAI 官方发布页/API 文档、gpt-6.2-astra 进入公开计价、Fable 5.5 官宣是否对撞。",
+      "sigId": "SIG-20261106-1603-1"
+    },
+    {
+      "lead": "中国云厂商「赛事级交付→主权云」出海模式复制",
+      "text": "（SIG-20261106-1603-2，check 2026-11-09）：盯塞内加尔主权云移交运营披露、IOC/其他奥组委采购口径、华为云/腾讯云同类竞标。",
+      "sigId": "SIG-20261106-1603-2"
+    },
+    {
+      "lead": "Multimodal Flow 全连续多模态路线复现窗",
+      "text": "（SIG-20261106-1603-3，check 2026-11-09）：盯 hustvl/Multimodal-Flow 复现与微调案例、arXiv 引用、端侧落地。",
+      "sigId": "SIG-20261106-1603-3"
+    },
+    {
+      "lead": "视频生成「秒钱计价」战",
+      "text": "Gemini Omni 1.2 Flash 720p $0.07/秒入场（较上代 -30%）——盯可灵/Sora/Runway/海螺跟价与国产厂牌反应。",
+      "sigId": "SIG-20261008-2100-2"
+    }
+  ],
+  "sourceStatus": [
+    "- 本期 31 源全 OK：无 DOWN、无 FALLBACK、无 consecutive_down≥2",
+    "- 单次抖动（未连续）：爱范儿 DNS 解析超时 0 条；OpenAI RSS 403（渲染兜底未产条目）；36氪抓取 99.8s 偏慢",
+    "- 搜狐三镜像 parse_loss 各 3~4 条；arXiv 521 条候选（A 源充足），本批仅精选 1 条"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-06-1603.json",
+    "evidence_file": "reports/raw/2026-11-06-1603.evidence.json",
+    "snapshot_dir": "archives/2026-11-06-1603/",
+    "raw_candidates": 218,
+    "matched": 7
+  }
+}

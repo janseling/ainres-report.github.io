@@ -1,6 +1,31 @@
 {
-  "count": 114,
+  "count": 115,
   "reports": [
+    {
+      "id": "2026-11-06-1603",
+      "date": "2026-11-06",
+      "time": "16:03",
+      "title": "AI 情报 · 11-06 16:03 场",
+      "itemCount": 7,
+      "coverage": "2026-11-06 15:06 → 16:09（Asia/Shanghai）",
+      "note": "本日第 3 场（09:00/15:00 已报 GPT-6 Cyber/METR/纳指/Clutch 等，无重复收录）；窗口薄，含 09:00 场漏收的 Gemini Omni 1.2 Flash（发布于今日 01:00，24h 内补报）",
+      "overview": [
+        "谷歌 Gemini Omni 1.2 Flash 发布：原生 15 秒视频+降价 30%，文生/图生视频双榜第一",
+        "GPT-6.2 Astra/Sol 传最快周五突袭：API 灰度代号秒删、Codex 用量标识出现，旁证链成型",
+        "Claude Code 产品负责人 Cat Wu 跳槽 OpenAI，Anthropic 十天失四骨干",
+        "华科+地平线 Multimodal Flow：多模态「第三条路」，1.6B/150B tokens 受控对比全面胜双主流架构",
+        "源策未来 Anchor 1 人形「小脑」发布；阿里达喀尔专有云赛后转主权云；「算力地租」稿拆四小龙生存战"
+      ],
+      "sectionCounts": {
+        "product": 2,
+        "tech": 2,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 643,
+        "selected": 7
+      }
+    },
     {
       "id": "2026-11-06-1500",
       "date": "2026-11-06",
