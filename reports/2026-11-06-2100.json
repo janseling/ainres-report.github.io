@@ -1,0 +1,910 @@
+{
+  "id": "2026-11-06-2100",
+  "date": "2026-11-06",
+  "time": "21:00",
+  "title": "AI 情报 · 11-06 21:00 场",
+  "generatedAt": "2026-11-06T13:14:32.943Z",
+  "coverage": "2026-11-06 15:00 → 21:10（Asia/Shanghai）",
+  "notes": [
+    "09:00 场已报 GPT-6 Cyber/纳指暴跌/智元/李飞飞掌机 demo、15:00 场已报 Clutch 并购/M6/具身数据战，本场不重复；Gemini Omni 1.2 与 Brockman IPO 口径已在 09:00 场收录，此处仅以数据面回访"
+  ],
+  "itemCount": 14,
+  "rawStats": {
+    "candidates": 162,
+    "selected": 14
+  },
+  "overview": [
+    "三位核心机构投资者反对 1.5 万亿美元定价，Anthropic IPO 或被砍向 1 万亿——散户情绪之后，买方真金白银开始还价",
+    "Menlo 报告：美国企业开源模型支出 89% 流向中国，Kimi 独占 61%，而前沿闭源模型支出份额反升至 63%",
+    "Thinking Machines 放出 Inkling 2 Small（594B/17B 激活），AA 31 分；同时被曝以 400 亿美元投前估值融 50 亿",
+    "Claude 联手 Anthropic 生物团队解出首个原核穹窿体结构：蛋白家族从 41 扩到 1507，提纯从 3 天压到 90 分钟",
+    "乌镇 20 家单位签《智能体发展自律公约》，把治理对象从「说了什么」改成「做了什么」"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "机构砍价：Anthropic IPO 定价可能从 1.5 万亿下调至 1 万亿",
+          "meta": "36氪/ Tech商业·2026-11-06 18:08",
+          "urls": [
+            "https://36kr.com/p/4057942380451458"
+          ],
+          "summary": "距 11-16 当周挂牌不足两周，三位拟参与认购的核心机构明确反对 1.5 万亿美元估值，其中一位称最终需「接近 1 万亿美元」；另两位提出推迟，缩减发行规模亦在备选。S-1 显示 8954 亿美元算力与基础设施承诺（约 4475 亿在 2030 年底前到期），Q3 营收 170 亿美元但单季计算成本增 50 亿、转为 5.67 亿美元运营亏损。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "这是 AI 泡沫叙事第一次被「买方定价」而非「卖方叙事」检验。一级市场愿为 AGI 期权付费，公开市场只认现金流折现——同一份 S-1 在两套估值体系下差出 5000 亿美元。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对创业者更实用的信号是「算力承诺即负债」。任何以长约锁算力换折扣的 AI 应用公司，未来融资时都会被按这个口径重算一遍。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 WSJ 独家 + Yahoo Finance 转述",
+          "publish_time": "2026-11-06 18:08",
+          "event_time": "2026-11-05",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（WSJ 2026-11-06 独家《Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5 Trillion Valuation》https://news.google.com/rss/articles/CBMitgFBVV95cUxPNVlmZWpuTHFFVDktVG9OaXlnVl9xSFliZFl4YXFRemVUZDFRRFFaajdEcnQ0b01sQTN ；Yahoo Finance 同题转述）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Goldman Sachs",
+              "type": "企业"
+            },
+            {
+              "name": "Morgan Stanley",
+              "type": "企业"
+            },
+            {
+              "name": "IPO(其他)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4057942380451458",
+            "raw_ref": "reports/raw/2026-11-06-2100.json#candidates[80]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-2100/01_36kr.com_1897335d.html",
+            "sha256": "ea7ddff78786d0e9ab332e04ef8e405a80d21f743396c7dbad1e06c13f8cfff3",
+            "fetched_at": "2026-11-06T13:15:02.669Z"
+          }
+        },
+        {
+          "title": "Thinking Machines 发 Inkling 2 Small：594B 总参/17B 激活，同时传 400 亿美元估值融 50 亿",
+          "meta": "极客公园·2026-11-06 20:13",
+          "urls": [
+            "http://www.geekpark.net/news/373637"
+          ],
+          "summary": "11-05 发布第二代 Inkling，AA 智能指数 31 分，权重「计划下周以 Apache 2.0 放出」；同日被报道以 400 亿美元投前估值募 50 亿美元。技术博客自陈：预训练后半段大量使用更早模型的生成数据，点名的第一个是月之暗面 Kimi K3。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "一家「美国开放权重希望」的旗舰模型，训练数据里跑着中国模型的输出——这比份额数字更能说明当前开放权重的能力重心在哪。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "合成数据接力已成常规工艺。对做垂类后训练的团队，基座选择不再只看榜单，而要看「谁的数据在谁的模型里循环」。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Unite.AI + MarkTechPost",
+          "publish_time": "2026-11-06 20:13",
+          "event_time": "2026-11-05",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（MarkTechPost 2026-11-06《Thinking Machines Releases Inkling 2 Small, a 594B MoE With 17B Active》https://news.google.com/rss/articles/CBMiigFBVV95cUxOX0lyQWJNVUI0S3dlNlZhY3ZDbDhwTXQ4bkdHYXBJdlBiVTNHeDBnU2NteENvRmNsMW9 ；Unite.AI 同题）",
+          "entities": [
+            {
+              "name": "Thinking Machines Lab",
+              "type": "企业"
+            },
+            {
+              "name": "Mira Murati",
+              "type": "人物"
+            },
+            {
+              "name": "Inkling 2",
+              "type": "产品"
+            },
+            {
+              "name": "Kimi",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "http://www.geekpark.net/news/373637",
+            "raw_ref": "reports/raw/2026-11-06-2100.json#candidates[27]",
+            "source_id": "geekpark",
+            "source_name": "极客公园"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-2100/02_www.geekpark.net_0bf1e6c3.html",
+            "sha256": "f87bc9993cbf56e86cf4b480dcfff4ac5768ebf6833dc1d3af31a2477555f7e6",
+            "fetched_at": "2026-11-06T13:15:04.181Z"
+          }
+        },
+        {
+          "title": "Sand AI 完成 2 亿美元 A+轮进入独角兽，但半年营收 1739 万、亏损 1.52 亿",
+          "meta": "36氪/ Tao财经·2026-11-06 19:24",
+          "urls": [
+            "https://36kr.com/p/4058015927621512"
+          ],
+          "summary": "基石资本、网宿科技联合领投，10 个月累计融资 3 亿美元。网宿科技投资公告披露：2026 上半年营收 1739.8 万元、净亏约 1.52 亿元（未经审计），年化约「每赚 1 元亏 8.7 元」。产品 VidMuse 同时接入可灵、Seedance、Veo 等第三方模型。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "ARR 口径与确认收入的落差是这一轮视频 AI 融资的通用语法——「千万美元 ARR」是速度，「1739 万营收」是事实，两个数会一起写进下一轮尽调。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "自己模型不够强就先做聚合工作台，是当下视频生成创业最务实的活法，代价是毛利与壁垒都交给上游。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 DealStreetAsia + Ventureburn",
+          "publish_time": "2026-11-06 19:24",
+          "event_time": "2026-11-04",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（DealStreetAsia 2026-11-05《Chinese AI video generation startup Sand.ai enters unicorn club after $200m round》https://news.google.com/rss/articles/CBMifkFVX3lxTFA4Y25SMHpnUGZMMk55OWIxQ1NEVUJFTHphLUhHNlJBOGNDTURPaF9md0pMX3BoMU5RTXh ；Ventureburn 同报）",
+          "entities": [
+            {
+              "name": "Sand AI",
+              "type": "企业"
+            },
+            {
+              "name": "曹越",
+              "type": "人物"
+            },
+            {
+              "name": "VidMuse",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4058015927621512",
+            "raw_ref": "reports/raw/2026-11-06-2100.json#candidates[52]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-2100/03_36kr.com_708ff7c3.html",
+            "sha256": "7db1cf006b7c8c81bf8f5063fade05f6e66452306398a4b428f563b1034825d8",
+            "fetched_at": "2026-11-06T13:15:04.378Z"
+          }
+        },
+        {
+          "title": "快手系芯片公司凌川科技完成 10 亿元 B 轮，SL200 累计出货近 10 万颗",
+          "meta": "36氪/ 铅笔道·2026-11-06 17:27",
+          "urls": [
+            "https://36kr.com/p/4057994854667395"
+          ],
+          "summary": "亦庄国投屹唐盛和基金、启明创投、朝晖资本联合领投，20 家新老股东中「国资+产业资本」占大半。SL200 主打视频编解码，单颗可处理 36 路视频、单路成本降约 40%，已部署到快手、阿里云、百度云、B站；快手 99.7% 直播业务跑在其上。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "AI 基建的钱正在从 GPU 溢出到「省带宽」这类隐形开支项——推理成本里视频转码往往比算力本身更难砍。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "从大厂业务里长出来的芯片公司，最大风险是客户结构与母体高度重合；国资入场的定价逻辑是国产替代，不是 TAM。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Dealroom + BigGo Finance",
+          "publish_time": "2026-11-06 17:27",
+          "event_time": "2026-11-04",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Dealroom 2026-11-04《Kuaishou-backed chip startup Lingchuan raises $150M Series B》https://news.google.com/rss/articles/CBMimAFBVV95cUxNMU56ekRxQlBmZTRnMUJhZlVGUnpYUVloSl9WVG9zUFp6MHhHaVVSbzhFdzNwQ0E4UXU ；BigGo Finance 同报）",
+          "entities": [
+            {
+              "name": "凌川科技",
+              "type": "企业"
+            },
+            {
+              "name": "快手",
+              "type": "企业"
+            },
+            {
+              "name": "SL200",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4057994854667395",
+            "raw_ref": "reports/raw/2026-11-06-2100.json#candidates[93]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-2100/04_36kr.com_120887fe.html",
+            "sha256": "735d3e18f9866c123e961a620c648a68c8708320e4a08878303cc043428fa615",
+            "fetched_at": "2026-11-06T13:15:04.677Z"
+          }
+        },
+        {
+          "title": "Physicl 融资 1000 万美元：把电商建模管线改造成机器人的 sim-to-real 训练场",
+          "meta": "TechCrunch·2026-11-06 21:00",
+          "urls": [
+            "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots"
+          ],
+          "summary": "Physicl 的思路是把「为线上商品做高保真渲染」的管线搬到机器人仿真：让虚拟世界在材质、光照、物理接触上足够接近真实，从而减少真机采样。金额不大，但方向与 15:00 场具身数据战同一命题。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "仿真资产与场景生成是具身链里少数「按项目收费、先有收入」的环节；十万美金级的单子比模型故事更好谈。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B源 TechCrunch 单源",
+          "publish_time": "2026-11-06 21:00",
+          "verify_note": "未见独立来源（外查 11-06）",
+          "entities": [
+            {
+              "name": "Physicl",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots",
+            "raw_ref": "reports/raw/2026-11-06-2100.json#candidates[2]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-2100/05_techcrunch.com_9a6eee58.html",
+            "sha256": "7bd5a85bf04aa8f6285bf7331aea478d049a18654a048e70b3edb035e3845c5f",
+            "fetched_at": "2026-11-06T13:15:05.882Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术",
+      "items": [
+        {
+          "title": "Claude 解出首个原核生物穹窿体结构：蛋白家族 41→1507，提纯 3 天压到 90 分钟",
+          "meta": "36氪/ 新智元·2026-11-06 20:43",
+          "urls": [
+            "https://36kr.com/p/4058172995736709"
+          ],
+          "summary": "Anthropic 生物团队用 Claude Science 在约 150 亿条蛋白序列中检索，把已知穹窿体蛋白家族从 41 个扩到 1507 个（36 倍），覆盖 29 个细菌门与 4 个古菌门；从 44 个候选中做出 15 个可溶蛋白，把 3 天的蔗糖梯度离心流程改成分排阻层析压到 90 分钟，34 小时解出三维结构，全程不到 4 个月。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "这不是「AI 出图」，而是 AI 参与实验设计与流程重写——真正的价值在把湿实验的迭代次数砍掉，而不是替代科学家写论文。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "AI for Science 的付费方是药企与结构生物学平台，卖点应是「周期与试剂成本」，不是「模型分数」。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Interesting Engineering + Unite.AI",
+          "publish_time": "2026-11-06 20:43",
+          "event_time": "2026-11-04",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Interesting Engineering 2026-11-04《Anthropic maps world's first 3D bacterial vault with 96 copies of one protein》https://news.google.com/rss/articles/CBMijgFBVV95cUxNRU5LUFZjbDlhZlVZRF9ESUZaWWhxbnlaUXJSOW5CdnItNWpOQS14MkctYXlDZ3FITjF ；Unite.AI 同报）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            },
+            {
+              "name": "Vault(其他)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4058172995736709",
+            "raw_ref": "reports/raw/2026-11-06-2100.json#candidates[8]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-2100/06_36kr.com_6dd2f8b1.html",
+            "sha256": "5a732ac94f1dc44d6226925b81c752477c03392c00c2e1b249d78f6733c56c3e",
+            "fetched_at": "2026-11-06T13:15:06.103Z"
+          }
+        },
+        {
+          "title": "Anthropic 三个内部模型曝光：Model 4 的 AECI 超过 Opus 5.5 约 3.9 分，相当于 3 个月进步",
+          "meta": "36氪/ 量子位·2026-11-06 19:31",
+          "urls": [
+            "https://36kr.com/p/4058140801373065"
+          ],
+          "summary": "METR 披露三个未公开模型分别在 7 月、8-9 月、9-10 月完成训练，最强的 Model 4 在 Anthropic 自建 AECI 指数上达 178.6，比 Opus 5.5 高约 3.9 分。联合创始人 Sam McCandlish 承认报告「删去了大量信息」，理由是商业敏感与避免提供加速路线图。此为 09:00 场 METR 评估的后续。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "RSI 叙事第一次有「内部模型代际」证据链：三个 checkpoint 三个月内连续迭代，且能力增益与 AI 参与研发的份额同向。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "对买方而言，「内部型号领先公开型号三个月」意味着 API 上的旗舰永远是削过的版本——企业选型要把「迭代速度」而不是「当前分数」写进合同。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 METR 原报告 + Unite.AI",
+          "publish_time": "2026-11-06 19:31",
+          "event_time": "2026-11-05",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（METR 2026-11-05 原报告《Independent Assessment of AI R&D Acceleration at Anthropic in October 2026》https://news.google.com/rss/articles/CBMifkFVX3lxTE1fS2w0NHNjZzd4OFBHcklxdzBmYmdnV2hyQ0xKVHA0Tm1ENFY3Z1FsemZNZ2J1eU9Xa2V ；Unite.AI 同报）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "METR",
+              "type": "机构"
+            },
+            {
+              "name": "Sam McCandlish",
+              "type": "人物"
+            },
+            {
+              "name": "Opus 5.5",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4058140801373065",
+            "raw_ref": "reports/raw/2026-11-06-2100.json#candidates[49]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-2100/07_36kr.com_1c324d3c.html",
+            "sha256": "2ec5c1600a9c93592086c6ee09093d4bd92aa3eab2aaff6ec930365aaddcb190",
+            "fetched_at": "2026-11-06T13:15:06.322Z"
+          }
+        },
+        {
+          "title": "港大罗晔团队 YN 决策模型：3.7 万 token/s，跑 2400 万次家庭选择仿真",
+          "meta": "机器之心Pro·2026-11-06 18:33",
+          "urls": [
+            "https://m.sohu.com/a/1098147543_129720"
+          ],
+          "summary": "以「决策」而非「生成」为目标的模型：每户在两种购置目标与授信条件下各做一次选择，累计 2400 万次选择、2.88 亿条月度账本状态，吞吐 3.7 万 token/s，宣称准确率超过硅谷 Jev 模型。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "非文本决策模型的价值在于「可批量跑政策反事实」——这是仿真与数字孪生真正能卖钱的场景。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "银行零售风控、保险定价、宏观政策评估都需要「跑一亿次会怎样」，这类算力密集型仿真服务是按次计费的好生意。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B源 机器之心单源解读稿",
+          "publish_time": "2026-11-06 18:33",
+          "event_time": "2026-11-05",
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（英文原论文与作者团队口径未寻得直链，外查 11-06）",
+          "entities": [
+            {
+              "name": "香港大学",
+              "type": "机构"
+            },
+            {
+              "name": "罗晔",
+              "type": "人物"
+            },
+            {
+              "name": "YN",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1098147543_129720",
+            "raw_ref": "reports/raw/2026-11-06-2100.json#candidates[74]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-2100/08_m.sohu.com_fca710d1.html",
+            "sha256": "ad55f6c52c060610de5716a9ce8e764cfae50437a86e4c84349e9d630777598b",
+            "fetched_at": "2026-11-06T13:15:06.498Z"
+          }
+        },
+        {
+          "title": "普林斯顿 Scientist World：把 1000 篇论文变成 AI 可运行的科研实验场",
+          "meta": "36氪·2026-11-06 20:16",
+          "urls": [
+            "https://36kr.com/p/4058099154572164"
+          ],
+          "summary": "团队把 1000 篇论文的方法与数据整理成可执行环境，让 AI Scientist 在其中复跑、改参、做对照。与 15:00 场「评测即软件」是同一思路的科研版：把「可复现」做成基础设施。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "科研 Agent 的瓶颈不是写代码，而是环境复现；谁把「论文→可跑环境」标准化，谁就拿到科研 Agent 的入口。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B源 36氪单源，原论文未独立溯源",
+          "publish_time": "2026-11-06 20:16",
+          "event_time": "2026-11-05",
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 11-06）",
+          "entities": [
+            {
+              "name": "Princeton University",
+              "type": "机构"
+            },
+            {
+              "name": "Scientist World",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4058099154572164",
+            "raw_ref": "reports/raw/2026-11-06-2100.json#candidates[23]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-2100/09_36kr.com_250946a2.html",
+            "sha256": "ce7ff7fe06b8004301a8b46987a6342fec7d163522542079629b4e886e1e7dd6",
+            "fetched_at": "2026-11-06T13:15:06.734Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策",
+      "items": [
+        {
+          "title": "乌镇 20 家单位签署《智能体发展自律公约》：管住「伸出去的手」",
+          "meta": "36氪/ 财能圈·2026-11-06 19:13",
+          "urls": [
+            "https://36kr.com/p/4057812855527302"
+          ],
+          "summary": "公约共八条：分层可验证身份标识与权限授予、运行监测与异常熔断、规则表达与内嵌合规性测试，明确抵制算法压榨与黑灰产。会上披露的产业底色是风险：信通院称国内智能体已能拆解 20 步任务、多智能体协作可达 60 个；DataDome 报告上半年智能体对登录/表单/购物车发起 6.056 亿次请求，虚假账号创建量增 34.5%。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "自律公约通常先于强制标准，最先被采购的是「可验证身份 + 行为审计 + 熔断」三件套——这正好是 SIG-20261010-2100-3 那条攻防线在政策侧的兑现。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "做智能体网关、权限代理、行为日志的团队，2027 年标书里可以引用这份公约第五条作为需求依据。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Pandaily + Marketing-Interactive",
+          "publish_time": "2026-11-06 19:13",
+          "event_time": "2026-11-06",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Pandaily 2026-11-06《China Unveils an AI Agent Identity Registry at Wuzhen as 20 Organizations Sign Self-Discipline Pact》https://news.google.com/rss/articles/CBMiqAFBVV95cUxOemNZeGlwcGdfOVFCSGJ6N1VZSmdCd2tneXFTdXNoalFMTEh1aWhKZlZlQUxaVktDMHR ；Marketing-Interactive 同日报道 22 家企业联署）",
+          "entities": [
+            {
+              "name": "中国信通院",
+              "type": "机构"
+            },
+            {
+              "name": "华为",
+              "type": "企业"
+            },
+            {
+              "name": "阿里",
+              "type": "企业"
+            },
+            {
+              "name": "腾讯",
+              "type": "企业"
+            },
+            {
+              "name": "火山引擎",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4057812855527302",
+            "raw_ref": "reports/raw/2026-11-06-2100.json#candidates[59]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-2100/10_36kr.com_d4511305.html",
+            "sha256": "424ba83c3990c43f0b216dfdf5574b1b9e1ac5af3bf3f9b6833c9387d35c6698",
+            "fetched_at": "2026-11-06T13:15:07.005Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业",
+      "items": [
+        {
+          "title": "Menlo 报告：美国企业开源模型支出 89% 流向中国，Kimi 独占 61%",
+          "meta": "新智元·2026-11-06 16:29",
+          "urls": [
+            "https://m.sohu.com/a/1098147311_473283"
+          ],
+          "summary": "2026 年美国企业 AI 部署支出从 330 亿冲到 1770 亿美元（5.4 倍）；开源支出中 Kimi 61%、DeepSeek 15%、GLM 11%、Qwen 3%，Llama 仅 7%。开源占平台 token 量 19%、却只占支出 4%；同期前沿闭源模型支出份额从 35% 升至 63%。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "两组数字并不矛盾——便宜的开源吃量，贵的旗舰吃钱。真正的商业结论是「用量与付费分层已经固化」，中间价位模型最危险。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "「Token 越便宜、账单越贵」的企业级成本治理与路由层，需求被这份报告直接坐实。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 HPCwire + 36氪/ZAKER 独立版本",
+          "publish_time": "2026-11-06 16:29",
+          "event_time": "2026-11-03",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（HPCwire 2026-11-04《Menlo Ventures: Enterprise AI Spending Hits $177B, Up 5.4x in One Year as Agents Take Over》https://news.google.com/rss/articles/CBMiywFBVV95cUxQYlFvNi1SMVREU2xIajB2cmlXaHUwbnRiU3RzTnY0Vmh3eXAyVE1WV1FxN2RhZ01yblJ ；36氪 2026-11-06 20:09 独立编译版）",
+          "entities": [
+            {
+              "name": "Menlo Ventures",
+              "type": "机构"
+            },
+            {
+              "name": "Kimi",
+              "type": "产品"
+            },
+            {
+              "name": "DeepSeek",
+              "type": "产品"
+            },
+            {
+              "name": "智谱",
+              "type": "企业"
+            },
+            {
+              "name": "Meta",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1098147311_473283",
+            "raw_ref": "reports/raw/2026-11-06-2100.json#candidates[105]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-2100/11_m.sohu.com_65c0d9ae.html",
+            "sha256": "6fe1643470d5e6690e5ea568870b49f208446e812fa2157777d65d33d76ca572",
+            "fetched_at": "2026-11-06T13:15:07.319Z"
+          }
+        },
+        {
+          "title": "抗议者闯入微软阿姆斯特丹数据中心工地，欧洲 AI 基建抵制升级",
+          "meta": "The Verge·2026-11-06 19:55",
+          "urls": [
+            "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam"
+          ],
+          "summary": "约百人进入阿姆斯特丹郊外三座 85 米高数据中心塔的施工现场，警方介入。这是本周欧洲第二起针对数据中心建设的直接行动，与美股 AI 基建股暴跌构成同一情绪的两面。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "并网许可、地方听证、社区补偿正在成为数据中心项目的真实成本项，也是「选址与合规服务」的新生意。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 NL Times + Reuters 转述",
+          "publish_time": "2026-11-06 19:55",
+          "event_time": "2026-11-06",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（NL Times 2026-11-06《Protesters break onto site of planned Microsoft data center in A'dam; Police intervene》https://news.google.com/rss/articles/CBMirAFBVV95cUxPVGdFeTRuOGJQamJvQjVwRlZ2OFFmbmwyTlY1dk1zUHE5OUxyZENTMDN1WGcyQ3BUbFR ；Reuters 同报）",
+          "entities": [
+            {
+              "name": "Microsoft",
+              "type": "企业"
+            },
+            {
+              "name": "Geef Tegengas",
+              "type": "机构"
+            },
+            {
+              "name": "Amsterdam(其他)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+            "raw_ref": "reports/raw/2026-11-06-2100.json#candidates[40]",
+            "source_id": "theverge",
+            "source_name": "The Verge"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-2100/12_www.theverge.com_980a934d.html",
+            "sha256": "fef99cc813034231f445ba968b7cdb5cd4e8ea7fcce68b500122e22958844428",
+            "fetched_at": "2026-11-06T13:15:25.976Z"
+          }
+        },
+        {
+          "title": "多模态生成失宠：周畅、庞天宇相继离职，大厂把它当期权而非主线",
+          "meta": "36氪/ 字母AI·2026-11-06 18:30",
+          "urls": [
+            "https://36kr.com/p/4057759645308550"
+          ],
+          "summary": "10-31 字节 Seed 核心负责人周畅离职创业（方向 Physical AI），11-02 腾讯混元首席研究科学家庞天宇离职（在职不足 9 个月）。文章把多模态生成的成本结构摊开：视觉 token 随分辨率与帧数平方增长、推理需独占 GPU 管道、评测靠上千人打分；Sora 上线半年即关停，日算力成本约 100 万美元。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "预算从「生成」转向「能办事的 Agent」是本季度最清晰的一笔再分配。多模态团队的估值逻辑，正从「叙事」退回「单位成本」。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "视频/3D 生成的创业窗口收窄到两个位置——极致的单位成本，或别人不愿做的行业工作流。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "中",
+          "confidence_note": "B源 36氪综述，原始爆料为 Z Finance 与多家信源",
+          "publish_time": "2026-11-06 18:30",
+          "event_time": "2026-10-31",
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（Z Finance 原始爆料未寻得原文直链，外查 11-06）",
+          "entities": [
+            {
+              "name": "字节跳动",
+              "type": "企业"
+            },
+            {
+              "name": "腾讯",
+              "type": "企业"
+            },
+            {
+              "name": "周畅",
+              "type": "人物"
+            },
+            {
+              "name": "庞天宇",
+              "type": "人物"
+            },
+            {
+              "name": "Sora",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4057759645308550",
+            "raw_ref": "reports/raw/2026-11-06-2100.json#candidates[75]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-2100/13_36kr.com_52c57b63.html",
+            "sha256": "0583fb16cbe344ee15e1813680e071271d5b6d8d779d32d785132f9073bd6492",
+            "fetched_at": "2026-11-06T13:15:26.184Z"
+          }
+        },
+        {
+          "title": "World Labs 发布 Frameboy：浏览器里实时漫游世界模型，紧随 AMD 82 亿美元合作",
+          "meta": "36氪·2026-11-06 17:31",
+          "urls": [
+            "https://36kr.com/p/4057974684292233"
+          ],
+          "summary": "「世界模型云游戏」形态：无需下载、浏览器内实时生成并漫游三维场景。与 09:00 场已报的「掌机跑 15 帧」是同一能力谱系的两端——一端证明端侧可行，一端证明可规模化分发。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "实时因子（帧率×分辨率）仍是硬约束；能在浏览器跑起来，说明推理侧压缩与流式生成已跨过可用门槛。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 World Labs 官方 + Startup Fortune",
+          "publish_time": "2026-11-06 17:31",
+          "event_time": "2026-11-05",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（World Labs 官方 2026-11-05《Frameboy: Atlas in Real-time》https://news.google.com/rss/articles/CBMiV0FVX3lxTE1PNHEzRkJoSzNkOGNMYV9HcHBvR3dKWFJxLU5LM1JvVG5vYW1nRF9Xdy0zSlg3b0JQWFJ ；Startup Fortune 2026-11-06 报道其紧随 82 亿美元 AMD 合作）",
+          "entities": [
+            {
+              "name": "World Labs",
+              "type": "企业"
+            },
+            {
+              "name": "李飞飞",
+              "type": "人物"
+            },
+            {
+              "name": "Frameboy",
+              "type": "产品"
+            },
+            {
+              "name": "AMD",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4057974684292233",
+            "raw_ref": "reports/raw/2026-11-06-2100.json#candidates[91]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-06-2100/14_36kr.com_6c374b38.html",
+            "sha256": "d6d18da40e3b6b29b0cc012b2205ecc5385daae0d697f086c66102b86636cceb",
+            "fetched_at": "2026-11-06T13:15:26.406Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "📌 跟踪回访 SIG-20261006-2100-1",
+      "text": "Anthropic IPO 首次出现「买方砍价」硬证据（WSJ 独家），1.5 万亿目标被压向 1 万亿，挂牌窗口 11-16 当周存推迟可能——「双 IPO 并立」叙事进入定价检验期，已兑现「路演期估值承压」判断。",
+      "sigId": null
+    },
+    {
+      "lead": "📌 跟踪回访 SIG-20261011-0900-3",
+      "text": "Menlo 报告给出「美国企业投奔中国开源」的量化实锤（89% 支出、Kimi 61%），从个案（Revolut 自托管 GLM 5.3）升级为结构性数据。",
+      "sigId": null
+    },
+    {
+      "lead": "📌 跟踪回访 SIG-20261006-0900-4",
+      "text": "乌镇《智能体发展自律公约》把「agent 与开放网络对抗」从企业自救推进到行业自律层，DataDome 6.056 亿次恶意请求是监管动机的量化底座。",
+      "sigId": null
+    },
+    {
+      "lead": "📌 跟踪回访 SIG-20261028-2100-4",
+      "text": "Sand AI 以 2 亿美元融资进独角兽、半年营收 1739 万亏 1.52 亿——「零营收/低收入物理 AI 的估值回撤窗口」出现第一份可对账的财报。",
+      "sigId": null
+    },
+    {
+      "lead": "Anthropic IPO 最终定价与挂牌时点",
+      "text": "（SIG-20261106-2100-1，check 2026-11-10）：盯高盛/大摩紧急会议后的定价区间、是否推迟至 12 月、缩减发行规模的比例；这是整个 AI 一级市场估值锚的第一次公开重定价。",
+      "sigId": "SIG-20261106-2100-1"
+    },
+    {
+      "lead": "「内部模型领先公开模型」的行业惯例化",
+      "text": "（SIG-20261106-2100-2，check 2026-11-12）：盯 METR 后续是否给出更完整口径、其他 lab 是否被曝同类内部型号、企业采购合同是否开始写入「迭代速度」条款。",
+      "sigId": "SIG-20261106-2100-2"
+    },
+    {
+      "lead": "智能体身份与行为审计的合规采购窗口",
+      "text": "（SIG-20261106-2100-3，check 2026-11-13）：盯乌镇公约八条的落地细则、信通院是否出配套标准、智能体网关/权限代理类产品的融资与订单口径。",
+      "sigId": "SIG-20261106-2100-3"
+    },
+    {
+      "lead": "开源吃量、闭源吃钱的分层是否继续加深",
+      "text": "（SIG-20261106-2100-4，check 2026-11-13）：盯 Menlo 数据的季度更新、OpenRouter 中国模型份额（已连续 27 周超美国）、中间价位模型的降价或退出动作。",
+      "sigId": "SIG-20261106-2100-4"
+    }
+  ],
+  "sourceStatus": [
+    "- HN（hnrss）：DOWN，HTTP 502（本轮 0 条，已连续多期失败，建议按 sources.md 切 Algolia 兜底为主通道）",
+    "- OpenAI RSS：DOWN，HTTP 403（渲染兜底未取到窗口内新条目）",
+    "- 机器之心Pro / 新智元 / 甲子光年（搜狐镜像）：FALLBACK，parse_loss 3~4 条/源，正文靠手工提取补全",
+    "- 36氪：OK 但单源耗时 80.8s，为本轮最慢源",
+    "- MiniMax 官网：OK 但耗时 59.2s，Anthropic 官网 44.4s，均在超时边缘",
+    "- 其余源（TC/Verge/Reddit/GitHub Trending/Product Hunt/量子位/极客公园/少数派/爱范儿/智东西/CAAC/Gov/CAICT/MIIT/arXiv/HF）正常"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-06-2100.json",
+    "evidence_file": null,
+    "snapshot_dir": "archives/2026-11-06-2100/",
+    "raw_candidates": 144,
+    "matched": 14
+  }
+}
