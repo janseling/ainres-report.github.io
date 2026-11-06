@@ -3,7 +3,7 @@
   "date": "2026-11-06",
   "time": "09:00",
   "title": "AI 情报 · 11-06 09:00 场",
-  "generatedAt": "2026-11-06T01:33:45.738Z",
+  "generatedAt": "2026-11-06T01:59:32.390Z",
   "coverage": "2026-11-05 15:00 → 11-06 09:10（Asia/Shanghai）",
   "notes": [
     "21:00 场已覆盖 11-05 白天增量，本场无重复收录"
@@ -11,7 +11,7 @@
   "itemCount": 16,
   "rawStats": {
     "candidates": 152,
-    "selected": 13
+    "selected": 16
   },
   "overview": [
     "OpenAI 发布网络安全模型 GPT-6 Cyber：Firefox 挖出 81 个新漏洞、Linux 复现 948 条提权路径，获「Critical」安全评级",
@@ -45,7 +45,7 @@
               "kind": "startup",
               "icon": "🛠️",
               "label": "产品/创业",
-              "text": "常驻型多角色 Agent 的定价与「同事化」交互是新品类；围绕它的记忆/权限/审计周边仍是空窗。"
+              "text": "️ 产品/创业：常驻型多角色 Agent 的定价与「同事化」交互是新品类；围绕它的记忆/权限/审计周边仍是空窗。"
             }
           ],
           "source_tier": "B",
@@ -92,7 +92,7 @@
               "kind": "startup",
               "icon": "🛠️",
               "label": "产品/创业",
-              "text": "个人财务是 ChatGPT 已验证的高留存场景，Anthropic 跟进说明「对话+账户数据」的粘性被两家同时确认；国内对标（记账+大模型洞察）的合规版仍有空间。"
+              "text": "️ 产品/创业：个人财务是 ChatGPT 已验证的高留存场景，Anthropic 跟进说明「对话+账户数据」的粘性被两家同时确认；国内对标（记账+大模型洞察）的合规版仍有空间。"
             }
           ],
           "source_tier": "B",
@@ -190,7 +190,7 @@
               "kind": "startup",
               "icon": "🛠️",
               "label": "产品/创业",
-              "text": "旅行巨头自建 Agent 后，第三方「AI 旅行管家」的独立窗口收窄，机会转向垂直供应链（当地体验、保险、签证）的 Agent 化接口。"
+              "text": "️ 产品/创业：旅行巨头自建 Agent 后，第三方「AI 旅行管家」的独立窗口收窄，机会转向垂直供应链（当地体验、保险、签证）的 Agent 化接口。"
             }
           ],
           "source_tier": "B",
@@ -269,7 +269,7 @@
           "snapshot": {
             "file": "archives/2026-11-06-0900/05_www.tencent.com_b4f7b720.html",
             "sha256": "f1cb945a1b7e4c5c0c7d9e13fb95865d73eccbd25963ea9b599f93bc6dbf68bc",
-            "fetched_at": "2026-11-06T01:33:52.458Z"
+            "fetched_at": "2026-11-06T01:33:52.457Z"
           }
         },
         {
@@ -370,7 +370,7 @@
           "snapshot": {
             "file": "archives/2026-11-06-0900/07_36kr.com_5e0fa819.html",
             "sha256": "91484407fed839b3bb75cee9b640fd201f06af1019fa5862d269a664931184be",
-            "fetched_at": "2026-11-06T01:33:54.881Z"
+            "fetched_at": "2026-11-06T01:33:54.882Z"
           }
         },
         {
@@ -436,7 +436,7 @@
               "kind": "startup",
               "icon": "🛠️",
               "label": "产品/创业",
-              "text": "世界模型+廉价终端的组合若属实，互动内容/教育/零售展示类场景的边际成本会被重写；等独立复现再动。"
+              "text": "️ 产品/创业：世界模型+廉价终端的组合若属实，互动内容/教育/零售展示类场景的边际成本会被重写；等独立复现再动。"
             }
           ],
           "source_tier": "B",
@@ -512,7 +512,7 @@
           "snapshot": {
             "file": "archives/2026-11-06-0900/10_huggingface.co_f25b9201.html",
             "sha256": "0bff35e14976439a071e02b89c01524b0fdf50f90183c6f6d04f1d1c21588572",
-            "fetched_at": "2026-11-06T01:34:32.028Z"
+            "fetched_at": "2026-11-06T01:34:32.029Z"
           }
         },
         {
@@ -581,7 +581,7 @@
               "kind": "startup",
               "icon": "🛠️",
               "label": "产品/创业",
-              "text": "若法案进入听证流程，美国前沿模型公司的合规成本与选址逻辑全变；对国内团队反而可能是人才与订单的迁移窗口。"
+              "text": "️ 产品/创业：若法案进入听证流程，美国前沿模型公司的合规成本与选址逻辑全变；对国内团队反而可能是人才与订单的迁移窗口。"
             }
           ],
           "source_tier": "B",
@@ -613,7 +613,7 @@
           "snapshot": {
             "file": "archives/2026-11-06-0900/13_www.geekpark.net_f35e1c42.html",
             "sha256": "ea437409607e1a6312628397719da027b6d8d1cb9abf53d7cc85ef15fb876b9e",
-            "fetched_at": "2026-11-06T01:34:32.885Z"
+            "fetched_at": "2026-11-06T01:34:32.886Z"
           }
         },
         {
@@ -660,7 +660,7 @@
           "snapshot": {
             "file": "archives/2026-11-06-0900/13_www.geekpark.net_f35e1c42.html",
             "sha256": "ea437409607e1a6312628397719da027b6d8d1cb9abf53d7cc85ef15fb876b9e",
-            "fetched_at": "2026-11-06T01:34:32.885Z"
+            "fetched_at": "2026-11-06T01:34:32.886Z"
           }
         }
       ]
@@ -725,7 +725,7 @@
               "kind": "startup",
               "icon": "🛠️",
               "label": "产品/创业",
-              "text": "教育采购里「无 AI 干净版」成为反向卖点（DuckDuckGo 已在抢单）；强合规场景的替代品生意有真实需求。"
+              "text": "️ 产品/创业：教育采购里「无 AI 干净版」成为反向卖点（DuckDuckGo 已在抢单）；强合规场景的替代品生意有真实需求。"
             }
           ],
           "source_tier": "B",
@@ -828,9 +828,9 @@
     }
   ],
   "sourceStatus": [
-    "- GitHub Trending：DOWN（curl 超时，本期候选 0），consecutive_down≥2，建议下期继续观察、连续 3 期失败即停用",
-    "- OpenAI RSS：FALLBACK（主源 403，渲染兜底吸收，未影响候选）",
-    "- 其余 31 源 OK，无 consecutive_down≥2"
+    "- - GitHub Trending：DOWN（curl 超时，本期候选 0），consecutive_down≥2，建议下期继续观察、连续 3 期失败即停用",
+    "- - OpenAI RSS：FALLBACK（主源 403，渲染兜底吸收，未影响候选）",
+    "- - 其余 31 源 OK，无 consecutive_down≥2"
   ],
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-06-0900.json",
