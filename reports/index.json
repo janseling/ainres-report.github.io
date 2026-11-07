@@ -1,6 +1,32 @@
 {
-  "count": 115,
+  "count": 116,
   "reports": [
+    {
+      "id": "2026-11-07-0900",
+      "date": "2026-11-07",
+      "time": "09:00",
+      "title": "AI 情报 · 11-07 09:00 场",
+      "itemCount": 13,
+      "coverage": "2026-11-06 21:00 → 2026-11-07 09:02（Asia/Shanghai）",
+      "note": "21:00 场已报 Anthropic IPO 砍价/Inkling 2 Small/Sand AI/YN 决策模型/Frameboy，本场不重复",
+      "overview": [
+        "OpenAI 110 亿美元新融资落在 1.25 万亿美元估值，距 9 月下旬传闻的 300 亿目标过半即停——私募侧也开始「按实际卖得掉多少」定价",
+        "微软据报逐步终止从甲骨文租 AI 云算力，Bloomberg/Reuters/CNBC 同报——云巨头「以自建替代租用」的第二记实锤",
+        "DeepSeek Harness 日活 154 万、官方插件市场开建并给插件作者发 Token，中国第一个跑出规模的开放 Agent 生态",
+        "中期选举 41 项涉数据中心公投 40 项被否，选民用脚投票改写 AI 基建审批生态",
+        "Ramp 数据：AI 用量继续涨、支出增长停滞，Anthropic（收入增速从 12x 到 2x）与 OpenAI（1.25 万亿估值、110 亿交割）形成「收入放缓×融资照常」的劈叉"
+      ],
+      "sectionCounts": {
+        "product": 5,
+        "tech": 2,
+        "policy": 1,
+        "industry": 5
+      },
+      "rawStats": {
+        "candidates": 164,
+        "selected": 13
+      }
+    },
     {
       "id": "2026-11-06-2100",
       "date": "2026-11-06",
