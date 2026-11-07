@@ -67,6 +67,11 @@
             "raw_ref": "reports/raw/2026-11-07-1500.json#candidates[16]",
             "source_id": "reddit",
             "source_name": "Reddit"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-07-1500/01_www.reddit.com_b7e43b5b.html",
+            "sha256": "8eb29dedf90787be0b226c3c490e249cc080c31b98e38f8d575a3856eedaf6ab",
+            "fetched_at": "2026-11-07T18:44:43.270Z"
           }
         },
         {
@@ -113,6 +118,11 @@
             "raw_ref": "reports/raw/2026-11-07-1500.json#candidates[52]",
             "source_id": "sohu-xzy",
             "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-07-1500/02_m.sohu.com_8b03522f.html",
+            "sha256": "472d683f26fada5bede6acedda96d0cab8eef8e075e2154d5875b424e7c6a4ee",
+            "fetched_at": "2026-11-07T18:44:43.462Z"
           }
         },
         {
@@ -159,6 +169,11 @@
             "raw_ref": "reports/raw/2026-11-07-1500.json#candidates[58]",
             "source_id": "techcrunch",
             "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-07-1500/03_techcrunch.com_2af34550.html",
+            "sha256": "1bb2818c87baf451349d466de6132cd0f617f572c93a7fa878dbd9e7f08b88d7",
+            "fetched_at": "2026-11-07T18:44:44.452Z"
           }
         },
         {
@@ -195,6 +210,11 @@
             "raw_ref": "reports/raw/2026-11-07-1500.json#candidates[55]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-07-1500/04_36kr.com_14e9610e.html",
+            "sha256": "898ba11dbbbb760a966afc9ae468615c2653a15a52430a9ccc1d5051b74a9c04",
+            "fetched_at": "2026-11-07T18:44:44.790Z"
           }
         }
       ]
@@ -244,6 +264,11 @@
             "raw_ref": "reports/raw/2026-11-07-1500.json#candidates[19]",
             "source_id": "sohu-xzy",
             "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-07-1500/05_m.sohu.com_e9554231.html",
+            "sha256": "6e9d3ddab393c107ddc543250966ef6332065ae08cf1b1ae35eed0390aa7262f",
+            "fetched_at": "2026-11-07T18:44:44.991Z"
           }
         },
         {
@@ -290,6 +315,11 @@
             "raw_ref": "reports/raw/2026-11-07-1500.json#candidates[20]",
             "source_id": "sohu-xzy",
             "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-07-1500/06_m.sohu.com_f8a40505.html",
+            "sha256": "bf5cec62f7e24d5b5f9c764a1a0578acd4b04906b91709b60588451307d3221f",
+            "fetched_at": "2026-11-07T18:44:45.126Z"
           }
         }
       ]
@@ -339,6 +369,11 @@
             "raw_ref": "reports/raw/2026-11-07-1500.json#candidates[23]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-07-1500/07_36kr.com_ef0b4749.html",
+            "sha256": "60ea5ab95b3adb92a3bf6f07aae6c2ae0993630eaeb794b2220f72a238cc2455",
+            "fetched_at": "2026-11-07T18:44:45.425Z"
           }
         }
       ]
@@ -388,6 +423,11 @@
             "raw_ref": "reports/raw/2026-11-07-1500.json#candidates[1]",
             "source_id": "reddit",
             "source_name": "Reddit"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-07-1500/08_www.reddit.com_4c6f5f5e.html",
+            "sha256": "95ec637c1cee0680d994fd97b0487caac1c2796e292c06dc8fe647674bc00408",
+            "fetched_at": "2026-11-07T18:45:21.687Z"
           }
         },
         {
@@ -434,6 +474,11 @@
             "raw_ref": "reports/raw/2026-11-07-1500.json#candidates[6]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-07-1500/09_36kr.com_736e3812.html",
+            "sha256": "be98a7dd03e7151eef1c81b22ffa017eed5571d65d3fa166017e2928530ddbd0",
+            "fetched_at": "2026-11-07T18:45:21.975Z"
           }
         },
         {
@@ -474,6 +519,11 @@
             "raw_ref": "reports/raw/2026-11-07-1500.json#candidates[34]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-07-1500/10_36kr.com_7829c658.html",
+            "sha256": "823c33b0edfdf9aa1e00f9128e101434b3942ddc4cf62c17452ed1c3498a616d",
+            "fetched_at": "2026-11-07T18:45:22.194Z"
           }
         },
         {
@@ -514,6 +564,11 @@
             "raw_ref": "reports/raw/2026-11-07-1500.json#candidates[43]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-07-1500/11_36kr.com_2f0165f8.html",
+            "sha256": "025327949cb51b72d4d75d1e1e4e1ec5e1e0c695ec2bdb75990e937cfced2010",
+            "fetched_at": "2026-11-07T18:45:22.404Z"
           }
         }
       ]
@@ -544,7 +599,7 @@
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-07-1500.json",
     "evidence_file": "reports/raw/2026-11-07-1500.evidence.json",
-    "snapshot_dir": null,
+    "snapshot_dir": "archives/2026-11-07-1500/",
     "raw_candidates": 87,
     "matched": 11
   }
