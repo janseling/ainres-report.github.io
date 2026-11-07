@@ -3,7 +3,7 @@
   "date": "2026-11-07",
   "time": "15:00",
   "title": "AI 情报 · 11-07 15:00 场",
-  "generatedAt": "2026-11-07T18:55:21.055Z",
+  "generatedAt": "2026-11-07T18:56:00.772Z",
   "coverage": "2026-11-07 09:10 → 15:00（Asia/Shanghai）",
   "notes": [
     "补刊说明：15:00 cron 长跑 43 分钟后在「写定稿前」因会话工具中断终止（佐证阶段已完成），本场复用其已落盘 raw 与已抓取佐证续跑；0900 场已报内容无重复收录"
@@ -192,7 +192,9 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [],
+          "type_tags": [
+            "产品发布"
+          ],
           "confidence": "中",
           "confidence_note": "单源，无独立同题报道",
           "publish_time": "2026-11-07 09:58",
@@ -497,7 +499,9 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [],
+          "type_tags": [
+            "数据行情"
+          ],
           "confidence": "高",
           "confidence_note": "双源佐证 Bloomberg 11-06 + Reuters 11-06",
           "publish_time": "2026-11-07 11:55",
@@ -542,7 +546,9 @@
             }
           ],
           "source_tier": "B",
-          "type_tags": [],
+          "type_tags": [
+            "数据行情"
+          ],
           "confidence": "高",
           "confidence_note": "双源佐证 WSJ 11-06 独家 + TipRanks/Yahoo 11-06 同期",
           "publish_time": "2026-11-07 11:15",
