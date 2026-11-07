@@ -1,6 +1,33 @@
 {
-  "count": 116,
+  "count": 117,
   "reports": [
+    {
+      "id": "2026-11-07-1500",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "title": "AI 情报 · 11-07 15:00 场",
+      "itemCount": 11,
+      "coverage": "2026-11-07 09:10 → 15:00（Asia/Shanghai）",
+      "note": "补刊说明：15:00 cron 长跑 43 分钟后在「写定稿前」因会话工具中断终止（佐证阶段已完成），本场复用其已落盘 raw 与已抓取佐证续跑；0900 场已报内容无重复收录",
+      "overview": [
+        "蚂蚁 Ling 团队发布 Ling-3.2-flash：560B/25B 激活原生多模态 MoE，1M 上下文",
+        "Anthropic 发布 Claude「Dreaming」记忆机制：宝可梦测试 Wiki 成绩 13%→48%",
+        "Meta 首席战略官 Dave Wehner 离职转任 Fireworks CFO",
+        "谷歌接手 Crusoe 困境中的怀俄明数据中心项目；欧央行考虑审查银行数据中心贷款",
+        "传部分投资者下修 Anthropic IPO 估值至 1.5 万亿美元（与昨日「下修至 1 万亿」口径分歧，后续）",
+        "物理学「教皇」威滕 33 页独作致敬 AI：关键数学构造由 Claude 提出"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 2,
+        "policy": 1,
+        "industry": 4
+      },
+      "rawStats": {
+        "candidates": 87,
+        "selected": 11
+      }
+    },
     {
       "id": "2026-11-07-0900",
       "date": "2026-11-07",
