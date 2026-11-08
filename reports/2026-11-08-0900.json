@@ -1,0 +1,506 @@
+{
+  "id": "2026-11-08-0900",
+  "date": "2026-11-08",
+  "time": "09:00",
+  "title": "AI 情报 · 11-08 09:00 场",
+  "generatedAt": "2026-11-08T03:50:52.317Z",
+  "coverage": "2026-11-07 21:00 → 11-08 09:15（Asia/Shanghai）",
+  "notes": [
+    "补刊说明：原 09:00 轮抓取完成后于 09:20 因工具调用失败终止（raw 完好、未出刊），本场复用其 raw 中 21:00–09:15 段续跑；11-07 1500/2100 场已报内容无重复收录"
+  ],
+  "itemCount": 9,
+  "rawStats": {
+    "candidates": 106,
+    "selected": 8
+  },
+  "overview": [
+    "美国让英伟达把芯片卖给中国一间空办公室：出口管制的荒诞漏口",
+    "AI 把网络安全世界搅翻了：攻击面、防御面同时重构",
+    "Megaspeed 高管被指受雇刺探英伟达 CEO，芯片转口链条浮出水面",
+    "中期选举后，马斯克与数据中心的政治账开始清算",
+    "乌兰察布凭什么成为 AI 数据中心的「正确答案」",
+    "机器人大泡沫正在破裂：IPO 关了、借壳堵死"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "机器人大泡沫正在破裂：IPO 关了，借壳堵死",
+          "meta": "36氪·2026-11-08 08:35",
+          "urls": [
+            "https://36kr.com/p/4059673862967813"
+          ],
+          "summary": "一级市场对机器人公司的出口同时收紧：IPO 通道关闭、借壳上市被堵，估值叙事开始接受现实检验。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "具身智能从「故事定价」进入「现金流定价」，2026 下半年会看到一批估值重定价。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "单源",
+          "publish_time": "2026-11-08 08:35",
+          "event_time": "2026-11-07",
+          "event_time_inferred": true,
+          "verify_note": "未见独立来源（外查 11-08）",
+          "entities": [
+            {
+              "name": "人形机器人(行业)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4059673862967813",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-0900/01_36kr.com_d0ec3f87.html",
+            "sha256": "4b91ae55ca3c43231696c680537ecacec3a1f5240f16197a9a8ddceb1620644b",
+            "fetched_at": "2026-11-08T03:50:58.974Z"
+          }
+        },
+        {
+          "title": "银湖资本与沙特基金 250 亿美元报价 Unity；超 10 万款应用适配 iPhone Duo",
+          "meta": "极客公园·2026-11-08 08:57",
+          "urls": [
+            "https://www.geekpark.net/news/356218"
+          ],
+          "summary": "收购 EA 之后，银湖与沙特基金再度出手，250 亿美元报价 Unity——游戏引擎层的资本整合加速。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "引擎与内容工具正在被私募资本系统性收编，独立开发者的工具链议价空间会收窄。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "单源",
+          "publish_time": "2026-11-08 08:57",
+          "event_time": "2026-11-07",
+          "event_time_inferred": true,
+          "verify_note": "未见独立来源（外查 11-08）",
+          "entities": [
+            {
+              "name": "Unity",
+              "type": "企业"
+            },
+            {
+              "name": "银湖资本",
+              "type": "机构"
+            },
+            {
+              "name": "沙特基金",
+              "type": "机构"
+            },
+            {
+              "name": "苹果",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.geekpark.net/news/356218",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "极客公园"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-0900/02_www.geekpark.net_75655beb.html",
+            "sha256": "fe9322a7a61a668996518d61ebf590fa034e2cd32790bab61e2d68c3c559fe74",
+            "fetched_at": "2026-11-08T03:50:59.405Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术 / 研究",
+      "items": [
+        {
+          "title": "AI 把网络安全世界搅翻了：接下来是什么",
+          "meta": "The Verge·2026-11-07 23:00",
+          "urls": [
+            "https://www.theverge.com/ai-artificial-intelligence/1029203/ai-cybersecurity"
+          ],
+          "summary": "The Verge 长文复盘 AI 对网络安全攻防两侧的重构：漏洞发现与利用的速度被 AI 拉平，防御方的响应窗口同步压缩。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "安全产品的价值锚点从「规则覆盖」转向「AI 对抗速度」，做安全工具的团队需要重做能力模型。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "单源深度报道",
+          "publish_time": "2026-11-07 23:00",
+          "event_time": "2026-11-07",
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 11-08）",
+          "entities": [
+            {
+              "name": "网络安全(行业)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1029203/ai-cybersecurity",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "The Verge"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-0900/03_www.theverge.com_d10bcbae.html",
+            "sha256": "c6ea270d6424713617a58b6b8d71deb01a9122453fbe61d94bfc1d10837a92bd",
+            "fetched_at": "2026-11-08T03:51:00.310Z"
+          }
+        },
+        {
+          "title": "「我不在乎网页内容是不是 AI 生成的」",
+          "meta": "Hacker News·2026-11-07 22:02",
+          "urls": [
+            "https://news.ycombinator.com/item?id=50402602"
+          ],
+          "summary": "HN 热帖讨论：当 AI 生成内容占比过半，用户对「是否 AI 生成」的敏感度在下降，转而只关心信息是否有效。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "内容平台的「AI 检测」标签可能正在失去意义，价值会回到「信息验证」而非「作者判定」。"
+            }
+          ],
+          "source_tier": "C",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "低",
+          "confidence_note": "单源社区讨论",
+          "publish_time": "2026-11-07 22:02",
+          "event_time": "2026-11-07",
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 11-08）",
+          "entities": [
+            {
+              "name": "AI 内容(行业)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://news.ycombinator.com/item?id=50402602",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Hacker News"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-0900/04_news.ycombinator.com_8dce6c0f.html",
+            "sha256": "756a0320a08836653b8e61551bc9c3183b3dbe7c6441ad8e6e710c5ef10c2c04",
+            "fetched_at": "2026-11-08T03:51:38.158Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策 / 监管",
+      "items": [
+        {
+          "title": "美国让英伟达把芯片卖给中国的一间空办公室",
+          "meta": "The Verge·2026-11-07 23:43",
+          "urls": [
+            "https://www.theverge.com/policy/1029188/nvidia-chips-china-empty-office"
+          ],
+          "summary": "The Verge 调查披露出口管制的执行漏洞：芯片经由「空壳办公室」完成交付，合规审查停留在纸面。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "管制越严、执行越松，灰色渠道的溢价就越确定——这是算力地缘博弈里最现实的一环。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "单源深度调查",
+          "publish_time": "2026-11-07 23:43",
+          "event_time": "2026-11-07",
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 11-08）",
+          "entities": [
+            {
+              "name": "Nvidia",
+              "type": "企业"
+            },
+            {
+              "name": "美国商务部",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/policy/1029188/nvidia-chips-china-empty-office",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "The Verge"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-0900/05_www.theverge.com_d6bcdef9.html",
+            "sha256": "91d424aaaf45655ba449a5fc654d6d03455c73e3288df219289ffe084c2767ff",
+            "fetched_at": "2026-11-08T03:51:38.798Z"
+          }
+        },
+        {
+          "title": "中期选举后，马斯克与数据中心的政治账开始清算",
+          "meta": "TechCrunch·2026-11-08 06:07",
+          "urls": [
+            "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers"
+          ],
+          "summary": "选举结果改变地方政治版图，数据中心的选址与审批在多个州开始遇到新的阻力；马斯克系的政商关系同步承压。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "「算力基建」的地方政治风险正在显性化，选址模型要把选举周期算进去。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "单源",
+          "publish_time": "2026-11-08 06:07",
+          "event_time": "2026-11-07",
+          "event_time_inferred": true,
+          "verify_note": "未见独立来源（外查 11-08）",
+          "entities": [
+            {
+              "name": "Elon Musk",
+              "type": "人物"
+            },
+            {
+              "name": "数据中心(行业)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers",
+            "raw_ref": "reports/raw/2026-11-08-0900.json#candidates[16]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-0900/06_techcrunch.com_51a247b5.html",
+            "sha256": "75ba5545265114cf94bbee2ddb9f9ea39cbf28e778f10c1b2f64855a3e71cee7",
+            "fetched_at": "2026-11-08T03:51:40.007Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业·玩法",
+      "items": [
+        {
+          "title": "乌兰察布，才是 AI 数据中心的正确答案？",
+          "meta": "36氪·2026-11-08 08:09",
+          "urls": [
+            "https://36kr.com/p/4059654056327303"
+          ],
+          "summary": "内蒙古乌兰察布以电价、气候与土地优势承接 AI 算力，文章对比中美数据中心模式，指出「低成本+低时延」的独特组合。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "算力西迁的经济账越来越清楚，配套的电力/散热/网络供应链会跟着吃到红利。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 文学城 + 中华网 11-07 同文",
+          "publish_time": "2026-11-08 08:09",
+          "event_time": "2026-11-07",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（文学城 2026-11-07 16:28、中华网 2026-11-07 11:54 同步转载同题分析；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "乌兰察布(地区)",
+              "type": null
+            },
+            {
+              "name": "AI 数据中心(行业)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4059654056327303",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-0900/07_36kr.com_c2b8c571.html",
+            "sha256": "aaeed40246864ad91f00f57378f87d653c9734dd5bd5a401f134a55d4fc8ff28",
+            "fetched_at": "2026-11-08T03:51:40.217Z"
+          }
+        },
+        {
+          "title": "Megaspeed 高管被指受雇刺探英伟达 CEO",
+          "meta": "TechCrunch·2026-11-08 05:17",
+          "urls": [
+            "https://techcrunch.com/2026/11/08/megaspeed-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence"
+          ],
+          "summary": "美国情报口径称 Megaspeed 高管被招募刺探英伟达 CEO；该公司是英伟达在东南亚的重要渠道，芯片转口链条由此浮出。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "算力出口管制的「渠道风险」第一次以刑事口径被披露，东南亚渠道商会进入审查视野。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 富途牛牛 10-31 + ruibao.news 10-30",
+          "publish_time": "2026-11-08 05:17",
+          "event_time": "2026-11-07",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（富途牛牛 2026-10-31：Nvidia's Megaspeed Ties Show Potential Blind Spots in the U.S. Effort to Block；ruibao.news 2026-10-30：Alice Huang's Singapore Ties and Spy Allegations；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "Megaspeed",
+              "type": "企业"
+            },
+            {
+              "name": "Nvidia",
+              "type": "企业"
+            },
+            {
+              "name": "Alice Huang",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/11/08/megaspeed-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-0900/08_techcrunch.com_7fec2b6c.html",
+            "sha256": "32a8220be8ee4cded24d5c4e2af5f7d273b8cada7013ee04e3e50780b4493b2d",
+            "fetched_at": "2026-11-08T03:51:42.230Z"
+          }
+        },
+        {
+          "title": "NYT Cooking 的 AI 助手救了我的工作日晚餐，也差点毁掉它",
+          "meta": "The Verge·2026-11-07 23:50",
+          "urls": [
+            "https://www.theverge.com/ai-artificial-intelligence/1029155/nyt-cooking-ai-assistant"
+          ],
+          "summary": "The Verge 实测 NYT Cooking 的 AI 助手：日常场景提升明显，但关键步骤的「自信幻觉」也会把菜做废。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "垂类 AI 助手的价值与风险都在「领域细节」上，通用模型的幻觉在菜谱这种容错低的场景会被放大。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "单源实测",
+          "publish_time": "2026-11-07 23:50",
+          "event_time": "2026-11-07",
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 11-08）",
+          "entities": [
+            {
+              "name": "NYT",
+              "type": "企业"
+            },
+            {
+              "name": "AI 助手",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1029155/nyt-cooking-ai-assistant",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "The Verge"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-0900/09_www.theverge.com_80979c02.html",
+            "sha256": "50284d940b4b15537eb802bd56ea32b9cc86de925539976d9c1e6ee1ec9e9c18",
+            "fetched_at": "2026-11-08T03:51:42.902Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "算力出口管制的渠道风险",
+      "text": "（新立 SIG，check 2026-11-12）：盯 Megaspeed 案进展、东南亚渠道商是否被集体审查、商务部规则是否补漏。",
+      "sigId": null
+    },
+    {
+      "lead": "数据中心的地方政治风险",
+      "text": "（新立 SIG，check 2026-11-14）：盯中期选举后各州审批变化、OpenAI 社区承诺书的实际执行。",
+      "sigId": null
+    },
+    {
+      "lead": "具身智能估值重定价",
+      "text": "（新立 SIG，check 2026-11-14）：盯机器人公司 IPO/借壳通道、头部公司估值调整。",
+      "sigId": null
+    }
+  ],
+  "sourceStatus": [
+    "- 32 源全部 OK，无 FALLBACK，无 consecutive_down",
+    "- The Verge：OK（本期 3 条深度报道）",
+    "- 其余源 OK"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-08-0900.json",
+    "evidence_file": null,
+    "snapshot_dir": "archives/2026-11-08-0900/",
+    "raw_candidates": 106,
+    "matched": 1
+  }
+}

@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 08 Nov 2026 02:22:54 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 03:51:48 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-07 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-07-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-07-2100.html</guid>
+      <pubDate>Sat, 07 Nov 2026 13:00:00 GMT</pubDate>
+      <description>METR 独立评估：Anthropic 用 AI 造 AI，研发提速约 2 倍，研究人员称「令人警觉」</description>
+    </item>
     <item>
       <title>AI 情报 · 11-07 15:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-07-1500.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-01-1500.html</guid>
       <pubDate>Sun, 01 Nov 2026 07:00:00 GMT</pubDate>
       <description>OpenAI 把新一轮融资目标从 300 亿美元砍到 200 亿、估值从 1.4 万亿降到 1.25 万亿，实收承诺仅约 110 亿美元。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 11-01 09:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-11-01-0900.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-01-0900.html</guid>
-      <pubDate>Sun, 01 Nov 2026 01:00:00 GMT</pubDate>
-      <description>OpenAI 新一轮融资目标从 3000 亿美元下调至 2000 亿，首关金额更低，FT/WSJ 口径指向大投资人态度转冷。</description>
     </item>
   </channel>
 </rss>
