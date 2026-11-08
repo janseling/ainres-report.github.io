@@ -3,7 +3,7 @@
   "date": "2026-11-07",
   "time": "09:00",
   "title": "AI 情报 · 11-07 09:00 场",
-  "generatedAt": "2026-11-07T03:43:27.150Z",
+  "generatedAt": "2026-11-08T21:46:28.043Z",
   "coverage": "2026-11-06 21:00 → 2026-11-07 09:02（Asia/Shanghai）",
   "notes": [
     "21:00 场已报 Anthropic IPO 砍价/Inkling 2 Small/Sand AI/YN 决策模型/Frameboy，本场不重复"
@@ -395,6 +395,8 @@
           "confidence": "低",
           "confidence_note": "D源·社区AMA自述，未独立佐证",
           "publish_time": "2026-11-07 00:51",
+          "event_time": "2026-11-07",
+          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 11-07）",
           "entities": [
             {
@@ -631,6 +633,8 @@
           "confidence": "中",
           "confidence_note": "B源 36氪单源，新浪同稿转载",
           "publish_time": "2026-11-06 21:27",
+          "event_time": null,
+          "event_time_inferred": false,
           "verify_note": "外部检索（新浪财经 2026-11-06 10:47 UTC 同稿转载 https://news.google.com/rss/articles/CBMif0FVX3lxTE1WS0hNOW9FbWpRRlNaM1BoYWtBMVYyV0I4Tko3UnV2alhkWTROeVhpWlpZVUItUWFlTnduZjUySEoxeTAxY3BGS2Y3Y2NFTlhYMkpGRDVvQ1RPbmdsbXh5YWc3LXlJNHJKSUc0RDhIUENHQmExTGN3TnJpQ19WOFk ；同日新浪为独立收录节点，非独立信源）",
           "entities": [
             {
