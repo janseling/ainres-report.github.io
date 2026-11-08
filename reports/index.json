@@ -1,6 +1,32 @@
 {
-  "count": 117,
+  "count": 118,
   "reports": [
+    {
+      "id": "2026-11-07-2100",
+      "date": "2026-11-07",
+      "time": "21:00",
+      "title": "AI 情报 · 11-07 21:00 场",
+      "itemCount": 8,
+      "coverage": "2026-11-07 15:00 → 21:00（Asia/Shanghai）",
+      "note": "补刊说明：原 21:00 轮在抓取阶段即中断（无独立 raw），本场复用 11-08 09:00 轮已落盘 raw（窗口 15:00→09:15）按时间切分的 15:00–21:00 段续跑；1500 场已报内容无重复收录",
+      "overview": [
+        "METR 独立评估：Anthropic 用 AI 造 AI，研发提速约 2 倍，研究人员称「令人警觉」",
+        "未发布的 Anthropic 模型给出 Aaronson–Ambainis 猜想证明，量子计算理论问题被攻破",
+        "OpenAI 新融资仅到账 110 亿美元，不及原计划一半（估值 1.25 万亿）",
+        "GitHub 被 AI 写码量压垮：OpenAI 收购 Pierre、Anthropic 自研、马斯克也要做",
+        "数据中心从「抢」转「低姿态」：OpenAI 公布社区承诺书",
+        "为去 AI 味，人类开始主动写烂文章"
+      ],
+      "sectionCounts": {
+        "product": 1,
+        "tech": 3,
+        "industry": 4
+      },
+      "rawStats": {
+        "candidates": 47,
+        "selected": 8
+      }
+    },
     {
       "id": "2026-11-07-1500",
       "date": "2026-11-07",
