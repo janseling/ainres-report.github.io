@@ -1,0 +1,529 @@
+{
+  "id": "2026-11-08-1500",
+  "date": "2026-11-08",
+  "time": "15:00",
+  "title": "AI 情报 · 11-08 15:00 场",
+  "generatedAt": "2026-11-08T13:22:12.278Z",
+  "coverage": "2026-11-08 09:10 → 15:00（Asia/Shanghai）",
+  "notes": [
+    "补刊说明：15:00 cron 长跑在佐证完成后、写定稿前中断；本场复用其已落盘 raw 与佐证续跑；0900 场已报内容无重复收录"
+  ],
+  "itemCount": 10,
+  "rawStats": {
+    "candidates": 75,
+    "selected": 10
+  },
+  "overview": [
+    "Cyera 以 200 亿美元估值募资 8 亿美元：数据安全赛道估值继续冲高",
+    "启元机器人第 10000 台个人机器人下线：Q1→T1 仅用 1 个月",
+    "欧洲多国爆发抗议要求暂停数据中心建设；CoreWeave 致信德州候任州长寻求合作",
+    "显卡价格连涨 11 个交易日后急跌，华强北「半天一个价」",
+    "AI 短剧《持械入宋》播放量破 120 亿：算力超百万回报约千万",
+    "磁带在 AI 时代迎来第二春：富士胶片 6400 万美元扩产"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "Cyera 正以 200 亿美元估值募资 8 亿美元",
+          "meta": "36氪·2026-11-08 10:54",
+          "urls": [
+            "https://36kr.com/p/4060439143732353"
+          ],
+          "summary": "AI 数据安全公司 Cyera 以 200 亿美元估值募资 8 亿美元——数据安全赛道估值继续冲高。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "数据安全成为 AI 基础设施叙事的核心组件，安全公司的估值锚点从「合规成本」转向「AI 资产保险」。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 The Information 11-06 + Dealroom 11-07",
+          "publish_time": "2026-11-08 10:54",
+          "event_time": "2026-11-07",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（The Information 2026-11-06 独家：Cyera raising at $20B valuation；Dealroom 2026-11-07 同步；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "Cyera",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4060439143732353",
+            "raw_ref": "reports/raw/2026-11-08-1500.json#candidates[37]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-1500/01_36kr.com_353fa214.html",
+            "sha256": "4f6d62c3a9f59858b3aef4580533c418929bc810c9eaecd87032ba3b521805d7",
+            "fetched_at": "2026-11-08T13:30:07.319Z"
+          }
+        },
+        {
+          "title": "启元机器人第 10000 台个人机器人下线",
+          "meta": "36氪·2026-11-08 13:28",
+          "urls": [
+            "https://36kr.com/p/4060671334519680"
+          ],
+          "summary": "启元机器人第 10000 台个人机器人下线，从 Q1 到 T1 仅用 1 个月；上市公司上纬新材（688585）为其主体。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "个人机器人万台下线是量产里程碑，消费级机器人的供应链与渠道开始成型——具身智能从「发布会产品」走向「交付产品」。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源佐证 上观/驱动之家/澎湃/金融界 11-08",
+          "publish_time": "2026-11-08 13:28",
+          "event_time": "2026-11-07",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（上观新闻/驱动之家/澎湃/金融界 2026-11-08 多源同步：第 10000 台下线、Q1→T1 仅 1 个月、上市主体上纬新材 688585；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "启元机器人",
+              "type": "企业"
+            },
+            {
+              "name": "上纬新材",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4060671334519680",
+            "raw_ref": "reports/raw/2026-11-08-1500.json#candidates[17]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-1500/02_36kr.com_881985ca.html",
+            "sha256": "853f899ccaf0e7cf49b78c418b472c4f35925f1cf02326f0e224474860977609",
+            "fetched_at": "2026-11-08T13:30:07.805Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术 / 研究",
+      "items": [
+        {
+          "title": "Gemma 4 26B-A4B 量化到 4.75GB：6GB 卡 100% VRAM 跑 45.4 TPS",
+          "meta": "Reddit r/LocalLLaMA·2026-11-08 11:49",
+          "urls": [
+            "https://www.reddit.com/r/LocalLLaMA/comments/1xqp295/release_gemma_4_26ba4b_compressed_to_475_gb_148"
+          ],
+          "summary": "社区发布 Gemma 4 26B-A4B 的 1.48 BPW 量化版：4.75GB 全 VRAM 运行，6GB 卡实测 45.4 TPS。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "端侧量化跟进新模型发布的速度越来越快——「新模型发布→可用量化版」的周期已缩短到天级。"
+            }
+          ],
+          "source_tier": "D",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "单源社区帖",
+          "publish_time": "2026-11-08 11:49",
+          "event_time": "2026-11-08",
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源（外查 11-08）",
+          "entities": [
+            {
+              "name": "Gemma 4",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqp295/release_gemma_4_26ba4b_compressed_to_475_gb_148",
+            "raw_ref": "reports/raw/2026-11-08-1500.json#candidates[31]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-1500/03_www.reddit.com_558ccfac.html",
+            "sha256": "8f8f384bb892f5b86ea2da123ee8366564b5aee5f16ff6fea4265799700346ff",
+            "fetched_at": "2026-11-08T13:30:44.263Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策 / 监管",
+      "items": [
+        {
+          "title": "欧洲多国爆发抗议，要求暂停数据中心建设",
+          "meta": "36氪·2026-11-08 09:40",
+          "urls": [
+            "https://36kr.com/p/4060368303281281"
+          ],
+          "summary": "欧洲多国爆发抗议要求暂停数据中心建设，阿姆斯特丹微软工地被闯入——算力扩张的社会许可问题在欧洲升级。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "「能不能建」越来越取决于「社区答不答应」；选址与合规成本模型要把社会阻力算进去（SIG-20261108-0900-2 延续）。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源佐证 Reuters/Bloomberg/AP/DW",
+          "publish_time": "2026-11-08 09:40",
+          "event_time": "2026-11-07",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（Reuters/Bloomberg/AP/DW 多源：欧洲多国爆发抗议要求暂停数据中心、阿姆斯特丹微软工地被闯入；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "欧洲多国(地区)",
+              "type": null
+            },
+            {
+              "name": "Microsoft",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4060368303281281",
+            "raw_ref": "reports/raw/2026-11-08-1500.json#candidates[47]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-1500/04_36kr.com_6491de9e.html",
+            "sha256": "71e5d2e92cf526fb9fc86214633e2f468b157cb157b17cbd5c6a32417869516a",
+            "fetched_at": "2026-11-08T13:30:44.515Z"
+          }
+        },
+        {
+          "title": "CoreWeave 承诺与德州候任州长合作推进数据中心开发",
+          "meta": "36氪·2026-11-08 11:46",
+          "urls": [
+            "https://36kr.com/p/4060441064756357"
+          ],
+          "summary": "CoreWeave 致信德州候任州长 Hinojosa 寻求数据中心合作——与欧洲抗议形成对照：美国路径是「主动承诺换许可」。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "数据中心的政治策略开始分化：欧洲对抗、美国合作；同一资产在两种政治环境下的落地成本会拉开差距。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Bloomberg 11-08 + 36氪",
+          "publish_time": "2026-11-08 11:46",
+          "event_time": "2026-11-07",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（Bloomberg 2026-11-08 04:33 +08 同题：CoreWeave 致信德州候任州长 Hinojosa 寻求数据中心合作；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "CoreWeave",
+              "type": "企业"
+            },
+            {
+              "name": "Texas(地区)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4060441064756357",
+            "raw_ref": "reports/raw/2026-11-08-1500.json#candidates[32]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-1500/05_36kr.com_0bac8c0c.html",
+            "sha256": "f427ff2a26ca280e42db5fcde621eddd63ca76344573f5c72bd8362ba64efa07",
+            "fetched_at": "2026-11-08T13:30:44.735Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业·玩法",
+      "items": [
+        {
+          "title": "显卡价格连涨 11 个交易日后急跌，华强北半天一个价",
+          "meta": "36氪·2026-11-08 09:23",
+          "urls": [
+            "https://36kr.com/p/4060365890950279"
+          ],
+          "summary": "显卡价格连涨 11 个交易日后急跌，华强北渠道「半天一个价」——AI 算力需求与消费级库存周期的叠加波动被放大。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "显卡价格是 AI 算力供需的零售端温度计，短期波动直接反映渠道对 AI 需求持续性的预期。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 21财经 11-08 + 京报网 11-03",
+          "publish_time": "2026-11-08 09:23",
+          "event_time": "2026-11-07",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（21财经 2026-11-08 + 京报网 2026-11-03：连涨 11 个交易日后急跌、华强北渠道半天一个价；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "华强北(渠道)",
+              "type": null
+            },
+            {
+              "name": "RTX 50 系",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4060365890950279",
+            "raw_ref": "reports/raw/2026-11-08-1500.json#candidates[48]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-1500/06_36kr.com_d9003e28.html",
+            "sha256": "6f9950bd772f624c530c4d2f19c1582c694b31aa26954f31774c3c18ec6aefba",
+            "fetched_at": "2026-11-08T13:30:45.003Z"
+          }
+        },
+        {
+          "title": "专访《持械入宋》主创：非科班无投流，草根团队做出 120 亿播放爆款",
+          "meta": "36氪·2026-11-08 09:21",
+          "urls": [
+            "https://36kr.com/p/4060386455443330"
+          ],
+          "summary": "AI 短剧《持械入宋》播放量破 120 亿，主创非科班、无投流；算力投入超百万、回报约千万。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "AI 内容生产的 ROI 模型首次被公开拆解——「算力换内容」的单机经济学成立，内容创业的门槛从「团队规模」转向「算力预算」。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源佐证 联合早报/一财/界面",
+          "publish_time": "2026-11-08 09:21",
+          "event_time": "2026-11-07",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（联合早报/一财/界面：播放量破 120 亿、算力超百万回报约千万；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "持械入宋",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4060386455443330",
+            "raw_ref": "reports/raw/2026-11-08-1500.json#candidates[50]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-1500/07_36kr.com_e3f63370.html",
+            "sha256": "3dc78e2e7d936aa98ad473b7e47f8d9f362c8d42bb09f6c1967df1c07a269205",
+            "fetched_at": "2026-11-08T13:30:45.199Z"
+          }
+        },
+        {
+          "title": "被年轻人遗忘的磁带，正在 AI 时代闷声发大财",
+          "meta": "爱范儿·2026-11-08 11:35",
+          "urls": [
+            "https://www.ifanr.com/1688364"
+          ],
+          "summary": "磁带在 AI 时代迎来第二春：富士胶片宣布 6400 万美元扩产磁带介质——AI 数据中心的冷数据归档需求驱动。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "「旧技术吃新周期红利」的典型样本——冷数据归档是 AI 数据中心的隐形需求，成本远低于磁盘。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "单源 + 富士胶片扩产佐证",
+          "publish_time": "2026-11-08 11:35",
+          "event_time": "2026-11-07",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（富士胶片 6400 万美元扩产磁带介质；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "富士胶片",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.ifanr.com/1688364",
+            "raw_ref": "reports/raw/2026-11-08-1500.json#candidates[33]",
+            "source_id": "ifanr",
+            "source_name": "爱范儿"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-1500/08_www.ifanr.com_802e3b1e.html",
+            "sha256": "9aa045836447b280e02f70169d2cf293d9036442a0666a3438098c3b4690455f",
+            "fetched_at": "2026-11-08T13:30:45.325Z"
+          }
+        },
+        {
+          "title": "创业者做 Personal Agent，有没有一线生机？",
+          "meta": "极客公园·2026-11-08 10:40",
+          "urls": [
+            "http://www.geekpark.net/news/373650"
+          ],
+          "summary": "Personal Agent 概念火爆后迅速形成「入口归大厂、创业者没戏」的共识；极客公园长文反驳：真正值得兴奋的是价值层——产品的终极价值不必长在基模里。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "创业位在「价值层」而非「入口层」——与此前多次讨论的结论一致，独立 Agent 产品要靠垂直数据与工作流闭环取胜。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "单源深度长文 + 虎嗅/光通信Pro 同题",
+          "publish_time": "2026-11-08 10:40",
+          "event_time": "2026-11-07",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（虎嗅/光通信Pro 同题讨论：入口归大厂、创业者的位在价值层；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "Personal Agent(概念)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "http://www.geekpark.net/news/373650",
+            "raw_ref": "reports/raw/2026-11-08-1500.json#candidates[38]",
+            "source_id": "geekpark",
+            "source_name": "极客公园"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-1500/09_www.geekpark.net_080baf5d.html",
+            "sha256": "f8b06d1d4cb04f9dc20dbc87b470645bd259af0408753924b20dabd128b820e0",
+            "fetched_at": "2026-11-08T13:30:46.185Z"
+          }
+        },
+        {
+          "title": "6 托板英伟达 GPU 价值 1140 万美元被盗",
+          "meta": "Reddit r/OpenAI·2026-11-08 14:42",
+          "urls": [
+            "https://www.reddit.com/r/OpenAI/comments/1xqrzt1/six_pallets_of_nvidia_gpus_worth_114_million"
+          ],
+          "summary": "加州货运劫案：6 托板英伟达 GPU 价值 1140 万美元被盗——高价值 AI 芯片正在成为有组织犯罪的目标。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "GPU 的「现金等价物」属性再次被证明——运输与仓储安全会成为 AI 供应链的新成本项。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "单源社区转述 + Tom's Hardware/ABC7 11-06 报道",
+          "publish_time": "2026-11-08 14:42",
+          "event_time": "2026-11-06",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（Tom's Hardware/ABC7 2026-11-06：6 托板英伟达 GPU 价值 1140 万美元加州被盗；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "Nvidia",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/OpenAI/comments/1xqrzt1/six_pallets_of_nvidia_gpus_worth_114_million",
+            "raw_ref": "reports/raw/2026-11-08-1500.json#candidates[3]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-08-1500/10_www.reddit.com_a71d7bb2.html",
+            "sha256": "5416b040fc25a66b5f2b151ec7e6528412ac3d3573575586e65bd06bfc18d744",
+            "fetched_at": "2026-11-08T13:31:22.470Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "Qwen-4-Flash-Early「hawk」流出与模型迭代节奏",
+      "text": "（SIG-20261108-1500-1，check 2026-11-11）：Reddit 流出 Qwen-4-Flash-Early（代号 hawk）已加入 GameFeel Bench（含音频能力）——Qwen 4 小杯提前曝光，盯官方发布页与正式版能力差。",
+      "sigId": "SIG-20261108-1500-1"
+    },
+    {
+      "lead": "显卡价格过山车",
+      "text": "（SIG-20261108-1500-2，check 2026-11-12）：连涨 11 天后急跌，盯 RTX 50 系上游供给、华强北渠道库存水位、AI 小厂采购需求变化。",
+      "sigId": "SIG-20261108-1500-2"
+    },
+    {
+      "lead": "数据中心地方政治风险",
+      "text": "（SIG-20261108-0900-2 延续，check 2026-11-14）：欧洲抗议 + 得州递信并入观察——同一资产在两种政治环境下的落地成本正在分化。",
+      "sigId": null
+    }
+  ],
+  "sourceStatus": [
+    "- 32 源全部 OK，无 FALLBACK，无 consecutive_down",
+    "- 36氪：OK（本期 7 条）",
+    "- Reddit r/LocalLLaMA/r/OpenAI：OK（D 源，量化实测与被盗案为社区一手）"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-08-1500.json",
+    "evidence_file": "reports/raw/2026-11-08-1500.evidence.json",
+    "snapshot_dir": "archives/2026-11-08-1500/",
+    "raw_candidates": 75,
+    "matched": 10
+  }
+}
