@@ -3,7 +3,7 @@
   "date": "2026-11-09",
   "time": "09:00",
   "title": "AI 情报 · 11-09 09:00 场",
-  "generatedAt": "2026-11-09T01:29:42.762Z",
+  "generatedAt": "2026-11-09T06:35:06.283Z",
   "coverage": "2026-11-08 21:00 → 2026-11-09 09:10（Asia/Shanghai，窗口口径）",
   "notes": [
     "昨晚 21:00 场（11-08 21:00）无重叠条目，黄仁勋人事风波已在该期以信号登记、本期不重复收录"
@@ -47,7 +47,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 BNC＋Forbes",
-          "publish_time": "2026-11-09 10:00",
+          "publish_time": "2026-11-08 22:07",
           "event_time": "2026-11-07",
           "event_time_inferred": true,
           "verify_note": "外部检索（Forbes 2026-11-07 14:56 GMT 同步报道：估值讨论区间降至 1.2~1.3 万亿 <https://www.forbes.com/sites/jonmarkman/2026/11/07/anthropic-ipo-valuation-talk-falls-to-13-trillion-after-the-ai-stock-rout/>；BNC 另披露 $3.4B 燃气电力合同为数据中心供电 <https://bravenewcoin.com/insights/anthropic-secures-3-4b-gas-power-deal-to-fuel-ai-data-centers-ipo-valuation-drops-to-1-2t>）",
@@ -126,8 +126,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 The Verge＋Variety",
           "publish_time": "2026-11-09 01:23",
-          "event_time": null,
-          "event_time_inferred": true,
+          "event_time": "2026-11-07",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Variety 2026-11-07 16:16 GMT 同步报道：<https://variety.com/2026/music/news/elvis-estate-eminem-publisher-sue-suno-1236595485/>；BNC 口径 Eminem 出版方索赔 4100 万美元/269 首歌/60,202 录音 <https://bravenewcoin.com/insights/anthropic-secures-3-4b-gas-power-deal-to-fuel-ai-data-centers-ipo-valuation-drops-to-1-2t>）",
           "entities": [
             {
@@ -324,7 +324,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪＋GitHub 官方 Octoverse 原文",
           "publish_time": "2026-11-09 07:37",
-          "event_time": null,
+          "event_time": "2026-10-28",
           "event_time_inferred": true,
           "verify_note": "外部检索（GitHub 官方 Octoverse 2026 同证：40%+ PR 由 agent 起草（3 月 17%）、基础设施加配 <https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/>）",
           "entities": [
