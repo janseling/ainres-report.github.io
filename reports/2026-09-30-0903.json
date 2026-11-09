@@ -3,7 +3,7 @@
   "date": "2026-09-30",
   "time": "09:03",
   "title": "AI 情报 · 09-30 09:03 场",
-  "generatedAt": "2026-11-01T09:41:25.171Z",
+  "generatedAt": "2026-11-09T03:44:18.525Z",
   "coverage": "2026-09-29 09:03 → 2026-09-30 09:03（Asia/Shanghai）",
   "notes": [
     "信源状态见文末（上期失效的量子位本期已恢复）"
@@ -403,7 +403,7 @@
           ],
           "confidence": "高",
           "confidence_note": "白宫情况书+FR 编号+Verge/Politico 多源",
-          "publish_time": "2026-09-30 07:34",
+          "publish_time": "2026-09-30 06:25",
           "event_time": "2026-09-29",
           "event_time_inferred": false,
           "verify_note": "外部检索（whitehouse.gov 情况说明书 09-29 同口径：行政分支公文弃用 AI 改称 Super Intelligence/SI；Federal Register EO 14434 记签署日 09-29、10-02 刊登；Politico 同报周二签署）",
