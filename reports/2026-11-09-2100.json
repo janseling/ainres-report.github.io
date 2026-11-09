@@ -3,7 +3,7 @@
   "date": "2026-11-09",
   "time": "21:00",
   "title": "AI 情报 · 11-09 21:00 场",
-  "generatedAt": "2026-11-09T16:10:08.458Z",
+  "generatedAt": "2026-11-09T17:53:24.238Z",
   "coverage": "2026-11-09 15:00 → 21:00（Asia/Shanghai，窗口口径）",
   "notes": [
     "补刊：原 21:00 cron 因网关 MCP 运行时会话数触顶（256）在启动瞬间失败，未落任何产物；本场为 raw 重采后补刊。本日 09:00（10 条）与 15:00（9 条）已收条目均已排除，无重复收录"
@@ -264,6 +264,8 @@
           "confidence": "中",
           "confidence_note": "B单源·36氪编译，论文原文 arxiv.org/abs/2611.08483 未独立验证",
           "publish_time": "2026-11-09 20:47",
+          "event_time": "2026-11-05",
+          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 11-09；论文标识 https://arxiv.org/abs/2611.08483 由正文给出，未获独立报道佐证）",
           "entities": [
             {
