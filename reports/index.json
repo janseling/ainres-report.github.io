@@ -1,6 +1,31 @@
 {
-  "count": 124,
+  "count": 125,
   "reports": [
+    {
+      "id": "2026-11-10-0900",
+      "date": "2026-11-10",
+      "time": "09:00",
+      "title": "AI 情报 · 11-10 09:00 场",
+      "itemCount": 9,
+      "coverage": "2026-11-09 21:00 → 2026-11-10 12:32（Asia/Shanghai，窗口口径）",
+      "note": "补刊：原 09:00 cron 在启动 2 秒内因网关 MCP 运行时会话数触顶（256）失败，零产物；本场为重新采集后补刊。11-09 三场（0900/1500/2100）已收条目均已排除，无重复收录",
+      "overview": [
+        "Anthropic 一夜连发 Fable 5.2 与 Mythos 5.2：千个 Agent 30 小时形式化费马大定理，API 降价 20%，Artificial Analysis 榜以 65 分登顶。",
+        "Anthropic 被曝推进万亿美元 IPO，将为散户举行 CEO 与摩根大通 CEO 对谈的直播活动——一边喊减速一边冲刺上市。",
+        "Meta 发布 Muse Ember，主打低成本 Agent 执行；OpenAI 联手 ModRetro 推出 200 美元 Codex 掌机。",
+        "Claude Code 的「don't ask again」配置文件把密钥写进公开仓库，1,122 个公开副本泄露，Ars 直指「事故级」。",
+        "Fireworks AI 两周内第二次被黑，客户数据与模型外泄，10 亿美元业务受威胁。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 1,
+        "industry": 4
+      },
+      "rawStats": {
+        "candidates": 210,
+        "selected": 9
+      }
+    },
     {
       "id": "2026-11-09-2100",
       "date": "2026-11-09",
