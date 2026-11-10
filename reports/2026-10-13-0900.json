@@ -3,7 +3,7 @@
   "date": "2026-10-13",
   "time": "09:00",
   "title": "AI 情报 · 10-13 09:00 场",
-  "generatedAt": "2026-10-22T23:43:00.454Z",
+  "generatedAt": "2026-11-10T11:51:10.297Z",
   "coverage": "2026-10-12 21:00 → 2026-10-13 09:05（Asia/Shanghai，窗口口径）",
   "notes": [],
   "itemCount": 14,
@@ -102,6 +102,8 @@
           "confidence": "中",
           "confidence_note": "B单源",
           "publish_time": "2026-10-13 01:19",
+          "event_time": "2026-10-13 01:19",
+          "event_time_inferred": false,
           "verify_note": "外部检索（UA.NEWS 同步转载 TC：合同 worth up to $49 million；未见独立一手来源，外查 10-13）",
           "entities": [
             {
@@ -282,6 +284,8 @@
           "confidence": "高",
           "confidence_note": "A源·官方原文",
           "publish_time": "2026-10-12 23:00",
+          "event_time": "2026-10-12 23:00",
+          "event_time_inferred": false,
           "entities": [
             {
               "name": "NVIDIA",
