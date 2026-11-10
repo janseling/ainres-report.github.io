@@ -1,6 +1,31 @@
 {
-  "count": 125,
+  "count": 126,
   "reports": [
+    {
+      "id": "2026-11-10-1500",
+      "date": "2026-11-10",
+      "time": "15:00",
+      "title": "AI 情报 · 11-10 15:00 场",
+      "itemCount": 8,
+      "coverage": "2026-11-10 09:00 → 15:00（Asia/Shanghai，窗口口径）",
+      "note": "补刊：15:00 cron 启动即败（bundle-mcp: live runtime limit 256，0 秒，零产物，同因第三场）——本场 raw 重新采集。11-10 09:00 场（补刊 9 条）已收条目经 seen 去重排除，无重复收录",
+      "overview": [
+        "软银上半财年净亏 7680 亿日元、并确认 5972 亿日元 AI 数据中心相关损失，对 OpenAI 累计投资 546 亿美元的账面压力进入财报季。",
+        "英飞凌上调 AI 相关销售预期——算力景气正从 GPU 蔓延到电源与功率半导体环节。",
+        "arXiv《Copies Are Not Confirmations》实证：LLM 把新闻转载当独立证据——直接命中所有多源佐证管线的方法论盲区。",
+        "arXiv《MemoryDojo》放出 Agent 记忆投毒基准：Agent 记忆是新的攻击面。",
+        "千问办公押注 Team Agent 的深稿落地；荣耀成立「奇点智能」实体，注册资本 1 亿。"
+      ],
+      "sectionCounts": {
+        "product": 2,
+        "tech": 3,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 185,
+        "selected": 8
+      }
+    },
     {
       "id": "2026-11-10-0900",
       "date": "2026-11-10",

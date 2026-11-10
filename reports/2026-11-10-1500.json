@@ -1,0 +1,418 @@
+{
+  "id": "2026-11-10-1500",
+  "date": "2026-11-10",
+  "time": "15:00",
+  "title": "AI 情报 · 11-10 15:00 场",
+  "generatedAt": "2026-11-10T07:19:10.061Z",
+  "coverage": "2026-11-10 09:00 → 15:00（Asia/Shanghai，窗口口径）",
+  "notes": [
+    "补刊：15:00 cron 启动即败（bundle-mcp: live runtime limit 256，0 秒，零产物，同因第三场）——本场 raw 重新采集。11-10 09:00 场（补刊 9 条）已收条目经 seen 去重排除，无重复收录"
+  ],
+  "itemCount": 8,
+  "rawStats": {
+    "candidates": 185,
+    "selected": 8
+  },
+  "overview": [
+    "软银上半财年净亏 7680 亿日元、并确认 5972 亿日元 AI 数据中心相关损失，对 OpenAI 累计投资 546 亿美元的账面压力进入财报季。",
+    "英飞凌上调 AI 相关销售预期——算力景气正从 GPU 蔓延到电源与功率半导体环节。",
+    "arXiv《Copies Are Not Confirmations》实证：LLM 把新闻转载当独立证据——直接命中所有多源佐证管线的方法论盲区。",
+    "arXiv《MemoryDojo》放出 Agent 记忆投毒基准：Agent 记忆是新的攻击面。",
+    "千问办公押注 Team Agent 的深稿落地；荣耀成立「奇点智能」实体，注册资本 1 亿。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "软银上半财年转亏 7680 亿日元：AI 数据中心采购计划调整，确认 5972 亿日元损失",
+          "meta": "36氪 · 2026-11-10 15:07",
+          "urls": [
+            "https://36kr.com/p/4063599356351622"
+          ],
+          "summary": "三条 36氪 财报线合并看：上半财年净亏损 7680 亿日元（去年同期盈利 2.92 万亿日元）、对 OpenAI 累计投资总额 546 亿美元、美国 AI 数据中心发电设备采购计划调整并确认 5972 亿日元损失。AI 持仓的账面波动开始实质拖累集团报表。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "软银是 OpenAI 最重的单一外部出资方之一：出资方财报恶化 → 追加出资能力受限 → Stargate 级项目的资金缺口问题会更频繁地被摆上台面。这与上午场「算力成本战」信号同一条线。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "「发电设备采购计划调整 + 5972 亿日元损失确认」是今天最硬的一条：AI 基建的下行已经开始产生具体、可入账的违约/重谈成本，不再只是债券收益率的情绪定价。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易",
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(36氪+Bloomberg)",
+          "publish_time": "2026-11-10 15:07",
+          "event_time": "2026-11-10",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Bloomberg 2026-11-10 同报「SoftBank Group Swings to Loss After AI Worries Hit Tech Stocks」；Reuters 早前同题报道在档；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "软银集团",
+              "type": "企业"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4063599356351622",
+            "raw_ref": "reports/raw/2026-11-10-1500.json#candidates[0]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-1500/01_36kr.com_868ad86f.html",
+            "sha256": "68c4b174cd399043dc0be5ac2dd1c0a071d2bbd25768c4ae11d928f461caa544",
+            "fetched_at": "2026-11-10T07:18:08.727Z"
+          }
+        },
+        {
+          "title": "荣耀在深圳成立「奇点智能科技公司」，注册资本 1 亿",
+          "meta": "36氪 · 2026-11-10 13:58",
+          "urls": [
+            "https://36kr.com/p/4063513408312456"
+          ],
+          "summary": "工商注册层面的实体化动作：新公司命名「奇点智能」。（推断）终端厂商在上市推进期单独设立 AI 实体，通常意味着独立的研发预算线与产品线。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "「奇点」命名 + 1 亿注册资本的独立实体，与 OpenAI×ModRetro 掌机、各家 agent OS 叙事同向：AI 硬件终端在厂商侧从「功能」升级为「公司」。做 AI 硬件供应链/方案的团队值得盯荣耀下一季的招聘与专利披露。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·工商注册快讯",
+          "publish_time": "2026-11-10 13:58",
+          "verify_note": "未见独立来源（外查 11-10）",
+          "entities": [
+            {
+              "name": "荣耀",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4063513408312456",
+            "raw_ref": "reports/raw/2026-11-10-1500.json#candidates[18]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-1500/02_36kr.com_2678e6d2.html",
+            "sha256": "f5766f04bf269f25310550c4e33b46da756c19572fab3b689e48246ee1f6793a",
+            "fetched_at": "2026-11-10T07:18:08.940Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术突破 / 模型进展",
+      "items": [
+        {
+          "title": "《Copies Are Not Confirmations》：LLM 把新闻转载当独立证据",
+          "meta": "arXiv · 2026-11-10 13:00",
+          "urls": [
+            "https://arxiv.org/abs/2611.09203"
+          ],
+          "summary": "大量新闻是对单一信源的复制：通讯社通稿、媒体集团内共享、内容联盟与公关稿。这篇论文问了一个要害问题：LLM 评审器与持续学习系统是否把这类「转载」当成了独立的佐证证据——摘要口径下答案是会。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "这篇直接命中我们自己的管线：本刊每条的「双源佐证」如果两个源其实是同一通稿的转载，高置信度就是假阳性。做情报/舆情/尽调类产品的通用教训：佐证去重必须做到通讯社与转载网络这一层，光数「几个来源」不够。已登记为管线改进待办。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-11-10 13:00",
+          "entities": [
+            {
+              "name": "arXiv",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://arxiv.org/abs/2611.09203",
+            "raw_ref": "reports/raw/2026-11-10-1500.json#candidates[94]",
+            "source_id": "arxiv",
+            "source_name": "arXiv"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-1500/03_arxiv.org_631a29fb.html",
+            "sha256": "76c9f6b43a2a77bdf894d3cf7e6efc54e0a6f364b7aa8b2bd6fd7d9cee8c4545",
+            "fetched_at": "2026-11-10T07:18:09.270Z"
+          }
+        },
+        {
+          "title": "MemoryDojo：Agent 记忆投毒基准",
+          "meta": "arXiv · 2026-11-10 13:00",
+          "urls": [
+            "https://arxiv.org/abs/2611.09721"
+          ],
+          "summary": "记忆系统让 Agent 在长周期多会话任务里越用越好，但摘要口径下它同时引入关键攻击面：一个会话里遇到的恶意指令，可能被存进记忆并在后续会话持续发挥作用。MemoryDojo 给这类「记忆投毒」提供了系统化基准。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "与上午场 Claude Code 泄密、Claude 做梦记忆机制两条线拼起来看：记忆正成为 Agent 的核心资产与核心风险。做 Agent 产品的团队需要把「记忆写入审批」当安全设计项，而不是功能彩蛋。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "技术进展",
+            "安全"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-11-10 13:00",
+          "entities": [
+            {
+              "name": "arXiv",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://arxiv.org/abs/2611.09721",
+            "raw_ref": "reports/raw/2026-11-10-1500.json#candidates[101]",
+            "source_id": "arxiv",
+            "source_name": "arXiv"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-1500/04_arxiv.org_fb361bac.html",
+            "sha256": "4b512773b72ca377be1cfcf4f7b321e0de80ec0f132c8f7c4d27246628a783f1",
+            "fetched_at": "2026-11-10T07:18:09.537Z"
+          }
+        },
+        {
+          "title": "《Forcing a Letter Suppresses Refusal》：选择题格式会系统性压低模型拒答",
+          "meta": "arXiv · 2026-11-10 13:00",
+          "urls": [
+            "https://arxiv.org/abs/2611.08639"
+          ],
+          "summary": "安全基准大量用多选题（MCQ）格式；先前的零星观察是 MCQ 格式会降低模型拒答率。本文给出机制层面的证据：强迫模型输出某个字母选项，会抑制其拒答行为——意味着 MCQ 形态的安全分数可能系统性偏高。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "结合 Fable 5.2 发布时各家互刷基准的背景：评测格式本身是变量。买榜单结论之前，先问评测形态。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "技术进展",
+            "安全"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-11-10 13:00",
+          "entities": [
+            {
+              "name": "arXiv",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://arxiv.org/abs/2611.08639",
+            "raw_ref": "reports/raw/2026-11-10-1500.json#candidates[27]",
+            "source_id": "arxiv",
+            "source_name": "arXiv"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-1500/05_arxiv.org_56afa021.html",
+            "sha256": "536af595c043aee909b905fa49bc8d187faaf354ad3330b2e1854cea2549633c",
+            "fetched_at": "2026-11-10T07:18:09.858Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向 / 应用玩法",
+      "items": [
+        {
+          "title": "英飞凌上调 AI 相关销售预期：数据中心扩产带动功率半导体",
+          "meta": "36氪 · 2026-11-10 14:37",
+          "urls": [
+            "https://36kr.com/p/4063570254435461"
+          ],
+          "summary": "数据中心扩产计划带动，英飞凌上调 AI 相关销售预期。算力的景气传导路径正在清晰化：GPU 订单 → 供电（800V 架构）→ 功率半导体与散热。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "软银条目讲的是 AI 基建「资金面」的坏消息，英飞凌讲的是「订单面」的好消息——两条并不矛盾：终端需求真实、融资成本分层。对供应链创业者的启示是选「现金流好的环节」切入。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(36氪+Bloomberg/WSJ)",
+          "publish_time": "2026-11-10 14:37",
+          "verify_note": "外部检索（Bloomberg 2026-11-10 同报「Infineon Boosts AI Sales Outlook Due to Data Center Growth Plans」；WSJ 同日「Chip Maker Infineon Lifts AI Sales Goal」；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "英飞凌",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4063570254435461",
+            "raw_ref": "reports/raw/2026-11-10-1500.json#candidates[10]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-1500/06_36kr.com_ebf6109d.html",
+            "sha256": "fefc69c1569e8df76a74dcb89470222efa52f34ece74f932c9bbe51b096dcff0",
+            "fetched_at": "2026-11-10T07:18:10.070Z"
+          }
+        },
+        {
+          "title": "千问办公押注 Team Agent：企业 AI 的流水线时刻",
+          "meta": "极客公园 · 2026-11-10 12:52",
+          "urls": [
+            "http://www.geekpark.net/news/373760"
+          ],
+          "summary": "深稿论点：千问办公把宝押在 Team Agent（多人与 Agent 协作）上，企业 AI 正从「问答助手」转向「流水线工位」。（11-09 15:00 场已报其发布，本条为分析后续，不重复报发布事实。）",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对做企业服务的人，值得盯的不是模型分而是「席位化定价」能不能跑通——团队协作席位费模式若成立，Agent 产品的收费锚点就从 token 转向人头。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·分析稿",
+          "publish_time": "2026-11-10 12:52",
+          "verify_note": "未见独立来源（外查 11-10；主体事件千问办公 2.0 已见 11-09 15:00 场双源报道，本条为其后续分析稿）",
+          "entities": [
+            {
+              "name": "通义千问",
+              "type": "产品"
+            },
+            {
+              "name": "阿里",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "http://www.geekpark.net/news/373760",
+            "raw_ref": "reports/raw/2026-11-10-1500.json#candidates[147]",
+            "source_id": "geekpark",
+            "source_name": "极客公园"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-1500/07_www.geekpark.net_a151bd73.html",
+            "sha256": "7c9041e59b2a10dfa3e6bafcb9b85f1979ecfd9810e1f86d4eff942a198ddc82",
+            "fetched_at": "2026-11-10T07:18:10.456Z"
+          }
+        },
+        {
+          "title": "prompt2site：给文件夹+一句话，直接改网站",
+          "meta": "Reddit r/OpenAI · 2026-11-10 13:18",
+          "urls": [
+            "https://www.reddit.com/r/OpenAI/comments/1xsek0l/i_made_prompt2site_you_provide_a_folder_enter_a_single"
+          ],
+          "summary": "社区项目：指定一个项目文件夹、输入一句话 prompt，由 Agent 直接完成站点改动。与 11-09 0900 场《Coding Agent 让你变成管理者》的判断互为印证：验证机制成了瓶颈之后，「改什么、怎么验」的工具层成为创新集中区。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "这类「文件系统级一句话改动」的工具，真正的机会不在 demo 而在回滚与 diff 审查——谁先把「Agent 改动的事后审计」做成产品，谁吃下这波。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源·社区项目",
+          "publish_time": "2026-11-10 13:18",
+          "verify_note": "未见独立来源（外查 11-10）",
+          "entities": [
+            {
+              "name": "Reddit",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/OpenAI/comments/1xsek0l/i_made_prompt2site_you_provide_a_folder_enter_a_single",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Reddit r/OpenAI"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-1500/08_www.reddit.com_a2b8a390.html",
+            "sha256": "84e17cb61a65836d392e3eb6f14ef2777163ac317271c28c6e9601e53dbf6619",
+            "fetched_at": "2026-11-10T07:18:47.727Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "Anthropic IPO 散户配售机制",
+      "text": "本窗口无新进展，下一核查点仍为 11-24。",
+      "sigId": "SIG-20261110-0900-1"
+    },
+    {
+      "lead": "英伟达董事会调查与接班安排",
+      "text": "本窗口无新进展，下一核查点 12-10。",
+      "sigId": "SIG-20261110-0900-3"
+    },
+    {
+      "lead": "软银-OpenAI 出资压力与 AI 资产减值节奏",
+      "text": "（SIG-20261110-1500-1，check 2026-12-10）：盯软银 12 月季度对 OpenAI 持仓的再披露、Stargate 后续融资口径、发电设备采购合同是否进入实质重谈；若再确认减值或缩减承诺，AI 基建「资金面」下修将成为正式叙事。",
+      "sigId": "SIG-20261110-1500-1"
+    }
+  ],
+  "sourceStatus": [
+    "- GitHub Trending（gh-trending）：DOWN，curl 25 秒超时（单源网络抖动，非持续故障）",
+    "- 说明：本场 raw 共 185 条候选，窗口 2026-11-10 09:00 → 15:15；除 gh-trending 外各源 OK。"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-10-1500.json",
+    "evidence_file": null,
+    "snapshot_dir": "archives/2026-11-10-1500/",
+    "raw_candidates": 185,
+    "matched": 7
+  }
+}
