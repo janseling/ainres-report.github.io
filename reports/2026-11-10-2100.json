@@ -1,0 +1,559 @@
+{
+  "id": "2026-11-10-2100",
+  "date": "2026-11-10",
+  "time": "21:00",
+  "title": "AI 情报 · 11-10 21:00 场",
+  "generatedAt": "2026-11-10T14:31:47.393Z",
+  "coverage": "2026-11-10 15:00 → 21:00（Asia/Shanghai，窗口口径）",
+  "notes": [
+    "补刊：21:00 cron 已正常启动（MCP 256 问题已修复）并在采集完成后中断，raw 完好（130 条候选、全源 OK），本场复用 raw 续跑。11-10 09:00（9 条）与 15:00（8 条）已收条目均已排除，无重复收录"
+  ],
+  "itemCount": 10,
+  "rawStats": {
+    "candidates": 130,
+    "selected": 10
+  },
+  "overview": [
+    "Anthropic 正式启动 IPO 路演：8.25 亿股、每股 70–78 美元、纳斯达克代码 ANT，官方公告落地。",
+    "谷歌、英伟达、微软等七家公司承诺向 Anthropic 投资 260 亿美元；台积电董事会核准各投 5 亿美元认购 Anthropic 与 OpenAI 特别股。",
+    "Anthropic 披露截至 10 月底年化营收约 810 亿美元，Q3 算力及基础设施支出 99 亿美元、占营收 58%——增长与烧钱同速。",
+    "DeepMind 发布 AlphaProof Code：把形式化验证从数学推到真实协议，已用于验证 Signal 的加密协议。",
+    "阿里巴巴已正式申请平头哥独立上市；OpenAI 与 ModRetro 的 200 美元 Game Boy 开卖。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "Anthropic 正式启动 IPO 路演：8.25 亿股、每股 70–78 美元、纳斯达克代码 ANT",
+          "meta": "Anthropic 官网 · 2026-11-10 08:00",
+          "urls": [
+            "https://www.anthropic.com/news/roadshow-launch"
+          ],
+          "summary": "官方公告口径：拟发行 8.25 亿股 Class A 普通股，其中 Anthropic 发行 8.0135 亿股、老股东出售 2364.9 万股（公司不从老股出售中获得任何所得）；发行价区间 70–78 美元/股；已申请以代码「ANT」在纳斯达克全球精选市场上市。承销商为高盛与摩根士丹利。注册声明已提交 SEC 但尚未生效。⚠️ 与早前报道口径的差异：第三方对「估值 1.4 万亿 / 配售 904 亿美元」的推算与官方公告的股数与价格区间不完全一致，本条以官方公告为准。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "按区间中值粗算，约 610 亿美元募资。这是 AI 公司迄今最大规模的公开市场融资动作，也是整个 AI 板块第一次接受公开市场定价——从此估值不再是私募轮次的共识，而是每天波动的市价。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-11-10 08:00",
+          "event_time": "2026-11-10",
+          "event_time_inferred": false,
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Goldman Sachs",
+              "type": "企业"
+            },
+            {
+              "name": "Morgan Stanley",
+              "type": "企业"
+            },
+            {
+              "name": "Nasdaq",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.anthropic.com/news/roadshow-launch",
+            "raw_ref": "reports/raw/2026-11-10-2100.json#candidates[115]",
+            "source_id": "anthropic",
+            "source_name": "Anthropic"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-2100/01_www.anthropic.com_84757a8b.html",
+            "sha256": "48ace4292b94761581711d2ac8696ed4de7d17943a4a23bfb220395988b9596d",
+            "fetched_at": "2026-11-10T14:31:48.587Z"
+          }
+        },
+        {
+          "title": "谷歌、英伟达、微软等七家公司承诺向 Anthropic 投资 260 亿美元",
+          "meta": "36氪 · 2026-11-10 19:51",
+          "urls": [
+            "https://36kr.com/p/4063879337333637"
+          ],
+          "summary": "七家公司以配售方式承诺 260 亿美元。买方既是战略投资者，也是 Anthropic 的供应商与客户——谷歌、英伟达、微软三家同时出现在「投资方」与「算力供应商」两个身份上。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "这种「供应商认购客户股份」的结构在 AI 时代高度重复（微软-OpenAI、英伟达-多家）。它让循环融资的质疑持续存在，但在 IPO 语境下更实际的意义是：上市首日就有锁定的基石需求。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对创业者的提示：当上游供应商开始持有下游客户股权，中间层的议价空间会进一步压缩。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(新浪+ThePaper+24/7 Wall St/Yahoo Finance)",
+          "publish_time": "2026-11-10 19:51",
+          "verify_note": "外部检索（新浪网 2026-11-10 20:00 GMT 同报「谷歌英伟达等七家公司向 Anthropic 投资 260 亿美元」；ThePaper.cn 2026-11-10 05:00 GMT「Anthropic 上市前夕发布两款新模型，英伟达等七巨头拟投 260 亿美元参与配售」；24/7 Wall St. 2026-11-10 14:00 GMT 英文同报; https://247wallst.com/ ）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "Microsoft",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4063879337333637",
+            "raw_ref": "reports/raw/2026-11-10-2100.json#candidates[43]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-2100/02_36kr.com_19f7e788.html",
+            "sha256": "72f36606a3b8c112ba00c6fa9695c32aed675660608ec01fe171e7c89d9cb004",
+            "fetched_at": "2026-11-10T14:31:48.814Z"
+          }
+        },
+        {
+          "title": "台积电董事会核准：各以不超过 5 亿美元认购 Anthropic 与 OpenAI 特别股",
+          "meta": "36氪 · 2026-11-10 19:56",
+          "urls": [
+            "https://36kr.com/p/4063884296230020"
+          ],
+          "summary": "同一日台积电董事会还核准了 409 亿美元资本预算用于长期产能扩张。两笔各 5 亿美元的特别股认购，把芯片代工龙头直接绑到了两家最大模型公司的股权上。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "台积电的角色从「卖铲子」变成「既卖铲子又持股矿场」。这对供应链谈判、产能分配优先级都有实质影响。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(Reuters+marketscreener)",
+          "publish_time": "2026-11-10 19:56",
+          "verify_note": "外部检索（Reuters 2026-11-10 14:00 GMT「TSMC to invest up to $1 billion in Anthropic, OpenAI」；marketscreener 2026-11-10 12:00 GMT「TSMC board approves up to $500 million investment each」; https://www.reuters.com/ ）",
+          "entities": [
+            {
+              "name": "台积电",
+              "type": "企业"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4063884296230020",
+            "raw_ref": "reports/raw/2026-11-10-2100.json#candidates[39]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-2100/03_36kr.com_62b4381e.html",
+            "sha256": "c63b4d39a33b438129b2f7bc8eae6c99323b92bc3d031a1c9202b1e5607ebc74",
+            "fetched_at": "2026-11-10T14:31:49.116Z"
+          }
+        },
+        {
+          "title": "OpenAI 联合 ModRetro 开卖 200 美元 Game Boy：一句话做一盘卡带",
+          "meta": "36氪 · 2026-11-10 21:08",
+          "urls": [
+            "https://36kr.com/p/4063578144887945"
+          ],
+          "summary": "ModRetro Chromatic 的 Codex Edition 限量版，主打「用 Codex 写游戏、烧成一盘卡带」。硬件是 Game Boy 形态，AI 只承担内容生成环节。（注：11-10 09:00 场已从爱范儿角度报过此事的开卖，本条为 36氪 侧的补充口径，不重复计数发布事实。）",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "这个产品验证了一个判断：AI 能力塞进有文化符号的硬件，传播效率远高于纯软件订阅。200 美元定价也说明它要的是销量与话题，不是利润率。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布",
+            "商业合作"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(BigGo Finance/Resell Calendar)",
+          "publish_time": "2026-11-10 21:08",
+          "event_time": "2026-11-09",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（BigGo Finance 2026-11-10 00:00 GMT「OpenAI Teams Up with ModRetro on $200 Handheld Game Console, Write Your Own Games」；Resell Calendar 2026-11-09 23:00 GMT 报道首批发售情况; https://finance.biggo.com/ ）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "ModRetro",
+              "type": "企业"
+            },
+            {
+              "name": "Codex",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4063578144887945",
+            "raw_ref": "reports/raw/2026-11-10-2100.json#candidates[5]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-2100/04_36kr.com_90db8f53.html",
+            "sha256": "a0816d2a7ba4c6ec4e73231b9d554b50d51d875abe2f9dcd34744a10b0e01093",
+            "fetched_at": "2026-11-10T14:31:49.318Z"
+          }
+        },
+        {
+          "title": "阿里巴巴已正式申请平头哥独立上市",
+          "meta": "36氪 · 2026-11-10 20:41",
+          "urls": [
+            "https://36kr.com/p/4063928592126853"
+          ],
+          "summary": "平头哥是阿里的芯片设计子公司（含光、玄铁系列）。独立上市意味着芯片业务从集团成本中心变为独立估值主体。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "国产 AI 芯片的资本化路径正在打开：从「大厂内部部门」走向「独立上市公司」，是政策与国产替代双重驱动下的必然动作。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·快讯，独立源未验证",
+          "publish_time": "2026-11-10 20:41",
+          "verify_note": "未见独立来源（外查 11-10）",
+          "entities": [
+            {
+              "name": "阿里巴巴",
+              "type": "企业"
+            },
+            {
+              "name": "平头哥",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4063928592126853",
+            "raw_ref": "reports/raw/2026-11-10-2100.json#candidates[21]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-2100/05_36kr.com_8d359253.html",
+            "sha256": "c7f8d79c2af5605dbdb24b73132c34da9d779da079ef98d81da0487c386fadf9",
+            "fetched_at": "2026-11-10T14:31:49.524Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术突破 / 模型进展",
+      "items": [
+        {
+          "title": "DeepMind 发布 AlphaProof Code：形式化验证突破，已用于验证 Signal 加密协议",
+          "meta": "Google DeepMind Blog · 2026-11-10 20:02",
+          "urls": [
+            "https://deepmind.google/blog/introducing-alphaproof-code"
+          ],
+          "summary": "从 AlphaProof（数学证明）延伸到代码：新版本能对程序做形式化验证，首发应用是对 Signal 的安全消息协议做加密保证的机器验证。人类与 AI agent 协同完成，DeepMind 称之为「验证的突破」。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "这是本期技术侧最重要的一条：**形式化验证从「数学界的玩具」变成「工程界的工具」**。AI 写代码越来越多，人类逐行审查越来越不可行——机器可验证的正确性证明，正是那条缺了多年的路。对做 Agent 验证层的人，这是正面竞争信号，也是机会（下游的工程化落地还远远没做）。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文 + 双源佐证",
+          "publish_time": "2026-11-10 20:02",
+          "verify_note": "外部检索（The Register 2026-11-10 12:00 GMT「Google DeepMind melds humans and AI agents to vet Signal's secure messaging techniques」；JournalArta 2026-11-10 13:00 GMT「DeepMind's AlphaProof Code Verifies Signal Protocol Encryption Guarantees」; https://www.theregister.com/ ）",
+          "entities": [
+            {
+              "name": "Google DeepMind",
+              "type": "机构"
+            },
+            {
+              "name": "AlphaProof",
+              "type": "产品"
+            },
+            {
+              "name": "Signal",
+              "type": "产品"
+            },
+            {
+              "name": "Gemini",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+            "raw_ref": "reports/raw/2026-11-10-2100.json#candidates[36]",
+            "source_id": "deepmind",
+            "source_name": "Google DeepMind"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-2100/06_deepmind.google_0e9fb0eb.html",
+            "sha256": "c231b4ff444b9437ac479ecb25325f1bf8a5edf8b228b1cf7a220d06503712cf",
+            "fetched_at": "2026-11-10T14:31:51.807Z"
+          }
+        },
+        {
+          "title": "WorkflowArena：行业首个多智能体编排基准",
+          "meta": "机器之心 · 2026-11-10 19:54",
+          "urls": [
+            "https://m.sohu.com/a/1099767666_129720"
+          ],
+          "summary": "Einsia AI 发布 WorkflowArena，把评测对象从「单个模型的回答质量」换成「多个 agent 编排起来能不能把活干成」——这是「Agent 领导力」的量化尝试。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "与 11-10 09:00 场的 Coding Agent 管理长文呼应：评测口径正在从模型能力转向编排能力，这个转向会重排整个 Agent 工具链的价值。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-11-10 19:54",
+          "verify_note": "未见独立来源（外查 11-10）",
+          "entities": [
+            {
+              "name": "Einsia AI",
+              "type": "企业"
+            },
+            {
+              "name": "WorkflowArena",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1099767666_129720",
+            "raw_ref": "reports/raw/2026-11-10-2100.json#candidates[41]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-2100/07_m.sohu.com_41cb8157.html",
+            "sha256": "d683345f2f939717b4923b12fc27c31131d8bfead16f6a6ac0ba5c00436a607d",
+            "fetched_at": "2026-11-10T14:31:52.027Z"
+          }
+        },
+        {
+          "title": "openJiuwen 首发 TTSE 经验学习框架：Agent 自演进进入双轨时代",
+          "meta": "量子位 · 2026-11-10 19:56",
+          "urls": [
+            "https://www.qbitai.com/2026/11/508998.html"
+          ],
+          "summary": "TTSE（经验学习）框架让 Agent 从自己的执行历史里沉淀可复用经验，与「模型权重更新」形成双轨。与 Anthropic 的 sleep-time compute、Claude 的 Dreaming 是同一方向的国内解法。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "这条值得追：Agent 记忆/经验沉淀正在变成独立技术赛道，开源侧的方案会直接压低这一层的成本。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-11-10 19:56",
+          "verify_note": "未见独立来源（外查 11-10）",
+          "entities": [
+            {
+              "name": "openJiuwen",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/11/508998.html",
+            "raw_ref": "reports/raw/2026-11-10-2100.json#candidates[98]",
+            "source_id": "qbitai",
+            "source_name": "量子位"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-2100/08_www.qbitai.com_9254344b.html",
+            "sha256": "91c254d998bb1547e8280739667067d00189f54b22a316bcbbfc5e4e8517d4c6",
+            "fetched_at": "2026-11-10T14:31:52.464Z"
+          }
+        },
+        {
+          "title": "TensorWorld 物原科技：成立四个月融资过亿美金，押注「物理真实」路线",
+          "meta": "量子位 · 2026-11-10 19:50",
+          "urls": [
+            "https://www.qbitai.com/2026/11/508991.html"
+          ],
+          "summary": "四个月融资过亿美金，路线是让世界模型逼近「物理真实」而非纯视觉拟合。与同日 NVIDIA 在 CoRL 的世界动作模型方向一致，但走的是初创公司路径。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "具身智能的钱还在往里投，但同一窗口另有「具身智能迎来第一个资本寒冬」的稿子——两条并存说明资金正在向头部与差异化路线集中，中间层被挤压。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展",
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-11-10 19:50",
+          "verify_note": "未见独立来源（外查 11-10）",
+          "entities": [
+            {
+              "name": "TensorWorld",
+              "type": "企业"
+            },
+            {
+              "name": "物原科技",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/11/508991.html",
+            "raw_ref": "reports/raw/2026-11-10-2100.json#candidates[99]",
+            "source_id": "qbitai",
+            "source_name": "量子位"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-2100/09_www.qbitai.com_ed555519.html",
+            "sha256": "ea15e43cdc9f9895626396b47702f8e23a9ed3f95631a2f499e51b21c16c67be",
+            "fetched_at": "2026-11-10T14:31:52.835Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策监管",
+      "items": [
+        {
+          "title": "美国数据中心建设受阻的连锁冲击：一条 AI 的物理约束线",
+          "meta": "36氪 · 2026-11-10 17:31",
+          "urls": [
+            "https://36kr.com/p/4063422390227845"
+          ],
+          "summary": "论点：当美国本土数据中心建设越来越难（土地、电力、社区阻力），AI 的成本结构与地理分布会被重塑。这与 11-10 09:00 场「CoreWeave 债券收益率破 16%」、15:00 场「软银确认 5972 亿日元损失」是同一件事的不同切面：算力扩张的物理与资金双重约束正在同时收紧。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "对想出海做 AI 基建相关生意的团队：约束在哪，钱就在哪——电力、冷却、地方关系，比 GPU 更容易建立壁垒。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·分析稿",
+          "publish_time": "2026-11-10 17:31",
+          "verify_note": "未见独立来源（外查 11-10）",
+          "entities": [
+            {
+              "name": "美国",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4063422390227845",
+            "raw_ref": "reports/raw/2026-11-10-2100.json#candidates[109]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-10-2100/10_36kr.com_3ae819c6.html",
+            "sha256": "7b7bee6c8399628ffbcd684ff9082938c2e86e9e4633be1fb988a75b083896b8",
+            "fetched_at": "2026-11-10T14:31:53.107Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "Anthropic IPO 散户配售机制",
+      "text": "**本窗口兑现**——官方路演公告已出（8.25 亿股、70–78 美元、代码 ANT），但散户专属配售机制在公告中未见披露，下一核查点 11-24。",
+      "sigId": "SIG-20261110-0900-1"
+    },
+    {
+      "lead": "Anthropic IPO 首日定价与七巨头基石认购的实际成交",
+      "text": "（SIG-20261110-2100-1，check 2026-11-17）：盯正式定价是否落在 70–78 区间上沿、260 亿美元配售是否全额成交、上市首日涨幅；若破发，将重估整个 AI 板块的私募估值体系。",
+      "sigId": "SIG-20261110-2100-1"
+    },
+    {
+      "lead": "AlphaProof Code 的工程化落地与开源",
+      "text": "（SIG-20261110-2100-2，check 2026-12-01）：盯是否有 API/权重开放、第三方代码库验证案例、以及是否出现竞品（OpenAI/Anthropic 的形式化验证产品）。",
+      "sigId": "SIG-20261110-2100-2"
+    }
+  ],
+  "sourceStatus": [
+    "- 全部信源本轮 OK（0 DOWN / 0 FALLBACK），窗口内 130 条候选。",
+    "- 说明：36氪 正文仍为 JS 壳页，相关条目佐证与细节以 Google News 命中的独立源补足；台积电/260 亿等条目已确认 Reuters、marketscreener 等英文独立源同报。"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-10-2100.json",
+    "evidence_file": null,
+    "snapshot_dir": "archives/2026-11-10-2100/",
+    "raw_candidates": 130,
+    "matched": 10
+  }
+}
