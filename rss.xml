@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 11 Nov 2026 03:06:11 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 03:12:37 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-11 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-11-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-11-0900.html</guid>
+      <pubDate>Wed, 11 Nov 2026 01:00:00 GMT</pubDate>
+      <description>Anthropic 定价 70–78 美元/股、隐含 1.404 万亿美元估值，CNBC 称目标 11-19 开始交易；FT 同日称承销商准备把估值推到 1.5 万亿以上。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-10 21:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-10-2100.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-04-2100.html</guid>
       <pubDate>Wed, 04 Nov 2026 13:00:00 GMT</pubDate>
       <description>OpenAI 被曝将收购开发工具初创 Pierre Computer，直指微软 GitHub 代码托管业务。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 11-04 15:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-11-04-1500.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-04-1500.html</guid>
-      <pubDate>Wed, 04 Nov 2026 07:00:00 GMT</pubDate>
-      <description>腾讯混元发布 Hy4：号称首次跻身最强开源模型，主打真实生产力。</description>
     </item>
   </channel>
 </rss>
