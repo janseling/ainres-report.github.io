@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 10 Nov 2026 14:32:03 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 03:06:11 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-10 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-10-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-10-2100.html</guid>
+      <pubDate>Tue, 10 Nov 2026 13:00:00 GMT</pubDate>
+      <description>Anthropic 正式启动 IPO 路演：8.25 亿股、每股 70–78 美元、纳斯达克代码 ANT，官方公告落地。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-10 15:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-10-1500.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-04-1500.html</guid>
       <pubDate>Wed, 04 Nov 2026 07:00:00 GMT</pubDate>
       <description>腾讯混元发布 Hy4：号称首次跻身最强开源模型，主打真实生产力。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 11-04 09:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-11-04-0900.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-04-0900.html</guid>
-      <pubDate>Wed, 04 Nov 2026 01:00:00 GMT</pubDate>
-      <description>Anthropic 开源 FlashProve：给大模型发「防伪身份证」，17 秒验穿套壳假模型。</description>
     </item>
   </channel>
 </rss>

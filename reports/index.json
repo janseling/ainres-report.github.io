@@ -1,6 +1,31 @@
 {
-  "count": 127,
+  "count": 128,
   "reports": [
+    {
+      "id": "2026-11-11-0900",
+      "date": "2026-11-11",
+      "time": "09:00",
+      "title": "AI 情报 · 11-11 09:00 场",
+      "itemCount": 13,
+      "coverage": "2026-11-10 21:00 → 2026-11-11 09:06（Asia/Shanghai，窗口口径）",
+      "note": "补刊：09:12 cron 在素材整理阶段中断（采集与部分佐证已完成、零定稿零发布），本场复用 raw 续跑；11-10 三场（0900/1500/2100）已收条目均已排除",
+      "overview": [
+        "Anthropic 定价 70–78 美元/股、隐含 1.404 万亿美元估值，CNBC 称目标 11-19 开始交易；FT 同日称承销商准备把估值推到 1.5 万亿以上。",
+        "Anthropic 发布 Claude Meetings：会议中实时起草方案、画时间线、答问、连工作应用——IPO 前一周切入办公软件，直接对上微软与谷歌。",
+        "Gemini 4 Carbon 全球全量开放，代价是付费墙；DeepMind 同日放 Gemini Robotics 2.5 与开源安全基准「ASIMOV-jailbreak」。",
+        "Grok Build 编程 agent 被曝 35,000 个应用对任何人开放，其中包含 SpaceX 自己的机密——本月第二起 AI 编码工具泄密。",
+        "纽约州 AI 安全法（RAISE Act）生效：OpenAI、Anthropic 须注册、披露安全实践、上报重大事故，否则罚款。"
+      ],
+      "sectionCounts": {
+        "product": 7,
+        "tech": 3,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 206,
+        "selected": 11
+      }
+    },
     {
       "id": "2026-11-10-2100",
       "date": "2026-11-10",
