@@ -3,7 +3,7 @@
   "date": "2026-11-11",
   "time": "09:00",
   "title": "AI 情报 · 11-11 09:00 场",
-  "generatedAt": "2026-11-11T06:44:14.738Z",
+  "generatedAt": "2026-11-11T11:57:42.288Z",
   "coverage": "2026-11-10 21:00 → 2026-11-11 09:00（Asia/Shanghai，窗口口径）",
   "notes": [
     "补刊：09:00 cron 状态「ok」但运行在素材整理阶段中止（cron ok 假阳性，未产出定稿报告），raw 完好（206 条候选、除工信部外全源 OK），本场复用 raw 续跑。11-10 三场（0900/1500/2100）已收条目经 seen 去重排除，无重复收录"
@@ -383,6 +383,8 @@
           "confidence": "中",
           "confidence_note": "B单源·作者访谈稿",
           "publish_time": "2026-11-11 07:48",
+          "event_time": "2026-10-25 16:09",
+          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 11-11；GitHub 星标数为公开可查数据，独立媒体未报道）",
           "entities": [
             {
