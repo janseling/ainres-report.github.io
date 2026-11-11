@@ -1,0 +1,528 @@
+{
+  "id": "2026-11-11-1500",
+  "date": "2026-11-11",
+  "time": "15:00",
+  "title": "AI 情报 · 11-11 15:00 场",
+  "generatedAt": "2026-11-11T08:03:42.238Z",
+  "coverage": "2026-11-11 09:00 → 15:00（Asia/Shanghai，窗口口径）",
+  "notes": [
+    "补刊：15:00 cron 状态 error（「⚠️ Tool Call failed」，1694s，模型/工具侧故障非配置），raw 完好（243 条候选、首次全源 OK），本场复用 raw 续跑。11-11 09:00 场（补刊 12 条）与 11-10 三场已收条目经 seen 去重排除，无重复收录"
+  ],
+  "itemCount": 11,
+  "rawStats": {
+    "candidates": 243,
+    "selected": 11
+  },
+  "overview": [
+    "OpenAI 单季营收首破 100 亿美元（环比 +50%、同比近三倍），但 WSJ/Reuters 双口径确认亏损仍在扩大——增长曲线与资本消耗赛跑。",
+    "Anthropic IPO 路演推进：目标估值上调至 1.4 万亿美元口径（Reuters），英伟达追加投资、7 名创始人将套现百亿。",
+    "AMD×三星合作下一代嵌入式处理器；Rapidus 2nm SRAM 传延期 3 个月，7000 亿日元融资计划蒙阴影。",
+    "智元发布终身具身智能框架 LIFE；腾讯元宝搜索正式上线。",
+    "欧洲监管双响（本期+早场）：法国报告建议加强 genAI 监管——欧盟从法院判例走向政策议程。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "OpenAI 单季营收首破 100 亿美元，环比增近 50%",
+          "meta": "36氪 · 2026-11-11 10:08",
+          "urls": [
+            "https://36kr.com/p/4064692988860295"
+          ],
+          "summary": "彭博社援引知情人士：截至 9 月的三个月营收首次触及 100 亿美元，环比增近 50%、同比接近三倍。2026 年曲线：Q1 57 亿 → Q2 67 亿 → Q3 100 亿。增长动力是多个核心变量共振（订阅+API+企业盘）。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "但华尔街的完整叙事是双面的：WSJ/Reuters 确认亏损仍在扩大。这条与软银上半财年转亏（11-10 15:00 场）合起来看——生态的钱继续往里堆，而头部的自我造血离平衡点还有距离，「算力黑洞吞噬现金流之前完成自我救赎」的测试远未结束。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(36氪+Bloomberg/WSJ/Reuters 三源)",
+          "publish_time": "2026-11-11 10:08",
+          "event_time": "2026-11-10",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Bloomberg 2026-11-11 00:00 GMT「OpenAI Third-Quarter Revenue Soars Nearly 50% to $10 Billion」；WSJ 同日「Continues to Suffer Heavy Losses as Revenue Rises」；Reuters 转引 WSJ「posts steep losses even as quarterly revenue rises」——增长与亏损双口径同报; 直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4064692988860295",
+            "raw_ref": "reports/raw/2026-11-11-1500.json#candidates[211]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-1500/01_36kr.com_071a9f6e.html",
+            "sha256": "6caa756a035ad1ad7c9a0b6c905ca2ab44817b68304a807ce3def15c99878017",
+            "fetched_at": "2026-11-11T08:04:05.444Z"
+          }
+        },
+        {
+          "title": "Anthropic IPO 路演推进：目标估值 1.4 万亿美元口径，英伟达追投、创始团队套现",
+          "meta": "36氪 · 2026-11-11 10:05",
+          "urls": [
+            "https://36kr.com/p/4064644055749760"
+          ],
+          "summary": "36氪口径：英伟达追投 667 亿、史上最大 IPO 启动路演、7 名创始人将套现百亿。与官方文件对齐后的事实面：此前公告 8.25 亿股、每股 70–78 美元（11-11 09:00 场已录），老股东出售 2364.9 万股——按区间粗算创始人套现约 90–184 亿人民币量级；Reuters 则给出「目标估值最高 1.4 万亿美元」的路演口径。（0900 场已报路演公告本体，本条为进展跟进。）",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "注意两个口径的张力：官方定价区间隐含的市值与「1.4 万亿目标」之间是否达成，就是「Wall Street 的 AI 信仰测试」本身。它同时是本期「Anthropic 估值缩水」条目的反面语境。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(36氪+Reuters/NYT/Mashable 多源)",
+          "publish_time": "2026-11-11 10:05",
+          "event_time": "2026-11-10",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Reuters 2026-11-10 19:00 GMT「Anthropic eyes $1.4 trillion IPO valuation in test of Wall Street's AI fervor」；NYT 同日报最高 1.4 万亿目标；Mashable「forges ahead with IPO roadshow」; 直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4064644055749760",
+            "raw_ref": "reports/raw/2026-11-11-1500.json#candidates[212]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-1500/02_36kr.com_564e245a.html",
+            "sha256": "0945994dc235e916007dbf27721a8ed0a406c4c3ab9e0f5823f79d2c6738a868",
+            "fetched_at": "2026-11-11T08:04:05.664Z"
+          }
+        },
+        {
+          "title": "AMD×三星：合作开发下一代嵌入式处理器",
+          "meta": "36氪 · 2026-11-11 14:41",
+          "urls": [
+            "https://36kr.com/p/4064990120252545"
+          ],
+          "summary": "AMD 与三星电子就下一代嵌入式处理器达成合作。嵌入式+AI 的交叉点（边缘侧算力）正在成为芯片巨头的新战场。与 11-10 09:00 场英飞凌上调 AI 销售（功率侧）、11-11 Rapidus 条（产能侧）合并看：AI 硬件景气正在向全产业链扩散。",
+          "angles": [],
+          "source_tier": "B",
+          "type_tags": [
+            "商业合作"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(36氪+Korea Times/GuruFocus)",
+          "publish_time": "2026-11-11 14:41",
+          "verify_note": "外部检索（Korea Times 2026-11-11 06:00 GMT「AMD teams up with Samsung Electronics on next-generation embedded processors」；GuruFocus/Businesskorrea 同日多源同报; 直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "AMD",
+              "type": "企业"
+            },
+            {
+              "name": "Samsung",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4064990120252545",
+            "raw_ref": "reports/raw/2026-11-11-1500.json#candidates[8]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-1500/03_36kr.com_4d4ba0fd.html",
+            "sha256": "f9fefea9488a1c5e99838d119e8252069931d99636df6a9cc82879b2b4e02bf0",
+            "fetched_at": "2026-11-11T08:04:05.896Z"
+          }
+        },
+        {
+          "title": "腾讯元宝搜索正式上线",
+          "meta": "36氪 · 2026-11-11 14:59",
+          "urls": [
+            "https://36kr.com/p/4065007419430023"
+          ],
+          "summary": "腾讯全新搜索产品元宝搜索正式上线。搜索引擎是 AI 的兵家必争（入口+广告双价值），国内格局再添变量。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对做流量/内容的团队：腾讯把 AI 搜索做成品意味着微信生态的内容会被 AI 检索重新分发——SEO 逻辑要开始准备「AI 搜索引擎优化」了。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·官方产品动作，独立英文源未跟进",
+          "publish_time": "2026-11-11 14:59",
+          "verify_note": "外部检索（TechNode 2026-11-04 曾报腾讯筹备消费级 AI 搜索；本次上线无独立英文跟进; 直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "腾讯",
+              "type": "企业"
+            },
+            {
+              "name": "元宝",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4065007419430023",
+            "raw_ref": "reports/raw/2026-11-11-1500.json#candidates[3]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-1500/04_36kr.com_364d2176.html",
+            "sha256": "b6d1bae763409e1dc8975d57d451c18032a443d2a02fcf76e797df6ffbbee5ac",
+            "fetched_at": "2026-11-11T08:04:06.192Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术突破 / 模型进展",
+      "items": [
+        {
+          "title": "智元发布终身具身智能框架 LIFE",
+          "meta": "36氪 · 2026-11-11 13:51",
+          "urls": [
+            "https://36kr.com/p/4064940199547779"
+          ],
+          "summary": "智元发布终身具身智能框架。「终身」的语义是持续学习不遗忘——与 Anthropic sleep-time compute（11-09 场）、openJiuwen TTSE（11-10 场）同属经验沉淀方向，国内头部机器人公司开始系统化跟进。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "本周已有三家不同路线（基础模型侧/开源框架侧/机器人公司侧）在做「让 Agent 一直变好」——记忆与持续学习正在成为具身智能的下一个标准件。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源，独立源未跟进",
+          "publish_time": "2026-11-11 13:51",
+          "verify_note": "未见独立来源（外查 11-11）",
+          "entities": [
+            {
+              "name": "智元机器人",
+              "type": "企业"
+            },
+            {
+              "name": "LIFE",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4064940199547779",
+            "raw_ref": "reports/raw/2026-11-11-1500.json#candidates[24]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-1500/05_36kr.com_80f5b826.html",
+            "sha256": "b04850c5258bd81d36009781e347c9a1f538346e47e23225139c6b8ade4e1ed0",
+            "fetched_at": "2026-11-11T08:04:06.406Z"
+          }
+        },
+        {
+          "title": "Rapidus 2nm 量产传延期：SRAM 技术未突破，7000 亿日元融资计划蒙阴影",
+          "meta": "36氪 · 2026-11-11 14:19",
+          "urls": [
+            "https://36kr.com/p/4064968518833024"
+          ],
+          "summary": "日本志在 2nm 的国家队员 Rapidus，关键 SRAM 技术未能按期突破，量产节点（2028 年 3 月口径）或推迟数月，7 万亿日元融资计划随之承压。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "先进制程的稀缺性再被确认：2nm 梯队实际只有台积电/三星/英特尔在跑。对国内 AI 算力规划，这既是坏消息（先进产能更紧）也是相对好消息（追赶窗口还在）。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(36氪+TrendForce/XenoSpectrum/Electronics Weekly)",
+          "publish_time": "2026-11-11 14:19",
+          "event_time": "2026-11-10",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（XenoSpectrum 2026-11-11 03:00 GMT「Reportedly Behind on 2nm SRAM Cells, Putting Its ¥700 Billion Funding Plan in…」；TrendForce 同日报「Months Behind on 2nm SRAM Development, March 2028 Mass Production」; 直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "Rapidus",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4064968518833024",
+            "raw_ref": "reports/raw/2026-11-11-1500.json#candidates[16]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-1500/06_36kr.com_e0411afa.html",
+            "sha256": "66c73a732ac9ef222b17a57e8325f77ba20789bfebffa807dd18441a313bca3b",
+            "fetched_at": "2026-11-11T08:04:06.716Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策监管",
+      "items": [
+        {
+          "title": "法国专家报告：建议对生成式 AI 加强监管",
+          "meta": "36氪 · 2026-11-11 13:55",
+          "urls": [
+            "https://36kr.com/p/4064935828050824"
+          ],
+          "summary": "法国专家团队向总统提交报告，建议对生成式 AI 加强监管。欧洲监管正在从「法院判例（11-11 09:00 场：输出可能侵权）」走向「政策议程」——立法动作若跟上，欧盟将成为 genAI 合规最严密的辖区。",
+          "angles": [],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源，独立源未跟进",
+          "publish_time": "2026-11-11 13:55",
+          "verify_note": "未见独立来源（外查 11-11）",
+          "entities": [
+            {
+              "name": "法国",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4064935828050824",
+            "raw_ref": "reports/raw/2026-11-11-1500.json#candidates[22]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-1500/07_36kr.com_a4524f36.html",
+            "sha256": "fdedd730a162d13ccded427b33fecbd2b6dd5dde15aae4ef6b9473cc8075fa5b",
+            "fetched_at": "2026-11-11T08:04:06.933Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向 / 应用玩法",
+      "items": [
+        {
+          "title": "AI 制药闯关：分子设计成功率升至近八成",
+          "meta": "36氪 · 2026-11-11 11:33",
+          "urls": [
+            "https://36kr.com/p/4064770496140416"
+          ],
+          "summary": "AI 制药产业化进入验证期：分子设计成功率升至近八成，但「证明自己」的资金与验证周期成为新考题（「反摩尔定律」挑战）。AI4S 从故事走向临床数据的阶段拉开。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "对做行业 AI 的团队是模板：垂直行业的 AI 化进度，最终都卡在「验证成本」——谁能把验证做便宜，谁拿走环节价值。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展",
+            "商业合作"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·深度稿",
+          "publish_time": "2026-11-11 11:33",
+          "verify_note": "未见独立来源（外查 11-11）",
+          "entities": [
+            {
+              "name": "生物计算(概念)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4064770496140416",
+            "raw_ref": "reports/raw/2026-11-11-1500.json#candidates[177]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-1500/08_36kr.com_3ac08906.html",
+            "sha256": "5735fed213a33aeb4a951577a53a1964645124e44e32529cdc6c3ffcda365b08",
+            "fetched_at": "2026-11-11T08:04:07.235Z"
+          }
+        },
+        {
+          "title": "《持械入宋》爆火：历史题材成 AI 短剧新富矿",
+          "meta": "36氪 · 2026-11-11 10:46",
+          "urls": [
+            "https://36kr.com/p/4064049062826880"
+          ],
+          "summary": "AI 短剧《持械入宋》斩获 120 亿播放量，「草台班子」拿下历史题材流量富矿。与 11-11 09:00 场「网友们痛骂 AI 短剧却扎堆入场赚钱」呼应：口碑争议与商业回报倒挂，这正是套利窗口的典型形态。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "内容创业的信号：AI 短剧的成本结构让「历史题材」这类重设定的品类变得可批量试错——先入者吃题材红利，后入者吃工具红利。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-11-11 10:46",
+          "verify_note": "未见独立来源（外查 11-11）",
+          "provenance": {
+            "url": "https://36kr.com/p/4064049062826880",
+            "raw_ref": "reports/raw/2026-11-11-1500.json#candidates[190]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-1500/09_36kr.com_040027c4.html",
+            "sha256": "0a486d525847d97473a09e17e400dbdb505ce8a5f854c5ae2d538b0290b02c9d",
+            "fetched_at": "2026-11-11T08:04:07.450Z"
+          }
+        },
+        {
+          "title": "2026，AI 应用的钱都流向了哪里",
+          "meta": "36氪 · 2026-11-11 09:24",
+          "urls": [
+            "https://36kr.com/p/4064628019598211"
+          ],
+          "summary": "36氪年度级盘点口径：视频、图像和 3D 拿走大头。资本在应用层的分布正在从「通用助手」转向「内容生产的确定性赛道」。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "与本期 OpenAI 100 亿营收、Meta/谷歌旗舰轮番发布对照：平台层赢家通吃，应用层看内容品类——创业者选赛道时，资本流向图谱比 demo 更可信。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·分析稿",
+          "publish_time": "2026-11-11 09:24",
+          "verify_note": "未见独立来源（外查 11-11）",
+          "provenance": {
+            "url": "https://36kr.com/p/4064628019598211",
+            "raw_ref": "reports/raw/2026-11-11-1500.json#candidates[219]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-1500/10_36kr.com_fda809bd.html",
+            "sha256": "ef88178f159cce6c67308efc97daf406dcec760e38fbac17754ae1029654809c",
+            "fetched_at": "2026-11-11T08:04:07.760Z"
+          }
+        },
+        {
+          "title": "Anthropic 估值缩水，压力给到国内大模型公司",
+          "meta": "36氪 · 2026-11-11 11:14",
+          "urls": [
+            "https://36kr.com/p/4064775459001223"
+          ],
+          "summary": "观点：Anthropic 上市定价的重检让「AI 高估值」的锚被重新审视，压力传导至国内大模型公司的融资叙事。注意事实面：Reuters 路演口径是目标 1.4 万亿美元，与「缩水」的判断存在张力——真正的裁决在上市首日（SIG-20261110-2100-1，check 11-17）。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对国内的启示：一级市场估值的「信仰折扣」将被二级市场定价校准。依赖高估值融资的国内公司，融资叙事需要从「对标 OpenAI」转向「现金奶牛」。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·观点稿",
+          "publish_time": "2026-11-11 11:14",
+          "verify_note": "未见独立来源（外查 11-11；IPO 事实面以 Reuters 1.4T 路演口径与本刊 09:00 场官方文件为准）",
+          "provenance": {
+            "url": "https://36kr.com/p/4064775459001223",
+            "raw_ref": "reports/raw/2026-11-11-1500.json#candidates[184]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-1500/11_36kr.com_5100ba07.html",
+            "sha256": "f1ff936b0614f4b994c5cf535af0db7c088400ab41936bc5351eac4176eb8e8a",
+            "fetched_at": "2026-11-11T08:04:07.961Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "Anthropic IPO 首日定价与基石配售",
+      "text": "路演口径现「1.4 万亿目标估值」（Reuters/NYT），与官方定价区间（70–78 美元）之间的达成度是首日核心看点；check 11-17 不变。",
+      "sigId": "SIG-20261110-2100-1"
+    },
+    {
+      "lead": "欧盟「输出可能侵权」判例",
+      "text": "法国监管报告入场，欧洲从判例到政策的联动开始；check 12-11 不变。",
+      "sigId": "SIG-20261111-0900-2"
+    },
+    {
+      "lead": "Rapidus 2nm SRAM 延期与先进产能稀缺性",
+      "text": "（SIG-20261111-1500-1，check 2026-12-15）：盯 Rapidus 官方回应与 ¥700B 融资计划进展；若掉队属实，2nm 梯队收窄至三家，先进产能稀缺进一步固化。",
+      "sigId": "SIG-20261111-1500-1"
+    },
+    {
+      "lead": "法国 genAI 监管报告与欧洲政策第二波",
+      "text": "（SIG-20261111-1500-2，check 2026-12-01）：盯爱丽舍宫是否采纳建议、有无立法动作；与欧盟法院判例同线共振。",
+      "sigId": "SIG-20261111-1500-2"
+    }
+  ],
+  "sourceStatus": [
+    "- 全部信源本轮 OK（0 DOWN / 0 FALLBACK），窗口内 243 条候选——本周首次全绿。",
+    "- 说明：36氪 系正文仍为 JS 壳页，本期相关佐证以 Google News 独立检索补足（OpenAI Q3/Rapidus/AMD 等条目已多源确认）。"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-11-1500.json",
+    "evidence_file": null,
+    "snapshot_dir": "archives/2026-11-11-1500/",
+    "raw_candidates": 243,
+    "matched": 11
+  }
+}
