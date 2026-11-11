@@ -3,22 +3,22 @@
   "date": "2026-11-11",
   "time": "09:00",
   "title": "AI 情报 · 11-11 09:00 场",
-  "generatedAt": "2026-11-11T05:56:57.833Z",
-  "coverage": "2026-11-10 21:00 → 2026-11-11 09:06（Asia/Shanghai，窗口口径）",
+  "generatedAt": "2026-11-11T06:44:14.738Z",
+  "coverage": "2026-11-10 21:00 → 2026-11-11 09:00（Asia/Shanghai，窗口口径）",
   "notes": [
-    "补刊：09:12 cron 在素材整理阶段中断（采集与部分佐证已完成、零定稿零发布），本场复用 raw 续跑；11-10 三场（0900/1500/2100）已收条目均已排除"
+    "补刊：09:00 cron 状态「ok」但运行在素材整理阶段中止（cron ok 假阳性，未产出定稿报告），raw 完好（206 条候选、除工信部外全源 OK），本场复用 raw 续跑。11-10 三场（0900/1500/2100）已收条目经 seen 去重排除，无重复收录"
   ],
-  "itemCount": 13,
+  "itemCount": 12,
   "rawStats": {
     "candidates": 206,
-    "selected": 13
+    "selected": 12
   },
   "overview": [
-    "Anthropic 定价 70–78 美元/股、隐含 1.404 万亿美元估值，CNBC 称目标 11-19 开始交易；FT 同日称承销商准备把估值推到 1.5 万亿以上。",
-    "Anthropic 发布 Claude Meetings：会议中实时起草方案、画时间线、答问、连工作应用——IPO 前一周切入办公软件，直接对上微软与谷歌。",
-    "Gemini 4 Carbon 全球全量开放，代价是付费墙；DeepMind 同日放 Gemini Robotics 2.5 与开源安全基准「ASIMOV-jailbreak」。",
-    "Grok Build 编程 agent 被曝 35,000 个应用对任何人开放，其中包含 SpaceX 自己的机密——本月第二起 AI 编码工具泄密。",
-    "纽约州 AI 安全法（RAISE Act）生效：OpenAI、Anthropic 须注册、披露安全实践、上报重大事故，否则罚款。"
+    "Gemini 4 Carbon 全球全量开放：Google 旗舰正式 GA，Signal 协议 650 万行数学证明验证成果同批披露。",
+    "Gemini Robotics 2.5 同窗发布：工厂人形机器人任务成功率至多翻倍，奔驰工厂金属分拣 96%，安全基准 ASIMOV-jailbreak 开源。",
+    "Claude Meetings 上线：会议里实时起草计划、白板排期、接入工作应用取数——Anthropic IPO 前夜补齐办公线。",
+    "欧盟法院首度切割 AI 版权：输入训练合法、输出可能侵权，合规重心从训练端转向推理端。",
+    "Grok Build 3.5 万个应用裸奔：coding agent 又一次大规模泄密，含 SpaceX 内部材料。"
   ],
   "sections": [
     {
@@ -27,156 +27,81 @@
       "title": "产品发布 / 融资",
       "items": [
         {
-          "title": "Anthropic 锁定 IPO 价格区间 70–78 美元：隐含估值 1.404 万亿美元，目标 11-19 开始交易",
-          "meta": "TechCrunch · 2026-11-10 22:01",
+          "title": "Gemini 4 Carbon 全球全量开放：Google 旗舰正式 GA",
+          "meta": "Google DeepMind 官网 · 2026-11-11 00:03",
           "urls": [
-            "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion"
+            "https://deepmind.google/blog/gemini-4-carbon-is-now-available"
           ],
-          "summary": "按全稀释口径，若以上限定价，公司估值达 1.404 万亿美元。CNBC 给出交易时点：目标 11 月 19 日开始挂牌。同日 FT 报道承销商正在准备把估值推高至 1.5 万亿美元或以上——**定价区间与路演上调同时存在，说明簿记需求强于公告预期**。",
+          "summary": "Google 旗舰模型Gemini 4 Carbon 全球全量开放。36氪报道口径：与 GA 同批披露的还有 4 周时间、650 万行数学证明验证「Signal 安全」的成果（该验证工程本体 AlphaProof Code 已见 11-10 21:00 场报道，本条记录 GA 事实，不重复计数验证工程）。爱范儿提示「不是所有人都用得上」——分层开放意味着企业档与免费档的能力边界仍在拉大。",
           "angles": [
             {
               "kind": "invest",
               "icon": "💰",
               "label": "投资/商业",
-              "text": "这是 AI 板块第一次接受公开市场定价。1.404 万亿若成立，Anthropic 上市即进入美股市值前列，且它的估值将每天随行情波动，而不再是私募轮次的共识数字。"
+              "text": "这是 Anthropic Fable 5.2 / Opus 5.5 之后 72 小时内的又一次旗舰 GA：模型层的旗舰迭代周期已被压到「周」级，双旗舰同月对标将成为常态。"
             },
-            {
-              "kind": "tech",
-              "icon": "⚡",
-              "label": "技术/可行性",
-              "text": "盯 11-19：若上限定价且首日上涨，私募估值体系（含 OpenAI 的下一轮）会被整体重估；若破发，整个 AI 一级市场的定价锚要往下走。"
-            }
-          ],
-          "source_tier": "B",
-          "type_tags": [
-            "融资交易"
-          ],
-          "confidence": "高",
-          "confidence_note": "双源佐证(CNBC 11-11 11:40 同报价格区间与 11-19 交易时点；Reuters 11-11 03:55 独家同报 1.4 万亿估值)",
-          "publish_time": "2026-11-10 22:01",
-          "event_time": "2026-11-10 22:01",
-          "event_time_inferred": false,
-          "verify_note": "外部检索（CNBC 2026-11-11 11:40「Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19」；Reuters 2026-11-11 03:55「EXCLUSIVE: Anthropic eyes $1.4 trillion IPO valuation in test of Wall Street」；直链未寻得，Google News 聚合跳转无法解析原文）",
-          "entities": [
-            {
-              "name": "Anthropic",
-              "type": "企业"
-            },
-            {
-              "name": "CNBC",
-              "type": "机构"
-            },
-            {
-              "name": "Financial Times",
-              "type": "机构"
-            }
-          ],
-          "provenance": {
-            "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion",
-            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[169]",
-            "source_id": "techcrunch",
-            "source_name": "TechCrunch"
-          }
-        },
-        {
-          "title": "Anthropic 七位联创每人套现约 2.5 亿美元：罕见的等额分配",
-          "meta": "TechCrunch · 2026-11-10 19:57",
-          "urls": [
-            "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo"
-          ],
-          "summary": "七位联创计划卖出完全相同的股数，按区间中值各约 2.5 亿美元，且仍保留大量持股。",
-          "angles": [
-            {
-              "kind": "invest",
-              "icon": "💰",
-              "label": "投资/商业",
-              "text": "等额而非按贡献分配的套现结构在硅谷少见，通常出现在创始人团队刻意维持平权的公司。对二级市场投资者，这是一个信号：联创团队的利益绑定比多数 AI 公司更紧。"
-            }
-          ],
-          "source_tier": "B",
-          "type_tags": [
-            "融资交易"
-          ],
-          "confidence": "高",
-          "confidence_note": "双源佐证(The Tech Buzz 11-11 05:03 同报等额套现)",
-          "publish_time": "2026-11-10 19:57",
-          "verify_note": "外部检索（The Tech Buzz 2026-11-11 05:03「Anthropic's 7 Founders Each Cash Out $250M in Rare Equal Split」；Reuters 同日独家佐证估值口径；直链未寻得，Google News 聚合跳转无法解析原文）",
-          "entities": [
-            {
-              "name": "Anthropic",
-              "type": "企业"
-            },
-            {
-              "name": "Dario Amodei",
-              "type": "人物"
-            }
-          ],
-          "provenance": {
-            "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo",
-            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[82]",
-            "source_id": "techcrunch",
-            "source_name": "TechCrunch"
-          }
-        },
-        {
-          "title": "Anthropic 在澳大利亚递交招股文件：当地个人投资者可参与认购",
-          "meta": "36氪 · 2026-11-11 08:46",
-          "urls": [
-            "https://36kr.com/p/4064633870488708"
-          ],
-          "summary": "在澳洲提交招股文件，意味着当地散户可直接参与 IPO 认购。这与 11-10 场报道的「为散户举办直播」是同一策略的落地：把零售需求纳入基石之外的定价力量。",
-          "angles": [
-            {
-              "kind": "invest",
-              "icon": "💰",
-              "label": "投资/商业",
-              "text": "跨境向散户开放认购，对一家美国公司是额外工作量——这么做通常说明它想在首日制造更广的持有基础，降低上市后波动。"
-            }
-          ],
-          "source_tier": "B",
-          "type_tags": [
-            "融资交易"
-          ],
-          "confidence": "中",
-          "confidence_note": "B单源，独立源未验证",
-          "publish_time": "2026-11-11 08:46",
-          "verify_note": "未见独立来源（外查 11-11）",
-          "entities": [
-            {
-              "name": "Anthropic",
-              "type": "企业"
-            },
-            {
-              "name": "澳大利亚",
-              "type": "机构"
-            }
-          ],
-          "provenance": {
-            "url": "https://36kr.com/p/4064633870488708",
-            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[8]",
-            "source_id": "kr36",
-            "source_name": "36氪"
-          }
-        },
-        {
-          "title": "Anthropic 发布 Claude Meetings：把会议讨论直接变成方案与任务",
-          "meta": "TechCrunch · 2026-11-11 01:30",
-          "urls": [
-            "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks"
-          ],
-          "summary": "参与者讨论时，Claude 可实时起草正在讨论的方案、在白板上画时间线、在会议聊天里回答问题、并访问已连接的工作应用取信息。",
-          "angles": [
             {
               "kind": "startup",
               "icon": "🛠️",
               "label": "产品/创业",
-              "text": "这条对做企业软件的团队比 IPO 新闻更实在：会议是办公套件里最难替代的入口，Anthropic 直接插进Teams/Zoom 的地盘。**IPO 前一周发这个产品，是在给投资人讲「我不只是卖 token 的 API 公司」**。"
+              "text": "对做产品的人：旗舰层竞争白热化的同时，真正的分层信号是「谁能稳定跑 agentic 工作流」——选型窗口已经从「看跑分」转向「看工作流稳定性」。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文 + Digital Trends 同步",
+          "publish_time": "2026-11-11 00:03",
+          "event_time": "2026-11-11",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Digital Trends 2026-11-10 17:00 GMT「Google's Gemini 4 Carbon is now available, and it's built for your toughest tasks」; https://www.digitaltrends.com/ ）",
+          "entities": [
+            {
+              "name": "Google DeepMind",
+              "type": "机构"
             },
+            {
+              "name": "Gemini 4 Carbon",
+              "type": "产品"
+            },
+            {
+              "name": "Signal",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[132]",
+            "source_id": "deepmind",
+            "source_name": "Google DeepMind"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-0900/01_deepmind.google_55cb0588.html",
+            "sha256": "c2da7cee2c19432f7361b111d20f7b304af30533841be76340a3b07a54096855",
+            "fetched_at": "2026-11-11T06:45:31.667Z"
+          }
+        },
+        {
+          "title": "MiniMax 开源 H3-Image：4K 图像 10-20 秒生成，定价仅为 Nano Banana Pro 的 29%",
+          "meta": "爱范儿 · 2026-11-11 00:04",
+          "urls": [
+            "https://www.ifanr.com/1688790"
+          ],
+          "summary": "MiniMax（爱范儿口径「GPT 的效果加上 MJ 的审美」）把 4K 图像模型 H3-Image 以开源权重释出：10-20 秒生成 4K，商用 API 定价仅为 Google Nano Banana Pro 的 29%。新智元称「最强开源模型中国造」。",
+          "angles": [
             {
               "kind": "invest",
               "icon": "💰",
               "label": "投资/商业",
-              "text": "与微软 Copilot、谷歌 Workspace 的竞争从模型层打到工作流层。中间层的会议记录/AI 纪要创业公司，护城河会被直接压平。"
+              "text": "用 29% 定价打图像生成市场，这是把「开源权重+低价 API」组合拳从语言模型复制到图像赛道。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "做内容生产/电商素材的团队立刻可以实测成本差：若质量够用，单条素材的图像成本可降约七成——这是能直接进成本表的数字。"
             }
           ],
           "source_tier": "B",
@@ -184,96 +109,48 @@
             "产品发布"
           ],
           "confidence": "高",
-          "confidence_note": "双源佐证(Axios 11-11 02:01、Inc.com 11-11 02:28 同报)",
-          "publish_time": "2026-11-11 01:30",
-          "event_time": "2026-11-11 01:30",
-          "event_time_inferred": false,
-          "verify_note": "外部检索（Axios 2026-11-11 02:01「Anthropic wants Claude to join your meetings」；Inc.com 2026-11-11 02:28 同报并讨论其最有用功能；The Tech Buzz 2026-11-11 02:10「Anthropic Launches Claude Meetings Days Before IPO」；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "confidence_note": "双源佐证(爱范儿+FourWeekMBA/Pasquale Pillitteri)",
+          "publish_time": "2026-11-11 00:04",
+          "verify_note": "外部检索（Pasquale Pillitteri 2026-11-10 15:00 GMT「MiniMax launches H3-Image, 4K open-weights images in 10-20 seconds」；FourWeekMBA 2026-11-10 17:00 GMT「MiniMax Prices 4K Images at 29% of Google's Nano Banana Pro」; https://fourweekmba.com/ ）",
           "entities": [
             {
-              "name": "Anthropic",
+              "name": "MiniMax",
               "type": "企业"
             },
             {
-              "name": "Claude",
+              "name": "H3-Image",
               "type": "产品"
             },
             {
-              "name": "Microsoft",
-              "type": "企业"
-            },
-            {
-              "name": "Google",
-              "type": "企业"
+              "name": "Nano Banana Pro",
+              "type": "产品"
             }
           ],
           "provenance": {
-            "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks",
-            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[112]",
-            "source_id": "techcrunch",
-            "source_name": "TechCrunch"
+            "url": "https://www.ifanr.com/1688790",
+            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[131]",
+            "source_id": "ifanr",
+            "source_name": "爱范儿"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-0900/02_www.ifanr.com_ef29c9d7.html",
+            "sha256": "1e052c5edd1eea26125c73b21fc035fc95a3c509a6336fdb5bcb3b39a45b06b0",
+            "fetched_at": "2026-11-11T06:45:31.766Z"
           }
         },
         {
-          "title": "Oura 6.25 亿美元收购 AI 原生基层医疗公司 Counsel Health",
-          "meta": "TechCrunch · 2026-11-11 03:23",
-          "urls": [
-            "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m"
-          ],
-          "summary": "全现金交易，同日 Oura 公布季度财报：销售同比增 153%。这次收购发生在其**无限期推迟 22 亿美元 IPO**（理由「IPO 市场不确定性」）几周之后。",
-          "angles": [
-            {
-              "kind": "invest",
-              "icon": "💰",
-              "label": "投资/商业",
-              "text": "一个值得注意的对比：一边推迟上市、一边花 6.25 亿现金买 AI 医疗资产——说明 Oura 手里现金充裕但不愿在不理想的窗口上市。硬件公司用并购补齐 AI 服务层，是可穿戴赛道的标准路径。"
-            },
-            {
-              "kind": "startup",
-              "icon": "🛠️",
-              "label": "产品/创业",
-              "text": "对创业者的启发：AI 原生垂直医疗（问诊、随访、慢病）是被硬件厂商收购的高潜标的类型——有真实医疗流程、不做通用模型。"
-            }
-          ],
-          "source_tier": "B",
-          "type_tags": [
-            "融资交易",
-            "商业合作"
-          ],
-          "confidence": "高",
-          "confidence_note": "双源佐证(Bloomberg 11-11 01:10、Fierce Healthcare 11-11 04:09 同报)",
-          "publish_time": "2026-11-11 03:23",
-          "verify_note": "外部检索（Bloomberg 2026-11-11 01:10「Oura to Buy AI Doctor Startup for $625 Million; Posts 153% Sales Jump」；Fierce Healthcare 2026-11-11 04:09 同报全现金交易；Seeking Alpha 2026-11-11 02:32 同报；直链未寻得，Google News 聚合跳转无法解析原文）",
-          "entities": [
-            {
-              "name": "Oura",
-              "type": "企业"
-            },
-            {
-              "name": "Counsel Health",
-              "type": "企业"
-            }
-          ],
-          "provenance": {
-            "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m",
-            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[91]",
-            "source_id": "techcrunch",
-            "source_name": "TechCrunch"
-          }
-        },
-        {
-          "title": "OpenAI 收购 AI 旅行 agent 公司 Odessia",
+          "title": "OpenAI 收购 Odessia：Sonder 创始人打造的 AI 旅行代理",
           "meta": "TechCrunch · 2026-11-11 05:08",
           "urls": [
             "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder"
           ],
-          "summary": "买方未说明对旅行业务的计划。创始人 Francis Davidson 是 Sonder（短租上市公司）创办人。",
+          "summary": "OpenAI 收购 Odesdia——Sonder 联合创始人 Francis Davidson 打造的 AI 旅行代理创业公司。OpenAI 未披露对 travel 方向的具体产品计划；Davidson 在住宿/旅行行业是知名连续创业者。",
           "angles": [
             {
               "kind": "invest",
               "icon": "💰",
               "label": "投资/商业",
-              "text": "OpenAI 的收购模式正在清晰：不买基础设施，买「有真实业务闭环的 agent 产品」——用收购直接获取垂直场景的流程知识，而不是从 API 往上长。"
+              "text": "这不是 OpenAI 第一笔人才型收购，但方向值得记：chatgpt 的下一个高频场景（旅行规划+预订）正在通过收购补齐。"
             }
           ],
           "source_tier": "B",
@@ -281,9 +158,9 @@
             "融资交易"
           ],
           "confidence": "高",
-          "confidence_note": "双源佐证(The Information 11-11 02:39、Skift 11-11 03:31 同报)",
+          "confidence_note": "双源佐证(TechCrunch+Skift/Yahoo)",
           "publish_time": "2026-11-11 05:08",
-          "verify_note": "外部检索（The Information 2026-11-11 02:39「OpenAI Acquires AI Travel Agent Odessia」；Skift 2026-11-11 03:31 同报并点名 Sonder 联创；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "verify_note": "外部检索（Skift 2026-11-10 19:00 GMT「OpenAI Acquires Odessia, the AI Travel Agent From Sonder's Co-Founder」；Yahoo Finance UK 同日转载; https://skift.com/ ）",
           "entities": [
             {
               "name": "OpenAI",
@@ -291,6 +168,10 @@
             },
             {
               "name": "Odessia",
+              "type": "企业"
+            },
+            {
+              "name": "Sonder",
               "type": "企业"
             },
             {
@@ -303,47 +184,71 @@
             "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[70]",
             "source_id": "techcrunch",
             "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-0900/03_techcrunch.com_3b53bf60.html",
+            "sha256": "14c8bd2483abb1a3a1a6160f1af969aba3229c9d862279fc74f2def6945d05e8",
+            "fetched_at": "2026-11-11T06:45:33.439Z"
           }
         },
         {
-          "title": "MiniMax 开源 H3-Image：4K 文生图与编辑，权重已放出",
-          "meta": "爱范儿 · 2026-11-11 00:04",
+          "title": "Anthropic 发布 Claude Meetings：IPO 前夜补齐办公协作线",
+          "meta": "TechCrunch · 2026-11-11 01:30",
           "urls": [
-            "https://www.ifanr.com/1688790"
+            "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks"
           ],
-          "summary": "实测口径：4K 像素最快 10 秒生成；评测中提到「GPT 的效果加上 MJ 的审美」。",
+          "summary": "会议场景 Agent：参会时 Claude 实时起草讨论中的计划、在白板上铺时间线、在会议聊天里答问，并接入已连接的工作应用取数（如调去年的数据）。Reuters 确认还带 Google Meet 现场集成。The Tech Buzz 点出时机：IPO 前夜。",
           "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "Anthropic 在上市静默期前的产品节奏明显在补「办公生产力」短板—— Meetings 直接对标 Otter/Zoom AI Companion 一类，并第一次把 Claude 推进了会议实时场景。"
+            },
             {
               "kind": "startup",
               "icon": "🛠️",
               "label": "产品/创业",
-              "text": "图像生成的开源权重一直是短板（Flux/SD 之后少有能打的新模型）。H3-Image 若真能到 GPT Image 2.6 水准且权重开放，做图像类产品的团队可以立刻把推理成本换成本地/自建——这条比多数开源模型发布更实际。"
+              "text": "会议纪要 SaaS 的窗口正在关闭：基础模型厂商自己下场做「会议→计划→任务」全链路后，纯转写工具的溢价空间会被压空。"
             }
           ],
           "source_tier": "B",
           "type_tags": [
             "产品发布",
-            "技术进展"
+            "商业合作"
           ],
           "confidence": "高",
-          "confidence_note": "双源佐证(Pandaily 11-11 10:42 报道权重开放；新智元 11-10 23:16 同报)",
-          "publish_time": "2026-11-11 00:04",
-          "verify_note": "外部检索（Pandaily 11-11 10:42「MiniMax Opens Weights for H3-Image, a 16-Megapixel Text-to-Image and Editing Model」；HuggingFace 仓库 MiniMaxAI/MiniMax-H3-Image 经 HN 收录于 2026-11-10 23:29（UTC→+08），可作权重放出旁证；Pasquale Pillitteri 2026-11-10 23:31「4K open-weights images in 10-20 seconds」；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "confidence_note": "双源佐证(TechCrunch+Reuters/The Tech Buzz)",
+          "publish_time": "2026-11-11 01:30",
+          "verify_note": "外部检索（Reuters 2026-11-10 17:00 GMT「Anthropic brings Claude to Google Meet to tackle tasks live」；The Tech Buzz 2026-11-10 18:00 GMT「Anthropic Launches Claude Meetings Days Before IPO」; https://www.reuters.com/ ）",
           "entities": [
             {
-              "name": "MiniMax",
+              "name": "Anthropic",
               "type": "企业"
             },
             {
-              "name": "MiniMax H3-Image",
+              "name": "Claude Meetings",
+              "type": "产品"
+            },
+            {
+              "name": "Google Meet",
+              "type": "产品"
+            },
+            {
+              "name": "Claude",
               "type": "产品"
             }
           ],
           "provenance": {
-            "url": "https://www.ifanr.com/1688790",
-            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[131]",
-            "source_id": "ifanr",
-            "source_name": "爱范儿"
+            "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks",
+            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[112]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-0900/04_techcrunch.com_e12be6c2.html",
+            "sha256": "b1d5565116cc2844f61a678577fb79e452d53dbf1ed1ff5255b4a29658b83b2d",
+            "fetched_at": "2026-11-11T06:45:35.108Z"
           }
         }
       ]
@@ -354,128 +259,266 @@
       "title": "技术突破 / 模型进展",
       "items": [
         {
-          "title": "Gemini 4 Carbon 全球全量开放，但大部分人要付费",
-          "meta": "爱范儿 · 2026-11-11 08:26",
+          "title": "Claude 5.2 机器人操作性能大涨：前 Optimus 研究员加盟 Anthropic",
+          "meta": "机器之心Pro(搜狐同步) · 2026-11-11 08:29",
           "urls": [
-            "https://www.ifanr.com/1688883"
+            "https://m.sohu.com/a/1099920897_129720"
           ],
-          "summary": "官方口径为全球开放，但实际可用性分层：付费与 Power User 优先。36氪 侧补充：4 周内完成 650 万行数学证明，用于验证 Signal 安全协议（与 11-10 场 AlphaProof Code 为同一技术线的不同表述）。",
+          "summary": "机器人版「苦涩的教训」（bitter lesson）：Claude 5.2 的机器人操作性能大幅提升；同日披露的是人才信号——前特斯拉 Optimus AI 团队研究员（主攻学习式灵巧操作、策略学习与真实环境部署）加盟 Anthropic，其背景与 Anthropic 近期展示的机器人能力形成交集。",
           "angles": [
             {
               "kind": "tech",
               "icon": "⚡",
               "label": "技术/可行性",
-              "text": "「全球开放」的措辞与「不是所有人都用得上」的现实之间的落差，是各家发布会的常态。判断模型是否真可用的标准只有一个：你自己账号能不能调。"
+              "text": "「通用模型的机器人能力 > 专用机器人模型」这个判断正在被 Anthropic/Google 双方同周验证（Gemini Robotics 2.5 同窗发布）：具身智能的路线之争里，基础模型厂商用通用能力直接压进来了。"
             }
           ],
           "source_tier": "B",
           "type_tags": [
-            "产品发布"
+            "技术进展",
+            "人事变动"
           ],
-          "confidence": "高",
-          "confidence_note": "双源佐证(Engadget 11-11 00:00 同报全球可用；36氪 11-11 08:25 同报「全球全量开放」)",
-          "publish_time": "2026-11-11 08:26",
-          "verify_note": "外部检索（Engadget 2026-11-11 00:00「Google's Gemini 4 Carbon Is Now Widely Available Around The World」；Android Headlines 2026-11-11 02:49 同报面向 Power Users 全球开放；shattered.io 11-11 00:54 指出 2 美元入门价、非全区域；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "confidence": "中",
+          "confidence_note": "B单源，36氪同窗聚合稿同题覆盖",
+          "publish_time": "2026-11-11 08:29",
+          "verify_note": "外部检索（36氪 2026-11-11 08:25 同窗报道「Anthropic、英伟达同日上新，机器人真的要'长脑子'了？」同题覆盖此事件; https://36kr.com/ ）",
           "entities": [
             {
-              "name": "Google",
+              "name": "Anthropic",
               "type": "企业"
             },
             {
-              "name": "Gemini 4 Carbon",
+              "name": "Claude 5.2",
+              "type": "产品"
+            },
+            {
+              "name": "Tesla Optimus",
               "type": "产品"
             }
           ],
           "provenance": {
-            "url": "https://www.ifanr.com/1688883",
-            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[24]",
-            "source_id": "ifanr",
-            "source_name": "爱范儿"
+            "url": "https://m.sohu.com/a/1099920897_129720",
+            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[20]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-0900/05_m.sohu.com_66a4b4a3.html",
+            "sha256": "5c05ea29d506888966a7344e8b91d29e764efa5b98c4fd8910ac7ae88da22ebe",
+            "fetched_at": "2026-11-11T06:45:35.332Z"
           }
         },
         {
-          "title": "DeepMind 发布 Gemini Robotics 2.5 与开源安全基准「ASIMOV-jailbreak」",
-          "meta": "Google DeepMind · 2026-11-10 23:00",
+          "title": "Gemini Robotics 2.5 发布：工厂人形机器人成功率至多翻倍，安全基准开源",
+          "meta": "Ars Technica · 2026-11-10 23:00",
           "urls": [
-            "https://deepmind.google/blog/gemini-robotics-2-5"
+            "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak"
           ],
-          "summary": "部分任务成功率提升最多两倍。同时放出开源安全基准 ASIMOV-jailbreak——**给机器人模型做「越狱」测试的公共题库**。",
+          "summary": "Gemini Robotics 2.5：部分任务成功率至多翻倍；在奔驰工厂金属分拣任务上拿到 96%；同批开放 ASIMOV-jailbreak 安全基准（机器人场景的越狱评测）。",
           "angles": [
             {
               "kind": "tech",
               "icon": "⚡",
               "label": "技术/可行性",
-              "text": "与同日 36氪「Anthropic、英伟达同日上新，机器人真的要长脑子了」拼起来看：具身智能这一周密集发布，但真正稀缺的是评测与安全层——DeepMind 同时给模型和「怎么搞坏它」的标准，这比单独发模型更有战略价值。"
+              "text": "两个信号并读：①「工厂人形」成为机器人模型的锚定场景（不是家庭、不是实验室）；②安全基准随模型同步开源——机器人越狱第一次有了公共评测台。"
             }
           ],
-          "source_tier": "A",
+          "source_tier": "B",
           "type_tags": [
-            "技术进展",
-            "安全"
+            "技术进展"
           ],
           "confidence": "高",
-          "confidence_note": "A源·官方原文 + 双源佐证(Ars Technica 11-10 23:00 同报)",
+          "confidence_note": "双源佐证(Ars+The Decoder/NewsCord)",
           "publish_time": "2026-11-10 23:00",
-          "verify_note": "外部检索（Ars Technica 2026-11-10 23:00「DeepMind reveals Gemini Robotics 2.5 and open safety benchmark ASIMOV-jailbreak」；Interesting Engineer 2026-11-11 04:42 报道「工厂试跑得分 96%，此前处理 20 项失败任务」；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "verify_note": "外部检索（The Decoder 2026-11-10 17:00 GMT「scores 96 percent sorting metal parts in a Mercedes factory」；NewsCord 同日「Higher Success Rates for Factory Humanoids: 8x」; https://the-decoder.com/ ）",
           "entities": [
             {
               "name": "Google DeepMind",
               "type": "机构"
             },
             {
-              "name": "Gemini Robotics",
+              "name": "Gemini Robotics 2.5",
+              "type": "产品"
+            },
+            {
+              "name": "ASIMOV-jailbreak",
+              "type": "产品"
+            },
+            {
+              "name": "Mercedes",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak",
+            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[148]",
+            "source_id": "ars",
+            "source_name": "Ars Technica"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-0900/06_arstechnica.com_c86d0850.html",
+            "sha256": "d59cc24c7f4f19ba80d8175d2a42ac24d8d1163b3432e4e0d44ee13bfe472d75",
+            "fetched_at": "2026-11-11T06:45:39.412Z"
+          }
+        },
+        {
+          "title": "dsh-Go：DeepSeek Harness 移动端，10 天 1.8 万星",
+          "meta": "36氪 · 2026-11-11 07:48",
+          "urls": [
+            "https://36kr.com/p/4063892080694408"
+          ],
+          "summary": "00 后作者的 dsh-Go 让 DeepSeek Harness 跑在安卓手机上：10 月 30 日上线 3 小时 GitHub 星标破千，目前 1.8 万；用户催适配 iOS/鸿蒙，甚至有人专门买二手安卓机来用；作者公测期一天只睡 4 小时。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "Harness 生态的移动端缺口这么大、社区热情这么高——「把 Agent 装进口袋」是被验证的需求。官方生态若不及时补位，社区会替它补（并顺手占住入口）。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·作者访谈稿",
+          "publish_time": "2026-11-11 07:48",
+          "verify_note": "未见独立来源（外查 11-11；GitHub 星标数为公开可查数据，独立媒体未报道）",
+          "entities": [
+            {
+              "name": "DeepSeek",
+              "type": "企业"
+            },
+            {
+              "name": "dsh-Go",
               "type": "产品"
             }
           ],
           "provenance": {
-            "url": "https://deepmind.google/blog/gemini-robotics-2-5",
-            "raw_ref": null,
-            "source_id": null,
-            "source_name": "Google DeepMind"
+            "url": "https://36kr.com/p/4063892080694408",
+            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[43]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-0900/07_36kr.com_0d6dd836.html",
+            "sha256": "9822bc7500a19471a6822976c75de9b0b48c61216defadf1d6a606a4a578a744",
+            "fetched_at": "2026-11-11T06:45:39.720Z"
           }
-        },
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策监管",
+      "items": [
         {
-          "title": "谷歌扩充 AI 硬件版图：两款专用 TPU 面向机密训练与大容量内存",
-          "meta": "TechCrunch · 2026-11-10 23:54",
+          "title": "欧盟法院首度切割 AI 版权：输入合法，输出可能侵权",
+          "meta": "36氪 · 2026-11-11 08:38",
           "urls": [
-            "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips"
+            "https://36kr.com/p/4063863426635399"
           ],
-          "summary": "两款新 TPU 分别指向「机密模型训练」与「更大内存容量」两个具体用例，而非通用算力。",
+          "summary": "出版商诉谷歌案中，欧盟法院第一次把 AI 版权问题切成两段：用受版权材料做训练输入（合法/已购内容），但聊天机器人输出的内容可能构成侵权。36氪口径：AI 版权合规重心正从训练端向推理端迁移。",
           "angles": [
             {
               "kind": "invest",
               "icon": "💰",
               "label": "投资/商业",
-              "text": "谷歌的策略从「一个 TPU 打天下」转向专用化切分，正对英伟达最薄弱的环节：不是峰值算力，而是特定工作负载的性价比。对租算力的团队，这意味着选型维度会变多（不再只是「每小时多少钱」）。"
+              "text": "这条对 AI 产品的实际杀伤力比「训练数据合规」更大：所有把 LLM 输出直接展示给用户的产品（问答、摘要、搜索）都进了射程。欧盟辖区内的 AI 搜索/问答产品需要输出端过滤与来源标注的合规设计。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "出海欧盟的 AI 产品，合规清单要加一条「输出端版权风险」——这不再是 TDM 协议能覆盖的。"
             }
           ],
           "source_tier": "B",
           "type_tags": [
-            "产品发布"
+            "政策监管"
           ],
           "confidence": "高",
-          "confidence_note": "双源佐证(Money Morning 11-10 16:41 同报 Google 在英伟达旁开专营店)",
-          "publish_time": "2026-11-10 23:54",
-          "verify_note": "外部检索（Money Morning 2026-11-10 16:41「Google Just Built a Specialty Shop Next to Nvidia's Superstore」；AI: Reset to Zero 11-10 14:30 同报 TPU 专用化；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "confidence_note": "双源佐证(36氪+Reuters/World IP Review)",
+          "publish_time": "2026-11-11 08:38",
+          "event_time": "2026-11-03",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Reuters 2026-11-03 19:00 GMT「Setback for Google as EU court adviser warns AI chatbot may breach copyright rules」；World IP Review 2026-11-09 16:00 GMT「How a press publisher's case against Google could alter genAI liability」; https://www.worldipreview.com/ ）",
           "entities": [
             {
+              "name": "欧盟法院",
+              "type": "机构"
+            },
+            {
               "name": "Google",
-              "type": "企业"
-            },
-            {
-              "name": "TPU",
-              "type": "产品"
-            },
-            {
-              "name": "NVIDIA",
               "type": "企业"
             }
           ],
           "provenance": {
-            "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips",
-            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[134]",
+            "url": "https://36kr.com/p/4063863426635399",
+            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[11]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-0900/08_36kr.com_64905fdd.html",
+            "sha256": "5c3db4ad6dc5be8d9b25749793bfde6b8c873a61d1fe8da9d47c6135a2d2effc",
+            "fetched_at": "2026-11-11T06:45:39.915Z"
+          }
+        },
+        {
+          "title": "纽约 AI 安全法（RAISE Act）生效：frontier labs 须注册、披露、上报",
+          "meta": "TechCrunch · 2026-11-11 04:52",
+          "urls": [
+            "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect"
+          ],
+          "summary": "纽约州 AI 安全法开始执行：大型模型开发方（OpenAI、Anthropic 等 frontier lab）须注册、披露安全实践、上报重大事故，违者罚款。这是美国州级 AI 强监管的第一个真实执法框架。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "联邦立法停滞的当下，州级监管在填空。对在美运营的 AI 公司，合规成本会按州碎片化——「按州做合规矩阵」会变成新的咨询生意。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(TechCrunch+The Tech Buzz/MLQ)",
+          "publish_time": "2026-11-11 04:52",
+          "event_time": "2026-11-10",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（The Tech Buzz 2026-11-10 21:00 GMT「New York's AI Safety Law Hits OpenAI, Anthropic Today」；MLQ.ai 2026-11-10 21:00 GMT「New York opens RAISE Act registration, giving OpenAI, Anthropic and other frontier labs...」; https://thetechbuzz.net/ ）",
+          "entities": [
+            {
+              "name": "纽约州",
+              "type": "机构"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "RAISE Act",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect",
+            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[75]",
             "source_id": "techcrunch",
             "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-0900/09_techcrunch.com_ae543fdc.html",
+            "sha256": "4e97139f681011cd9c7ac2211136a98b0997a32535cf8e8b26b608ef996bad50",
+            "fetched_at": "2026-11-11T06:45:41.876Z"
           }
         }
       ]
@@ -486,18 +529,24 @@
       "title": "行业动向 / 应用玩法",
       "items": [
         {
-          "title": "Grok Build 被曝 35,000 个应用对任何人开放，含 SpaceX 自身机密",
+          "title": "Grok Build 3.5 万个应用裸奔：coding agent 泄密清单再加一笔",
           "meta": "Ars Technica · 2026-11-11 05:12",
           "urls": [
             "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi"
           ],
-          "summary": "研究者发现 35,000 个 Grok Build 应用处于公开可访问状态，其中一部分包含 SpaceX 的机密信息。",
+          "summary": "研究者发现 3.5 万个 Grok Build 生成的应用对任何人都开放，内含机密信息——包括 SpaceX 自己的销售材料。这与 11-10 09:00 场的 Claude Code 配置文件泄密、11-11 04:52 场外披露同一大类的风险：coding agent 的产物默认公开/配置随手提交。",
           "angles": [
             {
-              "kind": "tech",
-              "icon": "⚡",
-              "label": "技术/可行性",
-              "text": "**本月第二起 AI 编码工具泄密**（上一起来自 Claude Code 的配置文件，11-10 场已报）。两家不同的厂商、两种不同的机制，同一类结果——说明问题不在某个产品的实现质量，而在「AI 编码工具默认把工作区暴露给第三方」这个品类级设计缺陷。做这类产品的团队应把「默认私有」写进架构，而不是留作配置项。"
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "xAI 的用户信任面又挨了一刀，「AI 公司的工程纪律」在 2026 年已经直接等于商业信誉。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "给团队的固定动作：所有 agent 生成的应用/仓库在公开前跑一遍 secrets 扫描+默认 private，把这条写进 CI。"
             }
           ],
           "source_tier": "B",
@@ -505,11 +554,9 @@
             "安全"
           ],
           "confidence": "高",
-          "confidence_note": "双源佐证(MLQ.ai 11-11 07:44、shattered.io 11-11 05:28 同报)",
+          "confidence_note": "双源佐证(Ars+Mezha/MLQ)",
           "publish_time": "2026-11-11 05:12",
-          "event_time": "2026-11-10 21:13",
-          "event_time_inferred": false,
-          "verify_note": "外部检索（MLQ.ai 2026-11-11 07:44「Grok Build left 35,000 apps open to anyone, including SpaceX's own confidential...」；shattered.io 2026-11-11 05:28「Grok Build Sent 5.1 GiB for a 192 KB Task」；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "verify_note": "外部检索（Mezha.net 2026-11-10 22:00 GMT「Grok Build exposed confidential data, including SpaceXSI material」；MLQ.ai 2026-11-10 23:00 GMT「Grok Build left 35,000 apps open to anyone, including SpaceX's own confidential sales ma…」; https://mezha.media/ ）",
           "entities": [
             {
               "name": "xAI",
@@ -529,67 +576,87 @@
             "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[67]",
             "source_id": "ars",
             "source_name": "Ars Technica"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-0900/10_arstechnica.com_80500b12.html",
+            "sha256": "7bfbe2feaca41cb02084401dfc0d7ca0b1534f223aaf5601c502f936cddde207",
+            "fetched_at": "2026-11-11T06:45:44.337Z"
           }
         },
         {
-          "title": "纽约州 AI 安全法（RAISE Act）生效：注册、披露、上报事故，否则罚款",
-          "meta": "TechCrunch · 2026-11-11 04:52",
+          "title": "豆包把抖音商城搬进了对话",
+          "meta": "36氪 · 2026-11-11 08:15",
           "urls": [
-            "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect"
+            "https://36kr.com/p/4063607098364802"
           ],
-          "summary": "要求大型开发者注册、披露安全实践、上报重大事故，违规将面临罚款。联邦层面至今没有同类立法，州一级先行。",
+          "summary": "双11「问豆包」入口升级：不再以预设问题为主，而是基于用户喜好的商品推荐（双列+直播间），并给出商城二级入口——字母榜的判断是「把抖音商城搬到了豆包里」，豆包的商业化最终绕不开移动互联网那套成熟逻辑。",
           "angles": [
             {
               "kind": "invest",
               "icon": "💰",
               "label": "投资/商业",
-              "text": "对做合规相关产品的团队：州级立法意味着**合规要求的碎片化**（每个州一套），而碎片化正是合规工具的市场。盯第一批注册要求的字段清单——那基本就是未来的产品需求文档。"
-            }
-          ],
-          "source_tier": "B",
-          "type_tags": [
-            "政策监管"
-          ],
-          "confidence": "高",
-          "confidence_note": "双源佐证(The Tech Buzz 11-11 05:03、MLQ.ai 11-11 05:34 同报 RAISE Act 开放注册)",
-          "publish_time": "2026-11-11 04:52",
-          "event_time": "2026-11-10",
-          "event_time_inferred": false,
-          "verify_note": "外部检索（The Tech Buzz 2026-11-11 05:03「New York's AI Safety Law Hits OpenAI, Anthropic Today」；MLQ.ai 2026-11-11 05:34「New York opens RAISE Act registration, giving OpenAI, Anthropic and other frontier labs...」；直链未寻得，Google News 聚合跳转无法解析原文）",
-          "entities": [
-            {
-              "name": "纽约州",
-              "type": "机构"
+              "text": "助手类产品的变现闭环正在收敛到一个形态：对话入口 + 平台既有电商供给。字节不做新东西，直接复用抖音货架——这比自建供应链便宜得多。"
             },
-            {
-              "name": "OpenAI",
-              "type": "企业"
-            },
-            {
-              "name": "Anthropic",
-              "type": "企业"
-            }
-          ],
-          "provenance": {
-            "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect",
-            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[75]",
-            "source_id": "techcrunch",
-            "source_name": "TechCrunch"
-          }
-        },
-        {
-          "title": "小红书携「蜜薯」入局 Personal Agent",
-          "meta": "36氪 · 2026-11-11 07:42",
-          "urls": [
-            "https://36kr.com/p/4063844024653697"
-          ],
-          "summary": "论点：「AI 要懂偏好，更要懂取舍」。小红书做 Personal Agent 的独特资产是用户已沉淀的偏好数据（收藏、笔记、搜索）。",
-          "angles": [
             {
               "kind": "startup",
               "icon": "🛠️",
               "label": "产品/创业",
-              "text": "与 11-10 场「千问办公押注 Team Agent」形成对照：大厂在抢**工作场景**，内容社区在抢**生活偏好**。后者的数据壁垒更难复制，但变现路径更绕。"
+              "text": "对做 AI 助手产品的团队，这是「变现路径」的参考答案：别自建供给，把母生态的货架接进对话，用推荐逻辑做分发。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "商业合作"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·分析稿",
+          "publish_time": "2026-11-11 08:15",
+          "verify_note": "未见独立来源（外查 11-11）",
+          "entities": [
+            {
+              "name": "豆包",
+              "type": "产品"
+            },
+            {
+              "name": "抖音",
+              "type": "产品"
+            },
+            {
+              "name": "字节跳动",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4063607098364802",
+            "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[32]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-0900/11_36kr.com_83a4b227.html",
+            "sha256": "8c358b759ba2b8edd4724741d3542fc605695c997be0cca00cca151de96eb75a",
+            "fetched_at": "2026-11-11T06:45:44.545Z"
+          }
+        },
+        {
+          "title": "小红书官宣 Personal Agent「蜜薯」：AI 生活搭子",
+          "meta": "36氪 · 2026-11-11 07:42",
+          "urls": [
+            "https://36kr.com/p/4063844024653697"
+          ],
+          "summary": "小红书技术团队 REDtech 官宣 Personal Agent「蜜薯」，定位「AI 生活搭子」：不比拼复杂能力，专攻具体生活场景——陌生城市找本地小店、对着菜单商量怎么点菜、比较商品真实使用体验、按近期笔记找周末展览与市集。36氪引其口径「AI 要懂偏好，更要懂取舍」。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "小红书入场 Personal Agent 的差异化在于：它有的是 UGC 生活内容池，「懂取舍」的底层其实是内容检索+人群偏好数据。通用助手在生活场景打不过它。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "垂直内容平台做 Agent 的打法浮出水面：不比通用能力，比「生态内数据密度」。这一类「平台 Agent」会陆续出现（大众点评/携程都具备同款条件）。"
             }
           ],
           "source_tier": "B",
@@ -597,7 +664,7 @@
             "产品发布"
           ],
           "confidence": "中",
-          "confidence_note": "B单源",
+          "confidence_note": "B单源·官方披露转述",
           "publish_time": "2026-11-11 07:42",
           "verify_note": "未见独立来源（外查 11-11）",
           "entities": [
@@ -608,6 +675,10 @@
             {
               "name": "蜜薯",
               "type": "产品"
+            },
+            {
+              "name": "REDtech",
+              "type": "机构"
             }
           ],
           "provenance": {
@@ -615,6 +686,11 @@
             "raw_ref": "reports/raw/2026-11-11-0900.json#candidates[44]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-0900/12_36kr.com_e7bd417b.html",
+            "sha256": "4b9483c450db3614e022d0e9823d0d9a740b09cacbdec9b148b8fcb6d7cb8e5a",
+            "fetched_at": "2026-11-11T06:45:44.804Z"
           }
         }
       ]
@@ -622,35 +698,34 @@
   ],
   "signals": [
     {
-      "lead": "Anthropic IPO 首日定价与七巨头基石认购的实际成交",
-      "text": "**本窗口有实质进展**——价格区间已定 70–78 美元（指引 11-19 交易），FT 称承销商准备上调至 1.5 万亿以上；基石成交与首日表现待 11-19。",
+      "lead": "Anthropic IPO 首日定价与基石配售",
+      "text": "Claude Meetings 在 IPO 前夜上线（The Tech Buzz 点名时机），产品线补齐仍在为路演增重；下一核查点 11-17 不变。",
       "sigId": "SIG-20261110-2100-1"
     },
     {
-      "lead": "Anthropic 11-19 挂牌首日表现与最终定价",
-      "text": "（SIG-20261111-0900-1，check 2026-11-20）：盯是否顶格定价、是否上调区间（FT 口径 1.5 万亿）、首日涨跌。若破发，整个 AI 一级市场估值体系将被迫下修；若大涨，OpenAI 下一轮定价与更多 AI 公司上市窗口会同时打开。",
+      "lead": "sleep-time compute 通用范式",
+      "text": "本窗口 MiniMax 开源图像模型与 Anthropic 办公线均未指向记忆架构，12-09 核查点不变。",
+      "sigId": "SIG-20261109-2100-3"
+    },
+    {
+      "lead": "Gemini 4 Carbon GA 后的旗舰分层与企业定价",
+      "text": "（SIG-20261111-0900-1，check 2026-11-18）：盯 4 Carbon 企业档定价对 Fable 5.2/Opus 5.5 的挤压、免费档能力边界收紧节奏；若 72 小时内出现对手旗舰降价回应，则「旗舰价格战」成立。",
       "sigId": "SIG-20261111-0900-1"
     },
     {
-      "lead": "AI 编码工具的默认暴露问题是否引发品类级整改",
-      "text": "（SIG-20261111-0900-2，check 2026-11-25）：本月已两起（Claude Code 配置泄露、Grok Build 35,000 应用公开）。盯各家是否默认关闭工作区公开、是否发布安全公告、是否有监管介入。",
+      "lead": "欧盟法院「输出可能侵权」的后续与判决落地",
+      "text": "（SIG-20261111-0900-2，check 2026-12-11）：盯正式判决（vs 总法律顾问意见）、谷歌应诉动作、是否有 AI 产品因输出版权在欧盟被下架/处罚；判例若落地，推理端合规将成欧盟 AI 产品硬门槛。",
       "sigId": "SIG-20261111-0900-2"
-    },
-    {
-      "lead": "Gemini Robotics 2.5 与 ASIMOV-jailbreak 的行业采纳",
-      "text": "（SIG-20261111-0900-3，check 2026-12-05）：盯是否有第三方机器人厂商采用该安全基准、是否被竞品（Figure/特斯拉 Optimus）引用或反驳。",
-      "sigId": "SIG-20261111-0900-3"
     }
   ],
   "sourceStatus": [
-    "- 工信部（miit-news）：DOWN，parse 0 条（连续失败）",
-    "- 说明：本场 raw 共 206 条候选，窗口 2026-11-10 21:00 → 2026-11-11 09:06；除工信部外各源 OK。",
-    "---"
+    "- 工信部（miit-news）：DOWN，parse 0 条（连日失败，建议人工查一次源站）",
+    "- 说明：本场 raw 206 条候选（cron 采集，窗口 11-10 21:00 → 11-11 09:06），除工信部外全源 OK；36氪系正文仍为 JS 壳页，相关佐证以 Google News 独立源补足。"
   ],
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-11-0900.json",
     "evidence_file": null,
-    "snapshot_dir": null,
+    "snapshot_dir": "archives/2026-11-11-0900/",
     "raw_candidates": 206,
     "matched": 12
   }

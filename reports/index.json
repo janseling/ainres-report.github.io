@@ -6,24 +6,25 @@
       "date": "2026-11-11",
       "time": "09:00",
       "title": "AI 情报 · 11-11 09:00 场",
-      "itemCount": 13,
-      "coverage": "2026-11-10 21:00 → 2026-11-11 09:06（Asia/Shanghai，窗口口径）",
-      "note": "补刊：09:12 cron 在素材整理阶段中断（采集与部分佐证已完成、零定稿零发布），本场复用 raw 续跑；11-10 三场（0900/1500/2100）已收条目均已排除",
+      "itemCount": 12,
+      "coverage": "2026-11-10 21:00 → 2026-11-11 09:00（Asia/Shanghai，窗口口径）",
+      "note": "补刊：09:00 cron 状态「ok」但运行在素材整理阶段中止（cron ok 假阳性，未产出定稿报告），raw 完好（206 条候选、除工信部外全源 OK），本场复用 raw 续跑。11-10 三场（0900/1500/2100）已收条目经 seen 去重排除，无重复收录",
       "overview": [
-        "Anthropic 定价 70–78 美元/股、隐含 1.404 万亿美元估值，CNBC 称目标 11-19 开始交易；FT 同日称承销商准备把估值推到 1.5 万亿以上。",
-        "Anthropic 发布 Claude Meetings：会议中实时起草方案、画时间线、答问、连工作应用——IPO 前一周切入办公软件，直接对上微软与谷歌。",
-        "Gemini 4 Carbon 全球全量开放，代价是付费墙；DeepMind 同日放 Gemini Robotics 2.5 与开源安全基准「ASIMOV-jailbreak」。",
-        "Grok Build 编程 agent 被曝 35,000 个应用对任何人开放，其中包含 SpaceX 自己的机密——本月第二起 AI 编码工具泄密。",
-        "纽约州 AI 安全法（RAISE Act）生效：OpenAI、Anthropic 须注册、披露安全实践、上报重大事故，否则罚款。"
+        "Gemini 4 Carbon 全球全量开放：Google 旗舰正式 GA，Signal 协议 650 万行数学证明验证成果同批披露。",
+        "Gemini Robotics 2.5 同窗发布：工厂人形机器人任务成功率至多翻倍，奔驰工厂金属分拣 96%，安全基准 ASIMOV-jailbreak 开源。",
+        "Claude Meetings 上线：会议里实时起草计划、白板排期、接入工作应用取数——Anthropic IPO 前夜补齐办公线。",
+        "欧盟法院首度切割 AI 版权：输入训练合法、输出可能侵权，合规重心从训练端转向推理端。",
+        "Grok Build 3.5 万个应用裸奔：coding agent 又一次大规模泄密，含 SpaceX 内部材料。"
       ],
       "sectionCounts": {
-        "product": 7,
+        "product": 4,
         "tech": 3,
+        "policy": 2,
         "industry": 3
       },
       "rawStats": {
         "candidates": 206,
-        "selected": 13
+        "selected": 12
       }
     },
     {
