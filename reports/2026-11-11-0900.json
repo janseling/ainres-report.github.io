@@ -3,7 +3,7 @@
   "date": "2026-11-11",
   "time": "09:00",
   "title": "AI 情报 · 11-11 09:00 场",
-  "generatedAt": "2026-11-11T03:11:22.659Z",
+  "generatedAt": "2026-11-11T05:56:57.833Z",
   "coverage": "2026-11-10 21:00 → 2026-11-11 09:06（Asia/Shanghai，窗口口径）",
   "notes": [
     "补刊：09:12 cron 在素材整理阶段中断（采集与部分佐证已完成、零定稿零发布），本场复用 raw 续跑；11-10 三场（0900/1500/2100）已收条目均已排除"
@@ -54,7 +54,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证(CNBC 11-11 11:40 同报价格区间与 11-19 交易时点；Reuters 11-11 03:55 独家同报 1.4 万亿估值)",
           "publish_time": "2026-11-10 22:01",
-          "event_time": "2026-11-10",
+          "event_time": "2026-11-10 22:01",
           "event_time_inferred": false,
           "verify_note": "外部检索（CNBC 2026-11-11 11:40「Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19」；Reuters 2026-11-11 03:55「EXCLUSIVE: Anthropic eyes $1.4 trillion IPO valuation in test of Wall Street」；直链未寻得，Google News 聚合跳转无法解析原文）",
           "entities": [
@@ -186,6 +186,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证(Axios 11-11 02:01、Inc.com 11-11 02:28 同报)",
           "publish_time": "2026-11-11 01:30",
+          "event_time": "2026-11-11 01:30",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Axios 2026-11-11 02:01「Anthropic wants Claude to join your meetings」；Inc.com 2026-11-11 02:28 同报并讨论其最有用功能；The Tech Buzz 2026-11-11 02:10「Anthropic Launches Claude Meetings Days Before IPO」；直链未寻得，Google News 聚合跳转无法解析原文）",
           "entities": [
             {
@@ -326,7 +328,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证(Pandaily 11-11 10:42 报道权重开放；新智元 11-10 23:16 同报)",
           "publish_time": "2026-11-11 00:04",
-          "verify_note": "外部检索（Pandaily 2026-11-11 10:42「MiniMax Opens Weights for H3-Image, a 16-Megapixel Text-to-Image and Editing Model」；Pasquale Pillitteri 2026-11-10 23:31「4K open-weights images in 10-20 seconds」；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "verify_note": "外部检索（Pandaily 11-11 10:42「MiniMax Opens Weights for H3-Image, a 16-Megapixel Text-to-Image and Editing Model」；HuggingFace 仓库 MiniMaxAI/MiniMax-H3-Image 经 HN 收录于 2026-11-10 23:29（UTC→+08），可作权重放出旁证；Pasquale Pillitteri 2026-11-10 23:31「4K open-weights images in 10-20 seconds」；直链未寻得，Google News 聚合跳转无法解析原文）",
           "entities": [
             {
               "name": "MiniMax",
@@ -505,6 +507,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证(MLQ.ai 11-11 07:44、shattered.io 11-11 05:28 同报)",
           "publish_time": "2026-11-11 05:12",
+          "event_time": "2026-11-10 21:13",
+          "event_time_inferred": false,
           "verify_note": "外部检索（MLQ.ai 2026-11-11 07:44「Grok Build left 35,000 apps open to anyone, including SpaceX's own confidential...」；shattered.io 2026-11-11 05:28「Grok Build Sent 5.1 GiB for a 192 KB Task」；直链未寻得，Google News 聚合跳转无法解析原文）",
           "entities": [
             {
@@ -549,6 +553,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证(The Tech Buzz 11-11 05:03、MLQ.ai 11-11 05:34 同报 RAISE Act 开放注册)",
           "publish_time": "2026-11-11 04:52",
+          "event_time": "2026-11-10",
+          "event_time_inferred": false,
           "verify_note": "外部检索（The Tech Buzz 2026-11-11 05:03「New York's AI Safety Law Hits OpenAI, Anthropic Today」；MLQ.ai 2026-11-11 05:34「New York opens RAISE Act registration, giving OpenAI, Anthropic and other frontier labs...」；直链未寻得，Google News 聚合跳转无法解析原文）",
           "entities": [
             {
@@ -638,7 +644,8 @@
   ],
   "sourceStatus": [
     "- 工信部（miit-news）：DOWN，parse 0 条（连续失败）",
-    "- 说明：本场 raw 共 206 条候选，窗口 2026-11-10 21:00 → 2026-11-11 09:06；除工信部外各源 OK。"
+    "- 说明：本场 raw 共 206 条候选，窗口 2026-11-10 21:00 → 2026-11-11 09:06；除工信部外各源 OK。",
+    "---"
   ],
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-11-0900.json",
