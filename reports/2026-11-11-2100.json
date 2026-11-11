@@ -78,6 +78,11 @@
             "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[47]",
             "source_id": "sohu-jqzx",
             "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-2100/01_m.sohu.com_f0d9e0d6.html",
+            "sha256": "78c8ff64da17af26eede459b8bb53c6139c8f43f1bdaf6e8f21c4d0258405376",
+            "fetched_at": "2026-11-11T13:25:07.781Z"
           }
         },
         {
@@ -132,6 +137,11 @@
             "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[59]",
             "source_id": "sohu-jzgn",
             "source_name": "甲子光年(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-2100/02_m.sohu.com_cf8045c2.html",
+            "sha256": "1becc5a291430513913c746200f9b013db3f823d9d827901f674bdc80946f4cb",
+            "fetched_at": "2026-11-11T13:25:07.946Z"
           }
         },
         {
@@ -182,6 +192,11 @@
             "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[21]",
             "source_id": "ifanr",
             "source_name": "爱范儿"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-2100/03_www.ifanr.com_64790e31.html",
+            "sha256": "f20e2261c4f4423c6be6f2ea5de270939ce98b5e59400240b568d57eb57bf00a",
+            "fetched_at": "2026-11-11T13:25:08.091Z"
           }
         },
         {
@@ -226,6 +241,11 @@
             "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[11]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-2100/04_36kr.com_6470f8ac.html",
+            "sha256": "b3bb6ea83580b15e0dcc8aa41002850268f39766b940cf286ca0f87f92f4f4e4",
+            "fetched_at": "2026-11-11T13:25:08.302Z"
           }
         }
       ]
@@ -291,6 +311,11 @@
             "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[44]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-2100/05_36kr.com_22a3ea21.html",
+            "sha256": "39f6fd8eea68eaff8bc14bd512b55aa0e0954ab49f580355649611f40de34e70",
+            "fetched_at": "2026-11-11T13:25:08.492Z"
           }
         },
         {
@@ -353,6 +378,11 @@
             "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[54]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-2100/06_36kr.com_5f8793d9.html",
+            "sha256": "bd1b6555dddb57797e6974fb8679bedc4831d53c7e0020b5c367e9b6eadb1c6d",
+            "fetched_at": "2026-11-11T13:25:08.678Z"
           }
         }
       ]
@@ -408,6 +438,11 @@
             "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[28]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-2100/07_36kr.com_950025a9.html",
+            "sha256": "0ffedad61d9b397a3170f7153a31b8c0828e31213179eca7c2bb1fd7cb0b22a8",
+            "fetched_at": "2026-11-11T13:25:08.934Z"
           }
         }
       ]
@@ -463,6 +498,11 @@
             "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[77]",
             "source_id": "techcrunch",
             "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-2100/08_techcrunch.com_f4e4ebe1.html",
+            "sha256": "4fcc445882d94c1fb1335044445babe427659599d5e36811823449a5dcbdff1d",
+            "fetched_at": "2026-11-11T13:25:10.926Z"
           }
         },
         {
@@ -507,6 +547,11 @@
             "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[15]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-2100/09_36kr.com_a080e6eb.html",
+            "sha256": "c1cf024ca1bf0c68dd4c21a9301a670cdd43a9040c90f95f7deb6c24de659085",
+            "fetched_at": "2026-11-11T13:25:11.117Z"
           }
         },
         {
@@ -543,6 +588,11 @@
             "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[7]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-11-2100/10_36kr.com_47e3a4f8.html",
+            "sha256": "ce49ecc43207b6cc2b4105f89643423d1aa5461e158b215e318a42a0f88f10dc",
+            "fetched_at": "2026-11-11T13:25:11.296Z"
           }
         }
       ]
@@ -585,7 +635,7 @@
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-11-2100.json",
     "evidence_file": "reports/raw/2026-11-11-2100.evidence.json",
-    "snapshot_dir": null,
+    "snapshot_dir": "archives/2026-11-11-2100/",
     "raw_candidates": 102,
     "matched": 10
   }
