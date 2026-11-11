@@ -1,6 +1,32 @@
 {
-  "count": 129,
+  "count": 130,
   "reports": [
+    {
+      "id": "2026-11-11-2100",
+      "date": "2026-11-11",
+      "time": "21:00",
+      "title": "AI 情报 · 11-11 21:00 场",
+      "itemCount": 10,
+      "coverage": "2026-11-11 15:00 → 2026-11-11 21:05（Asia/Shanghai）",
+      "note": "当日 09:00、15:00 两场已报条目（Gemini Robotics 2.5、Anthropic IPO 路演与定价区间、欧盟版权判例等）不再重收，仅作回访",
+      "overview": [
+        "阿里 Qwen4-Max 预览版突袭上线，1M 上下文 + Token Plan 限时 1 折，海外开发者把它排进与 Fable 5.2、GPT-6.2 同一梯队。",
+        "百度文心 5.5 Flash Preview 发布：280B 总参、14B 激活、百万上下文，11-25 权重全球开源。",
+        "DeepMind AlphaProof Code 用 4 周写出 650 万行 Lean 证明，首次把 Signal 加密协议验证到机器码层。",
+        "Anthropic 修订 S-1：新增微软/谷歌云算力承诺，同时把 350 亿美元 Lambda 协议改为可取消。",
+        "Claude Code 的「不再询问」把数据库密码写进配置文件，1,122 份公开副本泄密；同期 Anthropic 11-12 起执行最严封号新规。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 2,
+        "policy": 1,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 118,
+        "selected": 10
+      }
+    },
     {
       "id": "2026-11-11-1500",
       "date": "2026-11-11",

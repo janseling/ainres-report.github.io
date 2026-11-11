@@ -1,0 +1,592 @@
+{
+  "id": "2026-11-11-2100",
+  "date": "2026-11-11",
+  "time": "21:00",
+  "title": "AI 情报 · 11-11 21:00 场",
+  "generatedAt": "2026-11-11T13:24:15.425Z",
+  "coverage": "2026-11-11 15:00 → 2026-11-11 21:05（Asia/Shanghai）",
+  "notes": [
+    "当日 09:00、15:00 两场已报条目（Gemini Robotics 2.5、Anthropic IPO 路演与定价区间、欧盟版权判例等）不再重收，仅作回访"
+  ],
+  "itemCount": 10,
+  "rawStats": {
+    "candidates": 118,
+    "selected": 10
+  },
+  "overview": [
+    "阿里 Qwen4-Max 预览版突袭上线，1M 上下文 + Token Plan 限时 1 折，海外开发者把它排进与 Fable 5.2、GPT-6.2 同一梯队。",
+    "百度文心 5.5 Flash Preview 发布：280B 总参、14B 激活、百万上下文，11-25 权重全球开源。",
+    "DeepMind AlphaProof Code 用 4 周写出 650 万行 Lean 证明，首次把 Signal 加密协议验证到机器码层。",
+    "Anthropic 修订 S-1：新增微软/谷歌云算力承诺，同时把 350 亿美元 Lambda 协议改为可取消。",
+    "Claude Code 的「不再询问」把数据库密码写进配置文件，1,122 份公开副本泄密；同期 Anthropic 11-12 起执行最严封号新规。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "阿里 Qwen4-Max 预览版上线：1M 上下文 + Token Plan 限时一折，首发即被海外开发者抢测",
+          "meta": "机器之心Pro(搜狐同步) · 2026-11-11 18:38",
+          "urls": [
+            "https://m.sohu.com/a/1100235068_129720"
+          ],
+          "summary": "发布采用极简式：官方账号只讲性能与接入方式——知识理解更深、世界感知更立体、Coding 与 Agentic 持续进阶，擅长复杂编程、专业办公、前端设计与专业软件操作。同步上线阿里 Token Plan、千问办公、Qoder、千问 APP、Qwen Studio；限时最低一折体验。海外实测反馈在复杂编程、3D 场景构建与交互设计上表现亮眼，但「比不上前两者」（指 Fable 5.2 与 GPT-6.2 Sol）。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "Token 一折是典型「先占用量、再谈毛利」：对做 Agent 产品的团队，这是把推理成本压到可验证区间的窗口期，但订阅式 Token Plan 与按量 API 的差额会决定明年你的毛利结构。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "变现侧看两点：1M 上下文让「整仓库读入 + 长任务编排」变得可商业交付；同时它把上一代 Qwen 的能力水位抬高一档，基于旧版做微调交付的团队护城河正在被官方自己削平。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "待独立基准验证：官方未给 AA 盲评或 Terminal-Bench 分数，本轮只有体验级证据，能力结论不宜当作选型依据。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(TechNode+AIBase)",
+          "publish_time": "2026-11-11 18:38",
+          "event_time": "2026-11-11",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（TechNode 2026-11-11 14:54 北京「Alibaba opens Qwen4-Max preview with a million-token context window」+ AIBase「Token Plan 限时低至原价 10%」口径一致; https://technode.com/2026/11/11/alibaba-opens-qwen4-max-preview-with-a-million-token-context-window/）",
+          "entities": [
+            {
+              "name": "阿里巴巴",
+              "type": "企业"
+            },
+            {
+              "name": "Qwen",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1100235068_129720",
+            "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[47]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          }
+        },
+        {
+          "title": "百度文心 5.5 Flash Preview 发布：280B 总参 / 14B 激活，11-25 权重全球开源",
+          "meta": "甲子光年(搜狐同步) · 2026-11-11 17:23",
+          "urls": [
+            "https://m.sohu.com/a/1100205335_100016644"
+          ],
+          "summary": "模型总参 2800 亿、每 token 激活 140 亿，支持最长 100 万 token 上下文，每秒生成 200+ tokens。底层用混合稀疏注意力、多路由器 MoE、ECHO 多 token 预测；首次引入自研 RSI 技术，由 ERNIE Evolve 参与推理优化。已在百度智能云千帆开放 API，定价每百万 token 输入忙时 2 元/闲时 1 元、输出忙时 8 元/闲时 4 元，限时五折。权重 11-25 面向全球开源。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "输入 2 元、输出 8 元的定价已接近国内「白菜价」档；叠加 11-25 开源，等于把同参数规模的闭源 API 生意直接压薄——对分发方是利好，对靠差价过日子的中间层是坏消息。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "训练面有两个细节值得抄作业：专门针对 Blender/CAD 与游戏开发做专项训练，以及给金融/法律建了 30 万工作空间、1000 万份参考文件的训练环境。行业数据壁垒仍是可以自己攒的差异化。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "RSI 首次进入基座训练侧（ERNIE Evolve 参与推理优化），这是「模型改进模型」在国内头部厂商的第一次明确工程化落地，但仍属探索阶段，不宜过度外推。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(Pandaily+KuCoin)",
+          "publish_time": "2026-11-11 17:23",
+          "event_time": "2026-11-11",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（Pandaily 2026-11-11 15:43 北京「Baidu Releases ERNIE 5.5 Flash Preview on Qianfan, With Open Weights Promised by November 25」同口径; https://pandaily.com/baidu-releases-ernie-5-5-flash-preview-on-qianfan）",
+          "entities": [
+            {
+              "name": "百度",
+              "type": "企业"
+            },
+            {
+              "name": "ERNIE",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1100205335_100016644",
+            "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[59]",
+            "source_id": "sohu-jzgn",
+            "source_name": "甲子光年(搜狐同步)"
+          }
+        },
+        {
+          "title": "字节筹备「中国版 Muse」：豆包从聊天框走向可自主执行数周任务的个人 Agent",
+          "meta": "爱范儿 · 2026-11-11 19:52",
+          "urls": [
+            "https://www.ifanr.com/1689016"
+          ],
+          "summary": "据彭博社，字节正筹备一款类 Meta Muse 的个人 AI Agent，让豆包记住用户需求、主动规划并执行任务。此前财新披露，字节 4 月已启动代号「Spell」的项目，由豆包手机助手团队负责；9 月 Meta 推出 Muse 后，字节加快进度并推动 Spell 与豆包对话团队整合。现有落点包括 9 月底的「出行用豆包」入口、8 月与飞书打通的「豆包工作」，以及搭载手机助手的努比亚 NaviX Ultra。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "Muse 的关键不是聊天，是云端独立执行环境（Muse Secure VM）——谁掌握 Agent 的运行时，谁就掌握后续的应用分发与计费入口。字节若把豆包做成「持续运行」的助理，其广告与电商的转化链路会被整体重写。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对独立开发者：个人 Agent 的执行沙箱、授权与审计会成为新的基础设施需求，这一类中间件比再做一个聊天壳更有壁垒。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·彭博爆料，无官方确认",
+          "publish_time": "2026-11-11 19:52",
+          "verify_note": "外部检索（FourWeekMBA 2026-11-11 18:56 北京同报「ByteDance Readies Muse Rival; Doubao Tops 180T Daily Tokens」+ Caixin 2026-10-12 同线「字节腾讯跟进个人 Agent」; https://caixinglobal.com/2026-10-12/bytedance-tencent-rush-personal-ai-agents-meta-muse）",
+          "entities": [
+            {
+              "name": "字节跳动",
+              "type": "企业"
+            },
+            {
+              "name": "豆包",
+              "type": "产品"
+            },
+            {
+              "name": "Meta",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.ifanr.com/1689016",
+            "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[21]",
+            "source_id": "ifanr",
+            "source_name": "爱范儿"
+          }
+        },
+        {
+          "title": "Anthropic 修订 S-1：新增微软、谷歌云算力承诺，350 亿美元 Lambda 协议改为可取消",
+          "meta": "36氪 · 2026-11-11 20:27",
+          "urls": [
+            "https://36kr.com/p/4065329936487298"
+          ],
+          "summary": "修订后 Anthropic 新增约 100 亿美元微软与谷歌云的算力采购承诺，同时把与 Lambda 的 350 亿美元协议改为可取消。这与 11-10 更新的招股书披露相扣：总承诺支出约 4516 亿美元在 2030 年底前发生，其中 12 个月内到期约 707 亿美元。💻 观点：这也是云厂商在 AI 供应链上话语权的一次显影：承诺可以加，但可取消权必须在自己手里。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "条款从「锁定」改为「可取消」，是 IPO 定价权博弈的直接产物——买家在用合同条款给 Anthropic 的未来支出弹性留后门，同时把算力供应方的收入确定性下调。做算力租赁/转售的团队，别按「长约已签」来估值现金流。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "双源佐证(MLQ+Yahoo)",
+          "publish_time": "2026-11-11 20:27",
+          "verify_note": "外部检索（MLQ.ai 2026-11-11 05:34 北京直读修订版 S-1「$35 billion Lambda compute deal can now be cancelled, and raises its Microsoft commitment」; https://mlq.ai/news/anthropic-amended-s1-lambda-compute-deal-cancelled-microsoft-commitment）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Microsoft",
+              "type": "企业"
+            },
+            {
+              "name": "Google",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4065329936487298",
+            "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[11]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术突破 / 模型进展",
+      "items": [
+        {
+          "title": "DeepMind AlphaProof Code 花 4 周写出 650 万行 Lean 证明，首次把 Signal 加密协议验证到机器码层",
+          "meta": "36氪 · 2026-11-11 18:46",
+          "urls": [
+            "https://36kr.com/p/4065200904819846"
+          ],
+          "summary": "5 名 DeepMind 专家与 Agent 协作：先把 Signal 需满足的安全性质写成 Lean 规范并逐条审核，再由 Gemini 4 Carbon 驱动的 Agent 分工证明与检查，一路追到 Signal 实际编译出的机器码。4 周产出约 650 万行 Lean 证明，覆盖约 14 万条机器指令；最终需专家重点复核的部分只占约 1%。Signal CTO Ehren Kret 公开称这是里程碑。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "这是形式化验证第一次从「数学家的贵族活」变成可外包给 Agent 的工程活：过往为 seL4 这类系统做验证要人连续干 20 年，现在压缩到 4 周。真正的门槛从此变成「谁来写对规范」。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "变现角度：代码审计、协议安全认证、金融与医疗软件合规，都是能按「证明覆盖率」计价的新品类；做安全交付的团队，现在可以尝试把验证步骤产品化。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "注意边界：验证的是代码符合规范，不是规范本身正确；Agent 证明了「实现没 bug」，不证明「需求没写错」。这层责任仍要人来背，也正是咨询费的来源。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "官方一手+The Register 同报",
+          "publish_time": "2026-11-11 18:46",
+          "event_time": "2026-11-10",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（The Register 2026-11-10 20:00 北京「Google DeepMind melds humans and AI agents to vet Signal's secure messaging techniques」+ DeepMind 官方博客同日; https://deepmind.google/blog/formal-verification-of-signals-protocol-with-gemini/）",
+          "entities": [
+            {
+              "name": "Google DeepMind",
+              "type": "企业"
+            },
+            {
+              "name": "Gemini",
+              "type": "产品"
+            },
+            {
+              "name": "Signal",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4065200904819846",
+            "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[44]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
+        },
+        {
+          "title": "Anthropic 路演披露：Claude Mythos Preview 三天自主完成 CUDA→AMD 内核移植，近 100% 底层内核自写",
+          "meta": "36氪 · 2026-11-11 17:42",
+          "urls": [
+            "https://36kr.com/p/4065135064109961"
+          ],
+          "summary": "联合创始人兼首席算力官 Tom Brown 在 IPO 路演中称：接入 AMD MI355X 时，Claude Mythos Preview 在基本无人工干预下约三天跑通、几乎 100% 底层内核由模型自主移植或编写，而此类工作过去需 6~12 个月、数十名编译器与高性能计算工程师。7 月他在 AMD Advancing AI 大会上已向苏姿丰展示过早期尝试。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "字节级的工程壁垒正在被模型自身「向下重写系统软件」的能力抹平。对做异构芯片适配、算子优化的团队：单纯靠「会写 CUDA/ROCm 算子」吃饭的窗口在收窄，往「能定义验证标准与性能基线」上走更稳。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "工程师圈的质疑成立且必须写进来：跑通部分推理算子 ≠ 万卡集群生产稳定运行，中间隔着巨大的工程鸿沟；且本次无第三方独立复现。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "资本侧含义更直接：一旦芯片适配成本从「半年+几十人」降到「几天」，英伟达的软件护城河定价就要重估——这是 Anthropic 在路演里讲这个故事的真实动机。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "路演一手口径，未见第三方独立同报",
+          "publish_time": "2026-11-11 17:42",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源(外查 11-11)",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            },
+            {
+              "name": "AMD",
+              "type": "企业"
+            },
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4065135064109961",
+            "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[54]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策监管",
+      "items": [
+        {
+          "title": "Anthropic 最严封号新规：11-12 全面生效，实控人属地与订阅转发一并封杀",
+          "meta": "36氪 · 2026-11-11 19:34",
+          "urls": [
+            "https://36kr.com/p/4065245506917251"
+          ],
+          "summary": "三项核心变化：一是任何未列出国家/地区均不受支持，涵盖「人处在不支持地区」「实体注册在彼处」「被彼处个人或实体直接间接多数控股」三种情形——硅谷皮包公司套壳调 API 也照封；二是禁止用消费级订阅转发请求，封杀转卖与代理；三是引入 30 天数据留存与行为规律风控（调用时区、语言特征、多账号并发），从瞬时 IP 判定改为行为画像。💻 观点：这是 IPO 前把监管摩擦一次性前置的典型动作——代价是海外开发者信任，收益是招股书干净的合规叙事。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "动机写在 S-1 里：过去 9 个月有 5%~7% 的收入来自事后被认定违规的客户。为给华尔街一份干净的招股书，清场是必选项。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对国内团队的实际影响：依赖 Claude 做生产链路的，必须准备第二供应商与迁移预案；「用订阅额度跑产品」这类做法已明确不可行，合规成本要重新进模型。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·无独立同报",
+          "publish_time": "2026-11-11 19:34",
+          "event_time": "2026-11-12",
+          "event_time_inferred": false,
+          "verify_note": "未见独立来源(外查 11-11)",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4065245506917251",
+            "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[28]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向 / 应用玩法",
+      "items": [
+        {
+          "title": "NVIDIA 及黄仁勋遭股东集体诉讼，董事会聘 Wachtell 启动内部调查",
+          "meta": "TechCrunch · 2026-11-11 15:30",
+          "urls": [
+            "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn"
+          ],
+          "summary": "NVIDIA 周一、周二两个交易日累计跌约 9.5%。诉讼核心是证券欺诈：指控公司在黄仁勋与 Alice Huang（美情报机构认为其为中方从事间谍活动）关系存续期间，把与其原雇主的往来描述为常规业务，从而误导投资者。董事会已聘 Wachtell, Lipton, Rosen & Katz 做内部调查，并表态「没有理由相信国家安全或 NVIDIA 机密受损」。治理学者普遍认为此案无先例——性丑闻案与国家安全泄露叠加尚属首例。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "对二级市场：黄仁勋持股约 3.6%、无双层股权，意味着「换 CEO」在治理层面并非不可行——这是 NVIDIA 与多数创始人公司最大的结构差异，也是估值里长期被忽略的尾部风险。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对 AI 供应链的传导：内部调查若牵出客户/渠道合规问题，最直接受冲击的是对华业务链条与相关转售环节。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(AP+Reuters)",
+          "publish_time": "2026-11-11 15:30",
+          "event_time": "2026-11-09",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（AP News 2026-11-11 07:32 北京「Nvidia and Jensen Huang face shareholder lawsuit alleging investors were misled」+ Reuters 2026-11-10 06:40「Nvidia, CEO Huang sued over disclosures related to suspected Chinese spy」; https://apnews.com/article/nvidia-jensen-huang-shareholder-lawsuit）",
+          "entities": [
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "Jensen Huang",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn",
+            "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[77]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          }
+        },
+        {
+          "title": "IBM 发布 Nighthawk r3 量子处理器，计划 2027 年突破 1000 量子比特",
+          "meta": "36氪 · 2026-11-11 20:14",
+          "urls": [
+            "https://36kr.com/p/4065317160621185"
+          ],
+          "summary": "Nighthawk r3 主打单处理器 10,000 次运算的执行能力，IBM 计划 2027 年把系统规模推到 1000 量子比特以上。此前延世大学已部署具备每秒 10 万次运算能力的 Nighthawk。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "判断口径：运算次数与量子比特数是两条不同的曲线，前者决定「能不能跑有用算法」，后者决定「能装多大规模的题」。IBM 这次把重心放在前者，是务实的信号。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "量子对 AI 变现的距离仍远：当前更现实的机会在「后量子密码迁移」（PQC）咨询与合规，而不是量子机器学习。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证(SiliconANGLE+TradingView)",
+          "publish_time": "2026-11-11 20:14",
+          "event_time": "2026-11-11",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（SiliconANGLE 2026-11-11 20:00 北京「IBM Quantum announces upcoming Nighthawk r3 processor designed to execute 10,000 operations」+ TradingView 同报 2027 超 1000 量子比特; https://siliconangle.com/2026/11/11/ibm-quantum-nighthawk-r3-processor/）",
+          "entities": [
+            {
+              "name": "IBM",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4065317160621185",
+            "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[15]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
+        },
+        {
+          "title": "广东新增 3 款完成备案的生成式 AI 服务",
+          "meta": "36氪 · 2026-11-11 20:35",
+          "urls": [
+            "https://36kr.com/p/4065338009654400"
+          ],
+          "summary": "广东新增 3 款已完成备案的生成式人工智能服务。单条价值不大，但备案节奏是地方 AI 应用落地的领先指标：备案越密，意味着可对外提供的合规模型服务越多。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对做 to B 交付的团队：备案清单就是「可合法卖给客户」的白名单，选基座模型时先查备案，能省掉一轮合规返工。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·地方备案通报",
+          "publish_time": "2026-11-11 20:35",
+          "verify_note": "未见独立来源(外查 11-11)",
+          "entities": [
+            {
+              "name": "广东",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4065338009654400",
+            "raw_ref": "reports/raw/2026-11-11-2100.json#candidates[7]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "Qwen4-Max 正式版与开源权重的落地窗口",
+      "text": "（SIG-20261111-2100-1，check 2026-11-25）：预览版已上线但只有体验级证据；盯 AA 盲评/Terminal-Bench 分数、权重是否放开（社区已在追问「Qwen4 open weights not soon」），以及 Token Plan 一折结束后按量价格回到什么水位——这决定基于它的产品毛利能否成立。",
+      "sigId": "SIG-20261111-2100-1"
+    },
+    {
+      "lead": "文心 5.5 Flash 权重按约在 11-25 开源",
+      "text": "（SIG-20261111-2100-2，check 2026-11-26）：盯 HuggingFace 上权重实际放出、许可条款（是否限制商用/地区）、以及社区复现的 280B/14B 激活实测速度是否达到官方 200+ tokens/s。",
+      "sigId": "SIG-20261111-2100-2"
+    },
+    {
+      "lead": "Claude 封号新规 11-12 生效后的执行强度",
+      "text": "（SIG-20261111-2100-3，check 2026-11-16）：盯生效首周的误封申诉量、API 侧是否同步执行、以及是否出现官方 FAQ 口径松动；这直接影响国内团队「能否继续把 Claude 放在生产链路」。",
+      "sigId": "SIG-20261111-2100-3"
+    },
+    {
+      "lead": "Anthropic IPO 定价终值与首日表现",
+      "text": "（SIG-20261110-2100-1，延续）：70~78 美元区间、约 11-19 开始交易；新增的 Lambda 协议可取消条款与微软/谷歌算力承诺，是首日之后估值能否守住的合同面依据。",
+      "sigId": null
+    },
+    {
+      "lead": "Agent 凭证卫生成为独立品类",
+      "text": "（SIG-20261111-2100-4，check 2026-12-01）：Apiiro 报告之后，盯是否有厂商推出 agent 配置文件扫描/密钥阻断产品并完成融资——这类需求有明确触发事件，验证周期短。",
+      "sigId": "SIG-20261111-2100-4"
+    }
+  ],
+  "sourceStatus": [
+    "- geekpark：FALLBACK（curl exit 28 超时，收到 180KB 后中断，parse 0）——连续第 1 期",
+    "- Hacker News（hnrss）：DOWN（HTTP 502）——连续第 1 期",
+    "- OpenAI 官网 RSS：DOWN（HTTP 403）——连续第 1 期",
+    "- Reddit：部分可用（subs 1/3，21 条）",
+    "- 说明：36氪正文页本轮多次被火山引擎 WAF 拦截（`_waf_verification` 挑战页），已改用 render.js 渲染器逐条抓取；m.sohu.com 需默认 curl UA（不带 -A）才返回正文"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-11-2100.json",
+    "evidence_file": "reports/raw/2026-11-11-2100.evidence.json",
+    "snapshot_dir": null,
+    "raw_candidates": 102,
+    "matched": 10
+  }
+}
