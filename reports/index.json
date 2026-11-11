@@ -6,7 +6,7 @@
       "date": "2026-11-11",
       "time": "21:00",
       "title": "AI 情报 · 11-11 21:00 场",
-      "itemCount": 10,
+      "itemCount": 11,
       "coverage": "2026-11-11 15:00 → 2026-11-11 21:05（Asia/Shanghai）",
       "note": "当日 09:00、15:00 两场已报条目（Gemini Robotics 2.5、Anthropic IPO 路演与定价区间、欧盟版权判例等）不再重收，仅作回访",
       "overview": [
@@ -19,7 +19,7 @@
       "sectionCounts": {
         "product": 4,
         "tech": 2,
-        "policy": 1,
+        "policy": 2,
         "industry": 3
       },
       "rawStats": {
