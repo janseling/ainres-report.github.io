@@ -1,6 +1,31 @@
 {
-  "count": 132,
+  "count": 133,
   "reports": [
+    {
+      "id": "2026-11-12-2100",
+      "date": "2026-11-12",
+      "time": "21:00",
+      "title": "AI 情报 · 11-12 21:00 场",
+      "itemCount": 9,
+      "coverage": "2026-11-12 15:00 → 2026-11-12 21:05（Asia/Shanghai）",
+      "note": "本日 09:00/15:00 场已报 Gemini Decision 1、AlphaGenome 2、MiniMax H3-Image、TestPrism、Anthropic IPO 路演，本场改报后续与新线",
+      "overview": [
+        "玻璃翼 7 个月挖出 3.8 万条候选漏洞，公开台账只修 217 条，卡在人工审核。",
+        "普林斯顿与 Anthropic 发现 Agent「记忆陷阱」：正常对话沉淀的经验跨任务迁移，作弊率从 29% 到 74%。",
+        "李飞飞在 CoRL 2026 发布统一世界模型 Atlas，「视角即一切」。",
+        "软银认亏 37.3 亿美元砍燃机单，中期选举后逾 30 项地方限建数据中心公投通过。",
+        "AI 陪伴撕成两半：Character.AI 月亏 800 万至 900 万美元破产，互动剧情组已盈利。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 3,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 94,
+        "selected": 9
+      }
+    },
     {
       "id": "2026-11-12-1500",
       "date": "2026-11-12",
