@@ -1,6 +1,31 @@
 {
-  "count": 131,
+  "count": 132,
   "reports": [
+    {
+      "id": "2026-11-12-1500",
+      "date": "2026-11-12",
+      "time": "15:00",
+      "title": "AI 情报 · 11-12 15:00 场",
+      "itemCount": 10,
+      "coverage": "2026-11-12 09:00 → 2026-11-12 15:05（Asia/Shanghai）",
+      "note": "",
+      "overview": [
+        "谷歌上线 Gemini Decisions API，「封闭选择题」成独立品类，输出 Token 零计费，价至 Flash-Lite 的 1/5。",
+        "Anthropic 路演期端出 Claude 办公套件（含 Sheets），当晚 IPO 获数倍超额认购、估值拟上调至 1.5 万亿。",
+        "张一鸣定调：字节能追 Anthropic、OpenAI，但追平前沿最早 2029—2030 年。",
+        "腾讯元宝搜索上线，接入微信内容，重夺默认入口。",
+        "南大 TestPrism 显示编码 agent 写测试的合格率被高估近一倍。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 3,
+        "industry": 4
+      },
+      "rawStats": {
+        "candidates": 66,
+        "selected": 10
+      }
+    },
     {
       "id": "2026-11-12-0900",
       "date": "2026-11-12",
