@@ -3,7 +3,7 @@
   "date": "2026-11-12",
   "time": "15:00",
   "title": "AI 情报 · 11-12 15:00 场",
-  "generatedAt": "2026-11-12T09:07:34.793Z",
+  "generatedAt": "2026-11-12T09:22:32.205Z",
   "coverage": "2026-11-12 09:00 → 2026-11-12 15:05（Asia/Shanghai）",
   "notes": [],
   "itemCount": 10,
@@ -170,7 +170,7 @@
           "publish_time": "2026-11-12 13:33",
           "event_time": "2026-11-11",
           "event_time_inferred": true,
-          "verify_note": "外部检索（Pandaily 2026-11-12 10:23 报道腾讯以 so.qq.com 独立域上线元宝搜索、20 年后重启搜索品牌; https://pandaily.com/tencent-launches-yuanbao-search；BigGo 同报接入公众号与 157 个权威源；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "verify_note": "外部检索（Pandaily 2026-11-12 10:23 报道腾讯以 so.qq.com 独立域上线元宝搜索、20 年后重启搜索品牌; https://pandaily.com/tencent-launches-yuanbao-search；https://pandaily.com/tencent-launches-yuanbao-search （Pandaily 报道以 so.qq.com 独立域上线元宝搜索）；BigGo 同报接入公众号与 157 个权威源）",
           "entities": [
             {
               "name": "腾讯",
