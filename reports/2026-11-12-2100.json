@@ -3,7 +3,7 @@
   "date": "2026-11-12",
   "time": "21:00",
   "title": "AI 情报 · 11-12 21:00 场",
-  "generatedAt": "2026-11-12T15:17:32.657Z",
+  "generatedAt": "2026-11-12T18:07:00.416Z",
   "coverage": "2026-11-12 15:00 → 2026-11-12 21:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00/15:00 场已报 Gemini Decision 1、AlphaGenome 2、MiniMax H3-Image、TestPrism、Anthropic IPO 路演，本场改报后续与新线"
@@ -109,7 +109,7 @@
           ],
           "confidence": "中",
           "confidence_note": "B单源+前序独立源印证",
-          "publish_time": "2026-11-12 09:00",
+          "publish_time": "2026-11-12 16:24",
           "verify_note": "外部检索（KuCoin News 2026-11-11 20:03 报道多模型扩围；https://kucoin.com/news/doubao-work-expands-multi-model-support；直链未寻得，Google News 聚合跳转无法解析原文）",
           "entities": [
             {
@@ -172,7 +172,9 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 FT+Yahoo",
-          "publish_time": "2026-11-12 08:00",
+          "publish_time": "2026-11-12 16:00",
+          "event_time": "2026-11-10",
+          "event_time_inferred": true,
           "verify_note": "外部检索（Financial Times 2026-11-10 10:55 GMT 报道数据中心资产减记致 70 亿美元亏损；https://ft.com/content/softbank-7bn-loss-data-centre；直链未寻得，Google News 聚合跳转无法解析原文）",
           "entities": [
             {
@@ -293,7 +295,7 @@
           ],
           "confidence": "中",
           "confidence_note": "B单源",
-          "publish_time": "2026-11-12 11:49",
+          "publish_time": "2026-11-12 19:49",
           "verify_note": "未见独立来源(外查 11-12)",
           "entities": [
             {
@@ -343,7 +345,7 @@
           ],
           "confidence": "中",
           "confidence_note": "B单源",
-          "publish_time": "2026-11-12 11:46",
+          "publish_time": "2026-11-12 19:46",
           "verify_note": "未见独立来源(外查 11-12)",
           "entities": [
             {
@@ -397,7 +399,7 @@
           ],
           "confidence": "中",
           "confidence_note": "B单源，破产事实双源佐证",
-          "publish_time": "2026-11-12 11:31",
+          "publish_time": "2026-11-12 19:31",
           "verify_note": "外部检索（CNN Business 2026-10-13 07:00 GMT 报道 Character.ai 申请破产，诉讼与成本为主因；https://cnn.com/2026/10/13/business/character-ai-bankruptcy；直链未寻得，Google News 聚合跳转无法解析原文）",
           "entities": [
             {
@@ -451,7 +453,7 @@
           ],
           "confidence": "低",
           "confidence_note": "B源转述未指明出处",
-          "publish_time": "2026-11-12 08:31",
+          "publish_time": "2026-11-12 16:31",
           "verify_note": "未见独立来源(外查 11-12)",
           "entities": [
             {
@@ -502,7 +504,7 @@
           ],
           "confidence": "中",
           "confidence_note": "B单源，有事主自认",
-          "publish_time": "2026-11-12 08:16",
+          "publish_time": "2026-11-12 16:16",
           "event_time": "2026-11-09",
           "event_time_inferred": true,
           "verify_note": "未见独立来源(外查 11-12)",
@@ -557,7 +559,8 @@
     "- hn：FALLBACK，HTTP 502，本轮 0 条。",
     "- openai：FALLBACK，HTTP 403，本轮 0 条（官方源不可达，本期无 A 级 OpenAI 条目）。",
     "- sohu-xzy / sohu-jqzx / sohu-jzgn：parse_loss 各 3~4 条（镜像页结构变动）。",
-    "- arxiv / huggingface / deepmind / nvidia / qwen / deepseek / moonshot / mimo：返回 0 条新稿（窗口内无更新，非故障）。"
+    "- arxiv / huggingface / deepmind / nvidia / qwen / deepseek / moonshot / mimo：返回 0 条新稿（窗口内无更新，非故障）。",
+    "---"
   ],
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-12-2100.json",
