@@ -3,7 +3,7 @@
   "date": "2026-11-13",
   "time": "09:00",
   "title": "AI 情报 · 11-13 09:00 场",
-  "generatedAt": "2026-11-13T02:05:12.829Z",
+  "generatedAt": "2026-11-13T02:14:14.922Z",
   "coverage": "2026-11-12 21:00 → 2026-11-13 09:00（Asia/Shanghai）",
   "notes": [
     "与 11-12 21:00 场去重：黄仁勋「接班人悬念」已于前场报出，本场只收辞职落定与后续处置"
@@ -54,8 +54,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 Quantisnow+24/7 Wall St.",
           "publish_time": "2026-11-12 21:27",
-          "event_time": "2026-11-12",
-          "event_time_inferred": true,
+          "event_time": "2026-11-13 05:27",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Quantisnow 2026-11-12 18:53 报当日午后跌 16.5%，同板块 CoreWeave 跌 10%；https://www.quantisnow.com/quote/NBIS）",
           "entities": [
             {
@@ -152,13 +152,9 @@
           "confidence": "高",
           "confidence_note": "双源佐证 Bloomberg+Fierce Healthcare",
           "publish_time": "2026-11-12 10:00",
+          "event_time": "2026-11-12",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Fierce Healthcare 2026-11-12 14:50 报该基金为全球多阶段基金，投向医疗、生物科技与 AI；https://www.fiercehealthcare.com/health-tech/norwest-closes-4b-global-multi-stage-fund）",
-          "entities": [
-            {
-              "name": "Norwest",
-              "type": "企业"
-            }
-          ],
           "provenance": {
             "url": "https://www.bloomberg.com/news/articles/norwests-new-4-billion-fund-will-avoid-shiny-objects",
             "raw_ref": null,
@@ -193,6 +189,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 TC+The Tech Buzz",
           "publish_time": "2026-11-12 19:11",
+          "event_time": "2026-11-12",
+          "event_time_inferred": false,
           "verify_note": "外部检索（The Tech Buzz 2026-11-12 19:33 同报该产品做影响者营销自动化；https://thetechbuzz.com/nectar-launches-ai-agent-influencer-marketing）",
           "entities": [
             {
@@ -402,7 +400,7 @@
           "confidence_note": "三源佐证 NYT+WaPo+Forbes",
           "publish_time": "2026-11-12 14:42",
           "event_time": "2026-11-11",
-          "event_time_inferred": true,
+          "event_time_inferred": false,
           "verify_note": "外部检索（NYT 2026-11-11 23:15 首发报道美联航禁止第三方 AI Agent 代客订票；WaPo 2026-11-12 20:30 同报；https://www.washingtonpost.com/travel/2026/11/12/united-airlines-blocks-ai-agents-booking-flights/）",
           "entities": [
             {
@@ -606,6 +604,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 BBC+Bloomberg",
           "publish_time": "2026-11-12 20:25",
+          "event_time": "2026-11-12",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Bloomberg 2026-11-12 23:35 报微软称正在修复 Outlook 与 Copilot 故障；Mashable 同日 23:26 报 365/Teams/Outlook/Copilot 全部受影响；https://www.bloomberg.com/news/articles/microsoft-says-its-working-to-fix-outlook-copilot-outage）",
           "entities": [
             {
@@ -696,6 +696,8 @@
           "confidence": "高",
           "confidence_note": "三源佐证 SecurityWeek+BleepingComputer+The Register",
           "publish_time": "2026-11-12 15:02",
+          "event_time": "2026-11-03",
+          "event_time_inferred": false,
           "verify_note": "外部检索（SecurityWeek 2026-11-12 11:08 报 Notion 客户数据在该事件中被泄露；BleepingComputer 11-11 20:54 指明暴露 AI 聊天记录；The Register 11-10 报其数周内第二次被破；https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/）",
           "entities": [
             {
@@ -741,6 +743,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 TC+Crypto Briefing",
           "publish_time": "2026-11-12 17:36",
+          "event_time": "2026-11-12",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Crypto Briefing 2026-11-12 17:41 同报其表态；https://www.cryptobriefing.com/hugging-face-ceo-open-source-ai-huang/）",
           "entities": [
             {
