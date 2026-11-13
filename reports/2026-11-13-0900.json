@@ -3,7 +3,7 @@
   "date": "2026-11-13",
   "time": "09:00",
   "title": "AI 情报 · 11-13 09:00 场",
-  "generatedAt": "2026-11-13T01:25:22.997Z",
+  "generatedAt": "2026-11-13T02:05:12.829Z",
   "coverage": "2026-11-12 21:00 → 2026-11-13 09:00（Asia/Shanghai）",
   "notes": [
     "与 11-12 21:00 场去重：黄仁勋「接班人悬念」已于前场报出，本场只收辞职落定与后续处置"
@@ -105,15 +105,13 @@
           "confidence": "高",
           "confidence_note": "双源佐证 Reuters+Bloomberg",
           "publish_time": "2026-11-13 00:42",
+          "event_time": "2026-11-12 23:56",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Reuters 2026-11-12 23:56 首发、Bloomberg 同日 20:28 同步报道，均为消息人士口径；https://www.reuters.com/technology/kalshi-talks-raise-funds-65-billion-valuation）",
           "entities": [
             {
               "name": "Kalshi",
               "type": "企业"
-            },
-            {
-              "name": "Reuters",
-              "type": "机构"
             },
             {
               "name": "Bloomberg",
@@ -504,7 +502,7 @@
           "confidence": "高",
           "confidence_note": "官方公告+多源同报",
           "publish_time": "2026-11-12 15:55",
-          "event_time": "2026-11-12",
+          "event_time": "2026-11-12 21:37",
           "event_time_inferred": false,
           "verify_note": "外部检索（英伟达官方公告，TechCrunch 2026-11-12 15:37 与爱范儿同日同报：即刻生效，董事 Harvey C. Jones 出任董事会主席，董事会内外兼顾物色正式 CEO；https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement）",
           "entities": [
