@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 13 Nov 2026 07:40:21 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 07:52:04 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-13 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-13-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-13-1500.html</guid>
+      <pubDate>Fri, 13 Nov 2026 07:00:00 GMT</pubDate>
+      <description>独立开发者用 Claude 写出 19.4 万行 Lean 4，把「三元哥德巴赫猜想」形式化到零 sorry，并揪出原证明 11 处错误。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-13 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-13-0900.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-07-0900.html</guid>
       <pubDate>Sat, 07 Nov 2026 01:00:00 GMT</pubDate>
       <description>OpenAI 110 亿美元新融资落在 1.25 万亿美元估值，距 9 月下旬传闻的 300 亿目标过半即停——私募侧也开始「按实际卖得掉多少」定价</description>
-    </item>
-    <item>
-      <title>AI 情报 · 11-06 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-11-06-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-06-2100.html</guid>
-      <pubDate>Fri, 06 Nov 2026 13:00:00 GMT</pubDate>
-      <description>三位核心机构投资者反对 1.5 万亿美元定价，Anthropic IPO 或被砍向 1 万亿——买方开始还价</description>
     </item>
   </channel>
 </rss>
