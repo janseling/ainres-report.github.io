@@ -3,14 +3,14 @@
   "date": "2026-11-13",
   "time": "15:00",
   "title": "AI 情报 · 11-13 15:00 场",
-  "generatedAt": "2026-11-13T07:37:20.398Z",
+  "generatedAt": "2026-11-13T07:53:26.174Z",
   "coverage": "2026-11-13 09:00 → 2026-11-13 15:00（Asia/Shanghai）",
   "notes": [
     "与 09:00 场去重：Gemini 4 Hydrogen、黄仁勋辞职、台积电泄露、Fireworks AI 被破均已于前场报出；「AI 软件收入破 2000 亿」原链已删，易博图与谷歌 TPU 属旧事件重写稿，均不收"
   ],
   "itemCount": 10,
   "rawStats": {
-    "candidates": 128,
+    "candidates": 112,
     "selected": 10
   },
   "overview": [
