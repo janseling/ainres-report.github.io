@@ -1,0 +1,812 @@
+{
+  "id": "2026-11-13-0900",
+  "date": "2026-11-13",
+  "time": "09:00",
+  "title": "AI 情报 · 11-13 09:00 场",
+  "generatedAt": "2026-11-13T01:25:22.997Z",
+  "coverage": "2026-11-12 21:00 → 2026-11-13 09:00（Asia/Shanghai）",
+  "notes": [
+    "与 11-12 21:00 场去重：黄仁勋「接班人悬念」已于前场报出，本场只收辞职落定与后续处置"
+  ],
+  "itemCount": 15,
+  "rawStats": {
+    "candidates": 98,
+    "selected": 15
+  },
+  "overview": [
+    "黄仁勋正式辞去英伟达一切职务，CFO 克雷斯任临时 CEO，盘前跌 10%，本人已同意赴国会作证。",
+    "Google 上线 Gemini 4 Hydrogen，AI Mode 默认模型换代，新开「xhigh」思考档。",
+    "Nebius 抛出 2027 年 400~450 亿美元资本开支，股价盘中重挫逾 16%，新云模式开始承压。",
+    "台积电承认约 4.9 万份员工资料外泄，黑客索 3 BTC；Fireworks AI 数周内二次被破。",
+    "美联航成唯一禁止 AI Agent 代订机票的航司，同行选择「风险由客户自担」。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "Nebius 甩出 400~450 亿美元 2027 资本开支，股价当日重挫 16.5%",
+          "meta": "TechCrunch · 2026-11-12 21:27",
+          "urls": [
+            "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending"
+          ],
+          "summary": "新云的玩法是把资本开支拉到远超自身现金流的量级，再靠客户预付款填缺口。Nebius 这次把 2027 年的计划一次性摊开，等于主动请市场重新审视「预付租金能不能当融资用」。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "指引偏软叠加大额开支，是当日新云集体下跌的主因；这条赛道从「订单驱动」进入「融资能力驱动」，谁的客户预付款条款更硬谁就活得久。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "算力转售的中间层机会正在收窄，真正的窗口转向「帮新云做履约与抵押结构」的配套服务。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Quantisnow+24/7 Wall St.",
+          "publish_time": "2026-11-12 21:27",
+          "event_time": "2026-11-12",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（Quantisnow 2026-11-12 18:53 报当日午后跌 16.5%，同板块 CoreWeave 跌 10%；https://www.quantisnow.com/quote/NBIS）",
+          "entities": [
+            {
+              "name": "Nebius",
+              "type": "企业"
+            },
+            {
+              "name": "CoreWeave",
+              "type": "企业"
+            },
+            {
+              "name": "IREN",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending",
+            "raw_ref": "reports/raw/2026-11-13-0900.json#candidates[44]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-13-0900/01_techcrunch.com_fb1ddd2a.html",
+            "sha256": "b2354185b10e14e4f4a57088d4a0fbcfa23f942a85b5235eefeef08078322f2b",
+            "fetched_at": "2026-11-13T01:22:11.737Z"
+          }
+        },
+        {
+          "title": "Kalshi 洽谈 650 亿美元估值新融资，卖点已变成「算力期货」",
+          "meta": "36氪 · 2026-11-13 00:42",
+          "urls": [
+            "https://36kr.com/p/4067468563633024"
+          ],
+          "summary": "预测市场平台把业务重心挪到「算力期货」，这是本轮估值跳升最值得注意的地方——它卖的不再是事件概率，而是 AI 基建成本的定价权。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "若成交，Kalshi 估值将进入私营公司第一梯队；风险在于监管对「算力合约是否属衍生品」的定性仍空白，交易未落地。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Reuters+Bloomberg",
+          "publish_time": "2026-11-13 00:42",
+          "verify_note": "外部检索（Reuters 2026-11-12 23:56 首发、Bloomberg 同日 20:28 同步报道，均为消息人士口径；https://www.reuters.com/technology/kalshi-talks-raise-funds-65-billion-valuation）",
+          "entities": [
+            {
+              "name": "Kalshi",
+              "type": "企业"
+            },
+            {
+              "name": "Reuters",
+              "type": "机构"
+            },
+            {
+              "name": "Bloomberg",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4067468563633024",
+            "raw_ref": "reports/raw/2026-11-13-0900.json#candidates[9]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-13-0900/02_36kr.com_d61ba529.html",
+            "sha256": "d71eb433cbccc961de650f73b0660aa269b754ddb3f12dfb9284dda44b1399cc",
+            "fetched_at": "2026-11-13T01:22:11.975Z"
+          }
+        },
+        {
+          "title": "Norwest 募集 40 亿美元新基金，明说「避开闪亮的东西」",
+          "meta": "Bloomberg · 2026-11-12 10:00",
+          "urls": [
+            "https://www.bloomberg.com/news/articles/norwests-new-4-billion-fund-will-avoid-shiny-objects"
+          ],
+          "summary": "",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "40 亿美元放在 2026 年的 AI 募资潮里不算最大，但「回避热词、偏医疗+AI 结合部」的定位说明 LP 的钱开始挑场景而不是挑故事。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Bloomberg+Fierce Healthcare",
+          "publish_time": "2026-11-12 10:00",
+          "verify_note": "外部检索（Fierce Healthcare 2026-11-12 14:50 报该基金为全球多阶段基金，投向医疗、生物科技与 AI；https://www.fiercehealthcare.com/health-tech/norwest-closes-4b-global-multi-stage-fund）",
+          "entities": [
+            {
+              "name": "Norwest",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.bloomberg.com/news/articles/norwests-new-4-billion-fund-will-avoid-shiny-objects",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Bloomberg"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-13-0900/03_www.bloomberg.com_ee182677.html",
+            "sha256": "62fa24d750c30c52ee4dcbe1123dd700c804f41b6ca08b16f0eae224b0571d47",
+            "fetched_at": "2026-11-13T01:22:48.864Z"
+          }
+        },
+        {
+          "title": "Nectar 推出达人发现 AI Agent，把网红投放的前半段自动化",
+          "meta": "TechCrunch · 2026-11-12 19:11",
+          "urls": [
+            "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands"
+          ],
+          "summary": "",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "达人营销的痛点从来不是找不到人，而是筛选与首轮触达的人力成本。这类产品门槛低、可复制，护城河只能建在数据回流和成交归因上。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 TC+The Tech Buzz",
+          "publish_time": "2026-11-12 19:11",
+          "verify_note": "外部检索（The Tech Buzz 2026-11-12 19:33 同报该产品做影响者营销自动化；https://thetechbuzz.com/nectar-launches-ai-agent-influencer-marketing）",
+          "entities": [
+            {
+              "name": "Nectar",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands",
+            "raw_ref": "reports/raw/2026-11-13-0900.json#candidates[50]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-13-0900/04_techcrunch.com_d77c2475.html",
+            "sha256": "2a8a9d1724fac15ff74fc774ae91c88a413017bf94d2ed25603e56a2e9c3dd0e",
+            "fetched_at": "2026-11-13T01:22:49.785Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术突破 / 模型进展",
+      "items": [
+        {
+          "title": "Gemini 4 Hydrogen 上线，AI Mode 默认模型换代并新增 xhigh 思考档",
+          "meta": "The Verge · 2026-11-12 21:55",
+          "urls": [
+            "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
+          ],
+          "summary": "Google 产品负责人 Robby Stein 称这是「搜索史上最大的一次模型升级」。新模型主攻多段式问题、错别字与高度具体的请求，回答里同时给出多子主题的并行检索链接与图表。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "四个思考档（low/medium/high/xhigh）意味着搜索端开始把推理预算当旋钮暴露给用户，这与消费级产品「一切自动化」的传统相反，是为重度查询场景留的人工开关。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源官方+双源佐证 Verge+Ars",
+          "publish_time": "2026-11-12 21:55",
+          "verify_note": "外部检索（Google 官方博客同发；Ars 2026-11-12 19:23 同报该模型正式取代 3.8 Flash；https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash）",
+          "entities": [
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "Gemini 4 Hydrogen",
+              "type": "产品"
+            },
+            {
+              "name": "Gemini Flash 3.8",
+              "type": "产品"
+            },
+            {
+              "name": "Robby Stein",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+            "raw_ref": "reports/raw/2026-11-13-0900.json#candidates[40]",
+            "source_id": "theverge",
+            "source_name": "The Verge"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-13-0900/05_www.theverge.com_a3e1afb4.html",
+            "sha256": "b8ee115fb3de8d2d763aa0727ae07960cc916255858a403d2e39d17441fe113b",
+            "fetched_at": "2026-11-13T01:22:50.167Z"
+          }
+        },
+        {
+          "title": "MiniMax 开源 H3-Image：16.8 兆像素、六步出图、10 秒 4K 只在高价档",
+          "meta": "36氪 · 2026-11-12 23:54",
+          "urls": [
+            "https://36kr.com/p/4066749635155078"
+          ],
+          "summary": "",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "开源权重放出 16MP 底座，对做电商图、素材批量的团队是可替换的本地线；但「10 秒 4K」属付费档话术，别按宣传口径规划产能。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "六步推理压到这个画质，说明蒸馏路线在图像侧仍能榨出空间，推理成本下探比参数堆叠更值得跟。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Tech Times+Pandaily",
+          "publish_time": "2026-11-12 23:54",
+          "verify_note": "外部检索（Tech Times 2026-11-12 12:37 指明「10 秒 4K」仅高端高速档接近，开源权重版非同级；Pandaily 11-11 报其为 16MP 文生图与编辑模型、六步推理；https://www.techtimes.com/articles/316512/20261112/minimax-h3-image-open-weight.htm）",
+          "entities": [
+            {
+              "name": "MiniMax",
+              "type": "企业"
+            },
+            {
+              "name": "H3-Image",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4066749635155078",
+            "raw_ref": "reports/raw/2026-11-13-0900.json#candidates[28]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-13-0900/06_36kr.com_740c70e4.html",
+            "sha256": "8c086c212fb789e908b4d9665c1f9d97b76b662bfc2e99ea1deb955a86644d4c",
+            "fetched_at": "2026-11-13T01:22:50.466Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策监管",
+      "items": [
+        {
+          "title": "Anthropic 与 OpenAI 双双被诉侵犯神经网络专利，时点选在 IPO 窗口前",
+          "meta": "Reuters · 2026-11-12 20:26",
+          "urls": [
+            "https://www.reuters.com/legal/anthropic-openai-sued-allegedly-infringing-inventors-neural-network-patents"
+          ],
+          "summary": "原告是发明人本人而非专利运营公司，诉讼覆盖注意力机制相关的数项基础专利。两家公司均在推进 IPO 的关键阶段。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "基础架构专利的诉讼史在半导体界有大量先例，一旦形成授权收费预期，会直接改写大模型的长期毛利假设；这也是「模型公司必须自己攒专利池」的现实注脚。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Reuters+Bloomberg Law",
+          "publish_time": "2026-11-12 20:26",
+          "verify_note": "外部检索（Bloomberg Law 2026-11-12 23:12 同报，涉案为五项注意力机制相关专利；https://news.bloomberglaw.com/ip-law/anthropic-openai-accused-of-copying-neural-networking-patents）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Reuters",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reuters.com/legal/anthropic-openai-sued-allegedly-infringing-inventors-neural-network-patents",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Reuters"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-13-0900/07_www.reuters.com_11ad9e57.html",
+            "sha256": "a760ea12b1e1474b0c2e3ef543e401e0bbac14b473d47b80315a8ef091b16fa3",
+            "fetched_at": "2026-11-13T01:23:26.890Z"
+          }
+        },
+        {
+          "title": "美联航禁止 AI Agent 代订机票，同行集体选择「让客户自担风险」",
+          "meta": "Forbes · 2026-11-12 14:42",
+          "urls": [
+            "https://www.forbes.com/sites/forbesdigitalgroup/2026/11/12/united-airlines-blocks-ai-agents-booking-flights/"
+          ],
+          "summary": "美联航给出的理由是网络安全与责任归属，其他航司则维持开放并把风险留给乘客。这种分歧本身比禁令更值得记录。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "这是「Agent 可查不可买」的又一实例。谁先把可验证的意图凭证和支付责任绑定做出来，谁就拿到旅行 Agent 的准入牌照；靠模拟点击绕过的路线正在被系统性关闭。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "三源佐证 NYT+WaPo+Forbes",
+          "publish_time": "2026-11-12 14:42",
+          "event_time": "2026-11-11",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（NYT 2026-11-11 23:15 首发报道美联航禁止第三方 AI Agent 代客订票；WaPo 2026-11-12 20:30 同报；https://www.washingtonpost.com/travel/2026/11/12/united-airlines-blocks-ai-agents-booking-flights/）",
+          "entities": [
+            {
+              "name": "United Airlines",
+              "type": "企业"
+            },
+            {
+              "name": "The New York Times",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.forbes.com/sites/forbesdigitalgroup/2026/11/12/united-airlines-blocks-ai-agents-booking-flights/",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Forbes"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-13-0900/08_www.forbes.com_39a50565.html",
+            "sha256": "a66bb82c24bc14d07e2b7a7ceed175366f10bad9b80f3dd4a3df46aa3fef931f",
+            "fetched_at": "2026-11-13T01:24:03.110Z"
+          }
+        },
+        {
+          "title": "FAA 把 AI 流量建议扩到全美空域",
+          "meta": "Ars Technica · 2026-11-10 08:00",
+          "urls": [
+            "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace"
+          ],
+          "summary": "由「建议」而非「指令」定位，系统不直接下达空管指令，只对拥堵给出调度建议。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "政府级 AI 采购的样板单，价值不在模型本身而在「可审计的建议链」——招标文件里这类合规附件通常比算法更贵。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Ars+Fox News",
+          "publish_time": "2026-11-10 08:00",
+          "event_time": "2026-11-09",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Fox News 2026-11-09 10:00 报道该工具帮助旅客避开延误，属政府主导部署；https://www.foxnews.com/politics/trumps-faa-touts-new-ai-powered-tool-helping-passengers-avoid-flight-delays）",
+          "entities": [
+            {
+              "name": "FAA",
+              "type": "机构"
+            },
+            {
+              "name": "US DOT",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
+            "raw_ref": "reports/raw/2026-11-13-0900.json#candidates[38]",
+            "source_id": "ars",
+            "source_name": "Ars Technica"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-13-0900/09_arstechnica.com_6a0b530a.html",
+            "sha256": "2317fecf7830211a4d99dcef743f015c61be5afa4ed4d6bfd3afaa29f98c4b89",
+            "fetched_at": "2026-11-13T01:24:05.662Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向 / 应用玩法",
+      "items": [
+        {
+          "title": "黄仁勋辞去英伟达总裁、CEO 与董事职务，CFO 克雷斯任临时 CEO，盘前跌 10%",
+          "meta": "极客公园 · 2026-11-12 15:55",
+          "urls": [
+            "http://www.geekpark.net/news/373906"
+          ],
+          "summary": "黄仁勋 1993 年与两位合伙人创办英伟达并任 CEO 至今 33 年。官方公告未给出继任时间表，只说明 CFO 克雷斯临时接管。📌 跟踪回访 SIG-20261112-2100-3 关联：投资者应先看新任主席与 CFO 能否给出明确的产能与长约承诺，而不是看继任者名气。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "创始 CEO 离场对英伟达的估值锚是「生态关系」而非财报——CUDA 生态、台积电产能、云厂商长约都挂在个人关系上，市场先跌 10% 是在给这条关系链定价。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "官方公告+多源同报",
+          "publish_time": "2026-11-12 15:55",
+          "event_time": "2026-11-12",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（英伟达官方公告，TechCrunch 2026-11-12 15:37 与爱范儿同日同报：即刻生效，董事 Harvey C. Jones 出任董事会主席，董事会内外兼顾物色正式 CEO；https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement）",
+          "entities": [
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "黄仁勋",
+              "type": "人物"
+            },
+            {
+              "name": "Colette Kress",
+              "type": "人物"
+            },
+            {
+              "name": "Harvey C. Jones",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "http://www.geekpark.net/news/373906",
+            "raw_ref": "reports/raw/2026-11-13-0900.json#candidates[64]",
+            "source_id": "geekpark",
+            "source_name": "极客公园"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-13-0900/10_www.geekpark.net_9b0d4525.html",
+            "sha256": "5586630b06701126478606812a825a47a18920eeda60fe230651504ec8e9fabf",
+            "fetched_at": "2026-11-13T01:24:05.812Z"
+          }
+        },
+        {
+          "title": "国会听证与「第三段婚外情」报道接踵而至，英伟达风波进入制度程序",
+          "meta": "TechCrunch · 2026-11-12 21:35",
+          "urls": [
+            "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline"
+          ],
+          "summary": "TC 整理的时间线覆盖从婚外情指控、董事会调查到辞职的完整链条，其中涉及「据称中国间谍」的说法目前仍是报道口径。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对国内 AI 应用方而言，真正的变量是英伟达对开源框架与低价卡供给的态度，Hugging Face CEO 同日已公开表态「悲伤的一天，但继续为开源而战」，说明生态方在替补位提前站位。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源时间线+Reuters 原始报道",
+          "publish_time": "2026-11-12 21:35",
+          "verify_note": "外部检索（TC 另文 2026-11-12 16:36 报黄仁勋已同意赴国会作证、同日 20:26 转述 Reuters 报道第三段婚外情；https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress）",
+          "entities": [
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "黄仁勋",
+              "type": "人物"
+            },
+            {
+              "name": "Reuters",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+            "raw_ref": "reports/raw/2026-11-13-0900.json#candidates[42]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-13-0900/11_techcrunch.com_104f40ef.html",
+            "sha256": "9ef21ab30e8ff2960546eaac66df6e08de78db8e73946438a822dba8a5da1d2d",
+            "fetched_at": "2026-11-13T01:24:07.018Z"
+          }
+        },
+        {
+          "title": "微软 Outlook、Teams 与 Copilot 全球性故障持续数小时",
+          "meta": "BBC · 2026-11-12 20:25",
+          "urls": [
+            "https://www.bbc.com/news/technology"
+          ],
+          "summary": "",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "Copilot 与邮箱同域宕机，再次暴露「把 AI 塞进协作套件」的耦合风险；企业侧对「AI 功能可否独立降级」的采购提问会变多，这是做容灾与旁路方案的小切口。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 BBC+Bloomberg",
+          "publish_time": "2026-11-12 20:25",
+          "verify_note": "外部检索（Bloomberg 2026-11-12 23:35 报微软称正在修复 Outlook 与 Copilot 故障；Mashable 同日 23:26 报 365/Teams/Outlook/Copilot 全部受影响；https://www.bloomberg.com/news/articles/microsoft-says-its-working-to-fix-outlook-copilot-outage）",
+          "entities": [
+            {
+              "name": "Microsoft",
+              "type": "企业"
+            },
+            {
+              "name": "Microsoft 365",
+              "type": "产品"
+            },
+            {
+              "name": "Copilot",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.bbc.com/news/technology",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "BBC"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-13-0900/12_www.bbc.com_f405a9e3.html",
+            "sha256": "7e62c2abbe5538c364839836047bc553a1b9cee2eab8d7effef1408667210c00",
+            "fetched_at": "2026-11-13T01:24:44.407Z"
+          }
+        },
+        {
+          "title": "台积电承认约 4.9 万份员工资料外泄，黑客索价 3 BTC",
+          "meta": "36氪 · 2026-11-13 00:28",
+          "urls": [
+            "https://36kr.com/p/4067453876999297"
+          ],
+          "summary": "台积电称未发现公司系统遭入侵迹象，数据规模约 6.9GB，来源指向外部云供应商。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "半导体龙头的泄露口径把责任推向云供应链，这会加速制造业对「第三方云上敏感数据分级」的采购审查；安全厂商的下一波单子在「云侧驻留审计」。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源佐证 Wccftech+Seeking Alpha+Taiwan News",
+          "publish_time": "2026-11-13 00:28",
+          "verify_note": "外部检索（Wccftech 2026-11-12 14:08 报台积电承认约 4.9 万份员工档案被黑但称泄露数据与外部云厂商存储一致；Seeking Alpha 同日 14:10、Taiwan News 10:13 同报；https://www.seekingalpha.com/news/tsmc-discovers-data-on-thousands-of-current-former-employees-leaked）",
+          "entities": [
+            {
+              "name": "TSMC",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4067453876999297",
+            "raw_ref": "reports/raw/2026-11-13-0900.json#candidates[18]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-13-0900/13_36kr.com_36947c5a.html",
+            "sha256": "ccd664d80bf42264af996c39b947e773051688ad1db053de69407e76137ebf4b",
+            "fetched_at": "2026-11-13T01:24:44.729Z"
+          }
+        },
+        {
+          "title": "Fireworks AI 数周内二次被攻破，Notion 客户的 AI 对话记录外泄",
+          "meta": "TechCrunch · 2026-11-12 15:02",
+          "urls": [
+            "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts"
+          ],
+          "summary": "",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "推理服务商的客户数据边界正在变成新的采购红线。做企业 Agent 的团队若把对话全量托管给第三方推理商，等于把最敏感语料交出去，本地化推理的商业理由因此变硬。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "高",
+          "confidence_note": "三源佐证 SecurityWeek+BleepingComputer+The Register",
+          "publish_time": "2026-11-12 15:02",
+          "verify_note": "外部检索（SecurityWeek 2026-11-12 11:08 报 Notion 客户数据在该事件中被泄露；BleepingComputer 11-11 20:54 指明暴露 AI 聊天记录；The Register 11-10 报其数周内第二次被破；https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/）",
+          "entities": [
+            {
+              "name": "Fireworks AI",
+              "type": "企业"
+            },
+            {
+              "name": "Notion",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts",
+            "raw_ref": "reports/raw/2026-11-13-0900.json#candidates[67]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-13-0900/14_techcrunch.com_a3523f73.html",
+            "sha256": "09945a321ab70d2d78ff5df511117be9b84c4de748a4fe5bbf99dfdaa428cbdd",
+            "fetched_at": "2026-11-13T01:24:46.024Z"
+          }
+        },
+        {
+          "title": "Hugging Face CEO 称黄仁勋离场是「悲伤的一天」，誓继续为开源而战",
+          "meta": "TechCrunch · 2026-11-12 17:36",
+          "urls": [
+            "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit"
+          ],
+          "summary": "表态的背景是英伟达此前对开源模型与工具链的支持高度依赖黄仁勋个人意志，继任者尚未明确态度。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "开源生态的「金主不确定性」上升，做开源商业化的团队应加速把收入建立在企业版与托管服务上，而不是等一家硬件厂商的赞助。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 TC+Crypto Briefing",
+          "publish_time": "2026-11-12 17:36",
+          "verify_note": "外部检索（Crypto Briefing 2026-11-12 17:41 同报其表态；https://www.cryptobriefing.com/hugging-face-ceo-open-source-ai-huang/）",
+          "entities": [
+            {
+              "name": "Hugging Face",
+              "type": "企业"
+            },
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "黄仁勋",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+            "raw_ref": "reports/raw/2026-11-13-0900.json#candidates[55]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-13-0900/15_techcrunch.com_9ccf02f3.html",
+            "sha256": "d2975795f52de227a609e3b3c96105f81848ce291efdfdc8cd83a10dbe217ad7",
+            "fetched_at": "2026-11-13T01:24:48.261Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "临时 CEO 的产能承诺",
+      "text": "（SIG-20261113-0900-1，check 2026-11-27）：盯克雷斯与董事会主席琼斯在首个财报电话会上是否明确 2027 年 CoWoS 与 GB 系列产能口径、云厂商长约是否续签；正式 CEO 人选公布节奏。",
+      "sigId": "SIG-20261113-0900-1"
+    },
+    {
+      "lead": "基础架构专利的收费口径",
+      "text": "（SIG-20261113-0900-2，check 2026-12-04）：盯该案是否申请禁令、是否有第二组发明人跟进起诉，以及 Anthropic/OpenAI 招股书风险因素章节是否新增 IP 诉讼披露。",
+      "sigId": "SIG-20261113-0900-2"
+    },
+    {
+      "lead": "AI 基建电力侧政策风险定价",
+      "text": "本期 Nebius 400 亿开支遇冷、软银此前砍单，同一逻辑在算力侧继续兑现——「资本开支指引越大、股价反应越差」已成为新云的定价规律。",
+      "sigId": "SIG-20261112-2100-3"
+    },
+    {
+      "lead": "Agent 交易准入与身份凭证",
+      "text": "美联航成唯一封禁方、同行以「风险自担」保持开放，说明行业尚未形成统一凭证标准，卡点仍在法定身份核验与支付责任绑定。",
+      "sigId": "SIG-20261112-0900-2"
+    }
+  ],
+  "sourceStatus": [
+    "- Reddit：DOWN（全部 sub 抓取失败）",
+    "- MiniMax：DOWN（parse 0 条）",
+    "- GitHub Trending：DOWN（连续 2 轮，curl 超时）",
+    "- Hacker News：DOWN（HTTP 502）",
+    "- OpenAI 官网：DOWN（HTTP 403）"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-13-0900.json",
+    "evidence_file": "reports/raw/2026-11-13-0900.evidence.json",
+    "snapshot_dir": "archives/2026-11-13-0900/",
+    "raw_candidates": 82,
+    "matched": 11
+  }
+}
