@@ -3,7 +3,7 @@
   "date": "2026-11-14",
   "time": "21:00",
   "title": "AI 情报 · 11-14 21:00 场",
-  "generatedAt": "2026-11-14T13:17:17.815Z",
+  "generatedAt": "2026-11-14T13:17:49.020Z",
   "coverage": "2026-11-14 15:00 → 2026-11-14 21:00（Asia/Shanghai，窗口口径）",
   "notes": [
     "本日 09:00 与 15:00 两场已报 18 条（ChatGPT Wallet、DeepSeek API、llama.cpp v1.0、OpenAI 机器人团队解散、Stand With Jensen 请愿等），本场不重复，仅对已报事件作后续跟进"
@@ -265,12 +265,6 @@
           }
         }
       ]
-    },
-    {
-      "key": "policy",
-      "icon": "🏛️",
-      "title": "政策监管",
-      "items": []
     },
     {
       "key": "industry",
