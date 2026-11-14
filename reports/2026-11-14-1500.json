@@ -3,7 +3,7 @@
   "date": "2026-11-14",
   "time": "15:00",
   "title": "AI 情报 · 11-14 15:00 场",
-  "generatedAt": "2026-11-14T07:24:13.127Z",
+  "generatedAt": "2026-11-14T15:59:55.990Z",
   "coverage": "2026-11-13 21:00 → 2026-11-14 15:00（Asia/Shanghai，窗口口径）",
   "notes": [
     "本日 09:00 场已报 11 条（ChatGPT Wallet/LangChain/DeepSeek API/llama.cpp 等），本场不重复"
@@ -379,7 +379,7 @@
           ],
           "confidence": "高",
           "confidence_note": "A源·官方原文",
-          "publish_time": "2026-11-13 13:00",
+          "publish_time": "2026-11-13 21:00",
           "verify_note": "无需外部（官方原文；https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams）",
           "entities": [
             {
@@ -429,7 +429,8 @@
     "- Hacker News：FALLBACK（hnrss 返回 HTTP 502，已转 Algolia）",
     "- OpenAI 官方 RSS：FALLBACK（HTTP 403，本轮无一手条目）",
     "- arXiv：FALLBACK（curl 超时，仅取到 96% 响应体后中断）",
-    "- Anthropic 官方 RSS：列表页混入 10 月旧条目（新加坡办公室/Accenture/LTBT 已核为旧稿剔除）"
+    "- Anthropic 官方 RSS：列表页混入 10 月旧条目（新加坡办公室/Accenture/LTBT 已核为旧稿剔除）",
+    "---"
   ],
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-14-1500.json",
