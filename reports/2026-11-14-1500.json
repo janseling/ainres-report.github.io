@@ -1,0 +1,441 @@
+{
+  "id": "2026-11-14-1500",
+  "date": "2026-11-14",
+  "time": "15:00",
+  "title": "AI 情报 · 11-14 15:00 场",
+  "generatedAt": "2026-11-14T07:24:13.127Z",
+  "coverage": "2026-11-13 21:00 → 2026-11-14 15:00（Asia/Shanghai，窗口口径）",
+  "notes": [
+    "本日 09:00 场已报 11 条（ChatGPT Wallet/LangChain/DeepSeek API/llama.cpp 等），本场不重复"
+  ],
+  "itemCount": 7,
+  "rawStats": {
+    "candidates": 171,
+    "selected": 7
+  },
+  "overview": [
+    "OpenAI 解散独立机器人研究团队，人员并入核心研究与 Applied 部门。",
+    "Claude 帮数学家破译哥德尔 80 年速记笔记，解出 663 条定理。",
+    "Claude Code 桌面端开放自然语言换肤，模型自己写插件改界面。",
+    "OpenAI 董事警告：AI 接管社会可能只剩几个月。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "Claude Code 桌面端开放换肤：模型自己写插件改界面",
+          "meta": "Anthropic 开发者账号 / 新智元·2026-11-14 05:36",
+          "urls": [
+            "https://m.sohu.com/a/1101506120_473283"
+          ],
+          "summary": "用法是自然语言描述主题（如「深海蓝 + 粒子动画背景」），Claude 自己写一段 Type 代码生成 mod 插件，调用 `$.theme.set` 替换背景，再经 `ui.render` 钩子渲染界面元素。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "这是「让模型改自己宿主软件的界面」的第一个面向普通用户的开箱能力；把 UI 变成可编程对象后，主题/皮肤会成为插件市场的新品类，但也是任意代码执行的攻击面。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "Type 代码 + 钩子式渲染的设计，本质是把 IDE 的扩展模型搬进 AI 编码工具，工程上比预设主题包灵活得多。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源官方账号发布 + B源报道",
+          "publish_time": "2026-11-14 05:36",
+          "event_time": "2026-11-14",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（Anthropic 官方开发者账号 @ClaudeDevs 为原始发布方，新智元 2026-11-14 05:36 报道链接 https://m.sohu.com/a/1101506120_473283 ）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude Code",
+              "type": "产品"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1101506120_473283",
+            "raw_ref": "reports/raw/2026-11-14-1500.json#candidates[11]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-14-1500/01_m.sohu.com_3af883c8.html",
+            "sha256": "9f4a4369a3a70e94759f4b29eab41872ffbdfd2bf86dfbd7d484e25fd6c0c951",
+            "fetched_at": "2026-11-14T07:25:17.174Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术突破 / 模型进展",
+      "items": [
+        {
+          "title": "Claude 帮数学家破译哥德尔 80 年速记笔记",
+          "meta": "36氪 / The Guardian·2026-11-14 06:09",
+          "urls": [
+            "https://36kr.com/p/4069178330764161"
+          ],
+          "summary": "哥德尔生前用速记（Gabelsberger 体系）写下的笔记八十年来基本无人能通读；Claude 协助解读出 663 条定理，以及他在 1966 年自称掌握的一份「近乎完整」的证明。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "价值不在「AI 会做数学」，而在它能读懂一整套私有速记编码——这是长上下文 + 符号推理在历史档案类非结构化材料上的实战演示。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "档案馆、手稿、病历、老账本这类「人类读不动的高价值文本」是一个几乎没人做工程化的市场，且天然按项目收费。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Guardian+MLQ",
+          "publish_time": "2026-11-14 06:09",
+          "event_time": "2026-11-13",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（The Guardian 2026-11-13 18:38 GMT 同报《AI helps unlock discoveries hidden in notebooks of man who transformed maths》；MLQ.ai 2026-11-13 21:42 GMT 给出 663 条定理口径；https://www.theguardian.com ）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            },
+            {
+              "name": "Kurt Gödel",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4069178330764161",
+            "raw_ref": "reports/raw/2026-11-14-1500.json#candidates[5]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-14-1500/02_36kr.com_9201ab1e.html",
+            "sha256": "40ba3e44ee300f56e2e07af8a036702fce1e89a257f882102cb1ba6799652897",
+            "fetched_at": "2026-11-14T07:25:17.411Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策监管",
+      "items": [
+        {
+          "title": "OpenAI 董事警告：AI 接管社会可能只剩几个月",
+          "meta": "Ars Technica·2026-11-13 17:25",
+          "urls": [
+            "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns"
+          ],
+          "summary": "OpenAI 董事会成员 Paul Christiano 公开表示，AI 对社会形成「接管」的时间尺度可能是几个月而非几十年，并称 AI 事故是最可能的死因之一。钱景：这是董事会层面对监管窗口的公开施压——把「几个月」写进公共话语，等于为强制许可、算力审计这类强监管预铺理由，前沿实验室的合规成本将先于技术风险上升。",
+          "angles": [],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管",
+            "安全"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Ars+Gizmodo",
+          "publish_time": "2026-11-13 17:25",
+          "verify_note": "外部检索（Gizmodo 2026-11-12 21:24 GMT 与 Quartz、Fast Company 2026-11-14 00:37 GMT 同报该警告；https://gizmodo.com ）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Paul Christiano",
+              "type": "人物"
+            },
+            {
+              "name": "Ars Technica",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns",
+            "raw_ref": "reports/raw/2026-11-14-1500.json#candidates[133]",
+            "source_id": "ars",
+            "source_name": "Ars Technica"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-14-1500/03_arstechnica.com_4513c6ea.html",
+            "sha256": "4364d12be14afe15316dd2f5496d78dc40a4d1061edf691f4dc8c839dccd53f4",
+            "fetched_at": "2026-11-14T07:25:22.112Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向 / 应用玩法",
+      "items": [
+        {
+          "title": "OpenAI 解散独立机器人研究团队",
+          "meta": "Fortune 首报 / 机器之心·2026-11-14 04:03",
+          "urls": [
+            "https://m.sohu.com/a/1101468755_129720"
+          ],
+          "summary": "原机器人研究团队并入核心研究团队，向首席研究官 Mark Chen 汇报；应用机器人与硬件团队划归规模更大的 Applied 部门，由总裁 Greg Brockman 负责。OpenAI 强调机器人仍是长期愿景核心，此调整不是退出该领域。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "真正的信号是「通用模型开始直接驱动机器人」——一旦不需要机器人专用模型，专用机器人模型公司的技术溢价就被抽走，押注整机+训练管线的团队会承压。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "把机器人研究并入基础模型团队，等于承认具身智能的瓶颈在通用模型能力而非专用控制栈。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "技术进展",
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Fortune+MarketScreener",
+          "publish_time": "2026-11-14 04:03",
+          "event_time": "2026-11-13",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Fortune 2026-11-13 17:05 GMT 独家首报，MarketScreener 17:18 GMT、UA.NEWS 17:52 GMT 跟进；https://fortune.com ）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "Mark Chen",
+              "type": "人物"
+            },
+            {
+              "name": "Greg Brockman",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1101468755_129720",
+            "raw_ref": "reports/raw/2026-11-14-1500.json#candidates[30]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-14-1500/04_m.sohu.com_c9a98da0.html",
+            "sha256": "296038ea83f2cd32f1eae32a9e2f05acbacbec52fa53cc8db8e8a758ae5c081e",
+            "fetched_at": "2026-11-14T07:25:22.295Z"
+          }
+        },
+        {
+          "title": "「Stand With Jensen」请愿超 2 万人，马斯克带头签署",
+          "meta": "WIRED / Yahoo Finance·2026-11-14 03:33",
+          "urls": [
+            "https://36kr.com/p/4069009439871873"
+          ],
+          "summary": "请愿由英伟达员工发起，要求董事会让黄仁勋回归 CEO 职位，签名规模已超 2 万，签署者包含马斯克、Tom Lee 与 Shopify CEO。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "员工与管理层之外，产业名人集体署名意味着这件事已被定价成「公司治理风险」而非人事八卦；董事会每一步回应都会被当作治理质量的信号。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 WIRED+Yahoo Finance",
+          "publish_time": "2026-11-14 03:33",
+          "event_time": "2026-11-13",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（WIRED 2026-11-13 01:17 GMT《'Bring Back THE Boss': Nvidia Employees Petition for Jensen Huang's Return》；Yahoo Finance 2026-11-14 04:24 GMT 确认 Musk、Tom Lee、Shopify CEO 已署名；https://www.wired.com ）",
+          "entities": [
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "Jensen Huang",
+              "type": "人物"
+            },
+            {
+              "name": "Elon Musk",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4069009439871873",
+            "raw_ref": "reports/raw/2026-11-14-1500.json#candidates[47]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-14-1500/05_36kr.com_1f5c7f77.html",
+            "sha256": "1f88054665ab13963341ef943caef0b0be2aee76eddf53e92a1017b11c94be83",
+            "fetched_at": "2026-11-14T07:25:22.495Z"
+          }
+        },
+        {
+          "title": "FAA 把 AI 建议扩展到全美空域",
+          "meta": "Ars Technica·2026-11-10 08:00",
+          "urls": [
+            "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace"
+          ],
+          "summary": "FAA 将 AI 流量建议从局部航路扩展到全美空域，用于缓解拥堵；11-13 全国性停飞事件后，官方明确表示该工具未参与当日停飞决策。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "把 AI 定位为「建议」而非「决策」，是航空这类零容错场景的现实路径——但这也意味着责任边界要靠制度而不是模型精度来兜底。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展",
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源，Ars 11-10 首报",
+          "publish_time": "2026-11-10 08:00",
+          "verify_note": "外部检索（Washington Times 2026-11-13 21:45 GMT 报道交通部长 Duffy 称该 AI 工具与 11-13 全国停飞无关；https://www.washingtontimes.com ）",
+          "entities": [
+            {
+              "name": "FAA",
+              "type": "机构"
+            },
+            {
+              "name": "Ars Technica",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
+            "raw_ref": "reports/raw/2026-11-14-1500.json#candidates[95]",
+            "source_id": "ars",
+            "source_name": "Ars Technica"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-14-1500/06_arstechnica.com_05648108.html",
+            "sha256": "c78faeebf285c4758310d212a436d3a86c826904b989e07a061c457507e82b0e",
+            "fetched_at": "2026-11-14T07:25:24.599Z"
+          }
+        },
+        {
+          "title": "NVIDIA 官方案例：AI 把护理时间还给患者",
+          "meta": "NVIDIA 官方博客·2026-11-13 13:00",
+          "urls": [
+            "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams"
+          ],
+          "summary": "从儿科研究到智慧医院，健康系统与初创公司用 AI 减少常规文书工作，让护理团队把更多时间留给患者。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "医疗文书的「减负」是当前落地最实的 AI 场景，买单方是医院而非患者，销售周期长但续费稳，适合做垂直深耕而不是通用工具。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-11-13 13:00",
+          "verify_note": "无需外部（官方原文；https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams）",
+          "entities": [
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams",
+            "raw_ref": "reports/raw/2026-11-14-1500.json#candidates[164]",
+            "source_id": "nvidia",
+            "source_name": "NVIDIA"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-14-1500/07_blogs.nvidia.com_31f08b59.html",
+            "sha256": "fbda11b1e910aa3960628505c5b47966cec60819f9a2052b29a2e143a360b5e5",
+            "fetched_at": "2026-11-14T07:25:25.196Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "OpenAI 通用模型驱动机器人的路线验证",
+      "text": "（SIG-20261114-1500-1，check 2026-12-20）：盯 OpenAI 是否公开发表「通用模型控制整机」的论文或 demo、原机器人团队成员是否集体流向某家整机公司、Figure/1X 是否调整自研控制栈口径。",
+      "sigId": "SIG-20261114-1500-1"
+    },
+    {
+      "lead": "AI 生成的 UI 插件成为攻击面",
+      "text": "（SIG-20261114-1500-2，check 2026-12-05）：盯 Claude Code 换肤是否引入插件签名/沙箱、是否出现恶意 mod 的公开案例、其他 AI IDE 是否跟进同类能力。",
+      "sigId": "SIG-20261114-1500-2"
+    },
+    {
+      "lead": "AI 读史料的商业化路径",
+      "text": "（SIG-20261114-1500-3，check 2026-12-18）：盯哥德尔笔记的完整解读是否正式出版、是否有档案馆/大学公开采购同类服务、Anthropic 是否把该能力包装成产品。",
+      "sigId": "SIG-20261114-1500-3"
+    },
+    {
+      "lead": "代理支付的责任边界",
+      "text": "Wallet 已于 11-13 限量开放，盯纠纷案例与支付网络规范，check 维持 2026-11-28。",
+      "sigId": "SIG-20261114-0900-1"
+    }
+  ],
+  "sourceStatus": [
+    "- GitHub Trending：DOWN（连续失败，curl 25s 超时无响应）",
+    "- Hacker News：FALLBACK（hnrss 返回 HTTP 502，已转 Algolia）",
+    "- OpenAI 官方 RSS：FALLBACK（HTTP 403，本轮无一手条目）",
+    "- arXiv：FALLBACK（curl 超时，仅取到 96% 响应体后中断）",
+    "- Anthropic 官方 RSS：列表页混入 10 月旧条目（新加坡办公室/Accenture/LTBT 已核为旧稿剔除）"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-14-1500.json",
+    "evidence_file": "reports/raw/2026-11-14-1500.evidence.json",
+    "snapshot_dir": "archives/2026-11-14-1500/",
+    "raw_candidates": 171,
+    "matched": 7
+  }
+}

@@ -1,6 +1,31 @@
 {
-  "count": 137,
+  "count": 138,
   "reports": [
+    {
+      "id": "2026-11-14-1500",
+      "date": "2026-11-14",
+      "time": "15:00",
+      "title": "AI 情报 · 11-14 15:00 场",
+      "itemCount": 7,
+      "coverage": "2026-11-13 21:00 → 2026-11-14 15:00（Asia/Shanghai，窗口口径）",
+      "note": "本日 09:00 场已报 11 条（ChatGPT Wallet/LangChain/DeepSeek API/llama.cpp 等），本场不重复",
+      "overview": [
+        "OpenAI 解散独立机器人研究团队，人员并入核心研究与 Applied 部门。",
+        "Claude 帮数学家破译哥德尔 80 年速记笔记，解出 663 条定理。",
+        "Claude Code 桌面端开放自然语言换肤，模型自己写插件改界面。",
+        "OpenAI 董事警告：AI 接管社会可能只剩几个月。"
+      ],
+      "sectionCounts": {
+        "product": 1,
+        "tech": 1,
+        "policy": 1,
+        "industry": 4
+      },
+      "rawStats": {
+        "candidates": 171,
+        "selected": 7
+      }
+    },
     {
       "id": "2026-11-14-0900",
       "date": "2026-11-14",

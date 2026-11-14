@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 14 Nov 2026 07:15:22 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 07:26:08 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-14 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-14-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-14-0900.html</guid>
+      <pubDate>Sat, 14 Nov 2026 01:00:00 GMT</pubDate>
+      <description>OpenAI 把钱包交给代理：ChatGPT Wallet 限量开放给美国 Pro 用户，Dots 代理可直接下单付款。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-13 21:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-13-2100.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-07-2100.html</guid>
       <pubDate>Sat, 07 Nov 2026 13:00:00 GMT</pubDate>
       <description>METR 独立评估：Anthropic 用 AI 造 AI，研发提速约 2 倍，研究人员称「令人警觉」</description>
-    </item>
-    <item>
-      <title>AI 情报 · 11-07 15:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-11-07-1500.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-07-1500.html</guid>
-      <pubDate>Sat, 07 Nov 2026 07:00:00 GMT</pubDate>
-      <description>蚂蚁 Ling 团队发布 Ling-3.2-flash：560B/25B 激活原生多模态 MoE，1M 上下文</description>
     </item>
   </channel>
 </rss>
