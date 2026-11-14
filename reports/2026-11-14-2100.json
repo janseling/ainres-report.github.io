@@ -1,0 +1,498 @@
+{
+  "id": "2026-11-14-2100",
+  "date": "2026-11-14",
+  "time": "21:00",
+  "title": "AI 情报 · 11-14 21:00 场",
+  "generatedAt": "2026-11-14T13:17:17.815Z",
+  "coverage": "2026-11-14 15:00 → 2026-11-14 21:00（Asia/Shanghai，窗口口径）",
+  "notes": [
+    "本日 09:00 与 15:00 两场已报 18 条（ChatGPT Wallet、DeepSeek API、llama.cpp v1.0、OpenAI 机器人团队解散、Stand With Jensen 请愿等），本场不重复，仅对已报事件作后续跟进"
+  ],
+  "itemCount": 7,
+  "rawStats": {
+    "candidates": 79,
+    "selected": 7
+  },
+  "overview": [
+    "UniPat AI 联合斯坦福、哈佛、康奈尔发布 SPU 基准：16 款前沿模型预测湿实验结果，最高分 0.486，推理强度拉满也几乎不提分。",
+    "微软 11-13 起的全球服务中断已全面恢复，Outlook、Teams、Copilot 均受影响，官方否认遭黑客攻击。",
+    "英伟达董事会已接触 Arm CEO Rene Haas 作为黄仁勋潜在继任者，员工请愿签名增至 6 万余。",
+    "Deepnote 把 12 个模型塞进 Slack 当同事：GPT-6 Astra 第一，Anthropic 全线偏贵，最贵一单贵 430 倍只多 1.1 分。",
+    "Anthropic IPO 路演被报数倍超额认购，但投资人开始质疑其领先地位能否持续。",
+    "南开与中关村学院综述提出 AI4AI 的 L0–L3 控制权框架，把「AI 做研究」拆成方向、空间、评价信号三项决策。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "微软全球服务中断全面恢复：Outlook、Teams、Copilot 全受影响",
+          "meta": "36氪 / The Guardian·2026-11-14 18:52",
+          "urls": [
+            "https://36kr.com/p/4069263558694023"
+          ],
+          "summary": "中断自 11-13 起波及全球多地政府与企业用户，邮件、Teams 与 Copilot 助手同时不可用；微软公开致歉并明确否认遭到黑客攻击，定性为内部服务故障。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "单一供应商承载政府与金融的关键通信，一次故障就是一次云集中度的公开成本核算，多云与本地回退方案的采购动机会因此被具体化。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "企业级 AI 助手的可用性 SLA 正在成为独立卖点，做 Copilot 之外的降级通道（本地模型兜底、跨云路由）是可验证的真实需求。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Guardian+WSJ",
+          "publish_time": "2026-11-14 18:52",
+          "event_time": "2026-11-14",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Guardian 2026-11-14 18:52 报道「services fully restored after global outage hits governments」，WSJ 同日 17:56 同报，ABC11 2026-11-14 19:59 明确 Outlook/Teams/Copilot 受影响；https://www.theguardian.com/technology）",
+          "entities": [
+            {
+              "name": "Microsoft",
+              "type": "企业"
+            },
+            {
+              "name": "Microsoft 365",
+              "type": "产品"
+            },
+            {
+              "name": "Copilot",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4069263558694023",
+            "raw_ref": "reports/raw/2026-11-14-2100.json#candidates[21]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-14-2100/01_36kr.com_7ac104b4.html",
+            "sha256": "d85b50566079e10b11241e037b01250838e0e0bf551323fbe67346787f9b8620",
+            "fetched_at": "2026-11-14T13:14:34.191Z"
+          }
+        },
+        {
+          "title": "Anthropic IPO 路演被报数倍超额认购，投资人开始追问领先能否持续",
+          "meta": "Reuters / NYT·2026-11-14 07:30",
+          "urls": [
+            "https://news.google.com/rss/articles/CBMirwFBVV95cUxOckJYSDVUWDh1cTJPb3ptd2pLZmxuNXBtSEJkN"
+          ],
+          "summary": "路演阶段认购倍数被报为多倍超额，但同时出现对「领先地位可持续性」的集中质疑；此前 Anthropic 已向 SEC 递交 S-1 并启动路演，Barchart 口径的估值讨论已到万亿美元量级。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "认购火爆与质疑同框，是典型的晚期私募资产公开化定价摩擦——一级市场给的故事溢价，正在二级市场接受现金流检验，同赛道未上市公司的估值锚会随之被重设。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 Reuters+NYT",
+          "publish_time": "2026-11-14 07:30",
+          "event_time": "2026-11-13",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（Reuters 2026-11-14 07:30 独家「Investors flock to Anthropic IPO but question durability of AI lead」，NYT 2026-11-14 06:36「Wall Street Makes Its Pitch for Anthropic's I.P.O.」；https://www.reuters.com/technology）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOckJYSDVUWDh1cTJPb3ptd2pLZmxuNXBtSEJkN",
+            "raw_ref": "reports/raw/2026-11-14-2100.json#candidates[62]",
+            "source_id": "web",
+            "source_name": "Reuters"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-14-2100/02_news.google.com_5a21ded6.html",
+            "sha256": "17ce40a5ea02d276abdb691e78f7469906afc0a80c18dc8fb70e426f74c4840f",
+            "fetched_at": "2026-11-14T13:15:11.820Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术突破 / 模型进展",
+      "items": [
+        {
+          "title": "SPU 基准发布：16 款模型猜湿实验结果，最高分 0.486，推理拉满也白搭",
+          "meta": "量子位·2026-11-14 17:58",
+          "urls": [
+            "https://www.qbitai.com/2026/11/510232.html"
+          ],
+          "summary": "UniPat AI 牵头的 SPU 汇集 116 个任务、4207 个湿实验，覆盖化学、材料、生物与医学，其中 16 个私有任务来自未发表实验以防记忆污染；模型每次限 8 小时、一块 H20，自主决定检索与算力分配，最终按 Spearman 相关性对实测排序打分。首轮 13 个配置最高分仅 0.486，仅 34%~52% 任务超过随机水平阈值。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "最反直觉的结论是加推理不提分——GPT-6 Astra 从中等调到最高强度，时间增至 4.8 倍、API 成本增至 5.3 倍，得分几乎不动，模型往往在 26% 时间点就已给出答案，后续都是无效微调。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "单次运行成本在 0.22~65.91 美元之间差 300 倍，这给「按任务难度路由模型」提供了可量化的报价基础，科研场景的模型选型服务因此有了可交付的定价依据。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方论文 arXiv:2611.15049",
+          "publish_time": "2026-11-14 17:58",
+          "event_time": "2026-11-14",
+          "event_time_inferred": true,
+          "verify_note": "一手论文标题与作者已核验（Science Prediction Universe，36 位作者，项目页 spu.unipat.ai 可访问；https://arxiv.org/abs/2611.15049）",
+          "entities": [
+            {
+              "name": "UniPat AI",
+              "type": "企业"
+            },
+            {
+              "name": "Science Prediction Universe",
+              "type": "产品"
+            },
+            {
+              "name": "Claude Opus 5.5",
+              "type": "产品"
+            },
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/11/510232.html",
+            "raw_ref": "reports/raw/2026-11-14-2100.json#candidates[16]",
+            "source_id": "qbitai",
+            "source_name": "量子位"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-14-2100/03_www.qbitai.com_cd9e3aa4.html",
+            "sha256": "2af326b709f35da38149ac2adba72e5e1e0592a0b1ddbf774f8b82f9c0860c00",
+            "fetched_at": "2026-11-14T13:15:12.644Z"
+          }
+        },
+        {
+          "title": "「让 AI 研究 AI」综述提出 L0–L3 控制权框架",
+          "meta": "新智元·2026-11-14 17:06",
+          "urls": [
+            "https://m.sohu.com/a/1101575761_473283"
+          ],
+          "summary": "南开大学联合中关村学院团队把 AI 研发拆成搜索方向、搜索空间、评价信号三项决策，据此给出 L0–L3 控制权分级：L0 人类定全部、L3 由 AI 提供实际影响训练的评价信号（如 Eureka 生成奖励函数）；同时按学习、推理、数据、基础设施四个分支梳理代表性工作。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "把「AI 能不能自主做研究」从口号降维成可以逐项打分的三个开关，这是评估自动化科研系统的可操作口径；关键风险点被定位在「谁写评价信号」——控制奖励函数的人才控制研究本身。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "企业若要把研发流程交给 agent，这套框架可直接当验收清单用：先问清哪一层控制权交出去了，再谈节省多少人力。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源，论文主页可核",
+          "publish_time": "2026-11-14 17:06",
+          "event_time": "2026-11-14",
+          "event_time_inferred": true,
+          "verify_note": "未见独立来源(外查 11-14)",
+          "entities": [
+            {
+              "name": "南开大学",
+              "type": "机构"
+            },
+            {
+              "name": "中关村学院",
+              "type": "机构"
+            },
+            {
+              "name": "FunSearch",
+              "type": "产品"
+            },
+            {
+              "name": "DreamCoder",
+              "type": "产品"
+            },
+            {
+              "name": "Eureka",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1101575761_473283",
+            "raw_ref": "reports/raw/2026-11-14-2100.json#candidates[25]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-14-2100/04_m.sohu.com_9d2cc256.html",
+            "sha256": "76ef95143a4bd1511d99f73ccea2f15b5f73b07631946eb0a40073cf5928eed4",
+            "fetched_at": "2026-11-14T13:15:12.990Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策监管",
+      "items": []
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向 / 应用玩法",
+      "items": [
+        {
+          "title": "Deepnote 让 12 个模型在 Slack 当同事：GPT-6 Astra 夺冠，Anthropic 全线偏贵",
+          "meta": "新智元 / Deepnote·2026-11-14 17:06",
+          "urls": [
+            "https://m.sohu.com/a/1101573734_473283"
+          ],
+          "summary": "Agent Initiative Benchmark 造了一家 71 人、11 套业务系统的虚构公司，50 个真实职场任务里埋了 10 个「不该出手」场景；600 次完整运行、两个盲评模型独立打分，数据集与代码开源。GPT-6 Astra 得 8.97 分第一，Sol 8.65 分第二且单任务只花 0.11 美元，Fable 5.2 得 8.17 分却要 1.87 美元。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "折算成 70 人公司的月度 Slack 监控账单，Sol 是 281 美元、Fable 5.2 是 4684 美元——always-on agent 的计费模型正从「按次」变成「按席位月度订阅」，会把模型选型从技术决策变成采购决策。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "最难的子项是「知道何时闭嘴」，最好的模型 10 次里也只忍住 8 次，而插错嘴平均要多花 1.8 倍成本。做 agent 的「触发抑制层」——判断这条消息到底该不该回——比再做一个更能干活的 agent 更有议价空间。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 OrcaRouter",
+          "publish_time": "2026-11-14 17:06",
+          "event_time": "2026-11-13",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（OrcaRouter 2026-11-14 03:13 起连发两篇价格口径分析，与「Luna 每单 0.007 美元、比 Fable 5.1 便宜 430 倍」一致；https://deepnote.com/research/benchmark）",
+          "entities": [
+            {
+              "name": "Deepnote",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "GPT-6.1 Sol",
+              "type": "产品"
+            },
+            {
+              "name": "Claude Fable 5.2",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1101573734_473283",
+            "raw_ref": "reports/raw/2026-11-14-2100.json#candidates[26]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-14-2100/05_m.sohu.com_6b206924.html",
+            "sha256": "a942761e0461e8fbcddd6ba367a687d2483a5d6c7223e854a719f12a6ada46b9",
+            "fetched_at": "2026-11-14T13:15:13.293Z"
+          }
+        },
+        {
+          "title": "英伟达董事会已接触 Arm CEO Rene Haas，员工请愿签名增至 6 万余",
+          "meta": "FT / Reuters / 量子位·2026-11-14 18:08",
+          "urls": [
+            "https://www.qbitai.com/2026/11/510297.html"
+          ],
+          "summary": "📌 跟踪回访 SIG-20261113-0900-1：正式 CEO 物色出现首个具名候选——Haas 早年任英伟达计算产品业务副总裁、现任 Arm CEO；英伟达回应称仍在选聘猎头、「对具体候选人的猜测为时过早」，内部更看好临时 CEO Colette Kress 与 Ian Buck。另：员工与外部联署的「33 Years Deserve an Answer」请愿已从 2 万增至 6 万余，马斯克表态参与（早前 WIRED 首报的「Bring Back THE Boss」为其前身）。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "创始人身故式离场的最大风险不是人选，而是 60 人直报的扁平架构失去唯一枢纽——继任者若来自外部，最可能的动作是重排汇报线与产品优先级，这比换 CEO 本身更影响英伟达的交付节奏。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 FT+Reuters",
+          "publish_time": "2026-11-14 18:08",
+          "event_time": "2026-11-13",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（FT 2026-11-14 00:53「Arm boss Rene Haas approached in Nvidia CEO search」，Reuters 同日 07:11「Nvidia approaches Arm CEO Haas as employees seek Huang's return」；https://www.ft.com/companies）",
+          "entities": [
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "Rene Haas",
+              "type": "人物"
+            },
+            {
+              "name": "黄仁勋",
+              "type": "人物"
+            },
+            {
+              "name": "Colette Kress",
+              "type": "人物"
+            },
+            {
+              "name": "Arm",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/11/510297.html",
+            "raw_ref": "reports/raw/2026-11-14-2100.json#candidates[11]",
+            "source_id": "qbitai",
+            "source_name": "量子位"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-14-2100/06_www.qbitai.com_eab8f982.html",
+            "sha256": "e9fe8cfd6d7d39b1548c0b6dc4460238e199e9adc3fa8ff4c1ba51d517c5ce5a",
+            "fetched_at": "2026-11-14T13:15:13.876Z"
+          }
+        },
+        {
+          "title": "中国医疗 AI 公司德适 iMed-6.0 称包揽 MedBench 与 MMMU 双第一",
+          "meta": "机器之心Pro·2026-11-14 19:40",
+          "urls": [
+            "https://m.sohu.com/a/1101596775_129720"
+          ],
+          "summary": "报道称 iMed-6.0 在 MedBench 及 MMMU 医疗相关榜单包揽全球前二，性能超过 GPT 与 Gemini，并强调零代码赋能与国产原创底座。需注意：既有 PR 稿口径为「CT 分析扩展至 509 个影像靶区」，与本条「通用医疗垂类双榜第一」的表述并不完全一致。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "医疗 AI 的榜单口径与落地口径长期分离，吃分的往往是中文病例与影像靶区数量这类本地化指标；对这次「力压 GPT/Gemini」的宣传，应按企业通稿而非第三方评测对待。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "C源口径·企业通稿转载",
+          "publish_time": "2026-11-14 19:40",
+          "event_time": "2026-11-12",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（仅命中公司自有 PR 分发稿转载——TradingView 2026-11-12 22:55、TipRanks 同日 17:19，无独立第三方复测；https://www.tradingview.com/news）",
+          "entities": [
+            {
+              "name": "德适生物",
+              "type": "企业"
+            },
+            {
+              "name": "iMed-6.0",
+              "type": "产品"
+            },
+            {
+              "name": "MedBench",
+              "type": "产品"
+            },
+            {
+              "name": "MMMU",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1101596775_129720",
+            "raw_ref": "reports/raw/2026-11-14-2100.json#candidates[6]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-14-2100/07_m.sohu.com_798f5246.html",
+            "sha256": "116c55b538430a680f7764763c4caed88abab267cbf8d97cecbe67130ab552f8",
+            "fetched_at": "2026-11-14T13:15:14.125Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "SPU 之后科研 agent 的「工具精准度」竞赛",
+      "text": "（SIG-20261114-2100-1，check 2026-12-20）：SPU 已开源数据集与 Harbor 任务包，盯三点——是否有团队公布在 SPU 上的显著提分，提分来自「算力加码」还是「判断依据选择」；UniPat 系列（ScienceVision/PaperBenchX/SaaS-Bench）是否被独立研究引用；厂商是否开始按 SPU 分学科报价。",
+      "sigId": "SIG-20261114-2100-1"
+    },
+    {
+      "lead": "Always-on agent 的计费与抑制层",
+      "text": "（SIG-20261114-2100-2，check 2026-12-30）：盯 Deepnote 开源基准是否被其他厂商复现、「该闭嘴时闭嘴」的通过率是否成为公开卖点、是否出现按席位计费（而非按 token）的 agent 产品定价。",
+      "sigId": "SIG-20261114-2100-2"
+    },
+    {
+      "lead": "英伟达继任者搜索的落地形态",
+      "text": "（SIG-20261114-2100-3，check 2026-12-10）：盯正式继任者是否外聘、猎头机构是否公开、Colette Kress 的临时任期长度，以及 60 人直报架构是否被调整——架构变动才是全球 AI 算力供给节奏的真实先行指标。",
+      "sigId": "SIG-20261114-2100-3"
+    },
+    {
+      "lead": "OpenAI 通用模型直接驱动机器人",
+      "text": "Reuters/The Decoder 11-14 同报「通用模型让专用机器人 AI 显得多余」，与 1500 场记录方向一致，未见独立技术验证。",
+      "sigId": "SIG-20261114-1500-1"
+    },
+    {
+      "lead": "AI 读史料/私有编码文本",
+      "text": "哥德尔笔记解读仍无同行评议或出版物口径更新，暂按未兑现处理。",
+      "sigId": "SIG-20261114-1500-3"
+    }
+  ],
+  "sourceStatus": [
+    "- OpenAI 官方源：HTTP 403（本轮累计 DOWN）",
+    "- Hacker News（hnrss）：curl exit 55，网络层失败，Algolia 备用源已接管",
+    "- Google DeepMind / OpenAI / Qwen / MiniMax / Moonshot / arXiv：窗口内 0 条新候选（无新增内容，非故障）",
+    "- 搜狐镜像三源（新智元/机器之心Pro/甲子光年）：parse_loss 3~4，正文抽取不全，已用原链手工核对"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-14-2100.json",
+    "evidence_file": "reports/raw/2026-11-14-2100.evidence.json",
+    "snapshot_dir": "archives/2026-11-14-2100/",
+    "raw_candidates": 63,
+    "matched": 7
+  }
+}

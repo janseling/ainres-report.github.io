@@ -1,6 +1,33 @@
 {
-  "count": 138,
+  "count": 139,
   "reports": [
+    {
+      "id": "2026-11-14-2100",
+      "date": "2026-11-14",
+      "time": "21:00",
+      "title": "AI 情报 · 11-14 21:00 场",
+      "itemCount": 7,
+      "coverage": "2026-11-14 15:00 → 2026-11-14 21:00（Asia/Shanghai，窗口口径）",
+      "note": "本日 09:00 与 15:00 两场已报 18 条（ChatGPT Wallet、DeepSeek API、llama.cpp v1.0、OpenAI 机器人团队解散、Stand With Jensen 请愿等），本场不重复，仅对已报事件作后续跟进",
+      "overview": [
+        "UniPat AI 联合斯坦福、哈佛、康奈尔发布 SPU 基准：16 款前沿模型预测湿实验结果，最高分 0.486，推理强度拉满也几乎不提分。",
+        "微软 11-13 起的全球服务中断已全面恢复，Outlook、Teams、Copilot 均受影响，官方否认遭黑客攻击。",
+        "英伟达董事会已接触 Arm CEO Rene Haas 作为黄仁勋潜在继任者，员工请愿签名增至 6 万余。",
+        "Deepnote 把 12 个模型塞进 Slack 当同事：GPT-6 Astra 第一，Anthropic 全线偏贵，最贵一单贵 430 倍只多 1.1 分。",
+        "Anthropic IPO 路演被报数倍超额认购，但投资人开始质疑其领先地位能否持续。",
+        "南开与中关村学院综述提出 AI4AI 的 L0–L3 控制权框架，把「AI 做研究」拆成方向、空间、评价信号三项决策。"
+      ],
+      "sectionCounts": {
+        "product": 2,
+        "tech": 2,
+        "policy": 0,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 79,
+        "selected": 7
+      }
+    },
     {
       "id": "2026-11-14-1500",
       "date": "2026-11-14",
