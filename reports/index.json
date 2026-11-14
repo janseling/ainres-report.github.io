@@ -1,6 +1,31 @@
 {
-  "count": 136,
+  "count": 137,
   "reports": [
+    {
+      "id": "2026-11-14-0900",
+      "date": "2026-11-14",
+      "time": "09:00",
+      "title": "AI 情报 · 11-14 09:00 场",
+      "itemCount": 10,
+      "coverage": "2026-11-13 21:00 → 2026-11-14 09:00（Asia/Shanghai，窗口口径）",
+      "note": "补刊说明：本档为 15:00 轮次补出的 09:00 场，此前无任何半截推送，本条为首次出刊",
+      "overview": [
+        "OpenAI 把钱包交给代理：ChatGPT Wallet 限量开放给美国 Pro 用户，Dots 代理可直接下单付款。",
+        "DeepSeek 把自家 App 能力整体 API 化，搜索、文件、OCR、语音全部拆成可调用接口。",
+        "Amazon 要把全网在售商品建成结构化数据仓，供自家 AI 代理检索。",
+        "llama.cpp 发布 v1.0.0，本地推理生态首次给出 API/ABI 稳定性承诺。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 3,
+        "policy": 1,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": 152,
+        "selected": 11
+      }
+    },
     {
       "id": "2026-11-13-2100",
       "date": "2026-11-13",
