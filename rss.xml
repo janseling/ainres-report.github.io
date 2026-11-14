@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 14 Nov 2026 07:26:08 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 08:00:26 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-14 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-14-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-14-1500.html</guid>
+      <pubDate>Sat, 14 Nov 2026 07:00:00 GMT</pubDate>
+      <description>OpenAI 解散独立机器人研究团队，人员并入核心研究与 Applied 部门。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-14 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-14-0900.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-08-0900.html</guid>
       <pubDate>Sun, 08 Nov 2026 01:00:00 GMT</pubDate>
       <description>美国让英伟达把芯片卖给中国一间空办公室：出口管制的荒诞漏口</description>
-    </item>
-    <item>
-      <title>AI 情报 · 11-07 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-11-07-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-07-2100.html</guid>
-      <pubDate>Sat, 07 Nov 2026 13:00:00 GMT</pubDate>
-      <description>METR 独立评估：Anthropic 用 AI 造 AI，研发提速约 2 倍，研究人员称「令人警觉」</description>
     </item>
   </channel>
 </rss>

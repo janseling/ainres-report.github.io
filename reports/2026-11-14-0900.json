@@ -3,7 +3,7 @@
   "date": "2026-11-14",
   "time": "09:00",
   "title": "AI 情报 · 11-14 09:00 场",
-  "generatedAt": "2026-11-14T07:14:30.423Z",
+  "generatedAt": "2026-11-14T08:00:18.388Z",
   "coverage": "2026-11-13 21:00 → 2026-11-14 09:00（Asia/Shanghai，窗口口径）",
   "notes": [
     "补刊说明：本档为 15:00 轮次补出的 09:00 场，此前无任何半截推送，本条为首次出刊"
@@ -11,7 +11,7 @@
   "itemCount": 10,
   "rawStats": {
     "candidates": 152,
-    "selected": 11
+    "selected": 10
   },
   "overview": [
     "OpenAI 把钱包交给代理：ChatGPT Wallet 限量开放给美国 Pro 用户，Dots 代理可直接下单付款。",
@@ -515,7 +515,7 @@
           "title": "黄仁勋离场，风投圈给出 AI 初创融资缺口的量化口径",
           "meta": "TechCrunch·2026-11-13 22:43",
           "urls": [
-            "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-are-worried"
+            "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say"
           ],
           "summary": "英伟达今年参与 105 轮投资且常为最大投资方（PitchBook 数据）；临时 CEO Colette Kress 预计将调整 AI 初创投资节奏。",
           "angles": [
@@ -533,7 +533,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 TechCrunch + Politico",
           "publish_time": "2026-11-13 22:43",
-          "verify_note": "外部检索（Politico 2026-11-14 01:21 GMT《Silicon Valley plots Jensen Huang's comeback》同向报道；https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-are-worried）",
+          "verify_note": "外部检索（Politico 2026-11-14 01:21 GMT《Silicon Valley plots Jensen Huang's comeback》同向报道；https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say）",
           "entities": [
             {
               "name": "NVIDIA",
@@ -549,15 +549,10 @@
             }
           ],
           "provenance": {
-            "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-are-worried",
-            "raw_ref": null,
-            "source_id": null,
+            "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+            "raw_ref": "reports/raw/2026-11-14-0900.json#candidates[18]",
+            "source_id": "techcrunch",
             "source_name": "TechCrunch"
-          },
-          "snapshot": {
-            "file": "archives/2026-11-14-0900/10_techcrunch.com_03e96641.html",
-            "sha256": "cd2c71d1b975b40aa3f15d78878e56083fa1003023252714ef45a10a0519c573",
-            "fetched_at": "2026-11-14T07:12:28.148Z"
           }
         }
       ]
@@ -588,13 +583,14 @@
   "sourceStatus": [
     "- GitHub Trending：DOWN（连续失败，curl 超时 25s 无响应）",
     "- Hacker News：FALLBACK（hnrss 返回 HTTP 502，已转 Algolia）",
-    "- Anthropic 官方 RSS：列表页混入旧条目（新加坡办公室/Accenture/LTBT 均超 48h，已剔除）"
+    "- Anthropic 官方 RSS：列表页混入旧条目（新加坡办公室/Accenture/LTBT 均超 48h，已剔除）",
+    "---"
   ],
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-14-0900.json",
     "evidence_file": "reports/raw/2026-11-14-0900.evidence.json",
     "snapshot_dir": "archives/2026-11-14-0900/",
     "raw_candidates": 152,
-    "matched": 9
+    "matched": 10
   }
 }
