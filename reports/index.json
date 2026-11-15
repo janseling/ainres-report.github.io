@@ -1,6 +1,31 @@
 {
-  "count": 140,
+  "count": 141,
   "reports": [
+    {
+      "id": "2026-11-15-1500",
+      "date": "2026-11-15",
+      "time": "15:00",
+      "title": "AI 情报 · 11-15 15:00 场",
+      "itemCount": 7,
+      "coverage": "2026-11-15 09:00 → 15:05（Asia/Shanghai，窗口口径）",
+      "note": "本日 09:00 场已报 5 条；Claude 办公套件（11-12 已报）、llama.cpp v1.0（11-14 09:00 已报）不重复收录",
+      "overview": [
+        "OpenAI 二次解散机器人团队：通用模型直接当机器人大脑，专用本体模型被跳过。",
+        "Claude 办公套件中文复盘：Sheets/Whiteboards/Data 串成流水线，微软一日市值蒸发 893 亿美元。",
+        "李沐出任 Aimotion 联创兼 CTO，仍兼 Boson AI，押注「产业级世界模型」。",
+        "蔚建科技完成超亿元第五轮融资，建筑机器人从「离身智能」转向具身。",
+        "黄仁勋辞任后首个交易日，AMD 连涨五日接住换帅溢出的采购重估。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 2,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": 58,
+        "selected": 7
+      }
+    },
     {
       "id": "2026-11-15-0900",
       "date": "2026-11-15",
