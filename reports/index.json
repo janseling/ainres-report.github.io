@@ -1,6 +1,30 @@
 {
-  "count": 139,
+  "count": 140,
   "reports": [
+    {
+      "id": "2026-11-15-0900",
+      "date": "2026-11-15",
+      "time": "09:00",
+      "title": "AI 情报 · 11-15 09:00 场",
+      "itemCount": 5,
+      "coverage": "2026-11-14 21:00 → 2026-11-15 09:05（Asia/Shanghai，窗口口径）",
+      "note": "本日 11-14 三场已报 18 条以上（ChatGPT Wallet、DeepSeek API、SPU 基准、Haas 继任者线、Claude Code 换肤、哥德尔笔记等），本场对这些事件只做新增量跟进，旧节点不复述",
+      "overview": [
+        "马斯克与 11.5 万签名者联署要求英伟达恢复黄仁勋 CEO 职位，华盛顿邮报同日同报。",
+        "亚洲各国政府集体表态：韩国确认 26 万块 GPU 供应不变，台北称海外总部照约推进，日本表示密切关注。",
+        "TechCrunch 追问英伟达安全团队：CSO 8 月以健康原因离任，而总法律顾问一年多前已知情 Megaspeed 调查。",
+        "TechCrunch 整理「AI 坟场」：S&P 口径 42% 的企业 AI 计划最终被母体放弃，Character.ai 已申请破产。",
+        "Gemini 4 Hydrogen 已全量进 Google 搜索，AI Mode 默认引擎换人并退役 Flash 品牌。"
+      ],
+      "sectionCounts": {
+        "industry": 4,
+        "tech": 1
+      },
+      "rawStats": {
+        "candidates": 48,
+        "selected": 5
+      }
+    },
     {
       "id": "2026-11-14-2100",
       "date": "2026-11-14",
