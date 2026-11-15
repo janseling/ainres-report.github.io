@@ -3,7 +3,7 @@
   "date": "2026-11-15",
   "time": "09:00",
   "title": "AI 情报 · 11-15 09:00 场",
-  "generatedAt": "2026-11-15T01:18:29.438Z",
+  "generatedAt": "2026-11-15T03:04:25.114Z",
   "coverage": "2026-11-14 21:00 → 2026-11-15 09:05（Asia/Shanghai，窗口口径）",
   "notes": [
     "本日 11-14 三场已报 18 条以上（ChatGPT Wallet、DeepSeek API、SPU 基准、Haas 继任者线、Claude Code 换肤、哥德尔笔记等），本场对这些事件只做新增量跟进，旧节点不复述"
@@ -115,7 +115,7 @@
           "confidence": "高",
           "confidence_note": "B单源原文+Reuters 同报引述",
           "publish_time": "2026-11-15 00:34",
-          "event_time": "2026-11-14",
+          "event_time": "2026-11-10",
           "event_time_inferred": false,
           "verify_note": "外部检索（Reuters 2026-11-14 01:19 独家「Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia」，TC 原文直接引用该数字; https://www.reuters.com/technology/）",
           "entities": [
@@ -180,7 +180,7 @@
           "confidence": "高",
           "confidence_note": "B单源原文+NYT 同报",
           "publish_time": "2026-11-15 08:08",
-          "event_time": "2026-11-13",
+          "event_time": "2026-11-09",
           "event_time_inferred": false,
           "verify_note": "外部检索（NYT 2026-11-13 前后报道英伟达总法律顾问一年多前已就 Megaspeed 调查与政府沟通，TC 原文引述; https://www.nytimes.com/）",
           "entities": [
