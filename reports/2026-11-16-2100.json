@@ -3,7 +3,7 @@
   "date": "2026-11-16",
   "time": "21:00",
   "title": "AI 情报 · 11-16 21:00 场",
-  "generatedAt": "2026-11-16T13:10:44.396Z",
+  "generatedAt": "2026-11-16T13:55:22.364Z",
   "coverage": "2026-11-16 15:00 → 2026-11-16 21:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00、15:00 两场已报条目已去重，本期不含英伟达人事、Hy4 flash、CloudRobo、小马智行、AI 垃圾论文等已刊话题"
@@ -110,7 +110,7 @@
           ],
           "confidence": "中",
           "confidence_note": "D源转述官方 X 口径",
-          "publish_time": "2026-11-16 18:36",
+          "publish_time": "2026-11-16",
           "verify_note": "外部检索（量子位发布稿同句证实「中小尺寸将陆续开源」，https://www.qbitai.com/2026/11/510486.html）",
           "entities": [
             {
@@ -161,7 +161,7 @@
           ],
           "confidence": "中",
           "confidence_note": "B单源，金额口径有出入",
-          "publish_time": "2026-11-16 12:30",
+          "publish_time": "2026-11-16 20:30",
           "verify_note": "外部检索（Moneycontrol 另报「洽谈 4000 万美元」，与 5300 万口径有差异，直链未寻得，Google News 聚合跳转无法解析原文）",
           "entities": [
             {
