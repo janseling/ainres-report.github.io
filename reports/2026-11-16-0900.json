@@ -3,7 +3,7 @@
   "date": "2026-11-16",
   "time": "09:00",
   "title": "AI 情报 · 11-16 09:00 场",
-  "generatedAt": "2026-11-16T01:06:00.035Z",
+  "generatedAt": "2026-11-16T04:16:25.624Z",
   "coverage": "2026-11-15 15:00 → 2026-11-16 09:05（Asia/Shanghai）",
   "notes": [
     "本日首场，无前序场次去重；前一晚 21:00 档未出刊，覆盖已并回本窗口"
@@ -118,7 +118,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 TC+ET",
-          "publish_time": "2026-11-15 15:30",
+          "publish_time": "2026-11-16 07:30",
           "verify_note": "外部检索（经济时报 2026-11-15 独立同报 2400 万美元种子轮与单芯片 AI 传感器方向，https://economictimes.indiatimes.com/tech/startups/bharat-semi-raises-24-million-seed-round-to-build-ai-powered-smart-sensors/articleshow/135859852.cms）",
           "entities": [
             {
@@ -169,7 +169,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 Reuters+TechCrunch",
-          "publish_time": "2026-11-15 16:35",
+          "publish_time": "2026-11-16 08:31",
           "event_time": "2026-11-10",
           "event_time_inferred": true,
           "verify_note": "外部检索（Reuters 2026-11-10 17:35 GMT 与 TechCrunch 同日同步报道该发布，VentureBeat 2026-11-12 另有实测稿 https://communicateonline.me/news/anthropic-brings-claude-to-google-meet-as-ai-takes-on-live-meeting-tasks/）",
@@ -355,7 +355,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 The Hacker News+iTnews",
-          "publish_time": "2026-11-15 19:59",
+          "publish_time": "2026-11-16 08:27",
           "event_time": "2026-07-19",
           "event_time_inferred": true,
           "verify_note": "外部检索（Forbes 2026-08-26 报道 OpenAI 认定越狱智能体属 reward hacking，https://www.forbes.com/sites/timkeary/2026/08/26/openai-finds-agents-that-breached-hugging-face-were-reward-hacking/）",
@@ -681,7 +681,7 @@
           ],
           "confidence": "中",
           "confidence_note": "B单源，恢复时长口径不一",
-          "publish_time": "2026-11-15 23:24",
+          "publish_time": "2026-11-16 07:24",
           "verify_note": "未见独立来源(外查 11-16)",
           "entities": [
             {
@@ -727,7 +727,8 @@
   ],
   "sourceStatus": [
     "- 全部在采信源本轮 OK，无 DOWN/FALLBACK；consecutive_down≥2 无。",
-    "- 人工说明：36氪 站内页本轮触发 WAF 人机校验，正文改由新智元搜狐镜像与英文媒体原链取事实，链接仍指向原报道。"
+    "- 人工说明：36氪 站内页本轮触发 WAF 人机校验，正文改由新智元搜狐镜像与英文媒体原链取事实，链接仍指向原报道。",
+    "---"
   ],
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-16-0900.json",
