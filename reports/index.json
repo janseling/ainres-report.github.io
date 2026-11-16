@@ -1,6 +1,32 @@
 {
-  "count": 143,
+  "count": 144,
   "reports": [
+    {
+      "id": "2026-11-16-2100",
+      "date": "2026-11-16",
+      "time": "21:00",
+      "title": "AI 情报 · 11-16 21:00 场",
+      "itemCount": 12,
+      "coverage": "2026-11-16 15:00 → 2026-11-16 21:05（Asia/Shanghai）",
+      "note": "本日 09:00、15:00 两场已报条目已去重，本期不含英伟达人事、Hy4 flash、CloudRobo、小马智行、AI 垃圾论文等已刊话题",
+      "overview": [
+        "阿里 Qwen4-Max 发布：2.4T 总参、71B 激活、百万上下文，单任务成本降 58%，中小尺寸将陆续开源。",
+        "DeepSeek 因算力约束限制长对话，超 7 天无活跃交互的会话不再存续，免费策略首次出现产品级收缩。",
+        "美参议员 Cantwell 致信商务部，指控对华 AI 芯片出口监管失守，正值特习会前夕。",
+        "Dreamteam 融 5300 万美元押注 AI 原生 CRM；Uber 在拉斯维加斯上线亚马逊 Zoox 无人车。",
+        "苹果无屏智能眼镜细节流出，由 Siri 扛交互；豆包与 WorkBuddy 在「上班时间」开打。"
+      ],
+      "sectionCounts": {
+        "product": 5,
+        "tech": 3,
+        "policy": 1,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 110,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-11-16-1500",
       "date": "2026-11-16",
