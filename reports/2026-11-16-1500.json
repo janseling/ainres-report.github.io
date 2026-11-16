@@ -1,0 +1,882 @@
+{
+  "id": "2026-11-16-1500",
+  "date": "2026-11-16",
+  "time": "15:00",
+  "title": "AI 情报 · 11-16 15:00 场",
+  "generatedAt": "2026-11-16T07:05:08.538Z",
+  "coverage": "2026-11-16 09:00 → 2026-11-16 15:05（Asia/Shanghai，窗口口径）",
+  "notes": [
+    "本日 09:00 场已报黄仁勋回归、美国会拟收紧对华芯片出口等 12 条，本期不重复收录"
+  ],
+  "itemCount": 16,
+  "rawStats": {
+    "candidates": 480,
+    "selected": 15
+  },
+  "overview": [
+    "华为云开源昇腾原生具身世界模型 CloudRobo-WM1.2，机器人世界模型进入「开源送底座」阶段。",
+    "腾讯混元 Hy4 flash 以每百万 token 输入 0.5 元、输出 2 元的定价入场，把性价比战打到推理侧。",
+    "一家成立 5 个月的芯片设计公司提「CDK」概念，自研 Agent 在模拟版图与 floorplan 两个基准上超过 GPT-6 Astra。",
+    "arXiv 一篇覆盖 516 组配置的元分析给出冷水：多智能体对等资源下平均准确率 -0.042，74% 对比不敌基线。",
+    "OpenAI 撤销独立机器人团队（11-14 事件今日发酵），通用模型吞并垂直建制的信号再次出现。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "华为云发布并开源昇腾原生具身世界模型 CloudRobo-WM1.2",
+          "meta": "36氪·2026-11-16 14:22",
+          "urls": [
+            "https://36kr.com/p/4072049518924935"
+          ],
+          "summary": "华为云把面向机器人（具身智能）的世界模型做成昇腾原生并开源，产品名 CloudRobo-WM1.2，是当日昇腾原生世界模型发布会的主交付物。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "世界模型是具身智能的上游「预训练底座」，开源等于把获客成本压到零，换的是昇腾生态的装机量——与英伟达靠 CUDA 锁生态同一套打法。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对做本体、数据采集、仿真评测的小团队，可直接省掉自研世界模型的一段路；机会在「数据—微调—场景验证」的下游环节，而不是再做一个底座。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "原生绑昇腾，说明国产算力上的训练/推理链路已能跑通世界模型这类重负载。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 动点科技+金融界",
+          "publish_time": "2026-11-16 14:22",
+          "event_time": "2026-11-16",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（动点科技 2026-11-16 14:25 同报「华为云拟开源面向昇腾的机器人世界模型」; 金融界 2026-11-16 14:30 报道同名产品开源; https://36kr.com/p/4072049518924935）",
+          "entities": [
+            {
+              "name": "华为",
+              "type": "企业"
+            },
+            {
+              "name": "CloudRobo-WM1.2",
+              "type": "产品"
+            },
+            {
+              "name": "昇腾",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4072049518924935",
+            "raw_ref": "reports/raw/2026-11-16-1500.json#candidates[6]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-16-1500/01_36kr.com_60081873.html",
+            "sha256": "1ae40f04e206c42474e86164e3516db1e6467367aa597d920f7877f8e9ab15ae",
+            "fetched_at": "2026-11-16T07:05:27.611Z"
+          }
+        },
+        {
+          "title": "腾讯混元 Hy4 flash 发布：每百万 token 输入 0.5 元、输出 2 元",
+          "meta": "36氪·2026-11-16 13:20",
+          "urls": [
+            "https://36kr.com/p/4071987913610116"
+          ],
+          "summary": "腾讯发布混元系列新语言模型 Hy4 flash，张军称其为「迄今为止性价比最高的混元模型」，单任务成本约为上一代 Hy4 的二十分之一，任务速度大幅提升。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "0.5/2 元的定价已贴近自建推理集群成本线，等于用价格换调用量、用调用量换生态位；对中小 API 转售商是明确挤压。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "这个价位最适合「高频、低价值密度」的批量任务——内容清洗、结构化抽取、客服分流；做 AI 应用的团队该重算一遍毛利表。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 驱动之家+凤凰网科技",
+          "publish_time": "2026-11-16 13:20",
+          "event_time": "2026-11-16",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（凤凰网科技 2026-11-16 14:09 报道「每百万Token输入0.5元、输出2元」; 驱动之家 2026-11-16 13:58 称单任务成本为 Hy4 的二十分之一; https://36kr.com/p/4071987913610116）",
+          "entities": [
+            {
+              "name": "腾讯",
+              "type": "企业"
+            },
+            {
+              "name": "混元",
+              "type": "产品"
+            },
+            {
+              "name": "Hy4 flash",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4071987913610116",
+            "raw_ref": "reports/raw/2026-11-16-1500.json#candidates[21]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-16-1500/02_36kr.com_49372a23.html",
+            "sha256": "66c7b9bfd47ff2f8f59ffee711a71d5e6da0a50fef521c9ae05ba0d7e2ecee60",
+            "fetched_at": "2026-11-16T07:05:27.910Z"
+          }
+        },
+        {
+          "title": "芯片设计公司 NovaSilicon 提出 CDK（电路设计套件），自研 Agent 在两个基准上超过 GPT-6 Astra",
+          "meta": "机器之心Pro·2026-11-16 14:28",
+          "urls": [
+            "https://m.sohu.com/a/1102206795_129720"
+          ],
+          "summary": "类比晶圆厂交付 PDK，这家上海公司把芯片设计经验封装成 CDK 交给客户，提出「Designless」分工；其 Agent 在模拟版图基准 AnalogLayoutWorld 得 0.8154（GPT-6 Astra 0.7483），数字 floorplan 57.97 分约为后者 1.9 倍。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "成立 5 个月连融 3 轮累计数亿元，最新一轮顺为领投、GGV 纪源与经纬跟投——资本在赌「设计环节被 Agent 重构」这条新叙事。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "注意「Designless」的提法：卖的不是 EDA 工具，而是「包交付的设计服务 + 套件」，商业模式更接近咨询与平台混合。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·公司自述与自研基准，论文可核",
+          "publish_time": "2026-11-16 14:28",
+          "verify_note": "外部检索（凤凰网科技 2026-11-16 13:24 转载同稿，未见独立来源；一手材料 arXiv 2611.12048 与 2611.16991 可核验; https://arxiv.org/abs/2611.12048）",
+          "entities": [
+            {
+              "name": "NovaSilicon",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            },
+            {
+              "name": "顺为资本",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1102206795_129720",
+            "raw_ref": "reports/raw/2026-11-16-1500.json#candidates[4]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-16-1500/03_m.sohu.com_627b9c3c.html",
+            "sha256": "3783a9ffd4bf3dfefebd5928c259afb11886c498454511fc31a702b74fec72e9",
+            "fetched_at": "2026-11-16T07:05:28.002Z"
+          }
+        },
+        {
+          "title": "小马智行与丰田合作的第七代铂智 4X Robotaxi 启动示范运营",
+          "meta": "36氪·2026-11-16 12:53",
+          "urls": [
+            "https://36kr.com/p/4071936425153413"
+          ],
+          "summary": "双方基于第七代车型的自动驾驶出租车进入示范运营阶段。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "国内 Robotaxi 路径越来越像「主机厂出车 + 自动驾驶公司出系统」的分工，重资产留在车厂一侧。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "示范运营不等于规模商业运营；配套的充电、运维、远程接管工具链是更容易被忽略的现金流生意。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "商业合作"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-11-16 12:53",
+          "verify_note": "未见独立来源(外查 11-16)",
+          "entities": [
+            {
+              "name": "小马智行",
+              "type": "企业"
+            },
+            {
+              "name": "丰田",
+              "type": "企业"
+            },
+            {
+              "name": "铂智4X",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4071936425153413",
+            "raw_ref": "reports/raw/2026-11-16-1500.json#candidates[146]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-16-1500/04_36kr.com_db499da6.html",
+            "sha256": "7fb380a50c64742c19726078b297af39160504baf9536f6b146c084cc8401a4b",
+            "fetched_at": "2026-11-16T07:05:28.294Z"
+          }
+        },
+        {
+          "title": "AI 陪伴类应用的真实留存：删 App、设限额都没用",
+          "meta": "36氪·2026-11-16 10:33",
+          "urls": [
+            "https://36kr.com/p/4068972151608195"
+          ],
+          "summary": "报道以「劝爸妈别刷 AI 短剧」为切口，描述老年用户对 AI 生成短剧的高黏性，家属的删应用与限额措施均告失效。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "这是被低估的付费人群——中老年用户对内容不挑剔、对价格不敏感、付费路径依赖熟人推荐；做泛娱乐 AI 的团队普遍只盯年轻人，这个方向产品化程度还很低。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-11-16 10:33",
+          "verify_note": "未见独立来源(外查 11-16)",
+          "entities": [
+            {
+              "name": "AI短剧",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4068972151608195",
+            "raw_ref": "reports/raw/2026-11-16-1500.json#candidates[163]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-16-1500/05_36kr.com_0c5a3c52.html",
+            "sha256": "c89c882b3997c1af1db01a399b7e0e7747ca93e83d180a24093a97d529401a2d",
+            "fetched_at": "2026-11-16T07:05:28.483Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术突破 / 模型进展",
+      "items": [
+        {
+          "title": "李沐加入 Aimotion 出任联合创始人兼 CTO，主攻产业级世界模型",
+          "meta": "新智元·2026-11-15 09:58",
+          "urls": [
+            "https://m.sohu.com/a/1102073006_473283"
+          ],
+          "summary": "李沐保留 BosonAI 联合创始人兼 CTO 身份，双方联合攻关产业级世界模型与商业 AI Agent，把 BosonAI 的底层模型能力与 Aimotion 的真实产业场景结合。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "一线研究者往产业场景端挪，说明世界模型的估值故事正从「能力演示」转向「可交付的订单」。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "与同日华为云开源世界模型对照，世界模型出现两条并行路线——大厂开源底座 vs 创业公司深耕垂直场景。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-11-15 09:58",
+          "verify_note": "未见独立来源(外查 11-16)",
+          "entities": [
+            {
+              "name": "李沐",
+              "type": "人物"
+            },
+            {
+              "name": "Aimotion",
+              "type": "企业"
+            },
+            {
+              "name": "BosonAI",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1102073006_473283",
+            "raw_ref": "reports/raw/2026-11-16-1500.json#candidates[173]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-16-1500/06_m.sohu.com_1fe891f0.html",
+            "sha256": "e9cec9c004f68434c47c4cf9b715c41ca5f7249e84d98e3b2f88b3335b927093",
+            "fetched_at": "2026-11-16T07:05:28.637Z"
+          }
+        },
+        {
+          "title": "元分析给多智能体泼冷水：对等资源下平均准确率 -0.042，74% 的对比不敌基线",
+          "meta": "arXiv·2026-11-16 13:00",
+          "urls": [
+            "https://arxiv.org/abs/2611.17610"
+          ],
+          "summary": "作者汇总九项主要实证、516 组多智能体配置：与单次贪心解码相比准确率差异总体为负；样本数或资源预算对齐后平均 -0.042，74% 的对比等于或低于基线。结论是共享同一份证据时通信不带来新信息，正收益需要证据分区、外部校验或跨模型错误多样性。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "这是对「多 Agent 编排＝更强」直觉的直接证伪；真要做多智能体，先设计信息非重叠，否则多花的 token 只是买了同质化投票。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "做 Agent 框架与编排产品的团队需要重审宣传口径——「多智能体」本身不再是卖点，异构证据与验证闭环才是。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-11-16 13:00",
+          "original_title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+          "entities": [
+            {
+              "name": "arXiv",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://arxiv.org/abs/2611.17610",
+            "raw_ref": "reports/raw/2026-11-16-1500.json#candidates[38]",
+            "source_id": "arxiv",
+            "source_name": "arXiv"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-16-1500/07_arxiv.org_b715b2af.html",
+            "sha256": "2816023057b5b5f21a8721079b5bec6852a56aa53a0043431779707d5dcdba6b",
+            "fetched_at": "2026-11-16T07:05:29.008Z"
+          }
+        },
+        {
+          "title": "幻觉检测器在小模型上排名会反转：两个 3B 模型间 Spearman ρ 达 -0.80",
+          "meta": "arXiv·2026-11-16 13:00",
+          "urls": [
+            "https://arxiv.org/abs/2611.17339"
+          ],
+          "summary": "作者在单张 T4 上用 4-bit NF4 量化跑 Llama-3.2-3B 与 Qwen2.5-3B，比较四类幻觉检测器：跨模型排名直接倒挂（ρ=-0.80、τ-b=-0.667），便宜的词法 n-gram 基线与语义熵、SelfCheckGPT-NLI 在 95% 置信区间内无统计差异。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "端侧 AI 的「可信度检测」若照搬大模型论文结论会踩坑；成本最低的词法基线在这类小模型上并不吃亏，是能直接落地的工程选择。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-11-16 13:00",
+          "original_title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+          "entities": [
+            {
+              "name": "arXiv",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://arxiv.org/abs/2611.17339",
+            "raw_ref": "reports/raw/2026-11-16-1500.json#candidates[27]",
+            "source_id": "arxiv",
+            "source_name": "arXiv"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-16-1500/08_arxiv.org_5b66b471.html",
+            "sha256": "acb35bc8a3cfc46a28504e41f37a26f9bcf8faf7ccb85a3c3cbc0226a5db7704",
+            "fetched_at": "2026-11-16T07:05:29.438Z"
+          }
+        },
+        {
+          "title": "机制可解释性能否解释 Agent 失败？线性探针可在生成前预测网页元素幻觉（AUC 0.80）",
+          "meta": "arXiv·2026-11-16 13:00",
+          "urls": [
+            "https://arxiv.org/abs/2611.18514"
+          ],
+          "summary": "在 Qwen2.5-7B 操作真实网站过程中，末位 prompt token 上的线性探针可在生成前预测「幻觉出不存在的元素」，沿探针方向引导可纠正 85% 的幻觉，但会破坏 7% 的合法动作；该方向对 prompt 格式高度敏感，改动作表示后失效大半。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "可解释性首次给出「事前可拦」的实用信号，但脆弱性同样明确——适合做运行时护栏的信号源，不宜做产品级承诺。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-11-16 13:00",
+          "original_title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
+          "entities": [
+            {
+              "name": "arXiv",
+              "type": "机构"
+            },
+            {
+              "name": "Qwen2.5-7B",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://arxiv.org/abs/2611.18514",
+            "raw_ref": "reports/raw/2026-11-16-1500.json#candidates[104]",
+            "source_id": "arxiv",
+            "source_name": "arXiv"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-16-1500/09_arxiv.org_4899cedb.html",
+            "sha256": "668aa92eae36b333862bbabf5cc5a327e1689167ba6cd0f3ea8ee5bd07c48c69",
+            "fetched_at": "2026-11-16T07:05:29.868Z"
+          }
+        },
+        {
+          "title": "SWE Agent 评测存在时间污染：需区分「已有仓库知识」与「代码演进」",
+          "meta": "arXiv·2026-11-16 13:00",
+          "urls": [
+            "https://arxiv.org/abs/2611.17388"
+          ],
+          "summary": "论文指出仓库级软件工程 Agent 基准普遍受时间污染影响，提出用时间一致的分层代码图严格切分训练期已知知识与后续代码演化。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "凡对外宣传编码 Agent 的 pass@ 指标，都该问一句基准截止到哪一天——这将成为采购方技术尽调的标准问题。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "A源·官方原文",
+          "publish_time": "2026-11-16 13:00",
+          "original_title": "Time-Consistent Evaluation of Hierarchical Code Graphs for SWE Agents",
+          "entities": [
+            {
+              "name": "arXiv",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://arxiv.org/abs/2611.17388",
+            "raw_ref": "reports/raw/2026-11-16-1500.json#candidates[112]",
+            "source_id": "arxiv",
+            "source_name": "arXiv"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-16-1500/10_arxiv.org_89c41625.html",
+            "sha256": "3881a8e54f5dfdc138d1a4d948637aeda660b0721adfa255efab14c8f65c17b7",
+            "fetched_at": "2026-11-16T07:05:30.154Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向 / 应用玩法",
+      "items": [
+        {
+          "title": "OpenAI 撤销独立机器人团队，人员并入核心研究与产品部门",
+          "meta": "36氪·2026-11-15 09:41，原事件 2026-11-14",
+          "urls": [
+            "https://36kr.com/p/4071732882445193"
+          ],
+          "summary": "OpenAI 撤销独立的机器人研究团队，人员并入核心研究与产品线——六年内第二次裁撤该建制；与近期「330 万年薪抢机器人人才」的招聘动作形成反差。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "通用模型路线在内部压过专用具身建制，对具身创业者是信心层面的负面信号，也说明垂直建制难与通用底座争夺预算。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "反过来说这正是中国厂商在下游「小脑/运控」层持续加注的窗口——上游不做，下游才有活。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 麻省理工科技评论+澎湃",
+          "publish_time": "2026-11-15 09:41",
+          "event_time": "2026-11-14",
+          "event_time_inferred": false,
+          "verify_note": "外部检索（麻省理工科技评论 2026-11-14 18:22 同报「再次解散机器人团队：GPT-6太强，决定 All in 通用模型」; 澎湃新闻 2026-11-14 13:20 同报「撤销独立机器人团队，通用模型打穿具身智能？」; https://www.thepaper.cn/）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4071732882445193",
+            "raw_ref": "reports/raw/2026-11-16-1500.json#candidates[174]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-16-1500/11_36kr.com_2ec4070f.html",
+            "sha256": "39d4bb59d7c0484ceb50a7f7d62702fe5d657a90f8a72141f470f86187b0761b",
+            "fetched_at": "2026-11-16T07:05:30.421Z"
+          }
+        },
+        {
+          "title": "黄仁勋盟友筹组 War Room 推动其重返英伟达 CEO，请愿人数超 16 万",
+          "meta": "爱范儿·2026-11-16 09:11",
+          "urls": [
+            "https://www.ifanr.com/1689559"
+          ],
+          "summary": "请愿人数已超 16 万；据金融时报，黄仁勋的盟友正组建由硅谷科技企业高管构成的游说团队，试图争取白宫支持。📌 跟踪回访 SIG-20261116-0900-2：本日 09:00 场首次报道「被曝与盟友讨论回归」，截至发稿仍停留在游说阶段，未出现董事会正式议程。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "创始人回归叙事对英伟达股价是短期情绪利多，但一旦僵持，治理不确定性会外溢到供应链订单节奏。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "人事变动"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·援引金融时报",
+          "publish_time": "2026-11-16 09:11",
+          "verify_note": "外部检索（机器之心Pro 2026-11-16 10:16 转述《金融时报》称盟友正组建硅谷高管 War Room 游说董事会并争取白宫支持; https://m.sohu.com/a/1102086918_129720）",
+          "entities": [
+            {
+              "name": "黄仁勋",
+              "type": "人物"
+            },
+            {
+              "name": "英伟达",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.ifanr.com/1689559",
+            "raw_ref": "reports/raw/2026-11-16-1500.json#candidates[180]",
+            "source_id": "ifanr",
+            "source_name": "爱范儿"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-16-1500/12_www.ifanr.com_15e5cdee.html",
+            "sha256": "5a2b7dbf60db667cf89449c18a8b69a14d682a6aa2ed28972f5d360010d8fc78",
+            "fetched_at": "2026-11-16T07:05:30.537Z"
+          }
+        },
+        {
+          "title": "拆飞机供电：AI 数据中心算力焦虑延伸到电力端，退役航发订单排到 2031 年",
+          "meta": "36氪·2026-11-16 10:35",
+          "urls": [
+            "https://36kr.com/p/4071822225757827"
+          ],
+          "summary": "报道称 AI 巨头因并网排队与供电缺口，转向民航退役发动机改造的分布式发电方案，相关订单已排到 2031 年。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "这是「算力瓶颈已从芯片转移到电」最直白的证据，供电交付周期开始决定模型训练排期。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "电力侧的确定性生意（移动燃机、储能调峰、并网代办）比应用层波动小得多，是被 AI 热潮顺带拉起的冷门赛道。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-11-16 10:35",
+          "verify_note": "未见独立来源(外查 11-16)",
+          "entities": [
+            {
+              "name": "英伟达",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4071822225757827",
+            "raw_ref": "reports/raw/2026-11-16-1500.json#candidates[160]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-16-1500/13_36kr.com_6e5c3377.html",
+            "sha256": "b51a6ceaa8d7edc485a0eb1dd0c926999f455b7f57600d0342cde83c907c4135",
+            "fetched_at": "2026-11-16T07:05:30.762Z"
+          }
+        },
+        {
+          "title": "英伟达重金押注的光交换（OCS）：一家中国控光芯片企业主打微秒级切换",
+          "meta": "甲子光年·2026-11-16 14:04",
+          "urls": [
+            "https://m.sohu.com/a/1102200198_100016644"
+          ],
+          "summary": "文章以 OCP 2026 年 10 月《Fast-Switching OCS》报告为背景，介绍国内控光芯片企业在微秒级光路切换上的突破。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "OCS 的切换速度直接决定它能否替代电交换进入训练集群，微秒级是「可进集群」的门槛指标。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "光交换是英伟达与谷歌同时下注的方向，国内在器件层的追赶比整机层更现实。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-11-16 14:04",
+          "verify_note": "未见独立来源(外查 11-16)",
+          "entities": [
+            {
+              "name": "英伟达",
+              "type": "企业"
+            },
+            {
+              "name": "OCP",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1102200198_100016644",
+            "raw_ref": "reports/raw/2026-11-16-1500.json#candidates[13]",
+            "source_id": "sohu-jzgn",
+            "source_name": "甲子光年(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-16-1500/14_m.sohu.com_e54ae5ee.html",
+            "sha256": "04d086ede18fb82ace89c5772f579a656488d6186135799796c3d8fb7af707a7",
+            "fetched_at": "2026-11-16T07:05:30.914Z"
+          }
+        },
+        {
+          "title": "AI 垃圾论文批量冒名顶流学者：Hinton、李飞飞、LeCun、吴恩达中招",
+          "meta": "机器之心Pro·2026-11-16 13:54",
+          "urls": [
+            "https://m.sohu.com/a/1102190716_129720"
+          ],
+          "summary": "期刊论文被指用 AI 生成内容并把知名学者列为作者，目的在于吸引博士生投稿；学者本人回应称「看一眼论文和参考文献就知道是 AI 生成的」。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "学术出版可信度正被 AI 稀释，反过来给「作者身份与贡献可验证」的学术工具留出位置——合规成本低、需求真实的小切口。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "出版商的声誉资产被直接侵蚀，付费墙模式的说服力进一步下降。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·编译自 THE",
+          "publish_time": "2026-11-16 13:54",
+          "verify_note": "未见独立来源(外查 11-16；原报道为泰晤士高等教育调查，机器之心编译)",
+          "entities": [
+            {
+              "name": "Geoffrey Hinton",
+              "type": "人物"
+            },
+            {
+              "name": "李飞飞",
+              "type": "人物"
+            },
+            {
+              "name": "Yann LeCun",
+              "type": "人物"
+            },
+            {
+              "name": "吴恩达",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1102190716_129720",
+            "raw_ref": "reports/raw/2026-11-16-1500.json#candidates[17]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-16-1500/15_m.sohu.com_a6b929fa.html",
+            "sha256": "5608e64788339867e46aafcf13fa14ec2d3070d4461f5153dd442c62fa784458",
+            "fetched_at": "2026-11-16T07:05:31.064Z"
+          }
+        },
+        {
+          "title": "Nvidia 的问题：OpenAI 占其相关收入 90% 以上，而这家实验室正在烧钱",
+          "meta": "Reddit 转述 TIKR 分析·2026-11-16 05:33",
+          "urls": [
+            "https://www.reddit.com/r/OpenAI/comments/1xxh1tf/nvidias_problem_openai_is_90_plus_percent_nvidia"
+          ],
+          "summary": "一篇分析稿称英伟达超过九成相关收入来自 OpenAI，而后者仍在大规模烧钱，两家形成高度绑定的单点风险。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "这是「AI 资本循环」质疑的具体切口，但属分析师测算而非披露数据，不宜当事实引用，可作为观察指标自行跟踪。"
+            }
+          ],
+          "source_tier": "D",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源转述 + 单一分析机构测算",
+          "publish_time": "2026-11-16 05:33",
+          "verify_note": "外部检索（TIKR.com 2026-11-16 05:33 原分析稿，Reddit 为转述贴，未获第二家独立源印证; https://www.reddit.com/r/OpenAI/comments/1xxh1tf/nvidias_problem_openai_is_90_plus_percent_nvidia）",
+          "entities": [
+            {
+              "name": "英伟达",
+              "type": "企业"
+            },
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/OpenAI/comments/1xxh1tf/nvidias_problem_openai_is_90_plus_percent_nvidia",
+            "raw_ref": "reports/raw/2026-11-16-1500.json#candidates[22]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-16-1500/16_www.reddit.com_3e579b5a.html",
+            "sha256": "698d8a03e3d9b14437daef20a246b8a259342fe5814881c94cd6f6c9f22e7dbb",
+            "fetched_at": "2026-11-16T07:06:08.680Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "世界模型开源会否引发国产具身底座竞赛",
+      "text": "（SIG-20261116-1500-1，check 2026-11-23）：盯是否出现第二家国产厂商跟进开源世界模型、CloudRobo-WM1.2 的下载与微调案例是否落地。",
+      "sigId": "SIG-20261116-1500-1"
+    },
+    {
+      "lead": "多智能体「-0.042」结论是否被复现或反驳",
+      "text": "（SIG-20261116-1500-2，check 2026-11-26）：盯是否有团队给出证据分区条件下的正收益复现，主流 Agent 框架是否改口径。",
+      "sigId": "SIG-20261116-1500-2"
+    },
+    {
+      "lead": "Hy4 flash 的实际采用率与后续降价",
+      "text": "（SIG-20261116-1500-3，check 2026-11-23）：盯第三方榜单与开发者实测成本，判断 0.5/2 元定价是否引发同业跟进。",
+      "sigId": "SIG-20261116-1500-3"
+    },
+    {
+      "lead": "黄仁勋回归英伟达",
+      "text": "截至 11-16 仍在游说阶段，16 万人请愿，无董事会正式议程。",
+      "sigId": "SIG-20261116-0900-2"
+    }
+  ],
+  "sourceStatus": [
+    "- GitHub Trending：DOWN（curl exit 28 超时 25s）",
+    "- Hacker News：network_err HTTP 502 + 解析 0 条",
+    "- OpenAI 官方博客：HTTP 403",
+    "- 量子位 / 极客公园 / 智东西 / 英伟达 / DeepSeek / 阿里Qwen / MiniMax：0 条（窗口内无新稿）",
+    "- 搜狐三镜像：parse_loss 4/4/3 条（页面结构变动致部分条目丢失）"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-16-1500.json",
+    "evidence_file": "reports/raw/2026-11-16-1500.evidence.json",
+    "snapshot_dir": "archives/2026-11-16-1500/",
+    "raw_candidates": 191,
+    "matched": 16
+  }
+}
