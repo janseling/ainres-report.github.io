@@ -3,7 +3,7 @@
   "date": "2026-11-16",
   "time": "15:00",
   "title": "AI 情报 · 11-16 15:00 场",
-  "generatedAt": "2026-11-16T07:05:08.538Z",
+  "generatedAt": "2026-11-16T08:08:57.286Z",
   "coverage": "2026-11-16 09:00 → 2026-11-16 15:05（Asia/Shanghai，窗口口径）",
   "notes": [
     "本日 09:00 场已报黄仁勋回归、美国会拟收紧对华芯片出口等 12 条，本期不重复收录"
@@ -174,6 +174,8 @@
           "confidence": "中",
           "confidence_note": "B单源·公司自述与自研基准，论文可核",
           "publish_time": "2026-11-16 14:28",
+          "event_time": "2026-11-09",
+          "event_time_inferred": false,
           "verify_note": "外部检索（凤凰网科技 2026-11-16 13:24 转载同稿，未见独立来源；一手材料 arXiv 2611.12048 与 2611.16991 可核验; https://arxiv.org/abs/2611.12048）",
           "entities": [
             {
@@ -387,6 +389,8 @@
           "confidence": "高",
           "confidence_note": "A源·官方原文",
           "publish_time": "2026-11-16 13:00",
+          "event_time": "2026-11-13",
+          "event_time_inferred": false,
           "original_title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
           "entities": [
             {
@@ -428,6 +432,8 @@
           "confidence": "高",
           "confidence_note": "A源·官方原文",
           "publish_time": "2026-11-16 13:00",
+          "event_time": "2026-08-31",
+          "event_time_inferred": false,
           "original_title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
           "entities": [
             {
@@ -469,6 +475,8 @@
           "confidence": "高",
           "confidence_note": "A源·官方原文",
           "publish_time": "2026-11-16 13:00",
+          "event_time": "2026-11-13",
+          "event_time_inferred": false,
           "original_title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
           "entities": [
             {
@@ -514,6 +522,8 @@
           "confidence": "高",
           "confidence_note": "A源·官方原文",
           "publish_time": "2026-11-16 13:00",
+          "event_time": "2026-11-12",
+          "event_time_inferred": false,
           "original_title": "Time-Consistent Evaluation of Hierarchical Code Graphs for SWE Agents",
           "entities": [
             {
@@ -567,7 +577,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 麻省理工科技评论+澎湃",
-          "publish_time": "2026-11-15 09:41",
+          "publish_time": "2026-11-16 09:41",
           "event_time": "2026-11-14",
           "event_time_inferred": false,
           "verify_note": "外部检索（麻省理工科技评论 2026-11-14 18:22 同报「再次解散机器人团队：GPT-6太强，决定 All in 通用模型」; 澎湃新闻 2026-11-14 13:20 同报「撤销独立机器人团队，通用模型打穿具身智能？」; https://www.thepaper.cn/）",
@@ -763,7 +773,7 @@
           ],
           "confidence": "中",
           "confidence_note": "B单源·编译自 THE",
-          "publish_time": "2026-11-16 13:54",
+          "publish_time": "2026-11-16 14:02",
           "verify_note": "未见独立来源(外查 11-16；原报道为泰晤士高等教育调查，机器之心编译)",
           "entities": [
             {
@@ -816,7 +826,7 @@
           ],
           "confidence": "低",
           "confidence_note": "D源转述 + 单一分析机构测算",
-          "publish_time": "2026-11-16 05:33",
+          "publish_time": "2026-11-16",
           "verify_note": "外部检索（TIKR.com 2026-11-16 05:33 原分析稿，Reddit 为转述贴，未获第二家独立源印证; https://www.reddit.com/r/OpenAI/comments/1xxh1tf/nvidias_problem_openai_is_90_plus_percent_nvidia）",
           "entities": [
             {
