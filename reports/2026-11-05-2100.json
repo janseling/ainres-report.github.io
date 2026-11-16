@@ -3,7 +3,7 @@
   "date": "2026-11-05",
   "time": "21:00",
   "title": "AI 情报 · 11-05 21:00 场",
-  "generatedAt": "2026-11-05T13:15:47.408Z",
+  "generatedAt": "2026-11-16T21:50:48.087Z",
   "coverage": "2026-11-05 15:00 → 21:05（Asia/Shanghai）",
   "notes": [
     "15:00 场已覆盖当日白天增量，本场无重复收录"
@@ -55,7 +55,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 36氪+SiliconANGLE/Axios",
           "publish_time": "2026-11-05 20:30",
-          "event_time": "2026-11-04 22:33",
+          "event_time": "2026-11-04",
           "event_time_inferred": false,
           "verify_note": "外部检索（SiliconANGLE 2026-11-04 21:14 GMT 同步报道：官方宣布收购 Pierre Computer、把 Git 代码存储带进 Codex； https://siliconangle.com/2026/11/04/openai-to-acquire-developer-tooling-startup-pierre-computer/ ；Axios 独家称直指 GitHub）",
           "entities": [
