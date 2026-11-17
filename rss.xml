@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 17 Nov 2026 13:05:20 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 13:07:01 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-17 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-17-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-17-2100.html</guid>
+      <pubDate>Tue, 17 Nov 2026 13:00:00 GMT</pubDate>
+      <description>Anthropic 获准挂牌纳斯达克，招股文件维持定价区间，股票代码 ANT——IPO 进入读秒。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-17 15:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-17-1500.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-11-0900.html</guid>
       <pubDate>Wed, 11 Nov 2026 01:00:00 GMT</pubDate>
       <description>Gemini 4 Carbon 全球全量开放：Google 旗舰正式 GA，Signal 协议 650 万行数学证明验证成果同批披露。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 11-10 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-11-10-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-10-2100.html</guid>
-      <pubDate>Tue, 10 Nov 2026 13:00:00 GMT</pubDate>
-      <description>Anthropic 正式启动 IPO 路演：8.25 亿股、每股 70–78 美元、纳斯达克代码 ANT，官方公告落地。</description>
     </item>
   </channel>
 </rss>

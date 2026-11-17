@@ -6,21 +6,20 @@
       "date": "2026-11-17",
       "time": "21:00",
       "title": "AI 情报 · 11-17 21:00 场",
-      "itemCount": 13,
+      "itemCount": 15,
       "coverage": "2026-11-17 15:00→21:05（Asia/Shanghai）",
-      "note": "本日 09:00、15:00 两场已收 AMD 收购 World Labs、Karpo Decision、DeepSeek 限额、美商务部出口口径、英伟达董事会等，本场不再重复",
+      "note": "2026-11-17 的 09:00、15:00 两场已报条目（AMD 收购 World Labs、Karpo Decision 31B、Qwen4-Max、Sierra Poppy 等）全部剔除",
       "overview": [
-        "Anthropic 获准挂牌纳斯达克，招股文件维持定价区间，股票代码 ANT——IPO 进入读秒。",
-        "苹果收紧 Mac 全盘访问权限，明面上的理由是「AI 智能体越权读取」，终端侧 Agent 的数据边界第一次被系统层写死。",
-        "哈佛与 Anthropic 联合研究：单个 agent 已对齐，组队后却「集体失守」，多智能体产品的验收口径要重写。",
-        "材料科学智能体 MatOS 开源，科研 Agent 从「写论文」转向「筛配方」这类可量化交付。",
-        "千万 token 级稀疏注意力新法 LSA 把索引器从二次方压到对数级，单层 prefill 快 22 倍。"
+        "Anthropic 同日三重动作：获准在纳斯达克挂牌、招股书定价区间未变、新加坡办公室落地。",
+        "ToolSpace 用「工具空间」重写环境合成，744B 模型追平 Claude Opus 5。",
+        "千万 token 的瓶颈被指向「索引器」，隐空间稀疏注意力把 prefill 再提速 22 倍。",
+        "GPT-6 Astra 参与格点化标准模型的形式化证明。",
+        "「AI 发现玛雅遗址」被 The Verge 判定不成立。"
       ],
       "sectionCounts": {
-        "product": 4,
+        "product": 6,
         "tech": 5,
-        "policy": 1,
-        "industry": 3
+        "industry": 4
       },
       "rawStats": {
         "candidates": 115,
