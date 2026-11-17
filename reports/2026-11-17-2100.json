@@ -3,7 +3,7 @@
   "date": "2026-11-17",
   "time": "21:00",
   "title": "AI 情报 · 11-17 21:00 场",
-  "generatedAt": "2026-11-17T13:07:11.207Z",
+  "generatedAt": "2026-11-17T17:43:57.739Z",
   "coverage": "2026-11-17 15:00→21:05（Asia/Shanghai）",
   "notes": [
     "2026-11-17 的 09:00、15:00 两场已报条目（AMD 收购 World Labs、Karpo Decision 31B、Qwen4-Max、Sierra Poppy 等）全部剔除"
@@ -103,7 +103,9 @@
           ],
           "confidence": "高",
           "confidence_note": "A源·官方原文",
-          "publish_time": "2026-11-17",
+          "publish_time": "2026-10-14",
+          "event_time": "2026-10-14",
+          "event_time_inferred": false,
           "entities": [
             {
               "name": "Anthropic",
@@ -149,6 +151,9 @@
           ],
           "confidence": "高",
           "confidence_note": "A源·官方原文，另有多家媒体同报",
+          "publish_time": "2026-09-18",
+          "event_time": "2026-09-18",
+          "event_time_inferred": false,
           "entities": [
             {
               "name": "Anthropic",
@@ -347,8 +352,8 @@
           "confidence": "中",
           "confidence_note": "B单源，论文一手可核",
           "publish_time": "2026-11-17 16:19",
-          "event_time": "2026-11-17",
-          "event_time_inferred": true,
+          "event_time": "2026-11-03",
+          "event_time_inferred": false,
           "verify_note": "论文一手源已定位（arXiv 2611.05036、GitHub dongguanting/ToolSpace），中文侧未见独立同报：https://arxiv.org/pdf/2611.05036）",
           "entities": [
             {
@@ -404,7 +409,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证：alphaXiv 论文页 + eu.36kr.com 同报",
           "publish_time": "2026-11-17 16:06",
-          "event_time": "2026-11-03",
+          "event_time": "2026-10-30",
           "event_time_inferred": false,
           "verify_note": "外部检索（alphaXiv 2026-11-03 论文页；eu.36kr.com 2026-11-17 04:33 GMT 同报：https://export.arxiv.org/abs/2610.42147）",
           "entities": [
@@ -827,7 +832,8 @@
     "- hn：502（Hacker News 主站不可用，未触发 fallback）",
     "- geekpark：超时（curl exit 28，25s 无完整响应）",
     "- deepmind / qbitai：0 条（窗口内无新条目）",
-    "- 36kr：站点与 API 均返回挑战页，正文不可取（41 条候选仅有标题与摘要可用）"
+    "- 36kr：站点与 API 均返回挑战页，正文不可取（41 条候选仅有标题与摘要可用）",
+    "---"
   ],
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-17-2100.json",
