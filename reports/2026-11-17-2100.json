@@ -3,7 +3,7 @@
   "date": "2026-11-17",
   "time": "21:00",
   "title": "AI 情报 · 11-17 21:00 场",
-  "generatedAt": "2026-11-17T13:06:57.360Z",
+  "generatedAt": "2026-11-17T13:07:11.207Z",
   "coverage": "2026-11-17 15:00→21:05（Asia/Shanghai）",
   "notes": [
     "2026-11-17 的 09:00、15:00 两场已报条目（AMD 收购 World Labs、Karpo Decision 31B、Qwen4-Max、Sierra Poppy 等）全部剔除"
@@ -11,7 +11,7 @@
   "itemCount": 15,
   "rawStats": {
     "candidates": 115,
-    "selected": 13
+    "selected": 15
   },
   "overview": [
     "Anthropic 同日三重动作：获准在纳斯达克挂牌、招股书定价区间未变、新加坡办公室落地。",
