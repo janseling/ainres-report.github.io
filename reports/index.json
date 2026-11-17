@@ -1,6 +1,31 @@
 {
-  "count": 145,
+  "count": 146,
   "reports": [
+    {
+      "id": "2026-11-17-1500",
+      "date": "2026-11-17",
+      "time": "15:00",
+      "title": "AI 情报 · 11-17 15:00 场",
+      "itemCount": 9,
+      "coverage": "2026-11-17 09:00 → 2026-11-17 15:05（Asia/Shanghai）",
+      "note": "本日 09:00 场已报条目（Qwen4-Max 首发、DeepSeek 限额、加州诉 OpenAI、对华芯片新规、黄仁勋去向）已去重，本期 Qwen4-Max 与 DeepSeek 两条为成本与搬家的新进展",
+      "overview": [
+        "Qwen4-Max 完整评测公开：单任务成本从 26.58 元降到 11.16 元，旗舰模型开始按「排班表」卖。",
+        "Sierra 与 Meta 发布 Poppy v1.0，OpenAI 同日上 ChatGPT Wallet，Agent 的「进门」与「付钱」同天打通。",
+        "微软全球宕机根因查明：三处小故障叠加、七月起潜伏，AI 只是背锅侠。",
+        "Noeri 携 1.1 亿美元亮相，Yejin Choi 与 Carlos Guestrin 联手押注企业自进化 AI，陈丹琦兼职加入。",
+        "DeepSeek 限额落地后，中文社区出现成规模的「搬家」迁移潮，模型切换成本第一次被公开计价。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 3,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 104,
+        "selected": 9
+      }
+    },
     {
       "id": "2026-11-17-0900",
       "date": "2026-11-17",
