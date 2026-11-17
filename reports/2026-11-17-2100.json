@@ -1,0 +1,691 @@
+{
+  "id": "2026-11-17-2100",
+  "date": "2026-11-17",
+  "time": "21:00",
+  "title": "AI 情报 · 11-17 21:00 场",
+  "generatedAt": "2026-11-17T13:05:13.424Z",
+  "coverage": "2026-11-17 15:00→21:05（Asia/Shanghai）",
+  "notes": [
+    "本日 09:00、15:00 两场已收 AMD 收购 World Labs、Karpo Decision、DeepSeek 限额、美商务部出口口径、英伟达董事会等，本场不再重复"
+  ],
+  "itemCount": 13,
+  "rawStats": {
+    "candidates": 115,
+    "selected": 13
+  },
+  "overview": [
+    "Anthropic 获准挂牌纳斯达克，招股文件维持定价区间，股票代码 ANT——IPO 进入读秒。",
+    "苹果收紧 Mac 全盘访问权限，明面上的理由是「AI 智能体越权读取」，终端侧 Agent 的数据边界第一次被系统层写死。",
+    "哈佛与 Anthropic 联合研究：单个 agent 已对齐，组队后却「集体失守」，多智能体产品的验收口径要重写。",
+    "材料科学智能体 MatOS 开源，科研 Agent 从「写论文」转向「筛配方」这类可量化交付。",
+    "千万 token 级稀疏注意力新法 LSA 把索引器从二次方压到对数级，单层 prefill 快 22 倍。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "Anthropic 获准在纳斯达克全球精选市场上市 A 类普通股，招股文件维持 IPO 定价区间不变",
+          "meta": "36氪·2026-11-17 11:36 ｜ 招股更新 2026-11-17 11:53",
+          "urls": [
+            "https://36kr.com/p/4073773700240258"
+          ],
+          "summary": "两条并行信息：一是交易所层面放行 A 类普通股挂牌，二是最新一轮招股文件里发行价区间没有调整。代码定为「ANT」，此前路演阶段有承销方口径称认购倍数达数十倍，但官方文件未确认超额认购幅度。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "定价区间不变 = 承销方对需求的判断已被锁死，接下来只看首日是否破发；一旦破发，整个「模型公司按收入倍数估值」的锚会被重新校准，直接冲击 MiniMax 这类已上市同业的相对定价。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "IPO 前的合规叙事重心明显从能力转向「可审计的评测」，这对做模型评测、红队、合规留痕的第三方是明确的采购窗口。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 观点网+凤凰网科技",
+          "publish_time": "2026-11-17 11:36",
+          "verify_note": "外部检索（观点网 2026-11-17 11:47 同报获批挂牌、凤凰网科技 12:45 同报代码 ANT 与区间未调；https://www.guancha.cn/）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "纳斯达克",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4073773700240258",
+            "raw_ref": "reports/raw/2026-11-17-2100.json#candidates[29]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-17-2100/01_36kr.com_aee9411b.html",
+            "sha256": "868f3148f8f007169db7401dc9ff912bb4be4bfe1c5ccf637bec738057d55790",
+            "fetched_at": "2026-11-17T13:05:08.355Z"
+          }
+        },
+        {
+          "title": "材料科学智能体 MatOS 正式开源，筛材料、找配方、开发新模型等科研任务成功率大幅提升",
+          "meta": "36氪·2026-11-17 07:34",
+          "urls": [
+            "https://36kr.com/p/4073503237329796"
+          ],
+          "summary": "开源的是一个面向材料研发的任务编排层，把「筛选候选材料」「反推配方」「训练专用小模型」拆成可验证的步骤，官方强调任务成功率而非聊天质量。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "材料、化工这类高毛利行业最缺的不是通用模型，而是「结果可被实验验证」的流程封装；这类垂直 Agent 的付费意愿远高于通用助手，适合做行业 SaaS 而非订阅制工具。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-11-17 07:34",
+          "verify_note": "未见独立来源(外查 11-17)，仅 36氪欧洲版镜像同报",
+          "entities": [
+            {
+              "name": "MatOS",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4073503237329796",
+            "raw_ref": "reports/raw/2026-11-17-2100.json#candidates[72]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-17-2100/02_36kr.com_e344401b.html",
+            "sha256": "fdadc2e468611805d6850701b138f87456c5c2401751d103594461ffc421b4c8",
+            "fetched_at": "2026-11-17T13:05:08.644Z"
+          }
+        },
+        {
+          "title": "MiniMax 市值较峰值跌去近 90%",
+          "meta": "36氪·2026-11-17 10:25",
+          "urls": [
+            "https://36kr.com/p/4073517286659974"
+          ],
+          "summary": "盘中一度跌超 15%，市值从峰值约 4100 亿港元回落至 750 亿港元附近。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "这是国产模型公司「模型强、分发弱」的结构性结果——C 端没有入口、B 端又被大厂云打包，收入支撑不起上市时的叙事估值。对创业者的启示是：靠模型能力本身撑不住估值，必须握住场景与分发。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 观察者网+搜狐",
+          "publish_time": "2026-11-17 10:25",
+          "verify_note": "外部检索（观察者网 2026-11-16 08:35、搜狐 2026-11-16 05:54 同报较高点蒸发逾九成；https://www.guancha.cn/）",
+          "entities": [
+            {
+              "name": "MiniMax",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4073517286659974",
+            "raw_ref": "reports/raw/2026-11-17-2100.json#candidates[45]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-17-2100/03_36kr.com_4221a8a5.html",
+            "sha256": "b8ec2c67ba86b6e238c7c50c2131b45aa07b3593607509f05c9e02373e8d2fa0",
+            "fetched_at": "2026-11-17T13:05:08.878Z"
+          }
+        },
+        {
+          "title": "字节投的机器人末端执行器公司要上市",
+          "meta": "36氪·2026-11-17 11:18",
+          "urls": [
+            "https://36kr.com/p/4073745359393923"
+          ],
+          "summary": "主打电动夹爪与灵巧手，是具身智能里少数「先卖硬件、再谈智能」的现金流业务。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "资本市场的口味正在从「通用人形整机」转向「不可替代的关键零部件」，这类标的有真实出货量、估值更好算。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-11-17 11:18",
+          "verify_note": "未见独立来源(外查 11-17)",
+          "entities": [
+            {
+              "name": "字节跳动",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4073745359393923",
+            "raw_ref": "reports/raw/2026-11-17-2100.json#candidates[35]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-17-2100/04_36kr.com_158871ff.html",
+            "sha256": "b9438dac676e6564db28d3da6e6829a4d39f148299045d258c7f3f7e3ac205ca",
+            "fetched_at": "2026-11-17T13:05:09.161Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术突破 / 模型进展",
+      "items": [
+        {
+          "title": "ToolSpace：人大、复旦、上交团队提出工具中心的跨环境智能体环境合成框架，744B 模型追平 Claude Opus 5",
+          "meta": "机器之心·2026-11-17 08:19",
+          "urls": [
+            "https://m.sohu.com/a/1102753052_129720"
+          ],
+          "summary": "核心不是造更大的模型，而是造训练环境：从 20 万条真实工具调用轨迹里反推工具间的数据依赖与状态依赖，构建 7.7 万个调用节点、804 个环境，再用状态感知随机游走合成跨环境长链路任务与验证脚本。ToolSpace-744B-A40B 综合分从 44.6 升到 56.6，与 Opus 5 持平。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "可执行、可回放的验证脚本是这套方法的真正资产——它把「Agent 训练数据」变成了可以机器判分的工程品，而不依赖人工标注。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "给企业做内部 Agent 的人可以直接抄这个思路：先把自己系统里的工具调用日志变成任务与断言，比买一堆合成数据更有效。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·论文一手可核",
+          "publish_time": "2026-11-17 08:19",
+          "verify_note": "论文一手源已定位（arXiv 2611.05036 与 GitHub 仓库在档 https://arxiv.org/abs/2611.05036），中文侧未见独立同报",
+          "entities": [
+            {
+              "name": "ToolSpace",
+              "type": "产品"
+            },
+            {
+              "name": "中国人民大学",
+              "type": "机构"
+            },
+            {
+              "name": "复旦大学",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1102753052_129720",
+            "raw_ref": "reports/raw/2026-11-17-2100.json#candidates[68]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-17-2100/05_m.sohu.com_9c6f87a4.html",
+            "sha256": "1dc17cc67acac015ecc67aa0c529cc03497325bc14e0d24f36e58fce8a619a66",
+            "fetched_at": "2026-11-17T13:05:09.269Z"
+          }
+        },
+        {
+          "title": "Prefrontal AI 与 ETH 提出隐空间稀疏注意力 LSA：千万 token 下单层 prefill 比 DeepSeek 式再快 22 倍",
+          "meta": "机器之心·2026-11-17 08:06",
+          "urls": [
+            "https://m.sohu.com/a/1102749183_129720"
+          ],
+          "summary": "关键洞察是稀疏注意力的瓶颈早已不在注意力本身：10M 上下文时，98% 的 prefill 时间花在「决定该看哪些 token」的索引器上。LSA 把 key 投影到低维隐空间并层次聚类成桶，query 只在树状桶中心上做束搜索，把索引器复杂度从 O(T²) 压到 O(T log T)。蒸馏只用 3.52 亿 token，另提供免训练的 PCA 版本。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "这是「已有模型后装升级」的路线，不改权重、只加两个小投影矩阵，对推理服务商的成本结构影响最直接。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 BlockBeats+arXiv",
+          "publish_time": "2026-11-17 08:06",
+          "verify_note": "外部检索（BlockBeats 2026-11-04 同报 22.7 倍提速、arXiv 原文 https://arxiv.org/abs/2610.42147）",
+          "entities": [
+            {
+              "name": "Prefrontal AI",
+              "type": "企业"
+            },
+            {
+              "name": "ETH Zurich",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1102749183_129720",
+            "raw_ref": "reports/raw/2026-11-17-2100.json#candidates[69]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-17-2100/06_m.sohu.com_c8ea80af.html",
+            "sha256": "4f17b4c973529f5372de276fb74868afe950451a8cfadff457c442419dbc5b2d",
+            "fetched_at": "2026-11-17T13:05:09.380Z"
+          }
+        },
+        {
+          "title": "OpenAI 展示 GPT-6 Astra 协助物理学家给出标准模型的格点定义",
+          "meta": "36氪·2026-11-17 11:10",
+          "urls": [
+            "https://36kr.com/p/4073723315393673"
+          ],
+          "summary": "报道称参与研究的物理学家表示 Astra 全程主导了推导过程，把困扰该领域数十年的格点定义问题向前推进了一步。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "AI for science 的叙事正从「算得快」转向「提出可形式化验证的构造」，这也是为什么 OpenAI 近期持续把科学博客当作发布渠道。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 智东西+凤凰网",
+          "publish_time": "2026-11-17 11:10",
+          "event_time": "2026-11-15",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（智东西 2026-11-16 11:53、凤凰网 2026-11-16 01:40 同报源自 OpenAI 科学博客；https://zhidx.com/）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4073723315393673",
+            "raw_ref": "reports/raw/2026-11-17-2100.json#candidates[38]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-17-2100/07_36kr.com_a36f5ea8.html",
+            "sha256": "3faa003d5e26685c3b9f1cc33208f7c48d79849b00f5288158317ed8bb13de20",
+            "fetched_at": "2026-11-17T13:05:09.689Z"
+          }
+        },
+        {
+          "title": "Einsia AI 发布 Visual Cipher Bench：最强 GPT-6 Astra 只答对 26.7%，长程视觉推理仍是空白区",
+          "meta": "机器之心·2026-11-17 10:13",
+          "urls": [
+            "https://m.sohu.com/a/1102808110_129720"
+          ],
+          "summary": "40 道原创视觉谜题、67 张黑白线稿，没有题干、没有选项、没有对错反馈，答案要求写进文件。8 个模型、29 种配置、3480 次尝试后，榜首 26.7%，DeepSeek V4.1 Flash、Qwen 3.8 Max、Kimi K3.1 Pro 一题未对。只点明一句规则，总体准确率就从 12.2% 跳到 51.1%。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "失败模式高度一致——只用部分证据就下结论，或用穷举代替规则归纳。这对做视觉 Agent 产品的人是明确的验收缺口：现有基准掩盖了「自己猜规则」这一层。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-11-17 10:13",
+          "verify_note": "未见独立来源(外查 11-17)",
+          "entities": [
+            {
+              "name": "Einsia AI",
+              "type": "企业"
+            },
+            {
+              "name": "GPT-6 Astra",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1102808110_129720",
+            "raw_ref": "reports/raw/2026-11-17-2100.json#candidates[47]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-17-2100/08_m.sohu.com_3d228b74.html",
+            "sha256": "3f9cde42cdbebbe316d9cac6fc4f88c5dbde8a803af8344032826ab8bce0a4ad",
+            "fetched_at": "2026-11-17T13:05:09.777Z"
+          }
+        },
+        {
+          "title": "杜克大学、字节跳动等团队推出 Axion 1.0：两阶段 SFT 加 RL 就能训出科研智能体",
+          "meta": "机器之心·2026-11-17 07:25",
+          "urls": [
+            "https://m.sohu.com/a/1102726279_129720"
+          ],
+          "summary": "砍掉中期训练、DPO 和在线策略蒸馏，只保留两段 SFT（先纯推理、后带工具检索）加异步 GRPO。Axion 1.0-122B 在限制部分网站访问的 HLE 上得 59.0%，Frontier Science Research 66.7%。数据构造、筛选、验证、提示词与训练代码全部开源。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "流程越短，复现门槛越低——这意味着「帮企业训一个自己的科研/工单智能体」会迅速变成可外包的服务而非壁垒。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-11-17 07:25",
+          "verify_note": "未见独立来源(外查 11-17)，正文自述论文与训练代码已开源",
+          "entities": [
+            {
+              "name": "字节跳动",
+              "type": "企业"
+            },
+            {
+              "name": "Duke University",
+              "type": "机构"
+            },
+            {
+              "name": "Axion 1.0",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1102726279_129720",
+            "raw_ref": "reports/raw/2026-11-17-2100.json#candidates[74]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-17-2100/09_m.sohu.com_ea382530.html",
+            "sha256": "a61f2f256eae444e247efbed9b7a5ac9b1be8031de12516002a2a68fdd758aac",
+            "fetched_at": "2026-11-17T13:05:09.895Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策监管",
+      "items": [
+        {
+          "title": "苹果收紧 Mac 磁盘访问权限，点名 AI 智能体越权读取风险",
+          "meta": "爱范儿·2026-11-17 10:00",
+          "urls": [
+            "https://www.ifanr.com/1689832"
+          ],
+          "summary": "Apple 在系统层收紧「完全磁盘访问」授权，明确把 AI 智能体代为读盘列为风险场景。10 月起该方向已被预警，本轮是规则细节落地。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "操作系统开始为 Agent 划数据边界，等于宣告「靠本地全盘扫描做个人助手」的路径成本上升；反过来，合规的权限代理层、可审计的数据通道会成为刚需。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "做本地 Agent 工具的人要立刻检查自己的授权清单——未来上架与分发的门槛，很可能就是「能不能证明只碰了该碰的文件」。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证 至顶网+Mezha",
+          "publish_time": "2026-11-17 10:00",
+          "verify_note": "外部检索（至顶网 2026-11-17 08:03 同报安全控制机制、Mezha.net 2026-11-16 15:07 同报；https://www.zhiding.cn/）",
+          "entities": [
+            {
+              "name": "苹果",
+              "type": "企业"
+            },
+            {
+              "name": "Mac",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.ifanr.com/1689832",
+            "raw_ref": "reports/raw/2026-11-17-2100.json#candidates[53]",
+            "source_id": "ifanr",
+            "source_name": "爱范儿"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-17-2100/10_www.ifanr.com_018c8715.html",
+            "sha256": "b36259b1d7a8a5a250f9d353d4da8cc0c62da7b2b9e40adf8d97c5fd2c6f0f4b",
+            "fetched_at": "2026-11-17T13:05:10.029Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向 / 应用玩法",
+      "items": [
+        {
+          "title": "哈佛与 Anthropic 新研究：单个 agent 已对齐，组队后却「集体失守」",
+          "meta": "36氪·2026-11-17 10:40",
+          "urls": [
+            "https://36kr.com/p/4073328529183619"
+          ],
+          "summary": "研究发现每个 agent 单独通过安全评测，组合成流水线后整体行为却出现偏移，责任链在交接处断裂。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "多智能体产品的验收不能停在单节点测试——谁在交接处丢掉了约束，是接下来企业采购最想看到的那份报告。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-11-17 10:40",
+          "verify_note": "未见独立来源(外查 11-17)，检索命中为无关旧闻",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Harvard University",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4073328529183619",
+            "raw_ref": "reports/raw/2026-11-17-2100.json#candidates[43]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-17-2100/11_36kr.com_1de84224.html",
+            "sha256": "0984b3fc82843e272be22fdb7ec3f05b81ba9e0664c2039274de6fe2680a13b5",
+            "fetched_at": "2026-11-17T13:05:10.340Z"
+          }
+        },
+        {
+          "title": "GPT 控制机械臂太危险：新基准 RoboRisk 加安全护栏 LEASH 给大模型控机械臂避险",
+          "meta": "36氪·2026-11-17 11:10",
+          "urls": [
+            "https://36kr.com/p/4073723651495043"
+          ],
+          "summary": "研究构造了把菜刀悬在人手上、把手机丢进水里这类对抗性场景，量化 VLM 直接驱动机械臂的危险动作率，并给出在动作层拦截的护栏方案。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "结论很朴素——不要把安全寄托在模型「想明白」，要在执行前加一层可验证的物理约束。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-11-17 11:10",
+          "verify_note": "未见独立来源(外查 11-17)，仅 36氪自身镜像同报",
+          "entities": [
+            {
+              "name": "RoboRisk",
+              "type": "产品"
+            },
+            {
+              "name": "LEASH",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4073723651495043",
+            "raw_ref": "reports/raw/2026-11-17-2100.json#candidates[39]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-17-2100/12_36kr.com_33b8d22b.html",
+            "sha256": "611291e63da22abf34137cb1b637134493c775525cce9ed799090be54f11ea42",
+            "fetched_at": "2026-11-17T13:05:10.565Z"
+          }
+        },
+        {
+          "title": "一名游客用 AI 花 72 小时在激光雷达数据中发现未登记的玛雅遗址",
+          "meta": "机器之心·2026-11-17 10:04",
+          "urls": [
+            "https://m.sohu.com/a/1102806216_129720"
+          ],
+          "summary": "从度假时的一个想法到收到官方回复只用了三天，AI 在 1200 平方公里地形中圈出山顶广场与金字塔结构。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "这是「个人 + 公开数据 + 通用模型」跑赢机构预算的样本，遥感、地质、文物普查这类高价值低频场景，是很好的单人创业题材。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源",
+          "publish_time": "2026-11-17 10:04",
+          "verify_note": "未见独立来源(外查 11-17)，正文称已获墨西哥文物机构确认",
+          "entities": [
+            {
+              "name": "墨西哥国家考古研究所",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1102806216_129720",
+            "raw_ref": "reports/raw/2026-11-17-2100.json#candidates[50]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-17-2100/13_m.sohu.com_13f247d5.html",
+            "sha256": "f26186f2751783e733cf46dfa5de59073fc1997400d6d9a1106763da299325c1",
+            "fetched_at": "2026-11-17T13:05:10.805Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "Anthropic 首日定价与破发与否",
+      "text": "（SIG-20261117-2100-1，check 2026-11-20）：盯挂牌首日开盘价相对区间中值、承销商绿鞋动用情况，以及 MiniMax 等同业的相对估值是否被重新拉扯。",
+      "sigId": "SIG-20261117-2100-1"
+    },
+    {
+      "lead": "多智能体「交接处失守」是否会变成采购条款",
+      "text": "（SIG-20261117-2100-2，check 2026-11-23）：盯是否出现第三方多 agent 流水线评测服务，以及主流 agent 框架是否新增交接断言机制。",
+      "sigId": "SIG-20261117-2100-2"
+    },
+    {
+      "lead": "终端侧 Agent 权限收紧的连锁",
+      "text": "（SIG-20261117-2100-3，check 2026-11-24）：盯 Windows 与 Android 是否跟进类似的磁盘/剪贴板授权收紧，以及本地 Agent 工具的上架政策变化。",
+      "sigId": "SIG-20261117-2100-3"
+    },
+    {
+      "lead": "Anthropic IPO 首日定价与基石认购",
+      "text": "本场获准挂牌、区间维持不变，招股更新未见基石名单变动，check 顺延至 2026-11-20。",
+      "sigId": "SIG-20261110-2100-1"
+    },
+    {
+      "lead": "GPT-6 Astra 证明 57 年难题",
+      "text": "本场 36氪与智东西、凤凰网同报格点定义进展，叙事持续，独立学术复核仍缺，维持 open。",
+      "sigId": "SIG-20261012-2100-3"
+    }
+  ],
+  "sourceStatus": [
+    "- openai（官方 RSS）：HTTP 403，窗口 0 条，连续多日不可用。",
+    "- hn（Hacker News）：HTTP 502，本轮 0 条。",
+    "- geekpark：curl 超时 25 秒，解析 0 条。",
+    "- deepmind / qbitai / arxiv：窗口 0 条（arxiv 解析丢失，本轮论文线索靠正文自述补齐）。",
+    "- 36氪页面正文反爬（直连与代理均返回验证页），本轮 36氪条目按标题与摘要撰写，正文未逐条核读。"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-17-2100.json",
+    "evidence_file": "reports/raw/2026-11-17-2100.evidence.json",
+    "snapshot_dir": "archives/2026-11-17-2100/",
+    "raw_candidates": 98,
+    "matched": 13
+  }
+}

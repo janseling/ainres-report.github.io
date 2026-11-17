@@ -1,6 +1,32 @@
 {
-  "count": 146,
+  "count": 147,
   "reports": [
+    {
+      "id": "2026-11-17-2100",
+      "date": "2026-11-17",
+      "time": "21:00",
+      "title": "AI 情报 · 11-17 21:00 场",
+      "itemCount": 13,
+      "coverage": "2026-11-17 15:00→21:05（Asia/Shanghai）",
+      "note": "本日 09:00、15:00 两场已收 AMD 收购 World Labs、Karpo Decision、DeepSeek 限额、美商务部出口口径、英伟达董事会等，本场不再重复",
+      "overview": [
+        "Anthropic 获准挂牌纳斯达克，招股文件维持定价区间，股票代码 ANT——IPO 进入读秒。",
+        "苹果收紧 Mac 全盘访问权限，明面上的理由是「AI 智能体越权读取」，终端侧 Agent 的数据边界第一次被系统层写死。",
+        "哈佛与 Anthropic 联合研究：单个 agent 已对齐，组队后却「集体失守」，多智能体产品的验收口径要重写。",
+        "材料科学智能体 MatOS 开源，科研 Agent 从「写论文」转向「筛配方」这类可量化交付。",
+        "千万 token 级稀疏注意力新法 LSA 把索引器从二次方压到对数级，单层 prefill 快 22 倍。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 5,
+        "policy": 1,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 115,
+        "selected": 13
+      }
+    },
     {
       "id": "2026-11-17-1500",
       "date": "2026-11-17",
