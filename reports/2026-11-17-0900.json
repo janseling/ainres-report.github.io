@@ -3,7 +3,7 @@
   "date": "2026-11-17",
   "time": "09:00",
   "title": "AI 情报 · 11-17 09:00 场",
-  "generatedAt": "2026-11-17T01:03:18.458Z",
+  "generatedAt": "2026-11-17T03:45:46.239Z",
   "coverage": "2026-11-16 21:00 → 2026-11-17 09:05（Asia/Shanghai）",
   "notes": [
     "本日 21:00 场已报条目（Qwen4-Max、DeepSeek 限额、对华芯片双轨、Cantwell 致信）已去重，本期黄仁勋条目为董事会表态的新进展"
@@ -60,6 +60,8 @@
           "confidence": "高",
           "confidence_note": "AMD 官方通稿 + SEC 8-K + 多源财经媒体",
           "publish_time": "2026-11-17 08:53",
+          "event_time": "2026-11-16 22:12",
+          "event_time_inferred": false,
           "verify_note": "外部检索（Yahoo Finance 2026-11-17 01:14 报「完成 82 亿美元收购、委任 EVP 兼首席科学家」；SEC 8-K 同日登记；https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months）",
           "entities": [
             {
@@ -282,6 +284,8 @@
           "confidence": "高",
           "confidence_note": "三方官方通稿同批发布",
           "publish_time": "2026-11-17 08:05",
+          "event_time": "2026-11-17 00:04",
+          "event_time_inferred": false,
           "verify_note": "外部检索（IBM Newsroom 2026-11-17 00:01、Fermilab 官方 2026-11-17 00:00、The Quantum Insider 2026-11-17 00:31 同报；https://www.ibm.com/newsroom）",
           "entities": [
             {
@@ -554,7 +558,8 @@
     "- OpenAI 博客：HTTP 403，已连续失败，A 源缺口由 TechCrunch/Verge 转述补位。",
     "- Hacker News：HTTP 502，连续多轮不可用，本期无 HN 候选。",
     "- 机器之心/搜狐同步：解析丢失（parse_loss 4/4），连续多轮零产出。",
-    "- MiniMax 官网：抓取耗时 54 秒仅得 9 张卡，零候选，疑似前端渲染变更。"
+    "- MiniMax 官网：抓取耗时 54 秒仅得 9 张卡，零候选，疑似前端渲染变更。",
+    "---"
   ],
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-17-0900.json",
