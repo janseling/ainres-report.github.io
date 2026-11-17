@@ -3,7 +3,7 @@
   "date": "2026-11-15",
   "time": "15:00",
   "title": "AI 情报 · 11-15 15:00 场",
-  "generatedAt": "2026-11-15T07:28:27.990Z",
+  "generatedAt": "2026-11-17T09:53:49.614Z",
   "coverage": "2026-11-15 09:00 → 15:05（Asia/Shanghai，窗口口径）",
   "notes": [
     "本日 09:00 场已报 5 条；Claude 办公套件（11-12 已报）、llama.cpp v1.0（11-14 09:00 已报）不重复收录"
@@ -185,7 +185,7 @@
           ],
           "confidence": "中",
           "confidence_note": "B单源·首发",
-          "publish_time": null,
+          "publish_time": "2026-11-15 13:19",
           "verify_note": "未见独立来源(外查 11-15)",
           "entities": [
             {
@@ -302,9 +302,9 @@
           ],
           "confidence": "中",
           "confidence_note": "B单源",
-          "publish_time": null,
+          "publish_time": "2026-11-15 14:36",
           "event_time": "2026-11-12",
-          "event_time_inferred": true,
+          "event_time_inferred": false,
           "verify_note": "未见独立来源(外查 11-15)；换帅事实见 2026-11-15 09:00 场报道",
           "entities": [
             {
