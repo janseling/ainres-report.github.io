@@ -1,6 +1,32 @@
 {
-  "count": 149,
+  "count": 150,
   "reports": [
+    {
+      "id": "2026-11-18-2100",
+      "date": "2026-11-18",
+      "time": "21:00",
+      "title": "AI 情报 · 11-18 21:00 场",
+      "itemCount": 10,
+      "coverage": "2026-11-18 15:00 → 21:00（Asia/Shanghai）",
+      "note": "本日 09:00 场已报 GPT-6.2 双模型首发、英伟达 Q3 财报与 SEC 调查、Gemini 聊天留存期；15:00 场已报 Genesis AI、Jason Wei 加盟 Mercor、Anthropic 估值三预测。本期前三条为以上事件的后续与反转，已在标题后标注「后续」",
+      "overview": [
+        "Anthropic IPO 定价前夜被曝超额认购 10~20 倍，Altimeter 一家砸 50 亿美元；资本把「AI 第一股」当成必须开盘就涨的下注。",
+        "GPT-6.2 首发 24 小时口碑反转：榜单更强、开发者说「基本不可用」，VentureBeat 与 Incrypted 同报这轮差评。",
+        "豆包工作披露工作日活 800 万、企业 ARR 破 20 亿元——国内办公智能体第一次交出可对照的营收数字。",
+        "Visa 与连连数字落地亚太首笔 B2B 智能体真实交易：Agent 从「替人下单」走到「替公司付款」。",
+        "Suno 把 AI 音乐接上 AI 视频，音频生成的竞争从「像不像人写的」转向「能不能直接成片」。"
+      ],
+      "sectionCounts": {
+        "product": 5,
+        "tech": 2,
+        "policy": 1,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": 145,
+        "selected": 10
+      }
+    },
     {
       "id": "2026-11-18-1500",
       "date": "2026-11-18",
