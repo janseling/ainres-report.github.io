@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 18 Nov 2026 13:04:26 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 21:48:17 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-18 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-18-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-18-2100.html</guid>
+      <pubDate>Wed, 18 Nov 2026 13:00:00 GMT</pubDate>
+      <description>Anthropic IPO 定价前夜被曝超额认购 10~20 倍，Altimeter 一家砸 50 亿美元；资本把「AI 第一股」当成必须开盘就涨的下注。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-18 15:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-18-1500.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-12-0900.html</guid>
       <pubDate>Thu, 12 Nov 2026 01:00:00 GMT</pubDate>
       <description>谷歌发布首款「决策模型」Gemini Decision 1：不做逐字生成，单次前向给 1000 个问题打分，价格砍到 Flash-Lite 的五分之一。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 11-11 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-11-11-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-11-2100.html</guid>
-      <pubDate>Wed, 11 Nov 2026 13:00:00 GMT</pubDate>
-      <description>阿里 Qwen4-Max 预览版突袭上线，1M 上下文 + Token Plan 限时 1 折，海外开发者把它排进与 Fable 5.2、GPT-6.2 同一梯队。</description>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
   "date": "2026-11-16",
   "time": "21:00",
   "title": "AI 情报 · 11-16 21:00 场",
-  "generatedAt": "2026-11-16T13:55:22.364Z",
+  "generatedAt": "2026-11-18T21:45:35.581Z",
   "coverage": "2026-11-16 15:00 → 2026-11-16 21:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00、15:00 两场已报条目已去重，本期不含英伟达人事、Hy4 flash、CloudRobo、小马智行、AI 垃圾论文等已刊话题"
@@ -59,7 +59,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证：观点网+新浪财经",
-          "publish_time": "2026-11-16 13:48",
+          "publish_time": "2026-11-16 15:51",
           "verify_note": "外部检索（凤凰网 2026-11-16 同报发布，直链未寻得，Google News 聚合跳转无法解析原文；原文见 https://www.qbitai.com/2026/11/510486.html）",
           "entities": [
             {
@@ -718,7 +718,8 @@
     }
   ],
   "sourceStatus": [
-    "- MiniMax：DOWN（连续失败，本期无条目，待恢复）"
+    "- MiniMax：DOWN（连续失败，本期无条目，待恢复）",
+    "---"
   ],
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-16-2100.json",
