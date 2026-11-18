@@ -1,6 +1,32 @@
 {
-  "count": 147,
+  "count": 148,
   "reports": [
+    {
+      "id": "2026-11-18-0900",
+      "date": "2026-11-18",
+      "time": "09:00",
+      "title": "AI 情报 · 11-18 09:00 场",
+      "itemCount": 12,
+      "coverage": "2026-11-17 21:00 → 2026-11-18 09:00（Asia/Shanghai）",
+      "note": "09:00 场，昨夜 21:00 场已报条目不复收",
+      "overview": [
+        "OpenAI 同日放出 GPT-6.2 Astra 与 Sol：Astra 价格降两成，Sol 用五分之一成本追到只差 0.5 分，主力模型从「一个旗舰」变成「贵便宜双档」。",
+        "英伟达 Q3 营收 1158 亿美元、同比翻倍，但 SEC 已就黄仁勋离任立案调查，强财报与治理风险同夜落地。",
+        "Anthropic 招股书摊牌：IPO 后 Amazon 持 14.7%、Google 持 13.7%，两家云厂商合计近三成。",
+        "Google 把关闭历史后的 Gemini 聊天保留期从 72 小时延到两个月，同时把训练开关与聊天历史拆成两档。",
+        "Isomorphic Labs 拿 50 亿美元 C 轮，AI 制药从「讲 AlphaFold 故事」进到「掏钱做临床」。"
+      ],
+      "sectionCounts": {
+        "product": 5,
+        "tech": 3,
+        "policy": 2,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": 279,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-11-17-2100",
       "date": "2026-11-17",
