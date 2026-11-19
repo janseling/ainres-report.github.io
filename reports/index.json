@@ -1,6 +1,32 @@
 {
-  "count": 151,
+  "count": 152,
   "reports": [
+    {
+      "id": "2026-11-19-1500",
+      "date": "2026-11-19",
+      "time": "15:00",
+      "title": "AI 情报 · 11-19 15:00 场",
+      "itemCount": 13,
+      "coverage": "2026-11-19 09:00→15:00（Asia/Shanghai；本档与当日 0900 档去重，已剔除 Anthropic 定价/Gemini 4 Neon/Genie 4/OpenAI 造芯/Claude Code/iWSP/路透中国 AI 披露/学区弃用谷歌/银行 AI 代理/Snapchat/AI 陪伴下架等同题重复项）",
+      "note": "",
+      "overview": [
+        "具身智能进入\"去泡沫\"阶段：浙大阿里系具身大脑公司三个月四轮融资估值近百亿，同时一家估值 200 亿机器人公司被曝发不出工资——资本开始按订单而非故事定价。",
+        "推理成本战升级：腾讯混元 Hy4 flash 开源、调用数据登顶，自述推理成本砍到 1/20；英伟达 SEED 自蒸馏把每 GPU 吞吐再拉高 42%。",
+        "M&A 信号：OpenAI 想买、Anthropic 看上，一桩 50 亿美元级别的天价收购\"拿不下\"，两强边界再次被推高。",
+        "模型与榜单：商汤日日新 SenseNova U1 Pro 在 Design Arena 图片双榜夺中国第一；港中深联合微软研究院提出 ConvexLLM 统一多模态建模。",
+        "治理与合规：奥特曼公开给\"AI 造 AI\"踩刹车；北京市一周新增 106 款生成式 AI 服务完成登记。"
+      ],
+      "sectionCounts": {
+        "product": 4,
+        "tech": 4,
+        "policy": 2,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 272,
+        "selected": 13
+      }
+    },
     {
       "id": "2026-11-19-0900",
       "date": "2026-11-19",
