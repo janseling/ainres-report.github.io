@@ -1,0 +1,622 @@
+{
+  "id": "2026-11-19-2100",
+  "date": "2026-11-19",
+  "time": "21:00",
+  "title": "AI 情报 · 11-19 21:00 场",
+  "generatedAt": "2026-11-19T15:47:59.951Z",
+  "coverage": "2026-11-19 15:00→21:00（Asia/Shanghai；本档与当日 0900/1500 档去重，已剔除 Anthropic 定价/WorkBuddy/Gemini 4 Neon/Genie 4/Code Mode/iWSP/Hy4 flash/SEED/ConvexLLM/SenseNova/CoreWeave 等同题重复项）",
+  "notes": [
+    "补刊说明：本场 cron 采集完成但写稿段中断，raw 已落盘（117 条候选），由 main 复用 raw 续跑补刊"
+  ],
+  "itemCount": 11,
+  "rawStats": {
+    "candidates": 117,
+    "selected": 11
+  },
+  "overview": [
+    "DeepSeek 千亿融资落定，梁文锋退出直接合伙人名单、个人份额隔离，31 家机构入局——中国大模型最大一笔融资的股权结构首次清晰。",
+    "阿里全栈 AI 底牌摊开：吴泳铭称平头哥三代 GPU 加速推进，将成集团 AI 底座。",
+    "「AI 造 AI」进入量产叙事：Claude 7 周造出 38 个模型，下载量 5.5 万。",
+    "工信部发布 5 项人形机器人行业标准并即日实施，具身智能首次有分级与训练场口径。",
+    "供给侧的隐性成本浮出水面：开发者宁租海外 Mac mini 也不领大厂免费云额度；PC 出货跌两成但头部厂商利润反增。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资（3 条）",
+      "items": [
+        {
+          "title": "千亿融资落地，梁文锋隔离个人份额，31 家机构入局 DeepSeek",
+          "meta": "36氪·2026-11-19 19:20",
+          "urls": [
+            "https://36kr.com/p/4076523051422852"
+          ],
+          "summary": "这笔交易的关键不在金额，在结构：**创始人把个人份额从主体里切出去**，是典型的「融资前置治理」——既方便机构按公司估值入股，也避免个人持股在后续多轮里被反复稀释。31 家机构同批进入，说明这一轮的定价是被多方接受的，而不是单一战投兜底。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "千亿体量 + 31 家分摊，意味着国内大模型融资从「战投独家输血」转向「机构共识定价」，后续同行的估值锚会被这条线拉齐。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对创业者是可读的信号——**出资方开始要求股权结构清晰优先于叙事**；准备融资的团队该先把创始人份额与主体关系梳理干净。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·外查通道不可用",
+          "publish_time": "2026-11-19 19:20",
+          "verify_note": "未见独立来源（外查 11-19）",
+          "entities": [
+            {
+              "name": "DeepSeek",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4076523051422852",
+            "raw_ref": "reports/raw/2026-11-19-2100.json#candidates[45]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-19-2100/01_36kr.com_25911deb.html",
+            "sha256": "bbf3c76d5ec1aca2ae454a274be9388541250aef0fac8d3d1c5e4295f8724730",
+            "fetched_at": "2026-11-19T15:48:18.471Z"
+          }
+        },
+        {
+          "title": "Kling 4.0 上线后可灵 AI 流水提升，用户规模与 ARPPU 同步增长",
+          "meta": "36氪·2026-11-19 20:08",
+          "urls": [
+            "https://36kr.com/p/4076635958137992"
+          ],
+          "summary": "模型版本升级能同时拉动「用户数」和「ARPPU」，说明涨的不是尝鲜量，而是**老用户的付费深度**——这在 AI 视频赛道里是少见的正向指标，因为多数产品升级只带来短期拉新。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "ARPPU 同步增长是变现质量的硬指标，比 DAU 更能支撑估值叙事。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "AI 视频的商业化路径被验证了一层：**靠版本能力升级驱动存量提价**，比靠补贴拉新更可持续。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·外查通道不可用",
+          "publish_time": "2026-11-19 20:08",
+          "verify_note": "未见独立来源（外查 11-19）",
+          "entities": [
+            {
+              "name": "快手",
+              "type": "企业"
+            },
+            {
+              "name": "可灵",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4076635958137992",
+            "raw_ref": "reports/raw/2026-11-19-2100.json#candidates[27]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-19-2100/02_36kr.com_560ec619.html",
+            "sha256": "dd4bccb90a7df5722b4d702b41e845fb87b909afc9c24f2182782e5b7ad2657c",
+            "fetched_at": "2026-11-19T15:48:18.671Z"
+          }
+        },
+        {
+          "title": "ChatGPT 听写告别「盲说」，边说边出字，10 分钟上限也砍了",
+          "meta": "36氪·2026-11-19 20:51",
+          "urls": [
+            "https://36kr.com/p/4076622794199938"
+          ],
+          "summary": "一边提体验（实时转写）一边砍额度（10 分钟上限下调），这是**推理成本压力下的标准动作**：实时流式转写的单位算力消耗更高，只能在时长上找补。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "边说边出字要求流式 ASR 与增量纠错同时成立，延迟压到可用区间是这次更新的真实难点。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "做语音入口的产品该注意这条——**实时性提升往往伴随配额收紧**，别把「功能变强」直接读成「成本下降」。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·外查通道不可用",
+          "publish_time": "2026-11-19 20:51",
+          "verify_note": "未见独立来源（外查 11-19；新智元搜狐同步稿为同源转述）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            },
+            {
+              "name": "ChatGPT",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4076622794199938",
+            "raw_ref": "reports/raw/2026-11-19-2100.json#candidates[6]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-19-2100/03_36kr.com_35d2f42f.html",
+            "sha256": "fdc388c4ca47f5eda0108474be5fe0b15efcf4f53d28c7f92acb5e0e3c4f2ba9",
+            "fetched_at": "2026-11-19T15:48:18.888Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术突破 / 模型进展（2 条）",
+      "items": [
+        {
+          "title": "吴泳铭：平头哥三代 GPU 加速推进，正成为阿里全栈 AI 的支撑底座",
+          "meta": "36氪·2026-11-19 20:15",
+          "urls": [
+            "https://36kr.com/p/4076643044430981"
+          ],
+          "summary": "自研 GPU 从「有产品」到「成为底座」是两件事：前者是能做出来，后者是**内部主力业务真的在用**。若三代芯片已承载集团 AI 负载，意味着阿里对外采购的议价空间与供应链风险都发生了变化。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "自研 GPU 的真正门槛不是峰值算力，是**软件栈能否让训练/推理代码不改就跑**——「成为底座」这个表述如果成立，说明这一层已经过了。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "云厂商自研芯片的进展会直接压缩外部 GPU 供应商在该客户上的收入天花板。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·外查通道不可用",
+          "publish_time": "2026-11-19 20:15",
+          "verify_note": "未见独立来源（外查 11-19）",
+          "entities": [
+            {
+              "name": "阿里巴巴",
+              "type": "企业"
+            },
+            {
+              "name": "平头哥",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4076643044430981",
+            "raw_ref": "reports/raw/2026-11-19-2100.json#candidates[23]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-19-2100/04_36kr.com_9b541936.html",
+            "sha256": "2f8a051db412121b15103dc3f173a1b7846de60f69876fa7e634532c1be8973e",
+            "fetched_at": "2026-11-19T15:48:19.133Z"
+          }
+        },
+        {
+          "title": "Claude 开 AI 工厂：7 周造 38 个模型，狂揽 5.5 万下载",
+          "meta": "36氪·2026-11-19 18:31",
+          "urls": [
+            "https://36kr.com/p/4076450154107785"
+          ],
+          "summary": "需要泼一盆冷水：**38 个模型不等于 38 个有用的模型**。7 周 38 个的节奏，更像是微调/蒸馏流水线的产能展示，而不是从零训练的能力跃迁。5.5 万下载说明分发渠道通畅，不说明下游留存。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "能自动化的是「微调 + 评测 + 打包」，不能自动化的是「找到值得训的任务」——这条边界没被突破前，模型量产只是供给端的自嗨。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对做垂直模型的团队，真正的启发是**把模型生产当成流水线工程**（数据 → 微调 → 评测 → 发布），而不是每次从头做研究。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·外查通道不可用",
+          "publish_time": "2026-11-19 18:31",
+          "verify_note": "未见独立来源（外查 11-19）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4076450154107785",
+            "raw_ref": "reports/raw/2026-11-19-2100.json#candidates[55]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-19-2100/05_36kr.com_538b3197.html",
+            "sha256": "2430cdd4d17c936892c741115d96e1373a6178f985f621f88259eb4a20cacd4c",
+            "fetched_at": "2026-11-19T15:48:19.363Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策监管（1 条）",
+      "items": [
+        {
+          "title": "工业和信息化部发布 5 项人形机器人领域行业标准——智能化能力分级、训练场构建标准解读",
+          "meta": "36氪·2026-11-19 18:59",
+          "urls": [
+            "https://36kr.com/p/4076568022537350"
+          ],
+          "summary": "「智能化能力分级」是这 5 项里最要紧的一条：**一旦有了官方分级，采购方就有了一把标尺**，此前靠 Demo 话术拉高预期的空间会被压缩。训练场构建标准同理——它把「数据采集」从各家自定变成可对标，直接影响具身智能公司的成本结构。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "做具身智能的团队要在标准落地前对齐自己的分级位置，否则容易在招投标里被按最低档定价。"
+            },
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "标准先行往往意味着**补贴与试点资源会跟着分级走**，早对齐者拿政策红利的概率更高。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·外查通道不可用",
+          "publish_time": "2026-11-19 18:59",
+          "verify_note": "未见独立来源（外查 11-19；原始标准文本页未取得直链）",
+          "entities": [
+            {
+              "name": "工业和信息化部",
+              "type": "机构"
+            },
+            {
+              "name": "人形机器人",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4076568022537350",
+            "raw_ref": "reports/raw/2026-11-19-2100.json#candidates[52]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-19-2100/06_36kr.com_d849385b.html",
+            "sha256": "b7dc911e9ba1bbb8d6a618b54676098cd86a61d936b1c500b6a70eb4ac88910a",
+            "fetched_at": "2026-11-19T15:48:19.594Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向 / 应用玩法（5 条）",
+      "items": [
+        {
+          "title": "Claude 杀疯了，催生了一场海外租电脑的狂欢",
+          "meta": "36氪·2026-11-19 20:17",
+          "urls": [
+            "https://36kr.com/p/4076354458802050"
+          ],
+          "summary": "这是这一天最值得抄进笔记的一条：**免费的云额度没人要，几十美元的海外机器被抢着租**。原因不是价格，是「账号与 IP 的一致性」——风控体系识别的是行为指纹，不是账单。开发者为了稳定可用，愿意为「看起来像真人真机」付溢价。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "这类需求催生了灰色但真实的中间市场（代注册、机器租赁、IP 代理），也说明 AI 服务的可用性成本被严重低估。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "做 AI 工具出海的团队，**风控适配要当成基础设施来做**，而不是上线后打补丁——否则用户会用脚投票去买「不被封」的通道。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "商业合作"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·外查通道不可用",
+          "publish_time": "2026-11-19 20:17",
+          "verify_note": "未见独立来源（外查 11-19）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4076354458802050",
+            "raw_ref": "reports/raw/2026-11-19-2100.json#candidates[21]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-19-2100/07_36kr.com_11b7cbad.html",
+            "sha256": "f8ff060cd807b30ea83294d88d113a5c6891194f958056d800599d2dc7074d93",
+            "fetched_at": "2026-11-19T15:48:19.822Z"
+          }
+        },
+        {
+          "title": "AI 视频，进入 DeepSeek 时刻？",
+          "meta": "36氪·2026-11-19 19:39",
+          "urls": [
+            "https://36kr.com/p/4076581131244674"
+          ],
+          "summary": "「模型差距缩小、大厂差距拉大」这句判断有信息量：当底层模型能力趋同时，竞争维度从「谁家模型强」转向「谁的算力、渠道、客户关系厚」。AI 视频这个赛道正在经历的，正是这种从技术竞赛到资源竞赛的切换。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "对中小团队，这意味着**别再赌模型领先**，要赌场景独占与交付速度。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [],
+          "confidence": "低",
+          "confidence_note": "B单源·评论稿·观点",
+          "publish_time": "2026-11-19 19:39",
+          "verify_note": "未见独立来源（外查 11-19；观点类无独立源）",
+          "entities": [
+            {
+              "name": "AI视频(其他)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4076581131244674",
+            "raw_ref": "reports/raw/2026-11-19-2100.json#candidates[36]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-19-2100/08_36kr.com_98989706.html",
+            "sha256": "dc950174a842bc67ce3d4a1d2e46940fa72e73754c0320b0bca76a6b3cf5ef4c",
+            "fetched_at": "2026-11-19T15:48:20.061Z"
+          }
+        },
+        {
+          "title": "PC 出货大跌两成，但头部厂商反而越赚越多",
+          "meta": "36氪·2026-11-19 19:28",
+          "urls": [
+            "https://36kr.com/p/4076445866742658"
+          ],
+          "summary": "「出货跌、利润涨」的组合说明两件事：一是**高端化确实在发生**（AI PC 拉高单机均价），二是**低端量被砍掉了**。这是典型的存量博弈形态——厂商主动放弃低毛利订单，用 AI 叙事维持价格。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "这类结构性改善不可持续，一旦 AI PC 的换机需求证伪，量价双杀会同时到来。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "端侧 AI 目前还没给出「非换不可」的理由，这是 PC 复兴叙事最大的软肋。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·外查通道不可用",
+          "publish_time": "2026-11-19 19:28",
+          "verify_note": "未见独立来源（外查 11-19；原始报告未取得直链）",
+          "entities": [
+            {
+              "name": "PC",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4076445866742658",
+            "raw_ref": "reports/raw/2026-11-19-2100.json#candidates[42]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-19-2100/09_36kr.com_1ac9abf2.html",
+            "sha256": "98c7ec398ddfa045567f9208d7924b8d30e7f7f35c5226b6cd1ccfcaedf28a02",
+            "fetched_at": "2026-11-19T15:48:20.286Z"
+          }
+        },
+        {
+          "title": "程一笑：将把 AI 短剧作为丰富平台内容生态的重要方向",
+          "meta": "36氪·2026-11-19 20:09",
+          "urls": [
+            "https://36kr.com/p/4076636904182914"
+          ],
+          "summary": "平台方亲自下场定调，说明 AI 短剧从「创作者自发生态」被收编为「平台供给侧策略」。结合同日可灵流水数据，快手这条线的逻辑清晰：**用 AI 降低内容生产成本 → 喂给平台填充时长 → 用可灵收工具费**。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "内容平台侧的 AI 化会先吃掉「低成本量产」这一层，靠模板化内容吃饭的创作者压力最大。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "商业合作"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·外查通道不可用",
+          "publish_time": "2026-11-19 20:09",
+          "verify_note": "未见独立来源（外查 11-19）",
+          "entities": [
+            {
+              "name": "快手",
+              "type": "企业"
+            },
+            {
+              "name": "AI短剧(其他)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4076636904182914",
+            "raw_ref": "reports/raw/2026-11-19-2100.json#candidates[25]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-19-2100/10_36kr.com_545ffe78.html",
+            "sha256": "e7e554c1a50eb23b07b284400c2a4e9fba9a4821cad15293b864aeb00486b7ba",
+            "fetched_at": "2026-11-19T15:48:20.625Z"
+          }
+        },
+        {
+          "title": "AI 需要一个「通话键」",
+          "meta": "36氪·2026-11-19 18:43",
+          "urls": [
+            "https://36kr.com/p/4076277944488835"
+          ],
+          "summary": "论点值得记：**当前大模型的计费口径和用户的价值感知脱节**——用户想为「一次成功的任务」付费，厂商按 token 计费。中间的翻译层（一次会话、一个任务、一通电话）还没被产品化，这正是「通话键」隐喻的意思。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "谁把「按 token」翻译成「按结果」，谁就拿走了定价权——这是应用层最确定的一个机会窗口。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [],
+          "confidence": "低",
+          "confidence_note": "B单源·评论稿·观点",
+          "publish_time": "2026-11-19 18:43",
+          "verify_note": "未见独立来源（外查 11-19；观点类无独立源）",
+          "entities": [
+            {
+              "name": "大模型(其他)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4076277944488835",
+            "raw_ref": "reports/raw/2026-11-19-2100.json#candidates[54]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-19-2100/11_36kr.com_bfb65ff8.html",
+            "sha256": "21559a4cd37ec9fa848d9262f0f4095a57e36fc38402d72ababe5816cc64c363",
+            "fetched_at": "2026-11-19T15:48:20.885Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "DeepSeek 千亿融资后的股权与治理走向",
+      "text": "（SIG-20261119-2100-1，check 2026-11-26）：盯本轮 31 家机构名单是否披露完整、梁文锋隔离份额的具体结构、以及是否触发新一轮同业估值重定价。",
+      "sigId": "SIG-20261119-2100-1"
+    },
+    {
+      "lead": "平头哥三代 GPU 的实测口径",
+      "text": "（SIG-20261119-2100-2，check 2026-12-03）：盯是否有第三方基准、阿里云对外售卖该芯片实例的时间表、以及软件栈兼容性证据（不改代码即可跑主流框架）。",
+      "sigId": "SIG-20261119-2100-2"
+    },
+    {
+      "lead": "人形机器人 5 项标准的落地执行",
+      "text": "（SIG-20261119-2100-3，check 2026-12-10）：盯分级口径的具体条款、招投标是否引用该标准、以及试点/补贴是否与分级挂钩。",
+      "sigId": "SIG-20261119-2100-3"
+    },
+    {
+      "lead": "AI 服务可用性成本（风控/账号一致性）是否成为独立品类",
+      "text": "（SIG-20261119-2100-4，check 2026-12-17）：盯海外机器租赁、代注册服务的规模变化，以及是否有正规厂商推出「合规可用性」产品。",
+      "sigId": "SIG-20261119-2100-4"
+    },
+    {
+      "lead": "智能体越界责任",
+      "text": "本场无加州诉 OpenAI 案受理进展，信号保持 open。",
+      "sigId": "SIG-20261117-0900-1"
+    },
+    {
+      "lead": "Agent 商业通路的协议之争",
+      "text": "本场无 Poppy v1.0 采纳站点数与 Wallet 扩围的新进展，信号继续 open。",
+      "sigId": "SIG-20261117-1500-1"
+    }
+  ],
+  "sourceStatus": [
+    "- OpenAI 博客：HTTP 403，连续多轮失败，A 源缺口由 36氪/新智元转述补位。",
+    "- Hacker News：HTTP 502，连续多轮不可用，本期无 HN 候选。",
+    "- 36氪：站点与 API 均返回火山引擎风控挑战页，正文仅取到标题与聚合摘要，本期 36氪条目全部为「B单源·正文未取到」置信度。",
+    "- 机器之心官网：0 条，已判死，仅靠搜狐同步。",
+    "- 外查通道：web_search disabled（provider 未配置），佐证检索全部降级为「未见独立来源（外查 11-19）」。"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-19-2100.json",
+    "evidence_file": "reports/raw/2026-11-19-2100.evidence.json",
+    "snapshot_dir": "archives/2026-11-19-2100/",
+    "raw_candidates": 117,
+    "matched": 11
+  }
+}

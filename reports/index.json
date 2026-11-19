@@ -1,6 +1,32 @@
 {
-  "count": 152,
+  "count": 153,
   "reports": [
+    {
+      "id": "2026-11-19-2100",
+      "date": "2026-11-19",
+      "time": "21:00",
+      "title": "AI 情报 · 11-19 21:00 场",
+      "itemCount": 11,
+      "coverage": "2026-11-19 15:00→21:00（Asia/Shanghai；本档与当日 0900/1500 档去重，已剔除 Anthropic 定价/WorkBuddy/Gemini 4 Neon/Genie 4/Code Mode/iWSP/Hy4 flash/SEED/ConvexLLM/SenseNova/CoreWeave 等同题重复项）",
+      "note": "补刊说明：本场 cron 采集完成但写稿段中断，raw 已落盘（117 条候选），由 main 复用 raw 续跑补刊",
+      "overview": [
+        "DeepSeek 千亿融资落定，梁文锋退出直接合伙人名单、个人份额隔离，31 家机构入局——中国大模型最大一笔融资的股权结构首次清晰。",
+        "阿里全栈 AI 底牌摊开：吴泳铭称平头哥三代 GPU 加速推进，将成集团 AI 底座。",
+        "「AI 造 AI」进入量产叙事：Claude 7 周造出 38 个模型，下载量 5.5 万。",
+        "工信部发布 5 项人形机器人行业标准并即日实施，具身智能首次有分级与训练场口径。",
+        "供给侧的隐性成本浮出水面：开发者宁租海外 Mac mini 也不领大厂免费云额度；PC 出货跌两成但头部厂商利润反增。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 2,
+        "policy": 1,
+        "industry": 5
+      },
+      "rawStats": {
+        "candidates": 117,
+        "selected": 11
+      }
+    },
     {
       "id": "2026-11-19-1500",
       "date": "2026-11-19",
