@@ -1,6 +1,31 @@
 {
-  "count": 153,
+  "count": 154,
   "reports": [
+    {
+      "id": "2026-11-20-0900",
+      "date": "2026-11-20",
+      "time": "09:00",
+      "title": "AI 情报 · 11-20 09:00 场",
+      "itemCount": 10,
+      "coverage": "2026-11-19 21:00→2026-11-20 09:00（Asia/Shanghai；与昨日三场去重，已剔除 Anthropic 定价/千亿融资/Kling 4.0/平头哥/人形机器人标准/Claude 工厂/租电脑/PC 出货/AI 短剧/通话键 等同题重复项）",
+      "note": "补刊说明：本场 cron 采集跑完后写稿段中断（cron 记 ok 但 summary 为半截话「I need to read the correct sources.md path」），raw 已落盘 224 条候选，由 main 复用 raw 续跑补刊",
+      "overview": [
+        "Anthropic 上市首日冲破 2 万亿美元，成为史上最大 IPO——但 36氪 同日两篇稿子问的是同一个问题：中国大模型该怎么定价。",
+        "AI 交易的抛售潮外溢到实体商品：铜价跌至 3 月以来最低，金属市场被 AI 情绪拖累。",
+        "Token 欺诈成为新问题：产品作者发现自己被按 token 计费却不知钱花在哪。",
+        "腾讯混元 Hy4 正式开源，与昨日 flash 版开源形成完整放量节奏。",
+        "我国 6G 频段最高码速率无线通信验证刷新纪录。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 1,
+        "industry": 6
+      },
+      "rawStats": {
+        "candidates": 224,
+        "selected": 10
+      }
+    },
     {
       "id": "2026-11-19-2100",
       "date": "2026-11-19",
