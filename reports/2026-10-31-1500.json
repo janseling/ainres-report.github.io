@@ -3,7 +3,7 @@
   "date": "2026-10-31",
   "time": "15:00",
   "title": "AI 情报 · 10-31 15:00 场",
-  "generatedAt": "2026-11-01T19:42:42.575Z",
+  "generatedAt": "2026-11-20T01:44:39.352Z",
   "coverage": "2026-10-31 09:00 → 15:05（Asia/Shanghai）",
   "notes": [
     "本日 09:00 场已报 Claude Ultra 改版、Apple 智能官网官宣、Suncatcher 卫星上线、Anthropic 垃圾级评级等条目；本场去重后聚焦「招股书里的隐性负债 / 算力融资的新担保结构 / 智能体安全与蒸馏」三条增量线。"
@@ -203,7 +203,7 @@
           ],
           "confidence": "中",
           "confidence_note": "B单源·实测叙事",
-          "publish_time": "2026-10-31 09:13",
+          "publish_time": "2026-10-30 16:00",
           "verify_note": "未见独立来源（外查 10-31）",
           "entities": [
             {
@@ -514,8 +514,6 @@
           "confidence": "高",
           "confidence_note": "A源·官方原文",
           "publish_time": "2026-10-08",
-          "event_time": "2026-11-12",
-          "event_time_inferred": false,
           "entities": [
             {
               "name": "Anthropic",
