@@ -3,7 +3,7 @@
   "date": "2026-11-20",
   "time": "09:00",
   "title": "AI 情报 · 11-20 09:00 场",
-  "generatedAt": "2026-11-20T06:28:23.356Z",
+  "generatedAt": "2026-11-20T07:27:21.265Z",
   "coverage": "2026-11-19 21:00→2026-11-20 09:00（Asia/Shanghai；与昨日三场去重，已剔除 Anthropic 定价/千亿融资/Kling 4.0/平头哥/人形机器人标准/Claude 工厂/租电脑/PC 出货/AI 短剧/通话键 等同题重复项）",
   "notes": [
     "补刊说明：本场 cron 采集跑完后写稿段中断（cron 记 ok 但 summary 为半截话「I need to read the correct sources.md path」），raw 已落盘 224 条候选，由 main 复用 raw 续跑补刊"
@@ -522,7 +522,8 @@
     "- 36氪：站点与 API 均被火山引擎风控挑战页拦截，正文仅取到标题与聚合摘要（本期 36氪条目多为「B单源·正文未取到」置信度）。",
     "- 机器之心官网：0 条，已判死，仅靠搜狐同步。",
     "- 外查通道：web_search disabled（provider 未配置），佐证检索大量降级为「未见独立来源（外查 11-20）」。",
-    "- 模型侧：group/smart-split 供应商账号被封（405 code 3012），cron 写稿段易中断——本场即因此需补刊。"
+    "- 模型侧：group/smart-split 供应商账号被封（405 code 3012），cron 写稿段易中断——本场即因此需补刊。",
+    "---"
   ],
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-20-0900.json",
