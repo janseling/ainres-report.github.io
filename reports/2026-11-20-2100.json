@@ -3,7 +3,7 @@
   "date": "2026-11-20",
   "time": "21:00",
   "title": "AI 情报 · 11-20 21:00 场",
-  "generatedAt": "2026-11-20T13:27:31.278Z",
+  "generatedAt": "2026-11-20T19:40:58.799Z",
   "coverage": "2026-11-20 15:00→21:00（Asia/Shanghai）",
   "notes": [
     "与 09:00/15:00 档去重，已剔除 Anthropic 上市首日破 2 万亿·AI 硬件牛市结束·中概股盘前普跌·腾讯姚顺雨回姚班等同题重复项；Anthropic 交割与次日抛售属今日新增事实"
@@ -48,6 +48,8 @@
           "confidence": "高",
           "confidence_note": "A源·官方原文",
           "publish_time": "2026-11-20 08:00",
+          "event_time": "2026-11-20",
+          "event_time_inferred": false,
           "original_title": "Anthropic announces closing of initial public offering, including full exercise of underwriters' option to purchase additional shares, and closing of concurrent private placement",
           "entities": [
             {
@@ -164,8 +166,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 爱范儿+第一财经",
           "publish_time": "2026-11-20 17:17",
-          "event_time": "2026-11-20",
-          "event_time_inferred": true,
+          "event_time": "2026-11-19",
+          "event_time_inferred": false,
           "verify_note": "外部检索（网易 2026-11-19 18:42 报道华为 OSTA 星芒 O1 Pro 正式发布、华为首款鸿蒙 AI 手机、5499 元起；腾讯新闻 2026-11-19 19:11 同报；https://www.163.com/tech/article/LC6RFD1F00099504.html）",
           "entities": [
             {
@@ -222,6 +224,8 @@
           "confidence": "中",
           "confidence_note": "D源首发+两家外媒同日跟进，未见腾讯官方公告",
           "publish_time": "2026-11-20 18:44",
+          "event_time": null,
+          "event_time_inferred": false,
           "verify_note": "外部检索（OrcaRouter 2026-11-20 07:02 报道 WeMM-Video-35B-A3B vs Kling 4.0，确认 35B-A3B 为 MoE 旗舰档；explainx.ai 2026-11-20 报 2B–35B 开放模型族；https://www.orcarouter.ai/blog/wemm-video-35b-a3b-vs-kling-4-0；explainx.ai 2026-11-20 报 2B–35B 开放模型族）",
           "entities": [
             {
@@ -280,6 +284,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 Verge+Reuters+Signal 官方博客",
           "publish_time": "2026-11-20 20:30",
+          "event_time": null,
+          "event_time_inferred": false,
           "verify_note": "外部检索（Signal 官方博客 2026-11-20 10:30 声明 Signal is Serious About Protecting Your Privacy，明确反对屏幕抓取式 AI 代理；Reuters 2026-11-20 09:48 独家：Signal restricts screenshots to block AI agents；https://signal.org/blog/protecting-your-privacy/）",
           "entities": [
             {
@@ -333,6 +339,8 @@
           "confidence": "中",
           "confidence_note": "B单源转述官方推文，未见 OpenAI 原文",
           "publish_time": "2026-11-20 20:11",
+          "event_time": "2026-11-19",
+          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 11-20，Google News 仅命中新智元同源转述）",
           "entities": [
             {
@@ -388,6 +396,8 @@
           "confidence": "中",
           "confidence_note": "B单源·引述多个第三方基准",
           "publish_time": "2026-11-20 20:11",
+          "event_time": null,
+          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 11-20，仅命中新智元同源稿）",
           "entities": [
             {
@@ -437,6 +447,8 @@
           "confidence": "低",
           "confidence_note": "B源·正文仅取到标题与聚合摘要，站点风控拦截",
           "publish_time": "2026-11-20 18:35",
+          "event_time": null,
+          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 11-20；36氪正文未取到，仅凭标题判断）",
           "entities": [
             {
@@ -478,6 +490,8 @@
           "confidence": "低",
           "confidence_note": "B源·正文未取到，仅标题与摘要级信息",
           "publish_time": "2026-11-20 17:19",
+          "event_time": null,
+          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 11-20；36氪正文被风控拦截）",
           "entities": [
             {
@@ -532,7 +546,8 @@
     "- Hacker News：curl exit 55，连续多轮不可用。",
     "- 36氪：页面与 API 均被风控挑战页拦截，本期两条 36氪条目正文未取到（置信度已按低标）。",
     "- 机器之心（搜狐同步）：解析回空，本期无可用候选。",
-    "- 外查通道：web_search provider 未配置，全部佐证降级为 Google News RSS 经代理检索。"
+    "- 外查通道：web_search provider 未配置，全部佐证降级为 Google News RSS 经代理检索。",
+    "---"
   ],
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-20-2100.json",
