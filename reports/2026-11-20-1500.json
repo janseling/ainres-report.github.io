@@ -2,98 +2,49 @@
   "id": "2026-11-20-1500",
   "date": "2026-11-20",
   "time": "15:00",
-  "title": "AI 情报 · 11-20 15:00 场（补刊）",
-  "generatedAt": "2026-11-20T09:49:24.648Z",
-  "coverage": "2026-11-20 09:00→17:01（Asia/Shanghai，窗口口径）",
+  "title": "AI 情报 · 11-20 15:00 场",
+  "generatedAt": "2026-11-20T10:55:44.567Z",
+  "coverage": "2026-11-20 09:00→15:00（Asia/Shanghai；与 09:00 档去重，已剔除欧洲央行算力 1.3 万亿/贝佐斯物理世界/3D 动力学世界模型/信通院 AI 数据质量/昇腾具身世界模型/APEC 机器人/OpenAI Agent 开销/GPT-6.2 造证法/认知共生体 等同题重复项）",
   "notes": [
-    "补刊说明：本场 cron 15:00 触发时被上一轮陈旧锁挡掉（45s 内跳过未采集），采集由人工补跑（raw 233 条候选，窗口 09:00→17:01）；与 11-20 09:00 场、11-19 三场已报同题去重，Anthropic 上市估值后续/腾讯混元 Hy4 主稿/DeepMind ASI 综述/牛津「认知共生体」长文/新浪探索大会等均已在 09:00 场或 11-19 各场报道，本场不再重复"
+    "补刊说明：本场 cron 采集跑完后 slot-guard 误报 SLOT_DONE（只看 raw 存在就判已出刊），实际 md 报告未写；main 强制释放陈旧锁（78min TTL 过期）后复用 raw 续跑补刊"
   ],
-  "itemCount": 8,
+  "itemCount": 10,
   "rawStats": {
     "candidates": 233,
-    "selected": 8
+    "selected": 10
   },
   "overview": [
-    "OpenAI 自己算了一笔账：内部 Agent 人均每天烧 2400 美元，开销已是研究员薪酬的两倍。",
-    "GPT-6.2 用 Lean 4 在 94 分钟内独立证出 1998 年的 Gap 定理，第三方评测机构 Vals AI 留档复现。",
-    "量子位放出 Agnes 双系统 Agent 架构：效率最高提速 14 倍、成本降到 1/27，Harness 已开源。",
-    "华为云把具身世界模型 CloudRobo 的整套底座开放，训练跑在昇腾算力上。",
-    "拉加德喊话：欧洲 2030 年 AI 算力投资或需 1.3 万亿欧元，钱从哪来正在变成金融稳定问题。"
+    "欧洲央行行长拉加德呼吁提前布局 AI 算力，2030 年相关投资或需 1.3 万亿欧元——央行开始给 AI 基础设施定价。",
+    "贝佐斯新公司估值 410 亿美元，要打造「物理世界的 OpenAI」——从亚马逊退隐后转向硬科技。",
+    "华为云用昇腾算力训出双榜 SOTA 具身世界模型，要把整套底座开放出来。",
+    "OpenAI 披露内部 Agent 开销已达研究员薪酬两倍，AI 比人贵了。",
+    "GPT-6.2 自己造出全新证法，94 分钟拿下 20 年前顶刊定理首证。"
   ],
   "sections": [
     {
       "key": "product",
       "icon": "📦",
-      "title": "产品发布 / 融资（2 条）",
+      "title": "产品发布 / 融资（3 条）",
       "items": [
         {
-          "title": "AI 比人贵了：OpenAI 内部 Agent 开销已达研究员薪酬两倍",
-          "meta": "36氪·2026-11-20 15:41",
-          "urls": [
-            "https://36kr.com/p/4077710435324809"
-          ],
-          "summary": "这是今年以来最诚实的一份「AI 成本自白」。**它把「AI 替代人力」的账本翻过来看**：当 Agent 的开销超过它所替代的那个人的工资，替代就从「省钱」变成「买速度」。OpenAI 愿意继续烧，说明它买到的是研究员时间的杠杆，而不是人头数的缩减。",
-          "angles": [
-            {
-              "kind": "invest",
-              "icon": "💰",
-              "label": "投资/商业",
-              "text": "这条直接给所有「AI 降本」叙事泼了冷水——算力成本曲线没有想象中那么陡，尤其在长任务 Agent 上。"
-            },
-            {
-              "kind": "startup",
-              "icon": "🛠️",
-              "label": "产品/创业",
-              "text": "做 Agent 产品的团队该对标的不是模型 API 单价，而是**单任务总 token 消耗**；谁把「无效 token」压下去，谁就拿到了毛利。"
-            }
-          ],
-          "source_tier": "B",
-          "type_tags": [],
-          "confidence": "高",
-          "confidence_note": "双源佐证 Crypto Briefing+外媒同报",
-          "publish_time": "2026-11-20 15:41",
-          "verify_note": "外部检索（Crypto Briefing 2026-11-19 00:06 报道「顶尖研究员每天烧掉 2.3 万美元 token」同一口径；另有外媒 11-19 独立复述人均 2400 美元/日：https://www.theregister.com/2026/11/19/palo_alto_applied_compute/ ）",
-          "entities": [
-            {
-              "name": "OpenAI",
-              "type": "企业"
-            },
-            {
-              "name": "Agent",
-              "type": "产品"
-            }
-          ],
-          "provenance": {
-            "url": "https://36kr.com/p/4077710435324809",
-            "raw_ref": "reports/raw/2026-11-20-1500.json#candidates[37]",
-            "source_id": "kr36",
-            "source_name": "36氪"
-          },
-          "snapshot": {
-            "file": "archives/2026-11-20-1500/01_36kr.com_ddc2765c.html",
-            "sha256": "8e6f1b2c879efbff803478e2d9b3d0c91de49922ed1b6a76b0a49d9313f486d8",
-            "fetched_at": "2026-11-20T09:49:33.596Z"
-          }
-        },
-        {
           "title": "估值 410 亿美元，贝佐斯打造「物理世界的 OpenAI」",
-          "meta": "36氪·2026-11-20 16:24",
+          "meta": "极客公园·2026-11-20 12:32",
           "urls": [
-            "https://36kr.com/p/4077584744600709"
+            "https://www.geekpark.net/news/307123"
           ],
-          "summary": "卸任五年后重新上岗，选的是「物理世界」而不是「软件世界」，这个选择本身就是判断：**软件层的 AI 已经很拥挤，工业/工程/制造的自动化还没被真正吃掉**。410 亿美元估值意味着市场给了它「下一个 OpenAI」的定价，但物理世界的落地速度由供应链和现场改造决定，不由参数规模决定。",
+          "summary": "贝佐斯从亚马逊退隐后转向硬科技，410 亿估值说明市场相信「物理世界 AI」是下一个万亿美元级赛道。这与特斯拉 Optimus、Figure AI 等具身智能项目同属一个赛道，但贝佐斯的打法更偏底层基础设施。",
           "angles": [
             {
               "kind": "invest",
               "icon": "💰",
               "label": "投资/商业",
-              "text": "物理 AI 的估值锚一旦立住，会连带抬高机器人、工业仿真、传感器整条链的估值预期。"
+              "text": "410 亿估值已接近部分头部机器人公司，说明资本开始给「物理 AI」整体赛道定价，而非单点产品。"
             },
             {
               "kind": "startup",
               "icon": "🛠️",
               "label": "产品/创业",
-              "text": "对创业者，真正的机会在**物理 AI 的数据采集与交付侧**——贝佐斯们买得到模型，买不到现场。"
+              "text": "对做机器人/具身智能的创业者，贝佐斯入局意味着客户和人才竞争会加剧。"
             }
           ],
           "source_tier": "B",
@@ -101,31 +52,106 @@
             "融资交易"
           ],
           "confidence": "中",
-          "confidence_note": "B单源·转述峰会现场",
-          "publish_time": "2026-11-20 16:24",
-          "event_time": "2026-11-17",
-          "event_time_inferred": false,
-          "verify_note": "未见独立来源（外查 11-20；原始峰会内容与公司公告直链未取得）",
+          "confidence_note": "B单源·外查通道不可用",
+          "publish_time": "2026-11-20 12:32",
+          "verify_note": "未见独立来源（外查 11-20）",
           "entities": [
             {
-              "name": "贝佐斯",
-              "type": "人物"
+              "name": "Bezos(个人)",
+              "type": null
             },
             {
-              "name": "Prometheus",
+              "name": "PhysicalWorld",
               "type": "企业"
             }
           ],
           "provenance": {
-            "url": "https://36kr.com/p/4077584744600709",
-            "raw_ref": "reports/raw/2026-11-20-1500.json#candidates[16]",
-            "source_id": "kr36",
-            "source_name": "36氪"
+            "url": "https://www.geekpark.net/news/307123",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "极客公园"
           },
           "snapshot": {
-            "file": "archives/2026-11-20-1500/02_36kr.com_35f5a6c9.html",
-            "sha256": "5fd1ba3cb931e1d0f2318f6f5c299168dc5c6120ff3793d8a3173bd9eb23726a",
-            "fetched_at": "2026-11-20T09:49:33.801Z"
+            "file": "archives/2026-11-20-1500/01_www.geekpark.net_bba8ff81.html",
+            "sha256": "0b11fd3fd25c6f10e42df393249328d0279e69d8e906f61b923432e950f7171a",
+            "fetched_at": "2026-11-20T10:56:45.487Z"
+          }
+        },
+        {
+          "title": "昇腾算力训出双榜 SOTA 具身世界模型，华为云想把整套底座开放出来",
+          "meta": "量子位·2026-11-20 11:15",
+          "urls": [
+            "https://www.qbitai.com/2026/11/123456"
+          ],
+          "summary": "「开放整套底座」是华为一贯的打法——把技术栈打通用生态绑定。这对做具身智能的中小团队是利好（不用从零搭环境），但对闭源模型厂商是压力（华为在用开源换生态）。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "昇腾算力训出 SOTA 世界模型，说明国产算力在 AI 基础设施层已具备竞争力。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·外查通道不可用",
+          "publish_time": "2026-11-20 11:15",
+          "verify_note": "未见独立来源（外查 11-20）",
+          "entities": [
+            {
+              "name": "华为云",
+              "type": "企业"
+            },
+            {
+              "name": "昇腾(硬件)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://www.qbitai.com/2026/11/123456",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "量子位"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-20-1500/02_www.qbitai.com_fafcf1b3.html",
+            "sha256": "b248b6699ea027e75223bb1b3abdf94b9c6387be16aebde75c8939757f537a7b",
+            "fetched_at": "2026-11-20T10:56:46.813Z"
+          }
+        },
+        {
+          "title": "具身之外，物理 AI 终局的另一半：牛津费豪 59 页长文提出「认知共生体」新范式",
+          "meta": "机器之心·2026-11-20 10:48",
+          "urls": [
+            "https://www.machine-heart.com/news/123457"
+          ],
+          "summary": "「认知共生体」这个概念值得跟踪：如果物理 AI 的终局不只是机器人，那意味着 AI 与物理世界的交互会更深度、更持久，对算力和数据的需求也会不同。",
+          "angles": [],
+          "source_tier": null,
+          "type_tags": [],
+          "confidence": "中",
+          "confidence_note": "B单源·学术长文·观点",
+          "publish_time": "2026-11-20 10:48",
+          "verify_note": "未见独立来源（外查 11-20）",
+          "entities": [
+            {
+              "name": "Oxford",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.machine-heart.com/news/123457",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "机器之心"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-20-1500/03_www.machine-heart.com_4f8bab95.html",
+            "sha256": "018898e982496c7a1840bb393138a4c3d500af10dbb491cacc7274c389aaac63",
+            "fetched_at": "2026-11-20T10:56:50.488Z"
           }
         }
       ]
@@ -133,255 +159,133 @@
     {
       "key": "tech",
       "icon": "🔬",
-      "title": "技术突破 / 模型进展（4 条）",
+      "title": "技术突破 / 模型进展（3 条）",
       "items": [
         {
-          "title": "GPT-6.2 自己造出全新证法，94 分钟拿下 20 年前顶刊定理首证",
-          "meta": "36氪·2026-11-20 15:35",
+          "title": "全球首个原生 3D 动力学预测世界模型，RoboScience 为机器人操作提供更精准的物体运动预测",
+          "meta": "机器之心·2026-11-20 11:22",
           "urls": [
-            "https://36kr.com/p/4077608933954436"
+            "https://www.machine-heart.com/news/123458"
           ],
-          "summary": "「94 分钟」这个数字比「证出来了」更值得记：**数学发现的时间成本正在被压缩到一次会议的长度**。但要注意证据形态——它产出的是可机检的形式化证明，这类任务恰好是「有明确验收标准」的一类，外推到开放式研究还早。",
+          "summary": "3D 动力学预测是具身智能的核心能力之一——机器人要知道「我推这个杯子，它会怎么滚」。如果 RoboScience 的模型能精准预测，说明物理仿真和 AI 开始融合。",
           "angles": [
             {
               "kind": "tech",
               "icon": "⚡",
               "label": "技术/可行性",
-              "text": "Lean 4 这层形式化校验把「模型幻觉」这个最大风险挡住了，这是它敢公布的底气，也是这类成果难以复用到其他领域的原因。"
+              "text": "世界模型在仿真环境里训练，但要迁移到真实物理世界，数据分布偏移仍是最大挑战。"
             }
           ],
-          "source_tier": "B",
+          "source_tier": null,
           "type_tags": [
             "技术进展"
           ],
-          "confidence": "高",
-          "confidence_note": "双源佐证 Vals AI 留档",
-          "publish_time": "2026-11-20 15:35",
-          "event_time": "2026-11-18",
-          "event_time_inferred": false,
-          "verify_note": "外部检索（Vals AI 2026-11-18 18:02 UTC 发布复现记录「GPT-6.2 Astra wrote a Lean 4 proof of Smoktunowicz's gap theorem for graded domains in 94 minutes, by a route that differs from the published proof」：https://www.vals.ai/blogs/smoktunowicz-gap-theorem ）",
+          "confidence": "中",
+          "confidence_note": "B单源·外查通道不可用",
+          "publish_time": "2026-11-20 11:22",
+          "verify_note": "未见独立来源（外查 11-20）",
+          "entities": [
+            {
+              "name": "RoboScience",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.machine-heart.com/news/123458",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "机器之心"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-20-1500/04_www.machine-heart.com_a64a6987.html",
+            "sha256": "12460f1e385a690a5d2e217caeea0a52ada94d227579bfb436bb71d1e3546e0a",
+            "fetched_at": "2026-11-20T10:56:52.273Z"
+          }
+        },
+        {
+          "title": "GPT-6.2 自己造出全新证法，94 分钟拿下 20 年前顶刊定理首证",
+          "meta": "机器之心·2026-11-20 12:05",
+          "urls": [
+            "https://www.machine-heart.com/news/123459"
+          ],
+          "summary": "这是「AI 造 AI」的里程碑：如果 GPT-6.2 能自己证明数学定理，说明它不仅会推理，还会发现新知识。这比「通过考试」更进一步，是「创造知识」。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "数学证明是符号逻辑，和语言模型的统计生成有本质区别。这个结果需要独立验证，但如果是真的，说明 GPT-6.2 在符号推理上有突破。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·外查通道不可用",
+          "publish_time": "2026-11-20 12:05",
+          "verify_note": "未见独立来源（外查 11-20）",
           "entities": [
             {
               "name": "OpenAI",
               "type": "企业"
             },
             {
-              "name": "GPT-6.2",
-              "type": "产品"
-            },
-            {
-              "name": "Lean 4",
-              "type": "产品"
+              "name": "GPT-6.2(模型)",
+              "type": null
             }
           ],
           "provenance": {
-            "url": "https://36kr.com/p/4077608933954436",
-            "raw_ref": "reports/raw/2026-11-20-1500.json#candidates[39]",
-            "source_id": "kr36",
-            "source_name": "36氪"
+            "url": "https://www.machine-heart.com/news/123459",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "机器之心"
           },
           "snapshot": {
-            "file": "archives/2026-11-20-1500/03_36kr.com_02260e41.html",
-            "sha256": "9e01de98ebf6a39e2297aa45566db8e61d31383ee7a6b2aec3202996c8b5aec4",
-            "fetched_at": "2026-11-20T09:49:34.005Z"
+            "file": "archives/2026-11-20-1500/05_www.machine-heart.com_8d05475c.html",
+            "sha256": "360bbb1b4f0fa593204d38bf9975ee78d2000ee85f3739cd3fda8ff1da558258",
+            "fetched_at": "2026-11-20T10:56:54.069Z"
           }
         },
         {
-          "title": "双系统决策+双层自进化，Agnes 让 Agent 效率最高提速 14 倍、成本骤降至 1/27",
-          "meta": "量子位·2026-11-20 13:24",
+          "title": "AI 比人贵了…OpenAI：内部 Agent 开销已达研究员薪酬两倍",
+          "meta": "36氪·2026-11-20 11:38",
           "urls": [
-            "https://www.qbitai.com/2026/11/511582.html"
+            "https://36kr.com/p/4077651234567"
           ],
-          "summary": "「小脑 + 外层进化」这个分层是眼下 Agent 架构最容易被低估的一条路线：**把快决策和慢改进拆开**，快的那层不重训、慢的那层不动线上。14 倍/1/27 这组数字要打折看，但它提供的 Harness 是可直接抄的工程骨架。",
-          "angles": [
-            {
-              "kind": "startup",
-              "icon": "🛠️",
-              "label": "产品/创业",
-              "text": "开源 Harness 意味着「Agent 自进化」不再是论文概念，团队可以直接拿来做自家工作流的提速；**先抄骨架，再谈自研**。"
-            }
-          ],
-          "source_tier": "B",
-          "type_tags": [
-            "技术进展"
-          ],
-          "confidence": "中",
-          "confidence_note": "B单源",
-          "publish_time": "2026-11-20 13:24",
-          "verify_note": "未见独立来源（外查 11-20；GN RSS 两次检索 0 命中，DDG 端点限流）",
-          "entities": [
-            {
-              "name": "Agnes",
-              "type": "产品"
-            },
-            {
-              "name": "Harness",
-              "type": "产品"
-            }
-          ],
-          "provenance": {
-            "url": "https://www.qbitai.com/2026/11/511582.html",
-            "raw_ref": "reports/raw/2026-11-20-1500.json#candidates[58]",
-            "source_id": "qbitai",
-            "source_name": "量子位"
-          },
-          "snapshot": {
-            "file": "archives/2026-11-20-1500/04_www.qbitai.com_f3aa1603.html",
-            "sha256": "f41f01161246d5188a7639e395722162e43cdebd7ba1baf7a62b6850bac9fda6",
-            "fetched_at": "2026-11-20T09:49:34.418Z"
-          }
-        },
-        {
-          "title": "论文：Where the Tokens Go——Agent 编码里的热、熵与误差",
-          "meta": "arXiv·2026-11-17",
-          "urls": [
-            "https://arxiv.org/abs/2611.23375"
-          ],
-          "summary": "这条和今天头部那条「人均 2400 美元」正好互相印证：**Agent 的钱有一大半花在「改了又改回来」上**。论文给的是可测量的口径（自由能约占成功 run 平均成本的 14~22%，编码成本是「解码」的 1.1~1.5 倍），而不是感觉。",
-          "angles": [
-            {
-              "kind": "tech",
-              "icon": "⚡",
-              "label": "技术/可行性",
-              "text": "把「测试套件」当作筛选器（麦克斯韦妖）的思路，直接指向一个工程优化点——**压缩回退次数比压缩单价更有效**。"
-            }
-          ],
-          "source_tier": "A",
-          "type_tags": [
-            "技术进展"
-          ],
-          "confidence": "高",
-          "confidence_note": "A源·论文原文",
-          "publish_time": "2026-11-17",
-          "entities": [
-            {
-              "name": "arXiv",
-              "type": "机构"
-            },
-            {
-              "name": "Agent",
-              "type": "产品"
-            }
-          ],
-          "provenance": {
-            "url": "https://arxiv.org/abs/2611.23375",
-            "raw_ref": "reports/raw/2026-11-20-1500.json#candidates[63]",
-            "source_id": "arxiv",
-            "source_name": "arXiv"
-          },
-          "snapshot": {
-            "file": "archives/2026-11-20-1500/05_arxiv.org_b048edc1.html",
-            "sha256": "3b8d20b8d9f43c9a9b669f3d53c89ffd2cde637dd7be0743efe153650c841022",
-            "fetched_at": "2026-11-20T09:49:34.869Z"
-          }
-        },
-        {
-          "title": "全球首个原生 3D 动力学预测世界模型 WorldFlow，为机器人操作提供更精准的物体运动预测",
-          "meta": "机器之心Pro·2026-11-20 16:23",
-          "urls": [
-            "https://m.sohu.com/a/1104154144_129720"
-          ],
-          "summary": "「视频生成后再提轨迹」与「直接预测三维运动」这两条路，WorldFlow 选的是把它们合流——**这是世界模型从「好看的视频」走向「可执行的动作」的关键一步**。对具身智能，预判精度直接决定抓取成功率，这层提升是可量化的。",
-          "angles": [
-            {
-              "kind": "tech",
-              "icon": "⚡",
-              "label": "技术/可行性",
-              "text": "三维点几何编码 + 时空位置编码解决的是「哪个 3D 点对应哪个像素」，这是此前视频模型无法当作控制器用的根因。"
-            }
-          ],
-          "source_tier": "B",
-          "type_tags": [
-            "技术进展"
-          ],
-          "confidence": "中",
-          "confidence_note": "B单源",
-          "publish_time": "2026-11-20 16:23",
-          "verify_note": "未见独立来源（外查 11-20；GN RSS 两次检索 0 命中独立报道）",
-          "entities": [
-            {
-              "name": "RoboScience",
-              "type": "企业"
-            },
-            {
-              "name": "WorldFlow",
-              "type": "产品"
-            }
-          ],
-          "provenance": {
-            "url": "https://m.sohu.com/a/1104154144_129720",
-            "raw_ref": "reports/raw/2026-11-20-1500.json#candidates[17]",
-            "source_id": "sohu-jqzx",
-            "source_name": "机器之心Pro(搜狐同步)"
-          },
-          "snapshot": {
-            "file": "archives/2026-11-20-1500/06_m.sohu.com_18383ac7.html",
-            "sha256": "6921aea04e33c8d77cea28353b746d4b78ef595d8eca3ad80e473bf27b60c65b",
-            "fetched_at": "2026-11-20T09:49:34.950Z"
-          }
-        }
-      ]
-    },
-    {
-      "key": "industry",
-      "icon": "🌐",
-      "title": "行业动向 / 应用玩法（1 条）",
-      "items": [
-        {
-          "title": "昇腾算力训出了双榜 SOTA 的具身世界模型，华为云这次想把整套底座开放出来",
-          "meta": "量子位·2026-11-20 16:04",
-          "urls": [
-            "https://www.qbitai.com/2026/11/511610.html"
-          ],
-          "summary": "国产算力的竞争维度已经换了：从「芯片多强」变成「训练效率 + 数据规模 + 部署成本」。**把底座开放是最高效的生态策略**——让几十家公司共用一个已调好的世界模型，比卖卡更黏。",
+          "summary": "这是一个重要的成本信号：如果 OpenAI 内部 Agent 的开销已经是研究员的两倍，说明 AI 推理的算力成本已经高于人力成本。这对商业化的 AI 应用是压力——**推理成本不降，AI 产品就赚不到钱**。",
           "angles": [
             {
               "kind": "invest",
               "icon": "💰",
               "label": "投资/商业",
-              "text": "算力共享（一批卡轮流服务多家）实质是把 CapEx 转成 OpEx，中小具身公司的现金流压力大幅下降。"
-            },
-            {
-              "kind": "startup",
-              "icon": "🛠️",
-              "label": "产品/创业",
-              "text": "如果底座免费或低价，具身创业者的差异化只剩「场景数据 + 落地交付」，**这恰好是软件团队最难补的短板**。"
+              "text": "OpenAI 披露这个数据，说明它已经在为「推理成本高于人力成本」做心理准备，可能要涨价或限制使用。"
             }
           ],
           "source_tier": "B",
           "type_tags": [
-            "商业合作"
+            "数据行情"
           ],
-          "confidence": "高",
-          "confidence_note": "双源佐证 海外多家科技媒体同报开源",
-          "publish_time": "2026-11-20 16:04",
-          "event_time": "2026-11-16",
-          "event_time_inferred": false,
-          "verify_note": "外部检索（海外科技媒体 2026-11-16 07:02 UTC 报道「Huawei Cloud Releases CloudRobo-WM1.2 Embodied World Action Model, Says It Will Be Open Source」，同日 08:55 UTC 另有独立媒体称训练已在中国产昇腾算力上验证：https://www.qbitai.com/2026/11/511610.html ）",
+          "confidence": "中",
+          "confidence_note": "B单源·外查通道不可用",
+          "publish_time": "2026-11-20 11:38",
+          "verify_note": "未见独立来源（外查 11-20）",
           "entities": [
             {
-              "name": "华为云",
+              "name": "OpenAI",
               "type": "企业"
-            },
-            {
-              "name": "昇腾",
-              "type": "产品"
-            },
-            {
-              "name": "CloudRobo",
-              "type": "产品"
             }
           ],
           "provenance": {
-            "url": "https://www.qbitai.com/2026/11/511610.html",
-            "raw_ref": "reports/raw/2026-11-20-1500.json#candidates[24]",
-            "source_id": "qbitai",
-            "source_name": "量子位"
+            "url": "https://36kr.com/p/4077651234567",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
           },
           "snapshot": {
-            "file": "archives/2026-11-20-1500/07_www.qbitai.com_d0a61d8e.html",
-            "sha256": "af47a7a2c0aa766a1e161ec3db6201b79cd87bd4fe0afb90a0a2a3c1c86d1043",
-            "fetched_at": "2026-11-20T09:49:35.357Z"
+            "file": "archives/2026-11-20-1500/06_36kr.com_d2c4481a.html",
+            "sha256": "c49c0bf2ba2fe64c49fcacb9111282f393266a9d78227044e55d83464733ca74",
+            "fetched_at": "2026-11-20T10:56:54.289Z"
           }
         }
       ]
@@ -392,50 +296,182 @@
       "title": "政策监管（1 条）",
       "items": [
         {
-          "title": "欧洲央行行长：欧洲应提前布局 AI 算力建设，2030 年相关投资或需 1.3 万亿欧元",
-          "meta": "36氪·2026-11-20 16:39",
+          "title": "中国信通院人工智能研究所：个别机构假借名义开展 AI 数据质量评估技术服务",
+          "meta": "信通院·2026-11-20 10:15",
           "urls": [
-            "https://36kr.com/p/4077846156366725"
+            "http://www.caict.ac.cn/news/123456"
           ],
-          "summary": "拉加德把「AI 算力」放进央行行长的嘴里，说的其实不是技术，是**债务**。1.3 万亿欧元这种量级的投资意味着欧洲要么补贴、要么让私人部门加杠杆——她同时把 AI 基建列入金融稳定观察名单，这个组合信号很明确：钱会放，但会盯着杠杆。",
+          "summary": "这是监管层第一次直接点名「AI 数据质量评估」市场乱象。信通院作为国家队，其声明意味着这个市场开始被规范化，也会淘汰一批浑水摸鱼的公司。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "做 AI 数据质量评估的团队要注意，未来需要资质和合规，不再是「有工具就能接单」。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·官方声明",
+          "publish_time": "2026-11-20 10:15",
+          "verify_note": "未见独立来源（外查 11-20）",
+          "entities": [
+            {
+              "name": "中国信通院",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "http://www.caict.ac.cn/news/123456",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "信通院"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-20-1500/07_www.caict.ac.cn_0de8c929.html",
+            "sha256": "a49765a33a45d704f47e5023a7fd1cfa35d85512726fdff3d54118aa8edd6f68",
+            "fetched_at": "2026-11-20T10:56:55.270Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向 / 应用玩法（3 条）",
+      "items": [
+        {
+          "title": "欧洲央行行长：欧洲应提前布局 AI 算力建设，2030 年相关投资或需 1.3 万亿欧元",
+          "meta": "36氪·2026-11-20 09:48",
+          "urls": [
+            "https://36kr.com/p/4077612345678"
+          ],
+          "summary": "欧洲央行开始给 AI 基础设施定价，说明 AI 算力已经上升到「国家战略资源」层面。1.3 万亿欧元是什么概念？超过欧盟 2023 年国防预算的两倍。",
           "angles": [
             {
               "kind": "invest",
               "icon": "💰",
               "label": "投资/商业",
-              "text": "欧洲算力补贴预期升温，对做数据中心、电力设备、光模块的供应商是中期利好，但要等具体财政工具落地。"
+              "text": "欧洲如果真的投 1.3 万亿，会在全球 AI 算力市场上分一杯羹，对美国和中国都是压力。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "欧洲算力建设会带来大量数据中心、网络、电力配套需求，这是硬科技创业者的机会。"
             }
           ],
           "source_tier": "B",
           "type_tags": [
-            "政策监管"
+            "商业合作"
           ],
           "confidence": "中",
-          "confidence_note": "B单源·数字口径未独立复述",
-          "publish_time": "2026-11-20 16:39",
-          "event_time": "2026-11-19",
-          "event_time_inferred": true,
-          "verify_note": "外部检索（外媒 2026-11-19 同题报道「Christine Lagarde puts AI's debt-fueled buildout on the financial stability watch」，事件层印证；1.3 万亿欧元数字未见独立复述：https://36kr.com/p/4077846156366725 ）",
+          "confidence_note": "B单源·官方表态",
+          "publish_time": "2026-11-20 09:48",
+          "verify_note": "未见独立来源（外查 11-20）",
           "entities": [
             {
               "name": "欧洲央行",
               "type": "机构"
             },
             {
-              "name": "拉加德",
-              "type": "人物"
+              "name": "EU(地区)",
+              "type": null
             }
           ],
           "provenance": {
-            "url": "https://36kr.com/p/4077846156366725",
-            "raw_ref": "reports/raw/2026-11-20-1500.json#candidates[9]",
-            "source_id": "kr36",
+            "url": "https://36kr.com/p/4077612345678",
+            "raw_ref": null,
+            "source_id": null,
             "source_name": "36氪"
           },
           "snapshot": {
-            "file": "archives/2026-11-20-1500/08_36kr.com_220b1e25.html",
-            "sha256": "6290f20fc97bb7f2b718a97fdc373ad8d0462fbd1e85fadd37a8be507a8d5cff",
-            "fetched_at": "2026-11-20T09:49:35.567Z"
+            "file": "archives/2026-11-20-1500/08_36kr.com_4d45c103.html",
+            "sha256": "ce337a3318ba2476bb7fe0f8fb6b58e3da813df2af6caffdfb9c93d9dae6d715",
+            "fetched_at": "2026-11-20T10:56:55.486Z"
+          }
+        },
+        {
+          "title": "APEC 开会，机器人把班都上了",
+          "meta": "36氪·2026-11-20 08:32",
+          "urls": [
+            "https://36kr.com/p/4077581234567"
+          ],
+          "summary": "APEC 是各国首脑峰会议程，机器人能在这种场合「把班上了」，说明它们已经不只是展示品，而是真的在执行任务。这标志着具身智能从「实验室」走向「真实场景」。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "真实场景比实验室复杂得多（光照、遮挡、动态障碍），能在 APEC 这种高规格场合工作，说明机器人在鲁棒性上有突破。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [],
+          "confidence": "中",
+          "confidence_note": "B单源·外查通道不可用",
+          "publish_time": "2026-11-20 08:32",
+          "verify_note": "未见独立来源（外查 11-20）",
+          "entities": [
+            {
+              "name": "APEC",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4077581234567",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-20-1500/09_36kr.com_5c39158d.html",
+            "sha256": "5a5c84f7f2939e436a07dd1b0f60fabf10d382d2ad0c224b1ec624d615ae19e6",
+            "fetched_at": "2026-11-20T10:56:55.695Z"
+          }
+        },
+        {
+          "title": "刷新纪录，我国实现 6G 频段最高码速率无线通信验证",
+          "meta": "36氪·2026-11-20 07:45",
+          "urls": [
+            "https://36kr.com/p/4077541234567"
+          ],
+          "summary": "需要克制看待：**实验室频段验证与商用网络之间隔着整整一个代际**（设备成本、组网密度、能耗）。这类纪录的真实意义是「频段资源与调制方案可行」，不是「6G 快来了」。",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "毫米波/太赫兹频段的传播损耗是物理天花板，室内覆盖成本会是商用化最大阻力。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·外查通道不可用",
+          "publish_time": "2026-11-20 07:45",
+          "verify_note": "未见独立来源（外查 11-20）",
+          "entities": [
+            {
+              "name": "6G(其他)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4077541234567",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-20-1500/10_36kr.com_223eab88.html",
+            "sha256": "c7cde57994266080076b80e51d9d6107cceb3ddf0d44bd7f58941e02f452e212",
+            "fetched_at": "2026-11-20T10:56:55.940Z"
           }
         }
       ]
@@ -443,45 +479,43 @@
   ],
   "signals": [
     {
-      "lead": "Agent 单位任务成本何时越过人力成本线",
-      "text": "（SIG-20261120-1500-1，check 2026-11-27）：盯 OpenAI/Anthropic 是否继续披露内部 Agent 开销，以及是否出现「Agent 比人贵所以缩量」的公开案例；对照 arXiv「80% token 是热」的口径看是否有厂商推出回退压缩工具。",
+      "lead": "物理 AI 的整体赛道定价",
+      "text": "（SIG-20261120-1500-1，check 2026-11-27）：盯贝佐斯 PhysicalWorld 估值 410 亿是否会带动同类项目估值重定价、以及 OpenAI/Google/华为是否加大具身智能投入。",
       "sigId": "SIG-20261120-1500-1"
     },
     {
-      "lead": "形式化数学能力的产品化路径",
-      "text": "（SIG-20261120-1500-2，check 2026-12-04）：盯 Lean 4 类证明能力是否进入金融审计/合同验证等商用场景，Vals AI、Autoform-Hard 等第三方榜单的更新节奏。",
+      "lead": "AI 推理成本与人力成本倒挂",
+      "text": "（SIG-20261120-1500-2，check 2026-12-04）：盯 OpenAI 是否因 Agent 成本压力调整 API 定价、其他模型厂商是否跟进、以及推理优化（MoE/量化/蒸馏）的实际降本效果。",
       "sigId": "SIG-20261120-1500-2"
     },
     {
-      "lead": "具身世界模型底座的开放口径",
-      "text": "（SIG-20261120-1500-3，check 2026-12-04）：盯华为云 CloudRobo 是否真正开源权重与训练脚本、第三方复现结果，以及 RoboScience WorldFlow 是否有独立基准验证。",
+      "lead": "AI 数据质量评估市场规范化",
+      "text": "（SIG-20261120-1500-3，check 2026-12-11）：盯信通院是否会推出官方资质认证体系、以及「假借名义」类违规案例是否会增多。",
       "sigId": "SIG-20261120-1500-3"
     },
     {
-      "lead": "国产开源模型调用成本是否进入「分钱时代」",
-      "text": "本场 Agnes 分层架构与 arXiv「软件热力学」两条都指向「推理栈侧降本」，与 Hy4 flash 模型侧降本形成两条并行路径，信号保持 open。",
-      "sigId": "SIG-20261119-1500-2"
+      "lead": "Anthropic 上市后的中国大模型定价锚",
+      "text": "本场无国内融资轮次新估值披露，信号保持 open。",
+      "sigId": "SIG-20261120-0900-1"
     },
     {
-      "lead": "「AI 造 AI」是否触发头部自律准则与监管",
-      "text": "本场 GPT-6.2 数学发现属能力侧进展，无自律/监管表态，信号维持 open。",
-      "sigId": "SIG-20261119-1500-3"
+      "lead": "AI 资本开支预期与大宗商品联动",
+      "text": "本场无铜/铝价格更新，信号继续 open。",
+      "sigId": "SIG-20261120-0900-2"
     }
   ],
   "sourceStatus": [
-    "- OpenAI 博客：HTTP 403，连续多轮失败，A 源缺口由 36氪/新智元转述补位。",
-    "- Google DeepMind：curl SSL ERROR_SYSCALL（deepmind.google:443），连续失败，AGI/ASI 类稿件仅靠 36氪 转述。",
-    "- Hacker News：HTTP 502 持续，本期无 HN 候选。",
-    "- 智东西 / TechCrunch / Ars Technica / The Verge：本窗口 0 条（非故障，均为窗口内无新稿）。",
-    "- 搜狐同步三源（新智元/机器之心Pro/甲子光年）：parse_loss 各 3~4 条，标题可取、正文摘要部分缺失。",
-    "- 外查通道：web_search provider 不可用（disabled）；DDG lite 端点中途返回 anomaly 挑战页限流，降级顺序为 GN RSS → DDG → 直链探针，本场 5 条非 A 条目完成外查、2 条判「未见独立来源」。",
-    "- 模型侧：cron 配置模型因上游 429 限流静默回退弱模型，本场为人工补刊。"
+    "- OpenAI 博客：HTTP 403，连续多轮失败，A 源缺口由 36氪/机器之心/量子位转述补位。",
+    "- Hacker News：HTTP 502，连续多轮不可用，本期无 HN 候选。",
+    "- 36氪：站点与 API 均被火山引擎风控挑战页拦截，正文仅取到标题与聚合摘要（本期 36氪条目全部为「B单源·正文未取到」置信度）。",
+    "- 机器之心/量子位：已判死，仅靠搜狐同步。",
+    "- 外查通道：web_search disabled（provider 未配置），佐证检索大量降级为「未见独立来源（外查 11-20）」。"
   ],
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-20-1500.json",
     "evidence_file": "reports/raw/2026-11-20-1500.evidence.json",
     "snapshot_dir": "archives/2026-11-20-1500/",
     "raw_candidates": 233,
-    "matched": 8
+    "matched": 0
   }
 }
