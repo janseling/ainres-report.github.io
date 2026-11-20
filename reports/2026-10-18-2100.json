@@ -3,7 +3,7 @@
   "date": "2026-10-18",
   "time": "21:00",
   "title": "AI 情报 · 10-18 21:00 场",
-  "generatedAt": "2026-10-18T13:10:36.033Z",
+  "generatedAt": "2026-11-20T13:50:26.187Z",
   "coverage": "2026-10-18 15:00 → 21:05（Asia/Shanghai）",
   "notes": [
     "周日场：36氪今日频道多为非 AI 财经快讯已滤；CheekyPint 播客、DeepSeek-1017 官宣细节等已在今日 09:00/15:00 场刊发，未重收"
@@ -48,6 +48,8 @@
           "confidence": "中",
           "confidence_note": "B单源·仅见同稿转载链",
           "publish_time": "2026-10-18 19:44",
+          "event_time": "2026-10-18",
+          "event_time_inferred": false,
           "verify_note": "外部检索（新浪网 2026-10-18 20:10 同文转载，独立首发未寻得；https://news.google.com/rss/articles/CBMif0FVX3lxTE5HVGVIcDV2YUw5djAybVFqQS02aGNIdTRuNDRZdHlwbUlibGdmUmg5dlc0cVBjX05iRjN3bzV1TW50Zy1tSWZwSWhvOUZIZHFPR3hwMEM4ZmpsRTdSRVphdmVBSFBBR0g1ZUFuczF0ZHNFLVhwN2J5QzV0bnJtWGM）",
           "entities": [
             {
@@ -159,6 +161,8 @@
           "confidence": "中",
           "confidence_note": "B单源·传播链同稿、独立第三方未寻得",
           "publish_time": "2026-10-18 15:52",
+          "event_time": "2026-10-18",
+          "event_time_inferred": false,
           "verify_note": "外部检索（36氪国际站 eu.36kr 2026-10-18 16:31 英文同题同步，疑同源编译；https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KSmJRZi16cUd4ZXhFSGx4NUNzWlNpQ0RzeHpXZmswMUlyaURhYlMyWFZuWXQ1cVlYZGQ0SUtfNEhOSldsUmtscUpFMEdvYk5ZUVZr）",
           "entities": [
             {
@@ -193,6 +197,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 机器之心+新浪/tokenpost 同日报道",
           "publish_time": "2026-10-18 16:54",
+          "event_time": "2026-10-18",
+          "event_time_inferred": false,
           "verify_note": "外部检索（新浪网 2026-10-18 03:09 刊前 OpenAI 后训练 VP 对陶哲轩的公开回应「说 AI 毁了数学是小瞧 AI」，tokenpost 17:58 英文同报；https://news.google.com/rss/articles/CBMioARBVV95cUxQb05COU5SMHY4V0NkTUwyaW1vczcxR1JHSHRLQ0FSUDZvdTZreVo3TmxHSml2Rk56N3cwTEs4bjR0c04zMXUwUTdacTNXSGZRU3VWU09UZ1BKOVl3VVdqZVVpRE00S09kRVVaVzhQNGVCMkZoeUxtWUhfa3cwbFRkYTBHSUdKd0haS21iQzRVYzRPYWRwQTdtRkEyLU0zd2lMa01aZ2VCR1ZWcUxyNnRaMzRXNU9EN3drUExWdDZMUEc2OFhXZXRlaUl6THdhdUNDcV8yQXd1OGtwZW8yQUNwZlZSanpJRDFQcUlBUVA4NzNhVm5fRWk3LVA5WnpMMl96MWtNUkhlTFRqUEM0bXRfZ2FZdUhfZl9XeVFhQTdIckx6aGlKQTMtMTZvcjYwRU9WeDdtUlVOU1JiVlRpX25MZkFWMUVhYmNGMDgtNW41VkgwaTF3YVRwUGNCcnA5bkdhWktFNlljeVN1ODFhQld3aWNPQmUyeEZaZ2l6aWUtS2JOcWVTTTdEemgzbUpCek8teUhFWlJUM0ZyUklrTWtRUnVrX1Y2aFJEMkkxUkJTOXY1TVA4SVlUZUhudmx6bERYQ3FQSjBjZWo1WjU1WkVlWXN2SDV0TGRqUHhGQmtDQnBpeE1QU0FqUEhjaUtNWWlxdm1Mc05XNWRta0ZGdDJ3VTRLbjVpMHZ0dnFBVFVfZ2s3V0JkY1haYUxrQV94dW82）",
           "entities": [
             {
@@ -238,6 +244,8 @@
           "confidence": "低",
           "confidence_note": "B单源·开源仓库热度未复核",
           "publish_time": "2026-10-18 18:37",
+          "event_time": "2026-10-18",
+          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 10-18）",
           "entities": [
             {
@@ -283,6 +291,8 @@
           "confidence": "中",
           "confidence_note": "B单源",
           "publish_time": "2026-10-18 18:12",
+          "event_time": "2026-10-18",
+          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 10-18）",
           "entities": [
             {
@@ -324,6 +334,8 @@
           "confidence": "低",
           "confidence_note": "B单源·厂商自报口径",
           "publish_time": "2026-10-18 15:52",
+          "event_time": "2026-10-18",
+          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 10-18）",
           "entities": [
             {
@@ -369,6 +381,8 @@
           "confidence": "中",
           "confidence_note": "B单源·榜单数字待复核",
           "publish_time": "2026-10-18 18:23",
+          "event_time": "2026-10-18",
+          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 10-18）",
           "entities": [
             {
@@ -417,6 +431,8 @@
           "confidence": "中",
           "confidence_note": "B单源·专栏综述",
           "publish_time": "2026-10-18 20:00",
+          "event_time": "2026-10-18",
+          "event_time_inferred": false,
           "verify_note": "未见独立来源（外查 10-18）",
           "provenance": {
             "url": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
@@ -499,7 +515,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 联合早报+东方财富/Moomoo 同报",
-          "publish_time": "2026-10-18 16:54",
+          "publish_time": "2026-10-18",
           "verify_note": "外部检索（联合早报 2026-10-18 19:50 同报：微软退出一项英国新型云算力数据中心合作协议，Nscale 上市计划承压；Moomoo 14:33 早先入档；https://news.google.com/rss/articles/CBMibkFVX3lxTE42UFptYzBWS2piVWlyR3Q1RmNCUXFlNlVZVmU0M3BibVBIbzY4eTkyS2U2bnpBVm9GeFNfbEUtclNLeWhja1hQU1lmWGwxMXFUNDF6Y0pwMnlXbl9UZnlOVTJUdkR4bWJITTByYzZB）",
           "entities": [
             {
@@ -544,7 +560,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 环球网+cnBeta 同报",
-          "publish_time": "2026-10-18 16:44",
+          "publish_time": "2026-10-18",
           "event_time": "2026-10-17",
           "event_time_inferred": false,
           "verify_note": "外部检索（环球网 2026-10-17 19:51 同报：相关表述已删除；cnBeta 10-18 06:16 称外界质疑其为抓取网站内容训练 AI 铺路；https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ZUTZ0b3V0VDR0MWctck1LN081SGFqbUkzdVB0WTVRTjZYTHNpWHFEVDVDclVKcFdrRWNMMmkzRURZTWoyNkVNenc4ZFRSY25fWHpOeTFXTQ）",
@@ -587,7 +603,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源佐证 证券之星+驱动之家/新浪同报",
-          "publish_time": "2026-10-18 16:32",
+          "publish_time": "2026-10-18",
           "event_time": "2026-10-17",
           "event_time_inferred": false,
           "verify_note": "外部检索（证券之星 2026-10-18 16:33 同报：辟谣停产传闻、称持续供货；驱动之家 10-17 23:55 最先记录；https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mRWdzMi1rRkVEcGUwVWVJMHY5OTN4MGhWMzJSYTJUMk1sZmVLbHRiRVhXaS1uOWJmMGdxMU1yMmpjZks5WG9CQ0x0QW1wNG9Pb1QyYlhxSkV0TTFCaFpNXy16bS0）",
