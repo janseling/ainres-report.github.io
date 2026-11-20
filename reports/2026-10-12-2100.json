@@ -3,7 +3,7 @@
   "date": "2026-10-12",
   "time": "21:00",
   "title": "AI 情报 · 10-12 21:00 场",
-  "generatedAt": "2026-10-13T16:57:35.576Z",
+  "generatedAt": "2026-11-20T13:51:34.887Z",
   "coverage": "2026-10-12 07:00 → 13:05（Asia/Shanghai · fetch 窗口口径）",
   "notes": [
     "今日 09:00/15:00 场已收条目（Decart 收购/可灵 IPO/Reflection AI/陶哲轩数学 2.0/封号披露/元器停服/Vicor 专利战等）均已去重；本场上午段（07:00 起）与 15:00 场窗口相邻，已按 URL 去重"
@@ -339,7 +339,7 @@
           "confidence": "高",
           "confidence_note": "双源佐证 CNA/新浪 7×24",
           "publish_time": "2026-10-12 12:13",
-          "event_time": null,
+          "event_time": "2026-10-12",
           "event_time_inferred": true,
           "verify_note": "外部检索（CNA/新浪 7×24 同报：Agentic AI 业务部门+卓越中心口径一致；https://finance.sina.com.cn/jjxw/2026-10-12/doc-iniuypfa0528260.shtml）",
           "entities": [
@@ -394,6 +394,8 @@
           "confidence": "中",
           "confidence_note": "B单源·36氪",
           "publish_time": "2026-10-12 07:44",
+          "event_time": "2026-10-12 07:44",
+          "event_time_inferred": false,
           "verify_note": "外部检索（未见独立来源，外查 10-12；36氪独家报道）",
           "entities": [
             {
@@ -437,6 +439,8 @@
           "confidence": "高",
           "confidence_note": "双源佐证 中新社/CSDN/36kr 通气会稿",
           "publish_time": "2026-10-12 08:29",
+          "event_time": "2026-10-12 08:29",
+          "event_time_inferred": false,
           "verify_note": "外部检索（中新社/CSDN/36kr 通气会稿同报：10-23 上海、真机实训、常态化仿真赛→实景赛→2027 WAIC 具身展）",
           "entities": [
             {
@@ -484,7 +488,7 @@
           ],
           "confidence": "高",
           "confidence_note": "双源口径 Ars+Yahoo/24-7 Wall St.",
-          "publish_time": "2026-10-12 12:43",
+          "publish_time": "2026-10-12 20:43",
           "event_time": null,
           "event_time_inferred": false,
           "verify_note": "外部检索（Yahoo/24-7 Wall St. 5 月同口径；Ars 10-12 为深化分析）",
@@ -701,6 +705,8 @@
           "confidence": "中",
           "confidence_note": "B单源·36氪",
           "publish_time": "2026-10-12 11:01",
+          "event_time": "2026-10-12 11:01",
+          "event_time_inferred": false,
           "verify_note": "外部检索（未见独立来源，外查 10-12；36氪独家分析）",
           "entities": [
             {
@@ -788,6 +794,8 @@
           "confidence": "中",
           "confidence_note": "B单源·36氪",
           "publish_time": "2026-10-12 12:42",
+          "event_time": "2026-10-12",
+          "event_time_inferred": false,
           "verify_note": "外部检索（未见独立来源，外查 10-12；36氪独家报道）",
           "entities": [
             {
