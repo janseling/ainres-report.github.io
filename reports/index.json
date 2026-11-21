@@ -1,6 +1,31 @@
 {
-  "count": 157,
+  "count": 158,
   "reports": [
+    {
+      "id": "2026-11-21-1500",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "title": "AI 情报 · 11-21 15:00 场",
+      "itemCount": 10,
+      "coverage": "2026-11-21 09:00 → 15:06（Asia/Shanghai）",
+      "note": "已对账剔除本日 0900 场及 11-20 两场（1500/2100）同题（黎曼猜想争议、混元 Hy4 Flash 开源、Anthropic IPO 交割等）；**补刊说明**：cron 15:00 轮次仅运行 86 秒即中断（收尾停在 \"Fetch is running. Polling for completion.\"），raw 102 条候选已落盘而后续环节全缺，由 main 派发续跑补齐；群内那条英文半截 announce 作废，以本刊为准。",
+      "overview": [
+        "英伟达遭 SEC 会计调查，单日跌 14.01%，一周蒸发约 2.7 万亿美元，监管从出口管制扩到财报。",
+        "Oracle 称 3000 亿美元 OpenAI 基建合同已\"全额融资\"；软银搁置 1 万亿美元收购 SK 海力士的构想。",
+        "谷歌 CRSI 论文让 Gemini 继承 Opus 经验；混元 AMA 明确不做过度稀疏，下一代\"肯定大幅扩参\"。",
+        "灵晟蝉联 TOP500 第一并夺戈登贝尔奖；沐曦曦云 C 完成混元 Hy4 的 Day 0 适配；Anthropic 首日 +17% 后智谱、MiniMax 跌约一成。"
+      ],
+      "sectionCounts": {
+        "product": 2,
+        "tech": 4,
+        "policy": 1,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 102,
+        "selected": 10
+      }
+    },
     {
       "id": "2026-11-21-0900",
       "date": "2026-11-21",
