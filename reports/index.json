@@ -1,6 +1,32 @@
 {
-  "count": 156,
+  "count": 157,
   "reports": [
+    {
+      "id": "2026-11-21-0900",
+      "date": "2026-11-21",
+      "time": "09:00",
+      "title": "AI 情报 · 11-21 09:00 场",
+      "itemCount": 10,
+      "coverage": "2026-11-20 21:00 → 2026-11-21 09:05（Asia/Shanghai）",
+      "note": "本窗口 162 条候选，OpenAI 官源 RSS 403 由外查补足",
+      "overview": [
+        "Anthropic 数学家 Alpöge 称与 Claude 证明黎曼猜想，1700 万行形式化草稿公开，独立验证尚未开始。",
+        "OpenAI 发布《Combatting adversarial distillation》，封号连坐账号矩阵，蒸馏变现的灰产链条被正面切断。",
+        "200 万枚 canary 提示测试显示 3 家模型供应商泄露用户数据，「零留存」承诺被实测打穿。",
+        "Genesis AI 只交付约 40 台机器人却拿下 5 亿美元、估值 233 亿元，英伟达继续押机器人本体。",
+        "Inkling 2 Mini（26B MoE，激活 3B）开放权重并发 GGUF，8GB 显卡可跑多模态。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 3,
+        "policy": 2,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": 162,
+        "selected": 10
+      }
+    },
     {
       "id": "2026-11-20-2100",
       "date": "2026-11-20",
