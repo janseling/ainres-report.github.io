@@ -1,0 +1,429 @@
+{
+  "id": "2026-11-21-2100",
+  "date": "2026-11-21",
+  "time": "21:00",
+  "title": "AI 情报 · 11-21 21:00 场",
+  "generatedAt": "2026-11-21T18:22:54.689Z",
+  "coverage": "2026-11-21 15:00→21:40（Asia/Shanghai）",
+  "notes": [
+    "补刊说明：cron 连挂四轮（fallback 模型卡死）后由主会话人工补刊；与 09:00/15:00 档去重——黎曼猜想陶哲轩回应、特朗普境外数据中心税、Anthropic 人事任命等已在早场覆盖或超 48h 时效，未收"
+  ],
+  "itemCount": 8,
+  "rawStats": {
+    "candidates": 73,
+    "selected": 8
+  },
+  "overview": [
+    "马斯克宣布 FSD V15 下月全面推送，多家特斯拉垂直媒体同日证实。",
+    "OpenRouter 警告发往 MiniMax 的请求疑被第三方读取，prompt 网关链路泄露两周内第二例。",
+    "Airbnb 客服日均 8 万对话跑在阿里 Qwen 开源模型上，美国监管开始盯中国开源模型使用。",
+    "OpenAI 使用条款收紧：用其输出训练竞品被封，连帮竞品「排序数据」都算。",
+    "GTA6 发售引爆 PS5 Pro 溢价（国内炒至 1.6 万元）；Inkling 2 Mini 社区实测一天洗牌。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资（1 条）",
+      "items": [
+        {
+          "title": "马斯克：FSD V15 下个月全面推送",
+          "meta": "36氪·2026-11-21 15:50",
+          "urls": [
+            "https://36kr.com/p/4079212995089289"
+          ],
+          "summary": "",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "V15 是特斯拉 L4 叙事从「演示」走向「规模推送」的关键节点，Robotaxi 商业化节奏直接押在版本兑现上；对中国区 FSD 的时间表预期也是参照锚。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "高",
+          "confidence_note": "多源同报 RSS 检索：Teslarati+DriveTeslaCanada+MLQ.ai",
+          "publish_time": "2026-11-21 15:50",
+          "event_time": "2026-11-21",
+          "event_time_inferred": false,
+          "verify_note": "直链未寻得，Google News 聚合跳转无法解析原文（上述三家 RSS 命中，外查 11-22）",
+          "entities": [
+            {
+              "name": "Tesla",
+              "type": "企业"
+            },
+            {
+              "name": "FSD V15",
+              "type": "产品"
+            },
+            {
+              "name": "Elon Musk",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4079212995089289",
+            "raw_ref": "reports/raw/2026-11-21-2100.json#candidates[48]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术突破 / 模型进展（2 条）",
+      "items": [
+        {
+          "title": "Inkling 2 Mini 社区实测一天洗牌：KV cache 别量化、单卡 5090 跑出 613 tok/s、低比特版被劝退",
+          "meta": "Reddit r/LocalLLaMA·2026-11-21 20:24，后续",
+          "urls": [
+            "https://www.reddit.com/r/LocalLLaMA/comments/1y1vv9p/inkling2mini_do_not_quantize_your_kv_cache_in"
+          ],
+          "summary": "",
+          "angles": [
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "26B 激活 3B 的小 MoE 在消费级单卡跑进 600 tok/s 档，本地 agent 部署的成本拐点已现；量化经验不再通用，KV cache 策略要按模型家族单独调。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "开源模型发布当天 Basalt/NInfer/unsloth 全部 Day-0 跟进——「新模型一键本地部署」的首发窗口极短，壁垒在持续适配运维而非抢首发。"
+            }
+          ],
+          "source_tier": "D",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源·社区多帖互证，无独立媒体覆盖",
+          "publish_time": "2026-11-21 16:04",
+          "verify_note": "社区多帖互证（KV cache 实测为本条主链；Basalt 5090 基准 https://www.reddit.com/r/LocalLLaMA/comments/1y1x7zo/ ；Q4 劝退 https://www.reddit.com/r/LocalLLaMA/comments/1y1uqn7/ ；NInfer 适配 https://www.reddit.com/r/LocalLLaMA/comments/1y1sjpw/ ）",
+          "entities": [
+            {
+              "name": "Thinking Machines",
+              "type": "企业"
+            },
+            {
+              "name": "Inkling 2 Mini",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y1vv9p/inkling2mini_do_not_quantize_your_kv_cache_in",
+            "raw_ref": "reports/raw/2026-11-21-2100.json#candidates[15]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          }
+        },
+        {
+          "title": "DaisyRose-27B：Qwen3.8-27B 的社区 RL 微调对照样本放出",
+          "meta": "Reddit r/LocalLLaMA·2026-11-21 21:09",
+          "urls": [
+            "https://www.reddit.com/r/LocalLLaMA/comments/1y1wpv9/daisyrose27b_a_dropin_rl_finetune_of_"
+          ],
+          "summary": "",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "开源基座+可复现 RL 配方把「垂直小模型定制」压到个人开发者级，微调服务供给会快速变多，差异化只能靠数据而非训练技巧。"
+            }
+          ],
+          "source_tier": "D",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源·社区单帖",
+          "publish_time": "2026-11-21 21:09",
+          "verify_note": "未见独立来源（外查 11-22，Google News 无独立报道，社区帖原文为唯一来源）",
+          "entities": [
+            {
+              "name": "Qwen3.8",
+              "type": "产品"
+            },
+            {
+              "name": "DaisyRose-27B",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y1wpv9/daisyrose27b_a_dropin_rl_finetune_of_",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Reddit r/LocalLLaMA"
+          }
+        }
+      ]
+    },
+    {
+      "key": "policy",
+      "icon": "🏛️",
+      "title": "政策监管（1 条）",
+      "items": [
+        {
+          "title": "OpenAI 使用条款收紧：用其输出训练竞品被封，连帮竞品「排序数据」都算",
+          "meta": "Reddit r/OpenAI·2026-11-21 15:33，后续",
+          "urls": [
+            "https://www.reddit.com/r/OpenAI/comments/1y1r7pz/openai_bans_using_its_ai_to_help_train_rivals"
+          ],
+          "summary": "",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "反蒸馏从技术防御（分类器、连坐封号）推进到条款层面，「拿大厂输出当免费训练数据」的灰度玩法正式出局；数据管道任何环节沾到闭源 API 输出的产品都要自查条款敞口。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "训练数据源尽早多源化（开源权重+自采+授权数据集），别把管道单点押在一家闭源 API 上。"
+            }
+          ],
+          "source_tier": "A",
+          "type_tags": [
+            "政策监管"
+          ],
+          "confidence": "低",
+          "confidence_note": "D源·独立媒体佐证仅博客转述",
+          "publish_time": "2026-11-21 15:33",
+          "verify_note": "直链未寻得，Google News 聚合跳转无法解析原文（Pasquale Pillitteri 博客 2026-11-22 00:23 同题转述「OpenAI bans using its models to train rival AI, even just to sort the data」；外查 11-22）",
+          "entities": [
+            {
+              "name": "OpenAI",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/OpenAI/comments/1y1r7pz/openai_bans_using_its_ai_to_help_train_rivals",
+            "raw_ref": "reports/raw/2026-11-21-2100.json#candidates[49]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向 / 应用玩法（4 条）",
+      "items": [
+        {
+          "title": "Airbnb 客服日均 8 万对话跑在阿里 Qwen 开源模型上，美国监管开始盯中国开源模型使用",
+          "meta": "Reddit r/LocalLLaMA·2026-11-21 16:42",
+          "urls": [
+            "https://www.reddit.com/r/LocalLLaMA/comments/1y1sb4n/airbnb_handles_80000_chats_a_day_with_alibabas"
+          ],
+          "summary": "",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "中国开源模型在海外生产环境渗透到日均 8 万次量级，是出海变现最实的样本；但监管介入后「用了中国模型」从成本优势变成披露义务，选型要把合规溢价算进 TCO。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "客服这类高频低敏场景是开源模型替代 SaaS 的样板间；面向美国用户的产品要预备「换源开关」。"
+            }
+          ],
+          "source_tier": "D",
+          "type_tags": [
+            "政策监管",
+            "商业合作"
+          ],
+          "confidence": "中",
+          "confidence_note": "D源主报用量数字，媒体多源佐证监管线",
+          "publish_time": "2026-11-21 16:42",
+          "verify_note": "直链未寻得，Google News 聚合跳转无法解析原文（Yahoo Finance 2026-11-21 15:17「What Could Airbnb (ABNB) Need To Disclose About Its Chinese AI Use?」；Simply Wall St 2026-11-21 00:10；Times of India 2026-11-19 10:01；RSS 检索 11-22）",
+          "entities": [
+            {
+              "name": "Airbnb",
+              "type": "企业"
+            },
+            {
+              "name": "阿里千问 Qwen",
+              "type": "产品"
+            },
+            {
+              "name": "Brian Chesky",
+              "type": "人物"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y1sb4n/airbnb_handles_80000_chats_a_day_with_alibabas",
+            "raw_ref": "reports/raw/2026-11-21-2100.json#candidates[39]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          }
+        },
+        {
+          "title": "OpenRouter 警告发往 MiniMax 的请求疑被第三方读取，prompt 泄露两周内第二例",
+          "meta": "Reddit r/LocalLLaMA·2026-11-21 20:53",
+          "urls": [
+            "https://www.reddit.com/r/LocalLLaMA/comments/1y1we95/openrouter_requests_to_minimax_models_may_have"
+          ],
+          "summary": "与本场 09:00 档 HD Moore 的 200 万 canary 提示事件（SIG-20261121-0900-3）互为印证：泄露点都不在模型厂商终端，而在网关/代理/转发链路。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "两周内两起独立实证，「prompt 生命周期可审计」将从合规话术变成企业采购硬条款，AI 网关审计与防泄露检测出现真实付费需求。"
+            }
+          ],
+          "source_tier": "D",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "中",
+          "confidence_note": "D源主报+Startup Fortune 同报",
+          "publish_time": "2026-11-21 20:53",
+          "event_time": null,
+          "event_time_inferred": false,
+          "verify_note": "直链未寻得，Google News 聚合跳转无法解析原文（Startup Fortune 2026-11-21 15:46「OpenRouter warns MiniMax prompts may have been read by a third party」同报；RSS 检索 11-22）",
+          "entities": [
+            {
+              "name": "OpenRouter",
+              "type": "企业"
+            },
+            {
+              "name": "MiniMax",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y1we95/openrouter_requests_to_minimax_models_may_have",
+            "raw_ref": "reports/raw/2026-11-21-2100.json#candidates[12]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          }
+        },
+        {
+          "title": "GTA6 发售引爆 PS5 Pro 溢价，国内黄牛价炒至 1.6 万元",
+          "meta": "36氪·2026-11-21 15:09",
+          "urls": [
+            "https://36kr.com/p/4079173631874179"
+          ],
+          "summary": "",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "内容独占引爆硬件需求、黄牛溢价暴露供给缺口——「内容拉动算力硬件溢价」的结构与 AI 算力紧缺期同构，可作消费电子需求弹性的参照样本。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·外部同报为需求侧数据",
+          "publish_time": "2026-11-21 15:09",
+          "event_time": "2026-11-19",
+          "event_time_inferred": false,
+          "verify_note": "直链未寻得，Google News 聚合跳转无法解析原文（PC Guide 2026-11-19 19:18 报 PS5 Pro 需求涨 57%；TechPowerUp 2026-11-21 05:10 报 GTA VI 对部分 PS5 机型压力过大；RSS 检索 11-22）",
+          "entities": [
+            {
+              "name": "GTA VI",
+              "type": "产品"
+            },
+            {
+              "name": "索尼 PlayStation",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4079173631874179",
+            "raw_ref": "reports/raw/2026-11-21-2100.json#candidates[52]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          }
+        },
+        {
+          "title": "GitHub 日榜被 agent CLI 工具集中占据：CLI-Anything、cursor/plugins 同日上榜",
+          "meta": "GitHub Trending·2026-11-21",
+          "urls": [
+            "https://github.com/HKUDS/CLI-Anything"
+          ],
+          "summary": "",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "agent CLI 是当前开源供给最密的赛道，通用入口已经拥挤，变现空位在垂直场景封装（测试、运维、合规审计）与私有化部署。"
+            }
+          ],
+          "source_tier": "C",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "中",
+          "confidence_note": "聚合源·仓库直链可验",
+          "publish_time": "2026-11-21 21:40",
+          "verify_note": "外部检索（GitHub 仓库直链可验：https://github.com/cursor/plugins ; https://github.com/firecrawl/firecrawl ）",
+          "entities": [
+            {
+              "name": "Cursor",
+              "type": "企业"
+            },
+            {
+              "name": "HKUDS",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://github.com/HKUDS/CLI-Anything",
+            "raw_ref": "reports/raw/2026-11-21-2100.json#candidates[60]",
+            "source_id": "gh-trending",
+            "source_name": "GitHub Trending"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "OpenRouter/MiniMax prompt 外泄事件调查结论",
+      "text": "（SIG-20261121-2100-1，check 2026-11-28）：盯两家官方调查口径、受影响请求范围界定与补偿/防护动作",
+      "sigId": "SIG-20261121-2100-1"
+    },
+    {
+      "lead": "FSD V15 十二月全面推送的兑现度",
+      "text": "（SIG-20261121-2100-2，check 2026-12-15）：盯 12 月实际推送到达率与功能清单，以及中国区是否同步",
+      "sigId": "SIG-20261121-2100-2"
+    },
+    {
+      "lead": "prompt 生命周期泄露",
+      "text": "OpenRouter/MiniMax 成为两周内第二例，泄露点再次落在网关/转发链路（进展见 🌐 条）",
+      "sigId": "SIG-20261121-0900-3"
+    }
+  ],
+  "sourceStatus": [
+    "- 中国信通院：DOWN（本周期抓取失败，consecutive_down 0）"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-21-2100.json",
+    "evidence_file": "reports/raw/2026-11-21-2100.evidence.json",
+    "snapshot_dir": null,
+    "raw_candidates": 73,
+    "matched": 7
+  }
+}

@@ -1,6 +1,32 @@
 {
-  "count": 158,
+  "count": 159,
   "reports": [
+    {
+      "id": "2026-11-21-2100",
+      "date": "2026-11-21",
+      "time": "21:00",
+      "title": "AI 情报 · 11-21 21:00 场",
+      "itemCount": 8,
+      "coverage": "2026-11-21 15:00→21:40（Asia/Shanghai）",
+      "note": "补刊说明：cron 连挂四轮（fallback 模型卡死）后由主会话人工补刊；与 09:00/15:00 档去重——黎曼猜想陶哲轩回应、特朗普境外数据中心税、Anthropic 人事任命等已在早场覆盖或超 48h 时效，未收",
+      "overview": [
+        "马斯克宣布 FSD V15 下月全面推送，多家特斯拉垂直媒体同日证实。",
+        "OpenRouter 警告发往 MiniMax 的请求疑被第三方读取，prompt 网关链路泄露两周内第二例。",
+        "Airbnb 客服日均 8 万对话跑在阿里 Qwen 开源模型上，美国监管开始盯中国开源模型使用。",
+        "OpenAI 使用条款收紧：用其输出训练竞品被封，连帮竞品「排序数据」都算。",
+        "GTA6 发售引爆 PS5 Pro 溢价（国内炒至 1.6 万元）；Inkling 2 Mini 社区实测一天洗牌。"
+      ],
+      "sectionCounts": {
+        "product": 1,
+        "tech": 2,
+        "policy": 1,
+        "industry": 4
+      },
+      "rawStats": {
+        "candidates": 73,
+        "selected": 8
+      }
+    },
     {
       "id": "2026-11-21-1500",
       "date": "2026-11-21",
