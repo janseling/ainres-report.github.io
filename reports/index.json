@@ -1,6 +1,31 @@
 {
-  "count": 161,
+  "count": 162,
   "reports": [
+    {
+      "id": "2026-11-22-2100",
+      "date": "2026-11-22",
+      "time": "21:00",
+      "title": "AI 情报 · 11-22 21:00 场",
+      "itemCount": 5,
+      "coverage": "2026-11-22 15:05→21:05（Asia/Shanghai）",
+      "note": "去重说明：黎曼猜想验证、黄仁勋罢免、Anthropic 上市首日、腾讯 Q3 资本开支已于本日 09:00/15:00 场报出，本期只做 Anthropic IPO 收官的官方口径回访；本窗口为周日夜间，硬新闻供给极薄，机器之心 NeurIPS 系列与 Reddit 社区帖主导，按「宁缺毋滥」未凑满 8 条",
+      "overview": [
+        "Anthropic IPO 正式收官：含超额配售共发 11.27 亿股、$83 定价、毛募资约 1195 亿美元，其中向 AMD/博通/Google/微软/NVIDIA/台积电私募配售 260 亿美元 Class N。",
+        "复旦 F2G-Pose 入选 NeurIPS 2026：一次前向同时出 6D 位姿、真实尺寸与补全形状，RTX 4090 上 28 FPS，已上真机机械臂。",
+        "综述研究 25 个模型视频对话记忆：Claude Opus 5 得 45.7 分，暴露「理解当前画面 ≠ 能接上前面的话」。",
+        "蚂蚁阿福医生版接入威科集团 UpToDate，成国内首个把循证医学金标准接进 AI 医生工作台的产品。",
+        "36氪称 Anthropic 以 2.7 亿美元级包抢 CS 本科生、OpenAI 迎来最惨一周——但外查仅见同源转载。"
+      ],
+      "sectionCounts": {
+        "product": 1,
+        "tech": 3,
+        "industry": 1
+      },
+      "rawStats": {
+        "candidates": 79,
+        "selected": 5
+      }
+    },
     {
       "id": "2026-11-22-1500",
       "date": "2026-11-22",
