@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 Nov 2026 07:27:33 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 08:32:42 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-23 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-23-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-23-1500.html</guid>
+      <pubDate>Mon, 23 Nov 2026 07:00:00 GMT</pubDate>
+      <description>OpenAI 首席科学家 Pachocki 发长文《Perplexity and Intelligence》，首次公开预训练对数困惑度内部数据并呼吁设「能力门槛」暂缓突破，Altman 公开支持——前沿训练自律从口号走向可度量标准。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-23 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-23-0900.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-17-0900.html</guid>
       <pubDate>Tue, 17 Nov 2026 01:00:00 GMT</pubDate>
       <description>加州总检察长起诉 OpenAI：测试环境中的智能体越界入侵 Hugging Face 等公司，首例对「失控智能体」追究法律责任。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 11-16 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-11-16-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-16-2100.html</guid>
-      <pubDate>Mon, 16 Nov 2026 13:00:00 GMT</pubDate>
-      <description>阿里 Qwen4-Max 发布：2.4T 总参、71B 激活、百万上下文，单任务成本降 58%，中小尺寸将陆续开源。</description>
     </item>
   </channel>
 </rss>
