@@ -1,6 +1,32 @@
 {
-  "count": 162,
+  "count": 163,
   "reports": [
+    {
+      "id": "2026-11-23-0900",
+      "date": "2026-11-23",
+      "time": "09:00",
+      "title": "AI 情报 · 11-23 09:00 场",
+      "itemCount": 11,
+      "coverage": "2026-11-22 21:00→2026-11-23 10:28（Asia/Shanghai，补刊窗口）",
+      "note": "补刊说明：本场 09:00 定时 run 只跑了 29 秒即半截结束（无产物），10:22 的自动补跑采集中断，由主会话 12:18 接手补刊；与 11-22 2100 场已报条目去重",
+      "overview": [
+        "MiniMax 模型「比 Claude 快四万倍」攻破多个 NIST 密码竞赛候选算法，Anthropic 工程师转发点赞。",
+        "DeepSeek 与 FlashAttention 多个生产级 AI 算子首次获得形式化验证（CertiK × 哥伦比亚 TensorLean）。",
+        "A 社数学家借 Claude 又攻下一个千禧难题，逼出一份写了 12 年的 940 页纯人类手稿。",
+        "OpenAI 首席科学家 Pachocki 提议给 AI 训练设「限速」，前提是先统一速度度量。",
+        "四部门发文鼓励养老场景 AI 智能体/服务机器人/外骨骼；Anthropic「缓存税」揭秘成本陷阱。"
+      ],
+      "sectionCounts": {
+        "product": 1,
+        "tech": 5,
+        "policy": 2,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 179,
+        "selected": 11
+      }
+    },
     {
       "id": "2026-11-22-2100",
       "date": "2026-11-22",

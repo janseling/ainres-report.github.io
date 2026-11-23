@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 22 Nov 2026 13:13:25 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 04:22:10 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-22 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-22-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-22-2100.html</guid>
+      <pubDate>Sun, 22 Nov 2026 13:00:00 GMT</pubDate>
+      <description>Anthropic IPO 正式收官：含超额配售共发 11.27 亿股、$83 定价、毛募资约 1195 亿美元，其中向 AMD/博通/Google/微软/NVIDIA/台积电私募配售 260 亿美元 Class N。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-22 15:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-22-1500.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-16-1500.html</guid>
       <pubDate>Mon, 16 Nov 2026 07:00:00 GMT</pubDate>
       <description>华为云开源昇腾原生具身世界模型 CloudRobo-WM1.2，机器人世界模型进入「开源送底座」阶段。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 11-16 09:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-11-16-0900.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-16-0900.html</guid>
-      <pubDate>Mon, 16 Nov 2026 01:00:00 GMT</pubDate>
-      <description>谷歌把整柜 TPU 直接卖进客户机房，宣称推理每美元性能领先 GB200 五成，正面切英伟达的利润池。</description>
     </item>
   </channel>
 </rss>
