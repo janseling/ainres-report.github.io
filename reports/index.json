@@ -1,6 +1,32 @@
 {
-  "count": 164,
+  "count": 165,
   "reports": [
+    {
+      "id": "2026-11-23-2100",
+      "date": "2026-11-23",
+      "time": "21:00",
+      "title": "AI 情报 · 11-23 21:00 场",
+      "itemCount": 13,
+      "coverage": "2026-11-23 15:00 → 21:07（Asia/Shanghai）",
+      "note": "本日 09:00/15:00 两场已出刊，本场与其去重后收录",
+      "overview": [
+        "黎曼猜想获 Lean 与 Mathlib 社区联合声明确认「完全有信心」，Claude 协作证明通过独立检查器验证",
+        "OpenAI 用 GPT 重写 AMD 旗舰 GPU 的 RTL，5 个月榨出最高 14% PPA，改后电路已被送去流片",
+        "无界方舟放出 Edge0-145B：1450 亿参数在笔记本上跑 80+ token/s，开源 3 天冲上 HF 榜首位",
+        "自变量发布具身基础模型 WALL-OSS-1.0/API，零样本真机成功率 55.1%，单模型赛道榜首",
+        "蚂蚁百灵五连发开源 LingSante 医疗模型家族；Walmart Agent Gateway 明日上线接入 Meta Muse"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 4,
+        "policy": 1,
+        "industry": 5
+      },
+      "rawStats": {
+        "candidates": null,
+        "selected": 13
+      }
+    },
     {
       "id": "2026-11-23-1500",
       "date": "2026-11-23",
