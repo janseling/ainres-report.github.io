@@ -1,6 +1,32 @@
 {
-  "count": 163,
+  "count": 164,
   "reports": [
+    {
+      "id": "2026-11-23-1500",
+      "date": "2026-11-23",
+      "time": "15:00",
+      "title": "AI 情报 · 11-23 15:00 场",
+      "itemCount": 10,
+      "coverage": "2026-11-23 09:00 → 15:07（Asia/Shanghai，窗口口径）",
+      "note": "本日已报 0900 场（MiniMax 密码破解/训练限速倡议）去重，下列均为窗口内新候选",
+      "overview": [
+        "OpenAI 首席科学家 Pachocki 发长文《Perplexity and Intelligence》，首次公开预训练对数困惑度内部数据并呼吁设「能力门槛」暂缓突破，Altman 公开支持——前沿训练自律从口号走向可度量标准。",
+        "人机联手「砸碎百年数学圣杯」：AI 造出近 3000 亿变量的怪物方程，8 天后中国数学家把它压到 26 个变量。",
+        "DeepSeek 与 FlashAttention 的多个生产级 AI 算子获形式化验证，CoinDesk 报道 CertiK 与哥伦比亚大学完成验证——「世界首次」坐实。",
+        "商汤发布终版 SenseNova-Loop-9B，4bit 量化权重仅 4.9GB、显存需求压到 10GB，并获寒武纪 Day-0 适配。",
+        "Anthropic IPO 收官后首个交易日剧烈波动（Yahoo Finance 口径单日一度跌约 8%），资本市场对 AI 估值的一次集中再定价。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 4,
+        "policy": 1,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": 614,
+        "selected": 10
+      }
+    },
     {
       "id": "2026-11-23-0900",
       "date": "2026-11-23",
