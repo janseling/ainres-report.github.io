@@ -1,6 +1,32 @@
 {
-  "count": 167,
+  "count": 168,
   "reports": [
+    {
+      "id": "2026-11-24-2100",
+      "date": "2026-11-24",
+      "time": "21:00",
+      "title": "AI 情报 · 11-24 21:00 场",
+      "itemCount": 12,
+      "coverage": "2026-11-24 15:00 → 2026-11-24 21:00（Asia/Shanghai）",
+      "note": "本日已报 0900/1500 两场去重，黄仁勋复任、苹果 AI 收费、文心 5.5 Flash、Claude 黎曼证明首轮均不重收",
+      "overview": [
+        "字节「小豆」公测，Personal Agent 从会答话转向代打电话、代下单",
+        "小鹏 WorldGPT 一个模型打通车、机器人、无人机，世界模型成为具身底座",
+        "攻击方 AI agent 自主挖出并利用 0 日漏洞，攻防两端同时提速",
+        "a16z 万次实测：AI agent 正在替代人类做消费决策，品牌流量逻辑被迫重写",
+        "Gemini 4 三兄弟包揽 Arena 文本榜前三，Claude 退到第五"
+      ],
+      "sectionCounts": {
+        "product": 2,
+        "tech": 3,
+        "policy": 1,
+        "industry": 6
+      },
+      "rawStats": {
+        "candidates": 129,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-11-24-1500",
       "date": "2026-11-24",

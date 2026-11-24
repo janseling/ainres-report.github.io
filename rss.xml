@@ -5,7 +5,21 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 24 Nov 2026 08:48:42 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 13:13:34 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-24 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-24-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-24-2100.html</guid>
+      <pubDate>Tue, 24 Nov 2026 13:00:00 GMT</pubDate>
+      <description>字节「小豆」公测，Personal Agent 从会答话转向代打电话、代下单</description>
+    </item>
+    <item>
+      <title>AI 情报 · 11-24 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-24-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-24-1500.html</guid>
+      <pubDate>Tue, 24 Nov 2026 07:00:00 GMT</pubDate>
+      <description>Claude 证出「代数版 P≠NP」（VP≠VNP），73,000 行 Lean 4 代码通过验证。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-24 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-24-0900.html</link>
@@ -131,20 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-18-1500.html</guid>
       <pubDate>Wed, 18 Nov 2026 07:00:00 GMT</pubDate>
       <description>具身智能迎来标志性融资：Genesis AI 拿 5 亿美元 A 轮，英伟达与 AMD 史上首次联手押注同一家机器人公司。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 11-18 09:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-11-18-0900.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-18-0900.html</guid>
-      <pubDate>Wed, 18 Nov 2026 01:00:00 GMT</pubDate>
-      <description>OpenAI 同日放出 GPT-6.2 Astra 与 Sol：Astra 价格降两成，Sol 用五分之一成本追到只差 0.5 分，主力模型从「一个旗舰」变成「贵便宜双档」。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 11-17 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-11-17-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-17-2100.html</guid>
-      <pubDate>Tue, 17 Nov 2026 13:00:00 GMT</pubDate>
-      <description>Anthropic 同日三重动作：获准在纳斯达克挂牌、招股书定价区间未变、新加坡办公室落地。</description>
     </item>
   </channel>
 </rss>
