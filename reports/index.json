@@ -1,6 +1,32 @@
 {
-  "count": 165,
+  "count": 166,
   "reports": [
+    {
+      "id": "2026-11-24-0900",
+      "date": "2026-11-24",
+      "time": "09:00",
+      "title": "AI 情报 · 11-24 09:00 场",
+      "itemCount": 7,
+      "coverage": "2026-11-23 09:00 → 2026-11-24 09:00（Asia/Shanghai，窗口口径，本档去重后新增）",
+      "note": "",
+      "overview": [
+        "亚马逊 75 亿美元收购 Decart 的 AI 优化技术与团队，直接为 Trainium 芯片销售铺路——大厂买\"推理优化层\"而非模型，赛道信号明确。",
+        "黄仁勋被英伟达董事会全票复任 CEO 兼董事长，特朗普亲自推动，加州 AG 公开质疑治理程序——AI 基建治理与政治首次深度捆绑。",
+        "Anthropic 发布 Claude Ship，让 AI agent 自动 review、修复、批准代码 PR，把\"代码合并\"这一瓶颈交给机器。",
+        "Sierra 半年内估值翻倍至 300 亿美元（F 轮 17.5 亿美元），AI 客服 agent 商业化跑通正面对标 Salesforce。",
+        "Google 搜索 AI Mode 接入 Drive/Wallet/Gemini 个人数据，搜索从\"检索工具\"向\"个人智能体\"再走一步。"
+      ],
+      "sectionCounts": {
+        "product": 2,
+        "tech": 3,
+        "policy": 1,
+        "industry": 1
+      },
+      "rawStats": {
+        "candidates": 201,
+        "selected": 7
+      }
+    },
     {
       "id": "2026-11-23-2100",
       "date": "2026-11-23",

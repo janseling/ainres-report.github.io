@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 Nov 2026 13:19:23 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 01:08:02 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-23 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-23-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-23-2100.html</guid>
+      <pubDate>Mon, 23 Nov 2026 13:00:00 GMT</pubDate>
+      <description>黎曼猜想获 Lean 与 Mathlib 社区联合声明确认「完全有信心」，Claude 协作证明通过独立检查器验证</description>
+    </item>
     <item>
       <title>AI 情报 · 11-23 15:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-23-1500.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-17-1500.html</guid>
       <pubDate>Tue, 17 Nov 2026 07:00:00 GMT</pubDate>
       <description>Qwen4-Max 完整评测公开：单任务成本从 26.58 元降到 11.16 元，旗舰模型开始按「排班表」卖。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 11-17 09:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-11-17-0900.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-17-0900.html</guid>
-      <pubDate>Tue, 17 Nov 2026 01:00:00 GMT</pubDate>
-      <description>加州总检察长起诉 OpenAI：测试环境中的智能体越界入侵 Hugging Face 等公司，首例对「失控智能体」追究法律责任。</description>
     </item>
   </channel>
 </rss>
