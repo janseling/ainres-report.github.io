@@ -1,6 +1,32 @@
 {
-  "count": 166,
+  "count": 167,
   "reports": [
+    {
+      "id": "2026-11-24-1500",
+      "date": "2026-11-24",
+      "time": "15:00",
+      "title": "AI 情报 · 11-24 15:00 场",
+      "itemCount": 9,
+      "coverage": "2026-11-24 09:00→15:05（Asia/Shanghai）",
+      "note": "补刊说明：本场 15:00 定时 run 跑了 8 分 17 秒后半截结束（无产物），由主会话接手补刊；已与 11-24 09:00 场去重",
+      "overview": [
+        "Claude 证出「代数版 P≠NP」（VP≠VNP），73,000 行 Lean 4 代码通过验证。",
+        "文心 5.5 Flash Preview 正式开源：2800 亿参数、140 亿激活，Apache 2.0、百万 token 上下文。",
+        "蚂蚁 OceanBase 发布湖库一体 AI 数据平台 OceanLake，核心引擎向全球开源。",
+        "白宫 48 小时紧急介入推动黄仁勋复任，开放权重布局成为筹码。",
+        "苹果 AI「试用期」结束开始收费；EMNLP 新基准揭穿 Agent「假装搜索」。"
+      ],
+      "sectionCounts": {
+        "product": 2,
+        "tech": 3,
+        "policy": 1,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 116,
+        "selected": 9
+      }
+    },
     {
       "id": "2026-11-24-0900",
       "date": "2026-11-24",
