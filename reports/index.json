@@ -1,6 +1,32 @@
 {
-  "count": 170,
+  "count": 171,
   "reports": [
+    {
+      "id": "2026-11-25-2100",
+      "date": "2026-11-25",
+      "time": "21:00",
+      "title": "AI 情报 · 11-25 21:00 场",
+      "itemCount": 9,
+      "coverage": "2026-11-25 15:00 → 2026-11-25 21:05（Asia/Shanghai）",
+      "note": "本日 09:00 / 15:00 场已报条目已去重（MAGI-2 视频模型、GPT-6 蛋白质设计、GLM-5.4 循环 Transformer 首发、Anthropic 破发等不再重收）",
+      "overview": [
+        "Claude 用 Lean 4 形式化验证，给出 VP≠VNP 证明，攻克 Valiant 47 年猜想。",
+        "Loop 架构从学术概念变行业共识：国内团队早于 OpenAI、智谱跑通完整闭环。",
+        "OpenAI 连挖 Claude Code 三员大将，Cat Wu、Anthony Morris、Thariq Shihipar 已在 A 社死敌重聚。",
+        "Claude Artifacts 可直接安装为 macOS/Windows 独立桌面应用。",
+        "英伟达 Megaspeed 芯片走私线被列入美国贸易黑名单，监管外溢至客户侧。"
+      ],
+      "sectionCounts": {
+        "product": 2,
+        "tech": 3,
+        "policy": 1,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 98,
+        "selected": 9
+      }
+    },
     {
       "id": "2026-11-25-1500",
       "date": "2026-11-25",
