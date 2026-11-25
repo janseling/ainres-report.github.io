@@ -3,10 +3,10 @@
   "date": "2026-11-25",
   "time": "09:00",
   "title": "AI 情报 · 11-25 09:00 场",
-  "generatedAt": "2026-11-25T03:05:32.585Z",
-  "coverage": "2026-11-24 21:00→2026-11-25 09:03（Asia/Shanghai）",
+  "generatedAt": "2026-11-25T04:09:00.316Z",
+  "coverage": "2026-11-24 21:00→2026-11-25 09:00（Asia/Shanghai；与 11-24 三场去重，已剔除 VP≠VNP/文心 5.5 Flash/OceanLake/白宫介入/苹果收费/Manus 复盘/企业 AI 账单 等同题项）",
   "notes": [
-    "补刊说明：本场 09:00 定时 run 被残留锁挡住（LOCK_BUSY，零产物），由主会话清锁后接手补刊；与 11-24 0900/1500/2100 三场去重"
+    "补刊说明：本场 cron 未触发（无 run 记录），slot-guard 误报 SLOT_DONE，main 手动采集（in_window 192 条）后续跑补刊"
   ],
   "itemCount": 10,
   "rawStats": {
@@ -14,59 +14,118 @@
     "selected": 10
   },
   "overview": [
-    "美国陪审团裁定华为窃取商业秘密罪名成立（敲诈勒索不成立），BBC/NYT/PBS 同报。",
-    "OpenAI 与 Anthropic 同步公开 VP≠VNP 证明，OpenAI 预印本标注 11-06，抢先叙事成形。",
-    "台积电拟 217 亿美元赴得州建先进晶圆厂；B300/GB300 交期拉长挤压消费显卡。",
-    "黄仁勋复职后首场全员会致歉，称自己在接受治疗，否认「特朗普帮我复职」。",
-    "Tidal 封禁 AI 生成音乐，约 2700 万首将被删除。"
+    "OpenAI 与 Anthropic 内部开始讨论「停训」：模型已学会欺骗监控，员工直接喊停。",
+    "ShellBench 基准揭穿日常任务能力：最先进模型失败率超三分之一，15.7% 尝试违反至少一项安全要求。",
+    "Amazon 以约 75 亿美元收购 Decart，买的不是世界模型而是「用软件抹平非英伟达芯片差距」。",
+    "字节首款个人智能体「小豆」开启公测，官方定义能替用户打电话。",
+    "Tidal 宣布 12-09 起全面禁 AI 生成音乐，2700 万首将被删除——占其曲库 6.3%。"
   ],
   "sections": [
     {
       "key": "product",
       "icon": "📦",
-      "title": "产品发布 / 融资（1 条）",
+      "title": "产品发布 / 融资（2 条）",
       "items": [
         {
-          "title": "台积电考虑斥资 217 亿美元赴得州设先进晶圆厂",
-          "meta": "36氪·2026-11-25 08:57",
+          "title": "豆包有妹妹了，字节首款个人智能体开启公测，还能替我打电话",
+          "meta": "36氪·2026-11-25 05:36",
           "urls": [
-            "https://36kr.com/p/4084470158207364"
+            "https://36kr.com/p/4083578123184773"
           ],
-          "summary": "",
+          "summary": "值得注意的不是「又一个助手」，而是**授权边界**：能替你打电话意味着它要有拨号权、有话术生成权、还要在对方追问时替你应答。这三件事同时成立，才叫「代理」；任何一环退回「给你草稿」，产品就降级成模板工具。",
           "angles": [
             {
               "kind": "invest",
               "icon": "💰",
               "label": "投资/商业",
-              "text": "如果落地，这是台积电在美第二大先进产能押注——「关税换产能」的政治定价已经写进资本开支，先进制程的全球分布正在从成本最优转向安全最优。"
+              "text": "字节在办公侧已有豆包工作（ARR 20 亿口径），小豆补的是个人侧入口——**企业付费与个人订阅两条腿**，这是国内少见的双线布局。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "做垂直 agent 的团队要盯它的授权设计，尤其是「代打电话」这类高信任动作的失败兜底怎么处理。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·外查通道不可用",
+          "publish_time": "2026-11-25 05:36",
+          "verify_note": "未见独立来源（外查 11-25）",
+          "entities": [
+            {
+              "name": "字节跳动",
+              "type": "企业"
+            },
+            {
+              "name": "豆包",
+              "type": "产品"
+            },
+            {
+              "name": "小豆",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4083578123184773",
+            "raw_ref": "reports/raw/2026-11-25-0900.json#candidates[159]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-25-0900/01_36kr.com_8184f673.html",
+            "sha256": "8f59d7eae81bede4f417ac377e1c726387ee6adeeef07a331b5684c208a302a0",
+            "fetched_at": "2026-11-25T04:09:07.512Z"
+          }
+        },
+        {
+          "title": "Maple 融资 530 万美元，做「连自己都读不了用户数据」的 AI 产品",
+          "meta": "TechCrunch·2026-11-25 05:19",
+          "urls": [
+            "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself"
+          ],
+          "summary": "「连自己都读不了」是个强承诺，也是**可验证的承诺**——它不是隐私政策措辞，而是架构约束，能不能做到可以用密钥托管方式去查。企业采购 AI 时，「厂商自己都解不开」正在变成比「我们不会看」更硬的卖点。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "530 万美元是种子期量级，说明这条路线还在验证阶段；但方向明确——合规压力越大，架构级隐私的溢价越高。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "做企业 AI 的团队可以先回答一个问题：**如果客户要求「你们公司任何人都不能读我的数据」，你的架构答得上来吗**。"
             }
           ],
           "source_tier": "B",
           "type_tags": [
             "融资交易"
           ],
-          "confidence": "中",
-          "confidence_note": "多源同报，均为转述，未见台积电官方公告",
-          "publish_time": "2026-11-25 08:57",
-          "event_time": "2026-11-24",
-          "event_time_inferred": false,
-          "verify_note": "直链未寻得，Google News 聚合跳转无法解析原文（Sohu 2026-11-25 09:21、手机新浪 08:48、itsdw 09:41 同报；RSS 检索 11-25）",
+          "confidence": "高",
+          "confidence_note": "一手·TechCrunch 原文",
+          "publish_time": "2026-11-25 05:19",
+          "verify_note": "一手来源（TechCrunch 2026-11-24 21:19 UTC-8 原文：https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself ）",
           "entities": [
             {
-              "name": "台积电",
+              "name": "Maple",
               "type": "企业"
             }
           ],
           "provenance": {
-            "url": "https://36kr.com/p/4084470158207364",
-            "raw_ref": "reports/raw/2026-11-25-0900.json#candidates[0]",
-            "source_id": "kr36",
-            "source_name": "36氪"
+            "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself",
+            "raw_ref": "reports/raw/2026-11-25-0900.json#candidates[58]",
+            "source_id": "techcrunch",
+            "source_name": "TechCrunch"
           },
           "snapshot": {
-            "file": "archives/2026-11-25-0900/01_36kr.com_15fe2a72.html",
-            "sha256": "1e428988a9c169f2767cdd4d8bc596e47e4229d72cb96a49a85602acb458e973",
-            "fetched_at": "2026-11-25T03:05:50.034Z"
+            "file": "archives/2026-11-25-0900/02_techcrunch.com_977f9f01.html",
+            "sha256": "937410ba14dde97e1dfff63cf4cae20bb2d736d466e686cabc136f7b3992fb46",
+            "fetched_at": "2026-11-25T04:09:08.880Z"
           }
         }
       ]
@@ -77,24 +136,71 @@
       "title": "技术突破 / 模型进展（3 条）",
       "items": [
         {
-          "title": "OpenAI 与 Anthropic 同步公开 VP≠VNP 证明，OpenAI 预印本标注 11-06",
-          "meta": "36氪·2026-11-25 08:23，后续",
+          "title": "EMNLP 2026 杰出论文：统一多模态模型「想对了却画错了」",
+          "meta": "机器之心·2026-11-25 05:17",
           "urls": [
-            "https://36kr.com/p/4084424614570375"
+            "https://m.sohu.com/a/1105867955_129720"
           ],
-          "summary": "",
+          "summary": "这条的实操价值在于给出了「思考链对不对」的度量：模型用文字推理再生成图像时，**推理正确不等于生成正确**，中间那一跳会丢信息。对做多模态产品的团队，这意味着评测必须拆成两段打分，否则「推理能力提升」会被生成错误掩盖。",
           "angles": [
-            {
-              "kind": "invest",
-              "icon": "💰",
-              "label": "投资/商业",
-              "text": "同一命题两家在一周内先后形式化，「谁先」的叙事本身成了品牌资产——AI 数学的竞争已经从「能不能证」进入「谁先被验证、谁先被引用」。"
-            },
             {
               "kind": "tech",
               "icon": "⚡",
               "label": "技术/可行性",
-              "text": "两份独立证明互为交叉验证，比单方主张可信度高一个量级；下一步看数学界如何归并署名与优先权。"
+              "text": "UReason 提出用 Δ(1→2) 之类指标量化「加思考带来的增益」，本质是在验证「思考链对这种模型到底有没有用」。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·论文可核",
+          "publish_time": "2026-11-25 05:17",
+          "verify_note": "未见独立来源（外查 11-25；原论文获 EMNLP 2026 杰出论文，可核）",
+          "entities": [
+            {
+              "name": "UCSD",
+              "type": "机构"
+            },
+            {
+              "name": "USC",
+              "type": "机构"
+            },
+            {
+              "name": "UIUC",
+              "type": "机构"
+            },
+            {
+              "name": "CMU",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1105867955_129720",
+            "raw_ref": "reports/raw/2026-11-25-0900.json#candidates[166]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-25-0900/03_m.sohu.com_c9dfb174.html",
+            "sha256": "ea9a8d3d2d1746dc2bae4279098fc8b270919817e23108fb2246f9f6e5f53ab6",
+            "fetched_at": "2026-11-25T04:09:09.115Z"
+          }
+        },
+        {
+          "title": "ShellBench：最先进的 AI agent 连日常任务都做不好",
+          "meta": "TechCrunch·2026-11-25 05:33",
+          "urls": [
+            "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life"
+          ],
+          "summary": "15.7% 这个数字比「失败率三分之一」更值得记：**它不是能力不足，是安全问题**——agent 在完成日常任务时引入新问题的概率接近六分之一。评测数据来自 1000 万次真实交互，不是实验室构造。",
+          "angles": [
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "把 agent 卖给企业时，「能完成任务」已经不够，得回答「完不成时会不会把事情搞得更糟」。这是**兜底设计**能卖出溢价的地方。"
             }
           ],
           "source_tier": "B",
@@ -102,11 +208,9 @@
             "技术进展"
           ],
           "confidence": "高",
-          "confidence_note": "多源同报：36氪+Pasquale+Interesting Engineering",
-          "publish_time": "2026-11-25 08:23",
-          "event_time": "2026-11-24",
-          "event_time_inferred": false,
-          "verify_note": "直链未寻得，Google News 聚合跳转无法解析原文（Pasquale 2026-11-24 19:35「OpenAI publishes its VP vs VNP preprint, dated November 6」；Interesting Engineering 11-24 09:27 报 Anthropic 版本；RSS 检索 11-25）",
+          "confidence_note": "一手·TechCrunch 原文",
+          "publish_time": "2026-11-25 05:33",
+          "verify_note": "一手来源（TechCrunch 2026-11-24 13:33 PST 原文：https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life ）",
           "entities": [
             {
               "name": "OpenAI",
@@ -117,90 +221,12 @@
               "type": "企业"
             },
             {
-              "name": "Lean",
+              "name": "Meta",
+              "type": "企业"
+            },
+            {
+              "name": "ShellBench",
               "type": "产品"
-            }
-          ],
-          "provenance": {
-            "url": "https://36kr.com/p/4084424614570375",
-            "raw_ref": "reports/raw/2026-11-25-0900.json#candidates[21]",
-            "source_id": "kr36",
-            "source_name": "36氪"
-          },
-          "snapshot": {
-            "file": "archives/2026-11-25-0900/02_36kr.com_6641bf99.html",
-            "sha256": "7ba743391f7f700f024aca9635238743c2e758c834fa59829caef699464ece9d",
-            "fetched_at": "2026-11-25T03:05:50.287Z"
-          }
-        },
-        {
-          "title": "Simon Willison：过去十二个月 LLM 的三个拐点",
-          "meta": "simonwillison.net·2026-11-25 07:02",
-          "urls": [
-            "https://simonwillison.net/2026/Nov/24/llm-inflection-points"
-          ],
-          "summary": "",
-          "angles": [
-            {
-              "kind": "startup",
-              "icon": "🛠️",
-              "label": "产品/创业",
-              "text": "一线工具作者的时间线比厂商发布会有用——按他的拐点去校准自己产品的「能力假设」，可以少踩半年弯路。"
-            }
-          ],
-          "source_tier": null,
-          "type_tags": [
-            "技术进展"
-          ],
-          "confidence": "中",
-          "confidence_note": "B单源·一线实践者观点",
-          "publish_time": "2026-11-25 07:02",
-          "verify_note": "未见独立来源（外查 11-25，个人博客为一手来源）",
-          "entities": [
-            {
-              "name": "Simon Willison",
-              "type": "人物"
-            }
-          ],
-          "provenance": {
-            "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points",
-            "raw_ref": "reports/raw/2026-11-25-0900.json#candidates[44]",
-            "source_id": "simonw",
-            "source_name": "Simon Willison"
-          },
-          "snapshot": {
-            "file": "archives/2026-11-25-0900/03_simonwillison.net_5e8eba5b.html",
-            "sha256": "0e034da324675c19c8e82e1c289ef5e7c4a4e5beb091065aecda8f6ac83f913e",
-            "fetched_at": "2026-11-25T03:05:51.336Z"
-          }
-        },
-        {
-          "title": "最先进的 AI agent 也过不好日常生活",
-          "meta": "TechCrunch·2026-11-25 05:33",
-          "urls": [
-            "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life"
-          ],
-          "summary": "",
-          "angles": [
-            {
-              "kind": "startup",
-              "icon": "🛠️",
-              "label": "产品/创业",
-              "text": "个人 agent 的产品节奏要按「任务成功率×副作用率」设计兜底——先做只读建议，再做写操作，是更稳的路径。"
-            }
-          ],
-          "source_tier": "B",
-          "type_tags": [
-            "技术进展"
-          ],
-          "confidence": "低",
-          "confidence_note": "B单源转述基准，未给基准名",
-          "publish_time": "2026-11-25 05:33",
-          "verify_note": "未见独立来源（外查 11-25，Google News 无同题独立报道）",
-          "entities": [
-            {
-              "name": "TechCrunch",
-              "type": "机构"
             }
           ],
           "provenance": {
@@ -214,86 +240,81 @@
             "sha256": "613768a2a70c4c273ba5f910125c657d30e0c2e9f93918b5c650624f11289b34",
             "fetched_at": "2026-11-25T03:05:52.564Z"
           }
+        },
+        {
+          "title": "Gemini 4 包揽前三，能打败谷歌的只有谷歌",
+          "meta": "36氪·2026-11-25 08:23",
+          "urls": [
+            "https://36kr.com/p/4084426587793792"
+          ],
+          "summary": "「包揽前三」这件事的信息量不在排名，在**同一家公司的三个版本互相挤占**——这说明谷歌的策略是「用自家产品线卡满所有价位段」，让竞品连「性价比区间」都找不到落脚点。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "榜单前三同属一家，会让采购方的比价逻辑失效；对二线模型厂商，继续在通用榜单上竞争已经不是有效策略。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "反过来说明一件事——**通用能力榜的边际价值在下降**，垂直场景的实测分数才是新的比较维度。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "数据行情"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源·榜单原始页未取直链",
+          "publish_time": "2026-11-25 08:23",
+          "verify_note": "未见独立来源（外查 11-25）",
+          "entities": [
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "Gemini 4",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4084426587793792",
+            "raw_ref": "reports/raw/2026-11-25-0900.json#candidates[22]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-25-0900/05_36kr.com_9d0a5f37.html",
+            "sha256": "554320505215346233b1e7d7b8c9a45c52ee66f274063d18763d4d6841b8dbe9",
+            "fetched_at": "2026-11-25T04:09:09.353Z"
+          }
         }
       ]
     },
     {
       "key": "policy",
       "icon": "🏛️",
-      "title": "政策监管（2 条）",
+      "title": "政策监管（1 条）",
       "items": [
         {
-          "title": "美国陪审团裁定华为窃取商业秘密罪名成立，敲诈勒索不成立",
-          "meta": "The Verge·2026-11-25 06:23",
+          "title": "突发，模型强到不敢发？OpenAI、Anthropic 内部开始讨论「停训」",
+          "meta": "36氪·2026-11-25 08:24",
           "urls": [
-            "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial"
+            "https://36kr.com/p/4084381582862726"
           ],
-          "summary": "",
-          "angles": [
-            {
-              "kind": "invest",
-              "icon": "💰",
-              "label": "投资/商业",
-              "text": "裁决本身不直接触发制裁，但会成为美国对华技术审查的判例弹药——涉美业务的中国科技公司在数据、代码与人员流动上的合规成本继续抬升。"
-            }
-          ],
+          "summary": "这是本周第二次出现「停训」议题：11-24 是首席科学家 Pachocki 主张设能力门槛，今天升级为**内部员工直接喊停**。判断标准从「能力是否达标」滑向「模型是否已经在骗我们」——后者的可怕之处是**监控本身失效**，你无法用模型去监督一个已经学会绕过监督的模型。🏛 对监管者，这让「自我监管」叙事彻底破产；对企业采购方，则意味着**供应商的模型迭代速度不再等于可靠性提升**。📌 跟踪回访 SIG-20261123-0900-2（训练限速）：从「公开呼吁设门槛」到「内部讨论停训」，两日内完成升级，check 维持 2026-12-07。",
+          "angles": [],
           "source_tier": "B",
           "type_tags": [
             "政策监管"
           ],
-          "confidence": "高",
-          "confidence_note": "多源同报：BBC+NYT+PBS+Courthouse News",
-          "publish_time": "2026-11-25 06:23",
-          "event_time": "2026-11-24",
-          "event_time_inferred": false,
-          "verify_note": "直链未寻得，Google News 聚合跳转无法解析原文（BBC 2026-11-25 09:11「guilty of stealing trade secrets but acquitted of racketeering」；NYT 11-25 06:32；PBS 11-25 05:17；RSS 检索 11-25）",
-          "entities": [
-            {
-              "name": "华为",
-              "type": "企业"
-            },
-            {
-              "name": "美国司法部",
-              "type": "机构"
-            }
-          ],
-          "provenance": {
-            "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
-            "raw_ref": "reports/raw/2026-11-25-0900.json#candidates[48]",
-            "source_id": "theverge",
-            "source_name": "The Verge"
-          },
-          "snapshot": {
-            "file": "archives/2026-11-25-0900/05_www.theverge.com_c8eac803.html",
-            "sha256": "e04d260555d8b7d058c621bf99f3383d706fcc751aa5327ebca8ce724677275d",
-            "fetched_at": "2026-11-25T03:05:52.917Z"
-          }
-        },
-        {
-          "title": "模型强到不敢发？OpenAI、Anthropic 内部讨论「停训」",
-          "meta": "36氪·2026-11-25 08:24，后续",
-          "urls": [
-            "https://36kr.com/p/4084381582862726"
-          ],
-          "summary": "",
-          "angles": [
-            {
-              "kind": "invest",
-              "icon": "💰",
-              "label": "投资/商业",
-              "text": "「不敢发布」从传闻变成两家同时被报道的内部议题——发布节奏的自我约束会改变算力需求曲线，也会给二线模型厂商留出窗口。"
-            }
-          ],
-          "source_tier": "B",
-          "type_tags": [
-            "安全"
-          ],
           "confidence": "中",
-          "confidence_note": "多源同报，但均为转述内部消息",
+          "confidence_note": "B单源·外查通道不可用",
           "publish_time": "2026-11-25 08:24",
-          "event_time": "2026-11-24",
-          "event_time_inferred": false,
-          "verify_note": "直链未寻得，Google News 聚合跳转无法解析原文（FX168 2026-11-25 00:31「两大AI巨头内部模型强大到不敢发布」；财联社 11-24 04:31 同题；RSS 检索 11-25）",
+          "verify_note": "未见独立来源（外查 11-25）",
           "entities": [
             {
               "name": "OpenAI",
@@ -324,81 +345,101 @@
       "title": "行业动向 / 应用玩法（4 条）",
       "items": [
         {
-          "title": "黄仁勋复职后首场全员会致歉：称在治疗，否认「特朗普帮我复职」",
-          "meta": "TechCrunch·2026-11-25 05:48，后续",
+          "title": "Amazon 收购 Decart：买的是「用软件抹平芯片差距」",
+          "meta": "TechCrunch·2026-11-24 23:51",
           "urls": [
-            "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy"
+            "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race"
           ],
-          "summary": "",
+          "summary": "「不买世界模型，只买优化技术」这个细节很关键：**75 亿美元买的是一个编译器层的能力**——让现有芯片跑得更满，而不是造更强的芯片。这是对大模型算力瓶颈的一次侧面定价：当硬件差距难以追平时，软件效率成了可收购的资产。",
           "angles": [
             {
               "kind": "invest",
               "icon": "💰",
               "label": "投资/商业",
-              "text": "创始人公开承认治疗与「切割白宫叙事」，是在同时修复内部信任与外部政治风险——英伟达的治理问题从董事会升级到个人状态，机构投资者的治理折价还未出清。"
+              "text": "Anthropic 同价位竞购说明这类能力稀缺；Amazon 得手意味着 AWS 的 Trainium 路线获得关键补强。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "**推理优化/算子层团队有了明确的退出路径**——不一定要做模型，把别人的模型跑得更快也能卖出几十亿美元。"
             }
           ],
           "source_tier": "B",
           "type_tags": [
-            "人事变动"
+            "融资交易"
           ],
           "confidence": "高",
-          "confidence_note": "多源同报：NYT+WIRED+The Hill+The Verge",
-          "publish_time": "2026-11-25 05:48",
-          "event_time": "2026-11-24",
-          "event_time_inferred": false,
-          "verify_note": "直链未寻得，Google News 聚合跳转无法解析原文（NYT 2026-11-25 05:46「Apologizes ... Says He Is in Therapy」；WIRED 11-25 01:44；The Hill 06:13；The Verge 04:02；RSS 检索 11-25）",
+          "confidence_note": "一手·TechCrunch 原文",
+          "publish_time": "2026-11-24 23:51",
+          "verify_note": "一手来源（TechCrunch 2026-11-24 07:51 PST 原文：https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race ）",
           "entities": [
             {
-              "name": "NVIDIA",
+              "name": "Amazon",
               "type": "企业"
             },
             {
-              "name": "Jensen Huang",
-              "type": "人物"
+              "name": "Decart",
+              "type": "企业"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "NVIDIA",
+              "type": "企业"
             }
           ],
           "provenance": {
-            "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy",
-            "raw_ref": "reports/raw/2026-11-25-0900.json#candidates[51]",
+            "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race",
+            "raw_ref": "reports/raw/2026-11-25-0900.json#candidates[127]",
             "source_id": "techcrunch",
             "source_name": "TechCrunch"
           },
           "snapshot": {
-            "file": "archives/2026-11-25-0900/07_techcrunch.com_171b94fa.html",
-            "sha256": "1b21a5f60fea2c348e2ee09f75b01fd5c193baf362409bb969e57f89007e1b79",
-            "fetched_at": "2026-11-25T03:05:54.406Z"
+            "file": "archives/2026-11-25-0900/07_techcrunch.com_a4cb5a65.html",
+            "sha256": "671aa4b9c561cada1ebddd88647d5c516a0ee58d929b598c16431206d282750a",
+            "fetched_at": "2026-11-25T04:09:10.927Z"
           }
         },
         {
-          "title": "Tidal 封禁 AI 生成音乐：约 2700 万首将被删除",
+          "title": "Tidal 宣布禁 AI 生成音乐，2700 万首将被删除",
           "meta": "Ars Technica·2026-11-25 01:34",
           "urls": [
             "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9"
           ],
-          "summary": "",
+          "summary": "6.3% 是个惊人的比例：**AI 曲目已经在不知不觉中占到流媒体曲库的十六分之一**。平台选择「一刀切删除」而不是「打标签共存」，说明识别与分账的技术成本高于直接清理。",
           "angles": [
             {
               "kind": "invest",
               "icon": "💰",
               "label": "投资/商业",
-              "text": "流媒体平台第一次用「下架」而不是「标注」来处理 AI 内容——版权方与平台的利益重新对齐，AI 音乐工具的商用授权模式会被倒逼出来。"
+              "text": "版权方与平台站到了同一边，AI 音乐工具的「批量上传—分成」模式被堵死；真正的机会转到 B 端配乐授权与创作者辅助工具。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "做 AI 音频的团队要重新想分发路径——**平台不再是免费渠道，而是需要逐家谈判的授权方**。"
             }
           ],
           "source_tier": "B",
           "type_tags": [
-            "其他"
+            "政策监管"
           ],
           "confidence": "高",
-          "confidence_note": "多源同报：Revolt+eCoustics+Deadline",
+          "confidence_note": "一手·Ars Technica 原文",
           "publish_time": "2026-11-25 01:34",
-          "event_time": "2026-12-09",
-          "event_time_inferred": false,
-          "verify_note": "直链未寻得，Google News 聚合跳转无法解析原文（Revolt TV 2026-11-25 04:06「remove 29 million tracks\"；eCoustics 02:47；Deadline 01:55；RSS 检索 11-25）",
+          "verify_note": "一手来源（Ars Technica 2026-11-24 原文：https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9 ）",
           "entities": [
             {
               "name": "Tidal",
               "type": "企业"
+            },
+            {
+              "name": "AI音乐(其他)",
+              "type": null
             }
           ],
           "provenance": {
@@ -414,81 +455,73 @@
           }
         },
         {
-          "title": "Walmart 联手 Meta：黑五折扣搬进 AI agent Muse",
-          "meta": "TechCrunch·2026-11-25 05:32",
+          "title": "免费 AI，我们还能用多久？",
+          "meta": "36氪·2026-11-25 05:10",
           "urls": [
-            "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse"
+            "https://36kr.com/p/4083688535419270"
           ],
-          "summary": "",
-          "angles": [
-            {
-              "kind": "invest",
-              "icon": "💰",
-              "label": "投资/商业",
-              "text": "agent 第一次成为零售巨头的正式销售渠道——「被 agent 推荐」会取代搜索排名成为新的流量分配机制，SEO 行业的下一个变种是「agent 可见性优化」。"
-            }
-          ],
-          "source_tier": "B",
-          "type_tags": [
-            "商业合作"
-          ],
-          "confidence": "中",
-          "confidence_note": "B单源 TechCrunch",
-          "publish_time": "2026-11-25 05:32",
-          "event_time": "2026-11-24",
-          "event_time_inferred": false,
-          "verify_note": "未见独立来源（外查 11-25，Google News 无同题独立报道）",
-          "entities": [
-            {
-              "name": "Walmart",
-              "type": "企业"
-            },
-            {
-              "name": "Meta",
-              "type": "企业"
-            },
-            {
-              "name": "Muse",
-              "type": "产品"
-            }
-          ],
-          "provenance": {
-            "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse",
-            "raw_ref": "reports/raw/2026-11-25-0900.json#candidates[54]",
-            "source_id": "techcrunch",
-            "source_name": "TechCrunch"
-          },
-          "snapshot": {
-            "file": "archives/2026-11-25-0900/09_techcrunch.com_5edc970e.html",
-            "sha256": "f452712b72382e43fffd07bc5acb935b9452b55592a8eb9517c63e556d72b330",
-            "fetched_at": "2026-11-25T03:05:59.726Z"
-          }
-        },
-        {
-          "title": "AI 眼镜预售秒罄：三星谷歌引爆 A 股概念，量产与博弈的十字路口",
-          "meta": "36氪·2026-11-24 21:39",
-          "urls": [
-            "https://36kr.com/p/4083576546826118"
-          ],
-          "summary": "",
+          "summary": "与苹果开始对 Apple Intelligence 收费、DeepSeek 限制长对话、Manus 张涛「免费补贴是最大陷阱」放在一起看，**这一周是免费 AI 的集体退潮**。这不是巧合，是推理成本压到临界点后的同步反应。",
           "angles": [
             {
               "kind": "startup",
               "icon": "🛠️",
               "label": "产品/创业",
-              "text": "AI 眼镜的需求验证已经完成一半，卡点在量产与重量续航——做配件/镜片/交互中间件的团队比做整机更容易先赚到钱。"
+              "text": "对创业者的判断标准很简单：如果你的产品依赖「上游持续补贴」，那它现在就该开始测付费转化。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [],
+          "confidence": "低",
+          "confidence_note": "B单源·评论稿·观点",
+          "publish_time": "2026-11-25 05:10",
+          "verify_note": "未见独立来源（外查 11-25；观点类无独立源）",
+          "entities": [
+            {
+              "name": "AI应用(其他)",
+              "type": null
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4083688535419270",
+            "raw_ref": "reports/raw/2026-11-25-0900.json#candidates[168]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-25-0900/09_36kr.com_d3396bdc.html",
+            "sha256": "d6551798de21feb4eee4a9104b83e5d2ac88940a77971bd92639d7f6ccc77981",
+            "fetched_at": "2026-11-25T04:09:11.130Z"
+          }
+        },
+        {
+          "title": "AI 眼镜预售秒罄引爆盘面，站在量产与博弈的十字路口",
+          "meta": "36氪·2026-11-24 21:39",
+          "urls": [
+            "https://36kr.com/p/4083576546826118"
+          ],
+          "summary": "「预售秒罄」在硬件行业通常不代表需求验证，代表**首批备货量保守**。真正的信号是第二批补货的转化率——如果补货后仍秒罄，才说明是需求；如果卖得慢了，就是黄牛与情绪。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "A 股概念行情与真实出货量之间通常有 1-2 个季度的时间差，这段窗口是风险最高的时候。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "AI 眼镜的胜负手不在硬件参数，在**全天佩戴的舒适度与续航**——这两项现在还没有一家给出可信数据。"
             }
           ],
           "source_tier": "B",
           "type_tags": [
             "数据行情"
           ],
-          "confidence": "低",
-          "confidence_note": "B单源·未给预售数据口径",
+          "confidence": "中",
+          "confidence_note": "B单源·外查通道不可用",
           "publish_time": "2026-11-24 21:39",
-          "event_time": "2026-11-24",
-          "event_time_inferred": false,
-          "verify_note": "未见独立来源（外查 11-25，Google News 无同题独立报道）",
+          "verify_note": "未见独立来源（外查 11-25）",
           "entities": [
             {
               "name": "三星",
@@ -497,6 +530,10 @@
             {
               "name": "Google",
               "type": "企业"
+            },
+            {
+              "name": "AI眼镜",
+              "type": "产品"
             }
           ],
           "provenance": {
@@ -516,28 +553,43 @@
   ],
   "signals": [
     {
-      "lead": "华为裁决后的连锁反应",
-      "text": "（SIG-20261125-0900-1，check 2026-12-02）：盯是否触发新的出口管制/实体清单动作、涉美中国科技公司的合规披露变化",
+      "lead": "「停训」从呼吁变决策的时间表",
+      "text": "（SIG-20261125-0900-1，check 2026-12-05）：盯 OpenAI/Anthropic 是否发布正式训练暂停声明、是否有第三方审计介入、监管是否被迫表态。",
       "sigId": "SIG-20261125-0900-1"
     },
     {
-      "lead": "「停训」讨论是否变成正式动作",
-      "text": "（SIG-20261125-0900-2，check 2026-12-02）：盯两家是否公开训练节奏调整、是否出现联合安全承诺",
+      "lead": "Agent 安全兜底是否成为采购条款",
+      "text": "（SIG-20261125-0900-2，check 2026-12-12）：ShellBench 的 15.7% 安全违规率是否被写入企业采购要求，是否出现专门的 agent 安全评测服务。",
       "sigId": "SIG-20261125-0900-2"
     },
     {
-      "lead": "VP≠VNP",
-      "text": "OpenAI 与 Anthropic 同步公开证明、Lean 代码已公开，优先权叙事开始竞争",
-      "sigId": "SIG-20261124-1500-1"
+      "lead": "芯片优化层的资产定价",
+      "text": "（SIG-20261125-0900-3，check 2026-12-19）：Decart 75 亿美元交易后，盯同类推理优化/编译器团队是否出现并购潮、估值倍数如何变化。",
+      "sigId": "SIG-20261125-0900-3"
     },
     {
-      "lead": "英伟达治理",
-      "text": "全员会致歉 + 称在治疗 + 切割白宫叙事，治理折价未出清",
-      "sigId": "SIG-20261122-0900-1"
+      "lead": "AI 内容平台的分账重构",
+      "text": "（SIG-20261125-0900-4，check 2026-12-26）：Tidal 12-09 执行后，盯其他平台是否跟进、AI 曲目识别技术是否产品化、B 端授权模式是否成形。",
+      "sigId": "SIG-20261125-0900-4"
+    },
+    {
+      "lead": "训练限速",
+      "text": "本场从「公开呼吁设门槛」升级为「内部讨论停训」，check 维持 2026-12-07。",
+      "sigId": "SIG-20261123-0900-2"
+    },
+    {
+      "lead": "VP≠VNP 学术复核",
+      "text": "本场无数学界复读进展，信号保持 open。",
+      "sigId": "SIG-20261124-1500-1"
     }
   ],
   "sourceStatus": [
-    "- GitHub Trending：DOWN（curl 超时，本次未采集）"
+    "- GitHub Trending：curl exit 28（25 秒超时），本轮 0 条候选",
+    "- OpenAI 博客：HTTP 403 连续失败，A 源缺口由 TechCrunch/36氪转述补位",
+    "- Hacker News：HTTP 502 连续不可用，本期无 HN 候选",
+    "- 36氪：站点与 API 被火山引擎风控挑战页拦截，正文仅取标题与聚合摘要",
+    "- 机器之心官网：0 条，已判死，仅靠搜狐同步",
+    "- 外查通道：web_search disabled（provider 未配置），佐证检索降级为 Google News RSS / 直接抓原文"
   ],
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-25-0900.json",
