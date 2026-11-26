@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 26 Nov 2026 05:25:11 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 08:06:24 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-26 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-26-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-26-0900.html</guid>
+      <pubDate>Thu, 26 Nov 2026 01:00:00 GMT</pubDate>
+      <description>OpenAI 把 ChatGPT 的 Chat 与 Work 合并为单一用量表，重度 Pro 用户 12 月会更快撞到上限。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-25 21:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-25-2100.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-19-2100.html</guid>
       <pubDate>Thu, 19 Nov 2026 13:00:00 GMT</pubDate>
       <description>DeepSeek 千亿融资落定，梁文锋退出直接合伙人名单、个人份额隔离，31 家机构入局——中国大模型最大一笔融资的股权结构首次清晰。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 11-19 15:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-11-19-1500.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-19-1500.html</guid>
-      <pubDate>Thu, 19 Nov 2026 07:00:00 GMT</pubDate>
-      <description>具身智能进入&quot;去泡沫&quot;阶段：浙大阿里系具身大脑公司三个月四轮融资估值近百亿，同时一家估值 200 亿机器人公司被曝发不出工资——资本开始按订单而非故事定价。</description>
     </item>
   </channel>
 </rss>

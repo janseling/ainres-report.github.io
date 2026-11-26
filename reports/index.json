@@ -1,6 +1,32 @@
 {
-  "count": 172,
+  "count": 173,
   "reports": [
+    {
+      "id": "2026-11-26-1500",
+      "date": "2026-11-26",
+      "time": "15:00",
+      "title": "AI 情报 · 11-26 15:00 场",
+      "itemCount": 12,
+      "coverage": "2026-11-26 09:05 → 2026-11-26 15:07（Asia/Shanghai）",
+      "note": "本日 09:00 场已报条目（FCC 星链算力、黎曼猜想压缩、纽约 AI 玩具禁令、Character.AI 拍卖、标普下调英伟达、Amodei 反驳投降论、九章云极物理 AI 工厂等）不再重收",
+      "overview": [
+        "OpenAI 宣布矩阵乘法指数为 9/4，同时公开 9 篇 AI 生成论文，连破 8 大开放问题（含 VP≠VNP、向日葵猜想）。",
+        "谷歌 Gemini 4 驱动的 Cogentic 一天连发 6 项数学成果，随机整数分解复杂度指数从 1/2 降至 1/3。",
+        "381 个 AI 智能体全网直播攻关 P=NP，Lean 4 验证 2400+ 引理，把 GitHub 并发队列干到限流。",
+        "记者采访 20 余位内部人士：OpenAI 与 Anthropic 员工已不相信自家前沿模型能被安全发布。",
+        "蔚来删掉 NOMI 九年代码重构为整车智能体，世界模型 NWM 3.0 训练效率提升 5 倍、控制时延降 50%。"
+      ],
+      "sectionCounts": {
+        "tech": 5,
+        "product": 3,
+        "policy": 1,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 204,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-11-26-0900",
       "date": "2026-11-26",
