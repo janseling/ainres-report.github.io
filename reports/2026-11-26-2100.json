@@ -3,14 +3,14 @@
   "date": "2026-11-26",
   "time": "21:00",
   "title": "AI 情报 · 11-26 21:00 场",
-  "generatedAt": "2026-11-26T13:36:09.870Z",
+  "generatedAt": "2026-11-26T13:42:23.877Z",
   "coverage": "2026-11-26 15:00 → 2026-11-26 21:05（Asia/Shanghai）",
   "notes": [
     "本日 0900/1500 两场已报条目已去重"
   ],
   "itemCount": 10,
   "rawStats": {
-    "candidates": 138,
+    "candidates": 117,
     "selected": 10
   },
   "overview": [
