@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 26 Nov 2026 08:06:24 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 13:39:14 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-26 15:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-26-1500.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-26-1500.html</guid>
+      <pubDate>Thu, 26 Nov 2026 07:00:00 GMT</pubDate>
+      <description>OpenAI 宣布矩阵乘法指数为 9/4，同时公开 9 篇 AI 生成论文，连破 8 大开放问题（含 VP≠VNP、向日葵猜想）。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-26 09:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-26-0900.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-20-0900.html</guid>
       <pubDate>Fri, 20 Nov 2026 01:00:00 GMT</pubDate>
       <description>Anthropic 上市首日冲破 2 万亿美元，成为史上最大 IPO——但 36氪 同日两篇稿子问的是同一个问题：中国大模型该怎么定价。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 11-19 21:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-11-19-2100.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-19-2100.html</guid>
-      <pubDate>Thu, 19 Nov 2026 13:00:00 GMT</pubDate>
-      <description>DeepSeek 千亿融资落定，梁文锋退出直接合伙人名单、个人份额隔离，31 家机构入局——中国大模型最大一笔融资的股权结构首次清晰。</description>
     </item>
   </channel>
 </rss>

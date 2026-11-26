@@ -1,6 +1,32 @@
 {
-  "count": 173,
+  "count": 174,
   "reports": [
+    {
+      "id": "2026-11-26-2100",
+      "date": "2026-11-26",
+      "time": "21:00",
+      "title": "AI 情报 · 11-26 21:00 场",
+      "itemCount": 10,
+      "coverage": "2026-11-26 15:00 → 2026-11-26 21:05（Asia/Shanghai）",
+      "note": "本日 0900/1500 两场已报条目已去重",
+      "overview": [
+        "百奥几何 A 轮累计融资破 1 亿美元，同步发布 GeoFlow V4 与蛋白质设计 Agent。",
+        "谷歌开源 gemini-api：第一个默认「用户是 Agent 而非人」的命令行工具。",
+        "Neuralink 拿下 FDA 关键性试验批准，向 ALS 患者开放招募。",
+        "腾讯以第一单位在 Nature 发表 AI 从头设计双靶点多肽。",
+        "传 OpenAI 或 Anthropic 已找到经典计算机上的整数分解多项式算法，RSA 根基被公开讨论。"
+      ],
+      "sectionCounts": {
+        "product": 2,
+        "tech": 4,
+        "policy": 2,
+        "industry": 2
+      },
+      "rawStats": {
+        "candidates": 138,
+        "selected": 10
+      }
+    },
     {
       "id": "2026-11-26-1500",
       "date": "2026-11-26",
