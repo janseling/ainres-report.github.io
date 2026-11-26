@@ -1,6 +1,32 @@
 {
-  "count": 171,
+  "count": 172,
   "reports": [
+    {
+      "id": "2026-11-26-0900",
+      "date": "2026-11-26",
+      "time": "09:00",
+      "title": "AI 情报 · 11-26 09:00 场",
+      "itemCount": 12,
+      "coverage": "2026-11-25 21:00 → 2026-11-26 09:05（Asia/Shanghai）",
+      "note": "本日 09:00 前场次已报条目（Loop 架构、GLM-5.4、Claude Artifacts 桌面版、Claude Code 三员大将流失、VP≠VNP 证明、HungerG 匿名模型等）不再重收",
+      "overview": [
+        "OpenAI 把 ChatGPT 的 Chat 与 Work 合并为单一用量表，重度 Pro 用户 12 月会更快撞到上限。",
+        "Anthropic CEO 亲自下场反驳「向 AI 投降论」，同时公布 Claude 已写进其 80% 以上代码。",
+        "FCC 批准 SpaceX 在太空部署最多 100 万颗 AI 数据中心卫星，并要求 2040 年前完成组网。",
+        "峰瞰智能在 11 月 26 日高交会发布搭载智驾芯片的桌面 AI 主机 PeakStation，对标 DGX Spark。",
+        "黎曼猜想的 AI 证明被 Anthropic 压缩 99.5%，从 1750 万行降到 7.6 万行。"
+      ],
+      "sectionCounts": {
+        "product": 3,
+        "tech": 2,
+        "policy": 3,
+        "industry": 4
+      },
+      "rawStats": {
+        "candidates": 74,
+        "selected": 12
+      }
+    },
     {
       "id": "2026-11-25-2100",
       "date": "2026-11-25",
