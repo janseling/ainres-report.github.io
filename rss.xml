@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 27 Nov 2026 01:33:28 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 01:35:26 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-27 09:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-27-0900.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-27-0900.html</guid>
+      <pubDate>Fri, 27 Nov 2026 01:00:00 GMT</pubDate>
+      <description>英伟达暂停向新马泰印尼交付 AI 服务器，管制从「禁售」转向「查货最终去哪」。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-26 21:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-26-2100.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-20-2100.html</guid>
       <pubDate>Fri, 20 Nov 2026 13:00:00 GMT</pubDate>
       <description>Anthropic 完成 IPO 交割：1,127,000,000 股 @ $83，募资总额约 1195 亿美元；七家芯片与云厂商再以发行价私募 260 亿美元入股。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 11-20 15:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-11-20-1500.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-20-1500.html</guid>
-      <pubDate>Fri, 20 Nov 2026 07:00:00 GMT</pubDate>
-      <description>欧洲央行行长拉加德呼吁提前布局 AI 算力，2030 年相关投资或需 1.3 万亿欧元——央行开始给 AI 基础设施定价。</description>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
   "date": "2026-11-27",
   "time": "09:00",
   "title": "AI 情报 · 11-27 09:00 场",
-  "generatedAt": "2026-11-27T01:28:43.277Z",
+  "generatedAt": "2026-11-27T01:35:26.246Z",
   "coverage": "2026-11-26 21:00 → 2026-11-27 09:00（Asia/Shanghai）",
   "notes": [
     "本日首场；11-26 三场已报条目（GPT-6 Astra 量子引力论文、Anthropic 破发、P=NP 攻擂、百奥几何融资等）已去重"
@@ -28,7 +28,7 @@
       "items": [
         {
           "title": "腾讯全公司推广混元 HY4，非技术岗外部模型额度降至 10%",
-          "meta": "极客公园·2026-11-27 08:43",
+          "meta": "新浪·2026-11-26 23:06",
           "urls": [
             "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QVnlBRFd3Tk5qdno3VEMyX19QTVQteGtwWFNWNWx0M1ZXdm9tVmFDZDNSMV9LdEZXSGxMaTJSdmlzcnpFMTVMem5QYlBKREhwN3NDVmJ5TXhGYWZlbW1TVnhKZndxZUhWd2tidG9IMmk?oc=5"
           ],
@@ -47,7 +47,7 @@
               "text": "第三方 API 在大厂内部的机会只剩「HY4 做不到」的场景，做垂直补齐比通用替代更现实。"
             }
           ],
-          "source_tier": "B",
+          "source_tier": null,
           "type_tags": [
             "产品发布"
           ],
@@ -70,11 +70,16 @@
             "raw_ref": "reports/raw/2026-11-27-0900.json#candidates[181]",
             "source_id": "web",
             "source_name": "新浪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-27-0900/01_news.google.com_d3517da3.html",
+            "sha256": "f3463061a10f0ebd730e3eea71ad52bc8ccc68eccb36b86b33a24d45595fa4ae",
+            "fetched_at": "2026-11-27T01:30:57.085Z"
           }
         },
         {
           "title": "OpenAI 承认 GPT-6.2 计费出错，修复后 Astra 额度消耗加快 40%、Sol 加快 25%",
-          "meta": "极客公园·2026-11-27 08:43",
+          "meta": "DoNews·2026-11-27 07:55",
           "urls": [
             "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBabmRhak1DZzRvN1JSaC1HbUlsaHowaDBXSUhCTFEtU2VobGVheEdMeXFLcXZVd1F0bm5uNC1RNEVjYk5EVXBfVGNOM0M2OFJ1eHJ1MVJDa21YWUQyWXc?oc=5"
           ],
@@ -93,7 +98,7 @@
               "text": "额度收紧把重度用户推向本地模型或聚合路由，「额度监控＋跨模型路由」的窗口期就在调价后两三周。"
             }
           ],
-          "source_tier": "B",
+          "source_tier": null,
           "type_tags": [
             "产品发布"
           ],
@@ -120,11 +125,16 @@
             "raw_ref": "reports/raw/2026-11-27-0900.json#candidates[182]",
             "source_id": "web",
             "source_name": "DoNews"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-27-0900/02_news.google.com_5d6a48a4.html",
+            "sha256": "3b94fcf37cdd10cd7c045213de440a3b082ea30b6d759aab23724a5246ed8048",
+            "fetched_at": "2026-11-27T01:31:35.683Z"
           }
         },
         {
           "title": "华为发布辅助驾驶新品牌「星驰」，与乾崑智驾同源，2027 年超 10 款车型搭载",
-          "meta": "极客公园·2026-11-27 08:43",
+          "meta": "观察者网·2026-11-26 20:37",
           "urls": [
             "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43Q3o4X0JCYUEwMV9GTTF3WFFocjRTcFFYNU9BWWkzWVk4Q1dnVllhWW83RmdiZzQzcWtoMEJ0NGFXMjRHQmhra0RSdGlrclhOdG9HOHJaSERiTTFXX2VCdzN3?oc=5"
           ],
@@ -143,7 +153,7 @@
               "text": "主机厂采购从「买一套方案」变成「选哪条线」，走量档的差异化决定议价权。"
             }
           ],
-          "source_tier": "B",
+          "source_tier": null,
           "type_tags": [
             "产品发布"
           ],
@@ -164,6 +174,11 @@
             "raw_ref": "reports/raw/2026-11-27-0900.json#candidates[183]",
             "source_id": "web",
             "source_name": "观察者网"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-27-0900/03_news.google.com_f8a81cc0.html",
+            "sha256": "16710d36abb7e6e6f259a449cf4fa3f392cdfcc35d5a3072fb6d6ac046559ad8",
+            "fetched_at": "2026-11-27T01:32:13.357Z"
           }
         },
         {
@@ -210,6 +225,11 @@
             "raw_ref": "reports/raw/2026-11-27-0900.json#candidates[150]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-27-0900/04_36kr.com_037c18b9.html",
+            "sha256": "a53c4f4d85c23d42e4a3521eb79362f2877f26cb44dd3a939b161d57118ae9ab",
+            "fetched_at": "2026-11-27T01:32:13.585Z"
           }
         }
       ]
@@ -221,7 +241,7 @@
       "items": [
         {
           "title": "智谱辟谣 GLM-5.5 延期：性能 Fable 级、上万张国产 AI 卡进展顺利",
-          "meta": "极客公园·2026-11-27 08:43",
+          "meta": "驱动之家·2026-11-26 22:07",
           "urls": [
             "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4yRDVINVAtdUZkcmJ2dFV1M3dhMnhLXzBnSGVCZlRSaHVHYk5kRmhvQVAyZ1RKejYtZWpJZGIwZlh5NlZDZTlhcHNnQTQyWHZzdEE1QlJMdzQ?oc=5"
           ],
@@ -234,7 +254,7 @@
               "text": "「万卡昇腾进展顺利」比辟谣本身更重要——若口径成立，说明国产卡已跨过大模型稠密训练的可用门槛。但辟谣用的是朋友圈而非技术博客，可信度取决于 12 月是否真发布。"
             }
           ],
-          "source_tier": "B",
+          "source_tier": null,
           "type_tags": [
             "技术进展"
           ],
@@ -259,6 +279,11 @@
             "raw_ref": "reports/raw/2026-11-27-0900.json#candidates[184]",
             "source_id": "web",
             "source_name": "驱动之家"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-27-0900/05_news.google.com_7303faf0.html",
+            "sha256": "fefffcef906d43ba0b59d58f8e93d8d7f8df662b3413f760ce20c7155acca3f2",
+            "fetched_at": "2026-11-27T01:32:51.606Z"
           }
         },
         {
@@ -295,6 +320,11 @@
             "raw_ref": "reports/raw/2026-11-27-0900.json#candidates[34]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-27-0900/06_36kr.com_83e4d520.html",
+            "sha256": "dbcfb04688383798c6e470d86f319b048de073e501796827c33f59a04f57a83f",
+            "fetched_at": "2026-11-27T01:32:51.829Z"
           }
         }
       ]
@@ -354,11 +384,16 @@
             "raw_ref": "reports/raw/2026-11-27-0900.json#candidates[62]",
             "source_id": "techcrunch",
             "source_name": "TechCrunch"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-27-0900/07_techcrunch.com_33b3d08d.html",
+            "sha256": "9183110cbd3376381c3a719e7340359dd167f404c466a5da7557b14e15d37c99",
+            "fetched_at": "2026-11-27T01:32:52.994Z"
           }
         },
         {
           "title": "18 家平台完成算法协商，覆盖新就业形态劳动者逾 2500 万人",
-          "meta": "极客公园·2026-11-27 08:43",
+          "meta": "中国新闻网·2026-11-26 15:09",
           "urls": [
             "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pSnpmSEZ2R3BtaTljVWYzU2xyN2FqNjYwZWVpWDZFeThHc1VMSktfR2xfVEtLTGptS193QWtLRWdIZERERWx3WTA0ZGNCM2RoUzhGWXJILTZ4bzRkelJyX3Y3cEtjMGtG?oc=5"
           ],
@@ -377,7 +412,7 @@
               "text": "判责「从算法转人工」催生申诉证据链、录音质检、人工复核工作台等合规 SaaS，付费方是法务与工会。"
             }
           ],
-          "source_tier": "B",
+          "source_tier": null,
           "type_tags": [
             "政策监管"
           ],
@@ -406,6 +441,11 @@
             "raw_ref": "reports/raw/2026-11-27-0900.json#candidates[185]",
             "source_id": "web",
             "source_name": "中国新闻网"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-27-0900/08_news.google.com_7c492f3e.html",
+            "sha256": "2e9123ea2b62e5a405dec725a474ba1f94d00d6f86f4b1cf8535ff8cf9708111",
+            "fetched_at": "2026-11-27T01:33:30.894Z"
           }
         }
       ]
@@ -465,6 +505,11 @@
             "raw_ref": "reports/raw/2026-11-27-0900.json#candidates[10]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-27-0900/09_36kr.com_5ca48eab.html",
+            "sha256": "75251e494c5679e6245845878f2a10a6d6dfbb986fc378d6ae6674a923fc363c",
+            "fetched_at": "2026-11-27T01:33:31.127Z"
           }
         },
         {
@@ -515,6 +560,11 @@
             "raw_ref": "reports/raw/2026-11-27-0900.json#candidates[17]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-27-0900/10_36kr.com_df3d61c9.html",
+            "sha256": "36b93afdb5351cb6bbd7a86e9dfa4e4c0b88ff1fea3c9d5131375ab95fc50559",
+            "fetched_at": "2026-11-27T01:33:31.364Z"
           }
         },
         {
@@ -553,6 +603,11 @@
             "raw_ref": "reports/raw/2026-11-27-0900.json#candidates[2]",
             "source_id": "kr36",
             "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-27-0900/11_36kr.com_58211ce9.html",
+            "sha256": "70c5186600b3d1f8b384774f00b349d84f295be665c2215cb6277683bfcae948",
+            "fetched_at": "2026-11-27T01:33:31.568Z"
           }
         }
       ]
@@ -586,7 +641,7 @@
   "provenance_meta": {
     "raw_file": "reports/raw/2026-11-27-0900.json",
     "evidence_file": "reports/raw/2026-11-27-0900.evidence.json",
-    "snapshot_dir": null,
+    "snapshot_dir": "archives/2026-11-27-0900/",
     "raw_candidates": 186,
     "matched": 11
   }
