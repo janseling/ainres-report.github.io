@@ -5,7 +5,14 @@
     <link>https://ainews.im-max.com/</link>
     <description>为创业者与决策者提供可溯源的 AI 情报流——每天 09:00 / 15:00 / 21:00 三场 · 多源同报 · 每条可回原文</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 27 Nov 2026 13:34:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 13:35:28 GMT</lastBuildDate>
+    <item>
+      <title>AI 情报 · 11-27 21:00 场</title>
+      <link>https://ainews.im-max.com/reports/2026-11-27-2100.html</link>
+      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-27-2100.html</guid>
+      <pubDate>Fri, 27 Nov 2026 13:00:00 GMT</pubDate>
+      <description>AI 数据中心开发商 LIAN 转赴伦敦上市，拟募 5 亿美元，重资产算力资产寻求公开定价。</description>
+    </item>
     <item>
       <title>AI 情报 · 11-27 15:00 场</title>
       <link>https://ainews.im-max.com/reports/2026-11-27-1500.html</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-21-1500.html</guid>
       <pubDate>Sat, 21 Nov 2026 07:00:00 GMT</pubDate>
       <description>英伟达遭 SEC 会计调查，单日跌 14.01%，一周蒸发约 2.7 万亿美元，监管从出口管制扩到财报。</description>
-    </item>
-    <item>
-      <title>AI 情报 · 11-21 09:00 场</title>
-      <link>https://ainews.im-max.com/reports/2026-11-21-0900.html</link>
-      <guid isPermaLink="true">https://ainews.im-max.com/reports/2026-11-21-0900.html</guid>
-      <pubDate>Sat, 21 Nov 2026 01:00:00 GMT</pubDate>
-      <description>Anthropic 数学家 Alpöge 称与 Claude 证明黎曼猜想，1700 万行形式化草稿公开，独立验证尚未开始。</description>
     </item>
   </channel>
 </rss>
