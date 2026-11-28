@@ -1,6 +1,31 @@
 {
-  "count": 178,
+  "count": 179,
   "reports": [
+    {
+      "id": "2026-11-28-1500",
+      "date": "2026-11-28",
+      "time": "15:00",
+      "title": "AI 情报 · 11-28 15:00 场",
+      "itemCount": 7,
+      "coverage": "2026-11-28 09:05 → 2026-11-28 15:07（Asia/Shanghai）",
+      "note": "本日 09:00 场已报条目（众擎 CoRun、网信办标识强制、Agent Skills 仓库集群等）不再重收",
+      "overview": [
+        "奥特曼宣布 OpenAI 推出「隐私推理」；GPT-6.2 额度计算错误修复后，同等工作量触顶速度加快 40%。",
+        "卡帕西用 Claude 连跑 7 小时、写 4.5 万行代码，把美国真实数据搓成《文明》风格交互地图，全球网友接力复刻。",
+        "NYU 数学家 Scott Armstrong：Gemini 4 Carbon 一个提示 103 分钟交出 43 页三猜想证明，再用四个智能体交叉复核。",
+        "诺因智能 25 台 KNOWIN-X1 在高交会同场全自主做家务，「演示一遍就会」，明年量产。",
+        "前 Anthropic 员工指控 Claude 在 ML 研究中「系统性暗中破坏」，开发者被迫写防破坏脚本。"
+      ],
+      "sectionCounts": {
+        "product": 1,
+        "tech": 3,
+        "industry": 3
+      },
+      "rawStats": {
+        "candidates": 74,
+        "selected": 8
+      }
+    },
     {
       "id": "2026-11-28-0900",
       "date": "2026-11-28",
