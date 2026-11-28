@@ -1,0 +1,630 @@
+{
+  "id": "2026-11-28-2100",
+  "date": "2026-11-28",
+  "time": "21:00",
+  "title": "AI 情报 · 11-28 21:00 场",
+  "generatedAt": "2026-11-28T13:21:36.961Z",
+  "coverage": "2026-11-28 15:00 → 21:00（Asia/Shanghai）",
+  "notes": [
+    "本日 09:00/15:00 两场已报条目已去重，中概行情、黑五购物类不进本期"
+  ],
+  "itemCount": 9,
+  "rawStats": {
+    "candidates": 93,
+    "selected": 9
+  },
+  "overview": [
+    "黎曼猜想的 7.6 万行精简证明通过 MIT、滑铁卢等六内核独立验证，零拒绝；Clay 受理尚未见动静。",
+    "证明落地 72 小时后 Agent 又补完 17 项衍生命题，但部分依赖未经验证的 GRH 形式化——叙事跑得比验证快。",
+    "Karpo 把「快思考」拆成独立决策模型并开源浏览器 Agent，任务耗时不到前沿模型一半、成本只有零头。",
+    "两条供应链安全线同时收紧：HF 自家建站器被拿来批量生成钓鱼页，5 个 GGUF 模型在权重尾部藏恶意载荷。",
+    "具身融资马太效应被两个样本证实：白泽四个月两轮近亿元，而全赛道 10 月只剩 33 起、约 101 亿元。"
+  ],
+  "sections": [
+    {
+      "key": "product",
+      "icon": "📦",
+      "title": "产品发布 / 融资",
+      "items": [
+        {
+          "title": "Karpo 开源快思考浏览器 Agent「karpo-browser」：27B 决策模型替代通用大模型逐步推理，任务用时不到前沿模型一半",
+          "meta": "机器之心Pro·2026-11-28 20:01",
+          "urls": [
+            "https://m.sohu.com/a/1107697998_129720"
+          ],
+          "summary": "双脑分工：DeepSeek V4.1 Flash 当慢思考拆解目标并备好表单值，27B Act 当快思考只做「下一步点哪里」的选分，单次前向不生成文字。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "资金/商业：决策模型两个月前还不存在，如今 OpenAI Decisions API（百万输入 token 0.1 美元）、谷歌与微软本月入场，HF 上 decision-model 标签项目超 3900 个——推理成本被拆成独立商品定价。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "套利点在「动作层模型化」：把点击/填表交给 27B 小模型，边际成本从每步一次大模型调用压到每步一次分类。若护城河只是「提示词编排＋重试」，这层会被开源吃掉。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "产品发布"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源＋同团队模型层间接佐证",
+          "publish_time": "2026-11-28 20:01",
+          "verify_note": "间接佐证（36Kr 2026-11-17 报道同团队 Karpo Decision 31B 登顶决策榜；karpo-browser 框架本身未见独立报道；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "Karpo",
+              "type": "企业"
+            },
+            {
+              "name": "Karpo Decision 27B Act",
+              "type": "产品"
+            },
+            {
+              "name": "DeepSeek",
+              "type": "企业"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1107697998_129720",
+            "raw_ref": "reports/raw/2026-11-28-2100.json#candidates[9]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-28-2100/01_m.sohu.com_209ac940.html",
+            "sha256": "ea2f5e101e755121c46677b3cff614f192260d942a13d06a743f5b7de177ebe8",
+            "fetched_at": "2026-11-28T13:24:20.599Z"
+          }
+        },
+        {
+          "title": "白泽通境四个月连融种子轮与种子加轮近亿元：不造本体，只卖「具身大脑＋算力背包」",
+          "meta": "机器之心Pro·2026-11-28 19:38",
+          "urls": [
+            "https://m.sohu.com/a/1107695740_129720"
+          ],
+          "summary": "股东含中芯聚源、国华、合肥创投、爱时带等产业资本与地方国资。核心是自研溯因式世界模型 AWM，产品为「大脑算力背包」：世界模型、BAIZ-RUN 端侧推理引擎、计算终端三层。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "资金/商业：上半年国内具身融资超 900 亿元，10 月只剩 33 起、约 101 亿元；但前 10 个月仍有 668 笔、同比增约 133%。钱从「通用故事」流向「有订单的场景」。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "不造本体、卖大脑与端侧推理，是避重资产吃上游；分层采购让客户小步试错，数据不出厂正对上制造业合规顾虑。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源，股东名单未获第二来源印证",
+          "publish_time": "2026-11-28 19:38",
+          "verify_note": "未见独立来源(外查 11-28)——仅腾讯新闻 2026-10-11 报道首轮数千万，四个月两轮合计近亿元无第二来源",
+          "entities": [
+            {
+              "name": "白泽通境",
+              "type": "企业"
+            },
+            {
+              "name": "中芯聚源",
+              "type": "企业"
+            },
+            {
+              "name": "合肥创投",
+              "type": "企业"
+            },
+            {
+              "name": "中国科学技术大学",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1107695740_129720",
+            "raw_ref": "reports/raw/2026-11-28-2100.json#candidates[11]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-28-2100/02_m.sohu.com_d3e96d1d.html",
+            "sha256": "00f6f07becc3cddfd52dae399033f55e90db06db86dbff2cbaa68ab0966fb8ac",
+            "fetched_at": "2026-11-28T13:24:20.808Z"
+          }
+        },
+        {
+          "title": "律动造物完成两轮数千万元融资：把材料 AI 从「筛配方」推到「自主实验＋量产放大」",
+          "meta": "36氪·2026-11-28 17:10",
+          "urls": [
+            "https://36kr.com/p/4089197345421957"
+          ],
+          "summary": "今年 6 月在上海注册，创始人谢童有近六年 AI 材料积累（2023 年主导科学语言模型 DARWIN、2025 年化学推理模型 Chemist），产品线为 ByteScience 软件、ByteFactory 自主实验室、Byte Infra 底层系统。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "资金/商业：AI4S 的钱正从模型层转向产线层。原文点破真问题：实验室几克到工厂几吨，温度、配比、成本、质量稳定性全要重算。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "材料 AI 的付费方是工厂不是科学家，「自主实验室＋量产放大」才是收口；文中明确大模型训练系统未必适合 AI for Science，需强约束的物理先验——这本身就是差异化来源。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "融资交易"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证：新浪财经 2026-11-27 05:58 同报种子轮",
+          "publish_time": "2026-11-28 17:10",
+          "verify_note": "外部检索（新浪财经 2026-11-27 05:58「律动造物完成数千万元种子轮融资」；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "律动造物",
+              "type": "企业"
+            },
+            {
+              "name": "谢童",
+              "type": "人物"
+            },
+            {
+              "name": "线性资本",
+              "type": "企业"
+            },
+            {
+              "name": "英诺基金",
+              "type": "企业"
+            },
+            {
+              "name": "新南威尔士大学",
+              "type": "机构"
+            }
+          ],
+          "provenance": {
+            "url": "https://36kr.com/p/4089197345421957",
+            "raw_ref": "reports/raw/2026-11-28-2100.json#candidates[29]",
+            "source_id": "kr36",
+            "source_name": "36氪"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-28-2100/03_36kr.com_a8db7d43.html",
+            "sha256": "753013dee14b5d6fc3cf25e2dd6d97bed6646ccbe6720586e95e7521977ba3e5",
+            "fetched_at": "2026-11-28T13:24:21.044Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "icon": "🔬",
+      "title": "技术突破 / 模型进展",
+      "items": [
+        {
+          "title": "黎曼猜想的 7.6 万行精简证明通过 MIT、滑铁卢等六内核独立验证：794 个模块零拒绝",
+          "meta": "新智元·2026-11-28 19:07",
+          "urls": [
+            "https://m.sohu.com/a/1107692252_473283"
+          ],
+          "summary": "从 1740 万行压到 7.6 万行后，六个独立内核全部接受、794 个模块零拒绝，端到端 206,292 项形式化声明、耗时约 2 小时 26 分，仅依赖 Lean 三条最底层公理。- 📌 跟踪回访 SIG-20261121-0900-1（已兑现）：11-21 立的「黎曼猜想独立验证窗口」本期闭合——MIT 与滑铁卢完成六内核交叉验证、794 模块零拒绝；但 Clay 是否受理千万悬赏、第三方对证明「意义」的同行评审仍未公开。信号顺延，见本期 🧭 第 2 条。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "资金/商业：证明本身不发钱，但它给「AI 产出可机器验收」盖了章；Anthropic 叙事从模型能力扩到科学产能。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "Lean 验证器是「自动验收人」。交付物能被机器校验的行业（合规文档、财务对账、硬件配置）都可照搬「生成＋多内核交叉复核」流水线——比模型能力更可复制。注意它验证的是「这段代码证明了所声称的定理」，不等于人类审读已完成。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证：Forbes 2026-11-24、the-innovation.org 2026-11-24 同报独立验证通过",
+          "publish_time": "2026-11-28 19:07",
+          "event_time": "2026-11-28 01:27",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（Forbes 2026-11-24 15:49 GMT「Claude Riemann Hypothesis Proof Passes Machine Verification」；the-innovation.org 2026-11-24 05:59 GMT 同题；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            },
+            {
+              "name": "Levent Alpöge",
+              "type": "人物"
+            },
+            {
+              "name": "MIT",
+              "type": "机构"
+            },
+            {
+              "name": "滑铁卢大学",
+              "type": "机构"
+            },
+            {
+              "name": "Lean",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1107692252_473283",
+            "raw_ref": "reports/raw/2026-11-28-2100.json#candidates[16]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-28-2100/04_m.sohu.com_f645ed85.html",
+            "sha256": "620322fb9db7348bab941ed607d2218be6ba2c7a6b8a4b0d26564595b0ea3369",
+            "fetched_at": "2026-11-28T13:24:21.332Z"
+          }
+        },
+        {
+          "title": "黎曼证明落地 72 小时内，Agent 又补完 17 项衍生命题：含 Lindelöf 猜想、Erdős 第 985 号问题等 6 道百年悬案",
+          "meta": "新智元·2026-11-28 19:07",
+          "urls": [
+            "https://m.sohu.com/a/1107692255_473283"
+          ],
+          "summary": "17 项覆盖 6 项命名猜想、5 项与黎曼等价的命题、6 项高难度衍生推论。团队先用 3 个月把论文、证明蓝图与 2196 个未解难题喂进系统，证明落地后一句话指令「哪些难题在等这一个证明」，AI 自行筛掉哥德巴赫与孪生素数，随后自主改提示词、分配角色、调工具，唯一裁判是 Lean。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "资金/商业：最值钱的不是「3 天 17 项」，而是把百年积压的衍生推论变成流水线产能。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "可复制的形态是「假设解锁引擎」——维护「哪些结论依赖哪个未证命题」的依赖图，一旦某命题被形式化验证，自动批量重跑下游。金融风控、药物靶点、硬件验证都有买家。"
+            },
+            {
+              "kind": "tech",
+              "icon": "⚡",
+              "label": "技术/可行性",
+              "text": "原文诚实标注边界：Erdős 985 与欧拉 idoneal 数强依赖「尚未验证」的 GRH Lean 证明。依赖未证前提的证明，本质是条件性结论的再包装。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "技术进展"
+          ],
+          "confidence": "低",
+          "confidence_note": "B单源，原文自述部分命题依赖未经验证的 GRH 形式化",
+          "publish_time": "2026-11-28 19:07",
+          "verify_note": "未见独立来源（外查 11-28：中英双语 Google News 均无独立报道该 17 项清单）",
+          "entities": [
+            {
+              "name": "Levent Alpöge",
+              "type": "人物"
+            },
+            {
+              "name": "Claude",
+              "type": "产品"
+            },
+            {
+              "name": "Lean",
+              "type": "产品"
+            },
+            {
+              "name": "Erdős 第 985 号问题",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1107692255_473283",
+            "raw_ref": "reports/raw/2026-11-28-2100.json#candidates[15]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-28-2100/05_m.sohu.com_2d4011ce.html",
+            "sha256": "1945e875c65ec4eb43a5e7a139c3f4d4d995a2c711e73e208c2c10020bba7bee",
+            "fetched_at": "2026-11-28T13:24:21.524Z"
+          }
+        }
+      ]
+    },
+    {
+      "key": "industry",
+      "icon": "🌐",
+      "title": "行业动向 / 应用玩法",
+      "items": [
+        {
+          "title": "黄仁勋罕见认错：早年没投 Anthropic 是失误，「我绝不会再犯第二次」",
+          "meta": "新智元·2026-11-28 15:05",
+          "urls": [
+            "https://m.sohu.com/a/1107636024_473283"
+          ],
+          "summary": "面对「为何 Anthropic 主力算力跑 TPU 与 Trainium」的提问，黄仁勋称「Anthropic 是个孤例，世上只有一个」，随后承认当年英伟达没条件像谷歌、AWS 那样一次砸几十亿美元投初创，「那是我的失误」。文中称英伟达 2025 年 11 月与 2026 年 11 月各投 100 亿美元补票。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "资金/商业：算力账本比表态更能说明问题——Anthropic 约 12.8 GW 合同中 Trainium 占 39%、TPU 35%、AMD 16%，英伟达只剩 10%；OpenAI 约 27.5 GW 里博通自研占 36%、英伟达 32%。御三家的第一大芯片来源都不是英伟达。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "最实用一条是「卖铲子也得先给矿工发启动资金」：上游愿用投资换算力绑定时，做模型的团队要把芯片来源当融资条款谈。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "商业合作"
+          ],
+          "confidence": "中",
+          "confidence_note": "B单源，采访视频未获第二来源确认",
+          "publish_time": "2026-11-28 15:05",
+          "verify_note": "未见独立来源（外查 11-28：Google News 仅 2026-04 至 08 月旧闻，未涉及本次 108 秒采访）",
+          "entities": [
+            {
+              "name": "NVIDIA",
+              "type": "企业"
+            },
+            {
+              "name": "黄仁勋",
+              "type": "人物"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            },
+            {
+              "name": "Google",
+              "type": "企业"
+            },
+            {
+              "name": "Amazon",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1107636024_473283",
+            "raw_ref": "reports/raw/2026-11-28-2100.json#candidates[52]",
+            "source_id": "sohu-xzy",
+            "source_name": "新智元(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-28-2100/06_m.sohu.com_472561f0.html",
+            "sha256": "953c102f59057a32f12524016d664bb0eb8e15bc47ca767d321bedfdfb50effc",
+            "fetched_at": "2026-11-28T13:24:22.161Z"
+          }
+        },
+        {
+          "title": "350 万人读过的免费深度学习教材被作者亲手撤下，抗议前沿 AI 竞赛",
+          "meta": "机器之心Pro·2026-11-28 20:12",
+          "urls": [
+            "https://m.sohu.com/a/1107698978_129720"
+          ],
+          "summary": "作者以「下架自己的书」作为抗议姿态，讨论出现分歧：有人认同立场，也有人指出最先被波及的是想入门 AI 的普通读者。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "资金/商业：入门教材、开放课程这类不赚钱但决定人才池的资产，正被从业者的道德立场当筹码，人才供给端话语权开始分散到个人手里。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "教育类 AI 的空档就在这里：一本 350 万人读过的免费书下架，留下的是「可信、中立、可长期维护的入门材料」需求，而不是又一个套壳问答。"
+            }
+          ],
+          "source_tier": "B",
+          "type_tags": [
+            "其他"
+          ],
+          "confidence": "高",
+          "confidence_note": "双源佐证：手机新浪网 2026-11-28 11:15 转载同题",
+          "publish_time": "2026-11-28 20:12",
+          "verify_note": "外部检索（手机新浪网 2026-11-28 11:15 GMT 转载同题；直链未寻得，Google News 聚合跳转无法解析原文）",
+          "entities": [
+            {
+              "name": "Michael Nielsen",
+              "type": "人物"
+            },
+            {
+              "name": "Anthropic",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://m.sohu.com/a/1107698978_129720",
+            "raw_ref": "reports/raw/2026-11-28-2100.json#candidates[8]",
+            "source_id": "sohu-jqzx",
+            "source_name": "机器之心Pro(搜狐同步)"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-28-2100/07_m.sohu.com_21b9091a.html",
+            "sha256": "66f8abfac64082cf74620c88de7370577c8452d104078dee135e666f65906ff8",
+            "fetched_at": "2026-11-28T13:24:22.332Z"
+          }
+        },
+        {
+          "title": "Hugging Face 自家 AI 建站器被用来批量生成钓鱼页：42 个仿冒页，29 个出自 DeepSite",
+          "meta": "Aikido 研究·2026-11-24 发布，Reddit 转发 2026-11-28 16:04",
+          "urls": [
+            "https://www.aikido.dev/blog/hugging-face-phishing-pages"
+          ],
+          "summary": "Aikido 在 10 月 16 日发现 42 个托管于 HF Spaces 的钓鱼与凭证窃取页，冒充 28 个品牌（含 Microsoft、Google、PayPal、Chase、Coinbase），其中 29 个由 HF 自家建站器 DeepSite 生成；当日全数上报，10 月 29 日前全部下线。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "资金/商业：平台的安全成本正从模型对齐外溢到「自家工具被滥用」，对 HF 企业业务是实打实的合规摩擦。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "「AI 建站即钓鱼」把门槛打到接近零。对应生意有两头：平台的生成物指纹与滥用检测、中小企业的托管页真伪核验。若你的 Agent 能发布网页，就等于开了一条外发通道。"
+            }
+          ],
+          "source_tier": null,
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "高",
+          "confidence_note": "一手研究报告，已抓原文核对",
+          "publish_time": "2026-11-24",
+          "event_time": "2026-10-16",
+          "event_time_inferred": false,
+          "verify_note": "一手研究原文（Aikido 官方博客 2026-11-24：https://www.aikido.dev/blog/hugging-face-phishing-pages）",
+          "entities": [
+            {
+              "name": "Hugging Face",
+              "type": "企业"
+            },
+            {
+              "name": "DeepSite",
+              "type": "产品"
+            },
+            {
+              "name": "Aikido",
+              "type": "企业"
+            },
+            {
+              "name": "Microsoft",
+              "type": "企业"
+            },
+            {
+              "name": "PayPal",
+              "type": "企业"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.aikido.dev/blog/hugging-face-phishing-pages",
+            "raw_ref": null,
+            "source_id": null,
+            "source_name": "Aikido 研究"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-28-2100/08_www.aikido.dev_3e358a8a.html",
+            "sha256": "92420b18901705d3b89363ff9b04e11ee7b3504865b5d6c71aa22f7b779dcaa4",
+            "fetched_at": "2026-11-28T13:24:23.443Z"
+          }
+        },
+        {
+          "title": "5 个 GGUF 模型在权重尾部藏恶意载荷，累计 2428 次下载；扫描覆盖 327 万个公开仓库",
+          "meta": "Reddit r/LocalLLaMA·2026-11-28 15:07",
+          "urls": [
+            "https://www.reddit.com/r/LocalLLaMA/comments/1y7fupb/gguf_llm_models_with_hidden_malware_on_hugging"
+          ],
+          "summary": "攻击分两段：一是 `tokenizer.chat_template` 投毒——模板可在聊天界面不显示的情况下注入指令、诱导危险输出；二是「最后一张量之后藏字节」——GGUF 头部声明权重结束位置，加载器读到那里就停，后面的字节无人检查。",
+          "angles": [
+            {
+              "kind": "invest",
+              "icon": "💰",
+              "label": "投资/商业",
+              "text": "资金/商业：本地推理栈（llama.cpp、Ollama、Agent 运行时）的信任模型第一次被摆上台面；此前安全预算几乎全花在 API 侧。"
+            },
+            {
+              "kind": "startup",
+              "icon": "🛠️",
+              "label": "产品/创业",
+              "text": "直接机会是「模型文件静态审计」——扫 chat_template 可疑指令、校验张量末端后的残留字节，可做成 CI 插件。最实用的口径：别 `curl | bash` 模型输出的任何一行。"
+            }
+          ],
+          "source_tier": "D",
+          "type_tags": [
+            "安全"
+          ],
+          "confidence": "高",
+          "confidence_note": "外部检索命中独立报道＋原始披露可查",
+          "publish_time": "2026-11-27",
+          "event_time": "2026-11-27",
+          "event_time_inferred": true,
+          "verify_note": "外部检索（explainx.ai 2026-11-28 报道：研究者 Root0ne 于 2026-11-27 经 Malspark 与开源工具 gguf-radar 发布，HF 计数 2428 次下载；https://explainx.ai/blog/gguf-malware-hugging-face-chat-template-gguf-radar-november-2026）",
+          "entities": [
+            {
+              "name": "Hugging Face",
+              "type": "企业"
+            },
+            {
+              "name": "llama.cpp",
+              "type": "产品"
+            },
+            {
+              "name": "Ollama",
+              "type": "产品"
+            }
+          ],
+          "provenance": {
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y7fupb/gguf_llm_models_with_hidden_malware_on_hugging",
+            "raw_ref": "reports/raw/2026-11-28-2100.json#candidates[51]",
+            "source_id": "reddit",
+            "source_name": "Reddit"
+          },
+          "snapshot": {
+            "file": "archives/2026-11-28-2100/09_www.reddit.com_0fb8e968.html",
+            "sha256": "69984074999ec89ecf15001e543d5c28b31df7928cf4b6340c383edcd6b7d41d",
+            "fetched_at": "2026-11-28T13:25:01.299Z"
+          }
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "lead": "「模型文件静态审计」会不会成为本地推理准入标准",
+      "text": "（SIG-20261128-2100-1，check 2026-12-05）：盯 HF 是否上线官方 GGUF 元数据校验、Ollama/llama.cpp 是否默认检查末张量后残留字节；这是本地 Agent 进企业内网的前置条件。",
+      "sigId": "SIG-20261128-2100-1"
+    },
+    {
+      "lead": "SIG-20261121-0900-1（延续）黎曼证明的受理与同行评审",
+      "text": "六内核验证已闭合，但 Clay 是否受理悬赏、数学界对「证明意义」的审读仍缺位，且 17 项衍生命中部分依赖未验证的 GRH——盯是否出现公开的反例或缺口指出（check 2026-12-05）。",
+      "sigId": null
+    },
+    {
+      "lead": "决策模型作为独立品类会不会被平台收编",
+      "text": "（SIG-20261128-2100-2，check 2026-12-08）：盯决策模型是否被打包进主 API 默认路径（那时独立厂商定价权就没了），以及是否出现跨厂商决策评测基准之争。",
+      "sigId": "SIG-20261128-2100-2"
+    },
+    {
+      "lead": "SIG-20261118-0900-3（延续）「数据留存」与「训练开关」拆分是否成合规基线",
+      "text": "本期未见欧盟 DPC 对 Gemini 留存期的正式问询，也未见 OpenAI/Meta 跟进独立化——check 顺延至 2026-12-02。",
+      "sigId": null
+    }
+  ],
+  "sourceStatus": [
+    "- 本期无持续 DOWN 源：HN（hnrss）单次 curl 超时 25 秒、OpenAI 官网单次 403，均未累计，不影响候选覆盖。",
+    "- 36氪三条快讯（何小鹏机器人盈利、《AIGC 内容生产行业自律公约》发布、马斯克称谷歌有意租用 SpaceX 算力）原文已不可访问（页面返回「数据不存在或已被删除」），本期不收录，改用可核原文的条目。"
+  ],
+  "provenance_meta": {
+    "raw_file": "reports/raw/2026-11-28-2100.json",
+    "evidence_file": "reports/raw/2026-11-28-2100.evidence.json",
+    "snapshot_dir": "archives/2026-11-28-2100/",
+    "raw_candidates": 66,
+    "matched": 8
+  }
+}
