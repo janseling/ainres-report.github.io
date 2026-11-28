@@ -1,6 +1,32 @@
 {
-  "count": 177,
+  "count": 178,
   "reports": [
+    {
+      "id": "2026-11-28-0900",
+      "date": "2026-11-28",
+      "time": "09:00",
+      "title": "AI 情报 · 11-28 09:00 场",
+      "itemCount": 8,
+      "coverage": "2026-11-27 21:00 → 2026-11-28 09:05（Asia/Shanghai）",
+      "note": "本日 09:00 前场次已报条目（LIAN 伦敦 IPO、商汤 Token 工厂、Rosetta、纳德拉应届生、王兴兴 2000 万台、Claude Code 班底流失、DeepSeek token 账单等）不再重收",
+      "overview": [
+        "众擎开放人形机器人「大小脑」与 CoRun 接续开发机制，联合产业基金给出 10 亿元生态支持。",
+        "网信办发文：AI 生成合成内容标识制度「从倡导变为强制」，配套强制性国家标准已出台。",
+        "Agent Skills 生态爆发：Cursor 官方插件规范、Google Stitch 官方 Skills 库、superpowers 框架 star 破 32 万。",
+        "Claude-BugHunter（85 个红队技能）与 last30days-skill（跨六平台研究）两类「技能包」形态登上 Trending。",
+        "autoclip 把 OpusClip 模式开源化：本地优先、零订阅、带 MCP server。"
+      ],
+      "sectionCounts": {
+        "product": 1,
+        "policy": 1,
+        "tech": 5,
+        "industry": 1
+      },
+      "rawStats": {
+        "candidates": 33,
+        "selected": 8
+      }
+    },
     {
       "id": "2026-11-27-2100",
       "date": "2026-11-27",
